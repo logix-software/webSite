@@ -9,7 +9,9 @@ module.exports = {
       options: {
         path: 'articles/**/*.md',
         typeName: 'Articles',
-        remark: {}
+        remark: {
+          // remark options
+        }
       }
     },
   ],
