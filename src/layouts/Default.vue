@@ -63,8 +63,8 @@ h6 {
 }
 .btn-primary {
   border-radius: 0;
-  background-color: #3838c4;
-  color: #fff;
+  background-color: #3838c4!important;
+  color: #fff!important;
   font-weight: 700;
   font-size: 17px;
   outline: none !important;
@@ -72,7 +72,7 @@ h6 {
   border: 1px solid transparent;
   &:hover {
     border: 1px solid transparent;
-    background-color: #ffffff;
+    background-color: #ffffff!important;
     box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.18) !important;
     color: #3838c4;
   }
@@ -80,13 +80,13 @@ h6 {
   &:active {
     box-shadow: none !important;
     color: #3838c4 !important;
-    border: 1px solid #3838c4;
+    border: 1px solid #3838c4!important;
     background-color: #ffffff !important;
   }
 }
 .btn-secondary {
   border-radius: 0;
-  background-color: #e0e7fc;
+  background-color: #e0e7fc!important;
   color: #3838c4;
   font-weight: 700;
   font-size: 17px;
@@ -95,9 +95,9 @@ h6 {
   border: 1px solid transparent;
   &:hover {
     border: 1px solid transparent;
-    background-color: #e0e7fc;
+    background-color: #e0e7fc!important;
     box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.18) !important;
-    color: #3838c4;
+    color: #3838c4!important;
   }
   &:focus,
   &:active {
@@ -109,7 +109,7 @@ h6 {
 }
 .btn-default {
   border-radius: 0;
-  background-color: #eceafd;
+  background-color: #eceafd!important;
   color: #3838c4!important;
   font-weight: 700;
   font-size: 17px;
@@ -118,7 +118,7 @@ h6 {
   border: 1px solid transparent;
   &:hover {
     border: 1px solid transparent;
-    background-color: #eceafd;
+    background-color: #eceafd!important;
     box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.18) !important;
     color: #3838c4!important;
   }
