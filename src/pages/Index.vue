@@ -1,7 +1,13 @@
 <template>
   <Layout>
+    <div class="hero hero--home">
+
+    </div>
     <div class="container">
       <h1>List articles</h1>
+      <a href="http://" class="btn btn-primary">Ciao</a>
+      <a href="http://" class="btn btn-secondary">Ciao</a>
+      <a href="http://" class="btn btn-default">Ciao</a>
       <div v-for="article in $page.articles.edges" :key="article.id" class="article d-flex">
         <div>
           <div
@@ -153,7 +159,14 @@ export default {
   }
 };
 </script>
-<style>
+<style lang="scss">
+.hero{
+width: 100%;
+height: 800px;
+background-image: url('~@/assets/images/hero-home.jpg');
+background-size: cover;
+background-position: center;
+}
 .article {
   display: flex;
   align-items: center;
