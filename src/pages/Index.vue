@@ -202,7 +202,8 @@ export default {
   overflow: hidden;
   -webkit-perspective: 1000;
           perspective: 1000;
-          background: #F64747;
+          /* background: #F64747; */
+          padding-left: 30%;
 }
 
 .section {
