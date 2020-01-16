@@ -62,7 +62,7 @@ h6 {
   padding: 0.375rem 1.4rem;
 }
 .btn-primary {
-  border-radius: 0;
+  border-radius: 0!important;
   background-color: #3838c4!important;
   color: #fff!important;
   font-weight: 700;
@@ -85,7 +85,7 @@ h6 {
   }
 }
 .btn-secondary {
-  border-radius: 0;
+  border-radius: 0!important;
   background-color: #e0e7fc!important;
   color: #3838c4;
   font-weight: 700;
@@ -108,7 +108,7 @@ h6 {
   }
 }
 .btn-default {
-  border-radius: 0;
+  border-radius: 0!important;
   background-color: #eceafd!important;
   color: #3838c4!important;
   font-weight: 700;
