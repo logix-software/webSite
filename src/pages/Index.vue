@@ -1,7 +1,9 @@
 <template>
   <Layout>
     <div class="hero hero--home">
+      <div class="container">
 
+      </div>
     </div>
     <div class="container">
       <h1>List articles</h1>

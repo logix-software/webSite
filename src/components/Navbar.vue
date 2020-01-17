@@ -1,6 +1,6 @@
 <template>
   <header class="header py-3">
-    <div class="container d-lg-flex align-items-center justify-content-between">
+    <div class="container-fluid d-lg-flex align-items-center justify-content-between">
       <g-link to="/" class>
         <g-image src="~/assets/images/logo/logix-software.svg" class="header__logo aos-animate" />
       </g-link>
@@ -122,6 +122,7 @@ export default {
     z-index: 9;
     &__link {
       position: relative;
+      font-size: 18px;
     //   &:after {
     //     content: "";
     //     height: 1px;
