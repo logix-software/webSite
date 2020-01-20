@@ -1,16 +1,64 @@
 <template>
   <Layout>
-    <div class="hero hero--home">
+    <div class="hero hero--home d-flex align-items-center">
       <div class="container">
-
+        <div class="row">
+          <div class="col-lg-6 position-relative ml-auto">
+            <g-image src="~/assets/images/deco.svg" class="hero__deco" />
+            <g-image src="~/assets/images/deco-designer.svg" class="hero__decoDesigner" />
+            <g-image src="~/assets/images/deco-developer.svg" class="hero__decoDeveloper" />
+            <h1 class="hero__title">Sviluppiamo nuove logiche digitali</h1>
+          </div>
+          <div class="col-lg-5"></div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-5 ml-auto">
+            <p
+              class="hero__description"
+            >Collaboriamo da più di 10 anni con le aziende per costruire soluzioni digitali personalizzate e adatte agli utenti che le utilizzano.</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero__partnership">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 ml-auto">
+              <h6 class="pl-2 pl-lg-4">Partnership</h6>
+              <div class="d-flex align-items-center">
+                <g-image src="~/assets/images/logo-aosp.png" class="hero__partnershipLogo" />
+                <g-image src="~/assets/images/logo-ast.png" class="hero__partnershipLogo" />
+                <g-image src="~/assets/images/logo-cogne.png" class="hero__partnershipLogo" />
+                <g-image
+                  src="~/assets/images/logo-umbriadigitale.png"
+                  class="hero__partnershipLogo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <div class="container position-relative">
+      <div class="bgLeft"></div>
+      <div class="row">
+        <div class="col-lg-9 ml-auto">
+          <div class="video position-relative">
+            <g-image src="~/assets/images/deco2.svg" class="video__deco" />
+            <video autoplay muted loop id="myVideo">
+              <source src="@/assets/images/video.mp4" type="video/mp4" />Your browser does not support HTML5 video.
+            </video>
+          </div>
+          <!-- ~/assets/images/logo-aosp.png -->
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <h1>List articles</h1>
       <a href="http://" class="btn btn-primary">Ciao</a>
       <a href="http://" class="btn btn-secondary">Ciao</a>
       <a href="http://" class="btn btn-default">Ciao</a>
-      <div v-for="article in $page.articles.edges" :key="article.id" class="article d-flex">
+      <div v-for="article in $page.articles.edges" :key="article.id" class="article d-lg-flex">
         <div>
           <div
             class="article__img"
@@ -23,11 +71,10 @@
           <p class="article__abstract">{{article.node.abstract}}</p>
         </div>
       </div>
-     
     </div>
-     <div class="container">
+    <div class="container">
       <h1>List articles</h1>
-      <div v-for="article in $page.articles.edges" :key="article.id" class="article d-flex">
+      <div v-for="article in $page.articles.edges" :key="article.id" class="article d-lg-flex">
         <div>
           <div
             class="article__img"
@@ -40,66 +87,63 @@
           <p class="article__abstract">{{article.node.abstract}}</p>
         </div>
       </div>
-     
     </div>
-     <div class="wrapper" id="js-wrapper">
-        <div class="sections" id="js-slideContainer">
-          <section class="section">
-            <span class="section__title" id="title1">Section One</span>
-            <span id="trigger--title1"></span>
-          </section>
-          <section class="section">
-            <span class="section__title" id="title2">Section Two</span>
-            <span id="trigger--title2"></span>
-          </section>
-          <section class="section">
-            <span class="section__title" id="title3">Section Three</span>
-            <span id="trigger--title3"></span>
-          </section>
-          <section class="section">
-            <span class="section__title" id="title4">Section Four</span>
-            <span id="trigger--title4"></span>
-          </section>
-          <section class="section">
-            <span class="section__title" id="title5">Section Five</span>
-            <span id="trigger--title5"></span>
-          </section>
-        </div>
+    <div class="wrapper" id="js-wrapper">
+      <div class="sections" id="js-slideContainer">
+        <section class="section">
+          <span class="section__title" id="title1">Section One</span>
+          <span id="trigger--title1"></span>
+        </section>
+        <section class="section">
+          <span class="section__title" id="title2">Section Two</span>
+          <span id="trigger--title2"></span>
+        </section>
+        <section class="section">
+          <span class="section__title" id="title3">Section Three</span>
+          <span id="trigger--title3"></span>
+        </section>
+        <section class="section">
+          <span class="section__title" id="title4">Section Four</span>
+          <span id="trigger--title4"></span>
+        </section>
+        <section class="section">
+          <span class="section__title" id="title5">Section Five</span>
+          <span id="trigger--title5"></span>
+        </section>
       </div>
-   <div class="container">
-      <h1>List articles</h1>
-      <div v-for="article in $page.articles.edges" :key="article.id" class="article d-flex">
-        <div>
-          <div
-            class="article__img"
-            :style="{ 'background-image': 'url(' + article.node.image + ')' }"
-          ></div>
-        </div>
-        <div class="article__body">
-          <g-link :to="article.node.path" class="article__link"></g-link>
-          <h1 class="article__title">{{article.node.title}}</h1>
-          <p class="article__abstract">{{article.node.abstract}}</p>
-        </div>
-      </div>
-     
-    </div> <div class="container">
-      <h1>List articles</h1>
-      <div v-for="article in $page.articles.edges" :key="article.id" class="article d-flex">
-        <div>
-          <div
-            class="article__img"
-            :style="{ 'background-image': 'url(' + article.node.image + ')' }"
-          ></div>
-        </div>
-        <div class="article__body">
-          <g-link :to="article.node.path" class="article__link"></g-link>
-          <h1 class="article__title">{{article.node.title}}</h1>
-          <p class="article__abstract">{{article.node.abstract}}</p>
-        </div>
-      </div>
-     
     </div>
-  
+    <div class="container">
+      <h1>List articles</h1>
+      <div v-for="article in $page.articles.edges" :key="article.id" class="article d-lg-flex">
+        <div>
+          <div
+            class="article__img"
+            :style="{ 'background-image': 'url(' + article.node.image + ')' }"
+          ></div>
+        </div>
+        <div class="article__body">
+          <g-link :to="article.node.path" class="article__link"></g-link>
+          <h1 class="article__title">{{article.node.title}}</h1>
+          <p class="article__abstract">{{article.node.abstract}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1>List articles</h1>
+      <div v-for="article in $page.articles.edges" :key="article.id" class="article d-lg-flex">
+        <div>
+          <div
+            class="article__img"
+            :style="{ 'background-image': 'url(' + article.node.image + ')' }"
+          ></div>
+        </div>
+        <div class="article__body">
+          <g-link :to="article.node.path" class="article__link"></g-link>
+          <h1 class="article__title">{{article.node.title}}</h1>
+          <p class="article__abstract">{{article.node.abstract}}</p>
+        </div>
+      </div>
+    </div>
   </Layout>
 </template>
 <page-query>
@@ -119,55 +163,141 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: 'About us',
+    title: "About us"
     // meta: [
     //   { name: 'author', content: 'John Doe' }
     // ],
     // link: [
     //   { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js' },
     // ],
-   
   },
   // metaInfo: {
   //   title: "My blog"
   // },
-  mounted(){
-    $(function () { // wait for document ready
-  
-  var controller = new ScrollMagic.Controller();
+  mounted() {
+    $(function() {
+      // wait for document ready
 
-  var horizontalSlide = new TimelineMax()
-  // animate panels
-  .to("#js-slideContainer", 1,   {x: "-20%"})	
-  .to("#js-slideContainer", 1,   {x: "-40%"})
-  .to("#js-slideContainer", 1,   {x: "-60%"})
-  .to("#js-slideContainer", 1,   {x: "-80%"})
+      var controller = new ScrollMagic.Controller();
 
+      var horizontalSlide = new TimelineMax()
+        // animate panels
+        .to("#js-slideContainer", 1, { x: "-20%" })
+        .to("#js-slideContainer", 1, { x: "-40%" })
+        .to("#js-slideContainer", 1, { x: "-60%" })
+        .to("#js-slideContainer", 1, { x: "-80%" });
 
-  // create scene to pin and link animation
-  new ScrollMagic.Scene({
-    triggerElement: "#js-wrapper",
-    triggerHook: "onLeave",
-    duration: "400%"
-  })
-    .setPin("#js-wrapper")
-    .setTween(horizontalSlide)
-    //.addIndicators() // add indicators (requires plugin)
-    .addTo(controller);
-  
-  
-  
-});
+      // create scene to pin and link animation
+      new ScrollMagic.Scene({
+        triggerElement: "#js-wrapper",
+        triggerHook: "onLeave",
+        duration: "400%"
+      })
+        .setPin("#js-wrapper")
+        .setTween(horizontalSlide)
+        //.addIndicators() // add indicators (requires plugin)
+        .addTo(controller);
+    });
   }
 };
 </script>
 <style lang="scss">
-.hero{
-width: 100%;
-height: 800px;
-background-image: url('~@/assets/images/hero-home.jpg');
-background-size: cover;
-background-position: center;
+.bgLeft {
+  position: absolute;
+  left: -100px;
+  top: 0;
+  background-color: #f3f5fb;
+  width:630px;
+  height: 780px;
+  @media screen and (max-width: 992px) {
+   width:60%;
+   height: 260px;
+  }
+}
+.video {
+  
+  height: 464px;
+  margin-top: -20px;
+  margin-right: -169px;
+  @media screen and (max-width: 992px) {
+   width:100%;
+   height: 210px;
+  }
+  &__deco {
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    z-index: 1;
+  }
+}
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  // min-width: 100%;
+  // min-height: 100%;
+}
+
+.hero {
+  width: 100%;
+  height: 800px;
+  background-image: url("~@/assets/images/hero-home.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  position: relative;
+  @media screen and (max-width: 992px) {
+    height: 700px;
+  }
+  &__deco {
+    position: absolute;
+    top: -2px;
+    left: -80px;
+  }
+  &__decoDesigner {
+    position: absolute;
+    top: 0;
+    right: -100px;
+    @media screen and (max-width: 992px) {
+      top: -110px;
+      right: 10px;
+    }
+  }
+  &__decoDeveloper {
+    position: absolute;
+    bottom: -50px;
+    right: 80px;
+    @media screen and (max-width: 992px) {
+      bottom: -70px;
+      right: 50px;
+    }
+  }
+  &__title {
+    position: relative;
+    z-index: 1;
+    @media screen and (max-width: 992px) {
+      font-size: 40px;
+    }
+  }
+  &__description {
+    font-size: 22px;
+  }
+  &__partnership {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+  }
+  &__partnershipLogo {
+    width: 210px;
+    @media screen and (max-width: 992px) {
+      width: 80px;
+    }
+  }
 }
 .article {
   display: flex;
@@ -216,32 +346,31 @@ background-position: center;
   height: 100vh;
   overflow: hidden;
   -webkit-perspective: 1000;
-          perspective: 1000;
-          /* background: #F64747; */
-          padding-left: 30%;
+  perspective: 1000;
+  /* background: #F64747; */
+  padding-left: 30%;
 }
 
 .section {
   height: 100%;
-  width: calc( 100% / 5 );
+  width: calc(100% / 5);
   float: left;
   position: relative;
-  
 }
 .section:nth-child(1) {
-  background: #F64747;
+  background: #f64747;
 }
 .section:nth-child(2) {
-  background: #22A7F0;
+  background: #22a7f0;
 }
 .section:nth-child(3) {
-  background: #F9690E;
+  background: #f9690e;
 }
 .section:nth-child(4) {
-  background: #9B59B6;
+  background: #9b59b6;
 }
 .section:nth-child(5) {
-  background: #03C9A9;
+  background: #03c9a9;
 }
 .sections {
   width: 500%;
@@ -252,9 +381,8 @@ background-position: center;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-size: 30px;
   color: #fff;
 }
-
 </style>

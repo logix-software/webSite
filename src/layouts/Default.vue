@@ -26,7 +26,8 @@ export default {
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Lexend+Deca&display=swap");
 body {
   font-family: "Lato", sans-serif;
-  background: #333;
+  // background: #333;
+  overflow-x: hidden;
 }
 p {
   font-size: 21px;
