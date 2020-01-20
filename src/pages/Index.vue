@@ -280,7 +280,7 @@ export default {
     position: relative;
     z-index: 1;
     @media screen and (max-width: 992px) {
-      font-size: 40px;
+      font-size: 40px!important;
     }
   }
   &__description {

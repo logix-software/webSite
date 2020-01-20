@@ -30,25 +30,25 @@ body {
   overflow-x: hidden;
 }
 p {
-  font-size: 21px;
+  font-size: 21px!important;
 }
 h1 {
-  font-size: 80px;
+  font-size: 80px!important;
 }
 h2 {
-  font-size: 56px;
+  font-size: 56px!important;
 }
 h3 {
-  font-size: 40px;
+  font-size: 40px!important;
 }
 h4 {
-  font-size: 35px;
+  font-size: 35px!important;
 }
 h5 {
-  font-size: 22px;
+  font-size: 22px!important;
 }
 h6 {
-  font-size: 20px;
+  font-size: 20px!important;
 }
 
 h1,
