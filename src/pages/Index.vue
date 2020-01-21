@@ -53,7 +53,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
       <h1>List articles</h1>
       <a href="http://" class="btn btn-primary">Ciao</a>
       <a href="http://" class="btn btn-secondary">Ciao</a>
@@ -87,29 +87,130 @@
           <p class="article__abstract">{{article.node.abstract}}</p>
         </div>
       </div>
+    </div>-->
+    <div class="container mt-5 pt-5">
+      <div class="row">
+        <div class="col-lg-6 mx-auto mt-5">
+          <h6>SERVIZI</h6>
+          <h2>Offriamo le nostre competenze per i tuoi risultati</h2>
+          <p>Logix si propone come punto di riferimento dallo sviluppo all’assistenza nel tempo. Affianchiamo le aziende in ogni fase del ciclo di sviluppo del software: dalla ricerca, al design e sviluppo, alla creazione di MVP, al ridimensionamento, al restauro dei prodotti digitali.</p>
+        </div>
+      </div>
     </div>
     <div class="wrapper" id="js-wrapper">
       <div class="sections" id="js-slideContainer">
         <section class="section">
-          <span class="section__title" id="title1">Section One</span>
+          <div class="section__img"></div>
+          <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+          <div class="section__body">
+            <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+            <p></p>
+            <div class="d-flex align-items-center">
+              <p class="section__label mr-3">Development</p>
+              <p class="section__label">Design</p>
+            </div>
+            <h1 class="section__title">
+              Digital
+              <br />transformation
+            </h1>
+            <div class="section__line"></div>
+            <p
+              class="section__descirption"
+            >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+          </div>
           <span id="trigger--title1"></span>
         </section>
         <section class="section">
-          <span class="section__title" id="title2">Section Two</span>
+           <div class="section__img"></div>
+          <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+          <div class="section__body">
+            <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+            <p></p>
+            <div class="d-flex align-items-center">
+              <p class="section__label mr-3">Development</p>
+              <p class="section__label section__label--2">Design</p>
+            </div>
+            <h1 class="section__title">
+              Digital
+              <br />transformation
+            </h1>
+            <div class="section__line"></div>
+            <p
+              class="section__descirption"
+            >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+          </div>
           <span id="trigger--title2"></span>
         </section>
         <section class="section">
-          <span class="section__title" id="title3">Section Three</span>
+           <div class="section__img"></div>
+          <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+          <div class="section__body">
+            <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+            <p></p>
+            <div class="d-flex align-items-center">
+              <p class="section__label mr-3">Development</p>
+              <p class="section__label section__label--2">Design</p>
+            </div>
+            <h1 class="section__title">
+              Digital
+              <br />transformation
+            </h1>
+            <div class="section__line"></div>
+            <p
+              class="section__descirption"
+            >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+          </div>
           <span id="trigger--title3"></span>
         </section>
         <section class="section">
-          <span class="section__title" id="title4">Section Four</span>
+           <div class="section__img"></div>
+          <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+          <div class="section__body">
+            <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+            <p></p>
+            <div class="d-flex align-items-center">
+              <p class="section__label mr-3">Development</p>
+              <p class="section__label section__label--2">Design</p>
+            </div>
+            <h1 class="section__title">
+              Digital
+              <br />transformation
+            </h1>
+            <div class="section__line"></div>
+            <p
+              class="section__descirption"
+            >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+          </div>
           <span id="trigger--title4"></span>
         </section>
         <section class="section">
-          <span class="section__title" id="title5">Section Five</span>
+           <div class="section__img"></div>
+          <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+          <div class="section__body">
+            <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+            <p></p>
+            <div class="d-flex align-items-center">
+              <p class="section__label mr-3">Development</p>
+              <p class="section__label section__label--2">Design</p>
+            </div>
+            <h1 class="section__title">
+              Digital
+              <br />transformation
+            </h1>
+            <div class="section__line"></div>
+            <p
+              class="section__descirption"
+            >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+          </div>
           <span id="trigger--title5"></span>
         </section>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <a href="#" class="btn btn-primary">Scopri le competenze</a>
+        </div>
       </div>
     </div>
     <div class="container">
@@ -185,7 +286,7 @@ export default {
         .to("#js-slideContainer", 1, { x: "-20%" })
         .to("#js-slideContainer", 1, { x: "-40%" })
         .to("#js-slideContainer", 1, { x: "-60%" })
-        .to("#js-slideContainer", 1, { x: "-80%" });
+        .to("#js-slideContainer", 1, { x: "-65%" });
 
       // create scene to pin and link animation
       new ScrollMagic.Scene({
@@ -207,21 +308,20 @@ export default {
   left: -100px;
   top: 0;
   background-color: #f3f5fb;
-  width:630px;
+  width: 630px;
   height: 780px;
   @media screen and (max-width: 992px) {
-   width:60%;
-   height: 260px;
+    width: 60%;
+    height: 260px;
   }
 }
 .video {
-  
   height: 464px;
   margin-top: -20px;
   margin-right: -169px;
   @media screen and (max-width: 992px) {
-   width:100%;
-   height: 210px;
+    width: 100%;
+    height: 210px;
   }
   &__deco {
     position: absolute;
@@ -280,7 +380,7 @@ export default {
     position: relative;
     z-index: 1;
     @media screen and (max-width: 992px) {
-      font-size: 40px!important;
+      font-size: 40px !important;
     }
   }
   &__description {
@@ -348,7 +448,15 @@ export default {
   -webkit-perspective: 1000;
   perspective: 1000;
   /* background: #F64747; */
-  padding-left: 30%;
+  padding-left: 10%;
+    padding-top: 100px;
+     padding-bottom: 100px;
+     @media screen and (max-width: 992px) {
+       padding-left: 5%;
+        padding-top: 200px;
+     padding-bottom: 200px;
+     }
+    
 }
 
 .section {
@@ -356,33 +464,116 @@ export default {
   width: calc(100% / 5);
   float: left;
   position: relative;
+
+  &__img {
+    width: 300px;
+    height: 300px;
+    // @media screen and (max-width: 992px) {
+    //    width: 300px;
+    // }
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url("~@/assets/images/bg-pic.png");
+  }
+  &__body {
+    width: 662px;
+    height: 400px;
+    background-color: #eceff8;
+    position: absolute;
+    top: 18%;
+    left: 200px;
+    padding: 90px 50px;
+    border-radius: 8px;
+    @media screen and (max-width: 992px) {
+       width: 90%;
+       left: 20px;
+       padding: 30px 20px;
+       height: auto;
+    }
+    // overflow-x: hidden;
+  }
+  &__deco {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+  }
+  &__icon {
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    @media screen and (max-width: 992px) {
+      top: -80px;
+    }
+    
+  }
+  &__label {
+    	background-color: #B5F7E3;
+    font-size: 10px!important;
+    height: 18px;
+    letter-spacing: 1px;
+    padding: 2px 8px;
+    &--2{
+      background-color: #d0d0ff!important;
+    }
+  }
+  &__title {
+    font-size: 40px !important;
+    letter-spacing: -1.47px;
+    line-height: 42px;
+  }
+  &__description {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  &__line {
+    height: 1px;
+    width: 30px;
+    border: 3px solid #000000;
+  }
+  &__textBg {
+    color: #ffffff;
+    font-size: 160px;
+    position: absolute;
+    top: 30%;
+    right: -50%;
+  }
 }
 .section:nth-child(1) {
-  background: #f64747;
+  // background: #f64747;
 }
 .section:nth-child(2) {
-  background: #22a7f0;
+  // background: #22a7f0;
+ @media screen and (min-width: 992px) {
+ margin-left: -4%;
+   }
+   
 }
 .section:nth-child(3) {
-  background: #f9690e;
+  // background: #f9690e;
+  @media screen and (min-width: 992px) {
 }
 .section:nth-child(4) {
-  background: #9b59b6;
+  // background: #9b59b6;
+   margin-left: -4%;
 }
 .section:nth-child(5) {
-  background: #03c9a9;
+  // background: #03c9a9;
+     }
 }
 .sections {
   width: 500%;
   height: 100%;
 }
-.section__title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-size: 30px;
-  color: #fff;
-}
+// .section__title {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   -webkit-transform: translate(-50%, -50%);
+//   transform: translate(-50%, -50%);
+//   font-size: 30px;
+//   color: #fff;
+// }
 </style>
