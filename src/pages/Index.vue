@@ -121,7 +121,7 @@
           <span id="trigger--title1"></span>
         </section>
         <section class="section">
-           <div class="section__img"></div>
+          <div class="section__img"></div>
           <g-image src="~/assets/images/deco2.svg" class="section__deco" />
           <div class="section__body">
             <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
@@ -142,7 +142,7 @@
           <span id="trigger--title2"></span>
         </section>
         <section class="section">
-           <div class="section__img"></div>
+          <div class="section__img"></div>
           <g-image src="~/assets/images/deco2.svg" class="section__deco" />
           <div class="section__body">
             <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
@@ -163,7 +163,7 @@
           <span id="trigger--title3"></span>
         </section>
         <section class="section">
-           <div class="section__img"></div>
+          <div class="section__img"></div>
           <g-image src="~/assets/images/deco2.svg" class="section__deco" />
           <div class="section__body">
             <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
@@ -184,7 +184,7 @@
           <span id="trigger--title4"></span>
         </section>
         <section class="section">
-           <div class="section__img"></div>
+          <div class="section__img"></div>
           <g-image src="~/assets/images/deco2.svg" class="section__deco" />
           <div class="section__body">
             <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
@@ -286,7 +286,7 @@ export default {
         .to("#js-slideContainer", 1, { x: "-20%" })
         .to("#js-slideContainer", 1, { x: "-40%" })
         .to("#js-slideContainer", 1, { x: "-60%" })
-        .to("#js-slideContainer", 1, { x: "-65%" });
+        .to("#js-slideContainer", 1, { x: "-74%" });
 
       // create scene to pin and link animation
       new ScrollMagic.Scene({
@@ -448,15 +448,14 @@ export default {
   -webkit-perspective: 1000;
   perspective: 1000;
   /* background: #F64747; */
-  padding-left: 10%;
-    padding-top: 100px;
-     padding-bottom: 100px;
-     @media screen and (max-width: 992px) {
-       padding-left: 5%;
-        padding-top: 200px;
-     padding-bottom: 200px;
-     }
-    
+  padding-left: 5%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  @media screen and (max-width: 992px) {
+    padding-left: 5%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 
 .section {
@@ -488,10 +487,10 @@ export default {
     padding: 90px 50px;
     border-radius: 8px;
     @media screen and (max-width: 992px) {
-       width: 90%;
-       left: 20px;
-       padding: 30px 20px;
-       height: auto;
+      width: 90%;
+      left: 20px;
+      padding: 30px 20px;
+      height: auto;
     }
     // overflow-x: hidden;
   }
@@ -507,16 +506,15 @@ export default {
     @media screen and (max-width: 992px) {
       top: -80px;
     }
-    
   }
   &__label {
-    	background-color: #B5F7E3;
-    font-size: 10px!important;
+    background-color: #b5f7e3;
+    font-size: 10px !important;
     height: 18px;
     letter-spacing: 1px;
     padding: 2px 8px;
-    &--2{
-      background-color: #d0d0ff!important;
+    &--2 {
+      background-color: #d0d0ff !important;
     }
   }
   &__title {
@@ -543,25 +541,25 @@ export default {
 }
 .section:nth-child(1) {
   // background: #f64747;
+  //  margin-left: 4%;
 }
 .section:nth-child(2) {
   // background: #22a7f0;
- @media screen and (min-width: 992px) {
- margin-left: -4%;
-   }
-   
+  @media screen and (min-width: 992px) {
+    margin-left: -4%;
+  }
 }
 .section:nth-child(3) {
   // background: #f9690e;
   @media screen and (min-width: 992px) {
-}
-.section:nth-child(4) {
-  // background: #9b59b6;
-   margin-left: -4%;
-}
-.section:nth-child(5) {
-  // background: #03c9a9;
-     }
+  }
+  .section:nth-child(4) {
+    // background: #9b59b6;
+    margin-left: -4%;
+  }
+  .section:nth-child(5) {
+    // background: #03c9a9;
+  }
 }
 .sections {
   width: 500%;
