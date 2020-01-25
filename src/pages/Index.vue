@@ -256,6 +256,34 @@
         </div>
       </div>
     </div>
+    <div class="tools py-5 ">
+      <div class="container my-lg-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <h6 class="tools__name">STRUMENTI</h6>
+            <h1 class="tools__title">Utilizziamo i linguaggi ed i framework più potenti e stabili</h1>
+            <p
+              class="tools__description"
+            >Rimanere al passo con i tempi ed utilizzare i migliori strumenti fa parte del nostro lavoro.</p>
+          </div>
+          <div class="col-lg-3 ml-auto position-relative text-center">
+            <g-image src="~/assets/images/deco2.svg" class="tools__deco" />
+            <g-image src="~/assets/images/icon-code.png" class="tools__icon" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 d-flex align-items-center py-5">
+            <g-image src="~/assets/images/logo-aosp.png" class="tools__logo" />
+                <g-image src="~/assets/images/logo-ast.png" class="tools__logo" />
+                <g-image src="~/assets/images/logo-cogne.png" class="tools__logo" />
+                <g-image
+                  src="~/assets/images/logo-umbriadigitale.png"
+                  class="tools__logo"
+                />
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- <div class="container">
       <h1>List articles</h1>
@@ -288,7 +316,7 @@
           <p class="article__abstract">{{article.node.abstract}}</p>
         </div>
       </div>
-    </div> -->
+    </div>-->
   </Layout>
 </template>
 <page-query>
@@ -620,22 +648,22 @@ export default {
 // }
 .caseHistory {
   height: 1100px;
-   @media screen and (max-width: 992px) {
-     height: 1000px;
+  @media screen and (max-width: 992px) {
+    height: 1000px;
   }
   &__body {
     padding: 76px 80px;
-    
+
     background-color: #111111;
     color: #ffffff;
     position: absolute;
     right: 0;
     width: 70%;
     height: 100%;
-     @media screen and (max-width: 992px) {
+    @media screen and (max-width: 992px) {
       padding: 20px 25px;
-       width: 100%;
-  }
+      width: 100%;
+    }
   }
   &__container {
     width: 85%;
@@ -643,9 +671,9 @@ export default {
     padding-top: 80px;
     @media screen and (max-width: 992px) {
       width: 100%;
-       padding-left: 0px;
-    padding-top: 30px;
-  }
+      padding-left: 0px;
+      padding-top: 30px;
+    }
   }
   &__textBg {
     position: absolute;
@@ -659,18 +687,18 @@ export default {
     bottom: 100px;
     z-index: 1;
     @media screen and (max-width: 992px) {
-       font-size: 90px !important;
-        bottom: 40px;
+      font-size: 90px !important;
+      bottom: 40px;
     }
   }
   &__deco {
     position: absolute;
     left: -250px;
-     @media screen and (max-width: 992px) {
-         left: -15px;
-         top: -60px;
-         z-index: 0;
-     }
+    @media screen and (max-width: 992px) {
+      left: -15px;
+      top: -60px;
+      z-index: 0;
+    }
   }
   &__img {
     &:before {
@@ -692,13 +720,13 @@ export default {
     background-size: cover;
     background-image: url("https://images.unsplash.com/photo-1573496130103-a442a3754d0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80");
     @media screen and (max-width: 992px) {
-     position: relative;
-    height: 250px;
-    width: 90%;
-    left: 0px;
-    margin: 0 auto;
-    z-index: 1;
-     }
+      position: relative;
+      height: 250px;
+      width: 90%;
+      left: 0px;
+      margin: 0 auto;
+      z-index: 1;
+    }
   }
   &__name {
     font-size: 16px;
@@ -711,9 +739,9 @@ export default {
     font-family: "Lexend Deca";
     font-size: 56px;
     letter-spacing: -2.21px;
-     @media screen and (max-width: 992px) {
-       font-size: 38px!important;
-     }
+    @media screen and (max-width: 992px) {
+      font-size: 38px !important;
+    }
     // line-height: 58px;
   }
   &__titleProject {
@@ -760,6 +788,43 @@ export default {
   }
   &__logo {
     max-height: 50px;
+  }
+}
+.tools {
+  color: #000;
+  &__name {
+    font-family: Lato;
+    font-size: 16px;
+    letter-spacing: 0.94px;
+    line-height: 25px;
+  }
+  &__title {
+    font-family: "Lexend Deca";
+    font-size: 40px !important;
+    letter-spacing: -1.47px;
+  }
+  &__description {
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 300;
+    letter-spacing: -0.21px;
+    line-height: 25px;
+  }
+  &__logo {
+    width: 105px;
+    @media screen and (max-width: 992px) {
+      width: 55px;
+    }
+  }
+  &__icon {
+    position: absolute;
+    width:88px;
+    height:88px;
+    top: 26px;
+  right: 20px;
+  // @media screen and (max-width: 992px) {
+  //     right: 60px;
+  //   }
   }
 }
 </style>
