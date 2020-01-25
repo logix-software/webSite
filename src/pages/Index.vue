@@ -206,14 +206,58 @@
         </section>
       </div>
     </div>
-    <div class="container">
+    <div class="container pb-5">
       <div class="row">
         <div class="col-lg-12">
           <a href="#" class="btn btn-primary">Scopri le competenze</a>
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container-fluid position-relative caseHistory my-5">
+      <div class="caseHistory__body">
+        <h6 class="caseHistory__name">CASE HISTORY</h6>
+        <h1 class="caseHistory__title mb-lg-5">Tra gli ultimi lavori realizzati</h1>
+
+        <div class="position-relative caseHistory__container">
+          <div class="caseHistory__img mb-4 mb-lg-0">
+            <h1 class="caseHistory__textBg">Education</h1>
+          </div>
+          <div class="position-relative">
+            <g-image src="~/assets/images/deco3.svg" class="caseHistory__deco" />
+            <h4 class="caseHistory__titleProject">Acta Logix - registro elettronico</h4>
+          </div>
+
+          <div class="d-flex align-items-center mt-3 mb-4">
+            <p class="section__label mr-3 mb-0">Development</p>
+            <p class="section__label section__label--2 mb-0">Design</p>
+          </div>
+          <p class="caseHistory__description mb-5">
+            When you enter into any new area of science, you almost
+            always find yourself with a baffling new language of technical terms to learn before.
+          </p>
+
+          <div class="testimonial">
+            <p
+              class="testimonial__cit"
+            >Abbiamo portato avanti il progetto! 👍👍 una collaborazione che dura da anni.</p>
+
+            <div class="d-flex align-items-center mb-5">
+              <div>
+                <div class="testimonial__pic mr-2"></div>
+              </div>
+              <div>
+                <h6 class="testimonial__name mb-0">Giovanna Miriani</h6>
+                <p class="testimonial__position mb-0">Preside scolastico - Istituto M. Rosselli</p>
+              </div>
+            </div>
+            <div class="testimonial__logo"></div>
+          </div>
+          <a href="http://" class="btn btn-secondary">Scopri di più</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container">
       <h1>List articles</h1>
       <div v-for="article in $page.articles.edges" :key="article.id" class="article d-lg-flex">
         <div>
@@ -244,7 +288,7 @@
           <p class="article__abstract">{{article.node.abstract}}</p>
         </div>
       </div>
-    </div>
+    </div> -->
   </Layout>
 </template>
 <page-query>
@@ -574,4 +618,148 @@ export default {
 //   font-size: 30px;
 //   color: #fff;
 // }
+.caseHistory {
+  height: 1100px;
+   @media screen and (max-width: 992px) {
+     height: 1000px;
+  }
+  &__body {
+    padding: 76px 80px;
+    
+    background-color: #111111;
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    width: 70%;
+    height: 100%;
+     @media screen and (max-width: 992px) {
+      padding: 20px 25px;
+       width: 100%;
+  }
+  }
+  &__container {
+    width: 85%;
+    padding-left: 240px;
+    padding-top: 80px;
+    @media screen and (max-width: 992px) {
+      width: 100%;
+       padding-left: 0px;
+    padding-top: 30px;
+  }
+  }
+  &__textBg {
+    position: absolute;
+    opacity: 0.42;
+    color: #ffffff;
+    font-family: "Lexend Deca";
+    font-size: 161px !important;
+    letter-spacing: -4.03px;
+    line-height: 42px;
+    left: 10%;
+    bottom: 100px;
+    z-index: 1;
+    @media screen and (max-width: 992px) {
+       font-size: 90px !important;
+        bottom: 40px;
+    }
+  }
+  &__deco {
+    position: absolute;
+    left: -250px;
+     @media screen and (max-width: 992px) {
+         left: -15px;
+         top: -60px;
+         z-index: 0;
+     }
+  }
+  &__img {
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: -360px;
+    height: 615px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1573496130103-a442a3754d0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80");
+    @media screen and (max-width: 992px) {
+     position: relative;
+    height: 250px;
+    width: 90%;
+    left: 0px;
+    margin: 0 auto;
+    z-index: 1;
+     }
+  }
+  &__name {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.24px;
+    font-family: Lato;
+  }
+  &__title {
+    color: #ffffff;
+    font-family: "Lexend Deca";
+    font-size: 56px;
+    letter-spacing: -2.21px;
+     @media screen and (max-width: 992px) {
+       font-size: 38px!important;
+     }
+    // line-height: 58px;
+  }
+  &__titleProject {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: -1.28px;
+    line-height: 37px;
+  }
+  &__description {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.18px;
+    line-height: 25px;
+  }
+}
+.testimonial {
+  &__cit {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.18px;
+    line-height: 25px;
+  }
+  &__pic {
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url("https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+  }
+  &__name {
+    font-family: "Lexend Deca";
+    font-size: 22px;
+    letter-spacing: -0.44px;
+    line-height: 24px;
+  }
+  &__position {
+    font-family: "Lexend Deca";
+    font-size: 12px !important;
+    letter-spacing: -0.24px;
+    line-height: 24px;
+  }
+  &__logo {
+    max-height: 50px;
+  }
+}
 </style>
