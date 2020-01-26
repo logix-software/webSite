@@ -7,7 +7,7 @@
             <g-image src="~/assets/images/deco.svg" class="hero__deco" />
             <g-image src="~/assets/images/deco-designer.svg" class="hero__decoDesigner" />
             <g-image src="~/assets/images/deco-developer.svg" class="hero__decoDeveloper" />
-            <h1 class="hero__title">Sviluppiamo nuove logiche digitali</h1>
+            <h1 class="hero__title">Sviluppiamo nuove logiche digitali- {{windowHeight}}</h1>
           </div>
           <div class="col-lg-5"></div>
         </div>
@@ -307,7 +307,7 @@
           </div>
         </div>
       </div>
-      <div class="wrapper2" id="js-wrapper2">
+     <div class="wrapper2" id="js-wrapper2">
         <div class="sections2" id="js-slideContainer2">
           <section class="section2">
             <div class="d-flex align-items-start">
@@ -360,6 +360,7 @@
         </div>
       </div>
     </div>
+     
 
     <!-- <div class="container">
       <h1>List articles</h1>
@@ -420,10 +421,16 @@ export default {
     //   { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js' },
     // ],
   },
+  data() {
+    return {
+      windowHeight: 0,
+    }
+  },
   // metaInfo: {
   //   title: "My blog"
   // },
   mounted() {
+    this.windowHeight=window.innerWidth;
     $(function() {
       // wait for document ready
 
@@ -628,9 +635,11 @@ export default {
     padding-bottom: 200px;
   }
 }.wrapper2 {
+  background-color: #111111;
    padding-left: 10%;
    padding-top: 50px;
   padding-bottom: 50px;
+  color: #fff;
 @media screen and (max-width: 992px) {
   height: 68vh;
   }
@@ -749,7 +758,7 @@ export default {
     font-size: 146px!important;
     line-height: 102px;
     @media screen and (max-width: 992px) {
-    font-size: 86px!important;
+    font-size: 66px!important;
   }
   }
   &__body{
@@ -767,7 +776,7 @@ export default {
     background-position: center;
     background-image: url("https://images.unsplash.com/photo-1441471349424-351990746ff4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     @media screen and (max-width: 992px) {
-       height: 250px;	width: 260px;
+       height: 250px;	width: 240px;
     }
   }
   &__deco {
@@ -1014,6 +1023,9 @@ export default {
   padding: 31px 130px;
   position: absolute;
   bottom: -30px;
+  @media screen and (max-width: 992px) {
+    padding: 30px;
+  }
   &__title {
     color: #232323;
     font-size: 26px !important;
