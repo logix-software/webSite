@@ -226,7 +226,6 @@
             <g-image src="~/assets/images/deco3.svg" class="caseHistory__deco" />
             <h4 class="caseHistory__titleProject">Acta Logix - registro elettronico</h4>
           </div>
-
           <div class="d-flex align-items-center mt-3 mb-4">
             <p class="section__label mr-3 mb-0">Development</p>
             <p class="section__label section__label--2 mb-0">Design</p>
@@ -256,7 +255,7 @@
         </div>
       </div>
     </div>
-    <div class="tools py-5 ">
+    <div class="tools py-5">
       <div class="container my-lg-5">
         <div class="row">
           <div class="col-lg-6">
@@ -274,13 +273,90 @@
         <div class="row">
           <div class="col-lg-12 d-flex align-items-center py-5">
             <g-image src="~/assets/images/logo-aosp.png" class="tools__logo" />
-                <g-image src="~/assets/images/logo-ast.png" class="tools__logo" />
-                <g-image src="~/assets/images/logo-cogne.png" class="tools__logo" />
-                <g-image
-                  src="~/assets/images/logo-umbriadigitale.png"
-                  class="tools__logo"
-                />
+            <g-image src="~/assets/images/logo-ast.png" class="tools__logo" />
+            <g-image src="~/assets/images/logo-cogne.png" class="tools__logo" />
+            <g-image src="~/assets/images/logo-umbriadigitale.png" class="tools__logo" />
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 ml-auto position-relative">
+          <div class="cta">
+            <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
+            <div class="d-flex align-items-center justify-content-between">
+              <h1 class="cta__title">
+                Pronto a realizzare la tua prossima
+                <span class="text-primary">innovazione</span>?
+              </h1>
+              <a href="http://" class="btn btn-primary">Contattaci</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cause">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-lg-7 mx-auto text-center">
+            <h1 class="cause__title mb-4">Cosa vogliamo perseguire</h1>
+            <p
+              class="cause__description"
+            >Come sviluppatori, come designer, come professionisti, ma soprattutto come persone, qui in Logix crediamo nel nostro lavoro e pensiamo che attravreso i nostri progetti, almeno un po’, il mondo possa cambiare.</p>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper2" id="js-wrapper2">
+        <div class="sections2" id="js-slideContainer2">
+          <section class="section2">
+            <div class="d-flex align-items-start">
+              <h1 class="section2__num mx-2 mx-lg-0">1</h1>
+              <div>
+                <div class="section2__img mx-2 mx-lg-3">
+                  <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                  <h1 class="section2__textBg">Made in Italy</h1>
+                </div>
+              </div>
+              <div class="section2__body ml-3">
+                <h1 class="section2__title">Made in Italy</h1>
+                <p class="section2__description">Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+              </div>
+            </div>
+            <span id="trigger2--title1"></span>
+          </section>
+          <section class="section2">
+             <div class="d-flex align-items-start">
+              <h1 class="section2__num mx-2 mx-lg-0">1</h1>
+              <div>
+                <div class="section2__img mx-2 mx-lg-3">
+                  <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                  <h1 class="section2__textBg">Made in Italy</h1>
+                </div>
+              </div>
+              <div class="section2__body ml-3">
+                <h1 class="section2__title">Made in Italy</h1>
+                <p class="section2__description">Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+              </div>
+            </div>
+            <span id="trigger2--title2"></span>
+          </section>
+          <section class="section2">
+             <div class="d-flex align-items-start">
+              <h1 class="section2__num mx-2 mx-lg-0">1</h1>
+              <div>
+                <div class="section2__img mx-2 mx-lg-3">
+                  <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                  <h1 class="section2__textBg">Made in Italy</h1>
+                </div>
+              </div>
+              <div class="section2__body ml-3">
+                <h1 class="section2__title">Made in Italy</h1>
+                <p class="section2__description">Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+              </div>
+            </div>
+            <span id="trigger2--title3"></span>
+          </section>
         </div>
       </div>
     </div>
@@ -370,6 +446,28 @@ export default {
         .setTween(horizontalSlide)
         //.addIndicators() // add indicators (requires plugin)
         .addTo(controller);
+    });
+    $(function() {
+      // wait for document ready
+
+      var controller2 = new ScrollMagic.Controller();
+
+      var horizontalSlide2 = new TimelineMax()
+        // animate panels
+        .to("#js-slideContainer2", 1, { x: "-20%" })
+        .to("#js-slideContainer2", 1, { x: "-40%" })
+        .to("#js-slideContainer2", 1, { x: "-54%" });
+
+      // create scene to pin and link animation
+      new ScrollMagic.Scene({
+        triggerElement: "#js-wrapper2",
+        triggerHook: "onLeave",
+        duration: "400%"
+      })
+        .setPin("#js-wrapper2")
+        .setTween(horizontalSlide2)
+        //.addIndicators() // add indicators (requires plugin)
+        .addTo(controller2);
     });
   }
 };
@@ -513,7 +611,8 @@ export default {
   }
 }
 
-.wrapper {
+.wrapper,
+.wrapper2 {
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -527,6 +626,13 @@ export default {
     padding-left: 5%;
     padding-top: 200px;
     padding-bottom: 200px;
+  }
+}.wrapper2 {
+   padding-left: 10%;
+   padding-top: 50px;
+  padding-bottom: 50px;
+@media screen and (max-width: 992px) {
+  height: 68vh;
   }
 }
 
@@ -633,8 +739,84 @@ export default {
     // background: #03c9a9;
   }
 }
+.section2 {
+  height: 100%;
+  width: calc(100% / 3);
+  float: left;
+  position: relative;
+  z-index:2;
+  &__num{
+    font-size: 146px!important;
+    line-height: 102px;
+    @media screen and (max-width: 992px) {
+    font-size: 86px!important;
+  }
+  }
+  &__body{
+    width: 20%;
+    @media screen and (max-width: 992px) {
+      position: absolute;
+    width: 90%;
+    bottom: 32px;
+    }
+  }
+  &__img{
+    position: relative;
+    height: 548px;	width: 421px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1441471349424-351990746ff4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    @media screen and (max-width: 992px) {
+       height: 250px;	width: 260px;
+    }
+  }
+  &__deco {
+    position: absolute;
+    bottom: 0;
+    right:0;
+     @media screen and (max-width: 992px) {
+       width: 60%;
+     }
+  }
+  &__textBg{
+    color: rgba(255,255,255,.5);
+    font-family: "Lexend Deca";	font-size: 161px!important;	letter-spacing: -9.63px;
+    position: absolute;
+    bottom:100px;
+    left:10%;
+    width: 280%;
+    @media screen and (max-width: 992px) {
+      font-size: 86px!important;
+       bottom:10px;
+    }
+  }
+  &__title{
+    font-size: 35px!important;	font-weight: bold;	letter-spacing: -1.28px;	line-height: 37px;
+  }
+  &__description{
+    font-family: Lato;	font-size: 18px;	font-weight: 300;	letter-spacing: -0.18px;	line-height: 20px;
+  }
+}
+.section2:nth-child(1) {
+  // background: #f64747;
+}
+.section2:nth-child(2) {
+  @media screen and (min-width: 992px) {
+  margin-left: -8%;}
+  // background: #22a7f0;
+}
+.section2:nth-child(3) {
+   @media screen and (min-width: 992px) {
+  margin-left: -8%;}
+  // background: #f9690e;
+}
+
 .sections {
   width: 500%;
+  height: 100%;
+}
+.sections2 {
+  width: 300%;
   height: 100%;
 }
 // .section__title {
@@ -818,13 +1000,48 @@ export default {
   }
   &__icon {
     position: absolute;
-    width:88px;
-    height:88px;
+    width: 88px;
+    height: 88px;
     top: 26px;
-  right: 20px;
-  // @media screen and (max-width: 992px) {
-  //     right: 60px;
-  //   }
+    right: 20px;
+    // @media screen and (max-width: 992px) {
+    //     right: 60px;
+    //   }
+  }
+}
+.cta {
+  background-color: #ebeff9;
+  padding: 31px 130px;
+  position: absolute;
+  bottom: -30px;
+  &__title {
+    color: #232323;
+    font-size: 26px !important;
+    font-weight: 500;
+    letter-spacing: -0.89px;
+    line-height: 32px;
+  }
+  &__deco {
+    position: absolute;
+    left: -150px;
+    top: 35px;
+  }
+}
+.cause {
+  background-color: #111111;
+  color: #fff;
+  padding: 145px 0px;
+  &__title {
+    font-family: "Lexend Deca";
+    font-size: 56px !important;
+    letter-spacing: -2.21px;
+  }
+  &__description {
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 300;
+    letter-spacing: -0.21px;
+    line-height: 25px;
   }
 }
 </style>

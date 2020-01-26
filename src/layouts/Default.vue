@@ -131,4 +131,7 @@ h6 {
     background-color: #ffffff !important;
   }
 }
+.text-primary{
+  color: #3838c4 !important;
+}
 </style>
