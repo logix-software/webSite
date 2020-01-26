@@ -134,4 +134,7 @@ h6 {
 .text-primary{
   color: #3838c4 !important;
 }
+.owl-dots{
+  margin-top: 40px!important;
+}
 </style>

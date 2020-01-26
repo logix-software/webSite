@@ -7,7 +7,7 @@
             <g-image src="~/assets/images/deco.svg" class="hero__deco" />
             <g-image src="~/assets/images/deco-designer.svg" class="hero__decoDesigner" />
             <g-image src="~/assets/images/deco-developer.svg" class="hero__decoDeveloper" />
-            <h1 class="hero__title">Sviluppiamo nuove logiche digitali- {{windowHeight}}</h1>
+            <h1 class="hero__title">Sviluppiamo nuove logiche digitali</h1>
           </div>
           <div class="col-lg-5"></div>
         </div>
@@ -97,116 +97,212 @@
         </div>
       </div>
     </div>
-    <div class="wrapper" id="js-wrapper">
-      <div class="sections" id="js-slideContainer">
-        <section class="section">
-          <div class="section__img"></div>
-          <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-          <div class="section__body">
-            <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
-            <p></p>
-            <div class="d-flex align-items-center">
-              <p class="section__label mr-3">Development</p>
-              <p class="section__label">Design</p>
+    <!-- v-if="deviceWidth > 992" -->
+    <div v-if="deviceWidth > 992">
+      <div class="wrapper" id="js-wrapper">
+        <div class="sections" id="js-slideContainer">
+          <section class="section">
+            <div class="section__img"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <div class="section__body">
+              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+              <p></p>
+              <div class="d-flex align-items-center">
+                <p class="section__label mr-3">Development</p>
+                <p class="section__label">Design</p>
+              </div>
+              <h1 class="section__title">
+                Digital
+                <br />transformation
+              </h1>
+              <div class="section__line"></div>
+              <p
+                class="section__descirption"
+              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
             </div>
-            <h1 class="section__title">
-              Digital
-              <br />transformation
-            </h1>
-            <div class="section__line"></div>
-            <p
-              class="section__descirption"
-            >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
-          </div>
-          <span id="trigger--title1"></span>
-        </section>
-        <section class="section">
-          <div class="section__img"></div>
-          <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-          <div class="section__body">
-            <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
-            <p></p>
-            <div class="d-flex align-items-center">
-              <p class="section__label mr-3">Development</p>
-              <p class="section__label section__label--2">Design</p>
+            <span id="trigger--title1"></span>
+          </section>
+          <section class="section">
+            <div class="section__img"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <div class="section__body">
+              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+              <p></p>
+              <div class="d-flex align-items-center">
+                <p class="section__label mr-3">Development</p>
+                <p class="section__label section__label--2">Design</p>
+              </div>
+              <h1 class="section__title">
+                Digital
+                <br />transformation
+              </h1>
+              <div class="section__line"></div>
+              <p
+                class="section__descirption"
+              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
             </div>
-            <h1 class="section__title">
-              Digital
-              <br />transformation
-            </h1>
-            <div class="section__line"></div>
-            <p
-              class="section__descirption"
-            >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
-          </div>
-          <span id="trigger--title2"></span>
-        </section>
-        <section class="section">
-          <div class="section__img"></div>
-          <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-          <div class="section__body">
-            <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
-            <p></p>
-            <div class="d-flex align-items-center">
-              <p class="section__label mr-3">Development</p>
-              <p class="section__label section__label--2">Design</p>
+            <span id="trigger--title2"></span>
+          </section>
+          <section class="section">
+            <div class="section__img"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <div class="section__body">
+              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+              <p></p>
+              <div class="d-flex align-items-center">
+                <p class="section__label mr-3">Development</p>
+                <p class="section__label section__label--2">Design</p>
+              </div>
+              <h1 class="section__title">
+                Digital
+                <br />transformation
+              </h1>
+              <div class="section__line"></div>
+              <p
+                class="section__descirption"
+              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
             </div>
-            <h1 class="section__title">
-              Digital
-              <br />transformation
-            </h1>
-            <div class="section__line"></div>
-            <p
-              class="section__descirption"
-            >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
-          </div>
-          <span id="trigger--title3"></span>
-        </section>
-        <section class="section">
-          <div class="section__img"></div>
-          <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-          <div class="section__body">
-            <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
-            <p></p>
-            <div class="d-flex align-items-center">
-              <p class="section__label mr-3">Development</p>
-              <p class="section__label section__label--2">Design</p>
+            <span id="trigger--title3"></span>
+          </section>
+          <section class="section">
+            <div class="section__img"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <div class="section__body">
+              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+              <p></p>
+              <div class="d-flex align-items-center">
+                <p class="section__label mr-3">Development</p>
+                <p class="section__label section__label--2">Design</p>
+              </div>
+              <h1 class="section__title">
+                Digital
+                <br />transformation
+              </h1>
+              <div class="section__line"></div>
+              <p
+                class="section__descirption"
+              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
             </div>
-            <h1 class="section__title">
-              Digital
-              <br />transformation
-            </h1>
-            <div class="section__line"></div>
-            <p
-              class="section__descirption"
-            >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
-          </div>
-          <span id="trigger--title4"></span>
-        </section>
-        <section class="section">
-          <div class="section__img"></div>
-          <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-          <div class="section__body">
-            <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
-            <p></p>
-            <div class="d-flex align-items-center">
-              <p class="section__label mr-3">Development</p>
-              <p class="section__label section__label--2">Design</p>
+            <span id="trigger--title4"></span>
+          </section>
+          <section class="section">
+            <div class="section__img"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <div class="section__body">
+              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+              <p></p>
+              <div class="d-flex align-items-center">
+                <p class="section__label mr-3">Development</p>
+                <p class="section__label section__label--2">Design</p>
+              </div>
+              <h1 class="section__title">
+                Digital
+                <br />transformation
+              </h1>
+              <div class="section__line"></div>
+              <p
+                class="section__descirption"
+              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
             </div>
-            <h1 class="section__title">
-              Digital
-              <br />transformation
-            </h1>
-            <div class="section__line"></div>
-            <p
-              class="section__descirption"
-            >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
-          </div>
-          <span id="trigger--title5"></span>
-        </section>
+            <span id="trigger--title5"></span>
+          </section>
+        </div>
       </div>
     </div>
-    <div class="container pb-5">
+    <div v-else>
+      <div class="owl-carousel owl-theme owl-carousel-services">
+        <div class="item">
+          <section class="section">
+            <div class="section__img"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <div class="section__body">
+              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+              <p></p>
+              <div class="d-flex align-items-center">
+                <p class="section__label mr-3">Development</p>
+                <p class="section__label">Design</p>
+              </div>
+              <h1 class="section__title">
+                Digital
+                <br />transformation
+              </h1>
+              <div class="section__line"></div>
+              <p
+                class="section__descirption"
+              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+            </div>
+          </section>
+        </div>
+        <div class="item">
+          <section class="section">
+            <div class="section__img"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <div class="section__body">
+              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+              <p></p>
+              <div class="d-flex align-items-center">
+                <p class="section__label mr-3">Development</p>
+                <p class="section__label">Design</p>
+              </div>
+              <h1 class="section__title">
+                Digital
+                <br />transformation
+              </h1>
+              <div class="section__line"></div>
+              <p
+                class="section__descirption"
+              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+            </div>
+          </section>
+        </div>
+        <div class="item">
+          <section class="section">
+            <div class="section__img"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <div class="section__body">
+              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+              <p></p>
+              <div class="d-flex align-items-center">
+                <p class="section__label mr-3">Development</p>
+                <p class="section__label">Design</p>
+              </div>
+              <h1 class="section__title">
+                Digital
+                <br />transformation
+              </h1>
+              <div class="section__line"></div>
+              <p
+                class="section__descirption"
+              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+            </div>
+          </section>
+        </div>
+        <div class="item">
+          <section class="section">
+            <div class="section__img"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <div class="section__body">
+              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+              <p></p>
+              <div class="d-flex align-items-center">
+                <p class="section__label mr-3">Development</p>
+                <p class="section__label">Design</p>
+              </div>
+              <h1 class="section__title">
+                Digital
+                <br />transformation
+              </h1>
+              <div class="section__line"></div>
+              <p
+                class="section__descirption"
+              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pb-5 mt-5">
       <div class="row">
         <div class="col-lg-12">
           <a href="#" class="btn btn-primary">Scopri le competenze</a>
@@ -307,7 +403,8 @@
           </div>
         </div>
       </div>
-     <div class="wrapper2" id="js-wrapper2">
+      <div v-if="deviceWidth > 992">
+      <div class="wrapper2" id="js-wrapper2">
         <div class="sections2" id="js-slideContainer2">
           <section class="section2">
             <div class="d-flex align-items-start">
@@ -320,13 +417,15 @@
               </div>
               <div class="section2__body ml-3">
                 <h1 class="section2__title">Made in Italy</h1>
-                <p class="section2__description">Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+                <p
+                  class="section2__description"
+                >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
               </div>
             </div>
             <span id="trigger2--title1"></span>
           </section>
           <section class="section2">
-             <div class="d-flex align-items-start">
+            <div class="d-flex align-items-start">
               <h1 class="section2__num mx-2 mx-lg-0">1</h1>
               <div>
                 <div class="section2__img mx-2 mx-lg-3">
@@ -336,13 +435,15 @@
               </div>
               <div class="section2__body ml-3">
                 <h1 class="section2__title">Made in Italy</h1>
-                <p class="section2__description">Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+                <p
+                  class="section2__description"
+                >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
               </div>
             </div>
             <span id="trigger2--title2"></span>
           </section>
           <section class="section2">
-             <div class="d-flex align-items-start">
+            <div class="d-flex align-items-start">
               <h1 class="section2__num mx-2 mx-lg-0">1</h1>
               <div>
                 <div class="section2__img mx-2 mx-lg-3">
@@ -352,7 +453,9 @@
               </div>
               <div class="section2__body ml-3">
                 <h1 class="section2__title">Made in Italy</h1>
-                <p class="section2__description">Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+                <p
+                  class="section2__description"
+                >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
               </div>
             </div>
             <span id="trigger2--title3"></span>
@@ -360,7 +463,72 @@
         </div>
       </div>
     </div>
-     
+    <div v-else>
+      <div class="owl-carousel owl-theme owl-carousel-causes">
+        <div class="item">
+          <section class="section2">
+            <div class="d-flex align-items-start">
+              <h1 class="section2__num mx-2 mx-lg-0">1</h1>
+              <div>
+                <div class="section2__img mx-2 mx-lg-3">
+                  <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                  <h1 class="section2__textBg">Made in Italy</h1>
+                </div>
+              </div>
+              <div class="section2__body ml-3">
+                <h1 class="section2__title">Made in Italy</h1>
+                <p
+                  class="section2__description"
+                >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+              </div>
+            </div>
+            <span id="trigger2--title1"></span>
+          </section>
+        </div>
+        <div class="item">
+          <section class="section2">
+            <div class="d-flex align-items-start">
+              <h1 class="section2__num mx-2 mx-lg-0">1</h1>
+              <div>
+                <div class="section2__img mx-2 mx-lg-3">
+                  <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                  <h1 class="section2__textBg">Made in Italy</h1>
+                </div>
+              </div>
+              <div class="section2__body ml-3">
+                <h1 class="section2__title">Made in Italy</h1>
+                <p
+                  class="section2__description"
+                >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+              </div>
+            </div>
+            <span id="trigger2--title1"></span>
+          </section>
+        </div>
+        <div class="item">
+          <section class="section2">
+            <div class="d-flex align-items-start">
+              <h1 class="section2__num mx-2 mx-lg-0">1</h1>
+              <div>
+                <div class="section2__img mx-2 mx-lg-3">
+                  <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                  <h1 class="section2__textBg">Made in Italy</h1>
+                </div>
+              </div>
+              <div class="section2__body ml-3">
+                <h1 class="section2__title">Made in Italy</h1>
+                <p
+                  class="section2__description"
+                >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+              </div>
+            </div>
+            <span id="trigger2--title1"></span>
+          </section>
+        </div>
+      </div>
+    </div>
+    </div>
+    
 
     <!-- <div class="container">
       <h1>List articles</h1>
@@ -423,37 +591,80 @@ export default {
   },
   data() {
     return {
-      windowHeight: 0,
-    }
+      deviceWidth: 0
+    };
   },
   // metaInfo: {
   //   title: "My blog"
   // },
   mounted() {
-    this.windowHeight=window.innerWidth;
-    $(function() {
-      // wait for document ready
+    this.deviceWidth = window.innerWidth;
+    if (this.deviceWidth > 992) {
+      setTimeout(function() {
+        $(function() {
+          // wait for document ready
 
-      var controller = new ScrollMagic.Controller();
+          var controller = new ScrollMagic.Controller();
 
-      var horizontalSlide = new TimelineMax()
-        // animate panels
-        .to("#js-slideContainer", 1, { x: "-20%" })
-        .to("#js-slideContainer", 1, { x: "-40%" })
-        .to("#js-slideContainer", 1, { x: "-60%" })
-        .to("#js-slideContainer", 1, { x: "-74%" });
+          var horizontalSlide = new TimelineMax()
+            // animate panels
+            .to("#js-slideContainer", 1, { x: "-20%" })
+            .to("#js-slideContainer", 1, { x: "-40%" })
+            .to("#js-slideContainer", 1, { x: "-60%" })
+            .to("#js-slideContainer", 1, { x: "-74%" });
 
-      // create scene to pin and link animation
-      new ScrollMagic.Scene({
-        triggerElement: "#js-wrapper",
-        triggerHook: "onLeave",
-        duration: "400%"
-      })
-        .setPin("#js-wrapper")
-        .setTween(horizontalSlide)
-        //.addIndicators() // add indicators (requires plugin)
-        .addTo(controller);
-    });
+          // create scene to pin and link animation
+          new ScrollMagic.Scene({
+            triggerElement: "#js-wrapper",
+            triggerHook: "onLeave",
+            duration: "400%"
+          })
+            .setPin("#js-wrapper")
+            .setTween(horizontalSlide)
+            //.addIndicators() // add indicators (requires plugin)
+            .addTo(controller);
+        });
+      }, 500);
+    } else {
+      $(".owl-carousel-services").owlCarousel({
+        loop: true,
+        nav: false,
+        items: 1
+      });
+    }
+    if (this.deviceWidth > 992) {
+      setTimeout(function() {
+        $(function() {
+          // wait for document ready
+
+          var controller2 = new ScrollMagic.Controller();
+
+          var horizontalSlide2 = new TimelineMax()
+            // animate panels
+            .to("#js-slideContainer2", 1, { x: "-20%" })
+            .to("#js-slideContainer2", 1, { x: "-40%" })
+            .to("#js-slideContainer2", 1, { x: "-54%" });
+
+          // create scene to pin and link animation
+          new ScrollMagic.Scene({
+            triggerElement: "#js-wrapper2",
+            triggerHook: "onLeave",
+            duration: "400%"
+          })
+            .setPin("#js-wrapper2")
+            .setTween(horizontalSlide2)
+            //.addIndicators() // add indicators (requires plugin)
+            .addTo(controller2);
+        });
+      }, 500);
+    } else {
+      $(".owl-carousel-causes").owlCarousel({
+        loop: true,
+        nav: false,
+        items: 1
+      });
+    }
+
     $(function() {
       // wait for document ready
 
@@ -634,14 +845,15 @@ export default {
     padding-top: 200px;
     padding-bottom: 200px;
   }
-}.wrapper2 {
+}
+.wrapper2 {
   background-color: #111111;
-   padding-left: 10%;
-   padding-top: 50px;
+  padding-left: 10%;
+  padding-top: 50px;
   padding-bottom: 50px;
   color: #fff;
-@media screen and (max-width: 992px) {
-  height: 68vh;
+  @media screen and (max-width: 992px) {
+    height: 68vh;
   }
 }
 
@@ -650,7 +862,10 @@ export default {
   width: calc(100% / 5);
   float: left;
   position: relative;
-
+  @media screen and (max-width: 992px) {
+    height: 300px;
+    width: 100%;
+  }
   &__img {
     width: 300px;
     height: 300px;
@@ -691,7 +906,8 @@ export default {
     top: -30px;
     left: 20px;
     @media screen and (max-width: 992px) {
-      top: -80px;
+      top: -50px;
+      width: 100px !important;
     }
   }
   &__label {
@@ -753,57 +969,74 @@ export default {
   width: calc(100% / 3);
   float: left;
   position: relative;
-  z-index:2;
-  &__num{
-    font-size: 146px!important;
+  z-index: 2;
+  background-color: #111111;
+  color: #fff;
+  @media screen and (max-width: 992px) {
+    height: 440px;
+    width: 100%;
+  }
+  &__num {
+    font-size: 146px !important;
     line-height: 102px;
     @media screen and (max-width: 992px) {
-    font-size: 66px!important;
+      font-size: 66px !important;
+    }
   }
-  }
-  &__body{
+  &__body {
     width: 20%;
     @media screen and (max-width: 992px) {
       position: absolute;
-    width: 90%;
-    bottom: 32px;
+      width: 90%;
+      bottom: 32px;
     }
   }
-  &__img{
+  &__img {
     position: relative;
-    height: 548px;	width: 421px;
+    height: 548px;
+    width: 421px;
     background-size: cover;
     background-position: center;
     background-image: url("https://images.unsplash.com/photo-1441471349424-351990746ff4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     @media screen and (max-width: 992px) {
-       height: 250px;	width: 240px;
+      height: 250px;
+      width: 240px;
     }
   }
   &__deco {
     position: absolute;
     bottom: 0;
-    right:0;
-     @media screen and (max-width: 992px) {
-       width: 60%;
-     }
-  }
-  &__textBg{
-    color: rgba(255,255,255,.5);
-    font-family: "Lexend Deca";	font-size: 161px!important;	letter-spacing: -9.63px;
-    position: absolute;
-    bottom:100px;
-    left:10%;
-    width: 280%;
+    right: 0;
     @media screen and (max-width: 992px) {
-      font-size: 86px!important;
-       bottom:10px;
+      width: 60%;
     }
   }
-  &__title{
-    font-size: 35px!important;	font-weight: bold;	letter-spacing: -1.28px;	line-height: 37px;
+  &__textBg {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Lexend Deca";
+    font-size: 161px !important;
+    letter-spacing: -9.63px;
+    position: absolute;
+    bottom: 100px;
+    left: 10%;
+    width: 280%;
+    @media screen and (max-width: 992px) {
+      font-size: 86px !important;
+      bottom: 10px;
+    }
   }
-  &__description{
-    font-family: Lato;	font-size: 18px;	font-weight: 300;	letter-spacing: -0.18px;	line-height: 20px;
+  &__title {
+    font-size: 35px !important;
+    font-weight: bold;
+    letter-spacing: -1.28px;
+    line-height: 37px;
+  }
+  &__description {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.18px;
+    line-height: 20px;
   }
 }
 .section2:nth-child(1) {
@@ -811,12 +1044,14 @@ export default {
 }
 .section2:nth-child(2) {
   @media screen and (min-width: 992px) {
-  margin-left: -8%;}
+    margin-left: -8%;
+  }
   // background: #22a7f0;
 }
 .section2:nth-child(3) {
-   @media screen and (min-width: 992px) {
-  margin-left: -8%;}
+  @media screen and (min-width: 992px) {
+    margin-left: -8%;
+  }
   // background: #f9690e;
 }
 
@@ -1043,6 +1278,9 @@ export default {
   background-color: #111111;
   color: #fff;
   padding: 145px 0px;
+  @media screen and (max-width: 992px) {
+    padding: 50px 0px;
+  }
   &__title {
     font-family: "Lexend Deca";
     font-size: 56px !important;
