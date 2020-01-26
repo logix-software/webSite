@@ -626,11 +626,13 @@ export default {
         });
       }, 500);
     } else {
+      setTimeout(function() {
       $(".owl-carousel-services").owlCarousel({
         loop: true,
         nav: false,
         items: 1
       });
+      }, 500);
     }
     if (this.deviceWidth > 992) {
       setTimeout(function() {
@@ -658,35 +660,16 @@ export default {
         });
       }, 500);
     } else {
+       setTimeout(function() {
       $(".owl-carousel-causes").owlCarousel({
         loop: true,
         nav: false,
         items: 1
       });
+       }, 500);
     }
 
-    $(function() {
-      // wait for document ready
-
-      var controller2 = new ScrollMagic.Controller();
-
-      var horizontalSlide2 = new TimelineMax()
-        // animate panels
-        .to("#js-slideContainer2", 1, { x: "-20%" })
-        .to("#js-slideContainer2", 1, { x: "-40%" })
-        .to("#js-slideContainer2", 1, { x: "-54%" });
-
-      // create scene to pin and link animation
-      new ScrollMagic.Scene({
-        triggerElement: "#js-wrapper2",
-        triggerHook: "onLeave",
-        duration: "400%"
-      })
-        .setPin("#js-wrapper2")
-        .setTween(horizontalSlide2)
-        //.addIndicators() // add indicators (requires plugin)
-        .addTo(controller2);
-    });
+ 
   }
 };
 </script>
