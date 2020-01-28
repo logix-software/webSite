@@ -33,7 +33,7 @@
             <g-link to class="nav__link mx-3 py-3">Progetti</g-link>
           </li>
           <li class="position-relative py-2 py-lg-0">
-              <g-link to class="btn btn-default mx-3">Contattaci</g-link>
+              <g-link to class="btn btn-default btn-navbar mx-3">Contattaci</g-link>
             
           </li>
         </ul>

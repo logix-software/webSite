@@ -44,7 +44,7 @@
         <div class="col-lg-9 ml-auto">
           <div class="video position-relative">
             <g-image src="~/assets/images/deco2.svg" class="video__deco" />
-            <video autoplay loop defaultMuted playsinline id="myVideo" preload="auto">
+            <video autoplay loop muted playsinline id="myVideo" preload="auto">
               <source src="@/assets/images/video.mp4" type="video/mp4" />Your browser does not support HTML5 video.
             </video>
           </div>
@@ -105,6 +105,7 @@
             <div class="section__img"></div>
             <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
+              <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
               <p></p>
               <div class="d-flex align-items-center">
@@ -115,17 +116,18 @@
                 Digital
                 <br />transformation
               </h1>
-              <div class="section__line"></div>
+              <div class="section__line mb-3"></div>
               <p
-                class="section__descirption"
+                class="section__description"
               >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
             </div>
             <span id="trigger--title1"></span>
           </section>
-          <section class="section">
+          <section class="section section--2">
             <div class="section__img"></div>
             <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
+               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
               <p></p>
               <div class="d-flex align-items-center">
@@ -136,9 +138,9 @@
                 Digital
                 <br />transformation
               </h1>
-              <div class="section__line"></div>
+              <div class="section__line mb-3"></div>
               <p
-                class="section__descirption"
+                class="section__description"
               >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
             </div>
             <span id="trigger--title2"></span>
@@ -147,6 +149,7 @@
             <div class="section__img"></div>
             <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
+               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
               <p></p>
               <div class="d-flex align-items-center">
@@ -157,17 +160,18 @@
                 Digital
                 <br />transformation
               </h1>
-              <div class="section__line"></div>
+              <div class="section__line mb-3"></div>
               <p
-                class="section__descirption"
+                class="section__description"
               >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
             </div>
             <span id="trigger--title3"></span>
           </section>
-          <section class="section">
+          <section class="section section--2">
             <div class="section__img"></div>
             <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
+               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
               <p></p>
               <div class="d-flex align-items-center">
@@ -178,9 +182,9 @@
                 Digital
                 <br />transformation
               </h1>
-              <div class="section__line"></div>
+              <div class="section__line mb-3"></div>
               <p
-                class="section__descirption"
+                class="section__description"
               >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
             </div>
             <span id="trigger--title4"></span>
@@ -189,6 +193,7 @@
             <div class="section__img"></div>
             <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
+               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
               <p></p>
               <div class="d-flex align-items-center">
@@ -199,9 +204,9 @@
                 Digital
                 <br />transformation
               </h1>
-              <div class="section__line"></div>
+              <div class="section__line mb-3"></div>
               <p
-                class="section__descirption"
+                class="section__description"
               >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
             </div>
             <span id="trigger--title5"></span>
@@ -216,6 +221,7 @@
             <div class="section__img"></div>
             <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
+               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
               <p></p>
               <div class="d-flex align-items-center">
@@ -226,9 +232,9 @@
                 Digital
                 <br />transformation
               </h1>
-              <div class="section__line"></div>
+              <div class="section__line mb-3"></div>
               <p
-                class="section__descirption"
+                class="section__description"
               >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
             </div>
           </section>
@@ -238,6 +244,7 @@
             <div class="section__img"></div>
             <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
+               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
               <p></p>
               <div class="d-flex align-items-center">
@@ -248,9 +255,9 @@
                 Digital
                 <br />transformation
               </h1>
-              <div class="section__line"></div>
+              <div class="section__line mb-3"></div>
               <p
-                class="section__descirption"
+                class="section__description"
               >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
             </div>
           </section>
@@ -260,6 +267,7 @@
             <div class="section__img"></div>
             <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
+               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
               <p></p>
               <div class="d-flex align-items-center">
@@ -270,9 +278,9 @@
                 Digital
                 <br />transformation
               </h1>
-              <div class="section__line"></div>
+              <div class="section__line mb-3"></div>
               <p
-                class="section__descirption"
+                class="section__description"
               >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
             </div>
           </section>
@@ -282,6 +290,7 @@
             <div class="section__img"></div>
             <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
+               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
               <p></p>
               <div class="d-flex align-items-center">
@@ -292,9 +301,9 @@
                 Digital
                 <br />transformation
               </h1>
-              <div class="section__line"></div>
+              <div class="section__line mb-3"></div>
               <p
-                class="section__descirption"
+                class="section__description"
               >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
             </div>
           </section>
@@ -310,7 +319,7 @@
       </div>
     </div>
     <div class="container-fluid position-relative caseHistory my-5">
-      <div class="caseHistory__body py-5 py-lg-0">
+      <div class="caseHistory__body">
         <h6 class="caseHistory__name">CASE HISTORY</h6>
         <h1 class="caseHistory__title mb-lg-5">Tra gli ultimi lavori realizzati</h1>
 
@@ -368,7 +377,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12 d-flex align-items-center py-5">
+          <div class="col-lg-12 d-inline-block align-items-center py-5">
             <g-image src="~/assets/images/logo/vue.png" class="tools__logo" />
             <g-image src="~/assets/images/logo/react.png" class="tools__logo" />
             <g-image src="~/assets/images/logo/angular.png" class="tools__logo" />
@@ -384,7 +393,7 @@
         <div class="col-lg-10 ml-auto position-relative">
           <div class="cta">
             <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
-            <div class="d-flex align-items-center justify-content-between">
+            <div class="d-lg-flex align-items-center justify-content-between">
               <h1 class="cta__title">
                 Pronto a realizzare la tua prossima
                 <span class="text-primary">innovazione</span>?
@@ -544,48 +553,48 @@
                   class="values__description"
                 >Rimanere al passo con i tempi ed utilizzare i migliori strumenti fa parte del nostro lavoro.</p>
               </div>
-              <div class="container-values">
-                <div class="value mx-2 mx-lg-0 mr-lg-4 mb-4">
+              <div class="container-values d-flex flex-wrap justify-content-end">
+                <div class="value mx-1 mx-lg-0 mr-lg-4 mb-4">
                   <g-image src="~/assets/images/icons/trasparenza.svg" class="value__icon" />
                   <h2 class="value__title">Trasparenza</h2>
                   <p
                     class="value__description"
                   >I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione e realizzazione.</p>
                 </div>
-                <div class="value value--2 mx-2 mx-lg-0 mr-lg-4 mb-4">
-                  <g-image src="~/assets/images/icons/trasparenza.svg" class="value__icon" />
-                  <h2 class="value__title">Trasparenza</h2>
+                <div class="value value--2 mx-1 mx-lg-0 mr-lg-4 mb-4">
+                  <g-image src="~/assets/images/icons/curiosita.svg" class="value__icon" />
+                  <h2 class="value__title">Curiosità</h2>
                   <p
                     class="value__description"
-                  >I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione e realizzazione.</p>
+                  >Siamo una squadra appassionata sempre alla ricerca di sfide nuove ed importanti.</p>
                 </div>
-                <div class="value mx-2 mx-lg-0 mr-lg-4 mb-4">
-                  <g-image src="~/assets/images/icons/trasparenza.svg" class="value__icon" />
-                  <h2 class="value__title">Trasparenza</h2>
+                <div class="value mx-1 mx-lg-0 mr-lg-4 mb-4">
+                  <g-image src="~/assets/images/icons/disponibilita.svg" class="value__icon" />
+                  <h2 class="value__title">Disponibilità</h2>
                   <p
                     class="value__description"
-                  >I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione e realizzazione.</p>
+                  >Siamo aperti ad ogni sfida e ad ogni tipo di suggerimento per ascoltare e comprendere tutte le esigenze dei nostri clienti.</p>
                 </div>
-                <div class="value value--2 mx-2 mx-lg-0 mr-lg-4 mb-4">
-                  <g-image src="~/assets/images/icons/trasparenza.svg" class="value__icon" />
-                  <h2 class="value__title">Trasparenza</h2>
+                <div class="value value--2 mx-1 mx-lg-0 mr-lg-4 mb-4">
+                  <g-image src="~/assets/images/icons/positivita.svg" class="value__icon" />
+                  <h2 class="value__title">Positività</h2>
                   <p
                     class="value__description"
-                  >I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione e realizzazione.</p>
+                  >Cerchiamo di non rinunciare mai al sorriso, ingrendiente fondamentale per rispondere al meglio alle sfide quotidiane.</p>
                 </div>
-                <div class="value mx-2 mx-lg-0 mr-lg-4 mb-4">
-                  <g-image src="~/assets/images/icons/trasparenza.svg" class="value__icon" />
-                  <h2 class="value__title">Trasparenza</h2>
+                <div class="value mx-1 mx-lg-0 mr-lg-4 mb-4">
+                  <g-image src="~/assets/images/icons/caffe.svg" class="value__icon" />
+                  <h2 class="value__title">Caffè</h2>
                   <p
                     class="value__description"
-                  >I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione e realizzazione.</p>
+                  >Litri e litri di caffè che ci aiutano a svolgere al meglio il nostro lavoro! ;)</p>
                 </div>
-                <div class="value value--2 mx-2 mx-lg-0 mr-lg-4 mb-4">
-                  <g-image src="~/assets/images/icons/trasparenza.svg" class="value__icon" />
-                  <h2 class="value__title">Trasparenza</h2>
+                <div class="value value--2 mx-1 mx-lg-0 mr-lg-4 mb-4">
+                  <g-image src="~/assets/images/icons/metodo.svg" class="value__icon" />
+                  <h2 class="value__title">Metodo</h2>
                   <p
                     class="value__description"
-                  >I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione e realizzazione.</p>
+                  >Il nostro approccio olistico ci permette di arrivare, insieme ai nostri clienti, ai migliori risultati, nei tempi stabiliti.</p>
                 </div>
               </div>
             </div>
@@ -704,7 +713,7 @@ export default {
             .to("#js-slideContainer", 1, { x: "-20%" })
             .to("#js-slideContainer", 1, { x: "-40%" })
             .to("#js-slideContainer", 1, { x: "-60%" })
-            .to("#js-slideContainer", 1, { x: "-74%" });
+            .to("#js-slideContainer", 1, { x: "-63%" });
 
           // create scene to pin and link animation
           new ScrollMagic.Scene({
@@ -781,9 +790,16 @@ export default {
   height: 464px;
   margin-top: -20px;
   margin-right: -169px;
+  @media screen and (max-width: 1200px) {
+ margin-right: -109px;
+  }
+   @media screen and (max-width: 1025px) {
+ margin-right: -46px;
+  }
   @media screen and (max-width: 992px) {
     width: 100%;
     height: 210px;
+    
   }
   &__deco {
     position: absolute;
@@ -800,6 +816,7 @@ export default {
   top: 0;
   width: 100%;
   height: 100%;
+  z-index:2;
   // min-width: 100%;
   // min-height: 100%;
 }
@@ -841,12 +858,13 @@ export default {
   &__title {
     position: relative;
     z-index: 1;
+    font-family: "Lexend Deca";	font-size: 80px;	letter-spacing: -3.61px;	line-height: 82px;
     @media screen and (max-width: 992px) {
       font-size: 40px !important;
     }
   }
   &__description {
-    font-size: 22px;
+   font-family: "Lexend Deca";	font-size: 22px;	letter-spacing: -0.44px;	line-height: 27px;
   }
   &__partnership {
     position: absolute;
@@ -856,8 +874,14 @@ export default {
   }
   &__partnershipLogo {
     width: 210px;
+    @media screen and (max-width: 1025px) {
+      width: 160px;
+    }
     @media screen and (max-width: 992px) {
       width: 80px;
+    }
+    @media screen and (max-width: 370px) {
+      width: 70px;
     }
   }
 }
@@ -912,8 +936,8 @@ export default {
   perspective: 1000;
   /* background: #F64747; */
   padding-left: 5%;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 8%;
+  padding-bottom: 8%;
   @media screen and (max-width: 992px) {
     padding-left: 5%;
     padding-top: 200px;
@@ -923,8 +947,8 @@ export default {
 .wrapper2 {
   background-color: #111111;
   padding-left: 10%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+   padding-top: 6%;
+  padding-bottom: 6%;
   color: #fff;
   @media screen and (max-width: 992px) {
     height: 68vh;
@@ -936,8 +960,9 @@ export default {
   width: calc(100% / 5);
   float: left;
   position: relative;
+  
   @media screen and (max-width: 992px) {
-    height: 300px;
+    height: 525px;
     width: 100%;
   }
   &__img {
@@ -953,8 +978,16 @@ export default {
     top: 0;
     background-image: url("~@/assets/images/bg-pic.png");
   }
+  &--2{
+    .section__img{
+      height: 450px;
+      @media screen and (max-width: 992px) {
+       height: 300px;
+    }
+    }
+  }
   &__body {
-    width: 662px;
+    width: 50%;
     height: 400px;
     background-color: #eceff8;
     position: absolute;
@@ -962,6 +995,17 @@ export default {
     left: 200px;
     padding: 90px 50px;
     border-radius: 8px;
+    z-index: 1;
+    &:before{
+      content: '';
+      background-color: #eceff8;
+      position: absolute;
+      height: 100px;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      z-index: 2;
+    }
     @media screen and (max-width: 992px) {
       width: 90%;
       left: 20px;
@@ -970,10 +1014,24 @@ export default {
     }
     // overflow-x: hidden;
   }
+  &__shadow{
+   
+    position: absolute;
+    box-shadow: 0 19px 56px 0 rgba(25,25,141,0.18);
+    width: 84%;
+    left: 8%;
+    right: 8%;
+    bottom: 0;
+    height: 50px;
+    z-index: 0;
+  }
   &__deco {
     position: absolute;
     top: 50px;
     left: 200px;
+    @media screen and (max-width: 992px) {
+      width: 180px !important;
+    }
   }
   &__icon {
     position: absolute;
@@ -998,15 +1056,21 @@ export default {
     font-size: 40px !important;
     letter-spacing: -1.47px;
     line-height: 42px;
+    z-index: 4;
+    position: relative;
   }
   &__description {
     font-size: 18px;
     font-weight: 300;
+    z-index: 4;
+    position: relative;
   }
   &__line {
     height: 1px;
     width: 30px;
     border: 3px solid #000000;
+    z-index: 4;
+    position: relative;
   }
   &__textBg {
     color: #ffffff;
@@ -1027,15 +1091,21 @@ export default {
   }
 }
 .section:nth-child(3) {
-  // background: #f9690e;
+  // background: #22a7f0;
   @media screen and (min-width: 992px) {
-  }
-  .section:nth-child(4) {
-    // background: #9b59b6;
     margin-left: -4%;
   }
-  .section:nth-child(5) {
-    // background: #03c9a9;
+}
+.section:nth-child(4) {
+  // background: #22a7f0;
+  @media screen and (min-width: 992px) {
+    margin-left: -4%;
+  }
+}
+.section:nth-child(5) {
+  // background: #22a7f0;
+  @media screen and (min-width: 992px) {
+    margin-left: -4%;
   }
 }
 .section2 {
@@ -1049,6 +1119,12 @@ export default {
   @media screen and (max-width: 992px) {
     height: 440px;
     width: 100%;
+    padding: 0 100px;
+  }
+  @media screen and (max-width: 576px) {
+    height: 440px;
+    width: 100%;
+    padding: 0;
   }
   &__num {
     font-size: 146px !important;
@@ -1061,6 +1137,11 @@ export default {
     width: 20%;
     @media screen and (max-width: 992px) {
       position: absolute;
+
+      width: 70%;
+      bottom: 0;
+    }
+    @media screen and (max-width: 576px) {
       width: 90%;
       bottom: 32px;
     }
@@ -1073,6 +1154,10 @@ export default {
     background-position: center;
     background-image: url("https://images.unsplash.com/photo-1441471349424-351990746ff4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     @media screen and (max-width: 992px) {
+      height: 320px;
+      width: 400px;
+    }
+    @media screen and (max-width: 576px) {
       height: 250px;
       width: 240px;
     }
@@ -1082,7 +1167,7 @@ export default {
     bottom: 0;
     right: 0;
     @media screen and (max-width: 992px) {
-      width: 60%;
+      width: 60% !important;
     }
   }
   &__textBg {
@@ -1149,7 +1234,10 @@ export default {
 .caseHistory {
   height: 1100px;
   @media screen and (max-width: 992px) {
-    height: 1000px;
+    height: 880px;
+  }
+  @media screen and (max-width: 576px) {
+    height: 1060px;
   }
   &__body {
     padding: 76px 80px;
@@ -1161,7 +1249,11 @@ export default {
     width: 70%;
     height: 100%;
     @media screen and (max-width: 992px) {
-      padding: 20px 25px;
+      padding: 50px 20px;
+      width: 100%;
+    }
+     @media screen and (max-width: 576px) {
+      padding: 50px 20px;
       width: 100%;
     }
   }
@@ -1169,6 +1261,9 @@ export default {
     width: 85%;
     padding-left: 240px;
     padding-top: 80px;
+    @media screen and (max-width: 1025px) {
+    width: 95%;
+  }
     @media screen and (max-width: 992px) {
       width: 100%;
       padding-left: 0px;
@@ -1318,7 +1413,7 @@ export default {
   &__logo {
     width: 105px;
     @media screen and (max-width: 992px) {
-      width: 55px;
+      width: 70px;
     }
   }
   &__icon {
@@ -1337,9 +1432,14 @@ export default {
   padding: 31px 130px;
   position: absolute;
   bottom: -30px;
-  
+
   @media screen and (max-width: 992px) {
     padding: 30px;
+    bottom: -80px;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 30px;
+    bottom: -150px;
   }
   &__title {
     color: #232323;
@@ -1356,7 +1456,10 @@ export default {
   &--black {
     background-color: #000000;
     color: #fff;
-    .cta__title{
+    @media screen and (max-width: 992px) {
+      bottom: -70px;
+    }
+    .cta__title {
       color: #fff;
     }
   }
@@ -1366,7 +1469,7 @@ export default {
   color: #fff;
   padding: 145px 0px;
   @media screen and (max-width: 992px) {
-    padding: 50px 0px;
+    padding: 200px 0px 100px;
   }
   &__title {
     font-family: "Lexend Deca";
@@ -1389,6 +1492,7 @@ export default {
   position: relative;
   @media screen and (max-width: 992px) {
     height: auto;
+    width: 80%;
   }
   &:before {
     content: "";
@@ -1441,11 +1545,18 @@ export default {
   width: 226px;
   position: relative;
   z-index: 1;
+  @media screen and (min-width: 992px) {
+height: 299px;
+  }
   @media screen and (max-width: 992px) {
-    width: 150px;
+    width: 155px;
     padding: 20px 14px;
   }
-  display: inline-block;
+  @media screen and (max-width: 370px) {
+    width: 138px;
+    padding: 20px 10px;
+  }
+  // display: inline-block;
   box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.2);
   &--2 {
     background-color: #f9f9fa;
@@ -1468,6 +1579,7 @@ export default {
     font-weight: 300;
     letter-spacing: -0.15px;
     line-height: 20px;
+    height: 118px;
   }
 }
 .container-values {
@@ -1475,6 +1587,10 @@ export default {
   text-align: right;
   @media screen and (max-width: 992px) {
     width: 144%;
+    text-align: center;
+  }
+  @media screen and (max-width: 992px) {
+    width: 126%;
   }
 }
 .idea {

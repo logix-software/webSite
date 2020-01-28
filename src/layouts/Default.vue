@@ -53,8 +53,11 @@ h5,
 h6 {
   font-family: "Lexend Deca", sans-serif;
 }
-.btn {
+.btn-nvbar {
   padding: 0.375rem 1.4rem;
+}
+.btn {
+  padding: 0.575rem 1.4rem;
 }
 .btn-primary {
   border-radius: 0!important;
@@ -68,8 +71,8 @@ h6 {
   &:hover {
     border: 1px solid transparent;
     background-color: #ffffff!important;
-    box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.18) !important;
-    color: #3838c4;
+    box-shadow: 0 19px 56px 0 rgba(25,25,141,0.18)!important;
+    color: #3838c4!important;
   }
   &:focus,
   &:active {
@@ -89,7 +92,7 @@ h6 {
   box-shadow: none !important;
   border: 1px solid transparent;
   &:hover {
-    border: 1px solid transparent;
+    border: 1px solid transparent!important;
     background-color: #e0e7fc!important;
     box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.18) !important;
     color: #3838c4!important;
@@ -98,7 +101,7 @@ h6 {
   &:active {
     box-shadow: none !important;
     color: #3838c4 !important;
-    border: 1px solid #3838c4;
+    border: 1px solid #3838c4!important;
     background-color: #ffffff !important;
   }
 }
@@ -112,7 +115,7 @@ h6 {
   box-shadow: none !important;
   border: 1px solid transparent;
   &:hover {
-    border: 1px solid transparent;
+    border: 1px solid transparent!important;
     background-color: #eceafd!important;
     box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.18) !important;
     color: #3838c4!important;
@@ -121,7 +124,7 @@ h6 {
   &:active {
     box-shadow: none !important;
     color: #3838c4 !important;
-    border: 1px solid #3838c4;
+    border: 1px solid #3838c4!important;
     background-color: #ffffff !important;
   }
 }
