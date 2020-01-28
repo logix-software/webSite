@@ -310,13 +310,14 @@
       </div>
     </div>
     <div class="container-fluid position-relative caseHistory my-5">
-      <div class="caseHistory__body">
+      <div class="caseHistory__body py-5 py-lg-0">
         <h6 class="caseHistory__name">CASE HISTORY</h6>
         <h1 class="caseHistory__title mb-lg-5">Tra gli ultimi lavori realizzati</h1>
 
         <div class="position-relative caseHistory__container">
           <div class="caseHistory__img mb-4 mb-lg-0">
             <h1 class="caseHistory__textBg">Education</h1>
+            <g-image src="~/assets/images/deco-plane.svg" class="caseHistory__deco2" />
           </div>
           <div class="position-relative">
             <g-image src="~/assets/images/deco3.svg" class="caseHistory__deco" />
@@ -368,10 +369,12 @@
         </div>
         <div class="row">
           <div class="col-lg-12 d-flex align-items-center py-5">
-            <g-image src="~/assets/images/logo-aosp.png" class="tools__logo" />
-            <g-image src="~/assets/images/logo-ast.png" class="tools__logo" />
-            <g-image src="~/assets/images/logo-cogne.png" class="tools__logo" />
-            <g-image src="~/assets/images/logo-umbriadigitale.png" class="tools__logo" />
+            <g-image src="~/assets/images/logo/vue.png" class="tools__logo" />
+            <g-image src="~/assets/images/logo/react.png" class="tools__logo" />
+            <g-image src="~/assets/images/logo/angular.png" class="tools__logo" />
+            <g-image src="~/assets/images/logo/ionic.png" class="tools__logo" />
+            <g-image src="~/assets/images/logo/net.png" class="tools__logo" />
+            <g-image src="~/assets/images/logo/java.png" class="tools__logo" />
           </div>
         </div>
       </div>
@@ -404,133 +407,223 @@
         </div>
       </div>
       <div v-if="deviceWidth > 992">
-      <div class="wrapper2" id="js-wrapper2">
-        <div class="sections2" id="js-slideContainer2">
-          <section class="section2">
-            <div class="d-flex align-items-start">
-              <h1 class="section2__num mx-2 mx-lg-0">1</h1>
-              <div>
-                <div class="section2__img mx-2 mx-lg-3">
-                  <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                  <h1 class="section2__textBg">Made in Italy</h1>
+        <div class="wrapper2" id="js-wrapper2">
+          <div class="sections2" id="js-slideContainer2">
+            <section class="section2">
+              <div class="d-flex align-items-start">
+                <h1 class="section2__num mx-2 mx-lg-0">1</h1>
+                <div>
+                  <div class="section2__img mx-2 mx-lg-3">
+                    <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                    <h1 class="section2__textBg">Made in Italy</h1>
+                  </div>
+                </div>
+                <div class="section2__body ml-3">
+                  <h1 class="section2__title">Made in Italy</h1>
+                  <p
+                    class="section2__description"
+                  >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
                 </div>
               </div>
-              <div class="section2__body ml-3">
-                <h1 class="section2__title">Made in Italy</h1>
-                <p
-                  class="section2__description"
-                >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
-              </div>
-            </div>
-            <span id="trigger2--title1"></span>
-          </section>
-          <section class="section2">
-            <div class="d-flex align-items-start">
-              <h1 class="section2__num mx-2 mx-lg-0">1</h1>
-              <div>
-                <div class="section2__img mx-2 mx-lg-3">
-                  <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                  <h1 class="section2__textBg">Made in Italy</h1>
+              <span id="trigger2--title1"></span>
+            </section>
+            <section class="section2">
+              <div class="d-flex align-items-start">
+                <h1 class="section2__num mx-2 mx-lg-0">1</h1>
+                <div>
+                  <div class="section2__img mx-2 mx-lg-3">
+                    <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                    <h1 class="section2__textBg">Made in Italy</h1>
+                  </div>
+                </div>
+                <div class="section2__body ml-3">
+                  <h1 class="section2__title">Made in Italy</h1>
+                  <p
+                    class="section2__description"
+                  >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
                 </div>
               </div>
-              <div class="section2__body ml-3">
-                <h1 class="section2__title">Made in Italy</h1>
-                <p
-                  class="section2__description"
-                >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
-              </div>
-            </div>
-            <span id="trigger2--title2"></span>
-          </section>
-          <section class="section2">
-            <div class="d-flex align-items-start">
-              <h1 class="section2__num mx-2 mx-lg-0">1</h1>
-              <div>
-                <div class="section2__img mx-2 mx-lg-3">
-                  <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                  <h1 class="section2__textBg">Made in Italy</h1>
+              <span id="trigger2--title2"></span>
+            </section>
+            <section class="section2">
+              <div class="d-flex align-items-start">
+                <h1 class="section2__num mx-2 mx-lg-0">1</h1>
+                <div>
+                  <div class="section2__img mx-2 mx-lg-3">
+                    <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                    <h1 class="section2__textBg">Made in Italy</h1>
+                  </div>
+                </div>
+                <div class="section2__body ml-3">
+                  <h1 class="section2__title">Made in Italy</h1>
+                  <p
+                    class="section2__description"
+                  >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
                 </div>
               </div>
-              <div class="section2__body ml-3">
-                <h1 class="section2__title">Made in Italy</h1>
-                <p
-                  class="section2__description"
-                >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+              <span id="trigger2--title3"></span>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div v-else>
+        <div class="owl-carousel owl-theme owl-carousel-causes">
+          <div class="item">
+            <section class="section2">
+              <div class="d-flex align-items-start">
+                <h1 class="section2__num mx-2 mx-lg-0">1</h1>
+                <div>
+                  <div class="section2__img mx-2 mx-lg-3">
+                    <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                    <h1 class="section2__textBg">Made in Italy</h1>
+                  </div>
+                </div>
+                <div class="section2__body ml-3">
+                  <h1 class="section2__title">Made in Italy</h1>
+                  <p
+                    class="section2__description"
+                  >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+                </div>
               </div>
-            </div>
-            <span id="trigger2--title3"></span>
-          </section>
+              <span id="trigger2--title1"></span>
+            </section>
+          </div>
+          <div class="item">
+            <section class="section2">
+              <div class="d-flex align-items-start">
+                <h1 class="section2__num mx-2 mx-lg-0">1</h1>
+                <div>
+                  <div class="section2__img mx-2 mx-lg-3">
+                    <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                    <h1 class="section2__textBg">Made in Italy</h1>
+                  </div>
+                </div>
+                <div class="section2__body ml-3">
+                  <h1 class="section2__title">Made in Italy</h1>
+                  <p
+                    class="section2__description"
+                  >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+                </div>
+              </div>
+              <span id="trigger2--title1"></span>
+            </section>
+          </div>
+          <div class="item">
+            <section class="section2">
+              <div class="d-flex align-items-start">
+                <h1 class="section2__num mx-2 mx-lg-0">1</h1>
+                <div>
+                  <div class="section2__img mx-2 mx-lg-3">
+                    <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                    <h1 class="section2__textBg">Made in Italy</h1>
+                  </div>
+                </div>
+                <div class="section2__body ml-3">
+                  <h1 class="section2__title">Made in Italy</h1>
+                  <p
+                    class="section2__description"
+                  >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+                </div>
+              </div>
+              <span id="trigger2--title1"></span>
+            </section>
+          </div>
         </div>
       </div>
     </div>
-    <div v-else>
-      <div class="owl-carousel owl-theme owl-carousel-causes">
-        <div class="item">
-          <section class="section2">
-            <div class="d-flex align-items-start">
-              <h1 class="section2__num mx-2 mx-lg-0">1</h1>
-              <div>
-                <div class="section2__img mx-2 mx-lg-3">
-                  <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                  <h1 class="section2__textBg">Made in Italy</h1>
-                </div>
-              </div>
-              <div class="section2__body ml-3">
-                <h1 class="section2__title">Made in Italy</h1>
-                <p
-                  class="section2__description"
-                >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
-              </div>
-            </div>
-            <span id="trigger2--title1"></span>
-          </section>
-        </div>
-        <div class="item">
-          <section class="section2">
-            <div class="d-flex align-items-start">
-              <h1 class="section2__num mx-2 mx-lg-0">1</h1>
-              <div>
-                <div class="section2__img mx-2 mx-lg-3">
-                  <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                  <h1 class="section2__textBg">Made in Italy</h1>
-                </div>
-              </div>
-              <div class="section2__body ml-3">
-                <h1 class="section2__title">Made in Italy</h1>
-                <p
-                  class="section2__description"
-                >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
-              </div>
-            </div>
-            <span id="trigger2--title1"></span>
-          </section>
-        </div>
-        <div class="item">
-          <section class="section2">
-            <div class="d-flex align-items-start">
-              <h1 class="section2__num mx-2 mx-lg-0">1</h1>
-              <div>
-                <div class="section2__img mx-2 mx-lg-3">
-                  <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                  <h1 class="section2__textBg">Made in Italy</h1>
-                </div>
-              </div>
-              <div class="section2__body ml-3">
-                <h1 class="section2__title">Made in Italy</h1>
-                <p
-                  class="section2__description"
-                >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
-              </div>
-            </div>
-            <span id="trigger2--title1"></span>
-          </section>
-        </div>
-      </div>
-    </div>
-    </div>
-    
-
     <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="values py-5">
+            <div class="values__body">
+              <g-image src="~/assets/images/deco2.svg" class="values__deco" />
+              <div class="w-75 mb-5">
+                <h6 class="values__name">VALORI</h6>
+                <h1 class="values__title">Cosa non dimentichiamo mai</h1>
+                <p
+                  class="values__description"
+                >Rimanere al passo con i tempi ed utilizzare i migliori strumenti fa parte del nostro lavoro.</p>
+              </div>
+              <div class="container-values">
+                <div class="value mx-2 mx-lg-0 mr-lg-4 mb-4">
+                  <g-image src="~/assets/images/icons/trasparenza.svg" class="value__icon" />
+                  <h2 class="value__title">Trasparenza</h2>
+                  <p
+                    class="value__description"
+                  >I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione e realizzazione.</p>
+                </div>
+                <div class="value value--2 mx-2 mx-lg-0 mr-lg-4 mb-4">
+                  <g-image src="~/assets/images/icons/trasparenza.svg" class="value__icon" />
+                  <h2 class="value__title">Trasparenza</h2>
+                  <p
+                    class="value__description"
+                  >I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione e realizzazione.</p>
+                </div>
+                <div class="value mx-2 mx-lg-0 mr-lg-4 mb-4">
+                  <g-image src="~/assets/images/icons/trasparenza.svg" class="value__icon" />
+                  <h2 class="value__title">Trasparenza</h2>
+                  <p
+                    class="value__description"
+                  >I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione e realizzazione.</p>
+                </div>
+                <div class="value value--2 mx-2 mx-lg-0 mr-lg-4 mb-4">
+                  <g-image src="~/assets/images/icons/trasparenza.svg" class="value__icon" />
+                  <h2 class="value__title">Trasparenza</h2>
+                  <p
+                    class="value__description"
+                  >I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione e realizzazione.</p>
+                </div>
+                <div class="value mx-2 mx-lg-0 mr-lg-4 mb-4">
+                  <g-image src="~/assets/images/icons/trasparenza.svg" class="value__icon" />
+                  <h2 class="value__title">Trasparenza</h2>
+                  <p
+                    class="value__description"
+                  >I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione e realizzazione.</p>
+                </div>
+                <div class="value value--2 mx-2 mx-lg-0 mr-lg-4 mb-4">
+                  <g-image src="~/assets/images/icons/trasparenza.svg" class="value__icon" />
+                  <h2 class="value__title">Trasparenza</h2>
+                  <p
+                    class="value__description"
+                  >I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione e realizzazione.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="idea py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-5 mx-auto text-center py-5">
+            <h1 class="idea__title mb-3">Sei sicuro della tua nuova idea?</h1>
+            <p class="idea__descrition mb-5">
+              When you enter into any new area of science, you almost
+              always find yourself with a baffling new language.
+            </p>
+            <a href="http://" class="btn btn-primary mr-lg-3">Certo</a>
+            <a href="http://" class="btn btn-secondary">Abbastanza</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-10 ml-auto position-relative">
+          <div class="cta cta--black">
+            <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
+            <div class="d-flex align-items-center justify-content-between w-75">
+              <h1 class="cta__title">
+                Pronto a realizzare la tua prossima
+                <span class="text-secondary">innovazione</span>?
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container">
       <h1>List articles</h1>
       <div v-for="article in $page.articles.edges" :key="article.id" class="article d-lg-flex">
         <div>
@@ -561,7 +654,7 @@
           <p class="article__abstract">{{article.node.abstract}}</p>
         </div>
       </div>
-    </div>
+    </div>-->
   </Layout>
 </template>
 <page-query>
@@ -627,11 +720,11 @@ export default {
       }, 500);
     } else {
       setTimeout(function() {
-      $(".owl-carousel-services").owlCarousel({
-        loop: true,
-        nav: false,
-        items: 1
-      });
+        $(".owl-carousel-services").owlCarousel({
+          loop: true,
+          nav: false,
+          items: 1
+        });
       }, 500);
     }
     if (this.deviceWidth > 992) {
@@ -660,16 +753,14 @@ export default {
         });
       }, 500);
     } else {
-       setTimeout(function() {
-      $(".owl-carousel-causes").owlCarousel({
-        loop: true,
-        nav: false,
-        items: 1
-      });
-       }, 500);
+      setTimeout(function() {
+        $(".owl-carousel-causes").owlCarousel({
+          loop: true,
+          nav: false,
+          items: 1
+        });
+      }, 500);
     }
-
- 
   }
 };
 </script>
@@ -1109,6 +1200,11 @@ export default {
       z-index: 0;
     }
   }
+  &__deco2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
   &__img {
     &:before {
       content: "";
@@ -1241,6 +1337,7 @@ export default {
   padding: 31px 130px;
   position: absolute;
   bottom: -30px;
+  
   @media screen and (max-width: 992px) {
     padding: 30px;
   }
@@ -1255,6 +1352,13 @@ export default {
     position: absolute;
     left: -150px;
     top: 35px;
+  }
+  &--black {
+    background-color: #000000;
+    color: #fff;
+    .cta__title{
+      color: #fff;
+    }
   }
 }
 .cause {
@@ -1274,6 +1378,119 @@ export default {
     font-size: 21px;
     font-weight: 300;
     letter-spacing: -0.21px;
+    line-height: 25px;
+  }
+}
+.values {
+  background-color: #111111;
+  color: #fff;
+  height: 740px;
+  width: 70%;
+  position: relative;
+  @media screen and (max-width: 992px) {
+    height: auto;
+  }
+  &:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #111111;
+    position: absolute;
+    left: -50%;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+  &__body {
+    position: relative;
+    z-index: 1;
+  }
+  &__name {
+    font-family: Lato;
+    font-size: 16px;
+    letter-spacing: 0.94px;
+    line-height: 25px;
+    color: #fff;
+  }
+  &__title {
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -1.47px;
+    color: #fff;
+  }
+  &__description {
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 300;
+    letter-spacing: -0.21px;
+    line-height: 25px;
+    color: #fff;
+  }
+  &__deco {
+    position: absolute;
+    right: 100px;
+    bottom: 40px;
+  }
+}
+.value {
+  background-color: #f0fffb;
+  text-align: center;
+  border-radius: 3px;
+  padding: 36px 24px;
+  width: 226px;
+  position: relative;
+  z-index: 1;
+  @media screen and (max-width: 992px) {
+    width: 150px;
+    padding: 20px 14px;
+  }
+  display: inline-block;
+  box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.2);
+  &--2 {
+    background-color: #f9f9fa;
+  }
+  &__icon {
+    height: 53px;
+    width: 53px;
+  }
+  &__title {
+    color: #141414;
+    font-size: 22px !important;
+    font-weight: bold;
+    letter-spacing: -0.77px;
+    line-height: 32px;
+  }
+  &__description {
+    font-family: Lato;
+    color: #141414;
+    font-size: 15px !important;
+    font-weight: 300;
+    letter-spacing: -0.15px;
+    line-height: 20px;
+  }
+}
+.container-values {
+  width: 129%;
+  text-align: right;
+  @media screen and (max-width: 992px) {
+    width: 144%;
+  }
+}
+.idea {
+  background-color: #f6f7fa;
+  color: #020202;
+  &__idea {
+    font-family: "Lexend Deca";
+    font-size: 56px;
+    letter-spacing: -1.91px;
+    line-height: 58px;
+  }
+  &__description {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.18px;
     line-height: 25px;
   }
 }

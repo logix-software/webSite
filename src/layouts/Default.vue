@@ -30,25 +30,19 @@ body {
   overflow-x: hidden;
 }
 p {
-  font-size: 21px!important;
+  
 }
 h1 {
-  font-size: 80px!important;
 }
 h2 {
-  font-size: 56px!important;
 }
 h3 {
-  font-size: 40px!important;
 }
 h4 {
-  font-size: 35px!important;
 }
 h5 {
-  font-size: 22px!important;
 }
 h6 {
-  font-size: 20px!important;
 }
 
 h1,
@@ -133,6 +127,9 @@ h6 {
 }
 .text-primary{
   color: #3838c4 !important;
+}
+.text-secondary{
+  color: #36F2B9 !important;
 }
 .owl-dots{
   margin-top: 40px!important;
