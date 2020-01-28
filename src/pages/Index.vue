@@ -396,7 +396,7 @@
             <div class="d-lg-flex align-items-center justify-content-between">
               <h1 class="cta__title">
                 Pronto a realizzare la tua prossima
-                <span class="text-primary">innovazione</span>?
+                <span class="text-blue">innovazione</span>?
               </h1>
               <a href="http://" class="btn btn-primary">Contattaci</a>
             </div>
@@ -625,7 +625,7 @@
             <div class="d-flex align-items-center justify-content-between w-75">
               <h1 class="cta__title">
                 Pronto a realizzare la tua prossima
-                <span class="text-secondary">innovazione</span>?
+                <span class="text-green">innovazione</span>?
               </h1>
             </div>
           </div>

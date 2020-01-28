@@ -54,10 +54,10 @@ h6 {
   font-family: "Lexend Deca", sans-serif;
 }
 .btn-nvbar {
-  padding: 0.375rem 1.4rem;
+  padding: 0.375rem 1.4rem!important;
 }
 .btn {
-  padding: 0.575rem 1.4rem;
+  padding: 0.575rem 1.4rem!important;
 }
 .btn-primary {
   border-radius: 0!important;
@@ -85,7 +85,7 @@ h6 {
 .btn-secondary {
   border-radius: 0!important;
   background-color: #e0e7fc!important;
-  color: #3838c4;
+  color: #3838c4!important;
   font-weight: 700!important;
   font-size: 17px;
   outline: none !important;
@@ -128,10 +128,10 @@ h6 {
     background-color: #ffffff !important;
   }
 }
-.text-primary{
+.text-blue{
   color: #3838c4 !important;
 }
-.text-secondary{
+.text-green{
   color: #36F2B9 !important;
 }
 .owl-dots{
