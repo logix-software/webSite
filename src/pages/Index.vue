@@ -44,7 +44,7 @@
         <div class="col-lg-9 ml-auto">
           <div class="video position-relative">
             <g-image src="~/assets/images/deco2.svg" class="video__deco" />
-            <video autoplay muted loop id="myVideo">
+            <video autoplay loop defaultMuted playsinline id="myVideo" preload="auto">
               <source src="@/assets/images/video.mp4" type="video/mp4" />Your browser does not support HTML5 video.
             </video>
           </div>
@@ -530,7 +530,7 @@
     </div>
     
 
-    <!-- <div class="container">
+    <div class="container">
       <h1>List articles</h1>
       <div v-for="article in $page.articles.edges" :key="article.id" class="article d-lg-flex">
         <div>
@@ -561,7 +561,7 @@
           <p class="article__abstract">{{article.node.abstract}}</p>
         </div>
       </div>
-    </div>-->
+    </div>
   </Layout>
 </template>
 <page-query>
