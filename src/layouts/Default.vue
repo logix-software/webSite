@@ -67,9 +67,9 @@ h6 {
   font-size: 17px;
   outline: none !important;
   box-shadow: none !important;
-  border: 1px solid transparent;
+  border: 1px solid transparent!important;
   &:hover {
-    border: 1px solid transparent;
+    border: 1px solid transparent!important;
     background-color: #ffffff!important;
     box-shadow: 0 19px 56px 0 rgba(25,25,141,0.18)!important;
     color: #3838c4!important;
@@ -90,7 +90,7 @@ h6 {
   font-size: 17px;
   outline: none !important;
   box-shadow: none !important;
-  border: 1px solid transparent;
+  border: 1px solid transparent!important;
   &:hover {
     border: 1px solid transparent!important;
     background-color: #e0e7fc!important;
@@ -113,7 +113,7 @@ h6 {
   font-size: 17px;
   outline: none !important;
   box-shadow: none !important;
-  border: 1px solid transparent;
+  border: 1px solid transparent!important;
   &:hover {
     border: 1px solid transparent!important;
     background-color: #eceafd!important;
