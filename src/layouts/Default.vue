@@ -23,12 +23,13 @@ export default {
 };
 </script>
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700|Lato:300,400,700|Lexend+Deca&display=swap");
 body {
   font-family: "Lato", sans-serif;
   // background: #333;
-  overflow-x: hidden;
+  
 }
+html,body{overflow-x: hidden;}
 p {
   
 }
@@ -136,5 +137,54 @@ h6 {
 }
 .owl-dots{
   margin-top: 40px!important;
+}
+.label{
+  padding: 3px 8px;
+  height: 18px;		color: #171756;	font-family: Lato;	font-size: 10px;	letter-spacing: 1px;	line-height: 18px;	text-align: center;
+  &--dev{
+    background-color: #B5F7E3;
+
+  }
+  &--des{
+ background-color: #D0D0FF;
+  }
+}
+.cta {
+  background-color: #ebeff9;
+  padding: 31px 130px;
+  position: absolute;
+  bottom: -30px;
+  box-shadow: 0 19px 56px 0 rgba(0,0,0,0.18);
+
+  @media screen and (max-width: 992px) {
+    padding: 30px;
+    bottom: -80px;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 30px;
+    bottom: -150px;
+  }
+  &__title {
+    color: #232323;
+    font-size: 26px !important;
+    font-weight: 500;
+    letter-spacing: -0.89px;
+    line-height: 32px;
+  }
+  &__deco {
+    position: absolute;
+    left: -150px;
+    top: 35px;
+  }
+  &--black {
+    background-color: #000000;
+    color: #fff;
+    @media screen and (max-width: 992px) {
+      bottom: -70px;
+    }
+    .cta__title {
+      color: #fff;
+    }
+  }
 }
 </style>

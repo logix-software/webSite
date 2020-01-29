@@ -710,10 +710,11 @@ export default {
 
           var horizontalSlide = new TimelineMax()
             // animate panels
-            .to("#js-slideContainer", 1, { x: "-20%" })
-            .to("#js-slideContainer", 1, { x: "-40%" })
+            .to("#js-slideContainer", 1, { x: "-15%" })
+            .to("#js-slideContainer", 1, { x: "-30%" })
+            .to("#js-slideContainer", 1, { x: "-45%" })
             .to("#js-slideContainer", 1, { x: "-60%" })
-            .to("#js-slideContainer", 1, { x: "-63%" });
+            .to("#js-slideContainer", 1, { x: "-62%" });
 
           // create scene to pin and link animation
           new ScrollMagic.Scene({
@@ -1427,43 +1428,7 @@ export default {
     //   }
   }
 }
-.cta {
-  background-color: #ebeff9;
-  padding: 31px 130px;
-  position: absolute;
-  bottom: -30px;
 
-  @media screen and (max-width: 992px) {
-    padding: 30px;
-    bottom: -80px;
-  }
-  @media screen and (max-width: 576px) {
-    padding: 30px;
-    bottom: -150px;
-  }
-  &__title {
-    color: #232323;
-    font-size: 26px !important;
-    font-weight: 500;
-    letter-spacing: -0.89px;
-    line-height: 32px;
-  }
-  &__deco {
-    position: absolute;
-    left: -150px;
-    top: 35px;
-  }
-  &--black {
-    background-color: #000000;
-    color: #fff;
-    @media screen and (max-width: 992px) {
-      bottom: -70px;
-    }
-    .cta__title {
-      color: #fff;
-    }
-  }
-}
 .cause {
   background-color: #111111;
   color: #fff;

@@ -10,8 +10,8 @@
             <g-link to class="nav__link mx-3 py-3">Chi siamo</g-link>
           </li>
           <li class="position-relative py-2 py-lg-0">
-            <g-link to class="nav__link mx-3 py-3">Competenze</g-link>
-            <ul class="dropdown list-unstyled">
+            <g-link to="/competenze" class="nav__link mx-3 py-3">Competenze</g-link>
+            <!-- <ul class="dropdown list-unstyled">
               <li>
                 <g-link class="nav__link mx-3 py-1 d-inline-block" to>link</g-link>
               </li>
@@ -27,7 +27,7 @@
               <li>
                 <g-link class="nav__link mx-3 py-1 d-inline-block" to>link</g-link>
               </li>
-            </ul>
+            </ul> -->
           </li>
           <li class="position-relative py-2 py-lg-0">
             <g-link to class="nav__link mx-3 py-3">Progetti</g-link>

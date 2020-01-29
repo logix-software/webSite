@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61.2 (101010) - https://sketch.com -->
+    <title>F59CBA6F-5E0C-4A7C-BAC2-4CDDE494FD7A@1x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="100" height="100"></rect>
+        <polygon id="path-3" points="0.00015 0.0012 46.719 0.0012 46.719 77.12055 0.00015 77.12055"></polygon>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/advantage/1">
+            <g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="Group-13" mask="url(#mask-2)">
+                    <g transform="translate(15.000000, 11.000000)">
+                        <g id="Group-10">
+                            <polygon id="Stroke-2" stroke="#36F2B9" stroke-width="0.5" points="70 66.7614571 61.4169755 72 61 71.2385429 69.5830245 66"></polygon>
+                            <polygon id="Stroke-5" stroke="#36F2B9" stroke-width="0.5" points="47 66.7614571 38.4169755 72 38 71.2385429 46.5830245 66"></polygon>
+                            <polygon id="Stroke-7" stroke="#36F2B9" stroke-width="0.5" points="23 66.7614571 14.4169755 72 14 71.2385429 22.5830245 66"></polygon>
+                            <polygon id="Stroke-24" stroke="#36F2B9" stroke-width="0.5" points="70 44.7645332 61.4169755 50 61 49.2354668 69.5830245 44"></polygon>
+                            <polygon id="Stroke-27" stroke="#36F2B9" stroke-width="0.5" points="41 44.7645332 32.4169755 50 32 49.2354668 40.5830245 44"></polygon>
+                            <polygon id="Stroke-30" stroke="#36F2B9" stroke-width="0.5" points="17 44.7645332 8.41697554 50 8 49.2354668 16.5830245 44"></polygon>
+                            <polygon id="Fill-53" fill="#FFFFFF" points="63.5830245 72 55 77.2385429 55.4169755 78 64 72.7614571"></polygon>
+                            <polygon id="Fill-54" fill="#FFFFFF" points="40.5830245 72 32 77.2385429 32.4169755 78 41 72.7614571"></polygon>
+                            <polygon id="Fill-55" fill="#FFFFFF" points="16.5830245 72 8 77.2385429 8.41697554 78 17 72.7614571"></polygon>
+                            <polygon id="Fill-63" fill="#FFFFFF" points="55 55.2354668 55.4169755 56 64 50.7645332 63.5830245 50"></polygon>
+                            <polygon id="Fill-64" fill="#FFFFFF" points="41 50.7645332 32.4169755 56 32 55.2354668 40.5830245 50"></polygon>
+                            <polygon id="Fill-65" fill="#FFFFFF" points="17 50.7645332 8.41697554 56 8 55.2354668 16.5830245 50"></polygon>
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M19.64415,9.5367 L33.57765,1.3047 L45.04065,7.9227 L40.25115,10.7517 L31.10715,16.1547 L19.64415,9.5367 Z M30.54765,75.4962 L17.49915,67.9617 L17.49915,36.7002 C17.49915,32.8962 17.57115,29.4027 17.71065,26.3187 L17.73615,25.7742 L8.30715,29.7522 L1.57215,16.3047 L18.47415,10.1607 L30.54765,17.1312 L30.54765,75.4962 Z M16.07265,7.6122 L28.06965,3.2517 L18.28815,9.0312 L17.44065,9.3387 L6.29565,13.3887 L16.07265,7.6122 Z M33.57165,0.0012 L33.33165,0.1407 L15.64065,6.5712 L0.54465,15.4797 L0.00015,15.6777 L7.75515,31.1607 C7.75515,31.1607 15.83115,27.9207 16.53765,27.4467 C16.42965,30.2502 16.37415,33.3552 16.37415,36.7002 L16.37415,68.6127 L31.11315,77.1207 L46.71915,67.9002 L46.71915,7.5912 L33.57165,0.0012 Z" id="Fill-1" fill="#7878F9" mask="url(#mask-4)"></path>
+                        </g>
+                        <g id="Group-9">
+                            <g id="Group-8" transform="translate(8.000000, 44.000000)"></g>
+                            <g id="Group-3"></g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
