@@ -738,5 +738,13 @@ export default {
   @media screen and (max-width: 992px) {
     bottom: -60px;
   }
+  &--black{
+        @media screen and (max-width: 992px) {
+    bottom: -80px;
+  }
+      @media screen and (max-width: 576px) {
+    bottom: -120px;
+  }
+  }
 }
 </style>

@@ -9,8 +9,8 @@
           <li class="position-relative py-2 py-lg-0">
             <g-link to class="nav__link mx-3 py-3">Chi siamo</g-link>
           </li>
-          <li class="position-relative py-2 py-lg-0">
-            <g-link to="/competenze" class="nav__link mx-3 py-3">Competenze</g-link>
+          <li class="position-relative py-2 py-lg-0" >
+            <g-link to="/competenze" class="nav__link mx-3 py-3" >Competenze</g-link>
             <!-- <ul class="dropdown list-unstyled">
               <li>
                 <g-link class="nav__link mx-3 py-1 d-inline-block" to>link</g-link>
@@ -48,14 +48,39 @@
 <script>
 export default {
   name: "Navbar",
+  mounted(){
+    var _this = this;
+    var width = screen.width;
+    
+    if (width < 992 && $('html').hasClass('overflow-hidden')) {
+
+      
+        // _this.hamburger();
+        document.querySelector("html").classList.remove("overflow-hidden");
+     
+    }
+ 
+  },
   methods: {
     hamburger: function(el) {
+       console.log("test2--")
       document
         .querySelector(".hamburger")
         .classList.toggle("hamburger--active");
       document.querySelector("nav").classList.toggle("nav--active");
-      document.querySelector("html, body").classList.toggle("overflow-hidden");
-    }
+      document.querySelector("header").classList.toggle("header--black");
+      document.querySelector("html").classList.toggle("overflow-hidden");
+    },
+
+    // removeOverflow: function(){
+
+    //     document
+    //     .querySelector(".hamburger")
+    //     .classList.toggle("hamburger--active");
+    //   document.querySelector("nav").classList.toggle("nav--active");
+    //   document.querySelector("header").classList.toggle("header--black");
+    //   document.querySelector("html, body").classList.toggle("overflow-hidden");
+    // }
   }
 };
 </script>
@@ -113,6 +138,10 @@ export default {
   top: 0;
   right: 0;
   left: 0;
+  &--black{
+    background-color: #000;
+    z-index: 3;
+  }
   &__logo {
     width: 160px;
     z-index: 9;
@@ -145,7 +174,7 @@ export default {
       padding-top: 30px;
       padding-bottom: 30px;
       opacity: 0;
-      background-color:rgba(0,0,0,.4);
+      background-color:rgba(0,0,0,1);
       height: 100%;
       width: 100%;
       position: fixed;
