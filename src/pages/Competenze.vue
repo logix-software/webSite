@@ -738,7 +738,7 @@ export default {
 
   .container--custom {
     @media screen and (min-width: 992px) {
-      margin-left: 60px;
+    //   margin-left: 60px;
     }
   }
   &__deco {
