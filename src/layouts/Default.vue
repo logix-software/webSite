@@ -187,4 +187,57 @@ h6 {
     }
   }
 }
+.caseHistoryCompetenze {
+  border-radius: 2px;
+  background-color: #f1f5ff;
+  padding: 40px 60px;
+  margin-bottom: -60px;
+  z-index: 1;
+  position: relative;
+  @media screen and (max-width: 992px) {
+    padding: 20px 15px;
+  }
+  &__body {
+    width: 40%;
+    @media screen and (max-width: 992px) {
+      width: 90%;
+    }
+  }
+  &__img {
+    width: 180px;
+  }
+  &__title {
+    color: #ffffff;
+    font-family: "Lexend Deca";
+    font-size: 22px;
+    letter-spacing: -0.44px;
+    line-height: 27px;
+  }
+  &__description {
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: -0.15px;
+    line-height: 17px;
+  }
+  &__tags {
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.59px;
+    line-height: 17px;
+  }
+  &__link {
+    color: #3838c4;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+    min-width: 120px;
+  }
+}
+.bg-black{
+  background-color: #000;
+}
 </style>
