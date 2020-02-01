@@ -18,7 +18,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-black">
+    <div class="bg-black py-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto">
@@ -258,7 +258,7 @@
       <div v-else>
         <div class="owl-carousel owl-theme owl-carousel-steps">
           <div class="item">
-             <div class="step">
+            <div class="step">
               <div class="container container--custom">
                 <div class="row">
                   <div class="col-lg-6 col-left d-flex flex-column">
@@ -298,7 +298,7 @@
             </div>
           </div>
           <div class="item">
-             <div class="step">
+            <div class="step">
               <div class="container container--custom">
                 <div class="row">
                   <div class="col-lg-6 col-left d-flex flex-column">
@@ -338,7 +338,7 @@
             </div>
           </div>
           <div class="item">
-             <div class="step">
+            <div class="step">
               <div class="container container--custom">
                 <div class="row">
                   <div class="col-lg-6 col-left d-flex flex-column">
@@ -378,7 +378,7 @@
             </div>
           </div>
           <div class="item">
-             <div class="step">
+            <div class="step">
               <div class="container container--custom">
                 <div class="row">
                   <div class="col-lg-6 col-left d-flex flex-column">
@@ -420,20 +420,139 @@
         </div>
       </div>
     </div>
-      <div class="hero d-flex align-items-center">
-      <g-image src="~/assets/images/deco-with-arrow.svg" class="hero__deco1" />
-      <!-- <g-image src="~/assets/images/deco-with-arrow.svg" class="hero__deco2" /> -->
+    <div class="expertise pt-5">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
-            <h1 class="hero__title">Guidiamo le aziende nella loro forma digitale.</h1>
+          <div class="col-lg-7 mx-auto mb-5 mb-lg-0">
+            <h6 class="expertise__name">EXPERTISE</h6>
+            <h1 class="expertise__title">Attraverso il nostro approccio possiamo offrire</h1>
+            <p
+              class="expertise__description"
+            >Che si tratti di un nuovo prodotto, di un’integrazione o restauro, accompagniamo le aziende verso le opportune logiche digitali.</p>
           </div>
         </div>
+      </div>
+      <div class="container pt-5">
+          <div class="row mb-5">
+          <div class="col-lg-9 d-flex align-items-center skill skill--right py-5 mb-4">
+            <div class="skill__body">
+              <div class="my-3">
+                <span class="label label--dev mr-2">Development</span>
+                <span class="label label--des mx-2">Design</span>
+              </div>
+              <h1 class="skill__title">Digital transformation</h1>
+              <div class="skill__line mb-3"></div>
+              <p
+                class="skill__description"
+              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              <a href="http://" class="btn btn-secondary">Approfondisci expertise</a>
+            </div>
+
+            <g-image src="~/assets/images/collaborative.png" class="skill__img" />
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-9 d-flex align-items-center skill py-5 mb-4">
+            <div class="skill__body">
+              <div class="my-3">
+                <span class="label label--dev mr-2">Development</span>
+                <span class="label label--des mx-2">Design</span>
+              </div>
+              <h1 class="skill__title">Digital transformation</h1>
+              <div class="skill__line mb-3"></div>
+              <p
+                class="skill__description"
+              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              <a href="http://" class="btn btn-secondary">Approfondisci expertise</a>
+            </div>
+
+            <g-image src="~/assets/images/collaborative.png" class="skill__img" />
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-9 d-flex align-items-center skill skill--right py-5 mb-4">
+            <div class="skill__body">
+              <div class="my-3">
+                <span class="label label--dev mr-2">Development</span>
+                <span class="label label--des mx-2">Design</span>
+              </div>
+              <h1 class="skill__title">Digital transformation</h1>
+              <div class="skill__line mb-3"></div>
+              <p
+                class="skill__description"
+              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              <a href="http://" class="btn btn-secondary">Approfondisci expertise</a>
+            </div>
+
+            <g-image src="~/assets/images/collaborative.png" class="skill__img" />
+          </div>
+        </div>
+        <div class="row mb-0">
+          <div class="col-lg-9 d-flex align-items-center skill py-5">
+            <div class="skill__body">
+              <div class="my-3">
+                <span class="label label--dev mr-2">Development</span>
+                <span class="label label--des mx-2">Design</span>
+              </div>
+              <h1 class="skill__title">Digital transformation</h1>
+              <div class="skill__line mb-3"></div>
+              <p
+                class="skill__description"
+              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              <a href="http://" class="btn btn-secondary">Approfondisci expertise</a>
+            </div>
+
+            <g-image src="~/assets/images/collaborative.png" class="skill__img" />
+          </div>
+        </div>
+        
+      </div>
+    </div>
+      <div class="partnership py-5">
+      <div class="partnership__box my-5 py-5">
+        <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-11 ml-auto pl-lg-5">
+              <h6 class="pl-2 pl-lg-4 partnership__name">Partnership</h6>
+              <h1 class="pl-2 pl-lg-4 partnership__title">Hanno già creduto in noi</h1>
+              <div class="d-flex flex-wrap align-items-center">
+                <g-image src="~/assets/images/logo-aosp.png" class="partnership__logo" />
+                <g-image src="~/assets/images/logo-ast.png" class="partnership__logo" />
+                <g-image src="~/assets/images/logo-cogne.png" class="partnership__logo" />
+                <g-image src="~/assets/images/logo-umbriadigitale.png" class="partnership__logo" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
         <div class="row">
-          <div class="col-lg-6 ml-auto">
-            <p
-              class="hero__description"
-            >Studiando, progettando e sviluppando su specifiche esigenze dell’azienda e dei singoli processi che la caratterizzano, costruiamo prodotti pensati per gli utenti che li utilizzano.</p>
+          <div class="col-lg-5 mx-auto text-center py-5">
+            <h1 class="partnership__titleClosing mb-4">Sei sicuro della tua nuova idea?</h1>
+            <p class="partnership__descriptionClosing mb-5">
+              When you enter into any new area of science, you almost
+              always find yourself with a baffling new language.
+            </p>
+            <div>
+              <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
+              <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container my-5 pt-5">
+        <div class="row">
+          <div class="col-lg-10 ml-auto position-relative mt-lg-5">
+            <div class="cta cta--black">
+              <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
+              <div class="d-flex align-items-center justify-content-between w-75">
+                <h1 class="cta__title">
+                  Consiglio last minute? Parla con Bottino oppure chiama al 
+                  <span class="text-green">0744/33434522</span>
+                </h1>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -551,9 +670,9 @@ export default {
     font-size: 22px;
     letter-spacing: -0.44px;
     line-height: 27px;
-     @media screen and (max-width: 992px) {
-         margin-top: 20px;
-     }
+    @media screen and (max-width: 992px) {
+      margin-top: 20px;
+    }
   }
 }
 .caseHistoryCompetenze {
@@ -586,37 +705,41 @@ export default {
   }
 }
 .sections {
-     @media screen and (min-width: 992px) {
-  width: 400%;
-  height: 100%;}
+  @media screen and (min-width: 992px) {
+    width: 400%;
+    height: 100%;
+  }
 }
 .wrapper {
-     @media screen and (min-width: 992px) {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  -webkit-perspective: 1000;
-  perspective: 1000;}
+  @media screen and (min-width: 992px) {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+  }
   /* background: #F64747; */
 
-//   padding-top: 4%;
-//   padding-bottom: 4%;
-//   @media screen and (max-width: 992px) {
-//     padding-left: 5%;
-//     padding-top: 200px;
-//     padding-bottom: 200px;
-//   }
+  //   padding-top: 4%;
+  //   padding-bottom: 4%;
+  //   @media screen and (max-width: 992px) {
+  //     padding-left: 5%;
+  //     padding-top: 200px;
+  //     padding-bottom: 200px;
+  //   }
 }
 .step {
-     @media screen and (min-width: 992px) {
-  height: 100%;
-  width: calc(100% / 4);
-  float: left;}
+  @media screen and (min-width: 992px) {
+    height: 100%;
+    width: calc(100% / 4);
+    float: left;
+  }
   position: relative;
 
-  .container--custom{
-      @media screen and (min-width: 992px) {
-      margin-left: 60px;}
+  .container--custom {
+    @media screen and (min-width: 992px) {
+      margin-left: 60px;
+    }
   }
   &__deco {
     width: 100%;
@@ -694,6 +817,144 @@ export default {
         order: 1;
       }
     }
+  }
+}
+.expertise {
+  &__name {
+    color: #000000;
+    font-family: Lato;
+    font-size: 16px;
+    letter-spacing: 0.94px;
+    line-height: 25px;
+    text-align: center;
+  }
+  &__title {
+    color: #020202;
+    font-family: "Lexend Deca";
+    font-size: 56px;
+    letter-spacing: -1.91px;
+    line-height: 58px;
+    text-align: center;
+     @media screen and (max-width: 992px) {
+         font-size: 42px;
+    letter-spacing: initial;
+    line-height: initial;
+     }
+  }
+  &__description {
+    color: #000000;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.18px;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+.skill {
+  background-color: #f3f5fb;
+  position: relative;
+  justify-content: space-between;
+  &:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    top: 0;
+    left: -50%;
+    bottom: 0;
+    background-color: #f3f5fb;
+  }
+  &__body {
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    @media screen and (max-width: 992px) {
+          width: 100%;
+     }
+  }
+  &__title {
+    color: #000000;
+    font-family: "Lexend Deca";
+    font-size: 40px;
+    letter-spacing: -1.47px;
+    line-height: 42px;
+    
+  }
+  &__line {
+    width: 30px;
+    height: 4px;
+    background-color: #000;
+  }
+  &__description {
+    color: #000000;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.18px;
+    line-height: 25px;
+  }
+ 
+  &--right {
+    @media screen and (min-width: 992px) {
+      justify-content: space-around;
+      margin-left: auto;
+    }
+
+    &:before {
+      left: initial;
+      right: -50%;
+    }
+    .skill__body {
+      order: 1;
+      @media screen and (max-width: 992px) {
+        order: 0;
+      }
+    }
+    .skill__img {
+      order: 0;
+      margin-right: initial;
+      @media screen and (min-width: 992px) {
+        margin-right: -176px;
+      }
+      @media screen and (max-width: 992px) {
+        order: 1;
+        margin-right: -176px;
+        margin-left: initial;
+      }
+    }
+  }
+   &__img {
+    width: 450px;
+    margin-right: -176px;
+     position: relative;
+    z-index: 1;
+    @media screen and (max-width: 992px) {
+ width: 40%;
+           margin-right: initial!important;
+           margin-left: 20px!important;
+           margin-top: -230px!important;
+    }
+     @media screen and (max-width: 576px) {
+          width: 50%;
+           margin-right: initial!important;
+           margin-left: -70px!important;
+           margin-top: -330px!important;
+     }
+  }
+}
+
+.cta {
+  @media screen and (max-width: 992px) {
+    bottom: -60px;
+  }
+  &--black{
+        @media screen and (max-width: 992px) {
+    bottom: -80px;
+  }
+      @media screen and (max-width: 576px) {
+    bottom: -120px;
+  }
   }
 }
 </style>

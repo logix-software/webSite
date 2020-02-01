@@ -240,4 +240,61 @@ h6 {
 .bg-black{
   background-color: #000;
 }
+.partnership {
+  background-color: #f6f7fa;
+  position: relative;
+  &__box {
+    background-color: #000000;
+    width: 90%;
+    color: #fff;
+    position: relative;
+  }
+  &__name {
+    font-family: Lato;
+    font-size: 16px;
+    letter-spacing: 0.94px;
+    line-height: 25px;
+  }
+  &__title {
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -1.47px;
+    line-height: 42px;
+  }
+  &__logo {
+    width: 220px;
+    @media screen and (max-width: 992px) {
+         width: 140px;
+     }
+     @media screen and (max-width: 576px) {
+         width: 100px;
+     }
+  }
+  &__deco {
+    position: absolute;
+    right: -80px;
+    bottom: -80px;
+  }
+  &__titleClosing {
+    color: #020202;
+    font-family: "Lexend Deca";
+    font-size: 56px;
+    letter-spacing: -1.91px;
+    line-height: 58px;
+    @media screen and (max-width: 992px) {
+        font-size: 40px;
+        letter-spacing: initial;
+         line-height: initial;
+    }
+  }
+  &__descriptionClosing {
+    color: #000000;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.18px;
+    line-height: 25px;
+  }
+}
 </style>
