@@ -1,57 +1,13 @@
 <template>
   <Layout>
     <div class="hero hero--home d-flex align-items-center">
-      <svg
-        class="mouse-effect"
-        width="30px"
-        height="30px"
-        viewBox="0 0 30 30"
-        version="1.1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-      >
-        <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-        <title>icon/arrow_green</title>
-        <desc>Created with Sketch.</desc>
-        <g id="icon/arrow_green" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-          <g transform="translate(-2.000000, -3.000000)" id="Rectangle">
-            <rect x="2" y="3" width="30" height="30" />
-            <path
-              d="M18.3940116,7.7838805 L28.3546322,27.6589665 C28.60208,28.1527154 28.4024135,28.7535741 27.9086645,29.0010219 C27.5918575,29.1597933 27.2146827,29.1390421 26.9172055,28.9464744 L18.0434152,23.2021521 C17.7127554,22.9881042 17.2872446,22.9881042 16.9565848,23.2021521 L8.08279452,28.9464744 C7.61917131,29.2465943 7.00003518,29.1140487 6.69991526,28.6504255 C6.50734758,28.3529483 6.48659641,27.9757735 6.64536777,27.6589665 L16.6059884,7.7838805 C16.8534362,7.29013154 17.4542949,7.09046499 17.9480439,7.33791278 C18.1409134,7.43457151 18.2973528,7.59101094 18.3940116,7.7838805 Z"
-              fill="#36F2B9"
-              transform="translate(17.500000, 18.471039) rotate(-37.000000) translate(-17.500000, -18.471039) "
-            />
-          </g>
-        </g>
-      </svg>
-      <svg
-        class="mouse-effect2"
-        width="30px"
-        height="30px"
-        viewBox="0 0 30 30"
-        version="1.1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-      >
-        <title>icon/arrow_purple</title>
-        <desc>Created with Sketch.</desc>
-        <g id="icon/arrow_purple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-          <g transform="translate(-2.000000, -3.000000)" id="Rectangle">
-            <rect x="2" y="3" width="30" height="30" />
-            <path
-              d="M18.3940116,7.7838805 L28.3546322,27.6589665 C28.60208,28.1527154 28.4024135,28.7535741 27.9086645,29.0010219 C27.5918575,29.1597933 27.2146827,29.1390421 26.9172055,28.9464744 L18.0434152,23.2021521 C17.7127554,22.9881042 17.2872446,22.9881042 16.9565848,23.2021521 L8.08279452,28.9464744 C7.61917131,29.2465943 7.00003518,29.1140487 6.69991526,28.6504255 C6.50734758,28.3529483 6.48659641,27.9757735 6.64536777,27.6589665 L16.6059884,7.7838805 C16.8534362,7.29013154 17.4542949,7.09046499 17.9480439,7.33791278 C18.1409134,7.43457151 18.2973528,7.59101094 18.3940116,7.7838805 Z"
-              fill="#7878F9"
-              transform="translate(17.500000, 18.471039) rotate(-37.000000) translate(-17.500000, -18.471039) "
-            />
-          </g>
-        </g>
-      </svg>
+   
       <div class="container">
         <div class="row">
           <div class="col-lg-6 position-relative ml-auto">
             <g-image src="~/assets/images/deco.svg" class="hero__deco" />
-            <g-image src="~/assets/images/deco-designer.svg" class="hero__decoDesigner" />
-              <g-image src="~/assets/images/deco-developer.svg" class="hero__decoDeveloper" />
+            <g-image src="~/assets/images/deco-designer.svg" class="hero__decoDesigner mouse-effect" />
+              <g-image src="~/assets/images/deco-developer.svg" class="hero__decoDeveloper mouse-effect2" />
 
             <!-- <svg width="340px" height="340px"  viewBox="0 0 340 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> -->
            
@@ -763,8 +719,8 @@ export default {
       if (Date.now() - lastMove > 500) {
         const noiseX = (noise.simplex3(2, 0, a * 0.00014) + 1) / 2;
         const noiseY = (noise.simplex3(10, 0, a * 0.00014) + 1) / 2;
-        const x = noiseX * innerWidth;
-        const y = noiseY * innerHeight;
+        const x = noiseX * 100;
+        const y = noiseY * 100;
         updateMouse(x, y);
       }
       requestAnimationFrame(render);
@@ -781,10 +737,10 @@ export default {
     }
     function render2(a) {
       if (Date.now() - lastMove > 500) {
-        const noiseX = (noise.simplex3(2, 0, a * 0.00020) + 1) / 2;
-        const noiseY = (noise.simplex3(10, 0, a * 0.00020) + 1) / 2;
-        const x = noiseX * innerWidth;
-        const y = noiseY * innerHeight;
+        const noiseX = (noise.simplex3(2, 0, a * 0.00012) + 1) / 2;
+        const noiseY = (noise.simplex3(10, 0, a * 0.00012) + 1) / 2;
+        const x = noiseX * 100;
+        const y = noiseY * 100;
         updateMouse2(x, y);
       }
       requestAnimationFrame(render2);
@@ -963,8 +919,8 @@ export default {
   }
   &__decoDesigner {
     position: absolute;
-    top: -80px;
-    right: -100px;
+    top: -140px;
+    right: -20px;
     @media screen and (max-width: 992px) {
       top: -80px;
       right: 10px;
@@ -972,8 +928,8 @@ export default {
   }
   &__decoDeveloper {
     position: absolute;
-    bottom: -40px;
-    right: -0;
+    bottom: 10px;
+    right: 80px;
     @media screen and (max-width: 992px) {
       bottom: -60px;
     right: 50px;

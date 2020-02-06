@@ -302,9 +302,9 @@ h6 {
   	background-color: #F6F7FA!important;
 }
 .mouse-effect,.mouse-effect2 {
-  width: 40px;
-  top: 0;
-  left: 0;
+  // width: 40px;
+  // top: 0;
+  // left: 0;
   position: absolute;
 }
 </style>
