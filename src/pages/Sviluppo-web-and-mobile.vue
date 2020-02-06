@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <div class="hero hero--competenze d-flex align-items-center text-center">
+    
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -425,6 +426,7 @@ export default {
   // },
   mounted() {
     AOS.init();
+    
   }
 };
 </script>
@@ -678,5 +680,11 @@ export default {
       bottom: -120px;
     }
   }
+}
+.mouse-effect {
+  width: 40px;
+  top: 0;
+  left: 0;
+  position: fixed;
 }
 </style>
