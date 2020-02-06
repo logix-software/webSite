@@ -22,7 +22,10 @@
                 >Digital transformation</g-link>
               </li>
               <li>
-                <g-link class="nav__link mx-3 py-1 d-inline-block" to="/">link 2</g-link>
+                <g-link
+                  class="nav__link mx-3 py-1 d-inline-block"
+                  to="/sviluppo-web-and-mobile"
+                >Swiluppo web & mobile</g-link>
               </li>
               <!-- <li>
                 <g-link class="nav__link mx-3 py-1 d-inline-block" to>link</g-link>

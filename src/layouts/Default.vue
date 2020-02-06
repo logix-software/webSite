@@ -235,6 +235,7 @@ h6 {
     letter-spacing: -0.13px;
     line-height: 24px;
     min-width: 120px;
+    display: inline-block;
   }
 }
 .bg-black{
@@ -296,5 +297,8 @@ h6 {
     letter-spacing: -0.18px;
     line-height: 25px;
   }
+}
+.bg-secondary{
+  	background-color: #F6F7FA!important;
 }
 </style>
