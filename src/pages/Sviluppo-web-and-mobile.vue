@@ -18,7 +18,7 @@
     </div>
     <div class="competence position-relative py-5">
       <div class="container position-relative py-lg-5">
-        <h1 class="competence__bigText">Web</h1>
+        <h1 class="competence__bigText" data-aos="fade-left">Web</h1>
         <div class="row align-items-center">
           <div class="col-lg-6">
             <g-image src="~/assets/images/web-development.png" class="competence__img" />
@@ -175,7 +175,7 @@
     </div>
     <div class="competence competence--inverted position-relative py-5">
       <div class="container position-relative py-5">
-        <h1 class="competence__bigText">Mobile</h1>
+        <h1 class="competence__bigText" data-aos="fade-right">Mobile</h1>
         <div class="row align-items-center">
           <div class="col-lg-6 cont-img">
             <g-image src="~/assets/images/web-mobile.png" class="competence__img" />
@@ -487,7 +487,7 @@ export default {
   }
   &__bigText {
     position: absolute;
-    right: -170px;
+    right: -100px;
     bottom: 80px;
     color: rgba(255, 255, 255, 0.23);
     font-family: "Lexend Deca";
@@ -497,7 +497,7 @@ export default {
   }
   &--inverted {
     .competence__bigText {
-      left: -170px;
+      left: -100px;
     }
     .cont-body {
       order: 0;

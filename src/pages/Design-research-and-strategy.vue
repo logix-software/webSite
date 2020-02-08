@@ -17,7 +17,7 @@
     </div>
     <div class="competence position-relative py-5">
       <div class="container position-relative py-lg-5">
-        <h1 class="competence__bigText">Research</h1>
+        <h1 class="competence__bigText" data-aos="fade-left">Research</h1>
         <div class="row align-items-center">
           <div class="col-lg-6">
             <g-image src="~/assets/images/ux-research.png" class="competence__img" />
@@ -408,7 +408,9 @@ export default {
   // metaInfo: {
   //   title: "My blog"
   // },
-  mounted() {}
+  mounted() {
+      AOS.init();
+  }
 };
 </script>
 <style lang="scss" scoped>
