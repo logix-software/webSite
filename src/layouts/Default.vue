@@ -250,6 +250,7 @@ h6 {
 .bg-black {
   background-color: #000;
 }
+
 .partnership {
   background-color: #f6f7fa;
   position: relative;

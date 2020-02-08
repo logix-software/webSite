@@ -21,7 +21,7 @@
         <h1 class="competence__bigText">Web</h1>
         <div class="row align-items-center">
           <div class="col-lg-6">
-            <g-image src="~/assets/images/web.png" class="competence__img" />
+            <g-image src="~/assets/images/web-development.png" class="competence__img" />
           </div>
           <div class="col-lg-5 ml-lg-5">
             <h1 class="competence__title">Web development</h1>
@@ -46,7 +46,7 @@
           <div class="col-6 col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
-                <g-image src="~/assets/images/logo/java.png" class="tool__img" />
+                <g-image src="~/assets/images/icons/web/java.svg" class="tool__img" />
                 <h2 class="tool__title">Java EE</h2>
                 <p
                   class="tool__description"
@@ -57,77 +57,77 @@
           <div class="col-6 col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
-                <g-image src="~/assets/images/logo/java.png" class="tool__img" />
-                <h2 class="tool__title">Java EE</h2>
+                <g-image src="~/assets/images/icons/web/php.svg" class="tool__img" />
+                <h2 class="tool__title">PHP</h2>
                 <p
                   class="tool__description"
-                >Realizzata con una struttura tecnologica a livelli, la tecnologia JEE facilita la creazione di modelli B2B e B2C.</p>
+                >Linguaggio per lo scripting server-side, viene usato nello sviluppo web ed è supportato dalla maggior parte dei provider di hosting.</p>
               </div>
             </div>
           </div>
           <div class="col-6 col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
-                <g-image src="~/assets/images/logo/java.png" class="tool__img" />
-                <h2 class="tool__title">Java EE</h2>
+                <g-image src="~/assets/images/icons/web/angular.svg" class="tool__img" />
+                <h2 class="tool__title">Angular</h2>
                 <p
                   class="tool__description"
-                >Realizzata con una struttura tecnologica a livelli, la tecnologia JEE facilita la creazione di modelli B2B e B2C.</p>
+                >RFramework Web front-end open-source basato su JavaScript, utilizzato per lo sviluppo lato client.</p>
               </div>
             </div>
           </div>
           <div class="col-6 col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
-                <g-image src="~/assets/images/logo/java.png" class="tool__img" />
-                <h2 class="tool__title">Java EE</h2>
+                <g-image src="~/assets/images/icons/web/vue.svg" class="tool__img" />
+                <h2 class="tool__title">Vue.js</h2>
                 <p
                   class="tool__description"
-                >Realizzata con una struttura tecnologica a livelli, la tecnologia JEE facilita la creazione di modelli B2B e B2C.</p>
+                >Progressive framework per la creazione delle interfacce utente e delle single page application.</p>
               </div>
             </div>
           </div>
           <div class="col-6 col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
-                <g-image src="~/assets/images/logo/java.png" class="tool__img" />
-                <h2 class="tool__title">Java EE</h2>
+                <g-image src="~/assets/images/icons/web/node.svg" class="tool__img" />
+                <h2 class="tool__title">Node.js</h2>
                 <p
                   class="tool__description"
-                >Realizzata con una struttura tecnologica a livelli, la tecnologia JEE facilita la creazione di modelli B2B e B2C.</p>
+                >Ambiente di runtime  open source per lo sviluppo server-side, è leggero ed efficiente per applicazioni in tempo reale ed a alto flusso di dati.</p>
               </div>
             </div>
           </div>
           <div class="col-6 col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
-                <g-image src="~/assets/images/logo/java.png" class="tool__img" />
-                <h2 class="tool__title">Java EE</h2>
+                <g-image src="~/assets/images/icons/web/net.svg" class="tool__img" />
+                <h2 class="tool__title">.NET</h2>
                 <p
                   class="tool__description"
-                >Realizzata con una struttura tecnologica a livelli, la tecnologia JEE facilita la creazione di modelli B2B e B2C.</p>
+                >Ambiente di esecuzione runtime consente di stfruttare un codice affidabile per tutte le aree principali dello sviluppo di applicativi.</p>
               </div>
             </div>
           </div>
           <div class="col-6 col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
-                <g-image src="~/assets/images/logo/java.png" class="tool__img" />
-                <h2 class="tool__title">Java EE</h2>
+                <g-image src="~/assets/images/icons/web/sql.svg" class="tool__img" />
+                <h2 class="tool__title">SQL</h2>
                 <p
                   class="tool__description"
-                >Realizzata con una struttura tecnologica a livelli, la tecnologia JEE facilita la creazione di modelli B2B e B2C.</p>
+                >Linguaggio volto all’interrogazione di basi di dati relazionali. Permette di definire la strutture di un DB e manipolare i dati all’interno.</p>
               </div>
             </div>
           </div>
           <div class="col-6 col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
-                <g-image src="~/assets/images/logo/java.png" class="tool__img" />
-                <h2 class="tool__title">Java EE</h2>
+                <g-image src="~/assets/images/icons/web/nosql.svg" class="tool__img" />
+                <h2 class="tool__title">No SQL</h2>
                 <p
                   class="tool__description"
-                >Realizzata con una struttura tecnologica a livelli, la tecnologia JEE facilita la creazione di modelli B2B e B2C.</p>
+                >Linguaggio per la definizione di DB non relazionali, realizzati per modelli di dati specifici con schemi flessibili, adatti alle applicazioni moderne. </p>
               </div>
             </div>
           </div>
@@ -178,7 +178,7 @@
         <h1 class="competence__bigText">Mobile</h1>
         <div class="row align-items-center">
           <div class="col-lg-6 cont-img">
-            <g-image src="~/assets/images/web.png" class="competence__img" />
+            <g-image src="~/assets/images/web-mobile.png" class="competence__img" />
           </div>
           <div class="col-lg-5 ml-lg-5 cont-body">
             <h1 class="competence__title">Web development</h1>
@@ -203,33 +203,33 @@
           <div class="col-6 col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
-                <g-image src="~/assets/images/logo/java.png" class="tool__img" />
-                <h2 class="tool__title">Java EE</h2>
+                <g-image src="~/assets/images/icons/frameworks/cross.png" class="tool__img" />
+                <h2 class="tool__title">Cross-platform</h2>
                 <p
                   class="tool__description"
-                >Realizzata con una struttura tecnologica a livelli, la tecnologia JEE facilita la creazione di modelli B2B e B2C.</p>
+                >Sviluppiamo applicazioni ibride che possano funzionare su più dispositivi, in modo di rendere il processo più veloce ed efficiente.</p>
               </div>
             </div>
           </div>
           <div class="col-6 col-lg-3">
-            <div class="tool__card d-flex align-items-center justify-content-center">
+            <div class="tool__card tool__card--lightGreen d-flex align-items-center justify-content-center">
               <div>
-                <g-image src="~/assets/images/logo/java.png" class="tool__img" />
-                <h2 class="tool__title">Java EE</h2>
+                <g-image src="~/assets/images/icons/frameworks/ionic.png" class="tool__img" />
+                <h2 class="tool__title">Ionic</h2>
                 <p
                   class="tool__description"
-                >Realizzata con una struttura tecnologica a livelli, la tecnologia JEE facilita la creazione di modelli B2B e B2C.</p>
+                >Framework open-source, basato su Cordova, per Cross Platform Mobile App, che permette di sviluppare in un unica codebase diminuendo i tempi.</p>
               </div>
             </div>
           </div>
           <div class="col-6 col-lg-3">
-            <div class="tool__card d-flex align-items-center justify-content-center">
+            <div class="tool__card tool__card--light d-flex align-items-center justify-content-center">
               <div>
-                <g-image src="~/assets/images/logo/java.png" class="tool__img" />
-                <h2 class="tool__title">Java EE</h2>
+                <g-image src="~/assets/images/icons/frameworks/react.png" class="tool__img" />
+                <h2 class="tool__title">React Native</h2>
                 <p
                   class="tool__description"
-                >Realizzata con una struttura tecnologica a livelli, la tecnologia JEE facilita la creazione di modelli B2B e B2C.</p>
+                >Framework open-source per la creazione di mobile app, combinando native development con React, risparmiando su tempi e costi.</p>
               </div>
             </div>
           </div>
@@ -239,33 +239,33 @@
           <div class="col-6 col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
-                <g-image src="~/assets/images/logo/java.png" class="tool__img" />
-                <h2 class="tool__title">Java EE</h2>
+                <g-image src="~/assets/images/icons/frameworks/progressive.png" class="tool__img" />
+                <h2 class="tool__title">Progressive</h2>
                 <p
                   class="tool__description"
-                >Realizzata con una struttura tecnologica a livelli, la tecnologia JEE facilita la creazione di modelli B2B e B2C.</p>
+                >Sviluppiamo applicazioni web con funzionalità simili  ad app mobili ma che non possono essere installate dagli store.</p>
               </div>
             </div>
           </div>
           <div class="col-6 col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
-                <g-image src="~/assets/images/logo/java.png" class="tool__img" />
-                <h2 class="tool__title">Java EE</h2>
+                <g-image src="~/assets/images/icons/frameworks/ios.png" class="tool__img" />
+                <h2 class="tool__title">IOS</h2>
                 <p
                   class="tool__description"
-                >Realizzata con una struttura tecnologica a livelli, la tecnologia JEE facilita la creazione di modelli B2B e B2C.</p>
+                >Sviluppiamo applicazioni native per i dispositivi Apple, integrandole con servizi e sistemi esterni. </p>
               </div>
             </div>
           </div>
           <div class="col-6 col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
-                <g-image src="~/assets/images/logo/java.png" class="tool__img" />
-                <h2 class="tool__title">Java EE</h2>
+                <g-image src="~/assets/images/icons/frameworks/android.png" class="tool__img" />
+                <h2 class="tool__title">Android</h2>
                 <p
                   class="tool__description"
-                >Realizzata con una struttura tecnologica a livelli, la tecnologia JEE facilita la creazione di modelli B2B e B2C.</p>
+                >Sviluppiamo applicazioni native Android per la maggior parte dei dispositivi adottati, integrandole con sistemi esterni.</p>
               </div>
             </div>
           </div>
@@ -275,10 +275,10 @@
     <div class="technology py-5 bg-secondary">
       <div class="container py-5">
         <div class="row align-items-center">
-          <div class="col-lg-5 mx-auto">
+          <div class="col-lg-4 ml-lg-auto">
             <g-image src="~/assets/images/devops.png" class="technology__img mb-4 mb-lg-0" />
           </div>
-          <div class="col-lg-5 mx-auto">
+          <div class="col-lg-4 mr-lg-auto">
             <h1 class="technology__title">DevOps</h1>
             <p
               class="technology__description"
@@ -290,25 +290,25 @@
     <div class="technology technology--inverted py-5">
       <div class="container py-5">
         <div class="row align-items-center">
-          <div class="col-lg-5 mx-auto col-left">
-            <g-image src="~/assets/images/devops.png" class="technology__img mb-4 mb-lg-0" />
+          <div class="col-lg-4 mr-lg-auto col-left">
+            <g-image src="~/assets/images/cloud.png" class="technology__img mb-4 mb-lg-0" />
           </div>
-          <div class="col-lg-5 mx-auto col-right">
-            <h1 class="technology__title">DevOps</h1>
+          <div class="col-lg-4 ml-lg-auto col-right">
+            <h1 class="technology__title">Cloud </h1>
             <p
               class="technology__description"
-            >Fra le attività ci occupiamo anche della manutenzione per la correzione degli errori, il miglioramenti delle capacità e l'ottimizzazione dei prodotti per: far fronte a cambiamenti nell'ambiente software o a necessità di una maggiore affidabilità; rispondere a nuove esigenze e requisiti emersi da analisi e report sugli utenti.</p>
+            >Collaborando provider ed utilizzando migliori piattafome, ci occupiamo della realizzazione di infrastrutture per i nostri progetti di sviluppo, lavorando su server standalone o virtualizzati e garantendo ai nostri clienti la massima sicurezza, scalabilità e stabilità.</p>
           </div>
         </div>
       </div>
     </div>
     <div class="techs py-5">
-      <div class="container d-inline-block d-lg-flex align-items-center">
-        <g-image src="~/assets/images/logo-ast.png" class="techs__img mx-3" />
-        <g-image src="~/assets/images/logo-ast.png" class="techs__img mx-3" />
-        <g-image src="~/assets/images/logo-ast.png" class="techs__img mx-3" />
-        <g-image src="~/assets/images/logo-ast.png" class="techs__img mx-3" />
-        <g-image src="~/assets/images/logo-ast.png" class="techs__img mx-3" />
+      <div class="container d-inline-block d-lg-flex align-items-center justify-content-around">
+        <g-image src="~/assets/images/icons/db/ovh.svg" class="techs__img mx-3" />
+        <g-image src="~/assets/images/icons/db/aws.svg" class="techs__img mx-3" />
+        <g-image src="~/assets/images/icons/db/oracle.svg" class="techs__img mx-3" />
+        <g-image src="~/assets/images/icons/db/mysql.svg" class="techs__img mx-3" />
+        <g-image src="~/assets/images/icons/db/mongodb.svg" class="techs__img mx-3" />
       </div>
     </div>
     <div class="container">
@@ -434,7 +434,7 @@ export default {
 .hero {
   width: 100%;
   height: 750px;
-  background-image: url("~@/assets/images/hero-home.jpg");
+  background-image: url("~@/assets/images/hero-design.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -550,6 +550,20 @@ export default {
     border-radius: 3px;
     background-color: #000000;
     box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.2);
+    &--lightGreen{
+  background-color: #F0FFFB!important;
+ .tool__title{
+  color: #000!important;}
+  .tool__description{
+  color: #000!important;}
+}
+&--light{
+  background-color: #F9F9FA!important;
+  .tool__title{
+  color: #000!important;}
+  .tool__description{
+  color: #000!important;}
+}
     @media screen and (max-width: 992px) {
       width: 100%;
       height: auto;
@@ -662,7 +676,7 @@ export default {
 .techs {
   background-color: #000;
   &__img {
-    max-width: 200px;
+    max-width: 180px;
     @media screen and (max-width: 992px) {
       max-width: 80px;
     }

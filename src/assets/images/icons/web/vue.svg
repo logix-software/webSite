@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>03EC8AF7-2B59-4A43-BB0C-B3451072CA56</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="26.5" cy="26.5" r="26.5"></circle>
+        <rect id="path-3" x="0" y="0" width="52.6942315" height="52.6942315"></rect>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/angular-copy-4">
+            <g id="Group-6">
+                <g id="Placeholders-/-Icon-/-80px-Copy">
+                    <g id="Group-12">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="◼️-Background" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+                <g id="logo/angular">
+                    <g id="logo/vue">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g id="Vue.js_Logo_2" mask="url(#mask-4)">
+                            <g transform="translate(10.701923, 12.740385)" id="Group">
+                                <g transform="translate(15.861594, 13.708654) scale(-1, 1) rotate(-180.000000) translate(-15.861594, -13.708654) translate(0.318325, 0.203846)">
+                                    <g transform="translate(0.009313, 0.001545)" fill="#111111" fill-rule="nonzero" id="Path">
+                                        <polygon points="18.780904 26.4234174 15.2623559 20.3562299 11.7438079 26.4234174 0.0265416073 26.4234174 15.2623559 0.151432463 30.4981703 26.4234174"></polygon>
+                                    </g>
+                                    <g transform="translate(6.062662, 10.509104)" fill="#D1D1D1" fill-rule="nonzero" id="Path">
+                                        <polygon points="12.7275545 15.9158599 9.20900653 9.84867232 5.69045857 15.9158599 0.0675181268 15.9158599 9.20900653 0.152977692 18.3504949 15.9158599"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

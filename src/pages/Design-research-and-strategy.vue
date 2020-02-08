@@ -20,7 +20,7 @@
         <h1 class="competence__bigText">Research</h1>
         <div class="row align-items-center">
           <div class="col-lg-6">
-            <g-image src="~/assets/images/web.png" class="competence__img" />
+            <g-image src="~/assets/images/ux-research.png" class="competence__img" />
           </div>
           <div class="col-lg-5 ml-lg-5">
             <h1 class="competence__title">UX Research</h1>
@@ -45,7 +45,7 @@
           <div class="col-lg-4 px-4">
             <div class="tool__card d-flex align-items-start justify-content-center">
               <div class="d-flex align-items-start">
-                <g-image src="~/assets/images/advantage.svg" class="tool__img mr-3" />
+                <g-image src="~/assets/images/ux-talk.svg" class="tool__img mr-3" />
                 <div>
                   <h2 class="tool__title">Parliamo con il cliente</h2>
                   <p
@@ -58,7 +58,7 @@
           <div class="col-lg-4 px-4">
             <div class="tool__card d-flex align-items-start justify-content-center">
               <div class="d-flex align-items-start">
-                <g-image src="~/assets/images/advantage.svg" class="tool__img mr-3" />
+                <g-image src="~/assets/images/ux-watch.svg" class="tool__img mr-3" />
                 <div>
                   <h2 class="tool__title">Osserviamo gli utenti</h2>
                   <p
@@ -71,7 +71,7 @@
           <div class="col-lg-4 px-4">
             <div class="tool__card d-flex align-items-start justify-content-center">
               <div class="d-flex align-items-start">
-                <g-image src="~/assets/images/advantage.svg" class="tool__img mr-3" />
+                <g-image src="~/assets/images/ux-search.svg" class="tool__img mr-3" />
                 <div>
                   <h2 class="tool__title">Studiamo i competotor</h2>
                   <p
@@ -90,7 +90,7 @@
         <!-- <h1 class="competence__bigText">UX Strategy</h1> -->
         <div class="row align-items-center">
           <div class="col-lg-6 cont-img">
-            <g-image src="~/assets/images/web.png" class="competence__img" />
+            <g-image src="~/assets/images/ux-strategy.png" class="competence__img" />
           </div>
           <div class="col-lg-5 ml-lg-5 cont-body">
             <h1 class="competence__title">UX Strategy</h1>
@@ -108,19 +108,19 @@
         <div class="row">
           <div class="col-lg-5 mx-auto text-center">
             <h6 class="tool__name">TOOL</h6>
-            <h1 class="tool__titleSection">Gli strumenti, i framework ed i linguaggi che utilizziamo</h1>
+            <h1 class="tool__titleSection">Gli strumenti, i processi ed i metodi</h1>
           </div>
         </div>
         <div class="row py-5">
           <div class="col-lg-3">
             <div class="tool__card d-flex align-items-start justify-content-center">
               <div class>
-                <g-image src="~/assets/images/advantage.svg" class="tool__img mr-3" />
+                <g-image src="~/assets/images/ux-users.svg" class="tool__img mr-3" />
                 <div>
-                  <h2 class="tool__title">Parliamo con il cliente</h2>
+                  <h2 class="tool__title">Definiamo gli utenti</h2>
                   <p
                     class="tool__description"
-                  >Insieme con il cliente e gli stackeholder coinvolti cerchiamo di comprendere le problematiche e le carenze per poter definire obiettivi reali e le KPI da raggiungere individuando i punti di forza e debolezza del servizio.</p>
+                  >Diamo alle diverse tipologie di utenti un volto, una storia che, attraverso strumenti come Personas, User Stories e User Journey, ci permettono di progettare esperienze su misura, personalizzate, disegnate proprio intorno all’utente ed alle sue esigenze, propensioni ed obiettivi.</p>
                 </div>
               </div>
             </div>
@@ -128,12 +128,15 @@
           <div class="col-lg-3">
             <div class="tool__card d-flex align-items-start justify-content-center">
               <div class>
-                <g-image src="~/assets/images/advantage.svg" class="tool__img mr-3" />
+                <g-image src="~/assets/images/ux-info.svg" class="tool__img mr-3" />
                 <div>
-                  <h2 class="tool__title">Osserviamo gli utenti</h2>
+                  <h2 class="tool__title">
+                    Elaboriamo
+                    l’ informazione
+                  </h2>
                   <p
                     class="tool__description"
-                  >Facciamo ricerca per comprendere chi sono gli utenti, dal personale interno a chi si occupa dell’assistenza, come utilizzano il servizio ed in quale punto si sentono frustrati e confusi, o dove avrebbero bisogno di essere rassicurati.</p>
+                  >Progettiamo la struttura del prodotto partendo dall’organizzazione delle informazioni alle quali l’utente deve giungere nel modo più semplice e veloce possibile. Dalla gerarchia o tassonomia nelle voci di menù alla suddivisione delle sezioni, cerchiamo di dare fluidità e coerenza dell’esperienza.</p>
                 </div>
               </div>
             </div>
@@ -141,12 +144,16 @@
           <div class="col-lg-3">
             <div class="tool__card d-flex align-items-start justify-content-center">
               <div class>
-                <g-image src="~/assets/images/advantage.svg" class="tool__img mr-3" />
+                <g-image src="~/assets/images/ux-flussi.svg" class="tool__img mr-3" />
                 <div>
-                  <h2 class="tool__title">Studiamo i competotor</h2>
-                  <p
-                    class="tool__description"
-                  >Analizziamo le scelte, le strategie ed i prodotti degli altri operatori del settore. Cerchiamo di comprendere quali siano i puntidi forza, che gratificano l’utente; e quelli di debolezza, che andrebbero evitati e migliorati.</p>
+                  <h2 class="tool__title">
+                    Generiamo
+                    i flussi
+                  </h2>
+                  <p class="tool__description">
+                    Delineiamo la struttura del prodotto, le sue parti essenziali e fondamentali, creando general flow e wireframe, definendo sezioni, pagine ed elementi.
+                    Il materiale prodotto servirà per il confronto con il cliente, gli utenti reali e gli stackeholder che avranno la possibilità di valutare concretamente il lavoro in poco tempo.
+                  </p>
                 </div>
               </div>
             </div>
@@ -154,12 +161,12 @@
           <div class="col-lg-3">
             <div class="tool__card d-flex align-items-start justify-content-center">
               <div class>
-                <g-image src="~/assets/images/advantage.svg" class="tool__img mr-3" />
+                <g-image src="~/assets/images/ux-prototipe.svg" class="tool__img mr-3" />
                 <div>
-                  <h2 class="tool__title">Studiamo i competotor</h2>
+                  <h2 class="tool__title">Sviluppiamo il prototipo</h2>
                   <p
                     class="tool__description"
-                  >Analizziamo le scelte, le strategie ed i prodotti degli altri operatori del settore. Cerchiamo di comprendere quali siano i puntidi forza, che gratificano l’utente; e quelli di debolezza, che andrebbero evitati e migliorati.</p>
+                  >Creiamo con cura le interfacce e la styleguide con tutte le componenti e gli elementi che permettono al prodotto di mantenere la propria identità e continuità nel tempo e nelle varie forme on e offline. Il prototipo hi-fi che verrà costruito sulla base di tutto il processo sarà testato e validato dagli utenti.</p>
                 </div>
               </div>
             </div>
@@ -179,10 +186,10 @@
                 <br />ci permettono
               </h1>
               <div class="d-flex flex-wrap align-items-center">
-                <g-image src="~/assets/images/logo-aosp.png" class="partnership__logo" />
-                <g-image src="~/assets/images/logo-ast.png" class="partnership__logo" />
-                <g-image src="~/assets/images/logo-cogne.png" class="partnership__logo" />
-                <g-image src="~/assets/images/logo-umbriadigitale.png" class="partnership__logo" />
+                <g-image src="~/assets/images/logo/figma.svg" class="partnership__logo" />
+                <g-image src="~/assets/images/logo/sketch.svg" class="partnership__logo" />
+                <g-image src="~/assets/images/logo/invision.svg" class="partnership__logo" />
+                <g-image src="~/assets/images/logo/adobe.svg" class="partnership__logo" />
               </div>
             </div>
           </div>
@@ -209,7 +216,7 @@
       <div class="container py-5">
         <div class="row align-items-center">
           <div class="col-lg-4 ml-auto">
-            <g-image src="~/assets/images/devops.png" class="technology__img mb-4 mb-lg-0" />
+            <g-image src="~/assets/images/designpack.png" class="technology__img mb-4 mb-lg-0" />
           </div>
           <div class="col-lg-4 mr-auto">
             <h1 class="technology__title">Design Pack</h1>
@@ -224,11 +231,14 @@
       <div class="row">
         <div class="col-6 col-lg-3 mb-4 mb-lg-0">
           <div class="day">
-            <g-image src="~/assets/images/icon-num-1.svg" class="day__img mb-2 mb-lg-0" />
+            <g-image src="~/assets/images/icon-num-1-small.svg" class="day__img mb-2 mb-lg-0" />
             <p class="day__name mb-0">GIORNO 1</p>
             <h6 class="day__title">La sfida</h6>
             <div class="mb-3">
-              <span data-v-00d6a066 class="mb-1 mb-lg-0 d-block d-lg-inline-block label label--dev mr-lg-3">DEVELOPMENT</span>
+              <span
+                data-v-00d6a066
+                class="mb-1 mb-lg-0 d-block d-lg-inline-block label label--dev mr-lg-3"
+              >DEVELOPMENT</span>
               <span data-v-00d6a066 class="d-block d-lg-inline-block label label--des">DESIGN</span>
             </div>
             <p
@@ -238,11 +248,14 @@
         </div>
         <div class="col-6 col-lg-3 mb-4 mb-lg-0">
           <div class="day day--inverted">
-            <g-image src="~/assets/images/icon-num-1.svg" class="day__img mb-2 mb-lg-0" />
+            <g-image src="~/assets/images/icon-num-2-small.svg" class="day__img mb-2 mb-lg-0" />
             <p class="day__name mb-0">GIORNO 1</p>
             <h6 class="day__title">La sfida</h6>
             <div class="mb-3">
-              <span data-v-00d6a066 class="mb-1 mb-lg-0 d-block d-lg-inline-block label label--dev mr-lg-3">DEVELOPMENT</span>
+              <span
+                data-v-00d6a066
+                class="mb-1 mb-lg-0 d-block d-lg-inline-block label label--dev mr-lg-3"
+              >DEVELOPMENT</span>
               <span data-v-00d6a066 class="d-block d-lg-inline-block label label--des">DESIGN</span>
             </div>
             <p
@@ -252,11 +265,14 @@
         </div>
         <div class="col-6 col-lg-3 mb-4 mb-lg-0">
           <div class="day">
-            <g-image src="~/assets/images/icon-num-1.svg" class="day__img mb-2 mb-lg-0" />
+            <g-image src="~/assets/images/icon-num-3-small.svg" class="day__img mb-2 mb-lg-0" />
             <p class="day__name mb-0">GIORNO 1</p>
             <h6 class="day__title">La sfida</h6>
             <div class="mb-3">
-              <span data-v-00d6a066 class="mb-1 mb-lg-0 d-block d-lg-inline-block label label--dev mr-lg-3">DEVELOPMENT</span>
+              <span
+                data-v-00d6a066
+                class="mb-1 mb-lg-0 d-block d-lg-inline-block label label--dev mr-lg-3"
+              >DEVELOPMENT</span>
               <span data-v-00d6a066 class="d-block d-lg-inline-block label label--des">DESIGN</span>
             </div>
             <p
@@ -266,11 +282,14 @@
         </div>
         <div class="col-6 col-lg-3 mb-4 mb-lg-0">
           <div class="day day--inverted">
-            <g-image src="~/assets/images/icon-num-1.svg" class="day__img mb-2 mb-lg-0" />
+            <g-image src="~/assets/images/icon-num-4-small.svg" class="day__img mb-2 mb-lg-0" />
             <p class="day__name mb-0">GIORNO 1</p>
             <h6 class="day__title">La sfida</h6>
             <div class="mb-3">
-              <span data-v-00d6a066 class="mb-1 mb-lg-0 d-block d-lg-inline-block label label--dev mr-lg-3">DEVELOPMENT</span>
+              <span
+                data-v-00d6a066
+                class="mb-1 mb-lg-0 d-block d-lg-inline-block label label--dev mr-lg-3"
+              >DEVELOPMENT</span>
               <span data-v-00d6a066 class="d-block d-lg-inline-block label label--des">DESIGN</span>
             </div>
             <p
@@ -288,14 +307,14 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-lg-4 mx-auto mb-4 mb-lg-0">
-            <g-image src="~/assets/images/method.svg" class="methods__img" />
+            <g-image src="~/assets/images/ux-business.svg" class="methods__img" />
             <h1 class="methods__title">È questione di business</h1>
             <p
               class="methods__description"
             >Tanto più semplice risulterà l’esperienza utente, tanto più facile sarà raggiungere obiettivi aziendali. Prodotti digitali usabili, intuitivi e accessibili, permettono alle aziende di: aumentare l’efficienza, risparmiare su costi di assistenza e formazione; migliorare le attività lavorative o processi produttivi.</p>
           </div>
           <div class="col-lg-4 mx-auto">
-            <g-image src="~/assets/images/method.svg" class="methods__img" />
+            <g-image src="~/assets/images/ux-notwow.svg" class="methods__img" />
             <h1 class="methods__title">Non significa “renedere le cose belle”</h1>
             <p
               class="methods__description"
@@ -304,7 +323,7 @@
         </div>
       </div>
     </div>
-  
+
     <div class="partnership pb-5">
       <div class="partnership__box mb-5 py-5">
         <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
@@ -396,7 +415,7 @@ export default {
 .hero {
   width: 100%;
   height: 750px;
-  background-image: url("~@/assets/images/hero-home.jpg");
+  background-image: url("~@/assets/images/hero-design.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -581,8 +600,8 @@ export default {
   margin: 0 auto;
   padding: 20px 12px;
   @media screen and (max-width: 992px) {
-      width: 100%;
-      padding: 14px 10px;
+    width: 100%;
+    padding: 14px 10px;
   }
   &--inverted {
     background-color: #f9f9fa;
@@ -613,7 +632,7 @@ export default {
     letter-spacing: -0.15px;
     line-height: 20px;
     @media screen and (max-width: 992px) {
-         font-size: 14px;
+      font-size: 14px;
     }
   }
 }
@@ -632,8 +651,8 @@ export default {
     line-height: 41px;
     @media screen and (max-width: 992px) {
       font-size: 80px;
-    letter-spacing: initial;
-    line-height: initial;
+      letter-spacing: initial;
+      line-height: initial;
     }
   }
   &__img {
