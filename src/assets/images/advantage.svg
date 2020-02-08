@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>799CFD01-B963-4DD6-835B-5BAACEE86B2E@1x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="100" height="100"></rect>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/advantage/1">
+            <g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="Group-13" mask="url(#mask-2)">
+                    <g transform="translate(15.000000, 11.000000)"></g>
+                </g>
+                <g id="Group-10" mask="url(#mask-2)">
+                    <g transform="translate(23.000000, 55.000000)">
+                        <polygon id="Stroke-2" stroke="#36F2B9" stroke-width="0.5" fill="none" points="62 22.7614571 53.4169755 28 53 27.2385429 61.5830245 22"></polygon>
+                        <polygon id="Stroke-5" stroke="#36F2B9" stroke-width="0.5" fill="none" points="39 22.7614571 30.4169755 28 30 27.2385429 38.5830245 22"></polygon>
+                        <polygon id="Stroke-7" stroke="#36F2B9" stroke-width="0.5" fill="none" points="15 22.7614571 6.41697554 28 6 27.2385429 14.5830245 22"></polygon>
+                        <polygon id="Stroke-24" stroke="#36F2B9" stroke-width="0.5" fill="none" points="62 0.764533177 53.4169755 6 53 5.23546682 61.5830245 0"></polygon>
+                        <polygon id="Stroke-27" stroke="#36F2B9" stroke-width="0.5" fill="none" points="33 0.764533177 24.4169755 6 24 5.23546682 32.5830245 0"></polygon>
+                        <polygon id="Stroke-30" stroke="#36F2B9" stroke-width="0.5" fill="none" points="9 0.764533177 0.416975537 6 0 5.23546682 8.58302446 0"></polygon>
+                        <polygon id="Fill-53" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="55.5830245 28 47 33.2385429 47.4169755 34 56 28.7614571"></polygon>
+                        <polygon id="Fill-54" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="32.5830245 28 24 33.2385429 24.4169755 34 33 28.7614571"></polygon>
+                        <polygon id="Fill-55" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="8.58302446 28 0 33.2385429 0.416975537 34 9 28.7614571"></polygon>
+                        <polygon id="Fill-63" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="47 11.2354668 47.4169755 12 56 6.76453318 55.5830245 6"></polygon>
+                        <polygon id="Fill-64" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="33 6.76453318 24.4169755 12 24 11.2354668 32.5830245 6"></polygon>
+                        <polygon id="Fill-65" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="9 6.76453318 0.416975537 12 0 11.2354668 8.58302446 6"></polygon>
+                    </g>
+                </g>
+                <g id="007-speaking" mask="url(#mask-2)" fill="#7878F9" fill-rule="nonzero">
+                    <g transform="translate(20.000000, 11.000000)" id="Shape">
+                        <path d="M58.734909,28.551015 L9.58113,0.171855 C9.18441,-0.057285 8.69535,-0.057285 8.29863,0.171855 C7.90191,0.400995 7.65738,0.82422 7.65738,1.2825 L7.65738,20.89107 L2.023101,17.638137 C1.626381,17.408997 1.137321,17.408997 0.740601,17.638137 C0.343881,17.867277 0.099351,18.290502 0.099351,18.748782 L0.099351,44.940852 C0.099351,45.398961 0.34371,45.822357 0.740601,46.051497 L12.870828,53.056683 L15.261066,62.716644 C15.397524,63.268119 15.880257,63.663984 16.447635,63.689805 C16.4673,63.69066 16.486794,63.691173 16.506288,63.691173 C17.05041,63.691173 17.538273,63.346608 17.717652,62.828478 L19.730493,57.018069 L27.20439,61.33428 C27.60111,61.56342 28.089999,61.56342 28.48689,61.334451 C28.883781,61.105311 29.12814,60.681915 29.12814,60.223635 L29.12814,58.07844 L38.988171,63.771201 L41.709294,77.928975 C41.823009,78.520293 42.33276,78.953094 42.934851,78.969339 C42.946137,78.969339 42.957765,78.969339 42.969051,78.969339 C43.556949,78.969339 44.071488,78.568686 44.213589,77.995152 L46.642302,68.191038 L57.452409,74.431854 C57.849129,74.660994 58.338189,74.660994 58.734909,74.431854 C59.131629,74.202714 59.376159,73.779489 59.376159,73.321209 L59.376159,29.66166 C59.376159,29.20338 59.1318,28.780155 58.734909,28.551015 Z M56.81133,71.10009 L46.448559,65.117655 C46.099548,64.916046 45.67581,64.890396 45.305253,65.048229 C44.934354,65.205891 44.659386,65.52891 44.562258,65.919987 L43.126542,71.715177 L41.396193,62.711685 C41.325912,62.346087 41.100363,62.029224 40.778028,61.843005 L29.127798,55.11672 L29.127969,34.027974 C29.127969,33.569865 28.883439,33.146469 28.486719,32.917329 L10.22238,22.372101 L10.22238,3.50379 L56.81133,30.40209 L56.81133,71.10009 L56.81133,71.10009 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

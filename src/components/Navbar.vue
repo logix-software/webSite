@@ -27,6 +27,12 @@
                   to="/sviluppo-web-and-mobile"
                 >Swiluppo web & mobile</g-link>
               </li>
+               <li>
+                <g-link
+                  class="nav__link mx-3 py-1 d-inline-block"
+                  to="/design-research-and-strategy"
+                >Design research & strategy</g-link>
+              </li>
               <!-- <li>
                 <g-link class="nav__link mx-3 py-1 d-inline-block" to>link</g-link>
               </li>
