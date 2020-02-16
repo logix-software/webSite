@@ -496,7 +496,7 @@ export default {
     letter-spacing: -2.21px;
     line-height: 58px;
     @media screen and (max-width: 992px) {
-      font-size: 40px;
+      font-size: 50px;
       letter-spacing: initial;
       line-height: initial;
     }

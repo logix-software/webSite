@@ -24,9 +24,9 @@
             <g-image src="~/assets/images/web-development.png" class="competence__img" />
           </div>
           <div class="col-lg-5 ml-lg-5">
-            <h1 class="competence__title">Web development</h1>
+            <h1 class="competence__title my-3">Web development</h1>
             <p
-              class="competence__description"
+              class="competence__description mb-4"
             >Sviluppiamo web application e platform collaborando con il cliente in tutte le fasi che portano alla realizzazione, lavorando con database differenti ed API; integrando servizi e soluzioni custom a seconda delle esigenze, fornendoci degli adeguati stack tecnologici e garantendo efficienza e competenza.</p>
             <a href class="btn btn-secondary">Parliamo di questo servizio</a>
           </div>
@@ -43,7 +43,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
                 <g-image src="~/assets/images/icons/web/java.svg" class="tool__img" />
@@ -54,7 +54,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
                 <g-image src="~/assets/images/icons/web/php.svg" class="tool__img" />
@@ -65,7 +65,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
                 <g-image src="~/assets/images/icons/web/angular.svg" class="tool__img" />
@@ -76,7 +76,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
                 <g-image src="~/assets/images/icons/web/vue.svg" class="tool__img" />
@@ -87,7 +87,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
                 <g-image src="~/assets/images/icons/web/node.svg" class="tool__img" />
@@ -98,7 +98,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
                 <g-image src="~/assets/images/icons/web/net.svg" class="tool__img" />
@@ -109,7 +109,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
                 <g-image src="~/assets/images/icons/web/sql.svg" class="tool__img" />
@@ -120,7 +120,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
                 <g-image src="~/assets/images/icons/web/nosql.svg" class="tool__img" />
@@ -181,9 +181,9 @@
             <g-image src="~/assets/images/web-mobile.png" class="competence__img" />
           </div>
           <div class="col-lg-5 ml-lg-5 cont-body">
-            <h1 class="competence__title">Web development</h1>
+            <h1 class="competence__title my-3">Web development</h1>
             <p
-              class="competence__description"
+              class="competence__description mb-4"
             >Sviluppiamo web application e platform collaborando con il cliente in tutte le fasi che portano alla realizzazione, lavorando con database differenti ed API; integrando servizi e soluzioni custom a seconda delle esigenze, fornendoci degli adeguati stack tecnologici e garantendo efficienza e competenza.</p>
             <a href class="btn btn-secondary">Parliamo di questo servizio</a>
           </div>
@@ -200,7 +200,7 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
                 <g-image src="~/assets/images/icons/frameworks/cross.png" class="tool__img" />
@@ -211,7 +211,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="tool__card tool__card--lightGreen d-flex align-items-center justify-content-center">
               <div>
                 <g-image src="~/assets/images/icons/frameworks/ionic.png" class="tool__img" />
@@ -222,7 +222,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="tool__card tool__card--light d-flex align-items-center justify-content-center">
               <div>
                 <g-image src="~/assets/images/icons/frameworks/react.png" class="tool__img" />
@@ -236,7 +236,7 @@
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
                 <g-image src="~/assets/images/icons/frameworks/progressive.png" class="tool__img" />
@@ -247,7 +247,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
                 <g-image src="~/assets/images/icons/frameworks/ios.png" class="tool__img" />
@@ -258,7 +258,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="tool__card d-flex align-items-center justify-content-center">
               <div>
                 <g-image src="~/assets/images/icons/frameworks/android.png" class="tool__img" />
@@ -434,7 +434,7 @@ export default {
 .hero {
   width: 100%;
   height: 750px;
-  background-image: url("~@/assets/images/hero-design.jpg");
+  background-image: url("~@/assets/images/hero-web.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -489,7 +489,7 @@ export default {
     position: absolute;
     right: -100px;
     bottom: 80px;
-    color: rgba(255, 255, 255, 0.23);
+    color: rgba(255, 255, 255, 1);
     font-family: "Lexend Deca";
     font-size: 161px;
     letter-spacing: -9.63px;
@@ -498,6 +498,7 @@ export default {
   &--inverted {
     .competence__bigText {
       left: -100px;
+      bottom: -30px;
     }
     .cont-body {
       order: 0;

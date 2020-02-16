@@ -59,7 +59,8 @@ h6 {
   padding: 0.375rem 1.4rem !important;
 }
 .btn {
-  padding: 0.575rem 1.4rem !important;
+  padding: 0.675rem 1.4rem !important;
+  //  font-family: "Lato", sans-serif!important;
 }
 .btn-primary {
   border-radius: 0 !important;
@@ -70,6 +71,7 @@ h6 {
   outline: none !important;
   box-shadow: none !important;
   border: 1px solid transparent !important;
+
   &:hover {
     border: 1px solid transparent !important;
     background-color: #ffffff !important;
@@ -147,6 +149,7 @@ h6 {
   font-size: 10px;
   letter-spacing: 1px;
   line-height: 18px;
+ text-transform: uppercase;
   @media screen and (max-width: 992px) {
      line-height: initial;
   }
@@ -171,19 +174,24 @@ h6 {
   }
   @media screen and (max-width: 576px) {
     padding: 30px;
-    bottom: -150px;
+    bottom: 0px;
+    left:0;
   }
+  
   &__title {
     color: #232323;
     font-size: 26px !important;
     font-weight: 500;
     letter-spacing: -0.89px;
     line-height: 32px;
+     z-index: 1;
+     position: relative;
   }
   &__deco {
     position: absolute;
     left: -150px;
     top: 35px;
+    z-index: 0;
   }
   &--black {
     background-color: #000000;
@@ -216,7 +224,7 @@ h6 {
     width: 180px;
   }
   &__title {
-    color: #ffffff;
+    // color: #ffffff;
     font-family: "Lexend Deca";
     font-size: 22px;
     letter-spacing: -0.44px;
@@ -257,6 +265,9 @@ h6 {
   &__box {
     background-color: #000000;
     width: 90%;
+     @media screen and (max-width: 992px) {
+       width: 100%;
+    }
     color: #fff;
     position: relative;
   }
@@ -318,4 +329,8 @@ h6 {
   // left: 0;
   position: absolute;
 }
+.bg-black-mobile{
+    @media screen and (max-width: 576px) {
+    background-color: #111111;}
+  }
 </style>

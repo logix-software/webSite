@@ -1,8 +1,8 @@
 <template>
   <Layout>
     <div class="hero d-flex align-items-center">
-      <g-image src="~/assets/images/deco-with-arrow.svg" class="hero__deco1" />
-      <!-- <g-image src="~/assets/images/deco-with-arrow.svg" class="hero__deco2" /> -->
+      <g-image src="~/assets/images/deco-with-arrow1.svg" class="hero__deco1" />
+      <g-image src="~/assets/images/deco-with-arrow2.svg" class="hero__deco2" />
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -67,7 +67,7 @@
                 <h1 class="step__name">Learn</h1>
                 <div class="d-flex align-items-center">
                   <h6 class="step__num">01</h6>
-                  <g-image src="~/assets/images/deco-short.svg" class="step__shortDeco ml-3" />
+                  <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
                 </div>
                 <p
                   class="step__description"
@@ -108,7 +108,10 @@
                       <h1 class="step__name">Learn</h1>
                       <div class="d-flex align-items-center">
                         <h6 class="step__num">01</h6>
-                        <g-image src="~/assets/images/deco-short.svg" class="step__shortDeco ml-3" />
+                        <g-image
+                          src="~/assets/images/deco-short2.svg"
+                          class="step__shortDeco ml-3"
+                        />
                       </div>
                       <p
                         class="step__description"
@@ -146,7 +149,10 @@
                       <h1 class="step__name">Learn</h1>
                       <div class="d-flex align-items-center">
                         <h6 class="step__num">01</h6>
-                        <g-image src="~/assets/images/deco-short.svg" class="step__shortDeco ml-3" />
+                        <g-image
+                          src="~/assets/images/deco-short2.svg"
+                          class="step__shortDeco ml-3"
+                        />
                       </div>
                       <p
                         class="step__description"
@@ -184,7 +190,10 @@
                       <h1 class="step__name">Learn</h1>
                       <div class="d-flex align-items-center">
                         <h6 class="step__num">01</h6>
-                        <g-image src="~/assets/images/deco-short.svg" class="step__shortDeco ml-3" />
+                        <g-image
+                          src="~/assets/images/deco-short2.svg"
+                          class="step__shortDeco ml-3"
+                        />
                       </div>
                       <p
                         class="step__description"
@@ -222,7 +231,10 @@
                       <h1 class="step__name">Learn</h1>
                       <div class="d-flex align-items-center">
                         <h6 class="step__num">01</h6>
-                        <g-image src="~/assets/images/deco-short.svg" class="step__shortDeco ml-3" />
+                        <g-image
+                          src="~/assets/images/deco-short2.svg"
+                          class="step__shortDeco ml-3"
+                        />
                       </div>
                       <p
                         class="step__description"
@@ -256,170 +268,229 @@
         </div>
       </div>
       <div v-else>
-        <div class="owl-carousel owl-theme owl-carousel-steps">
-          <div class="item">
-            <div class="step">
-              <div class="container container--custom">
-                <div class="row">
-                  <div class="col-lg-6 col-left d-flex flex-column">
-                    <div class="col-left">
-                      <h1 class="step__name">Learn</h1>
-                      <div class="d-flex align-items-center">
-                        <h6 class="step__num">01</h6>
-                        <g-image src="~/assets/images/deco-short.svg" class="step__shortDeco ml-3" />
-                      </div>
-                      <p
-                        class="step__description"
-                      >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
-                    </div>
-                    <div class="col-right">
-                      <h6 class="step__keyWord">STRUMENTI</h6>
-                      <ul class="list-unstyled">
-                        <li class="step__list">Workshop</li>
-                        <li class="step__list">Stakeholder interview</li>
-                        <li class="step__list">Competive analysis</li>
-                        <li class="step__list">Behaviour analysis</li>
-                        <li class="step__list">User interview</li>
-                        <li class="step__list">Surveys & test</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-right">
-                    <h6 class="step__keyWord mt-4">STEP</h6>
-                    <h2 class="step__title">
-                      Exploration
-                      Market research
-                      Ux research
-                    </h2>
-                    <g-image src="~/assets/images/step.svg" class="step__deco" />
-                  </div>
+        <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <div
+              class="collapsed"
+              data-toggle="collapse"
+              data-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              <div class="d-flex align-items-end justify-content-between">
+                <h6 class="step__num">01</h6>
+                <h1 class="step__name">Learn</h1>
+                <div>
+                  <i class="fas fa-plus text-white"></i>
                 </div>
+              </div>
+              <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
+            </div>
+          </div>
+
+          <div
+            id="collapseOne"
+            class="collapse"
+            aria-labelledby="headingOne"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              <p
+                class="step__description"
+              >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
+
+              <div class="col-right">
+                <h6 class="step__keyWord">STRUMENTI</h6>
+                <ul class="list-unstyled">
+                  <li class="step__list">Workshop</li>
+                  <li class="step__list">Stakeholder interview</li>
+                  <li class="step__list">Competive analysis</li>
+                  <li class="step__list">Behaviour analysis</li>
+                  <li class="step__list">User interview</li>
+                  <li class="step__list">Surveys & test</li>
+                </ul>
+              </div>
+              <div class="col-right">
+                <h6 class="step__keyWord mt-4">STEP</h6>
+                <h2 class="step__title">
+                  Exploration
+                  Market research
+                  Ux research
+                </h2>
+                <g-image src="~/assets/images/step.svg" class="step__deco" />
               </div>
             </div>
           </div>
-          <div class="item">
-            <div class="step">
-              <div class="container container--custom">
-                <div class="row">
-                  <div class="col-lg-6 col-left d-flex flex-column">
-                    <div class="col-left">
-                      <h1 class="step__name">Learn</h1>
-                      <div class="d-flex align-items-center">
-                        <h6 class="step__num">01</h6>
-                        <g-image src="~/assets/images/deco-short.svg" class="step__shortDeco ml-3" />
-                      </div>
-                      <p
-                        class="step__description"
-                      >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
-                    </div>
-                    <div class="col-right">
-                      <h6 class="step__keyWord">STRUMENTI</h6>
-                      <ul class="list-unstyled">
-                        <li class="step__list">Workshop</li>
-                        <li class="step__list">Stakeholder interview</li>
-                        <li class="step__list">Competive analysis</li>
-                        <li class="step__list">Behaviour analysis</li>
-                        <li class="step__list">User interview</li>
-                        <li class="step__list">Surveys & test</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-right">
-                    <h6 class="step__keyWord mt-4">STEP</h6>
-                    <h2 class="step__title">
-                      Exploration
-                      Market research
-                      Ux research
-                    </h2>
-                    <g-image src="~/assets/images/step.svg" class="step__deco" />
-                  </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <div
+              class="collapsed"
+              data-toggle="collapse"
+              data-target="#collapseTwo"
+              aria-expanded="true"
+              aria-controls="collapseTwo"
+            >
+              <div class="d-flex align-items-end justify-content-between">
+                <h6 class="step__num">01</h6>
+                <h1 class="step__name">Learn</h1>
+                <div>
+                  <i class="fas fa-plus text-white"></i>
                 </div>
+              </div>
+              <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
+            </div>
+          </div>
+
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              <p
+                class="step__description"
+              >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
+
+              <div class="col-right">
+                <h6 class="step__keyWord">STRUMENTI</h6>
+                <ul class="list-unstyled">
+                  <li class="step__list">Workshop</li>
+                  <li class="step__list">Stakeholder interview</li>
+                  <li class="step__list">Competive analysis</li>
+                  <li class="step__list">Behaviour analysis</li>
+                  <li class="step__list">User interview</li>
+                  <li class="step__list">Surveys & test</li>
+                </ul>
+              </div>
+              <div class="col-right">
+                <h6 class="step__keyWord mt-4">STEP</h6>
+                <h2 class="step__title">
+                  Exploration
+                  Market research
+                  Ux research
+                </h2>
+                <g-image src="~/assets/images/step.svg" class="step__deco" />
               </div>
             </div>
           </div>
-          <div class="item">
-            <div class="step">
-              <div class="container container--custom">
-                <div class="row">
-                  <div class="col-lg-6 col-left d-flex flex-column">
-                    <div class="col-left">
-                      <h1 class="step__name">Learn</h1>
-                      <div class="d-flex align-items-center">
-                        <h6 class="step__num">01</h6>
-                        <g-image src="~/assets/images/deco-short.svg" class="step__shortDeco ml-3" />
-                      </div>
-                      <p
-                        class="step__description"
-                      >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
-                    </div>
-                    <div class="col-right">
-                      <h6 class="step__keyWord">STRUMENTI</h6>
-                      <ul class="list-unstyled">
-                        <li class="step__list">Workshop</li>
-                        <li class="step__list">Stakeholder interview</li>
-                        <li class="step__list">Competive analysis</li>
-                        <li class="step__list">Behaviour analysis</li>
-                        <li class="step__list">User interview</li>
-                        <li class="step__list">Surveys & test</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-right">
-                    <h6 class="step__keyWord mt-4">STEP</h6>
-                    <h2 class="step__title">
-                      Exploration
-                      Market research
-                      Ux research
-                    </h2>
-                    <g-image src="~/assets/images/step.svg" class="step__deco" />
-                  </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <div
+              class="collapsed"
+              data-toggle="collapse"
+              data-target="#collapseThree"
+              aria-expanded="true"
+              aria-controls="collapseThree"
+            >
+              <div class="d-flex align-items-end justify-content-between">
+                <h6 class="step__num">01</h6>
+                <h1 class="step__name">Learn</h1>
+                <div>
+                  <i class="fas fa-plus text-white"></i>
                 </div>
+              </div>
+              <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
+            </div>
+          </div>
+
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              <p
+                class="step__description"
+              >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
+
+              <div class="col-right">
+                <h6 class="step__keyWord">STRUMENTI</h6>
+                <ul class="list-unstyled">
+                  <li class="step__list">Workshop</li>
+                  <li class="step__list">Stakeholder interview</li>
+                  <li class="step__list">Competive analysis</li>
+                  <li class="step__list">Behaviour analysis</li>
+                  <li class="step__list">User interview</li>
+                  <li class="step__list">Surveys & test</li>
+                </ul>
+              </div>
+              <div class="col-right">
+                <h6 class="step__keyWord mt-4">STEP</h6>
+                <h2 class="step__title">
+                  Exploration
+                  Market research
+                  Ux research
+                </h2>
+                <g-image src="~/assets/images/step.svg" class="step__deco" />
               </div>
             </div>
           </div>
-          <div class="item">
-            <div class="step">
-              <div class="container container--custom">
-                <div class="row">
-                  <div class="col-lg-6 col-left d-flex flex-column">
-                    <div class="col-left">
-                      <h1 class="step__name">Learn</h1>
-                      <div class="d-flex align-items-center">
-                        <h6 class="step__num">01</h6>
-                        <g-image src="~/assets/images/deco-short.svg" class="step__shortDeco ml-3" />
-                      </div>
-                      <p
-                        class="step__description"
-                      >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
-                    </div>
-                    <div class="col-right">
-                      <h6 class="step__keyWord">STRUMENTI</h6>
-                      <ul class="list-unstyled">
-                        <li class="step__list">Workshop</li>
-                        <li class="step__list">Stakeholder interview</li>
-                        <li class="step__list">Competive analysis</li>
-                        <li class="step__list">Behaviour analysis</li>
-                        <li class="step__list">User interview</li>
-                        <li class="step__list">Surveys & test</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-right">
-                    <h6 class="step__keyWord mt-4">STEP</h6>
-                    <h2 class="step__title">
-                      Exploration
-                      Market research
-                      Ux research
-                    </h2>
-                    <g-image src="~/assets/images/step.svg" class="step__deco" />
-                  </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <div
+              class="collapsed"
+              data-toggle="collapse"
+              data-target="#collapseFour"
+              aria-expanded="true"
+              aria-controls="collapseFour"
+            >
+              <div class="d-flex align-items-end justify-content-between">
+                <h6 class="step__num">01</h6>
+                <h1 class="step__name">Learn</h1>
+                <div>
+                  <i class="fas fa-plus text-white"></i>
                 </div>
+              </div>
+              <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
+            </div>
+          </div>
+
+          <div
+            id="collapseFour"
+            class="collapse"
+            aria-labelledby="headingFour"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              <p
+                class="step__description"
+              >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
+
+              <div class="col-right">
+                <h6 class="step__keyWord">STRUMENTI</h6>
+                <ul class="list-unstyled">
+                  <li class="step__list">Workshop</li>
+                  <li class="step__list">Stakeholder interview</li>
+                  <li class="step__list">Competive analysis</li>
+                  <li class="step__list">Behaviour analysis</li>
+                  <li class="step__list">User interview</li>
+                  <li class="step__list">Surveys & test</li>
+                </ul>
+              </div>
+              <div class="col-right">
+                <h6 class="step__keyWord mt-4">STEP</h6>
+                <h2 class="step__title">
+                  Exploration
+                  Market research
+                  Ux research
+                </h2>
+                <g-image src="~/assets/images/step.svg" class="step__deco" />
               </div>
             </div>
           </div>
         </div>
       </div>
+      </div>
+      
     </div>
+
     <div class="expertise pt-5">
       <div class="container">
         <div class="row">
@@ -433,7 +504,7 @@
         </div>
       </div>
       <div class="container pt-5">
-          <div class="row mb-5">
+        <div class="row mb-5">
           <div class="col-lg-9 d-flex align-items-center skill skill--right py-5 mb-4">
             <div class="skill__body">
               <div class="my-3">
@@ -448,7 +519,7 @@
               <a href="http://" class="btn btn-secondary">Approfondisci expertise</a>
             </div>
 
-            <g-image src="~/assets/images/collaborative.png" class="skill__img" />
+            <g-image src="~/assets/images/competenze-digital.png" class="skill__img" />
           </div>
         </div>
         <div class="row mb-5">
@@ -458,15 +529,15 @@
                 <span class="label label--dev mr-2">Development</span>
                 <span class="label label--des mx-2">Design</span>
               </div>
-              <h1 class="skill__title">Digital transformation</h1>
+              <h1 class="skill__title">Sviluppo Web & Mobile</h1>
               <div class="skill__line mb-3"></div>
               <p
                 class="skill__description"
-              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              >Seguendo la metodologia agile dall’analisi al test costruiamo prodotti in linea con le esigenze di ciascun cliente, realizzando progetti web e mobile che si adattano alle diverse piattaforme esistenti.</p>
               <a href="http://" class="btn btn-secondary">Approfondisci expertise</a>
             </div>
 
-            <g-image src="~/assets/images/collaborative.png" class="skill__img" />
+            <g-image src="~/assets/images/competenze-sviluppo.png" class="skill__img" />
           </div>
         </div>
         <div class="row mb-5">
@@ -476,15 +547,15 @@
                 <span class="label label--dev mr-2">Development</span>
                 <span class="label label--des mx-2">Design</span>
               </div>
-              <h1 class="skill__title">Digital transformation</h1>
+              <h1 class="skill__title">Design research & strategy</h1>
               <div class="skill__line mb-3"></div>
               <p
                 class="skill__description"
-              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              >In Logix ci occupiamo dello sviluppo software con esperienza decennale e realizzazione di progetti sulla base delle reali esigenze delle aziende clienti.</p>
               <a href="http://" class="btn btn-secondary">Approfondisci expertise</a>
             </div>
 
-            <g-image src="~/assets/images/collaborative.png" class="skill__img" />
+            <g-image src="~/assets/images/competenze-design.png" class="skill__img" />
           </div>
         </div>
         <div class="row mb-0">
@@ -494,21 +565,20 @@
                 <span class="label label--dev mr-2">Development</span>
                 <span class="label label--des mx-2">Design</span>
               </div>
-              <h1 class="skill__title">Digital transformation</h1>
+              <h1 class="skill__title">Collaborative team</h1>
               <div class="skill__line mb-3"></div>
               <p
                 class="skill__description"
-              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              >I nostro team di professionisti è in grado di offrire alle aziende clienti le professionalità, le competenze, gli strumenti ed i metodi migliori nel breve periodo.</p>
               <a href="http://" class="btn btn-secondary">Approfondisci expertise</a>
             </div>
 
-            <g-image src="~/assets/images/collaborative.png" class="skill__img" />
+            <g-image src="~/assets/images/competenze-collaborative.png" class="skill__img" />
           </div>
         </div>
-        
       </div>
     </div>
-      <div class="partnership py-5">
+    <div class="partnership py-5">
       <div class="partnership__box my-5 py-5">
         <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
         <div class="container">
@@ -548,8 +618,10 @@
               <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
               <div class="d-flex align-items-center justify-content-between w-75">
                 <h1 class="cta__title">
-                  Consiglio last minute? Parla con Bottino oppure chiama al 
-                  <span class="text-green">0744/33434522</span>
+                  Consiglio last minute? Parla con Bottino oppure chiama al
+                  <span
+                    class="text-green"
+                  >0744/33434522</span>
                 </h1>
               </div>
             </div>
@@ -618,15 +690,7 @@ export default {
             .addTo(controller);
         });
       }, 500);
-    } else {
-      setTimeout(function() {
-        $(".owl-carousel-steps").owlCarousel({
-          loop: true,
-          nav: false,
-          items: 1
-        });
-      }, 500);
-    }
+    } 
     // AOS.init();
   }
 };
@@ -738,7 +802,7 @@ export default {
 
   .container--custom {
     @media screen and (min-width: 992px) {
-    //   margin-left: 60px;
+      //   margin-left: 60px;
     }
   }
   &__deco {
@@ -750,7 +814,8 @@ export default {
     font-size: 161px;
     letter-spacing: -8.72px;
     @media screen and (max-width: 992px) {
-      font-size: 60px;
+      font-size: 40px;
+      font-weight: 500;
       letter-spacing: initial;
     }
   }
@@ -800,9 +865,14 @@ export default {
     font-weight: bold;
     letter-spacing: -1.28px;
     line-height: 37px;
+    @media screen and (max-width: 992px) {
+      font-size: 40px;
+      font-weight: 500;
+      letter-spacing: initial;
+    }
   }
   &__shortDeco {
-    width: 25px;
+    width: 65px !important;
   }
   &--inverted {
     .col-left {
@@ -835,11 +905,11 @@ export default {
     letter-spacing: -1.91px;
     line-height: 58px;
     text-align: center;
-     @media screen and (max-width: 992px) {
-         font-size: 42px;
-    letter-spacing: initial;
-    line-height: initial;
-     }
+    @media screen and (max-width: 992px) {
+      font-size: 42px;
+      letter-spacing: initial;
+      line-height: initial;
+    }
   }
   &__description {
     color: #000000;
@@ -870,8 +940,8 @@ export default {
     position: relative;
     z-index: 1;
     @media screen and (max-width: 992px) {
-          width: 100%;
-     }
+      width: 100%;
+    }
   }
   &__title {
     color: #000000;
@@ -879,7 +949,6 @@ export default {
     font-size: 40px;
     letter-spacing: -1.47px;
     line-height: 42px;
-    
   }
   &__line {
     width: 30px;
@@ -894,7 +963,7 @@ export default {
     letter-spacing: -0.18px;
     line-height: 25px;
   }
- 
+
   &--right {
     @media screen and (min-width: 992px) {
       justify-content: space-around;
@@ -912,35 +981,36 @@ export default {
       }
     }
     .skill__img {
+      width: 380px;
+
+      margin-left: -230px;
       order: 0;
       margin-right: initial;
-      @media screen and (min-width: 992px) {
-        margin-right: -176px;
-      }
       @media screen and (max-width: 992px) {
         order: 1;
-        margin-right: -176px;
         margin-left: initial;
+        width: 150px;
       }
     }
   }
-   &__img {
+  &__img {
     width: 450px;
+
     margin-right: -176px;
-     position: relative;
+    position: relative;
     z-index: 1;
     @media screen and (max-width: 992px) {
- width: 40%;
-           margin-right: initial!important;
-           margin-left: 20px!important;
-           margin-top: -230px!important;
+      width: 40%;
+      margin-right: initial !important;
+      margin-left: 20px !important;
+      margin-top: -230px !important;
     }
-     @media screen and (max-width: 576px) {
-          width: 50%;
-           margin-right: initial!important;
-           margin-left: -70px!important;
-           margin-top: -330px!important;
-     }
+    @media screen and (max-width: 576px) {
+      width: 50%;
+      margin-right: initial !important;
+      margin-left: -70px !important;
+      margin-top: -330px !important;
+    }
   }
 }
 
@@ -948,13 +1018,21 @@ export default {
   @media screen and (max-width: 992px) {
     bottom: -60px;
   }
-  &--black{
-        @media screen and (max-width: 992px) {
-    bottom: -80px;
+  &--black {
+    @media screen and (max-width: 992px) {
+      bottom: -80px;
+    }
+    @media screen and (max-width: 576px) {
+      bottom: -120px;
+    }
   }
-      @media screen and (max-width: 576px) {
-    bottom: -120px;
-  }
+}
+.accordion {
+  .card {
+    background-color: transparent;
+    .card-header {
+      background-color: transparent;
+    }
   }
 }
 </style>

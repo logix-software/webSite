@@ -23,9 +23,9 @@
             <g-image src="~/assets/images/ux-research.png" class="competence__img" />
           </div>
           <div class="col-lg-5 ml-lg-5">
-            <h1 class="competence__title">UX Research</h1>
+            <h1 class="competence__title my-3">UX Research</h1>
             <p
-              class="competence__description"
+              class="competence__description mb-4"
             >Quando è troppo lontani dagli utenti, è necessario fare ricerca, analizzare l’esperienza di utilizzo, raccogliere ed elaborare i dati trasformandoli in informazioni. Un processo utile per comprendere cosa davvero desiderano gli utenti e cosa è necessario fare per accontentarli.</p>
             <a href class="btn btn-secondary">Parliamo di questo servizio</a>
           </div>
@@ -93,9 +93,9 @@
             <g-image src="~/assets/images/ux-strategy.png" class="competence__img" />
           </div>
           <div class="col-lg-5 ml-lg-5 cont-body">
-            <h1 class="competence__title">UX Strategy</h1>
+            <h1 class="competence__title my-3">UX Strategy</h1>
             <p
-              class="competence__description"
+              class="competence__description mb-4"
             >Con le considerazioni e la consapevolezza acquisita con la riceraca, progettiamo ed elaboriamo soluzioni creative ed efficaci, in grado di stupire e soddisfare le aspettative degli utenti. Creiamo esperienze piacevoli che consentono agli utenti di raggiungere i propri obiettivi e che grazie a design accattivanti, generano fiducia e consapevolezza nell’utilizzo.</p>
             <a href class="btn btn-secondary">Parliamo di questo servizio</a>
           </div>
@@ -229,58 +229,58 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+        <div class="col-lg-3 mb-4 mb-lg-0">
           <div class="day">
             <g-image src="~/assets/images/icon-num-1-small.svg" class="day__img mb-2 mb-lg-0" />
             <p class="day__name mb-0">GIORNO 1</p>
             <h6 class="day__title">La sfida</h6>
-            <div class="mb-3">
+              <div class="mb-3">
               <span
                 data-v-00d6a066
-                class="mb-1 mb-lg-0 d-block d-lg-inline-block label label--dev mr-lg-3"
+                class="mb-1 mb-lg-0 d-inline-block label label--dev mr-lg-3"
               >DEVELOPMENT</span>
-              <span data-v-00d6a066 class="d-block d-lg-inline-block label label--des">DESIGN</span>
+              <span data-v-00d6a066 class="d-inline-block label label--des">DESIGN</span>
             </div>
             <p
               class="day__description"
             >Insieme con il cliente cerchiamo di capire le necessità e le problematiche che con il progetto vorremmo risolvere.</p>
           </div>
         </div>
-        <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+        <div class="col-lg-3 mb-4 mb-lg-0">
           <div class="day day--inverted">
             <g-image src="~/assets/images/icon-num-2-small.svg" class="day__img mb-2 mb-lg-0" />
             <p class="day__name mb-0">GIORNO 1</p>
             <h6 class="day__title">La sfida</h6>
-            <div class="mb-3">
+             <div class="mb-3">
               <span
                 data-v-00d6a066
-                class="mb-1 mb-lg-0 d-block d-lg-inline-block label label--dev mr-lg-3"
+                class="mb-1 mb-lg-0 d-inline-block label label--dev mr-lg-3"
               >DEVELOPMENT</span>
-              <span data-v-00d6a066 class="d-block d-lg-inline-block label label--des">DESIGN</span>
+              <span data-v-00d6a066 class="d-inline-block label label--des">DESIGN</span>
             </div>
             <p
               class="day__description"
             >Insieme con il cliente cerchiamo di capire le necessità e le problematiche che con il progetto vorremmo risolvere.</p>
           </div>
         </div>
-        <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+        <div class="col-lg-3 mb-4 mb-lg-0">
           <div class="day">
             <g-image src="~/assets/images/icon-num-3-small.svg" class="day__img mb-2 mb-lg-0" />
             <p class="day__name mb-0">GIORNO 1</p>
             <h6 class="day__title">La sfida</h6>
-            <div class="mb-3">
+              <div class="mb-3">
               <span
                 data-v-00d6a066
-                class="mb-1 mb-lg-0 d-block d-lg-inline-block label label--dev mr-lg-3"
+                class="mb-1 mb-lg-0 d-inline-block label label--dev mr-lg-3"
               >DEVELOPMENT</span>
-              <span data-v-00d6a066 class="d-block d-lg-inline-block label label--des">DESIGN</span>
+              <span data-v-00d6a066 class="d-inline-block label label--des">DESIGN</span>
             </div>
             <p
               class="day__description"
             >Insieme con il cliente cerchiamo di capire le necessità e le problematiche che con il progetto vorremmo risolvere.</p>
           </div>
         </div>
-        <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+        <div class="col-lg-3 mb-4 mb-lg-0">
           <div class="day day--inverted">
             <g-image src="~/assets/images/icon-num-4-small.svg" class="day__img mb-2 mb-lg-0" />
             <p class="day__name mb-0">GIORNO 1</p>
@@ -288,9 +288,9 @@
             <div class="mb-3">
               <span
                 data-v-00d6a066
-                class="mb-1 mb-lg-0 d-block d-lg-inline-block label label--dev mr-lg-3"
+                class="mb-1 mb-lg-0 d-inline-block label label--dev mr-lg-3"
               >DEVELOPMENT</span>
-              <span data-v-00d6a066 class="d-block d-lg-inline-block label label--des">DESIGN</span>
+              <span data-v-00d6a066 class="d-inline-block label label--des">DESIGN</span>
             </div>
             <p
               class="day__description"
@@ -306,7 +306,7 @@
       <h1 class="methods__bigText">Business</h1>
       <div class="container py-5">
         <div class="row">
-          <div class="col-lg-4 mx-auto mb-4 mb-lg-0">
+          <div class="col-lg-4 mx-auto mb-5 pb-5 pb-lg-0 mb-lg-0">
             <g-image src="~/assets/images/ux-business.svg" class="methods__img" />
             <h1 class="methods__title">È questione di business</h1>
             <p
@@ -472,7 +472,7 @@ export default {
     position: absolute;
     right: -170px;
     bottom: 80px;
-    color: rgba(255, 255, 255, 0.23);
+    color: rgba(255, 255, 255, 1);
     font-family: "Lexend Deca";
     font-size: 161px;
     letter-spacing: -9.63px;

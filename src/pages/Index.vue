@@ -1,16 +1,21 @@
 <template>
   <Layout>
     <div class="hero hero--home d-flex align-items-center">
-   
       <div class="container">
         <div class="row">
           <div class="col-lg-6 position-relative ml-auto">
             <g-image src="~/assets/images/deco.svg" class="hero__deco" />
-            <g-image src="~/assets/images/deco-designer.svg" class="hero__decoDesigner mouse-effect" />
-              <g-image src="~/assets/images/deco-developer.svg" class="hero__decoDeveloper mouse-effect2" />
+            <g-image
+              src="~/assets/images/deco-designer.svg"
+              class="hero__decoDesigner mouse-effect"
+            />
+            <g-image
+              src="~/assets/images/deco-developer.svg"
+              class="hero__decoDeveloper mouse-effect2"
+            />
 
             <!-- <svg width="340px" height="340px"  viewBox="0 0 340 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> -->
-           
+
             <h1 class="hero__title">Sviluppiamo nuove logiche digitali</h1>
           </div>
           <div class="col-lg-5"></div>
@@ -114,9 +119,9 @@
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
               <p></p>
-              <div class="d-flex align-items-center">
-                <p class="section__label mr-3">Development</p>
-                <p class="section__label">Design</p>
+              <div class="mb-2">
+                <span class="label label--dev mr-3">DEVELOPMENT</span>
+                <span class="label label--des">DESIGN</span>
               </div>
               <h1 class="section__title">
                 Digital
@@ -134,7 +139,7 @@
             <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
-              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+              <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
               <p></p>
               <div class="d-flex align-items-center">
                 <p class="section__label mr-3">Development</p>
@@ -178,7 +183,7 @@
             <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
-              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+              <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
               <p></p>
               <div class="d-flex align-items-center">
                 <p class="section__label mr-3">Development</p>
@@ -230,9 +235,32 @@
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
               <p></p>
-              <div class="d-flex align-items-center">
-                <p class="section__label mr-3">Development</p>
-                <p class="section__label">Design</p>
+              <div class="mb-2">
+                <span class="label label--dev mr-3">DEVELOPMENT</span>
+                <span class="label label--des">DESIGN</span>
+              </div>
+              <h1 class="section__title">
+                Digital
+                <br />transformation
+              </h1>
+              <div class="section__line mb-3"></div>
+              <p
+                class="section__description"
+              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+            </div>
+          </section>
+        </div>
+        <div class="item">
+          <section class="section">
+            <div class="section__img"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <div class="section__body">
+              <div class="section__shadow"></div>
+              <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
+              <p></p>
+              <div class="mb-2">
+                <span class="label label--dev mr-3">DEVELOPMENT</span>
+                <span class="label label--des">DESIGN</span>
               </div>
               <h1 class="section__title">
                 Digital
@@ -253,9 +281,9 @@
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
               <p></p>
-              <div class="d-flex align-items-center">
-                <p class="section__label mr-3">Development</p>
-                <p class="section__label">Design</p>
+              <div class="mb-2">
+                <span class="label label--dev mr-3">DEVELOPMENT</span>
+                <span class="label label--des">DESIGN</span>
               </div>
               <h1 class="section__title">
                 Digital
@@ -274,34 +302,11 @@
             <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
-              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+              <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
               <p></p>
-              <div class="d-flex align-items-center">
-                <p class="section__label mr-3">Development</p>
-                <p class="section__label">Design</p>
-              </div>
-              <h1 class="section__title">
-                Digital
-                <br />transformation
-              </h1>
-              <div class="section__line mb-3"></div>
-              <p
-                class="section__description"
-              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
-            </div>
-          </section>
-        </div>
-        <div class="item">
-          <section class="section">
-            <div class="section__img"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-            <div class="section__body">
-              <div class="section__shadow"></div>
-              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
-              <p></p>
-              <div class="d-flex align-items-center">
-                <p class="section__label mr-3">Development</p>
-                <p class="section__label">Design</p>
+              <div class="mb-2">
+                <span class="label label--dev mr-3">DEVELOPMENT</span>
+                <span class="label label--des">DESIGN</span>
               </div>
               <h1 class="section__title">
                 Digital
@@ -338,10 +343,10 @@
             <g-image src="~/assets/images/deco3.svg" class="caseHistory__deco" />
             <h4 class="caseHistory__titleProject">Acta Logix - registro elettronico</h4>
           </div>
-          <div class="d-flex align-items-center mt-3 mb-4">
-            <p class="section__label mr-3 mb-0">Development</p>
-            <p class="section__label section__label--2 mb-0">Design</p>
-          </div>
+           <div class="mb-2">
+                <span class="label label--dev mr-3">DEVELOPMENT</span>
+                <span class="label label--des">DESIGN</span>
+              </div>
           <p class="caseHistory__description mb-5">
             When you enter into any new area of science, you almost
             always find yourself with a baffling new language of technical terms to learn before.
@@ -383,7 +388,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12 d-inline-block align-items-center py-5">
+          <div class="col-lg-12 d-inline-block align-items-center py-5 mb-5 mb-sm-0">
             <g-image src="~/assets/images/logo/vue.png" class="tools__logo" />
             <g-image src="~/assets/images/logo/react.png" class="tools__logo" />
             <g-image src="~/assets/images/logo/angular.png" class="tools__logo" />
@@ -394,9 +399,9 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container my-5 my-sm-0">
       <div class="row">
-        <div class="col-lg-10 ml-auto position-relative">
+        <div class="col-lg-10 mt-5 mt-sm-0 ml-auto position-relative">
           <div class="cta">
             <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
             <div class="d-lg-flex align-items-center justify-content-between">
@@ -546,7 +551,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container bg-black-mobile">
       <div class="row">
         <div class="col-lg-12">
           <div class="values py-5">
@@ -559,43 +564,43 @@
                   class="values__description"
                 >Rimanere al passo con i tempi ed utilizzare i migliori strumenti fa parte del nostro lavoro.</p>
               </div>
-              <div class="container-values d-flex flex-wrap justify-content-end">
-                <div class="value mx-1 mx-lg-0 mr-lg-4 mb-4">
+              <div class="container-values d-block d-sm-flex flex-wrap justify-content-center justify-content-sm-end">
+                <div class="value mx-lg-0 mr-lg-4 mb-4">
                   <g-image src="~/assets/images/icons/trasparenza.svg" class="value__icon" />
                   <h2 class="value__title">Trasparenza</h2>
                   <p
                     class="value__description"
                   >I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione e realizzazione.</p>
                 </div>
-                <div class="value value--2 mx-1 mx-lg-0 mr-lg-4 mb-4">
+                <div class="value value--2 mx-lg-0 mr-lg-4 mb-4">
                   <g-image src="~/assets/images/icons/curiosita.svg" class="value__icon" />
                   <h2 class="value__title">Curiosità</h2>
                   <p
                     class="value__description"
                   >Siamo una squadra appassionata sempre alla ricerca di sfide nuove ed importanti.</p>
                 </div>
-                <div class="value mx-1 mx-lg-0 mr-lg-4 mb-4">
+                <div class="value mx-lg-0 mr-lg-4 mb-4">
                   <g-image src="~/assets/images/icons/disponibilita.svg" class="value__icon" />
                   <h2 class="value__title">Disponibilità</h2>
                   <p
                     class="value__description"
                   >Siamo aperti ad ogni sfida e ad ogni tipo di suggerimento per ascoltare e comprendere tutte le esigenze dei nostri clienti.</p>
                 </div>
-                <div class="value value--2 mx-1 mx-lg-0 mr-lg-4 mb-4">
+                <div class="value value--2 mx-lg-0 mr-lg-4 mb-4">
                   <g-image src="~/assets/images/icons/positivita.svg" class="value__icon" />
                   <h2 class="value__title">Positività</h2>
                   <p
                     class="value__description"
                   >Cerchiamo di non rinunciare mai al sorriso, ingrendiente fondamentale per rispondere al meglio alle sfide quotidiane.</p>
                 </div>
-                <div class="value mx-1 mx-lg-0 mr-lg-4 mb-4">
+                <div class="value mx-lg-0 mr-lg-4 mb-4">
                   <g-image src="~/assets/images/icons/caffe.svg" class="value__icon" />
                   <h2 class="value__title">Caffè</h2>
                   <p
                     class="value__description"
                   >Litri e litri di caffè che ci aiutano a svolgere al meglio il nostro lavoro! ;)</p>
                 </div>
-                <div class="value value--2 mx-1 mx-lg-0 mr-lg-4 mb-4">
+                <div class="value value--2 mx-lg-0 mr-lg-4 mb-4">
                   <g-image src="~/assets/images/icons/metodo.svg" class="value__icon" />
                   <h2 class="value__title">Metodo</h2>
                   <p
@@ -708,7 +713,7 @@ export default {
   mounted() {
     this.deviceWidth = window.innerWidth;
     const el = document.querySelector(".mouse-effect");
-      //  const el2 = document.querySelector(".mouse-effect2");
+    //  const el2 = document.querySelector(".mouse-effect2");
     let lastMove = 0;
 
     function updateMouse(x, y) {
@@ -728,8 +733,7 @@ export default {
     requestAnimationFrame(render);
 
     // const el = document.querySelector(".mouse-effect");
-       const el2 = document.querySelector(".mouse-effect2");
-   
+    const el2 = document.querySelector(".mouse-effect2");
 
     function updateMouse2(x, y) {
       el2.style.transform = `translate(${x}px, ${y}px)`;
@@ -922,8 +926,13 @@ export default {
     top: -140px;
     right: -20px;
     @media screen and (max-width: 992px) {
-      top: -80px;
-      right: 10px;
+      top: -180px;
+      right: 100px;
+    }
+    @media screen and (max-width: 576px) {
+      top: -150px;
+      right: 110px;
+      width:100px;
     }
   }
   &__decoDeveloper {
@@ -931,8 +940,13 @@ export default {
     bottom: 10px;
     right: 80px;
     @media screen and (max-width: 992px) {
-      bottom: -60px;
-    right: 50px;
+      bottom: 0px;
+      right: 110px;
+    }
+    @media screen and (max-width: 576px) {
+      bottom: 20px;
+      right: 100px;
+      width:100px;
     }
   }
   &__title {
@@ -1571,6 +1585,10 @@ export default {
     height: auto;
     width: 80%;
   }
+  @media screen and (max-width: 992px) {
+    
+    // width: 105%;
+  }
   &:before {
     content: "";
     width: 100%;
@@ -1626,13 +1644,15 @@ export default {
     height: 299px;
   }
   @media screen and (max-width: 992px) {
-    width: 155px;
-    padding: 20px 14px;
-  }
-  @media screen and (max-width: 370px) {
-    width: 138px;
+     width: 80%;
+    margin: 15px 10%;
     padding: 20px 10px;
   }
+  
+  // @media screen and (max-width: 370px) {
+  //   width: 138px;
+  //   padding: 20px 10px;
+  // }
   // display: inline-block;
   box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.2);
   &--2 {
@@ -1657,6 +1677,9 @@ export default {
     letter-spacing: -0.15px;
     line-height: 20px;
     height: 118px;
+     @media screen and (max-width: 992px) {
+       height: 70px;
+     }
   }
 }
 .container-values {
