@@ -286,6 +286,9 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+   @media screen and (max-width: 992px) {
+       height: 250px;
+    }
 }
 .theProject {
   width: 100%;
