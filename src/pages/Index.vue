@@ -845,10 +845,10 @@ export default {
 <style lang="scss">
 .bgLeft {
   position: absolute;
-  left: -100px;
+  right: 60%;
   top: 0;
   background-color: #f3f5fb;
-  width: 630px;
+  width: 9999px;
   height: 780px;
   @media screen and (max-width: 992px) {
     width: 60%;

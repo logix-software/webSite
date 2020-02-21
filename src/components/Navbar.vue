@@ -19,25 +19,25 @@
                 <g-link
                   class="nav__link mx-3 py-1 d-inline-block"
                   to="/digital-transformation"
-                >Digital transformation</g-link>
+                >> Digital transformation</g-link>
               </li>
               <li>
                 <g-link
                   class="nav__link mx-3 py-1 d-inline-block"
                   to="/sviluppo-web-and-mobile"
-                >Swiluppo web & mobile</g-link>
+                >> Swiluppo web & mobile</g-link>
               </li>
                <li>
                 <g-link
                   class="nav__link mx-3 py-1 d-inline-block"
                   to="/design-research-and-strategy"
-                >Design research & strategy</g-link>
+                >> Design research & strategy</g-link>
               </li>
                 <li>
                 <g-link
                   class="nav__link mx-3 py-1 d-inline-block"
                   to="/collaborative-team"
-                >Collaborative team</g-link>
+                >> Collaborative team</g-link>
               </li>
               
               <!-- <li>
@@ -248,23 +248,30 @@ export default {
   .dropdown {
     position: absolute;
     top: 120%;
-    background-color: #fff;
+   
     border-radius: 5px;
     padding: 25px 0;
     display: none;
     z-index: 1;
-    width: 220px;
+    width: 240px;
     @media screen and (max-width: 992px) {
-       width: 70%;
+       width: 100%;
        margin-left: 15px;
+       position: relative;
     }
-    -webkit-box-shadow: 0px 2px 9px -2px rgba(82, 83, 94, 0.63);
-    -moz-box-shadow: 0px 2px 9px -2px rgba(82, 83, 94, 0.63);
-    box-shadow: 0px 2px 9px -2px rgba(82, 83, 94, 0.63);
+    // -webkit-box-shadow: 0px 2px 9px -2px rgba(82, 83, 94, 0.63);
+    // -moz-box-shadow: 0px 2px 9px -2px rgba(82, 83, 94, 0.63);
+    // box-shadow: 0px 2px 9px -2px rgba(82, 83, 94, 0.63);
     a {
       font-size: 16px;
       font-weight: 300;
-      color: #000;
+      color: #fff;
+       @media screen and (min-width: 992px) {
+color: rgba(255,255,255,.8);
+&:hover{
+  color: rgba(255,255,255,1);
+}
+       }
        @media screen and (max-width: 992px) {
          font-size: 22px;
          margin: 6px 0;
