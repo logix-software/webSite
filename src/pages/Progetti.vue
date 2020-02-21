@@ -4,8 +4,18 @@
       <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco1" />
       <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco2" />
       <div class="w-100">
-        <h1 class="hero__title text-left" data-aos="fade-right" data-aos-delay="200" data-aos-duration="700">I nostri ultimi</h1>
-        <h1 class="hero__title text-right" data-aos="fade-left" data-aos-delay="200" data-aos-duration="700">progetti</h1>
+        <h1
+          class="hero__title text-left"
+          data-aos="fade-right"
+          data-aos-delay="200"
+          data-aos-duration="700"
+        >I nostri ultimi</h1>
+        <h1
+          class="hero__title text-right"
+          data-aos="fade-left"
+          data-aos-delay="200"
+          data-aos-duration="700"
+        >progetti</h1>
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
@@ -36,7 +46,7 @@
                   When you enter into any new area of science, you almost
                   always find yourself with a baffling new language of technical terms to learn before.
                 </p>
-                <a href="http://" class="btn btn-secondary">Scopri di più</a>
+                <a href="/progetto" class="btn btn-secondary">Scopri di più</a>
               </div>
             </div>
           </div>
@@ -62,7 +72,7 @@
                   When you enter into any new area of science, you almost
                   always find yourself with a baffling new language of technical terms to learn before.
                 </p>
-                <a href="http://" class="btn btn-secondary">Scopri di più</a>
+                <a href="/progetto" class="btn btn-secondary">Scopri di più</a>
               </div>
             </div>
           </div>
@@ -88,7 +98,7 @@
                   When you enter into any new area of science, you almost
                   always find yourself with a baffling new language of technical terms to learn before.
                 </p>
-                <a href="http://" class="btn btn-secondary">Scopri di più</a>
+                <a href="/progetto" class="btn btn-secondary">Scopri di più</a>
               </div>
             </div>
           </div>
@@ -114,7 +124,7 @@
                   When you enter into any new area of science, you almost
                   always find yourself with a baffling new language of technical terms to learn before.
                 </p>
-                <a href="http://" class="btn btn-secondary">Scopri di più</a>
+                <a href="/progetto" class="btn btn-secondary">Scopri di più</a>
               </div>
             </div>
           </div>
@@ -172,6 +182,112 @@
               <p
                 class="tools__description"
               >Il mondo del design include all’interno molteplici ruoli, metodi e strumenti che vanno ben oltre la semplice immagine o l’aspetto d.ruoli, metodi e strumenti che vanno ben oltre la semplice immagine o l’aspetto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="list-projects">
+      <div class="project project--comingSoon py-5">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-6 col-left">
+              <div class="project__img">
+                <g-image src="~/assets/images/deco3.svg" class="integration__img" />
+              </div>
+            </div>
+            <div class="col-lg-6 pl-lg-5 col-right d-flex align-items-center">
+              <div class="pl-lg-5">
+                <h1 class="project__title mb-3">Acta Logix - registro elettronico</h1>
+                <div class="mb-2">
+                  <span class="label label--dev mr-3">DEVELOPMENT</span>
+                  <span class="label label--des">DESIGN</span>
+                </div>
+                <p class="project__hashtags mb-3">#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
+                <p class="project__description mb-4">
+                  When you enter into any new area of science, you almost
+                  always find yourself with a baffling new language of technical terms to learn before.
+                </p>
+                <a href="/progetto" class="btn btn-secondary">Coming soon</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project project--comingSoon py-5">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-6 col-left">
+              <div class="project__img">
+                <g-image src="~/assets/images/deco3.svg" class="integration__img" />
+              </div>
+            </div>
+            <div class="col-lg-6 pl-lg-5 col-right d-flex align-items-center">
+              <div class="pl-lg-5">
+                <h1 class="project__title mb-3">Acta Logix - registro elettronico</h1>
+                <div class="mb-2">
+                  <span class="label label--dev mr-3">DEVELOPMENT</span>
+                  <span class="label label--des">DESIGN</span>
+                </div>
+                <p class="project__hashtags mb-3">#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
+                <p class="project__description mb-4">
+                  When you enter into any new area of science, you almost
+                  always find yourself with a baffling new language of technical terms to learn before.
+                </p>
+                <a href="/progetto" class="btn btn-secondary">Coming soon</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project project--comingSoon py-5">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-6 col-left">
+              <div class="project__img">
+                <g-image src="~/assets/images/deco3.svg" class="integration__img" />
+              </div>
+            </div>
+            <div class="col-lg-6 pl-lg-5 col-right d-flex align-items-center">
+              <div class="pl-lg-5">
+                <h1 class="project__title mb-3">Acta Logix - registro elettronico</h1>
+                <div class="mb-2">
+                  <span class="label label--dev mr-3">DEVELOPMENT</span>
+                  <span class="label label--des">DESIGN</span>
+                </div>
+                <p class="project__hashtags mb-3">#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
+                <p class="project__description mb-4">
+                  When you enter into any new area of science, you almost
+                  always find yourself with a baffling new language of technical terms to learn before.
+                </p>
+                <a href="/progetto" class="btn btn-secondary">Coming soon</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project project--comingSoon py-5">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-6 col-left">
+              <div class="project__img">
+                <g-image src="~/assets/images/deco3.svg" class="integration__img" />
+              </div>
+            </div>
+            <div class="col-lg-6 pl-lg-5 col-right d-flex align-items-center">
+              <div class="pl-lg-5">
+                <h1 class="project__title mb-3">Acta Logix - registro elettronico</h1>
+                <div class="mb-2">
+                  <span class="label label--dev mr-3">DEVELOPMENT</span>
+                  <span class="label label--des">DESIGN</span>
+                </div>
+                <p class="project__hashtags mb-3">#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
+                <p class="project__description mb-4">
+                  When you enter into any new area of science, you almost
+                  always find yourself with a baffling new language of technical terms to learn before.
+                </p>
+                <a href="/progetto" class="btn btn-secondary">Coming soon</a>
+              </div>
             </div>
           </div>
         </div>
@@ -350,6 +466,24 @@ export default {
     .project__hashtags,
     .project__description {
       color: #000;
+    }
+  }
+  &--comingSoon {
+    opacity: 0.5;
+    pointer-events: none;
+    &:nth-child(odd) {
+      .btn-secondary{
+        color: #fff!important;
+        border: 2px solid #fff!important;
+        background-color: transparent!important;
+      }
+    }
+    &:nth-child(even) {
+       .btn-secondary{
+          background-color: transparent!important;
+        color:#3838C4!important;
+        border: 2px solid #3838C4!important;
+      }
     }
   }
   &__img {
