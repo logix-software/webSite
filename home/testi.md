@@ -39,7 +39,7 @@ slider1Slide4Abstract: >-
   Che si tratti di una nuova startup o la ristrutturazione di servizi e
   processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori
   finali.
-slider1Slide4Image: /uploads/bg-pic.png
+slider1Slide4Image: /uploads/project.png
 slider1Slide5Title: Digital transformation
 slider1Slide5Abstract: >-
   Che si tratti di una nuova startup o la ristrutturazione di servizi e
