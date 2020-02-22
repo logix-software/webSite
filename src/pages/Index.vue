@@ -112,8 +112,8 @@
       <div class="wrapper" id="js-wrapper">
         <div class="sections" id="js-slideContainer">
           <section class="section">
-            <div class="section__img"></div>
-            <g-image :src="text.node.slider1Slide1Image" class="section__deco" />
+            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide1Image + ')' }"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
@@ -133,8 +133,8 @@
             <span id="trigger--title1"></span>
           </section>
           <section class="section section--2">
-            <div class="section__img"></div>
-            <g-image :src="text.node.slider1Slide2Image" class="section__deco" />
+            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide2Image + ')' }"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
@@ -154,8 +154,8 @@
             <span id="trigger--title2"></span>
           </section>
           <section class="section">
-            <div class="section__img"></div>
-            <g-image :src="text.node.slider1Slide3Image" class="section__deco" />
+            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide3Image + ')' }"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
@@ -175,8 +175,8 @@
             <span id="trigger--title3"></span>
           </section>
           <section class="section section--2">
-            <div class="section__img"></div>
-            <g-image :src="text.node.slider1Slide4Image" class="section__deco" />
+            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide4Image + ')' }"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
@@ -196,8 +196,8 @@
             <span id="trigger--title4"></span>
           </section>
           <section class="section">
-            <div class="section__img"></div>
-            <g-image :src="text.node.slider1Slide5Image" class="section__deco" />
+            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide5Image + ')' }"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
@@ -223,8 +223,8 @@
       <div class="owl-carousel owl-theme owl-carousel-services">
         <div class="item">
           <section class="section">
-            <div class="section__img"></div>
-            <g-image :src="text.node.slider1Slide1Image" class="section__deco" />
+            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide1Image + ')' }"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
@@ -245,8 +245,8 @@
         </div>
         <div class="item">
           <section class="section">
-            <div class="section__img"></div>
-            <g-image :src="text.node.slider1Slide2Image" class="section__deco" />
+            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide2Image + ')' }"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
@@ -267,8 +267,8 @@
         </div>
         <div class="item">
           <section class="section">
-            <div class="section__img"></div>
-            <g-image :src="text.node.slider1Slide3Image" class="section__deco" />
+            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide3Image + ')' }"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
@@ -289,8 +289,8 @@
         </div>
         <div class="item">
           <section class="section">
-            <div class="section__img"></div>
-            <g-image :src="text.node.slider1Slide4Image" class="section__deco" />
+            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide4Image + ')' }"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
@@ -311,8 +311,8 @@
         </div>
         <div class="item">
           <section class="section">
-            <div class="section__img"></div>
-            <g-image :src="text.node.slider1Slide5Image" class="section__deco" />
+            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide5Image + ')' }"></div>
+            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
@@ -1198,7 +1198,7 @@ export default {
     position: absolute;
     left: 0;
     top: 0;
-    background-image: url("~@/assets/images/bg-pic.png");
+    // background-image: url("~@/assets/images/bg-pic.png");
   }
   &--2 {
     .section__img {
