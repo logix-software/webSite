@@ -1,6 +1,8 @@
 <template>
   <Layout>
-    <div class="hero hero--home d-flex align-items-center">
+    <div v-for="text in $page.texts.edges" :key="text.id">
+      <!-- {{text}} -->
+    <div class="hero hero--home d-flex align-items-center" :style="{ 'background-image': 'url(' + text.node.headerImage + ')' }">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 position-relative ml-auto">
@@ -16,7 +18,7 @@
 
             <!-- <svg width="340px" height="340px"  viewBox="0 0 340 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> -->
 
-            <h1 class="hero__title">Sviluppiamo nuove logiche digitali</h1>
+            <h1 class="hero__title">{{text.node.headerTitle}}</h1>
           </div>
           <div class="col-lg-5"></div>
         </div>
@@ -24,7 +26,7 @@
           <div class="col-lg-5 ml-auto">
             <p
               class="hero__description"
-            >Collaboriamo da più di 10 anni con le aziende per costruire soluzioni digitali personalizzate e adatte agli utenti che le utilizzano.</p>
+            >{{text.node.headerAbstract}}</p>
           </div>
         </div>
       </div>
@@ -34,13 +36,10 @@
             <div class="col-lg-9 ml-auto">
               <h6 class="pl-2 pl-lg-4">Partnership</h6>
               <div class="d-flex align-items-center">
-                <g-image src="~/assets/images/logo-aosp.png" class="hero__partnershipLogo" />
-                <g-image src="~/assets/images/logo-ast.png" class="hero__partnershipLogo" />
-                <g-image src="~/assets/images/logo-cogne.png" class="hero__partnershipLogo" />
-                <g-image
-                  src="~/assets/images/logo-umbriadigitale.png"
-                  class="hero__partnershipLogo"
-                />
+                <g-image :src="text.node.headerLogo1" class="hero__partnershipLogo" />
+                <g-image :src="text.node.headerLogo2" class="hero__partnershipLogo" />
+                <g-image :src="text.node.headerLogo3" class="hero__partnershipLogo" />
+                <g-image :src="text.node.headerLogo4" class="hero__partnershipLogo" />
               </div>
             </div>
           </div>
@@ -100,11 +99,11 @@
     <div class="container services mt-5 pt-5">
       <div class="row">
         <div class="col-lg-6 mx-auto mt-5">
-          <h6 class="services__name">SERVIZI</h6>
-          <h2 class="services__tittle">Offriamo le nostre competenze per i tuoi risultati</h2>
+          <h6 class="services__name">{{text.node.section1Name}}</h6>
+          <h2 class="services__tittle">{{text.node.section1Title}}</h2>
           <p
             class="services__description"
-          >Logix si propone come punto di riferimento dallo sviluppo all’assistenza nel tempo. Affianchiamo le aziende in ogni fase del ciclo di sviluppo del software: dalla ricerca, al design e sviluppo, alla creazione di MVP, al ridimensionamento, al restauro dei prodotti digitali.</p>
+          >{{text.node.section1Abstract}}</p>
         </div>
       </div>
     </div>
@@ -114,7 +113,7 @@
         <div class="sections" id="js-slideContainer">
           <section class="section">
             <div class="section__img"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <g-image :src="text.node.slider1Slide1Image" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
@@ -124,19 +123,18 @@
                 <span class="label label--des">DESIGN</span>
               </div>
               <h1 class="section__title">
-                Digital
-                <br />transformation
+                {{text.node.slider1Slide1Title}}
               </h1>
               <div class="section__line mb-3"></div>
               <p
                 class="section__description"
-              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              >{{text.node.slider1Slide1Abstract}}</p>
             </div>
             <span id="trigger--title1"></span>
           </section>
           <section class="section section--2">
             <div class="section__img"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <g-image :src="text.node.slider1Slide2Image" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
@@ -146,19 +144,18 @@
                 <p class="section__label section__label--2">Design</p>
               </div>
               <h1 class="section__title">
-                Digital
-                <br />transformation
+                {{text.node.slider1Slide2Title}}
               </h1>
               <div class="section__line mb-3"></div>
               <p
                 class="section__description"
-              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              >{{text.node.slider1Slide2Abstract}}</p>
             </div>
             <span id="trigger--title2"></span>
           </section>
           <section class="section">
             <div class="section__img"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <g-image :src="text.node.slider1Slide3Image" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
@@ -168,19 +165,18 @@
                 <p class="section__label section__label--2">Design</p>
               </div>
               <h1 class="section__title">
-                Digital
-                <br />transformation
+                {{text.node.slider1Slide3Title}}
               </h1>
               <div class="section__line mb-3"></div>
               <p
                 class="section__description"
-              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              >{{text.node.slider1Slide3Abstract}}</p>
             </div>
             <span id="trigger--title3"></span>
           </section>
           <section class="section section--2">
             <div class="section__img"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <g-image :src="text.node.slider1Slide4Image" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
@@ -190,19 +186,18 @@
                 <p class="section__label section__label--2">Design</p>
               </div>
               <h1 class="section__title">
-                Digital
-                <br />transformation
+                {{text.node.slider1Slide4Title}}
               </h1>
               <div class="section__line mb-3"></div>
               <p
                 class="section__description"
-              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              >{{text.node.slider1Slide4Abstract}}</p>
             </div>
             <span id="trigger--title4"></span>
           </section>
           <section class="section">
             <div class="section__img"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <g-image :src="text.node.slider1Slide5Image" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
@@ -212,13 +207,12 @@
                 <p class="section__label section__label--2">Design</p>
               </div>
               <h1 class="section__title">
-                Digital
-                <br />transformation
+                {{text.node.slider1Slide5Title}}
               </h1>
               <div class="section__line mb-3"></div>
               <p
                 class="section__description"
-              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              >{{text.node.slider1Slide5Abstract}}</p>
             </div>
             <span id="trigger--title5"></span>
           </section>
@@ -230,7 +224,7 @@
         <div class="item">
           <section class="section">
             <div class="section__img"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <g-image :src="text.node.slider1Slide1Image" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
@@ -240,20 +234,19 @@
                 <span class="label label--des">DESIGN</span>
               </div>
               <h1 class="section__title">
-                Digital
-                <br />transformation
+                 {{text.node.slider1Slide1Title}}
               </h1>
               <div class="section__line mb-3"></div>
               <p
                 class="section__description"
-              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              >{{text.node.slider1Slide1Abstract}}</p>
             </div>
           </section>
         </div>
         <div class="item">
           <section class="section">
             <div class="section__img"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <g-image :src="text.node.slider1Slide2Image" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
@@ -263,20 +256,19 @@
                 <span class="label label--des">DESIGN</span>
               </div>
               <h1 class="section__title">
-                Digital
-                <br />transformation
+                 {{text.node.slider1Slide2Title}}
               </h1>
               <div class="section__line mb-3"></div>
               <p
                 class="section__description"
-              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              >{{text.node.slider1Slide2Abstract}}</p>
             </div>
           </section>
         </div>
         <div class="item">
           <section class="section">
             <div class="section__img"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <g-image :src="text.node.slider1Slide3Image" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
@@ -286,20 +278,19 @@
                 <span class="label label--des">DESIGN</span>
               </div>
               <h1 class="section__title">
-                Digital
-                <br />transformation
+                 {{text.node.slider1Slide3Title}}
               </h1>
               <div class="section__line mb-3"></div>
               <p
                 class="section__description"
-              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              >{{text.node.slider1Slide3Abstract}}</p>
             </div>
           </section>
         </div>
         <div class="item">
           <section class="section">
             <div class="section__img"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+            <g-image :src="text.node.slider1Slide4Image" class="section__deco" />
             <div class="section__body">
               <div class="section__shadow"></div>
               <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
@@ -309,13 +300,34 @@
                 <span class="label label--des">DESIGN</span>
               </div>
               <h1 class="section__title">
-                Digital
-                <br />transformation
+                 {{text.node.slider1Slide4Title}}
               </h1>
               <div class="section__line mb-3"></div>
               <p
                 class="section__description"
-              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
+              >{{text.node.slider1Slide4Abstract}}</p>
+            </div>
+          </section>
+        </div>
+        <div class="item">
+          <section class="section">
+            <div class="section__img"></div>
+            <g-image :src="text.node.slider1Slide5Image" class="section__deco" />
+            <div class="section__body">
+              <div class="section__shadow"></div>
+              <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
+              <p></p>
+              <div class="mb-2">
+                <span class="label label--dev mr-3">DEVELOPMENT</span>
+                <span class="label label--des">DESIGN</span>
+              </div>
+              <h1 class="section__title">
+                 {{text.node.slider1Slide5Title}}
+              </h1>
+              <div class="section__line mb-3"></div>
+              <p
+                class="section__description"
+              >{{text.node.slider1Slide5Abstract}}</p>
             </div>
           </section>
         </div>
@@ -331,44 +343,43 @@
     </div>
     <div class="container-fluid position-relative caseHistory my-5">
       <div class="caseHistory__body">
-        <h6 class="caseHistory__name">CASE HISTORY</h6>
-        <h1 class="caseHistory__title mb-lg-5">Tra gli ultimi lavori realizzati</h1>
+        <h6 class="caseHistory__name">{{text.node.caseHistoryName}}</h6>
+        <h1 class="caseHistory__title mb-lg-5">{{text.node.caseHistoryTitleSection}}</h1>
 
         <div class="position-relative caseHistory__container">
-          <div class="caseHistory__img mb-4 mb-lg-0">
-            <h1 class="caseHistory__textBg">Education</h1>
+          <div class="caseHistory__img mb-4 mb-lg-0" :style="{ 'background-image': 'url(' + text.node.caseHistoryImage + ')' }">
+            <h1 class="caseHistory__textBg">{{text.node.caseHistoryBgText}}</h1>
             <g-image src="~/assets/images/deco-plane.svg" class="caseHistory__deco2" />
           </div>
           <div class="position-relative">
             <g-image src="~/assets/images/deco3.svg" class="caseHistory__deco" />
-            <h4 class="caseHistory__titleProject">Acta Logix - registro elettronico</h4>
+            <h4 class="caseHistory__titleProject">{{text.node.caseHistoryTitle}}</h4>
           </div>
            <div class="mb-2">
                 <span class="label label--dev mr-3">DEVELOPMENT</span>
                 <span class="label label--des">DESIGN</span>
               </div>
           <p class="caseHistory__description mb-5">
-            When you enter into any new area of science, you almost
-            always find yourself with a baffling new language of technical terms to learn before.
+           {{text.node.caseHistoryAbstract}}
           </p>
 
           <div class="testimonial">
             <p
               class="testimonial__cit"
-            >Abbiamo portato avanti il progetto! 👍👍 una collaborazione che dura da anni.</p>
+            >{{text.node.caseHistoryTestimonialDescription}}</p>
 
             <div class="d-flex align-items-center mb-5">
               <div>
                 <div class="testimonial__pic mr-2"></div>
               </div>
               <div>
-                <h6 class="testimonial__name mb-0">Giovanna Miriani</h6>
-                <p class="testimonial__position mb-0">Preside scolastico - Istituto M. Rosselli</p>
+                <h6 class="testimonial__name mb-0"> {{text.node.caseHistoryTestimonialName}}</h6>
+                <p class="testimonial__position mb-0">{{text.node.caseHistoryTestimonialPosition}}</p>
               </div>
             </div>
             <div class="testimonial__logo"></div>
           </div>
-          <a href="http://" class="btn btn-secondary">Scopri di più</a>
+          <g-link :to="text.node.caseHistoryLink" class="btn btn-secondary">Scopri di più</g-link>
         </div>
       </div>
     </div>
@@ -376,11 +387,11 @@
       <div class="container my-lg-5">
         <div class="row">
           <div class="col-lg-6">
-            <h6 class="tools__name">STRUMENTI</h6>
-            <h1 class="tools__title">Utilizziamo i linguaggi ed i framework più potenti e stabili</h1>
+            <h6 class="tools__name">{{text.node.section2Name}}</h6>
+            <h1 class="tools__title">{{text.node.section2Title}}</h1>
             <p
               class="tools__description"
-            >Rimanere al passo con i tempi ed utilizzare i migliori strumenti fa parte del nostro lavoro.</p>
+            >{{text.node.section2Abstract}}</p>
           </div>
           <div class="col-lg-3 ml-auto position-relative text-center">
             <g-image src="~/assets/images/deco2.svg" class="tools__deco" />
@@ -389,12 +400,12 @@
         </div>
         <div class="row">
           <div class="col-lg-12 d-inline-block align-items-center py-5 mb-5 mb-sm-0">
-            <g-image src="~/assets/images/logo/vue.png" class="tools__logo" />
-            <g-image src="~/assets/images/logo/react.png" class="tools__logo" />
-            <g-image src="~/assets/images/logo/angular.png" class="tools__logo" />
-            <g-image src="~/assets/images/logo/ionic.png" class="tools__logo" />
-            <g-image src="~/assets/images/logo/net.png" class="tools__logo" />
-            <g-image src="~/assets/images/logo/java.png" class="tools__logo" />
+            <g-image :src="text.node.section2Logo1" class="tools__logo" />
+            <g-image :src="text.node.section2Logo2" class="tools__logo" />
+            <g-image :src="text.node.section2Logo3" class="tools__logo" />
+            <g-image :src="text.node.section2Logo4" class="tools__logo" />
+            <g-image :src="text.node.section2Logo5" class="tools__logo" />
+            <g-image :src="text.node.section2Logo6" class="tools__logo" />
           </div>
         </div>
       </div>
@@ -406,10 +417,9 @@
             <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
             <div class="d-lg-flex align-items-center justify-content-between">
               <h1 class="cta__title">
-                Pronto a realizzare la tua prossima
-                <span class="text-blue">innovazione</span>?
+               {{text.node.cta1Title}}
               </h1>
-              <a href="http://" class="btn btn-primary">Contattaci</a>
+              <g-link :to="text.node.cta1Link" class="btn btn-primary">Contattaci</g-link>
             </div>
           </div>
         </div>
@@ -419,10 +429,10 @@
       <div class="container mb-5">
         <div class="row">
           <div class="col-lg-7 mx-auto text-center">
-            <h1 class="cause__title mb-4">Cosa vogliamo perseguire</h1>
+            <h1 class="cause__title mb-4">{{text.node.section3Title}}</h1>
             <p
               class="cause__description"
-            >Come sviluppatori, come designer, come professionisti, ma soprattutto come persone, qui in Logix crediamo nel nostro lavoro e pensiamo che attravreso i nostri progetti, almeno un po’, il mondo possa cambiare.</p>
+            >{{text.node.section3Abstract}}</p>
           </div>
         </div>
       </div>
@@ -433,16 +443,16 @@
               <div class="d-flex align-items-start">
                 <h1 class="section2__num mx-2 mx-lg-0">1</h1>
                 <div>
-                  <div class="section2__img mx-2 mx-lg-3">
+                  <div class="section2__img mx-2 mx-lg-3" :style="{ 'background-image': 'url(' + text.node.slider2slide1Image + ')' }">
                     <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                    <h1 class="section2__textBg">Made in Italy</h1>
+                    <h1 class="section2__textBg">{{text.node.slider2slide1BgText}}</h1>
                   </div>
                 </div>
                 <div class="section2__body ml-3">
-                  <h1 class="section2__title">Made in Italy</h1>
+                  <h1 class="section2__title">{{text.node.slider2slide1Title}}</h1>
                   <p
                     class="section2__description"
-                  >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+                  >{{text.node.slider2slide1Abstract}}</p>
                 </div>
               </div>
               <span id="trigger2--title1"></span>
@@ -451,16 +461,16 @@
               <div class="d-flex align-items-start">
                 <h1 class="section2__num mx-2 mx-lg-0">1</h1>
                 <div>
-                  <div class="section2__img mx-2 mx-lg-3">
+                  <div class="section2__img mx-2 mx-lg-3" :style="{ 'background-image': 'url(' + text.node.slider2slide2Image + ')' }">
                     <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                    <h1 class="section2__textBg">Made in Italy</h1>
+                    <h1 class="section2__textBg">{{text.node.slider2slide2BgText}}</h1>
                   </div>
                 </div>
                 <div class="section2__body ml-3">
-                  <h1 class="section2__title">Made in Italy</h1>
+                  <h1 class="section2__title">{{text.node.slider2slide2Title}}</h1>
                   <p
                     class="section2__description"
-                  >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+                  >{{text.node.slider2slide2Abstract}}</p>
                 </div>
               </div>
               <span id="trigger2--title2"></span>
@@ -469,16 +479,16 @@
               <div class="d-flex align-items-start">
                 <h1 class="section2__num mx-2 mx-lg-0">1</h1>
                 <div>
-                  <div class="section2__img mx-2 mx-lg-3">
+                  <div class="section2__img mx-2 mx-lg-3" :style="{ 'background-image': 'url(' + text.node.slider2slide3Image + ')' }">
                     <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                    <h1 class="section2__textBg">Made in Italy</h1>
+                    <h1 class="section2__textBg">{{text.node.slider2slide3BgText}}</h1>
                   </div>
                 </div>
                 <div class="section2__body ml-3">
-                  <h1 class="section2__title">Made in Italy</h1>
+                  <h1 class="section2__title">{{text.node.slider2slide3Title}}</h1>
                   <p
                     class="section2__description"
-                  >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+                  >{{text.node.slider2slide3Abstract}}</p>
                 </div>
               </div>
               <span id="trigger2--title3"></span>
@@ -493,16 +503,16 @@
               <div class="d-flex align-items-start">
                 <h1 class="section2__num mx-2 mx-lg-0">1</h1>
                 <div>
-                  <div class="section2__img mx-2 mx-lg-3">
+                  <div class="section2__img mx-2 mx-lg-3" :style="{ 'background-image': 'url(' + text.node.slider2slide1Image + ')' }">
                     <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                    <h1 class="section2__textBg">Made in Italy</h1>
+                    <h1 class="section2__textBg">{{text.node.slider2slide1BgText}}</h1>
                   </div>
                 </div>
                 <div class="section2__body ml-3">
-                  <h1 class="section2__title">Made in Italy</h1>
+                  <h1 class="section2__title">{{text.node.slider2slide1Title}}</h1>
                   <p
                     class="section2__description"
-                  >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+                  >{{text.node.slider2slide1Abstract}}</p>
                 </div>
               </div>
               <span id="trigger2--title1"></span>
@@ -513,16 +523,16 @@
               <div class="d-flex align-items-start">
                 <h1 class="section2__num mx-2 mx-lg-0">1</h1>
                 <div>
-                  <div class="section2__img mx-2 mx-lg-3">
+                  <div class="section2__img mx-2 mx-lg-3" :style="{ 'background-image': 'url(' + text.node.slider2slide2Image + ')' }">
                     <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                    <h1 class="section2__textBg">Made in Italy</h1>
+                    <h1 class="section2__textBg">{{text.node.slider2slide2BgText}}</h1>
                   </div>
                 </div>
                 <div class="section2__body ml-3">
-                  <h1 class="section2__title">Made in Italy</h1>
+                  <h1 class="section2__title">{{text.node.slider2slide2Title}}</h1>
                   <p
                     class="section2__description"
-                  >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+                  >{{text.node.slider2slide2Abstract}}</p>
                 </div>
               </div>
               <span id="trigger2--title1"></span>
@@ -533,16 +543,16 @@
               <div class="d-flex align-items-start">
                 <h1 class="section2__num mx-2 mx-lg-0">1</h1>
                 <div>
-                  <div class="section2__img mx-2 mx-lg-3">
+                  <div class="section2__img mx-2 mx-lg-3" :style="{ 'background-image': 'url(' + text.node.slider2slide3Image + ')' }">
                     <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                    <h1 class="section2__textBg">Made in Italy</h1>
+                    <h1 class="section2__textBg">{{text.node.slider2slide3BgText}}</h1>
                   </div>
                 </div>
                 <div class="section2__body ml-3">
-                  <h1 class="section2__title">Made in Italy</h1>
+                  <h1 class="section2__title">{{text.node.slider2slide3Title}}</h1>
                   <p
                     class="section2__description"
-                  >Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.</p>
+                  >{{text.node.slider2slide3Abstract}}</p>
                 </div>
               </div>
               <span id="trigger2--title1"></span>
@@ -558,54 +568,54 @@
             <div class="values__body">
               <g-image src="~/assets/images/deco2.svg" class="values__deco" />
               <div class="w-75 mb-5">
-                <h6 class="values__name">VALORI</h6>
-                <h1 class="values__title">Cosa non dimentichiamo mai</h1>
+                <h6 class="values__name">{{text.node.section4Name}}</h6>
+                <h1 class="values__title">{{text.node.section4Title}}</h1>
                 <p
                   class="values__description"
-                >Rimanere al passo con i tempi ed utilizzare i migliori strumenti fa parte del nostro lavoro.</p>
+                >{{text.node.section4Abstract}}</p>
               </div>
               <div class="container-values d-block d-sm-flex flex-wrap justify-content-center justify-content-sm-end">
                 <div class="value mx-lg-0 mr-lg-4 mb-4">
-                  <g-image src="~/assets/images/icons/trasparenza.svg" class="value__icon" />
-                  <h2 class="value__title">Trasparenza</h2>
+                  <g-image :src="text.node.section4IconBox1" class="value__icon" />
+                  <h2 class="value__title">{{text.node.section4TitleBox1}}</h2>
                   <p
                     class="value__description"
-                  >I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione e realizzazione.</p>
+                  >{{text.node.section4AbstractBox1}}</p>
                 </div>
                 <div class="value value--2 mx-lg-0 mr-lg-4 mb-4">
-                  <g-image src="~/assets/images/icons/curiosita.svg" class="value__icon" />
-                  <h2 class="value__title">Curiosità</h2>
+                  <g-image :src="text.node.section4IconBox2" class="value__icon" />
+                  <h2 class="value__title">{{text.node.section4TitleBox2}}</h2>
                   <p
                     class="value__description"
-                  >Siamo una squadra appassionata sempre alla ricerca di sfide nuove ed importanti.</p>
+                  >{{text.node.section4AbstractBox2}}</p>
                 </div>
                 <div class="value mx-lg-0 mr-lg-4 mb-4">
-                  <g-image src="~/assets/images/icons/disponibilita.svg" class="value__icon" />
-                  <h2 class="value__title">Disponibilità</h2>
+                  <g-image :src="text.node.section4IconBox3" class="value__icon" />
+                  <h2 class="value__title">{{text.node.section4TitleBox3}}</h2>
                   <p
                     class="value__description"
-                  >Siamo aperti ad ogni sfida e ad ogni tipo di suggerimento per ascoltare e comprendere tutte le esigenze dei nostri clienti.</p>
+                  >{{text.node.section4AbstractBox3}}</p>
                 </div>
                 <div class="value value--2 mx-lg-0 mr-lg-4 mb-4">
-                  <g-image src="~/assets/images/icons/positivita.svg" class="value__icon" />
-                  <h2 class="value__title">Positività</h2>
+                  <g-image :src="text.node.section4IconBox4" class="value__icon" />
+                  <h2 class="value__title">{{text.node.section4TitleBox4}}</h2>
                   <p
                     class="value__description"
-                  >Cerchiamo di non rinunciare mai al sorriso, ingrendiente fondamentale per rispondere al meglio alle sfide quotidiane.</p>
+                  >{{text.node.section4AbstractBox4}}</p>
                 </div>
                 <div class="value mx-lg-0 mr-lg-4 mb-4">
-                  <g-image src="~/assets/images/icons/caffe.svg" class="value__icon" />
-                  <h2 class="value__title">Caffè</h2>
+                  <g-image :src="text.node.section4IconBox5" class="value__icon" />
+                  <h2 class="value__title">{{text.node.section4TitleBox5}}</h2>
                   <p
                     class="value__description"
-                  >Litri e litri di caffè che ci aiutano a svolgere al meglio il nostro lavoro! ;)</p>
+                  >{{text.node.section4AbstractBox5}}</p>
                 </div>
                 <div class="value value--2 mx-lg-0 mr-lg-4 mb-4">
-                  <g-image src="~/assets/images/icons/metodo.svg" class="value__icon" />
-                  <h2 class="value__title">Metodo</h2>
+                  <g-image :src="text.node.section4IconBox6" class="value__icon" />
+                  <h2 class="value__title">{{text.node.section4TitleBox6}}</h2>
                   <p
                     class="value__description"
-                  >Il nostro approccio olistico ci permette di arrivare, insieme ai nostri clienti, ai migliori risultati, nei tempi stabiliti.</p>
+                  >{{text.node.section4AbstractBox6}}</p>
                 </div>
               </div>
             </div>
@@ -617,10 +627,9 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-lg-5 mx-auto text-center py-5">
-            <h1 class="idea__title mb-3">Sei sicuro della tua nuova idea?</h1>
+            <h1 class="idea__title mb-3">{{text.node.section5Title}}</h1>
             <p class="idea__descrition mb-5">
-              When you enter into any new area of science, you almost
-              always find yourself with a baffling new language.
+              {{text.node.section5Abstract}}
             </p>
             <a href="http://" class="btn btn-primary mr-lg-3">Certo</a>
             <a href="http://" class="btn btn-secondary">Abbastanza</a>
@@ -635,8 +644,7 @@
             <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
             <div class="d-flex align-items-center justify-content-between w-75">
               <h1 class="cta__title">
-                Pronto a realizzare la tua prossima
-                <span class="text-green">innovazione</span>?
+                 {{text.node.cta2Title}}
               </h1>
             </div>
           </div>
@@ -675,17 +683,103 @@
         </div>
       </div>
     </div>-->
+    </div>
   </Layout>
 </template>
 <page-query>
 query {
-  articles: allArticles {
+  texts: allHome {
     edges {
       node {
         title
-        abstract
-        image
-        path
+        headerTitle
+        headerAbstract
+        headerImage
+        headerLogo1
+        headerLogo2
+        headerLogo3
+        headerLogo4
+        section1Name
+        section1Title
+        section1Abstract
+        slider1Slide1Title
+        slider1Slide1Abstract
+        slider1Slide1Image
+        slider1Slide2Title
+        slider1Slide2Abstract
+        slider1Slide2Image
+        slider1Slide3Title
+        slider1Slide3Abstract
+        slider1Slide3Image
+        slider1Slide4Title
+        slider1Slide4Abstract
+        slider1Slide4Image
+        slider1Slide5Title
+        slider1Slide5Abstract
+        slider1Slide5Image
+        caseHistoryName
+        caseHistoryTitleSection
+        caseHistoryBgText
+        caseHistoryTitle
+        caseHistoryAbstract
+        caseHistoryTestimonialDescription
+        caseHistoryTestimonialName
+        caseHistoryTestimonialPosition
+        caseHistoryLink
+        caseHistoryImage
+        section2Name
+        section2Title
+        section2Abstract
+        section2Logo1
+        section2Logo2
+        section2Logo3
+        section2Logo4
+        section2Logo5
+        section2Logo6
+        cta1Title
+        cta1Link
+        section3Title
+        section3Abstract
+        slider2slide1Title
+        slider2slide1BgText
+        slider2slide1Abstract
+        slider2slide1Image
+        slider2slide2Title
+        slider2slide2BgText
+        slider2slide2Abstract
+        slider2slide2Image
+        slider2slide3Title
+        slider2slide3BgText
+        slider2slide3Abstract
+        slider2slide3Image
+        slider2slide4Title
+        slider2slide4BgText
+        slider2slide4Abstract
+        slider2slide4Image
+        section4Name
+        section4Title
+        section4Abstract
+        section4IconBox1
+        section4TitleBox1
+        section4AbstractBox1
+        section4IconBox2
+        section4TitleBox2
+        section4AbstractBox2
+        section4IconBox3
+        section4TitleBox3
+        section4AbstractBox3
+        section4IconBox4
+        section4TitleBox4
+        section4AbstractBox4
+        section4IconBox5
+        section4TitleBox5
+        section4AbstractBox5
+        section4IconBox6
+        section4TitleBox6
+        section4AbstractBox6
+        section5Title
+        section5Abstract
+        cta2Title
       }
     }
   }
@@ -892,7 +986,7 @@ export default {
 .hero {
   width: 100%;
   height: 800px;
-  background-image: url("~@/assets/images/hero-home.jpg");
+  // background-image: url("~@/assets/images/hero-home.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -1279,7 +1373,7 @@ export default {
     width: 421px;
     background-size: cover;
     background-position: center;
-    background-image: url("https://images.unsplash.com/photo-1441471349424-351990746ff4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    // background-image: url("https://images.unsplash.com/photo-1441471349424-351990746ff4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     @media screen and (max-width: 992px) {
       height: 320px;
       width: 400px;
@@ -1445,7 +1539,7 @@ export default {
     width: 500px;
     background-position: center;
     background-size: cover;
-    background-image: url("https://images.unsplash.com/photo-1573496130103-a442a3754d0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80");
+    // background-image: url("https://images.unsplash.com/photo-1573496130103-a442a3754d0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80");
     @media screen and (max-width: 992px) {
       position: relative;
       height: 250px;
