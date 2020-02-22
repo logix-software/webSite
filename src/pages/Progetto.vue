@@ -48,9 +48,9 @@
         </div>
       </div>
     </div>
-    <div class="info2 d-flex align-items-center py-5">
-      <div class="container">
-        <div class="row">
+    <div class="info2 d-flex align-items-center py-5 mb-5">
+      <div class="container mb-lg-5">
+        <div class="row mb-lg-5">
           <div class="col-lg-4 mx-auto d-flex align-items-center">
             <div>
               <h1 class="info2__title mb-3">Gli utilizzatori</h1>
