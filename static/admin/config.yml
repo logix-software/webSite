@@ -40,7 +40,7 @@ collections:
         - {label: "Slider1Slide1Image", name: "slider1Slide1Image", widget: "image"}
         - {label: "Slider1Slide2Title", name: "slider1Slide2Title", widget: "string"}
         - {label: "Slider1Slide2Abstract", name: "slider1Slide2Abstract", widget: "text"}
-        - {label: "Slider1Slide2Image", name: "slider2Slide2Image", widget: "image"}
+        - {label: "Slider1Slide2Image", name: "slider1Slide2Image", widget: "image"}
         - {label: "Slider1Slide3Title", name: "slider1Slide3Title", widget: "string"}
         - {label: "Slider1Slide3Abstract", name: "slider1Slide3Abstract", widget: "text"}
         - {label: "Slider1Slide3Image", name: "slider1Slide3Image", widget: "image"}
