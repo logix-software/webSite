@@ -526,29 +526,29 @@ h6 {
   }
 }
 .modal-dialog {
-  max-width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  max-width: 100%!important;
+  height: 100%!important;
+  margin: 0!important;
+  padding: 0!important;
 }
 .modal-content {
-  background-color: #000;
+  background-color: #000!important;
 }
 .modal-header {
-  border: 0;
+  border: 0!important;
 }
 .modal-content {
-  height: auto;
-  min-height: 100%;
-  border-radius: 0;
+  height: auto!important;
+  min-height: 100%!important;
+  border-radius: 0!important;
 }
 .close {
-  position: absolute;
-  right: 15px;
-  top: 0;
+  position: absolute!important;
+  right: 15px!important;
+  top: 0!important;
 }
 .modalContact {
-  color: #ffffff;
+  color: #ffffff!important;
   &__deco {
   }
   &__title {
