@@ -446,7 +446,7 @@
           <div class="row">
             <div class="col-lg-11 ml-auto pl-lg-5">
               <h6 class="pl-2 pl-lg-4 partnership__name">{{textPartnership.node.sectionName}}</h6>
-              <h1 class="pl-2 pl-lg-4 partnership__title">{{textPartnership.node.sectionName}}</h1>
+              <h1 class="pl-2 pl-lg-4 partnership__title">{{textPartnership.node.sectionTitle}}</h1>
               <div class="d-flex flex-wrap align-items-center">
                 <g-image :src="textPartnership.node.logo1" class="partnership__logo" />
                 <g-image :src="textPartnership.node.logo2" class="partnership__logo" />

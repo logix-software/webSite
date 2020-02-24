@@ -1,0 +1,698 @@
+<template>
+  <Layout>
+       <div v-for="text in $page.texts.edges" :key="text.id">
+    <div class="hero hero--projects d-flex align-items-center justify-content-center text-center" :style="{ 'background-image': 'url(' + text.node.headerImage + ')' }">
+      <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco1" />
+      <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco2" />
+      <div class="mx-auto">
+        <h1
+          class="hero__title"
+          data-aos="fade-right"
+          data-aos-delay="200"
+          data-aos-duration="700"
+        >{{text.node.headerTitle1}}</h1>
+        <h1
+          class="hero__title"
+          data-aos="fade-left"
+          data-aos-delay="200"
+          data-aos-duration="700"
+        >{{text.node.headerTitle2}}</h1>
+      </div>
+    </div>
+    <div class="aboutUs py-5">
+      <div class="py-5">
+        <div class="container mb-5">
+          <div class="row">
+            <div class="col-lg-9">
+              <h6
+                class="aboutUs__title"
+              >{{text.node.sectionTitle}}</h6>
+            </div>
+          </div>
+        </div>
+        <h1 class="aboutUs__bgText ml-auto text-right mb-5">{{text.node.sectionBgText1}}</h1>
+      </div>
+
+      <div v-if="deviceWidth > 992">
+        <div class="wrapper" id="js-wrapper">
+          <div class="sections" id="js-slideContainer">
+            <div class="step">
+              <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person1Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person1Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person1Name}}</h1>
+                  <h4 class="team__position">{{text.node.person1Position}}</h4>
+                </div>
+              </div>
+            </div>
+            <div class="step">
+               <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person2Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person2Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person2Name}}</h1>
+                  <h4 class="team__position">{{text.node.person2Position}}</h4>
+                </div>
+              </div>
+            </div>
+            <div class="step">
+               <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person3Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person3Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person3Name}}</h1>
+                  <h4 class="team__position">{{text.node.person3Position}}</h4>
+                </div>
+              </div>
+            </div>
+            <div class="step">
+               <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person4Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person4Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person4Name}}</h1>
+                  <h4 class="team__position">{{text.node.person4Position}}</h4>
+                </div>
+              </div>
+            </div>
+            <div class="step">
+               <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person5Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person5Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person5Name}}</h1>
+                  <h4 class="team__position">{{text.node.person5Position}}</h4>
+                </div>
+              </div>
+            </div>
+            <div class="step">
+               <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person6Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person6Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person6Name}}</h1>
+                  <h4 class="team__position">{{text.node.person6Position}}</h4>
+                </div>
+              </div>
+            </div>
+            <div class="step">
+               <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person7Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person7Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person7Name}}</h1>
+                  <h4 class="team__position">{{text.node.person7Position}}</h4>
+                </div>
+              </div>
+            </div>
+            <div class="step">
+               <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person8Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person8Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person8Name}}</h1>
+                  <h4 class="team__position">{{text.node.person8Position}}</h4>
+                </div>
+              </div>
+            </div>
+            <div class="step">
+               <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person9Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person9Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person9Name}}</h1>
+                  <h4 class="team__position">{{text.node.person9Position}}</h4>
+                </div>
+              </div>
+            </div>
+            <div class="step">
+               <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person10Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person10Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person10Name}}</h1>
+                  <h4 class="team__position">{{text.node.person10Position}}</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="v-else">
+        <div class="owl-carousel owl-theme owl-carousel-team">
+          <div class="item">
+            <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person1Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person1Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person1Name}}</h1>
+                  <h4 class="team__position">{{text.node.person1Position}}</h4>
+                </div>
+              </div>
+          </div>
+          <div class="item">
+            <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person2Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person2Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person2Name}}</h1>
+                  <h4 class="team__position">{{text.node.person2Position}}</h4>
+                </div>
+              </div>
+          </div>
+          <div class="item">
+            <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person3Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person3Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person3Name}}</h1>
+                  <h4 class="team__position">{{text.node.person3Position}}</h4>
+                </div>
+              </div>
+          </div>
+          <div class="item">
+            <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person4Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person4Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person4Name}}</h1>
+                  <h4 class="team__position">{{text.node.person4Position}}</h4>
+                </div>
+              </div>
+          </div>
+          <div class="item">
+            <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person5Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person5Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person5Name}}</h1>
+                  <h4 class="team__position">{{text.node.person5Position}}</h4>
+                </div>
+              </div>
+          </div>
+          <div class="item">
+            <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person6Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person6Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person6Name}}</h1>
+                  <h4 class="team__position">{{text.node.person6Position}}</h4>
+                </div>
+              </div>
+          </div>
+          <div class="item">
+            <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person7Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person7Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person7Name}}</h1>
+                  <h4 class="team__position">{{text.node.person7Position}}</h4>
+                </div>
+              </div>
+          </div>
+          <div class="item">
+            <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person8Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person8Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person8Name}}</h1>
+                  <h4 class="team__position">{{text.node.person8Position}}</h4>
+                </div>
+              </div>
+          </div>
+          <div class="item">
+            <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person9Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person9Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person9Name}}</h1>
+                  <h4 class="team__position">{{text.node.person9Position}}</h4>
+                </div>
+              </div>
+          </div>
+          <div class="item">
+            <div class="team">
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <div class="team__body ml-auto">
+                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person10Img + ')' }"></div>
+                  <span class="team__team">{{text.node.person10Team}}</span>
+                  <h1 class="team__name mb-3 mt-4">{{text.node.person10Name}}</h1>
+                  <h4 class="team__position">{{text.node.person10Position}}</h4>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <h1 class="aboutUs__bgText ml-auto text-left mb-5 mt-5 mt-lg-0">{{text.node.sectionBgText2}}</h1>
+      </div>
+      <div
+        class="partnership pb-5"
+        v-for="textPartnership in $page.textsPartnership.edges"
+        :key="textPartnership.id"
+      >
+        <div class="partnership__box mb-5 py-5">
+          <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-11 ml-auto pl-lg-5">
+                <h6 class="pl-2 pl-lg-4 partnership__name">{{textPartnership.node.sectionName}}</h6>
+                <h1 class="pl-2 pl-lg-4 partnership__title">{{textPartnership.node.sectionTitle}}</h1>
+                <div class="d-flex flex-wrap align-items-center">
+                  <g-image :src="textPartnership.node.logo1" class="partnership__logo" />
+                  <g-image :src="textPartnership.node.logo2" class="partnership__logo" />
+                  <g-image :src="textPartnership.node.logo3" class="partnership__logo" />
+                  <g-image :src="textPartnership.node.logo4" class="partnership__logo" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 mx-auto text-center py-5">
+              <h1 class="partnership__titleClosing mb-4">{{textPartnership.node.sectionTitle2}}</h1>
+              <p
+                class="partnership__descriptionClosing mb-5"
+              >{{textPartnership.node.sectionAbstract2}}</p>
+              <div>
+                <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
+                <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container my-5 pt-5">
+          <div class="row">
+            <div class="col-lg-10 ml-auto position-relative mt-lg-5">
+              <div class="cta cta--black">
+                <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
+                <div class="d-flex align-items-center justify-content-between w-75">
+                  <h1 class="cta__title">{{textPartnership.node.ctaTitle}}</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Layout>
+</template>
+<page-query>
+query {
+ texts: allAbout {
+    edges {
+      node {
+        title
+        headerTitle1
+        headerTitle2
+        headerImage
+        sectionTitle
+        sectionBgText1
+        sectionBgText2
+        person1Name
+        person1Team
+        person1Position
+        person1Img
+        person2Name
+        person2Team
+        person2Position
+        person2Img
+        person3Name
+        person3Team
+        person3Position
+        person3Img
+        person4Name
+        person4Team
+        person4Position
+        person4Img
+        person5Name
+        person5Team
+        person5Position
+        person5Img
+        person6Name
+        person6Team
+        person6Position
+        person6Img
+        person7Name
+        person7Team
+        person7Position
+        person7Img
+        person8Name
+        person8Team
+        person8Position
+        person8Img
+        person9Name
+        person9Team
+        person9Position
+        person9Img
+        person10Name
+        person10Team
+        person10Position
+        person10Img
+      }
+    }
+  },
+  textsPartnership: allPartnership {
+    edges {
+      node {
+        sectionTitle
+        sectionName
+        logo1
+        logo2
+        logo3
+        logo4
+        sectionTitle2
+        sectionAbstract2
+        ctaTitle
+      }
+    }
+  }
+}
+</page-query>
+<script>
+export default {
+  //   metaInfo: {
+  //     title: "About us"
+  // meta: [
+  //   { name: 'author', content: 'John Doe' }
+  // ],
+  // link: [
+  //   { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js' },
+  // ],
+  //   },
+  //   metaInfo: {
+  //     title: "About us",
+  //     meta: [
+  //       //   { name: 'author', content: 'John Doe' }
+  //     ],
+  //     link: [
+  //       { rel: "stylesheet", href: "https://unpkg.com/aos@2.3.1/dist/aos.css" }
+  //     ],
+  //     script: [{ src: "https://unpkg.com/aos@2.3.1/dist/aos.js", body: true }]
+  //     // etc...
+  //   },
+  data() {
+    return {
+      deviceWidth: 0
+    };
+  },
+  mounted() {
+    this.deviceWidth = window.innerWidth;
+    if (this.deviceWidth > 992) {
+      setTimeout(function() {
+        $(function() {
+          // wait for document ready
+
+          var controller = new ScrollMagic.Controller();
+
+          var horizontalSlide = new TimelineMax()
+            // animate panels
+            .to("#js-slideContainer", 1, { x: "-20%" })
+            .to("#js-slideContainer", 1, { x: "-40%" })
+            .to("#js-slideContainer", 1, { x: "-60%" })
+            .to("#js-slideContainer", 1, { x: "-74%" });
+
+          // create scene to pin and link animation
+          new ScrollMagic.Scene({
+            triggerElement: "#js-wrapper",
+            triggerHook: "onLeave",
+            duration: "400%"
+          })
+            .setPin("#js-wrapper")
+            .setTween(horizontalSlide)
+            //.addIndicators() // add indicators (requires plugin)
+            .addTo(controller);
+        });
+      }, 500);
+    } else {
+      setTimeout(function() {
+        $(".owl-carousel-team").owlCarousel({
+          loop: true,
+          nav: false,
+          items: 1
+        });
+      }, 500);
+    }
+    AOS.init();
+  }
+  // metaInfo: {
+  //   title: "My blog"
+  // },
+};
+</script>
+<style lang="scss" scoped>
+.hero {
+  background-color: #111111;
+  min-height: 750px;
+  position: relative;
+   @media screen and (max-width: 992px) {
+      min-height: 500px; 
+   }
+  color: #ffffff;
+  &__deco1 {
+    position: absolute;
+    left: 0;
+    top: 100px;
+  }
+  &__deco2 {
+    right: 0;
+    bottom: 100px;
+    position: absolute;
+  }
+  &__title {
+    font-family: "Lexend Deca";
+    font-size: 161px;
+    letter-spacing: -9.63px;
+    @media screen and (max-width: 992px) {
+      font-size: 62px;
+       letter-spacing: initial;
+    }
+  }
+}
+.aboutUs {
+  color: #ffffff;
+  background-color: #000000;
+  &__title {
+    font-family: "DM Sans";
+    font-size: 40px;
+    letter-spacing: -1.47px;
+    line-height: 50px;
+ @media screen and (max-width: 992px) {
+      font-size: 30px;
+      line-height: initial;
+   }
+  }
+  &__bgText {
+    font-family: "Lexend Deca";
+    font-size: 161px;
+    letter-spacing: -9.63px;
+    @media screen and (max-width: 992px) {
+      font-size: 50px;
+      letter-spacing: initial;
+   }
+  }
+}
+.team {
+  width: 315px;
+  position: relative;
+  &__photo {
+    height: 320px;
+    width: 243px;
+    // background-image: url("~@/assets/images/team.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // margin-left: auto;
+  }
+  &__body {
+    width: 243px;
+  }
+  &__deco {
+    position: absolute;
+    left: 0;
+    top: 80px;
+    @media screen and (max-width: 992px) {
+      width: 100px !important;
+    }
+  }
+  &__team {
+    padding: 4px 10px;
+    background-color: #b5f7e3;
+    color: #171756;
+    font-family: Lato;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    text-align: center;
+  }
+  &__name {
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -1.47px;
+  }
+  &__position {
+    font-family: "DM Sans";
+    font-size: 22px;
+    letter-spacing: -0.44px;
+  }
+}
+.sections {
+  @media screen and (min-width: 992px) {
+    width: 400%;
+    height: 100%;
+  }
+}
+.wrapper {
+  @media screen and (min-width: 992px) {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    padding-left: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  /* background: #F64747; */
+
+  //   padding-top: 4%;
+  //   padding-bottom: 4%;
+  //   @media screen and (max-width: 992px) {
+  //     padding-left: 5%;
+  //     padding-top: 200px;
+  //     padding-bottom: 200px;
+  //   }
+}
+.step {
+  @media screen and (min-width: 992px) {
+    height: 100%;
+    width: calc(100% / 10);
+    float: left;
+  }
+  position: relative;
+
+  .container--custom {
+    @media screen and (min-width: 992px) {
+      //   margin-left: 60px;
+    }
+  }
+  &__deco {
+    width: 100%;
+  }
+  &__name {
+    color: #ffffff;
+    font-family: "Lexend Deca";
+    font-size: 161px;
+    letter-spacing: -8.72px;
+    @media screen and (max-width: 992px) {
+      font-size: 40px;
+      font-weight: 500;
+      letter-spacing: initial;
+    }
+  }
+  &__title {
+    color: #ffffff;
+    font-family: "DM Sans";
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: -1.28px;
+    line-height: 44px;
+    width: 50%;
+    @media screen and (max-width: 992px) {
+      width: 100%;
+      font-size: 30px;
+    }
+  }
+  &__description {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.18px;
+    line-height: 25px;
+  }
+  &__list {
+    color: #ffffff;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    line-height: 26px;
+    @media screen and (max-width: 992px) {
+      font-size: 14px;
+    }
+  }
+  &__keyWord {
+    color: #f9b35f;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.24px;
+    line-height: 25px;
+  }
+  &__num {
+    color: #ffffff;
+    font-family: "DM Sans";
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: -1.28px;
+    line-height: 37px;
+    @media screen and (max-width: 992px) {
+      font-size: 40px;
+      font-weight: 500;
+      letter-spacing: initial;
+    }
+  }
+  &__shortDeco {
+    width: 65px !important;
+  }
+  &--inverted {
+    .col-left {
+      order: 1;
+      @media screen and (max-width: 992px) {
+        order: 0;
+      }
+    }
+    .col-right {
+      order: 0;
+      @media screen and (max-width: 992px) {
+        order: 1;
+      }
+    }
+  }
+}
+.cta {
+  @media screen and (max-width: 992px) {
+    bottom: -60px;
+  }
+  &--black {
+    @media screen and (max-width: 992px) {
+      bottom: -80px;
+    }
+    @media screen and (max-width: 576px) {
+      bottom: -120px;
+    }
+  }
+}
+</style>

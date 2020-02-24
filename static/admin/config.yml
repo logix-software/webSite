@@ -183,7 +183,7 @@ collections:
       create: false 
       slug: "{{slug}}"
       fields: 
-        - {label: "CectionTitle", name: "sectionTitle", widget: "string"}
+        - {label: "SectionTitle", name: "sectionTitle", widget: "string"}
         - {label: "SectionName", name: "sectionName", widget: "string"}
         - {label: "logo1", name: "logo1", widget: "image"}
         - {label: "logo2", name: "logo2", widget: "image"}
@@ -192,3 +192,57 @@ collections:
         - {label: "SectionTitle2", name: "sectionTitle2", widget: "string"}
         - {label: "SectionAbstract2", name: "sectionAbstract2", widget: "text"}
         - {label: "CtaTitle", name: "ctaTitle", widget: "string"}
+    - name: "about"
+      label: "About" 
+      folder: "about"
+      create: false 
+      slug: "{{slug}}"
+      fields: 
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "HeaderTitle1", name: "headerTitle1", widget: "string"}
+        - {label: "HeaderTitle2", name: "headerTitle2", widget: "string"}
+        - {label: "HeaderImage", name: "headerImage", widget: "image"}
+        - {label: "SectionTitle", name: "sectionTitle", widget: "text"}
+        - {label: "SectionBgText1", name: "sectionBgText1", widget: "string"}
+        - {label: "SectionBgText2", name: "sectionBgText2", widget: "string"}
+        - {label: "Person1Name", name: "person1Name", widget: "string"}
+        - {label: "Person1Team", name: "person1Team", widget: "string"}
+        - {label: "Person1Position", name: "person1Position", widget: "string"}
+        - {label: "Person1Img", name: "person1Img", widget: "image"}
+        - {label: "Person2Name", name: "person2Name", widget: "string"}
+        - {label: "Person2Team", name: "person2Team", widget: "string"}
+        - {label: "Person2Position", name: "person2Position", widget: "string"}
+        - {label: "Person2Img", name: "person2Img", widget: "image"}
+        - {label: "Person3Name", name: "person3Name", widget: "string"}
+        - {label: "Person3Team", name: "person3Team", widget: "string"}
+        - {label: "Person3Position", name: "person3Position", widget: "string"}
+        - {label: "Person3Img", name: "person3Img", widget: "image"}
+        - {label: "Person4Name", name: "person4Name", widget: "string"}
+        - {label: "Person4Team", name: "person4Team", widget: "string"}
+        - {label: "Person4Position", name: "person4Position", widget: "string"}
+        - {label: "Person4Img", name: "person4Img", widget: "image"}
+        - {label: "Person5Name", name: "person5Name", widget: "string"}
+        - {label: "Person5Team", name: "person5Team", widget: "string"}
+        - {label: "Person5Position", name: "person5Position", widget: "string"}
+        - {label: "Person5Img", name: "person5Img", widget: "image"}
+        - {label: "Person6Name", name: "person6Name", widget: "string"}
+        - {label: "Person6Team", name: "person6Team", widget: "string"}
+        - {label: "Person6Position", name: "person6Position", widget: "string"}
+        - {label: "Person6Img", name: "person6Img", widget: "image"}
+        - {label: "Person7Name", name: "person7Name", widget: "string"}
+        - {label: "Person7Team", name: "person7Team", widget: "string"}
+        - {label: "Person7Position", name: "person7Position", widget: "string"}
+        - {label: "Person7Img", name: "person7Img", widget: "image"}
+        - {label: "Person8Name", name: "person8Name", widget: "string"}
+        - {label: "Person8Team", name: "person8Team", widget: "string"}
+        - {label: "Person8Position", name: "person8Position", widget: "string"}
+        - {label: "Person8Img", name: "person8Img", widget: "image"}
+        - {label: "Person9Name", name: "person9Name", widget: "string"}
+        - {label: "Person9Team", name: "person9Team", widget: "string"}
+        - {label: "Person9Position", name: "person9Position", widget: "string"}
+        - {label: "Person9Img", name: "person9Img", widget: "image"}
+        - {label: "Person10Name", name: "person10Name", widget: "string"}
+        - {label: "Person10Team", name: "person10Team", widget: "string"}
+        - {label: "Person10Position", name: "person10Position", widget: "string"}
+        - {label: "Person10Img", name: "person10Img", widget: "image"}
+       
