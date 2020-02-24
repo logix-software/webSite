@@ -1,265 +1,346 @@
 <template>
   <Layout>
-    <div class="hero d-flex align-items-center">
-      <g-image src="~/assets/images/deco-with-arrow1.svg" class="hero__deco1" />
-      <g-image src="~/assets/images/deco-with-arrow2.svg" class="hero__deco2" />
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h1 class="hero__title">Guidiamo le aziende nella loro forma digitale.</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 ml-auto">
-            <p
-              class="hero__description"
-            >Studiando, progettando e sviluppando su specifiche esigenze dell’azienda e dei singoli processi che la caratterizzano, costruiamo prodotti pensati per gli utenti che li utilizzano.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="bg-black py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <div class="caseHistoryCompetenze">
-              <div class="d-lg-flex align-items-center justify-content-between">
-                <div class="d-lg-flex align-items-start">
-                  <g-image src="~/assets/images/cta-case.png" class="caseHistoryCompetenze__img" />
-                  <div class="caseHistoryCompetenze__body ml-4">
-                    <div class="mb-2">
-                      <span class="label label--dev mr-3">DEVELOPMENT</span>
-                      <span class="label label--des">DESIGN</span>
-                    </div>
-                    <h1 class="caseHistoryCompetenze__title">Acta: il registro elettronico</h1>
-                    <p
-                      class="caseHistoryCompetenze__description"
-                    >Last month, my wife, Anne Doe, took me to Las Vegas because she had to go for convention.</p>
-                    <p
-                      class="caseHistoryCompetenze__tags"
-                    >#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
-                  </div>
-                </div>
-                <div class="text-right">
-                  <g-link to class="caseHistoryCompetenze__link">_Scopri di più</g-link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container method pt-5 mt-5">
-        <div class="row">
-          <div class="col-lg-6">
-            <h6 class="method__name">METODO</h6>
-            <h1 class="method__title">Il nostro approccio olistico</h1>
-            <p
-              class="method__description"
-            >In stretta collaborazione con le aziende seguiamo la progettazione, la realizzazione ed il test di ogni componente, prodotto e servizio. Metodologie di management AGILE che seguono un percorso iterativo che ci lega al cliente, alla sua azienda ed agli utenti che utilizzano i prodotti collettivamente realizzati.</p>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="step step--inverted py-5">
+    <div v-for="text in $page.texts.edges" :key="text.id">
+      <div
+        class="hero d-flex align-items-center"
+        :style="{ 'background-image': 'url(' + text.node.headerImage + ')' }"
+      >
+        <g-image src="~/assets/images/deco-with-arrow1.svg" class="hero__deco1" />
+        <g-image src="~/assets/images/deco-with-arrow2.svg" class="hero__deco2" />
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 col-left d-flex flex-column">
-              <div class="col-left">
-                <h1 class="step__name">Learn</h1>
-                <div class="d-flex align-items-center">
-                  <h6 class="step__num">01</h6>
+            <div class="col-lg-6">
+              <h1 class="hero__title">{{text.node.headerTitle}}</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 ml-auto">
+              <p class="hero__description">{{text.node.headerAbstract}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-black py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <div class="caseHistoryCompetenze">
+                <div class="d-lg-flex align-items-center justify-content-between">
+                  <div class="d-lg-flex align-items-start">
+                    <g-image src="~/assets/images/cta-case.png" class="caseHistoryCompetenze__img" />
+                    <div class="caseHistoryCompetenze__body ml-4">
+                      <div class="mb-2">
+                        <span class="label label--dev mr-3">DEVELOPMENT</span>
+                        <span class="label label--des">DESIGN</span>
+                      </div>
+                      <h1 class="caseHistoryCompetenze__title">Acta: il registro elettronico</h1>
+                      <p
+                        class="caseHistoryCompetenze__description"
+                      >Last month, my wife, Anne Doe, took me to Las Vegas because she had to go for convention.</p>
+                      <p
+                        class="caseHistoryCompetenze__tags"
+                      >#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
+                    </div>
+                  </div>
+                  <div class="text-right">
+                    <g-link to class="caseHistoryCompetenze__link">_Scopri di più</g-link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container method pt-5 mt-5">
+          <div class="row">
+            <div class="col-lg-6">
+              <h6 class="method__name">{{text.node.section1Name}}</h6>
+              <h1 class="method__title">{{text.node.section1Title}}</h1>
+              <p class="method__description">{{text.node.section1Abstract}}</p>
+            </div>
+          </div>
+        </div>
+        <div v-if="deviceWidth > 992">
+          <div class="wrapper" id="js-wrapper">
+            <div class="sections" id="js-slideContainer">
+              <div class="step">
+                <div class="container container--custom">
+                  <div class="row">
+                    <div class="col-lg-6 col-left d-flex flex-column">
+                      <div class="col-left">
+                        <h1 class="step__name">{{text.node.slider1Slide1Title}}</h1>
+                        <div class="d-flex align-items-center">
+                          <h6 class="step__num">{{text.node.slider1Slide1Number}}</h6>
+                          <g-image
+                            src="~/assets/images/deco-short2.svg"
+                            class="step__shortDeco ml-3"
+                          />
+                        </div>
+                        <p class="step__description">{{text.node.slider1Slide1Abstract}}</p>
+                      </div>
+                      <div class="col-right">
+                        <h6 class="step__keyWord">{{text.node.slider1Slide1ToolsName}}</h6>
+                        <p class="step__list">{{text.node.slider1Slide1ToolsTitle}}</p>
+                        <!-- <p class="step__list">{{text.node.slider1Slide1ToolsTitle}}</p> -->
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-right">
+                      <h6 class="step__keyWord mt-4">{{text.node.slider1Slide1StepName}}</h6>
+                      <h2 class="step__title">{{text.node.slider1Slide1StepTitle}}</h2>
+                      <g-image :src="text.node.slider1Slide1Image" class="step__deco" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="step step--inverted">
+                <div class="container container--custom">
+                  <div class="row">
+                    <div class="col-lg-6 col-left d-flex flex-column">
+                      <div class="col-left">
+                        <h1 class="step__name">{{text.node.slider1Slide2Title}}</h1>
+                        <div class="d-flex align-items-center">
+                          <h6 class="step__num">{{text.node.slider1Slide2Number}}</h6>
+                          <g-image
+                            src="~/assets/images/deco-short2.svg"
+                            class="step__shortDeco ml-3"
+                          />
+                        </div>
+                        <p class="step__description">{{text.node.slider1Slide2Abstract}}</p>
+                      </div>
+                      <div class="col-right">
+                        <h6 class="step__keyWord">{{text.node.slider1Slide2ToolsName}}</h6>
+                        <p class="step__list">{{text.node.slider1Slide2ToolsTitle}}</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-right">
+                      <h6 class="step__keyWord mt-4">{{text.node.slider1Slide2StepName}}</h6>
+                      <h2 class="step__title">{{text.node.slider1Slide2StepTitle}}</h2>
+                      <g-image :src="text.node.slider1Slide2Image" class="step__deco" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="container container--custom">
+                  <div class="row">
+                    <div class="col-lg-6 col-left d-flex flex-column">
+                      <div class="col-left">
+                        <h1 class="step__name">{{text.node.slider1Slide3Title}}</h1>
+                        <div class="d-flex align-items-center">
+                          <h6 class="step__num">{{text.node.slider1Slide3Number}}</h6>
+                          <g-image
+                            src="~/assets/images/deco-short2.svg"
+                            class="step__shortDeco ml-3"
+                          />
+                        </div>
+                        <p class="step__description">{{text.node.slider1Slide3Abstract}}</p>
+                      </div>
+                      <div class="col-right">
+                        <h6 class="step__keyWord">{{text.node.slider1Slide3ToolsName}}</h6>
+                        <p class="step__list">{{text.node.slider1Slide3ToolsTitle}}</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-right">
+                      <h6 class="step__keyWord mt-4">{{text.node.slider1Slide3StepName}}</h6>
+                      <h2 class="step__title">{{text.node.slider1Slide3StepTitle}}</h2>
+                      <g-image :src="text.node.slider1Slide3Image" class="step__deco" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="step step--inverted">
+                <div class="container container--custom">
+                  <div class="row">
+                    <div class="col-lg-6 col-left d-flex flex-column">
+                      <div class="col-left">
+                        <h1 class="step__name">{{text.node.slider1Slide4Title}}</h1>
+                        <div class="d-flex align-items-center">
+                          <h6 class="step__num">{{text.node.slider1Slide4Number}}</h6>
+                          <g-image
+                            src="~/assets/images/deco-short2.svg"
+                            class="step__shortDeco ml-3"
+                          />
+                        </div>
+                        <p class="step__description">{{text.node.slider1Slide4Abstract}}</p>
+                      </div>
+                      <div class="col-right">
+                        <h6 class="step__keyWord">{{text.node.slider1Slide4ToolsName}}</h6>
+                        <p class="step__list">{{text.node.slider1Slide4ToolsTitle}}</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-right">
+                      <h6 class="step__keyWord mt-4">{{text.node.slider1Slide4StepName}}</h6>
+                      <h2 class="step__title">{{text.node.slider1Slide4StepTitle}}</h2>
+                      <g-image :src="text.node.slider1Slide4Image" class="step__deco" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div v-else>
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <div
+                  class="collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <div class="d-flex align-items-end justify-content-between">
+                    <h6 class="step__num">{{text.node.slider1Slide1Number}}</h6>
+                    <h1 class="step__name">{{text.node.slider1Slide1Title}}</h1>
+                    <div>
+                      <i class="fas fa-plus text-white"></i>
+                    </div>
+                  </div>
                   <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
                 </div>
-                <p
-                  class="step__description"
-                >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
               </div>
-              <div class="col-right">
-                <h6 class="step__keyWord">STRUMENTI</h6>
-                <ul class="list-unstyled">
-                  <li class="step__list">Workshop</li>
-                  <li class="step__list">Stakeholder interview</li>
-                  <li class="step__list">Competive analysis</li>
-                  <li class="step__list">Behaviour analysis</li>
-                  <li class="step__list">User interview</li>
-                  <li class="step__list">Surveys & test</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-6 col-right">
-              <h6 class="step__keyWord mt-4">STEP</h6>
-              <h2 class="step__title">
-                Exploration
-                Market research
-                Ux research
-              </h2>
-              <g-image src="~/assets/images/step.svg" class="step__deco" />
-            </div>
-          </div>
-        </div>
-      </div>-->
-      <div v-if="deviceWidth > 992">
-        <div class="wrapper" id="js-wrapper">
-          <div class="sections" id="js-slideContainer">
-            <div class="step">
-              <div class="container container--custom">
-                <div class="row">
-                  <div class="col-lg-6 col-left d-flex flex-column">
-                    <div class="col-left">
-                      <h1 class="step__name">Learn</h1>
-                      <div class="d-flex align-items-center">
-                        <h6 class="step__num">01</h6>
-                        <g-image
-                          src="~/assets/images/deco-short2.svg"
-                          class="step__shortDeco ml-3"
-                        />
-                      </div>
-                      <p
-                        class="step__description"
-                      >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
-                    </div>
-                    <div class="col-right">
-                      <h6 class="step__keyWord">STRUMENTI</h6>
-                      <ul class="list-unstyled">
-                        <li class="step__list">Workshop</li>
-                        <li class="step__list">Stakeholder interview</li>
-                        <li class="step__list">Competive analysis</li>
-                        <li class="step__list">Behaviour analysis</li>
-                        <li class="step__list">User interview</li>
-                        <li class="step__list">Surveys & test</li>
-                      </ul>
-                    </div>
+
+              <div
+                id="collapseOne"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <p class="step__description">{{text.node.slider1Slide1Abstract}}</p>
+
+                  <div class="col-right">
+                    <h6 class="step__keyWord">{{text.node.slider1Slide1ToolsName}}</h6>
+                    <p class="step__list">{{text.node.slider1Slide1ToolsTitle}}</p>
                   </div>
-                  <div class="col-lg-6 col-right">
-                    <h6 class="step__keyWord mt-4">STEP</h6>
-                    <h2 class="step__title">
-                      Exploration
-                      Market research
-                      Ux research
-                    </h2>
-                    <g-image src="~/assets/images/step.svg" class="step__deco" />
+                  <div class="col-right">
+                    <h6 class="step__keyWord mt-4">{{text.node.slider1Slide1StepName}}</h6>
+                    <h2 class="step__title">{{text.node.slider1Slide1StepTitle}}</h2>
+                    <g-image :src="text.node.slider1Slide1Image" class="step__deco" />
                   </div>
                 </div>
               </div>
             </div>
-            <div class="step step--inverted">
-              <div class="container container--custom">
-                <div class="row">
-                  <div class="col-lg-6 col-left d-flex flex-column">
-                    <div class="col-left">
-                      <h1 class="step__name">Learn</h1>
-                      <div class="d-flex align-items-center">
-                        <h6 class="step__num">01</h6>
-                        <g-image
-                          src="~/assets/images/deco-short2.svg"
-                          class="step__shortDeco ml-3"
-                        />
-                      </div>
-                      <p
-                        class="step__description"
-                      >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
-                    </div>
-                    <div class="col-right">
-                      <h6 class="step__keyWord">STRUMENTI</h6>
-                      <ul class="list-unstyled">
-                        <li class="step__list">Workshop</li>
-                        <li class="step__list">Stakeholder interview</li>
-                        <li class="step__list">Competive analysis</li>
-                        <li class="step__list">Behaviour analysis</li>
-                        <li class="step__list">User interview</li>
-                        <li class="step__list">Surveys & test</li>
-                      </ul>
+
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <div
+                  class="collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="true"
+                  aria-controls="collapseTwo"
+                >
+                  <div class="d-flex align-items-end justify-content-between">
+                    <h6 class="step__num">{{text.node.slider1Slide2Number}}</h6>
+                    <h1 class="step__name">{{text.node.slider1Slide2Title}}</h1>
+                    <div>
+                      <i class="fas fa-plus text-white"></i>
                     </div>
                   </div>
-                  <div class="col-lg-6 col-right">
-                    <h6 class="step__keyWord mt-4">STEP</h6>
-                    <h2 class="step__title">
-                      Exploration
-                      Market research
-                      Ux research
-                    </h2>
-                    <g-image src="~/assets/images/step.svg" class="step__deco" />
+                  <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
+                </div>
+              </div>
+
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <p class="step__description">{{text.node.slider1Slide2Abstract}}</p>
+
+                  <div class="col-right">
+                    <h6 class="step__keyWord">{{text.node.slider1Slide2ToolsName}}</h6>
+                    <p class="step__list">{{text.node.slider1Slide2ToolsTitle}}</p>
+                  </div>
+                  <div class="col-right">
+                    <h6 class="step__keyWord mt-4">{{text.node.slider1Slide2StepName}}</h6>
+                    <h2 class="step__title">{{text.node.slider1Slide2StepTitle}}</h2>
+                    <g-image :src="text.node.slider1Slide2Image" class="step__deco" />
                   </div>
                 </div>
               </div>
             </div>
-            <div class="step">
-              <div class="container container--custom">
-                <div class="row">
-                  <div class="col-lg-6 col-left d-flex flex-column">
-                    <div class="col-left">
-                      <h1 class="step__name">Learn</h1>
-                      <div class="d-flex align-items-center">
-                        <h6 class="step__num">01</h6>
-                        <g-image
-                          src="~/assets/images/deco-short2.svg"
-                          class="step__shortDeco ml-3"
-                        />
-                      </div>
-                      <p
-                        class="step__description"
-                      >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
-                    </div>
-                    <div class="col-right">
-                      <h6 class="step__keyWord">STRUMENTI</h6>
-                      <ul class="list-unstyled">
-                        <li class="step__list">Workshop</li>
-                        <li class="step__list">Stakeholder interview</li>
-                        <li class="step__list">Competive analysis</li>
-                        <li class="step__list">Behaviour analysis</li>
-                        <li class="step__list">User interview</li>
-                        <li class="step__list">Surveys & test</li>
-                      </ul>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <div
+                  class="collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="true"
+                  aria-controls="collapseThree"
+                >
+                  <div class="d-flex align-items-end justify-content-between">
+                    <h6 class="step__num">{{text.node.slider1Slide3Number}}</h6>
+                    <h1 class="step__name">{{text.node.slider1Slide3Title}}</h1>
+                    <div>
+                      <i class="fas fa-plus text-white"></i>
                     </div>
                   </div>
-                  <div class="col-lg-6 col-right">
-                    <h6 class="step__keyWord mt-4">STEP</h6>
-                    <h2 class="step__title">
-                      Exploration
-                      Market research
-                      Ux research
-                    </h2>
-                    <g-image src="~/assets/images/step.svg" class="step__deco" />
+                  <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
+                </div>
+              </div>
+
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <p class="step__description">{{text.node.slider1Slide1Abstract}}</p>
+
+                  <div class="col-right">
+                    <h6 class="step__keyWord">{{text.node.slider1Slide3ToolsName}}</h6>
+                    <p class="step__list">{{text.node.slider1Slide3ToolsTitle}}</p>
+                  </div>
+                  <div class="col-right">
+                    <h6 class="step__keyWord mt-4">{{text.node.slider1Slide3StepName}}</h6>
+                    <h2 class="step__title">{{text.node.slider1Slide3StepTitle}}</h2>
+                    <g-image :src="text.node.slider1Slide3Image" class="step__deco" />
                   </div>
                 </div>
               </div>
             </div>
-            <div class="step step--inverted">
-              <div class="container container--custom">
-                <div class="row">
-                  <div class="col-lg-6 col-left d-flex flex-column">
-                    <div class="col-left">
-                      <h1 class="step__name">Learn</h1>
-                      <div class="d-flex align-items-center">
-                        <h6 class="step__num">01</h6>
-                        <g-image
-                          src="~/assets/images/deco-short2.svg"
-                          class="step__shortDeco ml-3"
-                        />
-                      </div>
-                      <p
-                        class="step__description"
-                      >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
-                    </div>
-                    <div class="col-right">
-                      <h6 class="step__keyWord">STRUMENTI</h6>
-                      <ul class="list-unstyled">
-                        <li class="step__list">Workshop</li>
-                        <li class="step__list">Stakeholder interview</li>
-                        <li class="step__list">Competive analysis</li>
-                        <li class="step__list">Behaviour analysis</li>
-                        <li class="step__list">User interview</li>
-                        <li class="step__list">Surveys & test</li>
-                      </ul>
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <div
+                  class="collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseFour"
+                  aria-expanded="true"
+                  aria-controls="collapseFour"
+                >
+                  <div class="d-flex align-items-end justify-content-between">
+                    <h6 class="step__num">{{text.node.slider1Slide4Number}}</h6>
+                    <h1 class="step__name">{{text.node.slider1Slide4Title}}</h1>
+                    <div>
+                      <i class="fas fa-plus text-white"></i>
                     </div>
                   </div>
-                  <div class="col-lg-6 col-right">
-                    <h6 class="step__keyWord mt-4">STEP</h6>
-                    <h2 class="step__title">
-                      Exploration
-                      Market research
-                      Ux research
-                    </h2>
-                    <g-image src="~/assets/images/step.svg" class="step__deco" />
+                  <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
+                </div>
+              </div>
+
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <p class="step__description">{{text.node.slider1Slide4Abstract}}</p>
+
+                  <div class="col-right">
+                    <h6 class="step__keyWord">{{text.node.slider1Slide4ToolsName}}</h6>
+                    <p class="step__list">{{text.node.slider1Slide4ToolsTitle}}</p>
+                  </div>
+                  <div class="col-right">
+                    <h6 class="step__keyWord mt-4">{{text.node.slider1Slide4StepName}}</h6>
+                    <h2 class="step__title">{{text.node.slider1Slide4StepTitle}}</h2>
+                    <g-image :src="text.node.slider1Slide4Image" class="step__deco" />
                   </div>
                 </div>
               </div>
@@ -267,330 +348,110 @@
           </div>
         </div>
       </div>
-      <div v-else>
-        <div class="accordion" id="accordionExample">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <div
-              class="collapsed"
-              data-toggle="collapse"
-              data-target="#collapseOne"
-              aria-expanded="true"
-              aria-controls="collapseOne"
-            >
-              <div class="d-flex align-items-end justify-content-between">
-                <h6 class="step__num">01</h6>
-                <h1 class="step__name">Learn</h1>
-                <div>
-                  <i class="fas fa-plus text-white"></i>
+
+      <div class="expertise pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 mx-auto mb-5 mb-lg-0">
+              <h6 class="expertise__name">{{text.node.section2Name}}</h6>
+              <h1 class="expertise__title">{{text.node.section2Title}}</h1>
+              <p class="expertise__description">{{text.node.section2Abstract}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="container pt-5">
+          <div class="row mb-5">
+            <div class="col-lg-9 d-flex align-items-center skill skill--right py-5 mb-4">
+              <div class="skill__body">
+                <div class="my-3">
+                  <span class="label label--dev mr-2">Development</span>
+                  <span class="label label--des mx-2">Design</span>
                 </div>
+                <h1 class="skill__title">{{text.node.competence1Title}}</h1>
+                <div class="skill__line mb-3"></div>
+                <p class="skill__description">{{text.node.competence1Abstract}}</p>
+                <g-link
+                  :to="text.node.competence1Link"
+                  class="btn btn-secondary"
+                >Approfondisci expertise</g-link>
               </div>
-              <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
+
+              <g-image :src="text.node.competence1Img" class="skill__img" />
             </div>
           </div>
-
-          <div
-            id="collapseOne"
-            class="collapse"
-            aria-labelledby="headingOne"
-            data-parent="#accordionExample"
-          >
-            <div class="card-body">
-              <p
-                class="step__description"
-              >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
-
-              <div class="col-right">
-                <h6 class="step__keyWord">STRUMENTI</h6>
-                <ul class="list-unstyled">
-                  <li class="step__list">Workshop</li>
-                  <li class="step__list">Stakeholder interview</li>
-                  <li class="step__list">Competive analysis</li>
-                  <li class="step__list">Behaviour analysis</li>
-                  <li class="step__list">User interview</li>
-                  <li class="step__list">Surveys & test</li>
-                </ul>
-              </div>
-              <div class="col-right">
-                <h6 class="step__keyWord mt-4">STEP</h6>
-                <h2 class="step__title">
-                  Exploration
-                  Market research
-                  Ux research
-                </h2>
-                <g-image src="~/assets/images/step.svg" class="step__deco" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <div
-              class="collapsed"
-              data-toggle="collapse"
-              data-target="#collapseTwo"
-              aria-expanded="true"
-              aria-controls="collapseTwo"
-            >
-              <div class="d-flex align-items-end justify-content-between">
-                <h6 class="step__num">01</h6>
-                <h1 class="step__name">Learn</h1>
-                <div>
-                  <i class="fas fa-plus text-white"></i>
+          <div class="row mb-5">
+            <div class="col-lg-9 d-flex align-items-center skill py-5 mb-4">
+              <div class="skill__body">
+                <div class="my-3">
+                  <span class="label label--dev mr-2">Development</span>
+                  <span class="label label--des mx-2">Design</span>
                 </div>
+                <h1 class="skill__title">{{text.node.competence2Title}}</h1>
+                <div class="skill__line mb-3"></div>
+                <p class="skill__description">{{text.node.competence2Abstract}}</p>
+                <g-link
+                  :to="text.node.competence2Link"
+                  class="btn btn-secondary"
+                >Approfondisci expertise</g-link>
               </div>
-              <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
+
+              <g-image :src="text.node.competence2Img" class="skill__img" />
             </div>
           </div>
-
-          <div
-            id="collapseTwo"
-            class="collapse"
-            aria-labelledby="headingTwo"
-            data-parent="#accordionExample"
-          >
-            <div class="card-body">
-              <p
-                class="step__description"
-              >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
-
-              <div class="col-right">
-                <h6 class="step__keyWord">STRUMENTI</h6>
-                <ul class="list-unstyled">
-                  <li class="step__list">Workshop</li>
-                  <li class="step__list">Stakeholder interview</li>
-                  <li class="step__list">Competive analysis</li>
-                  <li class="step__list">Behaviour analysis</li>
-                  <li class="step__list">User interview</li>
-                  <li class="step__list">Surveys & test</li>
-                </ul>
-              </div>
-              <div class="col-right">
-                <h6 class="step__keyWord mt-4">STEP</h6>
-                <h2 class="step__title">
-                  Exploration
-                  Market research
-                  Ux research
-                </h2>
-                <g-image src="~/assets/images/step.svg" class="step__deco" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <div
-              class="collapsed"
-              data-toggle="collapse"
-              data-target="#collapseThree"
-              aria-expanded="true"
-              aria-controls="collapseThree"
-            >
-              <div class="d-flex align-items-end justify-content-between">
-                <h6 class="step__num">01</h6>
-                <h1 class="step__name">Learn</h1>
-                <div>
-                  <i class="fas fa-plus text-white"></i>
+          <div class="row mb-5">
+            <div class="col-lg-9 d-flex align-items-center skill skill--right py-5 mb-4">
+              <div class="skill__body">
+                <div class="my-3">
+                  <span class="label label--dev mr-2">Development</span>
+                  <span class="label label--des mx-2">Design</span>
                 </div>
+                <h1 class="skill__title">{{text.node.competence3Title}}</h1>
+                <div class="skill__line mb-3"></div>
+                <p class="skill__description">{{text.node.competence3Abstract}}</p>
+                <g-link
+                  :to="text.node.competence3Link"
+                  class="btn btn-secondary"
+                >Approfondisci expertise</g-link>
               </div>
-              <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
+
+              <g-image :src="text.node.competence3Img" class="skill__img" />
             </div>
           </div>
-
-          <div
-            id="collapseThree"
-            class="collapse"
-            aria-labelledby="headingThree"
-            data-parent="#accordionExample"
-          >
-            <div class="card-body">
-              <p
-                class="step__description"
-              >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
-
-              <div class="col-right">
-                <h6 class="step__keyWord">STRUMENTI</h6>
-                <ul class="list-unstyled">
-                  <li class="step__list">Workshop</li>
-                  <li class="step__list">Stakeholder interview</li>
-                  <li class="step__list">Competive analysis</li>
-                  <li class="step__list">Behaviour analysis</li>
-                  <li class="step__list">User interview</li>
-                  <li class="step__list">Surveys & test</li>
-                </ul>
-              </div>
-              <div class="col-right">
-                <h6 class="step__keyWord mt-4">STEP</h6>
-                <h2 class="step__title">
-                  Exploration
-                  Market research
-                  Ux research
-                </h2>
-                <g-image src="~/assets/images/step.svg" class="step__deco" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingFour">
-            <div
-              class="collapsed"
-              data-toggle="collapse"
-              data-target="#collapseFour"
-              aria-expanded="true"
-              aria-controls="collapseFour"
-            >
-              <div class="d-flex align-items-end justify-content-between">
-                <h6 class="step__num">01</h6>
-                <h1 class="step__name">Learn</h1>
-                <div>
-                  <i class="fas fa-plus text-white"></i>
+          <div class="row mb-0">
+            <div class="col-lg-9 d-flex align-items-center skill py-5">
+              <div class="skill__body">
+                <div class="my-3">
+                  <span class="label label--dev mr-2">Development</span>
+                  <span class="label label--des mx-2">Design</span>
                 </div>
+                <h1 class="skill__title">{{text.node.competence4Title}}</h1>
+                <div class="skill__line mb-3"></div>
+                <p class="skill__description">{{text.node.competence4Abstract}}</p>
+                <g-link
+                  :to="text.node.competence4Link"
+                  class="btn btn-secondary"
+                >Approfondisci expertise</g-link>
               </div>
-              <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
+
+              <g-image :src="text.node.competence4Img" class="skill__img" />
             </div>
-          </div>
-
-          <div
-            id="collapseFour"
-            class="collapse"
-            aria-labelledby="headingFour"
-            data-parent="#accordionExample"
-          >
-            <div class="card-body">
-              <p
-                class="step__description"
-              >Attraverso workshop partecipativi cerchiamo di comprendere le reali esigenze del cliente. Ci proponiamo di indagare ed esplorare, nel senso più ampio possibile il contesto in cui il progetto si inserisce per capire punti di forza e di debolezza, sia che si parli di progetti nuovi o già esistenti.</p>
-
-              <div class="col-right">
-                <h6 class="step__keyWord">STRUMENTI</h6>
-                <ul class="list-unstyled">
-                  <li class="step__list">Workshop</li>
-                  <li class="step__list">Stakeholder interview</li>
-                  <li class="step__list">Competive analysis</li>
-                  <li class="step__list">Behaviour analysis</li>
-                  <li class="step__list">User interview</li>
-                  <li class="step__list">Surveys & test</li>
-                </ul>
-              </div>
-              <div class="col-right">
-                <h6 class="step__keyWord mt-4">STEP</h6>
-                <h2 class="step__title">
-                  Exploration
-                  Market research
-                  Ux research
-                </h2>
-                <g-image src="~/assets/images/step.svg" class="step__deco" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      
-    </div>
-
-    <div class="expertise pt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7 mx-auto mb-5 mb-lg-0">
-            <h6 class="expertise__name">EXPERTISE</h6>
-            <h1 class="expertise__title">Attraverso il nostro approccio possiamo offrire</h1>
-            <p
-              class="expertise__description"
-            >Che si tratti di un nuovo prodotto, di un’integrazione o restauro, accompagniamo le aziende verso le opportune logiche digitali.</p>
-          </div>
-        </div>
-      </div>
-      <div class="container pt-5">
-        <div class="row mb-5">
-          <div class="col-lg-9 d-flex align-items-center skill skill--right py-5 mb-4">
-            <div class="skill__body">
-              <div class="my-3">
-                <span class="label label--dev mr-2">Development</span>
-                <span class="label label--des mx-2">Design</span>
-              </div>
-              <h1 class="skill__title">Digital transformation</h1>
-              <div class="skill__line mb-3"></div>
-              <p
-                class="skill__description"
-              >Che si tratti di una nuova startup o la ristrutturazione di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori finali.</p>
-              <a href="http://" class="btn btn-secondary">Approfondisci expertise</a>
-            </div>
-
-            <g-image src="~/assets/images/competenze-digital.png" class="skill__img" />
-          </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col-lg-9 d-flex align-items-center skill py-5 mb-4">
-            <div class="skill__body">
-              <div class="my-3">
-                <span class="label label--dev mr-2">Development</span>
-                <span class="label label--des mx-2">Design</span>
-              </div>
-              <h1 class="skill__title">Sviluppo Web & Mobile</h1>
-              <div class="skill__line mb-3"></div>
-              <p
-                class="skill__description"
-              >Seguendo la metodologia agile dall’analisi al test costruiamo prodotti in linea con le esigenze di ciascun cliente, realizzando progetti web e mobile che si adattano alle diverse piattaforme esistenti.</p>
-              <a href="http://" class="btn btn-secondary">Approfondisci expertise</a>
-            </div>
-
-            <g-image src="~/assets/images/competenze-sviluppo.png" class="skill__img" />
-          </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col-lg-9 d-flex align-items-center skill skill--right py-5 mb-4">
-            <div class="skill__body">
-              <div class="my-3">
-                <span class="label label--dev mr-2">Development</span>
-                <span class="label label--des mx-2">Design</span>
-              </div>
-              <h1 class="skill__title">Design research & strategy</h1>
-              <div class="skill__line mb-3"></div>
-              <p
-                class="skill__description"
-              >In Logix ci occupiamo dello sviluppo software con esperienza decennale e realizzazione di progetti sulla base delle reali esigenze delle aziende clienti.</p>
-              <a href="http://" class="btn btn-secondary">Approfondisci expertise</a>
-            </div>
-
-            <g-image src="~/assets/images/competenze-design.png" class="skill__img" />
-          </div>
-        </div>
-        <div class="row mb-0">
-          <div class="col-lg-9 d-flex align-items-center skill py-5">
-            <div class="skill__body">
-              <div class="my-3">
-                <span class="label label--dev mr-2">Development</span>
-                <span class="label label--des mx-2">Design</span>
-              </div>
-              <h1 class="skill__title">Collaborative team</h1>
-              <div class="skill__line mb-3"></div>
-              <p
-                class="skill__description"
-              >I nostro team di professionisti è in grado di offrire alle aziende clienti le professionalità, le competenze, gli strumenti ed i metodi migliori nel breve periodo.</p>
-              <a href="http://" class="btn btn-secondary">Approfondisci expertise</a>
-            </div>
-
-            <g-image src="~/assets/images/competenze-collaborative.png" class="skill__img" />
           </div>
         </div>
       </div>
     </div>
-    <div class="partnership py-5">
+    <div class="partnership py-5" v-for="textPartnership in $page.textsPartnership.edges" :key="textPartnership.id">
       <div class="partnership__box my-5 py-5">
         <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
         <div class="container">
           <div class="row">
             <div class="col-lg-11 ml-auto pl-lg-5">
-              <h6 class="pl-2 pl-lg-4 partnership__name">Partnership</h6>
-              <h1 class="pl-2 pl-lg-4 partnership__title">Hanno già creduto in noi</h1>
+              <h6 class="pl-2 pl-lg-4 partnership__name">{{textPartnership.node.sectionName}}</h6>
+              <h1 class="pl-2 pl-lg-4 partnership__title">{{textPartnership.node.sectionName}}</h1>
               <div class="d-flex flex-wrap align-items-center">
-                <g-image src="~/assets/images/logo-aosp.png" class="partnership__logo" />
-                <g-image src="~/assets/images/logo-ast.png" class="partnership__logo" />
-                <g-image src="~/assets/images/logo-cogne.png" class="partnership__logo" />
-                <g-image src="~/assets/images/logo-umbriadigitale.png" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo1" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo2" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo3" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo4" class="partnership__logo" />
               </div>
             </div>
           </div>
@@ -599,10 +460,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5 mx-auto text-center py-5">
-            <h1 class="partnership__titleClosing mb-4">Sei sicuro della tua nuova idea?</h1>
+            <h1 class="partnership__titleClosing mb-4">{{textPartnership.node.sectionTitle2}}</h1>
             <p class="partnership__descriptionClosing mb-5">
-              When you enter into any new area of science, you almost
-              always find yourself with a baffling new language.
+              {{textPartnership.node.sectionAbstract2}}
             </p>
             <div>
               <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
@@ -618,10 +478,7 @@
               <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
               <div class="d-flex align-items-center justify-content-between w-75">
                 <h1 class="cta__title">
-                  Consiglio last minute? Parla con Bottino oppure chiama al
-                  <span
-                    class="text-green"
-                  >0744/33434522</span>
+                  {{textPartnership.node.ctaTitle}}
                 </h1>
               </div>
             </div>
@@ -631,7 +488,89 @@
     </div>
   </Layout>
 </template>
-
+<page-query>
+query {
+  texts: allCompetence {
+    edges {
+      node {
+        title
+        headerTitle
+        headerImage
+        headerAbstract
+        section1Name
+        section1Title
+        section1Abstract
+        slider1Slide1Title
+        slider1Slide1Number
+        slider1Slide1StepName
+        slider1Slide1StepTitle
+        slider1Slide1ToolsName
+        slider1Slide1ToolsTitle
+        slider1Slide1Abstract
+        slider1Slide1Image
+        slider1Slide2Title
+        slider1Slide2Number
+        slider1Slide2StepName
+        slider1Slide2StepTitle
+        slider1Slide2ToolsName
+        slider1Slide2ToolsTitle
+        slider1Slide2Abstract
+        slider1Slide2Image
+        slider1Slide3Title
+        slider1Slide3Number
+        slider1Slide3StepName
+        slider1Slide3StepTitle
+        slider1Slide3ToolsName
+        slider1Slide3ToolsTitle
+        slider1Slide3Abstract
+        slider1Slide3Image
+        slider1Slide4Title
+        slider1Slide4Number
+        slider1Slide4StepName
+        slider1Slide4StepTitle
+        slider1Slide4ToolsName
+        slider1Slide4ToolsTitle
+        slider1Slide4Abstract
+        slider1Slide4Image
+        section2Name
+        section2Title
+        section2Abstract
+        competence1Title
+        competence1Link
+        competence1Abstract
+        competence1Img
+        competence2Title
+        competence2Link
+        competence2Abstract
+        competence2Img
+        competence3Title
+        competence3Link
+        competence3Abstract
+        competence3Img
+        competence4Title
+        competence4Link
+        competence4Abstract
+        competence4Img
+      }
+    }
+  },
+  textsPartnership: allPartnership {
+    edges {
+      node {
+        sectionTitle
+        sectionName
+        logo1
+        logo2
+        logo3
+        logo4
+        sectionTitle2
+        sectionAbstract2
+        ctaTitle
+      }
+    }
+  }
+}
+</page-query>
 <script>
 export default {
   //   metaInfo: {
@@ -690,7 +629,7 @@ export default {
             .addTo(controller);
         });
       }, 500);
-    } 
+    }
     // AOS.init();
   }
 };

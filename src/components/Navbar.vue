@@ -7,7 +7,7 @@
       <nav class="nav">
         <ul class="list-unstyled d-lg-flex align-items-center m-0">
           <li class="position-relative py-2 py-lg-0">
-            <g-link to class="nav__link mx-3 py-3">Chi siamo</g-link>
+            <g-link to="/" class="nav__link mx-3 py-3">Chi siamo</g-link>
           </li>
           <li class="position-relative py-2 py-lg-0">
             <g-link to="/competenze" class="nav__link mx-3 py-3">

@@ -24,6 +24,26 @@ module.exports = {
         }
       }
     },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'competenze/**/*.md',
+        typeName: 'Competence',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'partnership/**/*.md',
+        typeName: 'Partnership',
+        remark: {
+          // remark options
+        }
+      }
+    },
   ],
   transformers: {
     remark: {
