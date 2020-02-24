@@ -483,9 +483,11 @@ export default {
     font-family: "Lexend Deca";
     font-size: 161px;
     letter-spacing: -9.63px;
+        line-height: 140px;
     @media screen and (max-width: 992px) {
       font-size: 62px;
        letter-spacing: initial;
+           line-height: initial;
     }
   }
 }
