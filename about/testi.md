@@ -1,20 +1,22 @@
 ---
-title: 'Logix Software - Chi siamo'
+title: Logix Software - Chi siamo
 headerTitle1: Questi
-headerTitle2: siamo noi
+headerTitle2: siamo noi!
 headerImage: /uploads/hero-home.jpg
 sectionTitle: >-
-  In Logix non ci fermiamo mai, siamo sempre in movimento, con la voglia di cambiare ed inventare, con la consapevolezza che la nostra forza siano le persone e la loro passione, parti di una famiglia.
+  In Logix non ci fermiamo mai, siamo sempre in movimento, con la voglia di
+  cambiare ed inventare, con la consapevolezza che la nostra forza siano le
+  persone e la loro passione, parti di una famiglia.
 sectionBgText1: Design
 sectionBgText2: Development
 person1Name: Marco
 person1Team: OPERATION
 person1Position: Founder & CEO
 person1Img: /uploads/team.jpg
-person2Name: Marco
+person2Name: Alessandro
 person2Team: OPERATION
 person2Position: Founder & CEO
-person2Img: /uploads/team.jpg
+person2Img: /uploads/alessandro_cirocchi.jpg
 person3Name: Marco
 person3Team: OPERATION
 person3Position: Founder & CEO
