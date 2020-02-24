@@ -3,6 +3,169 @@
     <Navbar />
     <slot />
     <Footer />
+    <!-- Modal -->
+    <div
+      class="modal fade modalContact"
+      id="modalContact"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalContactLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-11 position-relative">
+                  <g-link to="/" class>
+                    <g-image src="~/assets/images/logo/logix-software.svg" class="header__logo" />
+                  </g-link>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <svg
+                      width="20px"
+                      height="20px"
+                      viewBox="0 0 20 20"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+                      <title>Group@3x</title>
+                      <desc>Created with Sketch.</desc>
+                      <g
+                        id="UI"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                        stroke-linecap="square"
+                      >
+                        <g
+                          id="A.2.0---Contattaci"
+                          transform="translate(-1233.000000, -43.000000)"
+                          stroke="#FFFFFF"
+                          stroke-width="1.44"
+                        >
+                          <g
+                            id="Group"
+                            transform="translate(1243.000000, 53.000000) scale(-1, 1) translate(-1243.000000, -53.000000) translate(1234.000000, 44.000000)"
+                          >
+                            <line
+                              x1="0.0967741935"
+                              y1="17.5714286"
+                              x2="17.516129"
+                              y2="0.428571429"
+                              id="Line-3-Copy"
+                            />
+                            <line
+                              x1="0.0967741935"
+                              y1="17.5714286"
+                              x2="17.516129"
+                              y2="0.428571429"
+                              id="Line-3-Copy"
+                              transform="translate(9.000000, 9.000000) scale(-1, 1) translate(-9.000000, -9.000000) "
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body d-flex align-items-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4">
+                  <g-image src="~/assets/images/deco-square.svg" class="modalContact__deco" />
+                  <h1 class="modalContact__title">Contattaci</h1>
+                  <p
+                    class="modalContact__description mb-5"
+                  >Qualunque sia la sfida saremo sempre felici 😃 di parlare con te. Scrivici e ti risponderemo al più presto!</p>
+                  <p class="modalContact__text">Scrivici: info@logixcorp.com</p>
+                  <p class="modalContact__text">Chiamaci: 0744/283733</p>
+                  <p class="modalContact__text">Passa: Piazza Europa, 5 - 05100 Terni(TR)</p>
+                </div>
+                <div class="col-lg-8 pl-lg-5 d-flex align-items-center text-center" v-if="formSent==true">
+                  <div class="formSent">
+                    <h1 class="modalContact__title">Grazie per averci contattato</h1>
+                  </div>
+                </div>
+                <form
+                v-else
+                  class="col-lg-8 pl-lg-5 d-flex align-items-center"
+                  name="contact"
+                  method="post"
+                  v-on:submit.prevent="handleSubmit"
+                  action="/success/"
+                  data-netlify="true"
+                  data-netlify-honeypot="bot-field"
+                >
+                  <input type="hidden" name="form-name" value="contact" />
+                  <p hidden>
+                    <label>
+                      Don’t fill this out:
+                      <input name="bot-field" />
+                    </label>
+                  </p>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="group">
+                        <input type="text" name="name" v-model="formData.name" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Name</label>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="group">
+                        <input type="email" name="email" v-model="formData.email" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Email</label>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="group">
+                        <input type="text" name="company" v-model="formData.company" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Azienda (opzionale)</label>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="group">
+                        <input type="text" name="reason" v-model="formData.reason" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Ci contatti per</label>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="group">
+                        <textarea name="message" v-model="formData.message" required row="6" />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Messaggio</label>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 text-right">
+                      <button type="submit" class="btn btn-secondary">Invia messaggio</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>-->
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <static-query>
@@ -19,6 +182,34 @@ export default {
   components: {
     Navbar,
     Footer
+  },
+  data() {
+    return {
+      formData: {},
+      formSent: false,
+    };
+  },
+  methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+        )
+        .join("&");
+    },
+    handleSubmit(e) {
+      var _this=this;
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: this.encode({
+          "form-name": e.target.getAttribute("name"),
+          ...this.formData
+        })
+      })
+        .then(() => _this.formSent= true)
+        .catch(error => alert(error));
+    }
   }
 };
 </script>
@@ -149,9 +340,9 @@ h6 {
   font-size: 10px;
   letter-spacing: 1px;
   line-height: 18px;
- text-transform: uppercase;
+  text-transform: uppercase;
   @media screen and (max-width: 992px) {
-     line-height: initial;
+    line-height: initial;
   }
   text-align: center;
   &--dev {
@@ -175,17 +366,17 @@ h6 {
   @media screen and (max-width: 576px) {
     padding: 30px;
     bottom: 0px;
-    left:0;
+    left: 0;
   }
-  
+
   &__title {
     color: #232323;
     font-size: 26px !important;
     font-weight: 500;
     letter-spacing: -0.89px;
     line-height: 32px;
-     z-index: 1;
-     position: relative;
+    z-index: 1;
+    position: relative;
   }
   &__deco {
     position: absolute;
@@ -265,8 +456,8 @@ h6 {
   &__box {
     background-color: #000000;
     width: 90%;
-     @media screen and (max-width: 992px) {
-       width: 100%;
+    @media screen and (max-width: 992px) {
+      width: 100%;
     }
     color: #fff;
     position: relative;
@@ -329,8 +520,175 @@ h6 {
   // left: 0;
   position: absolute;
 }
-.bg-black-mobile{
-    @media screen and (max-width: 576px) {
-    background-color: #111111;}
+.bg-black-mobile {
+  @media screen and (max-width: 576px) {
+    background-color: #111111;
   }
+}
+.modal-dialog {
+  max-width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.modal-content {
+  background-color: #000;
+}
+.modal-header {
+  border: 0;
+}
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+.close {
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+.modalContact {
+  color: #ffffff;
+  &__deco {
+  }
+  &__title {
+    font-family: "Lexend Deca";
+    font-size: 56px;
+    letter-spacing: -2.21px;
+  }
+  &__description {
+    font-family: "DM Sans";
+    font-size: 22px;
+    letter-spacing: -0.44px;
+    line-height: 28px;
+  }
+  &__text {
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    letter-spacing: -0.32px;
+  }
+}
+.group {
+  position: relative;
+  margin-bottom: 45px;
+}
+input,
+textarea {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent !important;
+  color: #fff;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* LABEL ======================================= */
+label {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.bar:before,
+.bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.bar:before {
+  left: 50%;
+}
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+input:focus ~ .bar:before,
+input:focus ~ .bar:after,
+textarea:focus ~ .bar:before,
+textarea:focus ~ .bar:after {
+  width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: transparent;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@-moz-keyframes inputHighlighter {
+  from {
+    background: transparent;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@keyframes inputHighlighter {
+  from {
+    background: transparent;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
 </style>

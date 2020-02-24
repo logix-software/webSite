@@ -27,19 +27,19 @@
                   to="/sviluppo-web-and-mobile"
                 >> Swiluppo web & mobile</g-link>
               </li>
-               <li>
+              <li>
                 <g-link
                   class="nav__link mx-3 py-1 d-inline-block"
                   to="/design-research-and-strategy"
                 >> Design research & strategy</g-link>
               </li>
-                <li>
+              <li>
                 <g-link
                   class="nav__link mx-3 py-1 d-inline-block"
                   to="/collaborative-team"
                 >> Collaborative team</g-link>
               </li>
-              
+
               <!-- <li>
                 <g-link class="nav__link mx-3 py-1 d-inline-block" to>link</g-link>
               </li>
@@ -58,7 +58,11 @@
             <g-link to="/progetti" class="nav__link mx-3 py-3">Progetti</g-link>
           </li>
           <li class="position-relative py-2 py-lg-0">
-            <g-link to class="btn btn-default btn-navbar mx-3">Contattaci</g-link>
+            <button
+              class="btn btn-default btn-navbar mx-3"
+              data-toggle="modal"
+              data-target="#modalContact"
+            >Contattaci</button>
           </li>
         </ul>
       </nav>
@@ -106,6 +110,7 @@ export default {
 </script>
 
 <style lang="scss">
+
 .hamburger-container {
   width: 30px;
   height: 20px;
@@ -175,7 +180,7 @@ export default {
     &__link {
       position: relative;
       font-size: 18px;
-       @media screen and (max-width: 992px) {
+      @media screen and (max-width: 992px) {
         font-size: 24px;
       }
       //   &:after {
@@ -218,12 +223,12 @@ export default {
       }
     }
   }
-  
+
   @media screen and (max-width: 992px) {
   }
-  ul{
+  ul {
     @media screen and (max-width: 992px) {
-       width: 100%;
+      width: 100%;
     }
   }
   li {
@@ -248,16 +253,16 @@ export default {
   .dropdown {
     position: absolute;
     top: 120%;
-   
+
     border-radius: 5px;
     padding: 25px 0;
     display: none;
     z-index: 1;
     width: 240px;
     @media screen and (max-width: 992px) {
-       width: 100%;
-       margin-left: 15px;
-       position: relative;
+      width: 100%;
+      margin-left: 15px;
+      position: relative;
     }
     // -webkit-box-shadow: 0px 2px 9px -2px rgba(82, 83, 94, 0.63);
     // -moz-box-shadow: 0px 2px 9px -2px rgba(82, 83, 94, 0.63);
@@ -266,17 +271,16 @@ export default {
       font-size: 16px;
       font-weight: 300;
       color: #fff;
-       @media screen and (min-width: 992px) {
-color: rgba(255,255,255,.8);
-&:hover{
-  color: rgba(255,255,255,1);
-}
-       }
-       @media screen and (max-width: 992px) {
-         font-size: 22px;
-         margin: 6px 0;
-         
-    }
+      @media screen and (min-width: 992px) {
+        color: rgba(255, 255, 255, 0.8);
+        &:hover {
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+      @media screen and (max-width: 992px) {
+        font-size: 22px;
+        margin: 6px 0;
+      }
     }
   }
 }
