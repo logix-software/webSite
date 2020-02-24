@@ -245,4 +245,30 @@ collections:
         - {label: "Person10Team", name: "person10Team", widget: "string"}
         - {label: "Person10Position", name: "person10Position", widget: "string"}
         - {label: "Person10Img", name: "person10Img", widget: "image"}
-       
+    - name: "proojects"
+      label: "Project" 
+      folder: "proojects"
+      create: true 
+      slug: "{{slug}}"
+      fields: 
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Hashtags", name: "hashtags", widget: "string"}
+        - {label: "Image1", name: "image1", widget: "image"}
+        - {label: "SectionTitle", name: "sectionTitle", widget: "string"}
+        - {label: "Image2", name: "image2", widget: "image"}
+        - {label: "Title2", name: "title2", widget: "string"}
+        - {label: "Abstract2", name: "abstract2", widget: "text"}
+        - {label: "Image3", name: "image3", widget: "image"}
+        - {label: "Title3", name: "title3", widget: "string"}
+        - {label: "Abstract3", name: "abstract3", widget: "text"}
+        - {label: "Section2Title", name: "section2Title", widget: "string"}
+        - {label: "Section2Feedback", name: "section2Feedback", widget: "text"}
+        - {label: "Section2Name", name: "section2Name", widget: "string"}
+        - {label: "Section2Position", name: "section2Position", widget: "string"}
+        - {label: "Section2Image", name: "section2Image", widget: "image"}
+        - {label: "Section3Title", name: "section3Title", widget: "string"}
+        - {label: "Section3Abstract", name: "section3Abstract", widget: "text"}
+        - {label: "Section3Image", name: "section3Image", widget: "image"}
+        - {label: "cta", name: "cta", widget: "text"}
+        - {label: "Body", name: "body", widget: "markdown"} 
+        - {label: "Date", name: "date", widget: "datetime"}  
