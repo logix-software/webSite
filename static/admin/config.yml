@@ -247,7 +247,7 @@ collections:
         - {label: "Person10Img", name: "person10Img", widget: "image"}
     - name: "proojects"
       label: "Project" 
-      folder: "proojects"
+      folder: "progetti"
       create: true 
       slug: "{{slug}}"
       fields: 
