@@ -1,10 +1,10 @@
 ---
 sectionTitle: 'Hanno già creduto in noi:'
 sectionName: Partnership
-logo1: /uploads/logo-ast.png
+logo1: /uploads/logo-aosp.png
 logo2: /uploads/logo-ast.png
-logo3: /uploads/logo-ast.png
-logo4: /uploads/logo-ast.png
+logo3: /uploads/logo-cogne.png
+logo4: /uploads/logo-umbriadigitale.png
 sectionTitle2: Sei sicuro della tua nuova idea?
 sectionAbstract2: >-
   When you enter into any new area of science, you almost always find yourself

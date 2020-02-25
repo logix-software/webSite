@@ -126,7 +126,7 @@
           </div>
         </div>
         <div class="text-right">
-          <g-image :src="text.node.section1Image" class="strategy__img2" />
+          <g-image :src="text.node.section2Image" class="strategy__img2" />
         </div>
       </div>
       <div class="make py-5">

@@ -2,66 +2,67 @@
   <Layout>
     <div v-for="text in $page.texts.edges" :key="text.id">
       <!-- {{text}} -->
-    <div class="hero hero--home d-flex align-items-center" :style="{ 'background-image': 'url(' + text.node.headerImage + ')' }">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 position-relative ml-auto">
-            <g-image src="~/assets/images/deco.svg" class="hero__deco" />
-            <g-image
-              src="~/assets/images/deco-designer.svg"
-              class="hero__decoDesigner mouse-effect"
-            />
-            <g-image
-              src="~/assets/images/deco-developer.svg"
-              class="hero__decoDeveloper mouse-effect2"
-            />
-
-            <!-- <svg width="340px" height="340px"  viewBox="0 0 340 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> -->
-
-            <h1 class="hero__title">{{text.node.headerTitle}}</h1>
-          </div>
-          <div class="col-lg-5"></div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-lg-5 ml-auto">
-            <p
-              class="hero__description"
-            >{{text.node.headerAbstract}}</p>
-          </div>
-        </div>
-      </div>
-      <div class="hero__partnership">
+      <div
+        class="hero hero--home d-flex align-items-center"
+        :style="{ 'background-image': 'url(' + text.node.headerImage + ')' }"
+      >
         <div class="container">
           <div class="row">
-            <div class="col-lg-9 ml-auto">
-              <h6 class="pl-2 pl-lg-4">Partnership</h6>
-              <div class="d-flex align-items-center">
-                <g-image :src="text.node.headerLogo1" class="hero__partnershipLogo" />
-                <g-image :src="text.node.headerLogo2" class="hero__partnershipLogo" />
-                <g-image :src="text.node.headerLogo3" class="hero__partnershipLogo" />
-                <g-image :src="text.node.headerLogo4" class="hero__partnershipLogo" />
+            <div class="col-lg-6 position-relative ml-auto">
+              <g-image src="~/assets/images/deco.svg" class="hero__deco" />
+              <g-image
+                src="~/assets/images/deco-designer.svg"
+                class="hero__decoDesigner mouse-effect"
+              />
+              <g-image
+                src="~/assets/images/deco-developer.svg"
+                class="hero__decoDeveloper mouse-effect2"
+              />
+
+              <!-- <svg width="340px" height="340px"  viewBox="0 0 340 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> -->
+
+              <h1 class="hero__title">{{text.node.headerTitle}}</h1>
+            </div>
+            <div class="col-lg-5"></div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-5 ml-auto">
+              <p class="hero__description">{{text.node.headerAbstract}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero__partnership">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-9 ml-auto">
+                <h6 class="pl-2 pl-lg-4">Partnership</h6>
+                <div class="d-flex align-items-center">
+                  <g-image :src="text.node.headerLogo1" class="hero__partnershipLogo" />
+                  <g-image :src="text.node.headerLogo2" class="hero__partnershipLogo" />
+                  <g-image :src="text.node.headerLogo3" class="hero__partnershipLogo" />
+                  <g-image :src="text.node.headerLogo4" class="hero__partnershipLogo" />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container position-relative">
-      <div class="bgLeft"></div>
-      <div class="row">
-        <div class="col-lg-9 ml-auto">
-          <div class="video position-relative">
-            <g-image src="~/assets/images/deco2.svg" class="video__deco" />
-            <video autoplay loop muted playsinline id="myVideo" preload="auto">
-              <source src="@/assets/images/video.mp4" type="video/mp4" />Your browser does not support HTML5 video.
-            </video>
+      <div class="container position-relative">
+        <div class="bgLeft"></div>
+        <div class="row">
+          <div class="col-lg-9 ml-auto">
+            <div class="video position-relative">
+              <g-image src="~/assets/images/deco2.svg" class="video__deco" />
+              <video autoplay loop muted playsinline id="myVideo" preload="auto">
+                <source src="@/assets/images/video.mp4" type="video/mp4" />Your browser does not support HTML5 video.
+              </video>
+            </div>
+            <!-- ~/assets/images/logo-aosp.png -->
           </div>
-          <!-- ~/assets/images/logo-aosp.png -->
         </div>
       </div>
-    </div>
 
-    <!-- <div class="container">
+      <!-- <div class="container">
       <h1>List articles</h1>
       <a href="http://" class="btn btn-primary">Ciao</a>
       <a href="http://" class="btn btn-secondary">Ciao</a>
@@ -95,563 +96,494 @@
           <p class="article__abstract">{{article.node.abstract}}</p>
         </div>
       </div>
-    </div>-->
-    <div class="container services mt-5 pt-5">
-      <div class="row">
-        <div class="col-lg-6 mx-auto mt-5">
-          <h6 class="services__name">{{text.node.section1Name}}</h6>
-          <h2 class="services__tittle">{{text.node.section1Title}}</h2>
-          <p
-            class="services__description"
-          >{{text.node.section1Abstract}}</p>
-        </div>
-      </div>
-    </div>
-    <!-- v-if="deviceWidth > 992" -->
-    <div v-if="deviceWidth > 992">
-      <div class="wrapper" id="js-wrapper">
-        <div class="sections" id="js-slideContainer">
-          <section class="section">
-            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide1Image + ')' }"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-            <div class="section__body">
-              <div class="section__shadow"></div>
-              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
-              <p></p>
-              <div class="mb-2">
-                <span class="label label--dev mr-3">DEVELOPMENT</span>
-                <span class="label label--des">DESIGN</span>
-              </div>
-              <h1 class="section__title">
-                {{text.node.slider1Slide1Title}}
-              </h1>
-              <div class="section__line mb-3"></div>
-              <p
-                class="section__description"
-              >{{text.node.slider1Slide1Abstract}}</p>
-            </div>
-            <span id="trigger--title1"></span>
-          </section>
-          <section class="section section--2">
-            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide2Image + ')' }"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-            <div class="section__body">
-              <div class="section__shadow"></div>
-              <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
-              <p></p>
-              <div class="d-flex align-items-center">
-                <p class="section__label mr-3">Development</p>
-                <p class="section__label section__label--2">Design</p>
-              </div>
-              <h1 class="section__title">
-                {{text.node.slider1Slide2Title}}
-              </h1>
-              <div class="section__line mb-3"></div>
-              <p
-                class="section__description"
-              >{{text.node.slider1Slide2Abstract}}</p>
-            </div>
-            <span id="trigger--title2"></span>
-          </section>
-          <section class="section">
-            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide3Image + ')' }"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-            <div class="section__body">
-              <div class="section__shadow"></div>
-              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
-              <p></p>
-              <div class="d-flex align-items-center">
-                <p class="section__label mr-3">Development</p>
-                <p class="section__label section__label--2">Design</p>
-              </div>
-              <h1 class="section__title">
-                {{text.node.slider1Slide3Title}}
-              </h1>
-              <div class="section__line mb-3"></div>
-              <p
-                class="section__description"
-              >{{text.node.slider1Slide3Abstract}}</p>
-            </div>
-            <span id="trigger--title3"></span>
-          </section>
-          <section class="section section--2">
-            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide4Image + ')' }"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-            <div class="section__body">
-              <div class="section__shadow"></div>
-              <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
-              <p></p>
-              <div class="d-flex align-items-center">
-                <p class="section__label mr-3">Development</p>
-                <p class="section__label section__label--2">Design</p>
-              </div>
-              <h1 class="section__title">
-                {{text.node.slider1Slide4Title}}
-              </h1>
-              <div class="section__line mb-3"></div>
-              <p
-                class="section__description"
-              >{{text.node.slider1Slide4Abstract}}</p>
-            </div>
-            <span id="trigger--title4"></span>
-          </section>
-          <section class="section">
-            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide5Image + ')' }"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-            <div class="section__body">
-              <div class="section__shadow"></div>
-              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
-              <p></p>
-              <div class="d-flex align-items-center">
-                <p class="section__label mr-3">Development</p>
-                <p class="section__label section__label--2">Design</p>
-              </div>
-              <h1 class="section__title">
-                {{text.node.slider1Slide5Title}}
-              </h1>
-              <div class="section__line mb-3"></div>
-              <p
-                class="section__description"
-              >{{text.node.slider1Slide5Abstract}}</p>
-            </div>
-            <span id="trigger--title5"></span>
-          </section>
-        </div>
-      </div>
-    </div>
-    <div v-else>
-      <div class="owl-carousel owl-theme owl-carousel-services">
-        <div class="item">
-          <section class="section">
-            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide1Image + ')' }"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-            <div class="section__body">
-              <div class="section__shadow"></div>
-              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
-              <p></p>
-              <div class="mb-2">
-                <span class="label label--dev mr-3">DEVELOPMENT</span>
-                <span class="label label--des">DESIGN</span>
-              </div>
-              <h1 class="section__title">
-                 {{text.node.slider1Slide1Title}}
-              </h1>
-              <div class="section__line mb-3"></div>
-              <p
-                class="section__description"
-              >{{text.node.slider1Slide1Abstract}}</p>
-            </div>
-          </section>
-        </div>
-        <div class="item">
-          <section class="section">
-            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide2Image + ')' }"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-            <div class="section__body">
-              <div class="section__shadow"></div>
-              <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
-              <p></p>
-              <div class="mb-2">
-                <span class="label label--dev mr-3">DEVELOPMENT</span>
-                <span class="label label--des">DESIGN</span>
-              </div>
-              <h1 class="section__title">
-                 {{text.node.slider1Slide2Title}}
-              </h1>
-              <div class="section__line mb-3"></div>
-              <p
-                class="section__description"
-              >{{text.node.slider1Slide2Abstract}}</p>
-            </div>
-          </section>
-        </div>
-        <div class="item">
-          <section class="section">
-            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide3Image + ')' }"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-            <div class="section__body">
-              <div class="section__shadow"></div>
-              <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
-              <p></p>
-              <div class="mb-2">
-                <span class="label label--dev mr-3">DEVELOPMENT</span>
-                <span class="label label--des">DESIGN</span>
-              </div>
-              <h1 class="section__title">
-                 {{text.node.slider1Slide3Title}}
-              </h1>
-              <div class="section__line mb-3"></div>
-              <p
-                class="section__description"
-              >{{text.node.slider1Slide3Abstract}}</p>
-            </div>
-          </section>
-        </div>
-        <div class="item">
-          <section class="section">
-            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide4Image + ')' }"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-            <div class="section__body">
-              <div class="section__shadow"></div>
-              <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
-              <p></p>
-              <div class="mb-2">
-                <span class="label label--dev mr-3">DEVELOPMENT</span>
-                <span class="label label--des">DESIGN</span>
-              </div>
-              <h1 class="section__title">
-                 {{text.node.slider1Slide4Title}}
-              </h1>
-              <div class="section__line mb-3"></div>
-              <p
-                class="section__description"
-              >{{text.node.slider1Slide4Abstract}}</p>
-            </div>
-          </section>
-        </div>
-        <div class="item">
-          <section class="section">
-            <div class="section__img" :style="{ 'background-image': 'url(' + text.node.slider1Slide5Image + ')' }"></div>
-            <g-image src="~/assets/images/deco2.svg" class="section__deco" />
-            <div class="section__body">
-              <div class="section__shadow"></div>
-              <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
-              <p></p>
-              <div class="mb-2">
-                <span class="label label--dev mr-3">DEVELOPMENT</span>
-                <span class="label label--des">DESIGN</span>
-              </div>
-              <h1 class="section__title">
-                 {{text.node.slider1Slide5Title}}
-              </h1>
-              <div class="section__line mb-3"></div>
-              <p
-                class="section__description"
-              >{{text.node.slider1Slide5Abstract}}</p>
-            </div>
-          </section>
-        </div>
-      </div>
-    </div>
-
-    <div class="container pb-5 mt-5">
-      <div class="row">
-        <div class="col-lg-12">
-          <a href="#" class="btn btn-primary">Scopri le competenze</a>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid position-relative caseHistory my-5">
-      <div class="caseHistory__body">
-        <h6 class="caseHistory__name">{{text.node.caseHistoryName}}</h6>
-        <h1 class="caseHistory__title mb-lg-5">{{text.node.caseHistoryTitleSection}}</h1>
-
-        <div class="position-relative caseHistory__container">
-          <div class="caseHistory__img mb-4 mb-lg-0" :style="{ 'background-image': 'url(' + text.node.caseHistoryImage + ')' }">
-            <h1 class="caseHistory__textBg">{{text.node.caseHistoryBgText}}</h1>
-            <g-image src="~/assets/images/deco-plane.svg" class="caseHistory__deco2" />
-          </div>
-          <div class="position-relative">
-            <g-image src="~/assets/images/deco3.svg" class="caseHistory__deco" />
-            <h4 class="caseHistory__titleProject">{{text.node.caseHistoryTitle}}</h4>
-          </div>
-           <div class="mb-2">
-                <span class="label label--dev mr-3">DEVELOPMENT</span>
-                <span class="label label--des">DESIGN</span>
-              </div>
-          <p class="caseHistory__description mb-5">
-           {{text.node.caseHistoryAbstract}}
-          </p>
-
-          <div class="testimonial">
-            <p
-              class="testimonial__cit"
-            >{{text.node.caseHistoryTestimonialDescription}}</p>
-
-            <div class="d-flex align-items-center mb-5">
-              <div>
-                <div class="testimonial__pic mr-2"></div>
-              </div>
-              <div>
-                <h6 class="testimonial__name mb-0"> {{text.node.caseHistoryTestimonialName}}</h6>
-                <p class="testimonial__position mb-0">{{text.node.caseHistoryTestimonialPosition}}</p>
-              </div>
-            </div>
-            <div class="testimonial__logo"></div>
-          </div>
-          <g-link :to="text.node.caseHistoryLink" class="btn btn-secondary">Scopri di più</g-link>
-        </div>
-      </div>
-    </div>
-    <div class="tools py-5">
-      <div class="container my-lg-5">
+      </div>-->
+      <div class="container services mt-5 pt-5">
         <div class="row">
-          <div class="col-lg-6">
-            <h6 class="tools__name">{{text.node.section2Name}}</h6>
-            <h1 class="tools__title">{{text.node.section2Title}}</h1>
-            <p
-              class="tools__description"
-            >{{text.node.section2Abstract}}</p>
-          </div>
-          <div class="col-lg-3 ml-auto position-relative text-center">
-            <g-image src="~/assets/images/deco2.svg" class="tools__deco" />
-            <g-image src="~/assets/images/icon-code.png" class="tools__icon" />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 d-inline-block align-items-center py-5 mb-5 mb-sm-0">
-            <g-image :src="text.node.section2Logo1" class="tools__logo" />
-            <g-image :src="text.node.section2Logo2" class="tools__logo" />
-            <g-image :src="text.node.section2Logo3" class="tools__logo" />
-            <g-image :src="text.node.section2Logo4" class="tools__logo" />
-            <g-image :src="text.node.section2Logo5" class="tools__logo" />
-            <g-image :src="text.node.section2Logo6" class="tools__logo" />
+          <div class="col-lg-6 mx-auto mt-5">
+            <h6 class="services__name">{{text.node.section1Name}}</h6>
+            <h2 class="services__tittle">{{text.node.section1Title}}</h2>
+            <p class="services__description">{{text.node.section1Abstract}}</p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container my-5 my-sm-0">
-      <div class="row">
-        <div class="col-lg-10 mt-5 mt-sm-0 ml-auto position-relative">
-          <div class="cta">
-            <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
-            <div class="d-lg-flex align-items-center justify-content-between">
-              <h1 class="cta__title">
-               {{text.node.cta1Title}}
-              </h1>
-              <g-link :to="text.node.cta1Link" class="btn btn-primary">Contattaci</g-link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="cause">
-      <div class="container mb-5">
-        <div class="row">
-          <div class="col-lg-7 mx-auto text-center">
-            <h1 class="cause__title mb-4">{{text.node.section3Title}}</h1>
-            <p
-              class="cause__description"
-            >{{text.node.section3Abstract}}</p>
-          </div>
-        </div>
-      </div>
+      <!-- v-if="deviceWidth > 992" -->
       <div v-if="deviceWidth > 992">
-        <div class="wrapper2" id="js-wrapper2">
-          <div class="sections2" id="js-slideContainer2">
-            <section class="section2">
-              <div class="d-flex align-items-start">
-                <h1 class="section2__num mx-2 mx-lg-0">1</h1>
-                <div>
-                  <div class="section2__img mx-2 mx-lg-3" :style="{ 'background-image': 'url(' + text.node.slider2slide1Image + ')' }">
-                    <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                    <h1 class="section2__textBg">{{text.node.slider2slide1BgText}}</h1>
-                  </div>
+        <div class="wrapper" id="js-wrapper">
+          <div class="sections" id="js-slideContainer">
+            <section class="section">
+              <div
+                class="section__img"
+                :style="{ 'background-image': 'url(' + text.node.slider1Slide1Image + ')' }"
+              ></div>
+              <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+              <div class="section__body">
+                <div class="section__shadow"></div>
+                <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+                <p></p>
+                <div class="mb-2">
+                  <span class="label label--dev mr-3">DEVELOPMENT</span>
+                  <span class="label label--des">DESIGN</span>
                 </div>
-                <div class="section2__body ml-3">
-                  <h1 class="section2__title">{{text.node.slider2slide1Title}}</h1>
-                  <p
-                    class="section2__description"
-                  >{{text.node.slider2slide1Abstract}}</p>
-                </div>
+                <h1 class="section__title">{{text.node.slider1Slide1Title}}</h1>
+                <div class="section__line mb-3"></div>
+                <p class="section__description">{{text.node.slider1Slide1Abstract}}</p>
               </div>
-              <span id="trigger2--title1"></span>
+              <span id="trigger--title1"></span>
             </section>
-            <section class="section2">
-              <div class="d-flex align-items-start">
-                <h1 class="section2__num mx-2 mx-lg-0">1</h1>
-                <div>
-                  <div class="section2__img mx-2 mx-lg-3" :style="{ 'background-image': 'url(' + text.node.slider2slide2Image + ')' }">
-                    <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                    <h1 class="section2__textBg">{{text.node.slider2slide2BgText}}</h1>
-                  </div>
+            <section class="section section--2">
+              <div
+                class="section__img"
+                :style="{ 'background-image': 'url(' + text.node.slider1Slide2Image + ')' }"
+              ></div>
+              <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+              <div class="section__body">
+                <div class="section__shadow"></div>
+                <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
+                <p></p>
+                <div class="d-flex align-items-center">
+                  <p class="section__label mr-3">Development</p>
+                  <p class="section__label section__label--2">Design</p>
                 </div>
-                <div class="section2__body ml-3">
-                  <h1 class="section2__title">{{text.node.slider2slide2Title}}</h1>
-                  <p
-                    class="section2__description"
-                  >{{text.node.slider2slide2Abstract}}</p>
-                </div>
+                <h1 class="section__title">{{text.node.slider1Slide2Title}}</h1>
+                <div class="section__line mb-3"></div>
+                <p class="section__description">{{text.node.slider1Slide2Abstract}}</p>
               </div>
-              <span id="trigger2--title2"></span>
+              <span id="trigger--title2"></span>
             </section>
-            <section class="section2">
-              <div class="d-flex align-items-start">
-                <h1 class="section2__num mx-2 mx-lg-0">1</h1>
-                <div>
-                  <div class="section2__img mx-2 mx-lg-3" :style="{ 'background-image': 'url(' + text.node.slider2slide3Image + ')' }">
-                    <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                    <h1 class="section2__textBg">{{text.node.slider2slide3BgText}}</h1>
-                  </div>
+            <section class="section">
+              <div
+                class="section__img"
+                :style="{ 'background-image': 'url(' + text.node.slider1Slide3Image + ')' }"
+              ></div>
+              <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+              <div class="section__body">
+                <div class="section__shadow"></div>
+                <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+                <p></p>
+                <div class="d-flex align-items-center">
+                  <p class="section__label mr-3">Development</p>
+                  <p class="section__label section__label--2">Design</p>
                 </div>
-                <div class="section2__body ml-3">
-                  <h1 class="section2__title">{{text.node.slider2slide3Title}}</h1>
-                  <p
-                    class="section2__description"
-                  >{{text.node.slider2slide3Abstract}}</p>
-                </div>
+                <h1 class="section__title">{{text.node.slider1Slide3Title}}</h1>
+                <div class="section__line mb-3"></div>
+                <p class="section__description">{{text.node.slider1Slide3Abstract}}</p>
               </div>
-              <span id="trigger2--title3"></span>
+              <span id="trigger--title3"></span>
+            </section>
+            <section class="section section--2">
+              <div
+                class="section__img"
+                :style="{ 'background-image': 'url(' + text.node.slider1Slide4Image + ')' }"
+              ></div>
+              <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+              <div class="section__body">
+                <div class="section__shadow"></div>
+                <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
+                <p></p>
+                <div class="d-flex align-items-center">
+                  <p class="section__label mr-3">Development</p>
+                  <p class="section__label section__label--2">Design</p>
+                </div>
+                <h1 class="section__title">{{text.node.slider1Slide4Title}}</h1>
+                <div class="section__line mb-3"></div>
+                <p class="section__description">{{text.node.slider1Slide4Abstract}}</p>
+              </div>
+              <span id="trigger--title4"></span>
             </section>
           </div>
         </div>
       </div>
       <div v-else>
-        <div class="owl-carousel owl-theme owl-carousel-causes">
+        <div class="owl-carousel owl-theme owl-carousel-services">
           <div class="item">
-            <section class="section2">
-              <div class="d-flex align-items-start">
-                <h1 class="section2__num mx-2 mx-lg-0">1</h1>
-                <div>
-                  <div class="section2__img mx-2 mx-lg-3" :style="{ 'background-image': 'url(' + text.node.slider2slide1Image + ')' }">
-                    <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                    <h1 class="section2__textBg">{{text.node.slider2slide1BgText}}</h1>
-                  </div>
+            <section class="section">
+              <div
+                class="section__img"
+                :style="{ 'background-image': 'url(' + text.node.slider1Slide1Image + ')' }"
+              ></div>
+              <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+              <div class="section__body">
+                <div class="section__shadow"></div>
+                <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+                <p></p>
+                <div class="mb-2">
+                  <span class="label label--dev mr-3">DEVELOPMENT</span>
+                  <span class="label label--des">DESIGN</span>
                 </div>
-                <div class="section2__body ml-3">
-                  <h1 class="section2__title">{{text.node.slider2slide1Title}}</h1>
-                  <p
-                    class="section2__description"
-                  >{{text.node.slider2slide1Abstract}}</p>
-                </div>
+                <h1 class="section__title">{{text.node.slider1Slide1Title}}</h1>
+                <div class="section__line mb-3"></div>
+                <p class="section__description">{{text.node.slider1Slide1Abstract}}</p>
               </div>
-              <span id="trigger2--title1"></span>
             </section>
           </div>
           <div class="item">
-            <section class="section2">
-              <div class="d-flex align-items-start">
-                <h1 class="section2__num mx-2 mx-lg-0">1</h1>
-                <div>
-                  <div class="section2__img mx-2 mx-lg-3" :style="{ 'background-image': 'url(' + text.node.slider2slide2Image + ')' }">
-                    <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                    <h1 class="section2__textBg">{{text.node.slider2slide2BgText}}</h1>
-                  </div>
+            <section class="section">
+              <div
+                class="section__img"
+                :style="{ 'background-image': 'url(' + text.node.slider1Slide2Image + ')' }"
+              ></div>
+              <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+              <div class="section__body">
+                <div class="section__shadow"></div>
+                <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
+                <p></p>
+                <div class="mb-2">
+                  <span class="label label--dev mr-3">DEVELOPMENT</span>
+                  <span class="label label--des">DESIGN</span>
                 </div>
-                <div class="section2__body ml-3">
-                  <h1 class="section2__title">{{text.node.slider2slide2Title}}</h1>
-                  <p
-                    class="section2__description"
-                  >{{text.node.slider2slide2Abstract}}</p>
-                </div>
+                <h1 class="section__title">{{text.node.slider1Slide2Title}}</h1>
+                <div class="section__line mb-3"></div>
+                <p class="section__description">{{text.node.slider1Slide2Abstract}}</p>
               </div>
-              <span id="trigger2--title1"></span>
             </section>
           </div>
           <div class="item">
-            <section class="section2">
-              <div class="d-flex align-items-start">
-                <h1 class="section2__num mx-2 mx-lg-0">1</h1>
-                <div>
-                  <div class="section2__img mx-2 mx-lg-3" :style="{ 'background-image': 'url(' + text.node.slider2slide3Image + ')' }">
-                    <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
-                    <h1 class="section2__textBg">{{text.node.slider2slide3BgText}}</h1>
-                  </div>
+            <section class="section">
+              <div
+                class="section__img"
+                :style="{ 'background-image': 'url(' + text.node.slider1Slide3Image + ')' }"
+              ></div>
+              <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+              <div class="section__body">
+                <div class="section__shadow"></div>
+                <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
+                <p></p>
+                <div class="mb-2">
+                  <span class="label label--dev mr-3">DEVELOPMENT</span>
+                  <span class="label label--des">DESIGN</span>
                 </div>
-                <div class="section2__body ml-3">
-                  <h1 class="section2__title">{{text.node.slider2slide3Title}}</h1>
-                  <p
-                    class="section2__description"
-                  >{{text.node.slider2slide3Abstract}}</p>
-                </div>
+                <h1 class="section__title">{{text.node.slider1Slide3Title}}</h1>
+                <div class="section__line mb-3"></div>
+                <p class="section__description">{{text.node.slider1Slide3Abstract}}</p>
               </div>
-              <span id="trigger2--title1"></span>
+            </section>
+          </div>
+          <div class="item">
+            <section class="section">
+              <div
+                class="section__img"
+                :style="{ 'background-image': 'url(' + text.node.slider1Slide4Image + ')' }"
+              ></div>
+              <g-image src="~/assets/images/deco2.svg" class="section__deco" />
+              <div class="section__body">
+                <div class="section__shadow"></div>
+                <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
+                <p></p>
+                <div class="mb-2">
+                  <span class="label label--dev mr-3">DEVELOPMENT</span>
+                  <span class="label label--des">DESIGN</span>
+                </div>
+                <h1 class="section__title">{{text.node.slider1Slide4Title}}</h1>
+                <div class="section__line mb-3"></div>
+                <p class="section__description">{{text.node.slider1Slide4Abstract}}</p>
+              </div>
             </section>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container bg-black-mobile">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="values py-5">
-            <div class="values__body">
-              <g-image src="~/assets/images/deco2.svg" class="values__deco" />
-              <div class="w-75 mb-5">
-                <h6 class="values__name">{{text.node.section4Name}}</h6>
-                <h1 class="values__title">{{text.node.section4Title}}</h1>
-                <p
-                  class="values__description"
-                >{{text.node.section4Abstract}}</p>
-              </div>
-              <div class="container-values d-block d-sm-flex flex-wrap justify-content-center justify-content-sm-end">
-                <div class="value mx-lg-0 mr-lg-4 mb-4">
-                  <g-image :src="text.node.section4IconBox1" class="value__icon" />
-                  <h2 class="value__title">{{text.node.section4TitleBox1}}</h2>
-                  <p
-                    class="value__description"
-                  >{{text.node.section4AbstractBox1}}</p>
-                </div>
-                <div class="value value--2 mx-lg-0 mr-lg-4 mb-4">
-                  <g-image :src="text.node.section4IconBox2" class="value__icon" />
-                  <h2 class="value__title">{{text.node.section4TitleBox2}}</h2>
-                  <p
-                    class="value__description"
-                  >{{text.node.section4AbstractBox2}}</p>
-                </div>
-                <div class="value mx-lg-0 mr-lg-4 mb-4">
-                  <g-image :src="text.node.section4IconBox3" class="value__icon" />
-                  <h2 class="value__title">{{text.node.section4TitleBox3}}</h2>
-                  <p
-                    class="value__description"
-                  >{{text.node.section4AbstractBox3}}</p>
-                </div>
-                <div class="value value--2 mx-lg-0 mr-lg-4 mb-4">
-                  <g-image :src="text.node.section4IconBox4" class="value__icon" />
-                  <h2 class="value__title">{{text.node.section4TitleBox4}}</h2>
-                  <p
-                    class="value__description"
-                  >{{text.node.section4AbstractBox4}}</p>
-                </div>
-                <div class="value mx-lg-0 mr-lg-4 mb-4">
-                  <g-image :src="text.node.section4IconBox5" class="value__icon" />
-                  <h2 class="value__title">{{text.node.section4TitleBox5}}</h2>
-                  <p
-                    class="value__description"
-                  >{{text.node.section4AbstractBox5}}</p>
-                </div>
-                <div class="value value--2 mx-lg-0 mr-lg-4 mb-4">
-                  <g-image :src="text.node.section4IconBox6" class="value__icon" />
-                  <h2 class="value__title">{{text.node.section4TitleBox6}}</h2>
-                  <p
-                    class="value__description"
-                  >{{text.node.section4AbstractBox6}}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="idea py-5">
-      <div class="container py-5">
+
+      <div class="container pb-5 mt-5">
         <div class="row">
-          <div class="col-lg-5 mx-auto text-center py-5">
-            <h1 class="idea__title mb-3">{{text.node.section5Title}}</h1>
-            <p class="idea__descrition mb-5">
-              {{text.node.section5Abstract}}
-            </p>
-            <a href="http://" class="btn btn-primary mr-lg-3">Certo</a>
-            <a href="http://" class="btn btn-secondary">Abbastanza</a>
+          <div class="col-lg-12">
+            <a href="#" class="btn btn-primary">Scopri le competenze</a>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-lg-10 ml-auto position-relative">
-          <div class="cta cta--black">
-            <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
-            <div class="d-flex align-items-center justify-content-between w-75">
-              <h1 class="cta__title">
-                 {{text.node.cta2Title}}
-              </h1>
+      <div class="container-fluid position-relative caseHistory my-5">
+        <div class="caseHistory__body">
+          <h6 class="caseHistory__name">{{text.node.caseHistoryName}}</h6>
+          <h1 class="caseHistory__title mb-lg-5">{{text.node.caseHistoryTitleSection}}</h1>
+
+          <div class="position-relative caseHistory__container">
+            <div
+              class="caseHistory__img mb-4 mb-lg-0"
+              :style="{ 'background-image': 'url(' + text.node.caseHistoryImage + ')' }"
+            >
+              <h1 class="caseHistory__textBg">{{text.node.caseHistoryBgText}}</h1>
+              <g-image src="~/assets/images/deco-plane.svg" class="caseHistory__deco2" />
+            </div>
+            <div class="position-relative">
+              <g-image src="~/assets/images/deco3.svg" class="caseHistory__deco" />
+              <h4 class="caseHistory__titleProject">{{text.node.caseHistoryTitle}}</h4>
+            </div>
+            <div class="mb-2">
+              <span class="label label--dev mr-3">DEVELOPMENT</span>
+              <span class="label label--des">DESIGN</span>
+            </div>
+            <p class="caseHistory__description mb-5">{{text.node.caseHistoryAbstract}}</p>
+
+            <div class="testimonial">
+              <p class="testimonial__cit">{{text.node.caseHistoryTestimonialDescription}}</p>
+
+              <div class="d-flex align-items-center mb-5">
+                <div>
+                  <div class="testimonial__pic mr-2"></div>
+                </div>
+                <div>
+                  <h6 class="testimonial__name mb-0">{{text.node.caseHistoryTestimonialName}}</h6>
+                  <p class="testimonial__position mb-0">{{text.node.caseHistoryTestimonialPosition}}</p>
+                </div>
+              </div>
+              <div class="testimonial__logo"></div>
+            </div>
+            <g-link :to="text.node.caseHistoryLink" class="btn btn-secondary">Scopri di più</g-link>
+          </div>
+        </div>
+      </div>
+      <div class="tools py-5">
+        <div class="container my-lg-5">
+          <div class="row">
+            <div class="col-lg-6">
+              <h6 class="tools__name">{{text.node.section2Name}}</h6>
+              <h1 class="tools__title">{{text.node.section2Title}}</h1>
+              <p class="tools__description">{{text.node.section2Abstract}}</p>
+            </div>
+            <div class="col-lg-3 ml-auto position-relative text-center">
+              <g-image src="~/assets/images/deco2.svg" class="tools__deco" />
+              <g-image src="~/assets/images/icon-code.png" class="tools__icon" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 d-inline-block align-items-center py-5 mb-5 mb-sm-0">
+              <g-image :src="text.node.section2Logo1" class="tools__logo mr-4 mr-lg-5" />
+              <g-image :src="text.node.section2Logo2" class="tools__logo mr-4 mr-lg-5" />
+              <g-image :src="text.node.section2Logo3" class="tools__logo mr-4 mr-lg-5" />
+              <g-image :src="text.node.section2Logo4" class="tools__logo mr-4 mr-lg-5" />
+              <g-image :src="text.node.section2Logo5" class="tools__logo mr-4 mr-lg-5" />
+              <g-image :src="text.node.section2Logo6" class="tools__logo mr-4 mr-lg-5" />
+              <g-image :src="text.node.section2Logo7" class="tools__logo mr-4 mr-lg-5" />
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- <div class="container">
+      <div class="container my-5 my-sm-0">
+        <div class="row">
+          <div class="col-lg-10 mt-5 mt-sm-0 ml-auto position-relative">
+            <div class="cta">
+              <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
+              <div class="d-lg-flex align-items-center justify-content-between">
+                <h1 class="cta__title">{{text.node.cta1Title}}</h1>
+                <g-link :to="text.node.cta1Link" class="btn btn-primary">Contattaci</g-link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cause">
+        <div class="container mb-5">
+          <div class="row">
+            <div class="col-lg-7 mx-auto text-center">
+              <h1 class="cause__title mb-4">{{text.node.section3Title}}</h1>
+              <p class="cause__description">{{text.node.section3Abstract}}</p>
+            </div>
+          </div>
+        </div>
+        <div v-if="deviceWidth > 992">
+          <div class="wrapper2" id="js-wrapper2">
+            <div class="sections2" id="js-slideContainer2">
+              <section class="section2">
+                <div class="d-flex align-items-start">
+                  <h1 class="section2__num mx-2 mx-lg-0">1</h1>
+                  <div>
+                    <div
+                      class="section2__img mx-2 mx-lg-3"
+                      :style="{ 'background-image': 'url(' + text.node.slider2slide1Image + ')' }"
+                    >
+                      <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                      <h1 class="section2__textBg">{{text.node.slider2slide1BgText}}</h1>
+                    </div>
+                  </div>
+                  <div class="section2__body ml-3">
+                    <h1 class="section2__title">{{text.node.slider2slide1Title}}</h1>
+                    <p class="section2__description">{{text.node.slider2slide1Abstract}}</p>
+                  </div>
+                </div>
+                <span id="trigger2--title1"></span>
+              </section>
+              <section class="section2">
+                <div class="d-flex align-items-start">
+                  <h1 class="section2__num mx-2 mx-lg-0">2</h1>
+                  <div>
+                    <div
+                      class="section2__img mx-2 mx-lg-3"
+                      :style="{ 'background-image': 'url(' + text.node.slider2slide2Image + ')' }"
+                    >
+                      <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                      <h1 class="section2__textBg">{{text.node.slider2slide2BgText}}</h1>
+                    </div>
+                  </div>
+                  <div class="section2__body ml-3">
+                    <h1 class="section2__title">{{text.node.slider2slide2Title}}</h1>
+                    <p class="section2__description">{{text.node.slider2slide2Abstract}}</p>
+                  </div>
+                </div>
+                <span id="trigger2--title2"></span>
+              </section>
+              <section class="section2">
+                <div class="d-flex align-items-start">
+                  <h1 class="section2__num mx-2 mx-lg-0">3</h1>
+                  <div>
+                    <div
+                      class="section2__img mx-2 mx-lg-3"
+                      :style="{ 'background-image': 'url(' + text.node.slider2slide3Image + ')' }"
+                    >
+                      <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                      <h1 class="section2__textBg">{{text.node.slider2slide3BgText}}</h1>
+                    </div>
+                  </div>
+                  <div class="section2__body ml-3">
+                    <h1 class="section2__title">{{text.node.slider2slide3Title}}</h1>
+                    <p class="section2__description">{{text.node.slider2slide3Abstract}}</p>
+                  </div>
+                </div>
+                <span id="trigger2--title3"></span>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div v-else>
+          <div class="owl-carousel owl-theme owl-carousel-causes">
+            <div class="item">
+              <section class="section2">
+                <div class="d-flex align-items-start">
+                  <h1 class="section2__num mx-2 mx-lg-0">1</h1>
+                  <div>
+                    <div
+                      class="section2__img mx-2 mx-lg-3"
+                      :style="{ 'background-image': 'url(' + text.node.slider2slide1Image + ')' }"
+                    >
+                      <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                      <h1 class="section2__textBg">{{text.node.slider2slide1BgText}}</h1>
+                    </div>
+                  </div>
+                  <div class="section2__body ml-3">
+                    <h1 class="section2__title">{{text.node.slider2slide1Title}}</h1>
+                    <p class="section2__description">{{text.node.slider2slide1Abstract}}</p>
+                  </div>
+                </div>
+                <span id="trigger2--title1"></span>
+              </section>
+            </div>
+            <div class="item">
+              <section class="section2">
+                <div class="d-flex align-items-start">
+                  <h1 class="section2__num mx-2 mx-lg-0">2</h1>
+                  <div>
+                    <div
+                      class="section2__img mx-2 mx-lg-3"
+                      :style="{ 'background-image': 'url(' + text.node.slider2slide2Image + ')' }"
+                    >
+                      <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                      <h1 class="section2__textBg">{{text.node.slider2slide2BgText}}</h1>
+                    </div>
+                  </div>
+                  <div class="section2__body ml-3">
+                    <h1 class="section2__title">{{text.node.slider2slide2Title}}</h1>
+                    <p class="section2__description">{{text.node.slider2slide2Abstract}}</p>
+                  </div>
+                </div>
+                <span id="trigger2--title1"></span>
+              </section>
+            </div>
+            <div class="item">
+              <section class="section2">
+                <div class="d-flex align-items-start">
+                  <h1 class="section2__num mx-2 mx-lg-0">3</h1>
+                  <div>
+                    <div
+                      class="section2__img mx-2 mx-lg-3"
+                      :style="{ 'background-image': 'url(' + text.node.slider2slide3Image + ')' }"
+                    >
+                      <g-image src="~/assets/images/deco2.svg" class="section2__deco" />
+                      <h1 class="section2__textBg">{{text.node.slider2slide3BgText}}</h1>
+                    </div>
+                  </div>
+                  <div class="section2__body ml-3">
+                    <h1 class="section2__title">{{text.node.slider2slide3Title}}</h1>
+                    <p class="section2__description">{{text.node.slider2slide3Abstract}}</p>
+                  </div>
+                </div>
+                <span id="trigger2--title1"></span>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container bg-black-mobile">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="values py-5">
+              <div class="values__body">
+                <g-image src="~/assets/images/deco2.svg" class="values__deco" />
+                <div class="w-75 mb-5">
+                  <h6 class="values__name">{{text.node.section4Name}}</h6>
+                  <h1 class="values__title">{{text.node.section4Title}}</h1>
+                  <p class="values__description">{{text.node.section4Abstract}}</p>
+                </div>
+                <div
+                  class="container-values d-block d-sm-flex flex-wrap justify-content-center justify-content-sm-end"
+                >
+                  <div class="value mx-lg-0 mr-lg-4 mb-4">
+                    <g-image :src="text.node.section4IconBox1" class="value__icon" />
+                    <h2 class="value__title">{{text.node.section4TitleBox1}}</h2>
+                    <p class="value__description">{{text.node.section4AbstractBox1}}</p>
+                  </div>
+                  <div class="value value--2 mx-lg-0 mr-lg-4 mb-4">
+                    <g-image :src="text.node.section4IconBox2" class="value__icon" />
+                    <h2 class="value__title">{{text.node.section4TitleBox2}}</h2>
+                    <p class="value__description">{{text.node.section4AbstractBox2}}</p>
+                  </div>
+                  <div class="value mx-lg-0 mr-lg-4 mb-4">
+                    <g-image :src="text.node.section4IconBox3" class="value__icon" />
+                    <h2 class="value__title">{{text.node.section4TitleBox3}}</h2>
+                    <p class="value__description">{{text.node.section4AbstractBox3}}</p>
+                  </div>
+                  <div class="value value--2 mx-lg-0 mr-lg-4 mb-4">
+                    <g-image :src="text.node.section4IconBox4" class="value__icon" />
+                    <h2 class="value__title">{{text.node.section4TitleBox4}}</h2>
+                    <p class="value__description">{{text.node.section4AbstractBox4}}</p>
+                  </div>
+                  <div class="value mx-lg-0 mr-lg-4 mb-4">
+                    <g-image :src="text.node.section4IconBox5" class="value__icon" />
+                    <h2 class="value__title">{{text.node.section4TitleBox5}}</h2>
+                    <p class="value__description">{{text.node.section4AbstractBox5}}</p>
+                  </div>
+                  <div class="value value--2 mx-lg-0 mr-lg-4 mb-4">
+                    <g-image :src="text.node.section4IconBox6" class="value__icon" />
+                    <h2 class="value__title">{{text.node.section4TitleBox6}}</h2>
+                    <p class="value__description">{{text.node.section4AbstractBox6}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="idea py-5">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-5 mx-auto text-center py-5">
+              <h1 class="idea__title mb-3">{{text.node.section5Title}}</h1>
+              <p class="idea__descrition mb-5">{{text.node.section5Abstract}}</p>
+              <a href="http://" class="btn btn-primary mr-lg-3">Certo</a>
+              <a href="http://" class="btn btn-secondary">Abbastanza</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-10 ml-auto position-relative">
+            <div class="cta cta--black">
+              <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
+              <div class="d-flex align-items-center justify-content-between w-75">
+                <h1 class="cta__title">{{text.node.cta2Title}}</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="container">
       <h1>List articles</h1>
       <div v-for="article in $page.articles.edges" :key="article.id" class="article d-lg-flex">
         <div>
@@ -682,7 +614,7 @@
           <p class="article__abstract">{{article.node.abstract}}</p>
         </div>
       </div>
-    </div>-->
+      </div>-->
     </div>
   </Layout>
 </template>
@@ -736,6 +668,7 @@ query {
         section2Logo4
         section2Logo5
         section2Logo6
+        section2Logo7
         cta1Title
         cta1Link
         section3Title
@@ -752,10 +685,6 @@ query {
         slider2slide3BgText
         slider2slide3Abstract
         slider2slide3Image
-        slider2slide4Title
-        slider2slide4BgText
-        slider2slide4Abstract
-        slider2slide4Image
         section4Name
         section4Title
         section4Abstract
@@ -875,8 +804,7 @@ export default {
             .to("#js-slideContainer", 1, { x: "-15%" })
             .to("#js-slideContainer", 1, { x: "-30%" })
             .to("#js-slideContainer", 1, { x: "-45%" })
-            .to("#js-slideContainer", 1, { x: "-60%" })
-            .to("#js-slideContainer", 1, { x: "-62%" });
+            .to("#js-slideContainer", 1, { x: "-60%" });
 
           // create scene to pin and link animation
           new ScrollMagic.Scene({
@@ -910,7 +838,7 @@ export default {
             // animate panels
             .to("#js-slideContainer2", 1, { x: "-20%" })
             .to("#js-slideContainer2", 1, { x: "-40%" })
-            .to("#js-slideContainer2", 1, { x: "-54%" });
+            .to("#js-slideContainer2", 1, { x: "-50%" });
 
           // create scene to pin and link animation
           new ScrollMagic.Scene({
@@ -1026,7 +954,7 @@ export default {
     @media screen and (max-width: 576px) {
       top: -150px;
       right: 110px;
-      width:100px;
+      width: 100px;
     }
   }
   &__decoDeveloper {
@@ -1040,7 +968,7 @@ export default {
     @media screen and (max-width: 576px) {
       bottom: 20px;
       right: 100px;
-      width:100px;
+      width: 100px;
     }
   }
   &__title {
@@ -1179,7 +1107,7 @@ export default {
 
 .section {
   height: 100%;
-  width: calc(100% / 5);
+  width: calc(100% / 4);
   float: left;
   position: relative;
 
@@ -1279,6 +1207,9 @@ export default {
     line-height: 42px;
     z-index: 4;
     position: relative;
+    @media screen and (min-width: 992px) {
+      width: 40%;
+    }
   }
   &__description {
     font-size: 18px;
@@ -1632,9 +1563,9 @@ export default {
     line-height: 25px;
   }
   &__logo {
-    width: 105px;
+     width: 70px;
     @media screen and (max-width: 992px) {
-      width: 70px;
+      width: 50px;
     }
   }
   &__icon {
@@ -1680,7 +1611,6 @@ export default {
     width: 80%;
   }
   @media screen and (max-width: 992px) {
-    
     // width: 105%;
   }
   &:before {
@@ -1738,11 +1668,11 @@ export default {
     height: 299px;
   }
   @media screen and (max-width: 992px) {
-     width: 80%;
+    width: 80%;
     margin: 15px 10%;
     padding: 20px 10px;
   }
-  
+
   // @media screen and (max-width: 370px) {
   //   width: 138px;
   //   padding: 20px 10px;
@@ -1771,9 +1701,9 @@ export default {
     letter-spacing: -0.15px;
     line-height: 20px;
     height: 118px;
-     @media screen and (max-width: 992px) {
-       height: 70px;
-     }
+    @media screen and (max-width: 992px) {
+      height: 70px;
+    }
   }
 }
 .container-values {

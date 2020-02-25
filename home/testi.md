@@ -55,12 +55,13 @@ section2Title: Utilizziamo i linguaggi ed i framework più potenti e stabili
 section2Abstract: >-
   Rimanere al passo con i tempi ed utilizzare i migliori strumenti fa parte del
   nostro lavoro.
-section2Logo1: /uploads/angular.png
-section2Logo2: /uploads/angular.png
-section2Logo3: /uploads/angular.png
-section2Logo4: /uploads/angular.png
-section2Logo5: /uploads/angular.png
-section2Logo6: /uploads/angular.png
+section2Logo1: /uploads/logo-angular.png
+section2Logo2: /uploads/logo-react.png
+section2Logo3: /uploads/logo-vue.png
+section2Logo4: /uploads/logo-net.png
+section2Logo5: /uploads/logo-php.png
+section2Logo6: /uploads/logo-java.png
+section2Logo7: /uploads/logo-ionic.png
 cta1Title: Pronto a realizzare la tua prossima innovazione?
 cta1Link: link
 section3Title: Cosa vogliamo perseguire
@@ -71,58 +72,49 @@ section3Abstract: >-
 slider2slide1Title: Made in Italy
 slider2slide1BgText: Made in Italy
 slider2slide1Abstract: >-
-  Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono
-  il Made in Italy.
-slider2slide1Image: /uploads/project.png
-slider2slide2Title: Made in Italy
-slider2slide2BgText: Made in Italy
+  Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.
+slider2slide1Image: /uploads/madeinitaly.png
+slider2slide2Title: Digital nel sociale
+slider2slide2BgText: Sociale
 slider2slide2Abstract: >-
-  Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono
-  il Made in Italy.
-slider2slide2Image: /uploads/project.png
-slider2slide3Title: Made in Italy
-slider2slide3BgText: Made in Italy
+  Crediamo che il fattore trainante dell’evoluzione sia la tecnologia che sostiene progetti per rispondere a problematiche sociali e comunitarie.
+slider2slide2Image: /uploads/ambiente.png
+slider2slide3Title: Ambiente e salute
+slider2slide3BgText: Ambiente
 slider2slide3Abstract: >-
-  Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono
-  il Made in Italy.
-slider2slide3Image: /uploads/project.png
-slider2slide4Title: Made in Italy
-slider2slide4BgText: Made in Italy
-slider2slide4Abstract: >-
-  Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono
-  il Made in Italy.
-slider2slide4Image: /uploads/project.png
+  Cerchiamo di promuovere e incentivare progetti che adottino soluzioni sostenibili nel rispetto dell’ambiente e di noi stessi.
+slider2slide3Image: /uploads/sociale.png
 section4Name: VALORI
 section4Title: Cosa non dimentichiamo mai
 section4Abstract: >-
   Rimanere al passo con i tempi ed utilizzare i migliori strumenti fa parte del
   nostro lavoro.
-section4IconBox1: /uploads/trasparenza.svg
+section4IconBox1: /uploads/icon-trasparenza.png
 section4TitleBox1: Trasparenza
 section4AbstractBox1: >-
   I nostri clienti sono attivamente coinvolti in tutte le fasi di progettazione
   e realizzazione.
-section4IconBox2: /uploads/trasparenza.svg
+section4IconBox2: /uploads/icon-curiosita.png
 section4TitleBox2: Curiosità
 section4AbstractBox2: >-
   Siamo una squadra appassionata sempre alla ricerca di sfide nuove ed
   importanti.
-section4IconBox3: /uploads/trasparenza.svg
+section4IconBox3: /uploads/icon-disponibilita.png
 section4TitleBox3: Disponibilità
 section4AbstractBox3: >-
   Siamo aperti ad ogni sfida e ad ogni tipo di suggerimento per ascoltare e
   comprendere tutte le esigenze dei nostri clienti.
-section4IconBox4: /uploads/trasparenza.svg
+section4IconBox4: /uploads/icon-positivita.png
 section4TitleBox4: Positività
 section4AbstractBox4: >-
   Cerchiamo di non rinunciare mai al sorriso, ingrendiente fondamentale per
   rispondere al meglio alle sfide quotidiane.
-section4IconBox5: /uploads/trasparenza.svg
+section4IconBox5: /uploads/icon-caffe.png
 section4TitleBox5: Caffè
 section4AbstractBox5: >-
   Litri e litri di caffè che ci aiutano a svolgere al meglio il nostro lavoro!
   ;)
-section4IconBox6: /uploads/trasparenza.svg
+section4IconBox6: /uploads/icon-metodo.png
 section4TitleBox6: Metodo
 section4AbstractBox6: >-
   Il nostro approccio olistico ci permette di arrivare, insieme ai nostri

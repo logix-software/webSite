@@ -2,7 +2,7 @@
 title: Logix Software - Chi siamo
 headerTitle1: Questi
 headerTitle2: siamo noi!
-headerImage: /uploads/hero-home.jpg
+headerImage: /uploads/hero-about.jpg
 sectionTitle: >-
   In Logix non ci fermiamo mai, siamo sempre in movimento, con la voglia di
   cambiare ed inventare, con la consapevolezza che la nostra forza siano le

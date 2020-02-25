@@ -1,7 +1,7 @@
 ---
 title: Logix Software - Digital transformation
 headerTitle: Digital transformation
-headerImage: /uploads/hero-home.jpg
+headerImage: /uploads/hero-digital.jpg
 headerAbstract: >-
   Che si tratti di una nuova startup o la ristrutturazione di servizi e processi di un’azienda esistente, cerchiamo di seguire un percorso ciclico ed iterativo consolidato, per offrire le soluzioni più adatte al cliente ed agli utilizzatori finali.
 sentence1: Porsi le giuste
@@ -14,12 +14,12 @@ section1Title3: In quale stadio di realizzazione ci troviamo?
 section1Title4: Quali sono le soluzioni proposte finora?
 section1Title5: Chi opera nel contesto?
 section1Title6: Chi sono gli utilizzatori finali? Sono soddisfatti?
-section1Image: /uploads/bg-pic.png
+section1Image: /uploads/compass.png
 section2BgText: To make strategy
 section2Name: STRATEGY
 section2Title1: Quale soluzione possiamo proporre?
 section2Title2: A quali necessità vogliamo rispondere?Per quali utenti?
-section2Image: /uploads/bg-pic.png
+section2Image: /uploads/behaviour.png
 section3BgText: To make
 section3Name: MAKE
 section3Title1: Come sarà realizzato il progetto?
