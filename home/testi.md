@@ -1,6 +1,6 @@
 ---
 title: Logix Software
-headerTitle: Sviluppiamo nuove logiche digitali
+headerTitle: Sviluppiamo nuove logiche digitali.
 headerAbstract: >-
   Collaboriamo da più di 10 anni con le aziende per costruire soluzioni digitali
   personalizzate e adatte agli utenti che le utilizzano.
