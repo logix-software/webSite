@@ -1,7 +1,7 @@
 ---
-title: project coming soon1
-image: /uploads/project.jpg
+title: project coming soon 2
 hashtags: asdafsdsasaddsa
+image: /uploads/project.png
 abstract: Il progetto
-date: 2020-01-23T13:13:17.904Z
 ---
+
