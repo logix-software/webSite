@@ -1,358 +1,374 @@
 <template>
   <Layout>
-    <div class="hero hero--competenze d-flex align-items-center text-center">
-    
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h1 class="hero__title">Sviluppo Web & Mobile</h1>
-            <div class="my-4">
-              <span class="label label--dev mx-2">Development</span>
-            </div>
-            <p
-              class="hero__description"
-            >Logix si occupa dello sviluppo software da più di 10 anni sulla base delle esigenze delle aziende clienti. Dall’analisi al test abbracciamo l’approccio agile per il management del progetto che permette la consapevolezza comune e la massima efficienza nei risultati.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="competence position-relative py-5">
-      <div class="container position-relative py-lg-5">
-        <h1 class="competence__bigText" data-aos="fade-left">Web</h1>
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <g-image src="~/assets/images/web-development.png" class="competence__img" />
-          </div>
-          <div class="col-lg-5 ml-lg-5">
-            <h1 class="competence__title my-3">Web development</h1>
-            <p
-              class="competence__description mb-4"
-            >Sviluppiamo web application e platform collaborando con il cliente in tutte le fasi che portano alla realizzazione, lavorando con database differenti ed API; integrando servizi e soluzioni custom a seconda delle esigenze, fornendoci degli adeguati stack tecnologici e garantendo efficienza e competenza.</p>
-            <a href class="btn btn-secondary">Parliamo di questo servizio</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="tool py-5">
-      <div class="container py-5 position-relative">
-        <g-image src="~/assets/images/deco2.svg" class="tool__deco" />
-        <div class="row">
-          <div class="col-lg-5 mx-auto text-center">
-            <h6 class="tool__name">TOOL</h6>
-            <h1 class="tool__titleSection">Gli strumenti, i framework ed i linguaggi che utilizziamo</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="tool__card d-flex align-items-center justify-content-center">
-              <div>
-                <g-image src="~/assets/images/icons/web/java.svg" class="tool__img" />
-                <h2 class="tool__title">Java EE</h2>
-                <p
-                  class="tool__description"
-                >Realizzata con una struttura tecnologica a livelli, la tecnologia JEE facilita la creazione di modelli B2B e B2C.</p>
+    <div v-for="text in $page.texts.edges" :key="text.id">
+      <div class="hero hero--competenze d-flex align-items-center text-center" :style="{ 'background-image': 'url(' + text.node.headerImage + ')' }">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="hero__title">{{text.node.headerTitle}}</h1>
+              <div class="my-4">
+                <span class="label label--dev mx-2">Development</span>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="tool__card d-flex align-items-center justify-content-center">
-              <div>
-                <g-image src="~/assets/images/icons/web/php.svg" class="tool__img" />
-                <h2 class="tool__title">PHP</h2>
-                <p
-                  class="tool__description"
-                >Linguaggio per lo scripting server-side, viene usato nello sviluppo web ed è supportato dalla maggior parte dei provider di hosting.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="tool__card d-flex align-items-center justify-content-center">
-              <div>
-                <g-image src="~/assets/images/icons/web/angular.svg" class="tool__img" />
-                <h2 class="tool__title">Angular</h2>
-                <p
-                  class="tool__description"
-                >RFramework Web front-end open-source basato su JavaScript, utilizzato per lo sviluppo lato client.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="tool__card d-flex align-items-center justify-content-center">
-              <div>
-                <g-image src="~/assets/images/icons/web/vue.svg" class="tool__img" />
-                <h2 class="tool__title">Vue.js</h2>
-                <p
-                  class="tool__description"
-                >Progressive framework per la creazione delle interfacce utente e delle single page application.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="tool__card d-flex align-items-center justify-content-center">
-              <div>
-                <g-image src="~/assets/images/icons/web/node.svg" class="tool__img" />
-                <h2 class="tool__title">Node.js</h2>
-                <p
-                  class="tool__description"
-                >Ambiente di runtime  open source per lo sviluppo server-side, è leggero ed efficiente per applicazioni in tempo reale ed a alto flusso di dati.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="tool__card d-flex align-items-center justify-content-center">
-              <div>
-                <g-image src="~/assets/images/icons/web/net.svg" class="tool__img" />
-                <h2 class="tool__title">.NET</h2>
-                <p
-                  class="tool__description"
-                >Ambiente di esecuzione runtime consente di stfruttare un codice affidabile per tutte le aree principali dello sviluppo di applicativi.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="tool__card d-flex align-items-center justify-content-center">
-              <div>
-                <g-image src="~/assets/images/icons/web/sql.svg" class="tool__img" />
-                <h2 class="tool__title">SQL</h2>
-                <p
-                  class="tool__description"
-                >Linguaggio volto all’interrogazione di basi di dati relazionali. Permette di definire la strutture di un DB e manipolare i dati all’interno.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="tool__card d-flex align-items-center justify-content-center">
-              <div>
-                <g-image src="~/assets/images/icons/web/nosql.svg" class="tool__img" />
-                <h2 class="tool__title">No SQL</h2>
-                <p
-                  class="tool__description"
-                >Linguaggio per la definizione di DB non relazionali, realizzati per modelli di dati specifici con schemi flessibili, adatti alle applicazioni moderne. </p>
-              </div>
+              <p
+                class="hero__description"
+              >{{text.node.headerAbstract}}</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="integration py-5">
-      <div class="container d-lg-flex align-items-start align-items-lg-center">
-        <div class="mr-lg-5">
-          <h1 class="integration__name">> Includiamo</h1>
-        </div>
-        <div class="d-flex align-items-center mx-lg-5 px-lg-5 my-4 my-lg-0">
-          <g-image src="~/assets/images/icons/caffe.svg" class="integration__img" />
-          <h2 class="integration__title ml-3">API integration</h2>
-        </div>
-        <div class="d-flex align-items-center ml-lg-5">
-          <g-image src="~/assets/images/icons/caffe.svg" class="integration__img" />
-          <h2 class="integration__title ml-3">UI responsive</h2>
-        </div>
-      </div>
-    </div>
-    <div class="methods py-5">
-      <div class="container py-5">
-        <div class="row mb-5">
-          <div class="col-lg-5 mx-auto text-center">
-            <g-image src="~/assets/images/method.svg" class="methods__img" />
-            <h1 class="methods__title">Metodi e tecniche</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 mx-auto mb-4 mb-lg-0">
-            <h1 class="methods__title">Large-scale Distributed System</h1>
-            <p
-              class="methods__description"
-            >Restiamo al passo con i tempi tenendo sempre presente tecnologie, pratiche e competenze di importanti attori sul mercato utilizzandole come base per la progettazione, il lancio, il funzionamento e lo sviluppo di app. Utilizziamo sistemi di distribuzione e soluzioni di e-science e machine learning, che ci permettono di mantenere prestazioni e scalabilità.</p>
-          </div>
-          <div class="col-lg-4 mx-auto">
-            <h1 class="methods__title">Microservices Architecture</h1>
-            <p
-              class="methods__description"
-            >Cerchiamo di sfruttare tutti i vantaggi dell’utilizzo del modello dell’architettura dei servizi per lo sviluppo di applicativi che permette di ridurre notevolmente tempistiche, onerosità e difficoltà dello sviluppo tradizionale.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="competence competence--inverted position-relative py-5">
-      <div class="container position-relative py-5">
-        <h1 class="competence__bigText" data-aos="fade-right">Mobile</h1>
-        <div class="row align-items-center">
-          <div class="col-lg-6 cont-img">
-            <g-image src="~/assets/images/web-mobile.png" class="competence__img" />
-          </div>
-          <div class="col-lg-5 ml-lg-5 cont-body">
-            <h1 class="competence__title my-3">Web development</h1>
-            <p
-              class="competence__description mb-4"
-            >Sviluppiamo web application e platform collaborando con il cliente in tutte le fasi che portano alla realizzazione, lavorando con database differenti ed API; integrando servizi e soluzioni custom a seconda delle esigenze, fornendoci degli adeguati stack tecnologici e garantendo efficienza e competenza.</p>
-            <a href class="btn btn-secondary">Parliamo di questo servizio</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="tool tool--inverted py-5">
-      <div class="container py-5 position-relative">
-        <g-image src="~/assets/images/deco2.svg" class="tool__deco" />
-        <div class="row">
-          <div class="col-lg-5 mx-auto text-center">
-            <h6 class="tool__name">TOOL</h6>
-            <h1 class="tool__titleSection">Gli strumenti, i framework ed i linguaggi che utilizziamo</h1>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-3">
-            <div class="tool__card d-flex align-items-center justify-content-center">
-              <div>
-                <g-image src="~/assets/images/icons/frameworks/cross.png" class="tool__img" />
-                <h2 class="tool__title">Cross-platform</h2>
-                <p
-                  class="tool__description"
-                >Sviluppiamo applicazioni ibride che possano funzionare su più dispositivi, in modo di rendere il processo più veloce ed efficiente.</p>
-              </div>
+      <div class="competence position-relative py-5">
+        <div class="container position-relative py-lg-5">
+          <h1 class="competence__bigText" data-aos="fade-left">{{text.node.section1BgText}}</h1>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <g-image :src="text.node.section1Image" class="competence__img" />
             </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="tool__card tool__card--lightGreen d-flex align-items-center justify-content-center">
-              <div>
-                <g-image src="~/assets/images/icons/frameworks/ionic.png" class="tool__img" />
-                <h2 class="tool__title">Ionic</h2>
-                <p
-                  class="tool__description"
-                >Framework open-source, basato su Cordova, per Cross Platform Mobile App, che permette di sviluppare in un unica codebase diminuendo i tempi.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="tool__card tool__card--light d-flex align-items-center justify-content-center">
-              <div>
-                <g-image src="~/assets/images/icons/frameworks/react.png" class="tool__img" />
-                <h2 class="tool__title">React Native</h2>
-                <p
-                  class="tool__description"
-                >Framework open-source per la creazione di mobile app, combinando native development con React, risparmiando su tempi e costi.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-3">
-            <div class="tool__card d-flex align-items-center justify-content-center">
-              <div>
-                <g-image src="~/assets/images/icons/frameworks/progressive.png" class="tool__img" />
-                <h2 class="tool__title">Progressive</h2>
-                <p
-                  class="tool__description"
-                >Sviluppiamo applicazioni web con funzionalità simili  ad app mobili ma che non possono essere installate dagli store.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="tool__card d-flex align-items-center justify-content-center">
-              <div>
-                <g-image src="~/assets/images/icons/frameworks/ios.png" class="tool__img" />
-                <h2 class="tool__title">IOS</h2>
-                <p
-                  class="tool__description"
-                >Sviluppiamo applicazioni native per i dispositivi Apple, integrandole con servizi e sistemi esterni. </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="tool__card d-flex align-items-center justify-content-center">
-              <div>
-                <g-image src="~/assets/images/icons/frameworks/android.png" class="tool__img" />
-                <h2 class="tool__title">Android</h2>
-                <p
-                  class="tool__description"
-                >Sviluppiamo applicazioni native Android per la maggior parte dei dispositivi adottati, integrandole con sistemi esterni.</p>
-              </div>
+            <div class="col-lg-5 ml-lg-5">
+              <h1 class="competence__title my-3">{{text.node.section1Title}}</h1>
+              <p
+                class="competence__description mb-4"
+              >{{text.node.Section1Abstract}}</p>
+              <a href class="btn btn-secondary">Parliamo di questo servizio</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="technology py-5 bg-secondary">
-      <div class="container py-5">
-        <div class="row align-items-center">
-          <div class="col-lg-4 ml-lg-auto">
-            <g-image src="~/assets/images/devops.png" class="technology__img mb-4 mb-lg-0" />
+      <div class="tool py-5">
+        <div class="container py-5 position-relative">
+          <g-image src="~/assets/images/deco2.svg" class="tool__deco" />
+          <div class="row">
+            <div class="col-lg-5 mx-auto text-center">
+              <h6 class="tool__name">{{text.node.toolsName}}</h6>
+              <h1
+                class="tool__titleSection"
+              >{{text.node.toolsAbstract}}</h1>
+            </div>
           </div>
-          <div class="col-lg-4 mr-lg-auto">
-            <h1 class="technology__title">DevOps</h1>
-            <p
-              class="technology__description"
-            >Fra le attività ci occupiamo anche della manutenzione per la correzione degli errori, il miglioramenti delle capacità e l'ottimizzazione dei prodotti per: far fronte a cambiamenti nell'ambiente software o a necessità di una maggiore affidabilità; rispondere a nuove esigenze e requisiti emersi da analisi e report sugli utenti.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="technology technology--inverted py-5">
-      <div class="container py-5">
-        <div class="row align-items-center">
-          <div class="col-lg-4 mr-lg-auto col-left">
-            <g-image src="~/assets/images/cloud.png" class="technology__img mb-4 mb-lg-0" />
-          </div>
-          <div class="col-lg-4 ml-lg-auto col-right">
-            <h1 class="technology__title">Cloud </h1>
-            <p
-              class="technology__description"
-            >Collaborando provider ed utilizzando migliori piattafome, ci occupiamo della realizzazione di infrastrutture per i nostri progetti di sviluppo, lavorando su server standalone o virtualizzati e garantendo ai nostri clienti la massima sicurezza, scalabilità e stabilità.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="techs py-5">
-      <div class="container d-inline-block d-lg-flex align-items-center justify-content-around">
-        <g-image src="~/assets/images/icons/db/ovh.svg" class="techs__img mx-3" />
-        <g-image src="~/assets/images/icons/db/aws.svg" class="techs__img mx-3" />
-        <g-image src="~/assets/images/icons/db/oracle.svg" class="techs__img mx-3" />
-        <g-image src="~/assets/images/icons/db/mysql.svg" class="techs__img mx-3" />
-        <g-image src="~/assets/images/icons/db/mongodb.svg" class="techs__img mx-3" />
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <div class="caseHistoryCompetenze">
-            <div class="d-lg-flex align-items-center justify-content-between">
-              <div class="d-lg-flex align-items-start">
-                <g-image src="~/assets/images/cta-case.png" class="caseHistoryCompetenze__img" />
-                <div class="caseHistoryCompetenze__body ml-4">
-                  <div class="mb-2">
-                    <span class="label label--dev mr-3">DEVELOPMENT</span>
-                    <span class="label label--des">DESIGN</span>
-                  </div>
-                  <h1 class="caseHistoryCompetenze__title">Acta: il registro elettronico</h1>
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="tool__card d-flex align-items-center justify-content-center">
+                <div>
+                  <g-image :src="text.node.toolsBox1Icon" class="tool__img" />
+                  <h2 class="tool__title">{{text.node.toolsBox1Title}}</h2>
                   <p
-                    class="caseHistoryCompetenze__description"
-                  >Last month, my wife, Anne Doe, took me to Las Vegas because she had to go for convention.</p>
-                  <p
-                    class="caseHistoryCompetenze__tags"
-                  >#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
+                    class="tool__description"
+                  >{{text.node.toolsBox1Abstract}}</p>
                 </div>
               </div>
-              <div class="text-right">
-                <g-link to class="caseHistoryCompetenze__link">_Scopri di più</g-link>
+            </div>
+            <div class="col-lg-3">
+              <div class="tool__card d-flex align-items-center justify-content-center">
+                <div>
+                  <g-image :src="text.node.toolsBox2Icon" class="tool__img" />
+                  <h2 class="tool__title">{{text.node.toolsBox2Title}}</h2>
+                  <p
+                    class="tool__description"
+                  >{{text.node.toolsBox2Abstract}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="tool__card d-flex align-items-center justify-content-center">
+                <div>
+                  <g-image :src="text.node.toolsBox3Icon" class="tool__img" />
+                  <h2 class="tool__title">{{text.node.toolsBox3Title}}</h2>
+                  <p
+                    class="tool__description"
+                  >{{text.node.toolsBox3Abstract}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="tool__card d-flex align-items-center justify-content-center">
+                <div>
+                  <g-image :src="text.node.toolsBox4Icon" class="tool__img" />
+                  <h2 class="tool__title">{{text.node.toolsBox4Title}}</h2>
+                  <p
+                    class="tool__description"
+                  >{{text.node.toolsBox4Abstract}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="tool__card d-flex align-items-center justify-content-center">
+                <div>
+                  <g-image :src="text.node.toolsBox5Icon" class="tool__img" />
+                  <h2 class="tool__title">{{text.node.toolsBox5Title}}</h2>
+                  <p
+                    class="tool__description"
+                  >{{text.node.toolsBox5Abstract}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="tool__card d-flex align-items-center justify-content-center">
+                <div>
+                  <g-image :src="text.node.toolsBox6Icon" class="tool__img" />
+                  <h2 class="tool__title">{{text.node.toolsBox6Title}}</h2>
+                  <p
+                    class="tool__description"
+                  >{{text.node.toolsBox6Abstract}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="tool__card d-flex align-items-center justify-content-center">
+                <div>
+                  <g-image :src="text.node.toolsBox7Icon" class="tool__img" />
+                  <h2 class="tool__title">{{text.node.toolsBox7Title}}</h2>
+                  <p
+                    class="tool__description"
+                  >{{text.node.toolsBox7Abstract}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="tool__card d-flex align-items-center justify-content-center">
+                <div>
+                  <g-image :src="text.node.toolsBox8Icon" class="tool__img" />
+                  <h2 class="tool__title">{{text.node.toolsBox8Title}}</h2>
+                  <p
+                    class="tool__description"
+                  >{{text.node.toolsBox8Abstract}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="integration py-5">
+        <div class="container d-lg-flex align-items-start align-items-lg-center">
+          <div class="mr-lg-5">
+            <h1 class="integration__name">> {{text.node.integrationName}}</h1>
+          </div>
+          <div class="d-flex align-items-center mx-lg-5 px-lg-5 my-4 my-lg-0">
+            <g-image :src="integration1Icon" class="integration__img" />
+            <h2 class="integration__title ml-3">{{text.node.integration1}}</h2>
+          </div>
+          <div class="d-flex align-items-center ml-lg-5">
+            <g-image :src="integration2Icon" class="integration__img" />
+            <h2 class="integration__title ml-3">{{text.node.integration2}}</h2>
+          </div>
+        </div>
+      </div>
+      <div class="methods py-5">
+        <div class="container py-5">
+          <div class="row mb-5">
+            <div class="col-lg-5 mx-auto text-center">
+              <g-image src="~/assets/images/method.svg" class="methods__img" />
+              <h1 class="methods__title">{{text.node.methodsName}}</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 mx-auto mb-4 mb-lg-0">
+              <h1 class="methods__title">{{text.node.methodsBox1Title}}</h1>
+              <p
+                class="methods__description"
+              >{{text.node.methodsBox1Abstract}}</p>
+            </div>
+            <div class="col-lg-4 mx-auto">
+              <h1 class="methods__title">{{text.node.methodsBox2Title}}</h1>
+              <p
+                class="methods__description"
+              >{{text.node.methodsBox2Abstract}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="competence competence--inverted position-relative py-5">
+        <div class="container position-relative py-5">
+          <h1 class="competence__bigText" data-aos="fade-right">{{text.node.section2BgText}}</h1>
+          <div class="row align-items-center">
+            <div class="col-lg-6 cont-img">
+              <g-image :src="text.node.section2Image" class="competence__img" />
+            </div>
+            <div class="col-lg-5 ml-lg-5 cont-body">
+              <h1 class="competence__title my-3">{{text.node.section2Title}}</h1>
+              <p
+                class="competence__description mb-4"
+              >{{text.node.Section2Abstract}}</p>
+              <a href class="btn btn-secondary">Parliamo di questo servizio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tool tool--inverted py-5">
+        <div class="container py-5 position-relative">
+          <g-image src="~/assets/images/deco2.svg" class="tool__deco" />
+          <div class="row">
+            <div class="col-lg-5 mx-auto text-center">
+              <h6 class="tool__name">{{text.node.tools2Name}}</h6>
+              <h1
+                class="tool__titleSection"
+              >{{text.node.tools2Abstract}}</h1>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-3">
+              <div class="tool__card d-flex align-items-center justify-content-center">
+                <div>
+                  <g-image :src="text.node.tools2Box1Icon" class="tool__img" />
+                  <h2 class="tool__title">{{text.node.tools2Box1Title}}</h2>
+                  <p
+                    class="tool__description"
+                  >{{text.node.tools2Box1Abstract}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="tool__card tool__card--lightGreen d-flex align-items-center justify-content-center"
+              >
+                <div>
+                  <g-image :src="text.node.tools2Box2Icon" class="tool__img" />
+                  <h2 class="tool__title">{{text.node.tools2Box2Title}}</h2>
+                  <p
+                    class="tool__description"
+                  >{{text.node.tools2Box2Abstract}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="tool__card tool__card--light d-flex align-items-center justify-content-center"
+              >
+                <div>
+                  <g-image :src="text.node.tools2Box3Icon" class="tool__img" />
+                  <h2 class="tool__title">{{text.node.tools2Box3Title}}</h2>
+                  <p
+                    class="tool__description"
+                  >{{text.node.tools2Box3Abstract}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-3">
+              <div class="tool__card d-flex align-items-center justify-content-center">
+                <div>
+                  <g-image
+                    :src="text.node.tools2Box4Icon"
+                    class="tool__img"
+                  />
+                  <h2 class="tool__title">{{text.node.tools2Box4Title}}</h2>
+                  <p
+                    class="tool__description"
+                  >{{text.node.tools2Box4Abstract}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="tool__card d-flex align-items-center justify-content-center">
+                <div>
+                  <g-image :src="text.node.tools2Box5Icon" class="tool__img" />
+                  <h2 class="tool__title">{{text.node.tools2Box5Title}}</h2>
+                  <p
+                    class="tool__description"
+                  >{{text.node.tools2Box5Abstract}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="tool__card d-flex align-items-center justify-content-center">
+                <div>
+                  <g-image :src="text.node.tools2Box6Icon" class="tool__img" />
+                  <h2 class="tool__title">{{text.node.tools2Box6Title}}</h2>
+                  <p
+                    class="tool__description"
+                  >{{text.node.tools2Box6Abstract}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="technology py-5 bg-secondary">
+        <div class="container py-5">
+          <div class="row align-items-center">
+            <div class="col-lg-4 ml-lg-auto">
+              <g-image :src="text.node.section3Image" class="technology__img mb-4 mb-lg-0" />
+            </div>
+            <div class="col-lg-4 mr-lg-auto">
+              <h1 class="technology__title">{{text.node.section3Title}}</h1>
+              <p
+                class="technology__description"
+              >{{text.node.section3Abstract}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="technology technology--inverted py-5">
+        <div class="container py-5">
+          <div class="row align-items-center">
+            <div class="col-lg-4 mr-lg-auto col-left">
+              <g-image :src="text.node.section4Image" class="technology__img mb-4 mb-lg-0" />
+            </div>
+            <div class="col-lg-4 ml-lg-auto col-right">
+              <h1 class="technology__title">{{text.node.section4Title}}</h1>
+              <p
+                class="technology__description"
+              >{{text.node.section4Abstract}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="techs py-5">
+        <div class="container d-inline-block d-lg-flex align-items-center justify-content-around">
+          <g-image :src="text.node.logo1" class="techs__img mx-3" />
+          <g-image :src="text.node.logo2" class="techs__img mx-3" />
+          <g-image :src="text.node.logo3" class="techs__img mx-3" />
+          <g-image :src="text.node.logo4" class="techs__img mx-3" />
+          <g-image :src="text.node.logo5" class="techs__img mx-3" />
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="caseHistoryCompetenze">
+              <div class="d-lg-flex align-items-center justify-content-between">
+                <div class="d-lg-flex align-items-start">
+                  <g-image src="~/assets/images/cta-case.png" class="caseHistoryCompetenze__img" />
+                  <div class="caseHistoryCompetenze__body ml-4">
+                    <div class="mb-2">
+                      <span class="label label--dev mr-3">DEVELOPMENT</span>
+                      <span class="label label--des">DESIGN</span>
+                    </div>
+                    <h1 class="caseHistoryCompetenze__title">Acta: il registro elettronico</h1>
+                    <p
+                      class="caseHistoryCompetenze__description"
+                    >Last month, my wife, Anne Doe, took me to Las Vegas because she had to go for convention.</p>
+                    <p
+                      class="caseHistoryCompetenze__tags"
+                    >#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
+                  </div>
+                </div>
+                <div class="text-right">
+                  <g-link to class="caseHistoryCompetenze__link">_Scopri di più</g-link>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="partnership py-5">
+    <div
+      class="partnership py-5"
+      v-for="textPartnership in $page.textsPartnership.edges"
+      :key="textPartnership.id"
+    >
       <div class="partnership__box my-5 py-5">
         <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
         <div class="container">
           <div class="row">
             <div class="col-lg-11 ml-auto pl-lg-5">
-              <h6 class="pl-2 pl-lg-4 partnership__name">Partnership</h6>
-              <h1 class="pl-2 pl-lg-4 partnership__title">Hanno già creduto in noi</h1>
+              <h6 class="pl-2 pl-lg-4 partnership__name">{{textPartnership.node.sectionName}}</h6>
+              <h1 class="pl-2 pl-lg-4 partnership__title">{{textPartnership.node.sectionTitle}}</h1>
               <div class="d-flex flex-wrap align-items-center">
-                <g-image src="~/assets/images/logo-aosp.png" class="partnership__logo" />
-                <g-image src="~/assets/images/logo-ast.png" class="partnership__logo" />
-                <g-image src="~/assets/images/logo-cogne.png" class="partnership__logo" />
-                <g-image src="~/assets/images/logo-umbriadigitale.png" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo1" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo2" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo3" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo4" class="partnership__logo" />
               </div>
             </div>
           </div>
@@ -361,11 +377,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5 mx-auto text-center py-5">
-            <h1 class="partnership__titleClosing mb-4">Sei sicuro della tua nuova idea?</h1>
-            <p class="partnership__descriptionClosing mb-5">
-              When you enter into any new area of science, you almost
-              always find yourself with a baffling new language.
-            </p>
+            <h1 class="partnership__titleClosing mb-4">{{textPartnership.node.sectionTitle2}}</h1>
+            <p
+              class="partnership__descriptionClosing mb-5"
+            >{{textPartnership.node.sectionAbstract2}}</p>
             <div>
               <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
               <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
@@ -379,12 +394,7 @@
             <div class="cta cta--black">
               <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
               <div class="d-flex align-items-center justify-content-between w-75">
-                <h1 class="cta__title">
-                  Consiglio last minute? Parla con Bottino oppure chiama al
-                  <span
-                    class="text-green"
-                  >0744/33434522</span>
-                </h1>
+                <h1 class="cta__title">{{textPartnership.node.ctaTitle}}</h1>
               </div>
             </div>
           </div>
@@ -393,7 +403,111 @@
     </div>
   </Layout>
 </template>
-
+<page-query>
+query {
+  texts: allSviluppoWeb {
+    edges {
+      node {
+        title
+        headerTitle
+        headerImage
+        headerAbstract
+        section1Title
+        Section1Abstract
+        section1BgText
+        section1Link
+        section1Image
+        toolsAbstract
+        toolsBox1Icon
+        toolsBox1Title
+        toolsBox1Abstract
+        toolsBox2Icon
+        toolsBox2Title
+        toolsBox2Abstract
+        toolsBox3Icon
+        toolsBox3Title
+        toolsBox3Abstract
+        toolsBox4Icon
+        toolsBox4Title
+        toolsBox4Abstract
+        toolsBox5Icon
+        toolsBox5Title
+        toolsBox5Abstract
+        toolsBox6Icon
+        toolsBox6Title
+        toolsBox6Abstract
+        toolsBox7Icon
+        toolsBox7Title
+        toolsBox7Abstract
+        toolsBox8Icon
+        toolsBox8Title
+        toolsBox8Abstract
+        integrationName
+        integration1
+        integration1Icon
+        integration2
+        integration2Icon
+        methodsName
+        methodsBox1Title
+        methodsBox1Abstract
+        methodsBox2Title
+        methodsBox2Abstract
+        section2Title
+        Section2Abstract
+        section2BgText
+        section2Link
+        section2Image
+        tools2Name
+        tools2Abstract
+        tools2Box1Icon
+        tools2Box1Title
+        tools2Box1Abstract
+        tools2Box2Icon
+        tools2Box2Title
+        tools2Box2Abstract
+        tools2Box3Icon
+        tools2Box3Title
+        tools2Box3Abstract
+        tools2Box4Icon
+        tools2Box4Title
+        tools2Box4Abstract
+        tools2Box5Icon
+        tools2Box5Title
+        tools2Box5Abstract
+        tools2Box6Icon
+        tools2Box6Title
+        tools2Box6Abstract
+        section3Title
+        section3Abstract
+        section3Image
+        section4Title
+        section4Abstract
+        section4Image
+        logo1
+        logo2
+        logo3
+        logo4
+        logo5
+      }
+    }
+  },
+  textsPartnership: allPartnership {
+    edges {
+      node {
+        sectionTitle
+        sectionName
+        logo1
+        logo2
+        logo3
+        logo4
+        sectionTitle2
+        sectionAbstract2
+        ctaTitle
+      }
+    }
+  }
+}
+</page-query>
 <script>
 export default {
   //   metaInfo: {
@@ -426,7 +540,6 @@ export default {
   // },
   mounted() {
     AOS.init();
-    
   }
 };
 </script>
@@ -551,20 +664,24 @@ export default {
     border-radius: 3px;
     background-color: #000000;
     box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.2);
-    &--lightGreen{
-  background-color: #F0FFFB!important;
- .tool__title{
-  color: #000!important;}
-  .tool__description{
-  color: #000!important;}
-}
-&--light{
-  background-color: #F9F9FA!important;
-  .tool__title{
-  color: #000!important;}
-  .tool__description{
-  color: #000!important;}
-}
+    &--lightGreen {
+      background-color: #f0fffb !important;
+      .tool__title {
+        color: #000 !important;
+      }
+      .tool__description {
+        color: #000 !important;
+      }
+    }
+    &--light {
+      background-color: #f9f9fa !important;
+      .tool__title {
+        color: #000 !important;
+      }
+      .tool__description {
+        color: #000 !important;
+      }
+    }
     @media screen and (max-width: 992px) {
       width: 100%;
       height: auto;

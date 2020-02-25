@@ -6,20 +6,8 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
-    - name: "articles"
-      label: "Article" 
-      folder: "articles"
-      create: true 
-      slug: "{{slug}}"
-      fields: 
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Abstract", name: "abstract", widget: "text"}
-        - {label: "Image", name: "image", widget: "image"}
-        - {label: "Author", name: "author", widget: "string"}
-        - {label: "Date", name: "date", widget: "datetime"}
-        - {label: "Body", name: "body", widget: "markdown"}
     - name: "home"
-      label: "Home" 
+      label: "Home Page" 
       folder: "home"
       create: false 
       slug: "{{slug}}"
@@ -272,3 +260,246 @@ collections:
         - {label: "cta", name: "cta", widget: "text"}
         - {label: "Body", name: "body", widget: "markdown"} 
         - {label: "Date", name: "date", widget: "datetime"}  
+    - name: "proojectsComingSoon"
+      label: "ProjectsComingSoon" 
+      folder: "progetti-coming-soon"
+      create: true 
+      slug: "{{slug}}"
+      fields: 
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Hashtags", name: "hashtags", widget: "string"}
+        - {label: "Image", name: "image", widget: "image"}
+        - {label: "Abstract", name: "abstract", widget: "string"}
+    - name: "DigitalTransformation"
+      label: "DigitalTransformation" 
+      folder: "digital-transformation"
+      create: false 
+      slug: "{{slug}}"
+      fields: 
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "HeaderTitle", name: "headerTitle", widget: "string"}
+        - {label: "HeaderImage", name: "headerImage", widget: "image"}
+        - {label: "HeaderAbstract", name: "headerAbstract", widget: "text"}
+        - {label: "Sentence1", name: "sentence1", widget: "string"}
+        - {label: "Sentence2", name: "sentence2", widget: "string"}
+        - {label: "Section1BgText", name: "section1BgText", widget: "string"}
+        - {label: "Section1Name", name: "section1Name", widget: "string"}
+        - {label: "Section1Title1", name: "section1Title1", widget: "string"}
+        - {label: "Section1Title2", name: "section1Title2", widget: "string"}
+        - {label: "Section1Title3", name: "section1Title3", widget: "string"}
+        - {label: "Section1Title4", name: "section1Title4", widget: "string"}
+        - {label: "Section1Title5", name: "section1Title5", widget: "string"}
+        - {label: "Section1Title6", name: "section1Title6", widget: "string"}
+        - {label: "Section1Image", name: "section1Image", widget: "image"}
+        - {label: "Section2BgText", name: "section2BgText", widget: "string"}
+        - {label: "Section2Name", name: "section2Name", widget: "string"}
+        - {label: "Section2Title1", name: "section2Title1", widget: "string"}
+        - {label: "Section2Title2", name: "section2Title2", widget: "string"}
+        - {label: "Section2Image", name: "section2Image", widget: "image"}
+        - {label: "Section3BgText", name: "section3BgText", widget: "string"}
+        - {label: "Section3Name", name: "section3Name", widget: "string"}
+        - {label: "Section3Title1", name: "section3Title1", widget: "string"}
+        - {label: "Section3Title2", name: "section3Title2", widget: "string"}
+        - {label: "Section3Title3", name: "section3Title3", widget: "string"}
+        - {label: "Section3Title4", name: "section3Title4", widget: "string"}
+        - {label: "Section4BgText", name: "section4BgText", widget: "string"}
+        - {label: "Section4Name", name: "section4Name", widget: "string"}
+        - {label: "Section4Title1", name: "section4Title1", widget: "string"}
+        - {label: "Section4Title2", name: "section4Title2", widget: "string"}
+        - {label: "Section4Title3", name: "section4Title3", widget: "string"}
+        - {label: "Section5title", name: "section5title", widget: "string"}
+        - {label: "Section6Name", name: "section6Name", widget: "string"}
+        - {label: "Section6Title", name: "section6Title", widget: "string"}
+        - {label: "Section6Box1Title", name: "section6Box1Title", widget: "string"}
+        - {label: "Section6Box1Abstract", name: "section6Box1Abstract", widget: "text"}
+        - {label: "Section6Box2Title", name: "section6Box2Title", widget: "string"}
+        - {label: "Section6Box2Abstract", name: "section6Box2Abstract", widget: "text"}
+        - {label: "Section6Box3Title", name: "section6Box3Title", widget: "string"}
+        - {label: "Section6Box3Abstract", name: "section6Box3Abstract", widget: "text"}
+    - name: "SviluppoWeb"
+      label: "SviluppoWeb" 
+      folder: "sviluppo-web"
+      create: false 
+      slug: "{{slug}}"
+      fields: 
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "HeaderTitle", name: "headerTitle", widget: "string"}
+        - {label: "HeaderImage", name: "headerImage", widget: "image"}
+        - {label: "HeaderAbstract", name: "headerAbstract", widget: "text"}
+        - {label: "Section1Title", name: "section1Title", widget: "string"}
+        - {label: "Section1Abstract", name: "Section1Abstract", widget: "text"}
+        - {label: "Section1BgText", name: "section1BgText", widget: "string"}
+        - {label: "Section1Link", name: "section1Link", widget: "string"}
+        - {label: "Section1Image", name: "section1Image", widget: "image"}
+        - {label: "ToolsName", name: "toolsName", widget: "string"}
+        - {label: "ToolsAbstract", name: "toolsAbstract", widget: "text"}
+        - {label: "ToolsBox1Icon", name: "toolsBox1Icon", widget: "image"}
+        - {label: "ToolsBox1Title", name: "toolsBox1Title", widget: "string"}
+        - {label: "ToolsBox1Abstract", name: "toolsBox1Abstract", widget: "text"}
+        - {label: "ToolsBox2Icon", name: "toolsBox2Icon", widget: "image"}
+        - {label: "ToolsBox2Title", name: "toolsBox2Title", widget: "string"}
+        - {label: "ToolsBox2Abstract", name: "toolsBox2Abstract", widget: "text"}
+        - {label: "ToolsBox3Icon", name: "toolsBox3Icon", widget: "image"}
+        - {label: "ToolsBox3Title", name: "toolsBox3Title", widget: "string"}
+        - {label: "ToolsBox3Abstract", name: "toolsBox3Abstract", widget: "text"}
+        - {label: "ToolsBox4Icon", name: "toolsBox4Icon", widget: "image"}
+        - {label: "ToolsBox4Title", name: "toolsBox4Title", widget: "string"}
+        - {label: "ToolsBox4Abstract", name: "toolsBox4Abstract", widget: "text"}
+        - {label: "ToolsBox5Icon", name: "toolsBox5Icon", widget: "image"}
+        - {label: "ToolsBox5Title", name: "toolsBox5Title", widget: "string"}
+        - {label: "ToolsBox5Abstract", name: "toolsBox5Abstract", widget: "text"}
+        - {label: "ToolsBox6Icon", name: "toolsBox6Icon", widget: "image"}
+        - {label: "ToolsBox6Title", name: "toolsBox6Title", widget: "string"}
+        - {label: "ToolsBox6Abstract", name: "toolsBox6Abstract", widget: "text"}
+        - {label: "ToolsBox7Icon", name: "toolsBox7Icon", widget: "image"}
+        - {label: "ToolsBox7Title", name: "toolsBox7Title", widget: "string"}
+        - {label: "ToolsBox7Abstract", name: "toolsBox7Abstract", widget: "text"}
+        - {label: "ToolsBox8Icon", name: "toolsBox8Icon", widget: "image"}
+        - {label: "ToolsBox8Title", name: "toolsBox8Title", widget: "string"}
+        - {label: "ToolsBox8Abstract", name: "toolsBox8Abstract", widget: "text"}
+        - {label: "IntegrationName", name: "integrationName", widget: "string"}
+        - {label: "Integration1", name: "integration1", widget: "image"}
+        - {label: "Integration1Icon", name: "integration1Icon", widget: "image"}
+        - {label: "integration2", name: "integration2", widget: "string"}
+        - {label: "Integration2Icon", name: "integration2Icon", widget: "image"}
+        - {label: "MethodsName", name: "methodsName", widget: "string"}
+        - {label: "MethodsBox1Title", name: "methodsBox1Title", widget: "string"}
+        - {label: "MethodsBox1Abstract", name: "methodsBox1Abstract", widget: "text"}
+        - {label: "MethodsBox2Title", name: "methodsBox2Title", widget: "string"}
+        - {label: "MethodsBox2Abstract", name: "methodsBox2Abstract", widget: "text"}
+        - {label: "Section2Title", name: "section2Title", widget: "string"}
+        - {label: "Section2Abstract", name: "Section2Abstract", widget: "text"}
+        - {label: "Section2BgText", name: "section2BgText", widget: "string"}
+        - {label: "Section2Link", name: "section2Link", widget: "string"}
+        - {label: "Section2Image", name: "section2Image", widget: "image"}
+        - {label: "Tools2Name", name: "tools2Name", widget: "string"}
+        - {label: "Tools2Abstract", name: "tools2Abstract", widget: "text"}
+        - {label: "Tools2Box1Icon", name: "tools2Box1Icon", widget: "image"}
+        - {label: "Tools2Box1Title", name: "tools2Box1Title", widget: "string"}
+        - {label: "Tools2Box1Abstract", name: "tools2Box1Abstract", widget: "text"}
+        - {label: "Tools2Box2Icon", name: "tools2Box2Icon", widget: "image"}
+        - {label: "Tools2Box2Title", name: "tools2Box2Title", widget: "string"}
+        - {label: "Tools2Box2Abstract", name: "tools2Box2Abstract", widget: "text"}
+        - {label: "Tools2Box3Icon", name: "tools2Box3Icon", widget: "image"}
+        - {label: "Tools2Box3Title", name: "tools2Box3Title", widget: "string"}
+        - {label: "Tools2Box3Abstract", name: "tools2Box3Abstract", widget: "text"}
+        - {label: "Tools2Box4Icon", name: "tools2Box4Icon", widget: "image"}
+        - {label: "Tools2Box4Title", name: "tools2Box4Title", widget: "string"}
+        - {label: "Tools2Box4Abstract", name: "tools2Box4Abstract", widget: "text"}
+        - {label: "Tools2Box5Icon", name: "tools2Box5Icon", widget: "image"}
+        - {label: "Tools2Box5Title", name: "tools2Box5Title", widget: "string"}
+        - {label: "Tools2Box5Abstract", name: "tools2Box5Abstract", widget: "text"}
+        - {label: "Tools2Box6Icon", name: "tools2Box6Icon", widget: "image"}
+        - {label: "Tools2Box6Title", name: "tools2Box6Title", widget: "string"}
+        - {label: "Tools2Box6Abstract", name: "tools2Box6Abstract", widget: "text"}
+        - {label: "Section3Title", name: "section3Title", widget: "string"}
+        - {label: "Section3Abstract", name: "section3Abstract", widget: "text"}
+        - {label: "Section3Image", name: "section3Image", widget: "image"}
+        - {label: "Section4Title", name: "section4Title", widget: "string"}
+        - {label: "Section4Abstract", name: "Section4Abstract", widget: "text"}
+        - {label: "Section4Image", name: "section4Image", widget: "image"}
+        - {label: "Logo1", name: "logo1", widget: "image"}
+        - {label: "Logo2", name: "logo2", widget: "image"}
+        - {label: "Logo3", name: "logo3", widget: "image"}
+        - {label: "Logo4", name: "logo4", widget: "image"}
+        - {label: "Logo5", name: "logo5", widget: "image"}
+    - name: "Design"
+      label: "Design" 
+      folder: "design"
+      create: false 
+      slug: "{{slug}}"
+      fields: 
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "HeaderTitle", name: "headerTitle", widget: "string"}
+        - {label: "HeaderImage", name: "headerImage", widget: "image"}
+        - {label: "HeaderAbstract", name: "headerAbstract", widget: "text"}
+        - {label: "Section1Title", name: "section1Title", widget: "string"}
+        - {label: "Section1Abstract", name: "Section1Abstract", widget: "text"}
+        - {label: "Section1BgText", name: "section1BgText", widget: "string"}
+        - {label: "Section1Link", name: "section1Link", widget: "string"}
+        - {label: "Section1Image", name: "section1Image", widget: "image"}
+        - {label: "ToolsName", name: "toolsName", widget: "string"}
+        - {label: "ToolsAbstract", name: "toolsAbstract", widget: "text"}
+        - {label: "ToolsBox1Icon", name: "toolsBox1Icon", widget: "image"}
+        - {label: "ToolsBox1Title", name: "toolsBox1Title", widget: "string"}
+        - {label: "ToolsBox1Abstract", name: "toolsBox1Abstract", widget: "text"}
+        - {label: "ToolsBox2Icon", name: "toolsBox2Icon", widget: "image"}
+        - {label: "ToolsBox2Title", name: "toolsBox2Title", widget: "string"}
+        - {label: "ToolsBox2Abstract", name: "toolsBox2Abstract", widget: "text"}
+        - {label: "ToolsBox3Icon", name: "toolsBox3Icon", widget: "image"}
+        - {label: "ToolsBox3Title", name: "toolsBox3Title", widget: "string"}
+        - {label: "ToolsBox3Abstract", name: "toolsBox3Abstract", widget: "text"}
+        - {label: "Section2Title", name: "section2Title", widget: "string"}
+        - {label: "Section2Abstract", name: "Section2Abstract", widget: "text"}
+        - {label: "Section2Link", name: "section2Link", widget: "string"}
+        - {label: "Section2Image", name: "section2Image", widget: "image"}
+        - {label: "Tools2Name", name: "tools2Name", widget: "string"}
+        - {label: "Tools2Abstract", name: "tools2Abstract", widget: "text"}
+        - {label: "Tools2Box1Icon", name: "tools2Box1Icon", widget: "image"}
+        - {label: "Tools2Box1Title", name: "tools2Box1Title", widget: "string"}
+        - {label: "Tools2Box1Abstract", name: "tools2Box1Abstract", widget: "text"}
+        - {label: "Tools2Box2Icon", name: "tools2Box2Icon", widget: "image"}
+        - {label: "Tools2Box2Title", name: "tools2Box2Title", widget: "string"}
+        - {label: "Tools2Box2Abstract", name: "tools2Box2Abstract", widget: "text"}
+        - {label: "Tools2Box3Icon", name: "tools2Box3Icon", widget: "image"}
+        - {label: "Tools2Box3Title", name: "tools2Box3Title", widget: "string"}
+        - {label: "Tools2Box3Abstract", name: "tools2Box3Abstract", widget: "text"}
+        - {label: "Tools2Box4Icon", name: "tools2Box4Icon", widget: "image"}
+        - {label: "Tools2Box4Title", name: "tools2Box4Title", widget: "string"}
+        - {label: "Tools2Box4Abstract", name: "tools2Box4Abstract", widget: "text"}
+        - {label: "Section3Name", name: "section3Name", widget: "string"}
+        - {label: "Section3Title", name: "section3Title", widget: "string"}
+        - {label: "Logo1", name: "logo1", widget: "image"}
+        - {label: "Logo2", name: "logo2", widget: "image"}
+        - {label: "Logo3", name: "logo3", widget: "image"}
+        - {label: "Logo4", name: "logo4", widget: "image"}
+        - {label: "Cta", name: "cta", widget: "string"}
+        - {label: "CtaLink", name: "ctaLink", widget: "string"}
+        - {label: "DesignPackImg", name: "designPackImg", widget: "image"}
+        - {label: "DesignPackTitle", name: "designPackTitle", widget: "string"}
+        - {label: "DesignPackAbstract", name: "designPackAbstract", widget: "text"}
+        - {label: "day1Img", name: "day1Img", widget: "image"}
+        - {label: "day1Name", name: "day1Name", widget: "string"}
+        - {label: "day1Title", name: "day1Title", widget: "string"}
+        - {label: "day1Abstract", name: "day1Abstract", widget: "text"}
+        - {label: "day2Img", name: "day2Img", widget: "image"}
+        - {label: "day2Name", name: "day2Name", widget: "string"}
+        - {label: "day2Title", name: "day2Title", widget: "string"}
+        - {label: "day2Abstract", name: "day2Abstract", widget: "text"}
+        - {label: "day3Img", name: "day3Img", widget: "image"}
+        - {label: "day3Name", name: "day3Name", widget: "string"}
+        - {label: "day3Title", name: "day3Title", widget: "string"}
+        - {label: "day3Abstract", name: "day3Abstract", widget: "text"}
+        - {label: "day4Img", name: "day4Img", widget: "image"}
+        - {label: "day4Name", name: "day4Name", widget: "string"}
+        - {label: "day4Title", name: "day4Title", widget: "string"}
+        - {label: "day4Abstract", name: "day4Abstract", widget: "text"}
+        - {label: "Section4BgText", name: "section4BgText", widget: "string"}
+        - {label: "section4Box1Icon", name: "section4Box1Icon", widget: "text"}
+        - {label: "section4Box1Title", name: "section4Box1Title", widget: "string"}
+        - {label: "section4Box1Abstract", name: "section4Box1Abstract", widget: "image"}
+        - {label: "section4Box2Icon", name: "section4Box2Icon", widget: "text"}
+        - {label: "section4Box2Title", name: "section4Box2Title", widget: "string"}
+        - {label: "section4Box2Abstract", name: "section4Box2Abstract", widget: "image"}
+    - name: "CollaborativeTeam"
+      label: "CollaborativeTeam" 
+      folder: "collaborative-team"
+      create: false 
+      slug: "{{slug}}"
+      fields: 
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "HeaderTitle", name: "headerTitle", widget: "string"}
+        - {label: "HeaderImage", name: "headerImage", widget: "image"}
+        - {label: "HeaderAbstract", name: "headerAbstract", widget: "text"}
+        - {label: "CompetenceName", name: "competenceName", widget: "string"}
+        - {label: "CompetenceAbstract", name: "competenceAbstract", widget: "text"}
+        - {label: "CompetenceBox1Icon", name: "competenceBox1Icon", widget: "image"}
+        - {label: "CompetenceBox1Title", name: "competenceBox1Title", widget: "string"}
+        - {label: "CompetenceBox1Abstract", name: "competenceBox1Abstract", widget: "text"}
+        - {label: "CompetenceBox2Icon", name: "competenceBox2Icon", widget: "image"}
+        - {label: "CompetenceBox2Title", name: "competenceBox2Title", widget: "string"}
+        - {label: "CompetenceBox2Abstract", name: "competenceBox2Abstract", widget: "text"}
+        - {label: "CompetenceBox3Icon", name: "competenceBox3Icon", widget: "image"}
+        - {label: "CompetenceBox3Title", name: "competenceBox3Title", widget: "string"}
+        - {label: "CompetenceBox3Abstract", name: "competenceBox3Abstract", widget: "text"}
+        

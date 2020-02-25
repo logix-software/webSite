@@ -111,124 +111,49 @@
       </div>
     </div>
     <div id="list-projects">
-      <div class="project project--comingSoon py-5">
+      <div class="project project--comingSoon py-5" v-for="project in $page.projectsComingSoon.edges" :key="project.id">
         <div class="container py-5">
           <div class="row">
             <div class="col-lg-6 col-left">
-              <div class="project__img">
+              <div class="project__img" :style="{ 'background-image': 'url(' + project.node.image + ')' }">
                 <g-image src="~/assets/images/deco3.svg" class="integration__img" />
               </div>
             </div>
             <div class="col-lg-6 pl-lg-5 col-right d-flex align-items-center">
               <div class="pl-lg-5">
-                <h1 class="project__title mb-3">Acta Logix - registro elettronico</h1>
+                <h1 class="project__title mb-3">{{project.node.title}}</h1>
                 <div class="mb-2">
                   <span class="label label--dev mr-3">DEVELOPMENT</span>
                   <span class="label label--des">DESIGN</span>
                 </div>
-                <p class="project__hashtags mb-3">#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
+                <p class="project__hashtags mb-3">{{project.node.hashtags}}</p>
                 <p class="project__description mb-4">
-                  When you enter into any new area of science, you almost
-                  always find yourself with a baffling new language of technical terms to learn before.
+                 {{project.node.abstract}}
                 </p>
-                <a href="/progetto" class="btn btn-secondary">Coming soon</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="project project--comingSoon py-5">
-        <div class="container py-5">
-          <div class="row">
-            <div class="col-lg-6 col-left">
-              <div class="project__img">
-                <g-image src="~/assets/images/deco3.svg" class="integration__img" />
-              </div>
-            </div>
-            <div class="col-lg-6 pl-lg-5 col-right d-flex align-items-center">
-              <div class="pl-lg-5">
-                <h1 class="project__title mb-3">Acta Logix - registro elettronico</h1>
-                <div class="mb-2">
-                  <span class="label label--dev mr-3">DEVELOPMENT</span>
-                  <span class="label label--des">DESIGN</span>
-                </div>
-                <p class="project__hashtags mb-3">#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
-                <p class="project__description mb-4">
-                  When you enter into any new area of science, you almost
-                  always find yourself with a baffling new language of technical terms to learn before.
-                </p>
-                <a href="/progetto" class="btn btn-secondary">Coming soon</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="project project--comingSoon py-5">
-        <div class="container py-5">
-          <div class="row">
-            <div class="col-lg-6 col-left">
-              <div class="project__img">
-                <g-image src="~/assets/images/deco3.svg" class="integration__img" />
-              </div>
-            </div>
-            <div class="col-lg-6 pl-lg-5 col-right d-flex align-items-center">
-              <div class="pl-lg-5">
-                <h1 class="project__title mb-3">Acta Logix - registro elettronico</h1>
-                <div class="mb-2">
-                  <span class="label label--dev mr-3">DEVELOPMENT</span>
-                  <span class="label label--des">DESIGN</span>
-                </div>
-                <p class="project__hashtags mb-3">#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
-                <p class="project__description mb-4">
-                  When you enter into any new area of science, you almost
-                  always find yourself with a baffling new language of technical terms to learn before.
-                </p>
-                <a href="/progetto" class="btn btn-secondary">Coming soon</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="project project--comingSoon py-5">
-        <div class="container py-5">
-          <div class="row">
-            <div class="col-lg-6 col-left">
-              <div class="project__img">
-                <g-image src="~/assets/images/deco3.svg" class="integration__img" />
-              </div>
-            </div>
-            <div class="col-lg-6 pl-lg-5 col-right d-flex align-items-center">
-              <div class="pl-lg-5">
-                <h1 class="project__title mb-3">Acta Logix - registro elettronico</h1>
-                <div class="mb-2">
-                  <span class="label label--dev mr-3">DEVELOPMENT</span>
-                  <span class="label label--des">DESIGN</span>
-                </div>
-                <p class="project__hashtags mb-3">#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
-                <p class="project__description mb-4">
-                  When you enter into any new area of science, you almost
-                  always find yourself with a baffling new language of technical terms to learn before.
-                </p>
-                <a href="/progetto" class="btn btn-secondary">Coming soon</a>
+                <a href="/" class="btn btn-secondary">Coming soon</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="partnership py-5">
+     <div
+      class="partnership py-5"
+      v-for="textPartnership in $page.textsPartnership.edges"
+      :key="textPartnership.id"
+    >
       <div class="partnership__box my-5 py-5">
         <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
         <div class="container">
           <div class="row">
             <div class="col-lg-11 ml-auto pl-lg-5">
-              <h6 class="pl-2 pl-lg-4 partnership__name">Partnership</h6>
-              <h1 class="pl-2 pl-lg-4 partnership__title">Hanno già creduto in noi</h1>
+              <h6 class="pl-2 pl-lg-4 partnership__name">{{textPartnership.node.sectionName}}</h6>
+              <h1 class="pl-2 pl-lg-4 partnership__title">{{textPartnership.node.sectionTitle}}</h1>
               <div class="d-flex flex-wrap align-items-center">
-                <g-image src="~/assets/images/logo-aosp.png" class="partnership__logo" />
-                <g-image src="~/assets/images/logo-ast.png" class="partnership__logo" />
-                <g-image src="~/assets/images/logo-cogne.png" class="partnership__logo" />
-                <g-image src="~/assets/images/logo-umbriadigitale.png" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo1" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo2" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo3" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo4" class="partnership__logo" />
               </div>
             </div>
           </div>
@@ -237,11 +162,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5 mx-auto text-center py-5">
-            <h1 class="partnership__titleClosing mb-4">Sei sicuro della tua nuova idea?</h1>
-            <p class="partnership__descriptionClosing mb-5">
-              When you enter into any new area of science, you almost
-              always find yourself with a baffling new language.
-            </p>
+            <h1 class="partnership__titleClosing mb-4">{{textPartnership.node.sectionTitle2}}</h1>
+            <p
+              class="partnership__descriptionClosing mb-5"
+            >{{textPartnership.node.sectionAbstract2}}</p>
             <div>
               <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
               <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
@@ -255,12 +179,7 @@
             <div class="cta cta--black">
               <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
               <div class="d-flex align-items-center justify-content-between w-75">
-                <h1 class="cta__title">
-                  Consiglio last minute? Parla con Bottino oppure chiama al
-                  <span
-                    class="text-green"
-                  >0744/33434522</span>
-                </h1>
+                <h1 class="cta__title">{{textPartnership.node.ctaTitle}}</h1>
               </div>
             </div>
           </div>
@@ -279,6 +198,31 @@ query {
         hashtags
         abstract
         path
+      }
+    }
+  },
+  projectsComingSoon: allProjectsComingSoon(order: DESC) {
+    edges {
+      node {
+        title
+        image
+        hashtags
+        abstract
+      }
+    }
+  },
+  textsPartnership: allPartnership {
+    edges {
+      node {
+        sectionTitle
+        sectionName
+        logo1
+        logo2
+        logo3
+        logo4
+        sectionTitle2
+        sectionAbstract2
+        ctaTitle
       }
     }
   }

@@ -7,8 +7,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'articles/**/*.md',
-        typeName: 'Articles',
+        path: 'progetti-coming-soon/**/*.md',
+        typeName: 'ProjectsComingSoon',
         remark: {
           // remark options
         }
@@ -59,6 +59,46 @@ module.exports = {
       options: {
         path: 'about/**/*.md',
         typeName: 'About',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'digital-transformation/**/*.md',
+        typeName: 'DigitalTransformation',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'sviluppo-web/**/*.md',
+        typeName: 'SviluppoWeb',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'design/**/*.md',
+        typeName: 'Design',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'collaborative-team/**/*.md',
+        typeName: 'CollaborativeTeam',
         remark: {
           // remark options
         }
