@@ -18,28 +18,20 @@ section1Abstract: >-
   ridimensionamento, al restauro dei prodotti digitali.
 slider1Slide1Title: Digital transformation
 slider1Slide1Abstract: >-
-  Che si tratti di una nuova startup o la ristrutturazione di servizi e
-  processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori
-  finali.
-slider1Slide1Image: /uploads/bg-pic.png
-slider1Slide2Title: Digital transformation
+  Attraverso un percorso iterativo ci interroghiamo sulle richieste del mercato e, insieme, progettiamo le più efficienti logiche digitali. Un approccio collaborativo col cliente e con gli stakeholder che permette di ottimizzare costi e tempi.
+slider1Slide1Image: /uploads/img-digital.png
+slider1Slide2Title: Sviluppo Web & Mobile
 slider1Slide2Abstract: >-
-  Che si tratti di una nuova startup o la ristrutturazione di servizi e
-  processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori
-  finali.
-slider1Slide2Image: /uploads/bg-pic.png
-slider1Slide3Title: Digital transformation
+  Seguendo la metodologia agile dall’analisi al test costruiamo prodotti in linea con le esigenze di ciascun cliente, realizzando progetti web e mobile che si adattano alle diverse piattaforme esistenti.
+slider1Slide2Image: /uploads/img-development.png
+slider1Slide3Title: Design research & strategy
 slider1Slide3Abstract: >-
-  Che si tratti di una nuova startup o la ristrutturazione di servizi e
-  processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori
-  finali.
-slider1Slide3Image: /uploads/bg-pic.png
-slider1Slide4Title: Digital transformation
+  Dalla comprensione delle esigenze, all’analisi dei requisiti, grazie all’osservazione degli utenti, progettiamo ed elaboriamo soluzioni creative ed efficaci, in grado di stupire e dare fiducia.
+slider1Slide3Image: /uploads/img-design.png
+slider1Slide4Title: Collaborative team
 slider1Slide4Abstract: >-
-  Che si tratti di una nuova startup o la ristrutturazione di servizi e
-  processi, offririamo le soluzioni più adatte al cliente ed agli utilizzatori
-  finali.
-slider1Slide4Image: /uploads/project.png
+  Il nostro team di professionisti è in grado di affiancare il team delle aziende clienti, offrendo le professionalità, le competenze, gli strumenti ed i metodi migliori nel breve periodo.
+slider1Slide4Image: /uploads/img-collaborative.png
 slider1Slide5Title: Digital transformation
 slider1Slide5Abstract: >-
   Che si tratti di una nuova startup o la ristrutturazione di servizi e
