@@ -102,7 +102,7 @@ collections:
         - {label: "Section5Abstract", name: "section5Abstract", widget: "text"}
         - {label: "Cta2Title", name: "cta2Title", widget: "string"}
     - name: "competence"
-      label: "Competence" 
+      label: "Competence Page" 
       folder: "competenze"
       create: false 
       slug: "{{slug}}"
@@ -166,7 +166,7 @@ collections:
         - {label: "Competence4Abstract", name: "competence4Abstract", widget: "text"}
         - {label: "Competence4Img", name: "competence4Img", widget: "image"}
     - name: "partnership"
-      label: "Partnership" 
+      label: "Partnership Section" 
       folder: "partnership"
       create: false 
       slug: "{{slug}}"
@@ -181,7 +181,7 @@ collections:
         - {label: "SectionAbstract2", name: "sectionAbstract2", widget: "text"}
         - {label: "CtaTitle", name: "ctaTitle", widget: "string"}
     - name: "about"
-      label: "About" 
+      label: "About Page" 
       folder: "about"
       create: false 
       slug: "{{slug}}"
@@ -271,7 +271,7 @@ collections:
         - {label: "Image", name: "image", widget: "image"}
         - {label: "Abstract", name: "abstract", widget: "string"}
     - name: "DigitalTransformation"
-      label: "DigitalTransformation" 
+      label: "DigitalTransformation Page" 
       folder: "digital-transformation"
       create: false 
       slug: "{{slug}}"
@@ -317,7 +317,7 @@ collections:
         - {label: "Section6Box3Title", name: "section6Box3Title", widget: "string"}
         - {label: "Section6Box3Abstract", name: "section6Box3Abstract", widget: "text"}
     - name: "SviluppoWeb"
-      label: "SviluppoWeb" 
+      label: "SviluppoWeb Page" 
       folder: "sviluppo-web"
       create: false 
       slug: "{{slug}}"
@@ -404,7 +404,7 @@ collections:
         - {label: "Logo4", name: "logo4", widget: "image"}
         - {label: "Logo5", name: "logo5", widget: "image"}
     - name: "Design"
-      label: "Design" 
+      label: "Design Page" 
       folder: "design"
       create: false 
       slug: "{{slug}}"
@@ -482,7 +482,7 @@ collections:
         - {label: "section4Box2Title", name: "section4Box2Title", widget: "string"}
         - {label: "section4Box2Abstract", name: "section4Box2Abstract", widget: "image"}
     - name: "CollaborativeTeam"
-      label: "CollaborativeTeam" 
+      label: "CollaborativeTeam Page" 
       folder: "collaborative-team"
       create: false 
       slug: "{{slug}}"
