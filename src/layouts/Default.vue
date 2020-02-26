@@ -153,7 +153,7 @@
                       </div>
                     </div>
                     <div class="col-lg-12 text-right">
-                      <button type="submit" class="btn btn-secondary">Invia messaggio</button>
+                      <button type="submit" class="btn btn-secondary">Invia messaggio </button>
                     </div>
                   </div>
                 </form>
