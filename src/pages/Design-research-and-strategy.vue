@@ -312,8 +312,7 @@
     <div
       class="partnership pb-5"
       v-for="textPartnership in $page.textsPartnership.edges"
-      :key="textPartnership.id"
-    >
+      :key="textPartnership.id">
       <div class="partnership__box mb-5 py-5">
         <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
         <div class="container">
@@ -458,26 +457,39 @@ query {
 </page-query>
 <script>
 export default {
-  //   metaInfo: {
-  //     title: "About us"
-  // meta: [
-  //   { name: 'author', content: 'John Doe' }
-  // ],
-  // link: [
-  //   { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js' },
-  // ],
-  //   },
-  //   metaInfo: {
-  //     title: "About us",
-  //     meta: [
-  //       //   { name: 'author', content: 'John Doe' }
-  //     ],
-  //     link: [
-  //       { rel: "stylesheet", href: "https://unpkg.com/aos@2.3.1/dist/aos.css" }
-  //     ],
-  //     script: [{ src: "https://unpkg.com/aos@2.3.1/dist/aos.js", body: true }]
-  //     // etc...
-  //   },
+  metaInfo: {
+    title: "Design Research & Strategy - ",
+    meta: [
+      { name: "description", content: "" },
+      { property: "og:title", content: "" },
+      {
+        property: "og:description",
+        content: ""
+      },
+      {
+        property: "og:image",
+        content: ""
+      },
+      {
+        property: "twitter:card",
+        content: "summary"
+      },
+      {
+        property: "twitter:title",
+        content: ""
+      },
+      {
+        property: "twitter:description",
+        content: ""
+      },
+      {
+        property: "twitter:image",
+        content: ""
+      },
+      { property: "og:url", content: "" },
+      { name: "robots", content: "index, follow" }
+    ]
+  },
   data() {
     return {
       //   deviceWidth: 0

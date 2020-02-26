@@ -176,6 +176,41 @@ collections:
         - {label: "SectionTitle2", name: "sectionTitle2", widget: "string"}
         - {label: "SectionAbstract2", name: "sectionAbstract2", widget: "text"}
         - {label: "CtaTitle", name: "ctaTitle", widget: "string"}
+    - name: "CtaProject"
+      label: "Cta Project" 
+      folder: "cta-project"
+      create: false 
+      slug: "{{slug}}"
+      fields: 
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Description", name: "description", widget: "text"}
+        - {label: "Hashtags", name: "hashtags", widget: "string"}
+        - {label: "Image", name: "image", widget: "image"}
+        - {label: "Link", name: "link", widget: "string"}
+    - name: "projectsPage"
+      label: "Projects Page" 
+      folder: "projects"
+      create: false 
+      slug: "{{slug}}"
+      fields: 
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "HeaderTitle1", name: "headerTitle1", widget: "string"}
+        - {label: "HeaderTitle2", name: "headerTitle2", widget: "string"}
+        - {label: "HeaderImage", name: "headerImage", widget: "image"}
+        - {label: "ToolsName", name: "toolsName", widget: "string"}
+        - {label: "ToolsTitle", name: "toolsTitle", widget: "string"}
+        - {label: "ToolsBox1Title", name: "toolsBox1Title", widget: "string"}
+        - {label: "ToolsBox1Subtitle", name: "toolsBox1Subtitle", widget: "string"}
+        - {label: "ToolsBox1Hashtags", name: "toolsBox1Hashtags", widget: "string"}
+        - {label: "ToolsBox1Description", name: "toolsBox1Description", widget: "text"}
+        - {label: "ToolsBox2Title", name: "toolsBox2Title", widget: "string"}
+        - {label: "ToolsBox2Subtitle", name: "toolsBox2Subtitle", widget: "string"}
+        - {label: "ToolsBox2Hashtags", name: "toolsBox2Hashtags", widget: "string"}
+        - {label: "ToolsBox2Description", name: "toolsBox2Description", widget: "text"}
+        - {label: "ToolsBox3Title", name: "toolsBox3Title", widget: "string"}
+        - {label: "ToolsBox3Subtitle", name: "toolsBox3Subtitle", widget: "string"}
+        - {label: "ToolsBox3Hashtags", name: "toolsBox3Hashtags", widget: "string"}
+        - {label: "ToolsBox3Description", name: "toolsBox3Description", widget: "text"}
     - name: "about"
       label: "About Page" 
       folder: "about"

@@ -717,13 +717,36 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "About us"
-    // meta: [
-    //   { name: 'author', content: 'John Doe' }
-    // ],
-    // link: [
-    //   { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js' },
-    // ],
+    meta: [
+      { name: "description", content: "" },
+      { property: "og:title", content: "" },
+      {
+        property: "og:description",
+        content: ""
+      },
+      {
+        property: "og:image",
+        content: ""
+      },
+      {
+        property: "twitter:card",
+        content: "summary"
+      },
+      {
+        property: "twitter:title",
+        content: ""
+      },
+      {
+        property: "twitter:description",
+        content: ""
+      },
+      {
+        property: "twitter:image",
+        content: ""
+      },
+      { property: "og:url", content: "" },
+      { name: "robots", content: "index, follow" }
+    ]
   },
   data() {
     return {

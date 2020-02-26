@@ -5,6 +5,7 @@
         <div class="row">
           <div class="col-lg-4">
             <div class="pr-lg-5">
+              <g-image src="~/assets/images/deco3.svg" class="ml-5 pl-5"></g-image>
               <h3 class="mb-4">Passa da noi</h3>
               <h5>Terni</h5>
               <p>Piazza Europa, 5 - 05100 Terni(TR)</p>
@@ -18,16 +19,25 @@
           <div class="col-lg-3">
             <h3 class="mb-4 d-none d-lg-block">&nbsp;</h3>
             <h5>Scrivici</h5>
-            <p>info@logixcorp.com</p>
-            <h5>Seguici</h5>
+            <a href="mailto:info@logixcorp.com">info@logixcorp.com</a>
+            <h5 class="mt-3">Seguici</h5>
             <ul class="list-unstyled d-flex">
               <li>
-                <a href="#" target="_blank" rel="noopener noreferrer" class="mr-3">
+                <a
+                  href="https://www.facebook.com/SupportLogixSoftware/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mr-3"
+                >
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.instagram.com/logix.software/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
@@ -36,8 +46,12 @@
           <div class="col-lg-4">
             <h3 class="mb-4 d-none d-lg-block">&nbsp;</h3>
             <h5 class="d-none d-lg-block">&nbsp;</h5>
-            <p>Privacy & Cookie Policy</p>
-            <p>Condizioni Generali di Contarato</p>
+            <a
+              href="https://www.iubenda.com/privacy-policy/51005590"
+              class="iubenda-black iubenda-embed iubenda-custom"
+              title="Privacy Policy "
+            >Privacy Policy</a>
+            <!-- <p>Condizioni Generali di Contarato</p> -->
           </div>
         </div>
       </div>
@@ -79,9 +93,11 @@ export default {
   color: #fff;
   a {
     color: #fff;
+    
   }
   p {
     font-size: 16px;
   }
+  
 }
 </style>

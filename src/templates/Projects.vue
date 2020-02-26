@@ -274,9 +274,11 @@ export default {
       //   deviceWidth: 0
     };
   },
-  // metaInfo: {
-  //   title: "My blog"
-  // },
+  metaInfo() {
+    return {
+      title: this.$page.project.title
+    };
+  },
   mounted() {
     AOS.init();
   }

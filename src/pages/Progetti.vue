@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="hero hero--projects d-flex align-items-center">
+    <div class="hero hero--projects d-flex align-items-center" v-for="text in $page.texts.edges" :key="text.id">
       <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco1" />
       <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco2" />
       <div class="w-100">
@@ -9,18 +9,17 @@
           data-aos="fade-right"
           data-aos-delay="200"
           data-aos-duration="700"
-        >I nostri ultimi</h1>
+        >{{text.node.headerTitle1}}</h1>
         <h1
           class="hero__title text-right"
           data-aos="fade-left"
           data-aos-delay="200"
           data-aos-duration="700"
-        >progetti</h1>
-        
+        >{{text.node.headerTitle2}}</h1>
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <g-image src="~/assets/images/deco-projects.svg" class="hero__img" />
+              <g-image :src="text.node.headerImage" class="hero__img" />
             </div>
           </div>
         </div>
@@ -54,12 +53,12 @@
         </div>
       </div>
     </div>
-    <div class="tools py-5 my-lg-5">
+    <div class="tools py-5 my-lg-5" v-for="text in $page.texts.edges" :key="text.id">
       <div class="container mb-4">
         <div class="row">
           <div class="col-lg-5 mx-auto text-center mb-5">
-            <h6 class="tools__name">TOOL</h6>
-            <h1 class="tools__titleSection">Gli strumenti: linguaggi e framework</h1>
+            <h6 class="tools__name">{{text.node.toolsName}}</h6>
+            <h1 class="tools__titleSection">{{text.node.toolsTitle}}</h1>
           </div>
         </div>
       </div>
@@ -67,44 +66,44 @@
         <div class="row">
           <div class="col-lg-4 mb-5 mb-lg-0">
             <div class="tools__box">
-              <h1 class="tools__title">MES</h1>
-              <h6 class="tools__subtitle mb-3">SOFWARE PRODUZIONE</h6>
+              <h1 class="tools__title">{{text.node.toolsBox1Title}}</h1>
+              <h6 class="tools__subtitle mb-3">{{text.node.toolsBox1Subtitle}}</h6>
               <div class="mb-3">
                 <span class="label label--dev mr-3">DEVELOPMENT</span>
                 <span class="label label--des">DESIGN</span>
               </div>
-              <p class="tools__hashtags mb-4">#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
+              <p class="tools__hashtags mb-4">{{text.node.toolsBox1Hashtags}}</p>
               <p
                 class="tools__description"
-              >Il mondo del design include all’interno molteplici ruoli, metodi e strumenti che vanno ben oltre la semplice immagine o l’aspetto d.ruoli, metodi e strumenti che vanno ben oltre la semplice immagine o l’aspetto.</p>
+              >{{text.node.toolsBox1Description}}</p>
             </div>
           </div>
           <div class="col-lg-4 mb-5 mb-lg-0">
             <div class="tools__box">
-              <h1 class="tools__title">MES</h1>
-              <h6 class="tools__subtitle mb-3">SOFWARE PRODUZIONE</h6>
+              <h1 class="tools__title">{{text.node.toolsBox2Title}}</h1>
+              <h6 class="tools__subtitle mb-3">{{text.node.toolsBox2Subtitle}}</h6>
               <div class="mb-3">
                 <span class="label label--dev mr-3">DEVELOPMENT</span>
                 <span class="label label--des">DESIGN</span>
               </div>
-              <p class="tools__hashtags mb-4">#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
+              <p class="tools__hashtags mb-4">{{text.node.toolsBox2Hashtags}}</p>
               <p
                 class="tools__description"
-              >Il mondo del design include all’interno molteplici ruoli, metodi e strumenti che vanno ben oltre la semplice immagine o l’aspetto d.ruoli, metodi e strumenti che vanno ben oltre la semplice immagine o l’aspetto.</p>
+              >{{text.node.toolsBox2Description}}</p>
             </div>
           </div>
           <div class="col-lg-4 mb-5 mb-lg-0">
             <div class="tools__box">
-              <h1 class="tools__title">MES</h1>
-              <h6 class="tools__subtitle mb-3">SOFWARE PRODUZIONE</h6>
+              <h1 class="tools__title">{{text.node.toolsBox3Title}}</h1>
+              <h6 class="tools__subtitle mb-3">{{text.node.toolsBox3Subtitle}}</h6>
               <div class="mb-3">
                 <span class="label label--dev mr-3">DEVELOPMENT</span>
                 <span class="label label--des">DESIGN</span>
               </div>
-              <p class="tools__hashtags mb-4">#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
+              <p class="tools__hashtags mb-4">{{text.node.toolsBox3Hashtags}}</p>
               <p
                 class="tools__description"
-              >Il mondo del design include all’interno molteplici ruoli, metodi e strumenti che vanno ben oltre la semplice immagine o l’aspetto d.ruoli, metodi e strumenti che vanno ben oltre la semplice immagine o l’aspetto.</p>
+              >{{text.node.toolsBox3Description}}</p>
             </div>
           </div>
         </div>
@@ -190,6 +189,30 @@
 </template>
 <page-query>
 query {
+  texts: allProjectsPage {
+    edges {
+      node {
+        title
+        headerTitle1
+        headerTitle2
+        headerImage
+        toolsName
+        toolsTitle
+        toolsBox1Title
+        toolsBox1Subtitle
+        toolsBox1Hashtags
+        toolsBox1Description
+        toolsBox2Title
+        toolsBox2Subtitle
+        toolsBox2Hashtags
+        toolsBox2Description
+        toolsBox3Title
+        toolsBox3Subtitle
+        toolsBox3Hashtags
+        toolsBox3Description
+      }
+    }
+  },
   projects: allProjects(order: DESC) {
     edges {
       node {
@@ -230,26 +253,39 @@ query {
 </page-query>
 <script>
 export default {
-  //   metaInfo: {
-  //     title: "About us"
-  // meta: [
-  //   { name: 'author', content: 'John Doe' }
-  // ],
-  // link: [
-  //   { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js' },
-  // ],
-  //   },
-  //   metaInfo: {
-  //     title: "About us",
-  //     meta: [
-  //       //   { name: 'author', content: 'John Doe' }
-  //     ],
-  //     link: [
-  //       { rel: "stylesheet", href: "https://unpkg.com/aos@2.3.1/dist/aos.css" }
-  //     ],
-  //     script: [{ src: "https://unpkg.com/aos@2.3.1/dist/aos.js", body: true }]
-  //     // etc...
-  //   },
+  metaInfo: {
+    title: "Progetti - ",
+    meta: [
+      { name: "description", content: "" },
+      { property: "og:title", content: "" },
+      {
+        property: "og:description",
+        content: ""
+      },
+      {
+        property: "og:image",
+        content: ""
+      },
+      {
+        property: "twitter:card",
+        content: "summary"
+      },
+      {
+        property: "twitter:title",
+        content: ""
+      },
+      {
+        property: "twitter:description",
+        content: ""
+      },
+      {
+        property: "twitter:image",
+        content: ""
+      },
+      { property: "og:url", content: "" },
+      { name: "robots", content: "index, follow" }
+    ]
+  },
   data() {
     return {
       //   deviceWidth: 0

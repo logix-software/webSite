@@ -292,25 +292,25 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <div class="caseHistoryCompetenze">
-              <div class="d-lg-flex align-items-center justify-content-between">
+              <div class="d-lg-flex align-items-center justify-content-between" v-for="textCtaProject in $page.textsCtaProject.edges" :key="textCtaProject.id">
                 <div class="d-lg-flex align-items-start">
-                  <g-image src="~/assets/images/cta-case.png" class="caseHistoryCompetenze__img" />
+                  <g-image :src="textCtaProject.node.image" class="caseHistoryCompetenze__img" />
                   <div class="caseHistoryCompetenze__body ml-4">
                     <div class="mb-2">
                       <span class="label label--dev mr-3">DEVELOPMENT</span>
                       <span class="label label--des">DESIGN</span>
                     </div>
-                    <h1 class="caseHistoryCompetenze__title">Acta: il registro elettronico</h1>
+                    <h1 class="caseHistoryCompetenze__title">{{textCtaProject.node.title}}</h1>
                     <p
                       class="caseHistoryCompetenze__description"
-                    >Last month, my wife, Anne Doe, took me to Las Vegas because she had to go for convention.</p>
+                    >{{textCtaProject.node.description}}</p>
                     <p
                       class="caseHistoryCompetenze__tags"
-                    >#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
+                    >{{textCtaProject.node.hashtags}}</p>
                   </div>
                 </div>
                 <div class="text-right">
-                  <g-link to class="caseHistoryCompetenze__link">_Scopri di più</g-link>
+                  <g-link :to="textCtaProject.node.link" class="caseHistoryCompetenze__link">_Scopri di più</g-link>
                 </div>
               </div>
             </div>
@@ -431,31 +431,55 @@ query {
         ctaTitle
       }
     }
+  },
+  textsCtaProject: allCtaProject {
+    edges {
+      node {
+        title
+        hashtags
+        image
+        description
+        link
+      }
+    }
   }
 }
 </page-query>
 <script>
 export default {
-  //   metaInfo: {
-  //     title: "About us"
-  // meta: [
-  //   { name: 'author', content: 'John Doe' }
-  // ],
-  // link: [
-  //   { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js' },
-  // ],
-  //   },
-  //   metaInfo: {
-  //     title: "About us",
-  //     meta: [
-  //       //   { name: 'author', content: 'John Doe' }
-  //     ],
-  //     link: [
-  //       { rel: "stylesheet", href: "https://unpkg.com/aos@2.3.1/dist/aos.css" }
-  //     ],
-  //     script: [{ src: "https://unpkg.com/aos@2.3.1/dist/aos.js", body: true }]
-  //     // etc...
-  //   },
+  metaInfo: {
+    title: "Digital Transformation - ",
+    meta: [
+      { name: "description", content: "" },
+      { property: "og:title", content: "" },
+      {
+        property: "og:description",
+        content: ""
+      },
+      {
+        property: "og:image",
+        content: ""
+      },
+      {
+        property: "twitter:card",
+        content: "summary"
+      },
+      {
+        property: "twitter:title",
+        content: ""
+      },
+      {
+        property: "twitter:description",
+        content: ""
+      },
+      {
+        property: "twitter:image",
+        content: ""
+      },
+      { property: "og:url", content: "" },
+      { name: "robots", content: "index, follow" }
+    ]
+  },
   data() {
     return {
       //   deviceWidth: 0

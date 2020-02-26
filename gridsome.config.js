@@ -1,5 +1,5 @@
 module.exports = {
-  siteName: 'website',
+  siteName: 'Logix Software',
   siteUrl: '',
   
   plugins: [
@@ -37,6 +37,16 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        path: 'projects/**/*.md',
+        typeName: 'ProjectsPage',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         path: 'competenze/**/*.md',
         typeName: 'Competence',
         remark: {
@@ -49,6 +59,16 @@ module.exports = {
       options: {
         path: 'partnership/**/*.md',
         typeName: 'Partnership',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'cta-project/**/*.md',
+        typeName: 'CtaProject',
         remark: {
           // remark options
         }
@@ -104,6 +124,12 @@ module.exports = {
         }
       }
     },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-69717466-1'
+      }
+    }
   ],
   transformers: {
     remark: {
