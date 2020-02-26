@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="79px" viewBox="0 0 79 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>75E7B53D-899E-41E7-BB60-8A36FB1EDF46@3x</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A.2.2---Contattaci" transform="translate(-877.000000, -416.000000)">
+            <g id="icon/sendmessage" transform="translate(877.000000, 416.000000)">
+                <g>
+                    <g id="Group-Copy" transform="translate(39.500000, 39.500000) scale(-1, 1) translate(-39.500000, -39.500000) translate(26.000000, 30.000000)" stroke="#36F2B9" stroke-linecap="square" stroke-width="3">
+                        <line x1="18.5" y1="18.5" x2="26.516129" y2="9.42857143" id="Line-3-Copy"></line>
+                        <line x1="0.5" y1="18.5" x2="18.5" y2="0.5" id="Line-3-Copy" transform="translate(9.500000, 9.500000) scale(-1, 1) translate(-9.500000, -9.500000) "></line>
+                    </g>
+                    <circle id="Oval" stroke="#F6F7FA" stroke-width="2" cx="39.5" cy="39.5" r="38.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

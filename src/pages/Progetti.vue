@@ -371,7 +371,7 @@ export default {
     width: 100%;
     height: 700px;
     border-radius: 5px;
-    background-image: url("~@/assets/images/project.png");
+    // background-image: url("~@/assets/images/project.png");
     background-size: cover;
     background-position: center;
     position: relative;

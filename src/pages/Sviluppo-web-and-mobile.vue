@@ -142,11 +142,11 @@
             <h1 class="integration__name">> {{text.node.integrationName}}</h1>
           </div>
           <div class="d-flex align-items-center mx-lg-5 px-lg-5 my-4 my-lg-0">
-            <g-image :src="integration1Icon" class="integration__img" />
+            <g-image :src="text.node.integration1Icon" class="integration__img" />
             <h2 class="integration__title ml-3">{{text.node.integration1}}</h2>
           </div>
           <div class="d-flex align-items-center ml-lg-5">
-            <g-image :src="integration2Icon" class="integration__img" />
+            <g-image :src="text.node.integration2Icon" class="integration__img" />
             <h2 class="integration__title ml-3">{{text.node.integration2}}</h2>
           </div>
         </div>
@@ -547,7 +547,6 @@ export default {
 .hero {
   width: 100%;
   height: 750px;
-  background-image: url("~@/assets/images/hero-web.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;

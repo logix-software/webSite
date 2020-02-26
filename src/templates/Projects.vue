@@ -111,7 +111,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-9 mx-auto">
-            <g-image src="~/assets/images/project2.png" class="projectSecondary__img" />
+            <g-image :src="$page.project.section3Image" class="projectSecondary__img" />
           </div>
         </div>
       </div>
@@ -459,7 +459,7 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("~@/assets/images/project.jpg");
+    // background-image: url("~@/assets/images/project.jpg");
   }
 }
 .projectSecondary {

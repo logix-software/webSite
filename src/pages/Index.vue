@@ -1323,7 +1323,7 @@ export default {
     }
   }
   &__textBg {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
     font-family: "Lexend Deca";
     font-size: 161px !important;
     letter-spacing: -9.63px;

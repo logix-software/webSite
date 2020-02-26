@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon/day_1@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="51.2" height="51.2"></rect>
+        <polygon id="path-3" points="7.67999999e-05 0.0006144 23.920128 0.0006144 23.920128 39.4857216 7.67999999e-05 39.4857216"></polygon>
+    </defs>
+    <g id="icon/day_1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/advantage/1" transform="translate(6.000000, 6.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group" mask="url(#mask-2)">
+                <g transform="translate(11.776000, 27.648000)">
+                    <polygon id="Stroke-2" stroke="#7878F9" stroke-width="0.5" fill="none" points="31.744 11.653866 27.3494915 14.336 27.136 13.946134 31.5305085 11.264"></polygon>
+                    <polygon id="Stroke-5" stroke="#7878F9" stroke-width="0.5" fill="none" points="19.968 11.653866 15.5734915 14.336 15.36 13.946134 19.7545085 11.264"></polygon>
+                    <polygon id="Stroke-7" stroke="#7878F9" stroke-width="0.5" fill="none" points="7.68 11.653866 3.28549148 14.336 3.072 13.946134 7.46650852 11.264"></polygon>
+                    <polygon id="Stroke-24" stroke="#7878F9" stroke-width="0.5" fill="none" points="31.744 0.391440986 27.3494915 3.072 27.136 2.68055901 31.5305085 5.7909233e-14"></polygon>
+                    <polygon id="Stroke-27" stroke="#7878F9" stroke-width="0.5" fill="none" points="16.896 0.391440986 12.5014915 3.072 12.288 2.68055901 16.6825085 5.7909233e-14"></polygon>
+                    <polygon id="Stroke-30" stroke="#7878F9" stroke-width="0.5" fill="none" points="4.608 0.391440986 0.213491475 3.072 8.14637247e-13 2.68055901 4.39450852 5.7909233e-14"></polygon>
+                    <polygon id="Fill-53" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="28.4585085 14.336 24.064 17.018134 24.2774915 17.408 28.672 14.725866"></polygon>
+                    <polygon id="Fill-54" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="16.6825085 14.336 12.288 17.018134 12.5014915 17.408 16.896 14.725866"></polygon>
+                    <polygon id="Fill-55" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="4.39450852 14.336 8.14637247e-13 17.018134 0.213491475 17.408 4.608 14.725866"></polygon>
+                    <polygon id="Fill-63" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="24.064 5.75255901 24.2774915 6.144 28.672 3.46344099 28.4585085 3.072"></polygon>
+                    <polygon id="Fill-64" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="16.896 3.46344099 12.5014915 6.144 12.288 5.75255901 16.6825085 3.072"></polygon>
+                    <polygon id="Fill-65" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="4.608 3.46344099 0.213491475 6.144 8.14637247e-13 5.75255901 4.39450852 3.072"></polygon>
+                </g>
+            </g>
+            <g id="Group-13" mask="url(#mask-2)">
+                <g transform="translate(7.680000, 5.632000)">
+                    <g id="Group-10">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M10.0578048,4.8827904 L17.1917568,0.6680064 L23.0608128,4.0564224 L20.6085888,5.5048704 L15.9268608,8.2712064 L10.0578048,4.8827904 Z M15.6403968,38.6540544 L8.9595648,34.7963904 L8.9595648,18.7905024 C8.9595648,16.8428544 8.9964288,15.0541824 9.0678528,13.4751744 L9.0809088,13.1963904 L4.2532608,15.2331264 L0.8049408,8.3480064 L9.4587648,5.2022784 L15.6403968,8.7711744 L15.6403968,38.6540544 Z M8.2291968,3.8974464 L14.3716608,1.6648704 L9.3635328,4.6239744 L8.9296128,4.7814144 L3.2233728,6.8550144 L8.2291968,3.8974464 Z M17.1886848,0.0006144 L17.0658048,0.0720384 L8.0080128,3.3644544 L0.2788608,7.9256064 L7.67999999e-05,8.0269824 L3.9706368,15.9542784 C3.9706368,15.9542784 8.1055488,14.2953984 8.4672768,14.0527104 C8.4119808,15.4881024 8.3835648,17.0778624 8.3835648,18.7905024 L8.3835648,35.1297024 L15.9299328,39.4857984 L23.9202048,34.7649024 L23.9202048,3.8866944 L17.1886848,0.0006144 Z" id="Fill-1" fill="#7878F9" mask="url(#mask-4)"></path>
+                    </g>
+                    <g id="Group-9">
+                        <g id="Group-8" transform="translate(4.096000, 22.528000)"></g>
+                        <g id="Group-3"></g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <rect id="Rectangle" x="0" y="-2" width="64" height="65"></rect>
+    </g>
+</svg>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon/vue</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="26.5" cy="26.5" r="26.5"></circle>
+        <rect id="path-3" x="0" y="0" width="52.6942308" height="52.6942308"></rect>
+    </defs>
+    <g id="icon/vue" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6">
+            <g id="Placeholders-/-Icon-/-80px-Copy">
+                <g id="Group-12">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="◼️-Background" fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+            </g>
+            <g id="logo/vue">
+                <g stroke-width="1" fill-rule="evenodd" transform="translate(10.701923, 11.729243)" id="Vue.js_Logo_2">
+                    <g fill-rule="nonzero">
+                        <g id="Group" transform="translate(16.496591, 14.574191) scale(-1, 1) rotate(-180.000000) translate(-16.496591, -14.574191) translate(0.318325, 0.923779)">
+                            <g transform="translate(0.009313, 0.001545)" fill="#111111" id="Path">
+                                <polygon points="18.7809038 26.4234183 15.2623558 20.3562306 11.7438078 26.4234183 0.0265416078 26.4234183 15.2623558 0.151432456 30.49817 26.4234183"></polygon>
+                            </g>
+                            <g transform="translate(6.062662, 10.509103)" fill="#D1D1D1" id="Path">
+                                <polygon points="12.7275546 15.9158601 9.20900664 9.84867244 5.69045863 15.9158601 0.0675181252 15.9158601 9.20900664 0.152977685 18.3504951 15.9158601"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Mask"></g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -384,7 +384,6 @@
               <div class="skill__body">
                 <div class="my-3">
                   <span class="label label--dev mr-2">Development</span>
-                  <span class="label label--des mx-2">Design</span>
                 </div>
                 <h1 class="skill__title">{{text.node.competence2Title}}</h1>
                 <div class="skill__line mb-3"></div>
@@ -402,7 +401,6 @@
             <div class="col-lg-9 d-flex align-items-center skill skill--right py-5 mb-4">
               <div class="skill__body">
                 <div class="my-3">
-                  <span class="label label--dev mr-2">Development</span>
                   <span class="label label--des mx-2">Design</span>
                 </div>
                 <h1 class="skill__title">{{text.node.competence3Title}}</h1>
@@ -439,7 +437,11 @@
         </div>
       </div>
     </div>
-    <div class="partnership py-5" v-for="textPartnership in $page.textsPartnership.edges" :key="textPartnership.id">
+    <div
+      class="partnership py-5"
+      v-for="textPartnership in $page.textsPartnership.edges"
+      :key="textPartnership.id"
+    >
       <div class="partnership__box my-5 py-5">
         <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
         <div class="container">
@@ -461,9 +463,9 @@
         <div class="row">
           <div class="col-lg-5 mx-auto text-center py-5">
             <h1 class="partnership__titleClosing mb-4">{{textPartnership.node.sectionTitle2}}</h1>
-            <p class="partnership__descriptionClosing mb-5">
-              {{textPartnership.node.sectionAbstract2}}
-            </p>
+            <p
+              class="partnership__descriptionClosing mb-5"
+            >{{textPartnership.node.sectionAbstract2}}</p>
             <div>
               <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
               <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
@@ -477,9 +479,7 @@
             <div class="cta cta--black">
               <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
               <div class="d-flex align-items-center justify-content-between w-75">
-                <h1 class="cta__title">
-                  {{textPartnership.node.ctaTitle}}
-                </h1>
+                <h1 class="cta__title">{{textPartnership.node.ctaTitle}}</h1>
               </div>
             </div>
           </div>
@@ -745,7 +745,8 @@ export default {
     }
   }
   &__deco {
-    width: 100%;
+    width: 80%;
+    margin-top: 30px;
   }
   &__name {
     color: #ffffff;
@@ -765,7 +766,7 @@ export default {
     font-weight: bold;
     letter-spacing: -1.28px;
     line-height: 44px;
-    width: 50%;
+    width: 70%;
     @media screen and (max-width: 992px) {
       width: 100%;
       font-size: 30px;
@@ -822,6 +823,10 @@ export default {
     }
     .col-right {
       order: 0;
+      .step__keyWord {
+         @media screen and (min-width: 992px) {
+        margin-top: 1.5rem;}
+      }
       @media screen and (max-width: 992px) {
         order: 1;
       }

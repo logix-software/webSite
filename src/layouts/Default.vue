@@ -89,8 +89,9 @@
                   <p class="modalContact__text">Passa: Piazza Europa, 5 - 05100 Terni(TR)</p>
                 </div>
                 <div class="col-lg-8 pl-lg-5 d-flex align-items-center text-center" v-if="formSent==true">
-                  <div class="formSent">
+                  <div class="formSent text-center">
                     <h1 class="modalContact__title">Grazie per averci contattato</h1>
+                    <g-image src="~/assets/images/icons/sent.svg" class="mt-3 mx-auto" />
                   </div>
                 </div>
                 <form

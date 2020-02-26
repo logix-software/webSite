@@ -201,7 +201,6 @@ export default {
 .hero {
   width: 100%;
   height: 750px;
-  // background-image: url("~@/assets/images/hero-design.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;

@@ -111,7 +111,7 @@
           <div class="row">
             <div class="col-lg-5 mx-auto text-center">
               <h6 class="tool__name">{{text.node.tools2Name}}</h6>
-              <h1 class="tool__titleSection">tools2Abstract</h1>
+              <h1 class="tool__titleSection">{{text.node.tools2Abstract}}</h1>
             </div>
           </div>
           <div class="row py-5">
@@ -208,7 +208,7 @@
         <div class="container py-5">
           <div class="row align-items-center">
             <div class="col-lg-4 ml-auto">
-              <g-image src="~/assets/images/designpack.png" class="technology__img mb-4 mb-lg-0" />
+              <g-image :src="text.node.designPackImg" class="technology__img mb-4 mb-lg-0" />
             </div>
             <div class="col-lg-4 mr-auto">
               <h1 class="technology__title">{{text.node.designPackTitle}}</h1>
@@ -227,11 +227,10 @@
               <p class="day__name mb-0">{{text.node.day1Name}}</p>
               <h6 class="day__title">{{text.node.day1Title}}</h6>
               <div class="mb-3">
-                <span
-                  data-v-00d6a066
-                  class="mb-1 mb-lg-0 d-inline-block label label--dev mr-lg-3"
+                <span 
+                  class="mb-1 mb-lg-0  label label--dev mr-lg-3"
                 >DEVELOPMENT</span>
-                <span data-v-00d6a066 class="d-inline-block label label--des">DESIGN</span>
+                <span class=" label label--des">DESIGN</span>
               </div>
               <p
                 class="day__description"
@@ -244,11 +243,9 @@
               <p class="day__name mb-0">{{text.node.day2Name}}</p>
               <h6 class="day__title">{{text.node.day2Title}}</h6>
               <div class="mb-3">
-                <span
-                  data-v-00d6a066
-                  class="mb-1 mb-lg-0 d-inline-block label label--dev mr-lg-3"
+                <span class="mb-1 mb-lg-0  label label--dev mr-lg-3"
                 >DEVELOPMENT</span>
-                <span data-v-00d6a066 class="d-inline-block label label--des">DESIGN</span>
+                <span class="label label--des">DESIGN</span>
               </div>
               <p
                 class="day__description"
@@ -261,11 +258,9 @@
               <p class="day__name mb-0">{{text.node.day3Name}}</p>
               <h6 class="day__title">{{text.node.day3Title}}</h6>
               <div class="mb-3">
-                <span
-                  data-v-00d6a066
-                  class="mb-1 mb-lg-0 d-inline-block label label--dev mr-lg-3"
+                <span class="mb-1 mb-lg-0  label label--dev mr-lg-3"
                 >DEVELOPMENT</span>
-                <span data-v-00d6a066 class="d-inline-block label label--des">DESIGN</span>
+                <span class="label label--des">DESIGN</span>
               </div>
               <p
                 class="day__description"
@@ -278,11 +273,9 @@
               <p class="day__name mb-0">{{text.node.day4Name}}</p>
               <h6 class="day__title">{{text.node.day4Title}}</h6>
               <div class="mb-3">
-                <span
-                  data-v-00d6a066
-                  class="mb-1 mb-lg-0 d-inline-block label label--dev mr-lg-3"
+                <span class="mb-1 mb-lg-0  label label--dev mr-lg-3"
                 >DEVELOPMENT</span>
-                <span data-v-00d6a066 class="d-inline-block label label--des">DESIGN</span>
+                <span class="label label--des">DESIGN</span>
               </div>
               <p
                 class="day__description"
@@ -396,6 +389,7 @@ query {
         section2Link
         section2Image
         tools2Name
+        tools2Abstract
         tools2Box1Icon
         tools2Box1Title
         tools2Box1Abstract
@@ -501,7 +495,6 @@ export default {
 .hero {
   width: 100%;
   height: 750px;
-  background-image: url("~@/assets/images/hero-design.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
