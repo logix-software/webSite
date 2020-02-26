@@ -448,7 +448,7 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Digital Transformation - ",
+    title: "Digital Transformation",
     meta: [
       { name: "description", content: "" },
       { property: "og:title", content: "" },

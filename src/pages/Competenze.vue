@@ -586,7 +586,7 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Competenze - ",
+    title: "Competenze",
     meta: [
       { name: "description", content: "" },
       { property: "og:title", content: "" },

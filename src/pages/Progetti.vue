@@ -254,7 +254,7 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Progetti - ",
+    title: "Progetti",
     meta: [
       { name: "description", content: "" },
       { property: "og:title", content: "" },

@@ -165,7 +165,7 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Collaborative Team - ",
+    title: "Collaborative Team",
     meta: [
       { name: "description", content: "" },
       { property: "og:title", content: "" },

@@ -392,7 +392,7 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Chi siamo - ",
+    title: "Chi siamo",
     meta: [
       { name: "description", content: "" },
       { property: "og:title", content: "" },

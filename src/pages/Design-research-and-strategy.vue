@@ -458,7 +458,7 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Design Research & Strategy - ",
+    title: "Design Research & Strategy",
     meta: [
       { name: "description", content: "" },
       { property: "og:title", content: "" },

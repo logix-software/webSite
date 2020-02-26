@@ -522,7 +522,7 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Sviluppo Web & Mobile - ",
+    title: "Sviluppo Web & Mobile",
     meta: [
       { name: "description", content: "" },
       { property: "og:title", content: "" },
