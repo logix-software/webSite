@@ -1,5 +1,5 @@
 ---
-title: Logix Software - Digital transformation
+title: Progetti
 headerTitle1: I nostri ultimi
 headerTitle2: progetti
 headerImage: /uploads/hero-projects.svg
