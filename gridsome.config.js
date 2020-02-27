@@ -124,12 +124,12 @@ module.exports = {
         }
       }
     },
-    {
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: 'UA-69717466-1'
-      }
-    }
+    // {
+    //   use: '@gridsome/plugin-google-analytics',
+    //   options: {
+    //     id: 'UA-69717466-1'
+    //   }
+    // }
   ],
   transformers: {
     remark: {

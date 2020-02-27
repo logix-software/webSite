@@ -3,6 +3,31 @@
     <Navbar />
     <slot />
     <Footer />
+    <div class="cookies py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-2 col-lg-1 d-flex align-items-center justify-content-between">
+            <div>
+              <i class="fas fa-cookie"></i>
+            </div>
+          </div>
+          <div class="col-10 col-lg-8">
+            <p class="mb-0">
+              Questo sito fa uso di cookie per migliorare l’esperienza di navigazione degli utenti e per raccogliere informazioni sull’utilizzo del sito stesso. Può conoscere i dettagli consultando la nostra privacy policy
+              <a
+                href="https://www.iubenda.com/privacy-policy/51005590"
+                target="_blank"
+                rel="noopener noreferrer"
+              >qui</a>. Selezionando accetta si acconsente all’uso dei cookie.
+            </p>
+          </div>
+          <div class="col-lg-3 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
+            <g-link to="/cookies-not-accpted" class="btn btn-negative mr-3">Nega</g-link>
+            <button class="btn btn-primary" @click="hideCookies()">Accetta</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Modal -->
     <div
       class="modal fade modalContact"
@@ -88,14 +113,17 @@
                   <p class="modalContact__text">Chiamaci: 0744/283733</p>
                   <p class="modalContact__text">Passa: Piazza Europa, 5 - 05100 Terni(TR)</p>
                 </div>
-                <div class="col-lg-8 pl-lg-5 d-flex align-items-center text-center" v-if="formSent==true">
+                <div
+                  class="col-lg-8 pl-lg-5 d-flex align-items-center text-center"
+                  v-if="formSent==true"
+                >
                   <div class="formSent text-center">
                     <h1 class="modalContact__title">Grazie per averci contattato</h1>
                     <g-image src="~/assets/images/icons/sent.svg" class="mt-3 mx-auto" />
                   </div>
                 </div>
                 <form
-                v-else
+                  v-else
                   class="col-lg-8 pl-lg-5 d-flex align-items-center"
                   name="contact"
                   method="post"
@@ -153,7 +181,7 @@
                       </div>
                     </div>
                     <div class="col-lg-12 text-right">
-                      <button type="submit" class="btn btn-secondary">Invia messaggio </button>
+                      <button type="submit" class="btn btn-secondary">Invia messaggio</button>
                     </div>
                   </div>
                 </form>
@@ -187,7 +215,7 @@ export default {
   data() {
     return {
       formData: {},
-      formSent: false,
+      formSent: false
     };
   },
   methods: {
@@ -199,7 +227,7 @@ export default {
         .join("&");
     },
     handleSubmit(e) {
-      var _this=this;
+      var _this = this;
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -208,8 +236,23 @@ export default {
           ...this.formData
         })
       })
-        .then(() => _this.formSent= true)
+        .then(() => (_this.formSent = true))
         .catch(error => alert(error));
+    },
+
+    checkCookies: function() {
+      if (document.cookie.match(/cookies=1/gi)) {
+        $(".cookies").hide();
+      }
+    },
+    hideCookies: function() {
+      document.cookie = "cookies=1; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/;";
+      this.checkCookies();
+    }
+  },
+  mounted() {
+    if (document.cookie.match(/cookies=1/gi)) {
+      $(".cookies").hide();
     }
   }
 };
@@ -290,6 +333,30 @@ h6 {
   &:hover {
     border: 1px solid transparent !important;
     background-color: #e0e7fc !important;
+    box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.18) !important;
+    color: #3838c4 !important;
+  }
+  &:focus,
+  &:active {
+    box-shadow: none !important;
+    color: #3838c4 !important;
+    border: 1px solid #3838c4 !important;
+    background-color: #ffffff !important;
+  }
+}
+.btn-negative {
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  color: #3838c4 !important;
+  font-weight: 700 !important;
+  font-size: 17px;
+  outline: none !important;
+  opacity: 0.8;
+  box-shadow: none !important;
+  border: 1px solid transparent !important;
+  &:hover {
+    border: 1px solid transparent !important;
+    background-color: transparent !important;
     box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.18) !important;
     color: #3838c4 !important;
   }
@@ -527,29 +594,29 @@ h6 {
   }
 }
 .modal-dialog {
-  max-width: 100%!important;
-  height: 100%!important;
-  margin: 0!important;
-  padding: 0!important;
+  max-width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 .modal-content {
-  background-color: #000!important;
+  background-color: #000 !important;
 }
 .modal-header {
-  border: 0!important;
+  border: 0 !important;
 }
 .modal-content {
-  height: auto!important;
-  min-height: 100%!important;
-  border-radius: 0!important;
+  height: auto !important;
+  min-height: 100% !important;
+  border-radius: 0 !important;
 }
 .close {
-  position: absolute!important;
-  right: 15px!important;
-  top: 0!important;
+  position: absolute !important;
+  right: 15px !important;
+  top: 0 !important;
 }
 .modalContact {
-  color: #ffffff!important;
+  color: #ffffff !important;
   &__deco {
   }
   &__title {
@@ -690,6 +757,25 @@ input:focus ~ .highlight {
   to {
     width: 0;
     background: transparent;
+  }
+}
+.cookies {
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999999;
+  .fa-cookie {
+    font-size: 36px;
+  }
+  p {
+    a {
+      color: #fff;
+      font-weight: bold;
+      text-decoration: underline;
+    }
   }
 }
 </style>
