@@ -57,10 +57,10 @@ workForUsDescription2: >-
   Per candidarti a queste posizioni o se pensi che Logix sia il posto giusto per
   te, scrivici allegando il tuo curriculum a:
 workForUsDescription3: 'Se hai dubbi o vuoi sapere di più su di noi siamo a tua disposizione:)'
-numberPosition: 3
+numberPosition: 2
 position1Title: Frontend Developer
 position1Location: Terni / REMOTO
-position2Title: Frontend Developer
+position2Title: Backend Developer
 position2Location: Terni / REMOTO
 position3Title: Frontend Developer
 position3Location: Terni / REMOTO
