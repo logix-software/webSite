@@ -18,19 +18,28 @@ section1Abstract: >-
   ridimensionamento, al restauro dei prodotti digitali.
 slider1Slide1Title: Digital transformation
 slider1Slide1Abstract: >-
-  Attraverso un percorso iterativo ci interroghiamo sulle richieste del mercato e, insieme, progettiamo le più efficienti logiche digitali. Un approccio collaborativo col cliente e con gli stakeholder che permette di ottimizzare costi e tempi.
+  Attraverso un percorso iterativo ci interroghiamo sulle richieste del mercato
+  e, insieme, progettiamo le più efficienti logiche digitali. Un approccio
+  collaborativo col cliente e con gli stakeholder che permette di ottimizzare
+  costi e tempi.
 slider1Slide1Image: /uploads/img-digital.png
 slider1Slide2Title: Sviluppo Web & Mobile
 slider1Slide2Abstract: >-
-  Seguendo la metodologia agile dall’analisi al test costruiamo prodotti in linea con le esigenze di ciascun cliente, realizzando progetti web e mobile che si adattano alle diverse piattaforme esistenti.
+  Seguendo la metodologia agile dall’analisi al test costruiamo prodotti in
+  linea con le esigenze di ciascun cliente, realizzando progetti web e mobile
+  che si adattano alle diverse piattaforme esistenti.
 slider1Slide2Image: /uploads/img-development.png
 slider1Slide3Title: Design research & strategy
 slider1Slide3Abstract: >-
-  Dalla comprensione delle esigenze, all’analisi dei requisiti, grazie all’osservazione degli utenti, progettiamo ed elaboriamo soluzioni creative ed efficaci, in grado di stupire e dare fiducia.
+  Dalla comprensione delle esigenze, all’analisi dei requisiti, grazie
+  all’osservazione degli utenti, progettiamo ed elaboriamo soluzioni creative ed
+  efficaci, in grado di stupire e dare fiducia.
 slider1Slide3Image: /uploads/img-design.png
 slider1Slide4Title: Collaborative team
 slider1Slide4Abstract: >-
-  Il nostro team di professionisti è in grado di affiancare il team delle aziende clienti, offrendo le professionalità, le competenze, gli strumenti ed i metodi migliori nel breve periodo.
+  Il nostro team di professionisti è in grado di affiancare il team delle
+  aziende clienti, offrendo le professionalità, le competenze, gli strumenti ed
+  i metodi migliori nel breve periodo.
 slider1Slide4Image: /uploads/img-collaborative.png
 slider1Slide5Title: Digital transformation
 slider1Slide5Abstract: >-
@@ -61,7 +70,6 @@ section2Logo3: /uploads/logo-vue.png
 section2Logo4: /uploads/logo-net.png
 section2Logo5: /uploads/logo-php.png
 section2Logo6: /uploads/logo-java.png
-section2Logo7: /uploads/logo-ionic.png
 cta1Title: Pronto a realizzare la tua prossima innovazione?
 cta1Link: link
 section3Title: Cosa vogliamo perseguire
@@ -72,17 +80,20 @@ section3Abstract: >-
 slider2slide1Title: Made in Italy
 slider2slide1BgText: Made in Italy
 slider2slide1Abstract: >-
-  Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono il Made in Italy.
+  Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono
+  il Made in Italy.
 slider2slide1Image: /uploads/madeinitaly.png
 slider2slide2Title: Digital nel sociale
 slider2slide2BgText: Sociale
 slider2slide2Abstract: >-
-  Crediamo che il fattore trainante dell’evoluzione sia la tecnologia che sostiene progetti per rispondere a problematiche sociali e comunitarie.
+  Crediamo che il fattore trainante dell’evoluzione sia la tecnologia che
+  sostiene progetti per rispondere a problematiche sociali e comunitarie.
 slider2slide2Image: /uploads/ambiente.png
 slider2slide3Title: Ambiente e salute
 slider2slide3BgText: Ambiente
 slider2slide3Abstract: >-
-  Cerchiamo di promuovere e incentivare progetti che adottino soluzioni sostenibili nel rispetto dell’ambiente e di noi stessi.
+  Cerchiamo di promuovere e incentivare progetti che adottino soluzioni
+  sostenibili nel rispetto dell’ambiente e di noi stessi.
 slider2slide3Image: /uploads/sociale.png
 section4Name: VALORI
 section4Title: Cosa non dimentichiamo mai
@@ -121,8 +132,10 @@ section4AbstractBox6: >-
   clienti, ai migliori risultati, nei tempi stabiliti.
 section5Title: Sei sicuro della tua nuova idea?
 section5Abstract: >-
-  When you enter into any new area of science, you almost always find yourself
-  with a baffling new language.
-cta2Title: Pronto a realizzare la tua prossima innovazione?
+  Inizia il tuo percorso adottando un approccio olistico, strategico, diretto ai
+  risultati, che sfrutta conoscenze e competenze di mondi differenti ed affini:
+  il design e lo sviluppo. Orientati verso nuove logiche digitali.
+cta2Title: Consiglio last minute? Parla con noi al 0744/283733
+section2Logo7: /uploads/logo-ionic.png
 ---
 
