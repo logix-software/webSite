@@ -22,7 +22,7 @@
           >{{text.node.headerTitle2}}</h1>
         </div>
       </div>
-      <div class="aboutUs py-5">
+      <div class="aboutUs pt-5">
         <div class="py-5">
           <div class="container mb-5">
             <div class="row">
@@ -325,7 +325,64 @@
           </div>
         </div>
         <h1 class="aboutUs__bgText ml-auto text-left mb-5 mt-5 mt-lg-0">{{text.node.sectionBgText2}}</h1>
-        ciao
+        <div class="workForUs py-5" v-if="text.node.numberPosition > 0">
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-lg-6">
+                <h1 class="workForUs__title">{{text.node.workForUsTitle}}</h1>
+                <p
+                  class="workForUs__description"
+                >{{text.node.workForUsDescription1}}</p>
+              </div>
+            </div>
+            <div class="row py-5">
+              <div class="col-lg-6 position mb-5" v-if="text.node.numberPosition > 0">
+                <div class="position__body">
+                  <h1 class="position__title">{{text.node.position1Title}}</h1>
+                  <p class="position__place mb-0">
+                    <i class="fas fa-map-marker-alt mr-1"></i>{{text.node.position1Location}}
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 position mb-5" v-if="text.node.numberPosition > 1">
+                <div class="position__body">
+                  <h1 class="position__title">{{text.node.position2Title}}</h1>
+                  <p class="position__place mb-0">
+                    <i class="fas fa-map-marker-alt mr-1"></i>{{text.node.position2Location}}
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 position mb-5" v-if="text.node.numberPosition > 2">
+                <div class="position__body">
+                  <h1 class="position__title">{{text.node.position3Title}}</h1>
+                  <p class="position__place mb-0">
+                    <i class="fas fa-map-marker-alt mr-1"></i>{{text.node.position3Location}}
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 position mb-5" v-if="text.node.numberPosition > 3">
+                <div class="position__body">
+                  <h1 class="position__title">{{text.node.position4Title}}</h1>
+                  <p class="position__place mb-0">
+                    <i class="fas fa-map-marker-alt mr-1"></i>{{text.node.position4Location}}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p
+                  class="workForUs__description"
+                >{{text.node.workForUsDescription2}}</p>
+                <a href="mailto:info@logixcorp.it" class="workForUs__link">info@logixcorp.it</a>
+                <p
+                  class="workForUs__description"
+                >{{text.node.workForUsDescription3}}</p>
+                <a href="mailto:" class="btn btn-secondary">Contattaci</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div
         class="partnership pb-5"
@@ -431,6 +488,19 @@ query {
         person10Team
         person10Position
         person10Img
+        workForUsTitle
+        workForUsDescription1
+        workForUsDescription2
+        workForUsDescription3
+        numberPosition
+        position1Title
+        position1Location
+        position2Title
+        position2Location
+        position3Title
+        position3Location
+        position4Title
+        position4Location
       }
     }
   },
@@ -769,6 +839,71 @@ export default {
     }
     @media screen and (max-width: 576px) {
       bottom: -120px;
+    }
+  }
+}
+.workForUs {
+  position: relative;
+  @media screen and (min-width: 992px) {
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 60%;
+      height: 100%;
+      top: 0;
+      bottom: 0;
+      background-color: #f3f5fb;
+    }
+  }
+  background-color: #fff;
+  color: #000000;
+  &__title {
+    font-family: "Lexend Deca";
+    font-size: 40px;
+    letter-spacing: -1.47px;
+  }
+  &__description {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.18px;
+    line-height: 25px;
+  }
+  &__link {
+    font-family: "DM Sans";
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -0.44px;
+    color: #000000;
+  }
+}
+.position {
+  &__body {
+    border-radius: 3px;
+    box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.2);
+    padding: 30px 22px;
+  }
+  &__title {
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -0.48px;
+  }
+  &__place {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+  }
+  &:nth-child(even) {
+    .position__body {
+      background-color: #f0fffb;
+    }
+  }
+  &:nth-child(odd) {
+    .position__body {
+      background-color: #f9f9fa;
     }
   }
 }

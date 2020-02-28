@@ -60,7 +60,7 @@ methodsBox2Abstract: >-
 section2Title: Mobile development
 section2BgText: Mobile
 Section2Abstract: >-
-  Sviluppiamo web application e platform collaborando con il cliente in tutte le fasi che portano alla realizzazione, lavorando con database differenti ed API; integrando servizi e soluzioni custom a seconda delle esigenze, fornendoci degli adeguati stack tecnologici e garantendo efficienza e competenza.
+  Progettiamo e realizziamo app cross-platform attraverso l’utilizzo di framework Ionic e React native che consentono di velocizzare i tempi costruendo i prodotti con una base comune per dispositivi iOS e Android.  A seconda delle esigenze realizziamo anche progressive web app, un ibrido tra app web e mobile.
 section2Link: Riduzione dei costi
 section2Image: /uploads/mobile.png
 tools2Name: TOOL

@@ -264,6 +264,19 @@ collections:
         - {label: "Person10Team", name: "person10Team", widget: "string"}
         - {label: "Person10Position", name: "person10Position", widget: "string"}
         - {label: "Person10Img", name: "person10Img", widget: "image"}
+        - {label: "WorkForUsTitle", name: "workForUsTitle", widget: "string"}
+        - {label: "WorkForUsDescription1", name: "workForUsDescription1", widget: "text"}
+        - {label: "WorkForUsDescription2", name: "workForUsDescription2", widget: "text"}
+        - {label: "WorkForUsDescription3", name: "workForUsDescription3", widget: "text"}
+        - {label: "NumberPosition", name: "numberPosition", widget: "number"}
+        - {label: "Position1Title", name: "position1Title", widget: "string"}
+        - {label: "Position1Location", name: "position1Location", widget: "string"}
+        - {label: "Position2Title", name: "position2Title", widget: "string"}
+        - {label: "Position2Location", name: "position2Location", widget: "string"}
+        - {label: "Position3Title", name: "position3Title", widget: "string"}
+        - {label: "Position3Location", name: "position3Location", widget: "string"}
+        - {label: "Position4Title", name: "position4Title", widget: "string"}
+        - {label: "Position4Location", name: "position4Location", widget: "string"}
     - name: "proojects"
       label: "Projects" 
       folder: "progetti"

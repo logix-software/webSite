@@ -11,7 +11,7 @@
               <i class="fas fa-cookie"></i>
             </div>
           </div>
-          <div class="col-10 col-lg-8">
+          <div class="col-10 col-lg-8 d-flex align-items-center">
             <p class="mb-0">
               Questo sito fa uso di cookie per migliorare l’esperienza di navigazione degli utenti e per raccogliere informazioni sull’utilizzo del sito stesso. Può conoscere i dettagli consultando la nostra privacy policy
               <a
@@ -109,9 +109,9 @@
                   <p
                     class="modalContact__description mb-5"
                   >Qualunque sia la sfida saremo sempre felici 😃 di parlare con te. Scrivici e ti risponderemo al più presto!</p>
-                  <p class="modalContact__text">Scrivici: info@logixcorp.com</p>
-                  <p class="modalContact__text">Chiamaci: 0744/283733</p>
-                  <p class="modalContact__text">Passa: Piazza Europa, 5 - 05100 Terni(TR)</p>
+                  <p class="modalContact__text"> <span class="text-green-contact">Scrivici:</span> info@logixcorp.com</p>
+                  <p class="modalContact__text"><span class="text-green-contact">Chiamaci:</span> 0744/283733</p>
+                  <p class="modalContact__text"><span class="text-green-contact">Passa:</span> Piazza Europa, 5 - 05100 Terni(TR)</p>
                 </div>
                 <div
                   class="col-lg-8 pl-lg-5 d-flex align-items-center text-center"
@@ -166,10 +166,14 @@
                     </div>
                     <div class="col-lg-6">
                       <div class="group">
-                        <input type="text" name="reason" v-model="formData.reason" required />
-                        <span class="highlight"></span>
-                        <span class="bar"></span>
-                        <label>Ci contatti per</label>
+                        <select v-model="formData.reason" name="contactFor[]" required>
+                          <option value="Ci contatti per" selected>Ci contatti per</option>
+                          <option value="Digital">Digital tranformation</option>
+                          <option value="Development">Sviluppo</option>
+                          <option value="Design">Design</option>
+                          <option value="Collaborative">Collaborative Team</option>
+                          <option value="Job">Posizione lavorativa</option>
+                        </select>
                       </div>
                     </div>
                     <div class="col-lg-12">
@@ -214,7 +218,9 @@ export default {
   },
   data() {
     return {
-      formData: {},
+      formData: {
+        reason: "Ci contatti per"
+      },
       formSent: false
     };
   },
@@ -246,7 +252,8 @@ export default {
       }
     },
     hideCookies: function() {
-      document.cookie = "cookies=1; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/;";
+      document.cookie =
+        "cookies=1; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/;";
       this.checkCookies();
     }
   },
@@ -641,7 +648,9 @@ h6 {
   margin-bottom: 45px;
 }
 input,
-textarea {
+textarea, select {
+  outline: none;
+  border-radius: 0;
   font-size: 18px;
   padding: 10px 10px 10px 5px;
   display: block;
@@ -650,6 +659,14 @@ textarea {
   border-bottom: 1px solid #fff;
   background: transparent !important;
   color: #fff;
+}
+select{
+  height: 48px;
+  //  -webkit-appearance: none;
+  //   -moz-appearance: none;
+  //    background-position: right 50%;
+  //   background-repeat: no-repeat;
+  //   background-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1"><path d="M4 8L0 4h8z"/></svg>')!important;
 }
 input:focus,
 textarea:focus {
@@ -778,5 +795,8 @@ input:focus ~ .highlight {
       text-decoration: underline;
     }
   }
+}
+.text-green-contact{
+  color: #36F2B9;
 }
 </style>

@@ -364,6 +364,7 @@
           <div class="row mb-5">
             <div class="col-lg-9 d-flex align-items-center skill skill--right py-5 mb-4">
               <div class="skill__body">
+                <g-image src="~/assets/images/deco-digital.svg" class="d-block d-lg-none" />
                 <div class="my-3">
                   <span class="label label--dev mr-2">Development</span>
                   <span class="label label--des mx-2">Design</span>
@@ -377,12 +378,13 @@
                 >Approfondisci expertise</g-link>
               </div>
 
-              <g-image :src="text.node.competence1Img" class="skill__img" />
+              <g-image :src="text.node.competence1Img" class="skill__img d-none d-lg-block" />
             </div>
           </div>
           <div class="row mb-5">
             <div class="col-lg-9 d-flex align-items-center skill py-5 mb-4">
               <div class="skill__body">
+                <g-image src="~/assets/images/deco-development.svg" class="d-block d-lg-none" />
                 <div class="my-3">
                   <span class="label label--dev mr-2">Development</span>
                 </div>
@@ -395,12 +397,13 @@
                 >Approfondisci expertise</g-link>
               </div>
 
-              <g-image :src="text.node.competence2Img" class="skill__img" />
+              <g-image :src="text.node.competence2Img" class="skill__img d-none d-lg-block" />
             </div>
           </div>
           <div class="row mb-5">
             <div class="col-lg-9 d-flex align-items-center skill skill--right py-5 mb-4">
               <div class="skill__body">
+                <g-image src="~/assets/images/deco-design.svg" class="d-block d-lg-none" />
                 <div class="my-3">
                   <span class="label label--des mx-2">Design</span>
                 </div>
@@ -413,12 +416,13 @@
                 >Approfondisci expertise</g-link>
               </div>
 
-              <g-image :src="text.node.competence3Img" class="skill__img" />
+              <g-image :src="text.node.competence3Img" class="skill__img d-none d-lg-block" />
             </div>
           </div>
           <div class="row mb-0">
             <div class="col-lg-9 d-flex align-items-center skill py-5">
               <div class="skill__body">
+                <g-image src="~/assets/images/deco-digital.svg" class="d-block d-lg-none" />
                 <div class="my-3">
                   <span class="label label--dev mr-2">Development</span>
                   <span class="label label--des mx-2">Design</span>
@@ -432,7 +436,7 @@
                 >Approfondisci expertise</g-link>
               </div>
 
-              <g-image :src="text.node.competence4Img" class="skill__img" />
+              <g-image :src="text.node.competence4Img" class="skill__img d-none d-lg-block" />
             </div>
           </div>
         </div>

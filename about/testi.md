@@ -49,5 +49,21 @@ person10Name: Marco
 person10Team: OPERATION
 person10Position: Founder & CEO
 person10Img: /uploads/team.jpg
+workForUsTitle: Siamo alla ricerca di talenti da inserire nel team
+workForUsDescription1: >-
+  Un luogo in cui puoi crescere, imparare e sperimentare, mostrare il tuo vero potenziale, conoscere persone simpatiche e lavorare con il buon umore.
+workForUsDescription2: >-
+  Per candidarti a queste posizioni o se pensi che Logix sia il posto giusto per te, scrivici allegando il tuo curriculum a:
+workForUsDescription3: >-
+  Se hai dubbi o vuoi sapere di più su di noi siamo a tua disposizione:)
+numberPosition: 2
+position1Title: Frontend Developer
+position1Location: Terni / REMOTO
+position2Title: Frontend Developer
+position2Location: Terni / REMOTO
+position3Title: Frontend Developer
+position3Location: Terni / REMOTO
+position4Title: Frontend Developer
+position4Location: Terni / REMOTO
 ---
 
