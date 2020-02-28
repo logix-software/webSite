@@ -166,7 +166,7 @@
                     </div>
                     <div class="col-lg-6">
                       <div class="group">
-                        <select v-model="formData.reason" name="contactFor[]" required>
+                        <select v-model="formData.reason" name="contactFor" required>
                           <option value="Ci contatti per" selected>Ci contatti per</option>
                           <option value="Digital">Digital tranformation</option>
                           <option value="Development">Sviluppo</option>
