@@ -13,12 +13,21 @@ competenceName: COMPETENZE
 competenceAbstract: Possiamo affiancare team in ambiti differenti
 competenceBox1Icon: /uploads/progetto-icon.svg
 competenceBox1Title: Progetto
-competenceBox1Abstract: '> Scenario research > Project management > Lean product development'
+competenceBox1Abstract1: '> Scenario research'
+competenceBox1Abstract2: '> Project management'
+competenceBox1Abstract3: '> Lean product development'
+competenceBox1Abstract4: ''
 competenceBox2Icon: /uploads/sviluppo-icon.svg
 competenceBox2Title: Progetto
-competenceBox2Abstract: '> Scenario research > Project management > Lean product development'
+competenceBox2Abstract1: '> Scenario research'
+competenceBox2Abstract2: '> Project management'
+competenceBox2Abstract3: '> Lean product development'
+competenceBox2Abstract4: ''
 competenceBox3Icon: /uploads/design-icon.svg
 competenceBox3Title: Progetto
-competenceBox3Abstract: '> Scenario research > Project management > Lean product development'
+competenceBox3Abstract1: '> Scenario research'
+competenceBox3Abstract2: '> Project management'
+competenceBox3Abstract3: '> Lean product development'
+competenceBox3Abstract4: '> Lean product '
 ---
 

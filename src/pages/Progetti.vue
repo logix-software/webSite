@@ -386,7 +386,7 @@ export default {
     }
   }
   &--comingSoon {
-    opacity: 0.5;
+    opacity: 0.8;
     pointer-events: none;
     &:nth-child(odd) {
       .btn-secondary{

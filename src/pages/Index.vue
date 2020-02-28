@@ -21,7 +21,7 @@
 
               <!-- <svg width="340px" height="340px"  viewBox="0 0 340 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> -->
 
-              <h1 class="hero__title">{{text.node.headerTitle}}</h1>
+              <h1 class="hero__title mb-5 mb-lg-0">{{text.node.headerTitle}}</h1>
             </div>
             <div class="col-lg-5"></div>
           </div>
@@ -299,7 +299,7 @@
               class="caseHistory__img mb-4 mb-lg-0"
               :style="{ 'background-image': 'url(' + text.node.caseHistoryImage + ')' }"
             >
-              <h1 class="caseHistory__textBg">{{text.node.caseHistoryBgText}}</h1>
+              <!-- <h1 class="caseHistory__textBg">{{text.node.caseHistoryBgText}}</h1> -->
               <g-image src="~/assets/images/deco-plane.svg" class="caseHistory__deco2" />
             </div>
             <div class="position-relative">
@@ -961,9 +961,9 @@ export default {
       width: 20%;
     }
     @media screen and (max-width: 576px) {
-      top: -1px;
-      left: -34px;
-      width: 20%;
+      top: -3px;
+      left: -46px;
+      width: 26%;
     }
   }
   &__decoDesigner {
@@ -989,7 +989,7 @@ export default {
       right: 110px;
     }
     @media screen and (max-width: 576px) {
-      bottom: 20px;
+      bottom: 30px;
       right: 100px;
       width: 100px;
     }
@@ -1005,7 +1005,7 @@ export default {
       font-size: 70px;
     }
     @media screen and (max-width: 576px) {
-      font-size: 40px !important;
+      font-size: 50px !important;
       letter-spacing: initial;
       line-height: initial;
     }
@@ -1445,22 +1445,22 @@ export default {
       padding-top: 30px;
     }
   }
-  &__textBg {
-    position: absolute;
-    opacity: 0.42;
-    color: #ffffff;
-    font-family: "Lexend Deca";
-    font-size: 161px !important;
-    letter-spacing: -4.03px;
-    line-height: 42px;
-    left: 10%;
-    bottom: 100px;
-    z-index: 1;
-    @media screen and (max-width: 992px) {
-      font-size: 90px !important;
-      bottom: 40px;
-    }
-  }
+  // &__textBg {
+  //   position: absolute;
+  //   opacity: 0.42;
+  //   color: #ffffff;
+  //   font-family: "Lexend Deca";
+  //   font-size: 161px !important;
+  //   letter-spacing: -4.03px;
+  //   line-height: 42px;
+  //   left: 10%;
+  //   bottom: 100px;
+  //   z-index: 1;
+  //   @media screen and (max-width: 992px) {
+  //     font-size: 90px !important;
+  //     bottom: 40px;
+  //   }
+  // }
   &__deco {
     position: absolute;
     left: -250px;
@@ -1476,15 +1476,15 @@ export default {
     bottom: 0;
   }
   &__img {
-    &:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      background-color: rgba(0, 0, 0, 0.2);
-    }
+    // &:before {
+    //   content: "";
+    //   position: absolute;
+    //   top: 0;
+    //   right: 0;
+    //   left: 0;
+    //   bottom: 0;
+    //   background-color: rgba(0, 0, 0, 0.2);
+    // }
     overflow: hidden;
     position: absolute;
     top: 0px;
@@ -1693,7 +1693,7 @@ export default {
   @media screen and (max-width: 992px) {
     width: 80%;
     margin: 15px 10%;
-    padding: 20px 10px;
+    padding: 50px 20px;
   }
 
   // @media screen and (max-width: 370px) {

@@ -283,7 +283,7 @@
           </div>
         </div>
       </div>
-      <div class="technology py-5 bg-secondary">
+      <div class="technology py-5 bg-secondaryGray">
         <div class="container py-5">
           <div class="row align-items-center">
             <div class="col-lg-4 ml-lg-auto">
@@ -841,5 +841,8 @@ export default {
   top: 0;
   left: 0;
   position: fixed;
+}
+.bg-secondaryGray{
+  background-color: #f6f7fa;
 }
 </style>

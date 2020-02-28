@@ -57,7 +57,7 @@ methodsBox1Abstract: >-
 methodsBox2Title: Microservices Architecture
 methodsBox2Abstract: >-
   Cerchiamo di sfruttare tutti i vantaggi dell’utilizzo del modello dell’architettura dei servizi per lo sviluppo di applicativi che permette di ridurre notevolmente tempistiche, onerosità e difficoltà dello sviluppo tradizionale.
-section2Title: Web development
+section2Title: Mobile development
 section2BgText: Mobile
 Section2Abstract: >-
   Sviluppiamo web application e platform collaborando con il cliente in tutte le fasi che portano alla realizzazione, lavorando con database differenti ed API; integrando servizi e soluzioni custom a seconda delle esigenze, fornendoci degli adeguati stack tecnologici e garantendo efficienza e competenza.

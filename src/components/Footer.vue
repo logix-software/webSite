@@ -2,14 +2,21 @@
   <div>
     <footer class="footer py-5">
       <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-4 d-flex align-items-start position-relative">
+            <g-image src="~/assets/images/deco3.svg" class="footer__deco pl-5"></g-image>
+            <h2 class="footer__title1">Restiamo in contatto</h2>
+          </div>
+        </div>
         <div class="row">
+          
           <div class="col-lg-4">
             <div class="pr-lg-5">
-              <g-image src="~/assets/images/deco3.svg" class="ml-5 pl-5"></g-image>
-              <h3 class="mb-4">Passa da noi</h3>
-              <h5>Terni</h5>
+              
+              <h3 class="mb-4 footer__title2">Passa da noi</h3>
+              <h5 class="footer__title3">Terni</h5>
               <p>Piazza Europa, 5 - 05100 Terni(TR)</p>
-              <h5>Roma</h5>
+              <h5 class="footer__title3">Roma</h5>
               <p>
                 Via Marcello Galliani, 62/64 - 00133
                 Roma(RM)
@@ -17,10 +24,13 @@
             </div>
           </div>
           <div class="col-lg-3">
-            <h3 class="mb-4 d-none d-lg-block">&nbsp;</h3>
-            <h5>Scrivici</h5>
-            <a href="mailto:info@logixcorp.com">info@logixcorp.com</a>
-            <h5 class="mt-3">Seguici</h5>
+            <h5 class="mb-4 footer__title2">Scrivici</h5>
+            <p><a href="mailto:info@logixcorp.com">info@logixcorp.com</a></p>
+            
+           
+          </div>
+          <div class="col-lg-4">
+             <h5 class="mb-4 footer__title2">Seguici</h5>
             <ul class="list-unstyled d-flex">
               <li>
                 <a
@@ -42,10 +52,6 @@
                 </a>
               </li>
             </ul>
-          </div>
-          <div class="col-lg-4">
-            <h3 class="mb-4 d-none d-lg-block">&nbsp;</h3>
-            <h5 class="d-none d-lg-block">&nbsp;</h5>
             <a
               href="https://www.iubenda.com/privacy-policy/51005590"
               class="iubenda-black iubenda-embed iubenda-custom"
@@ -60,8 +66,8 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12 d-lg-flex align-items-center justify-content-between">
-            <p class="mb-3 mb-lg-0">© Copyright 2019 - Logix Srl</p>
-            <p>| P.iva: 01388050559 | Capitale Sociale 10.000(interamente versato)</p>
+            <p class="mb-3 mb-lg-0">© Copyright 2019 - Logix  Srl</p>
+            <p>P.iva: 01388050559</p>
           </div>
         </div>
       </div>
@@ -97,6 +103,28 @@ export default {
   }
   p {
     font-size: 16px;
+  }
+  &__deco{
+    position: absolute;
+    left: -200px;
+    top: 12px;
+  }
+  &__title1{
+font-family: "DM Sans";
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: -1.76px;
+  }
+  &__title2{
+ font-family: "DM Sans";
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: -1.28px;
+  }
+  &__title3{
+     font-family: "DM Sans";
+  font-size: 22px;
+  letter-spacing: -0.44px;
   }
   
 }

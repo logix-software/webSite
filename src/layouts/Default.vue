@@ -22,7 +22,7 @@
             </p>
           </div>
           <div class="col-lg-3 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-            <g-link to="/cookies-not-accpted" class="btn btn-negative mr-3">Nega</g-link>
+            <g-link to="/cookies-not-accepted" class="btn btn-negative mr-3">Nega</g-link>
             <button class="btn btn-primary" @click="hideCookies()">Accetta</button>
           </div>
         </div>
@@ -771,6 +771,7 @@ input:focus ~ .highlight {
     font-size: 36px;
   }
   p {
+    font-size: 12px;
     a {
       color: #fff;
       font-weight: bold;

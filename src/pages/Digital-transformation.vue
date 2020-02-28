@@ -215,7 +215,7 @@
           </div>
           <div class="row py-2 py-lg-5 pb-5">
             <div class="col-lg-7 mx-auto text-center py-5">
-              <g-image src="~/assets/images/icon-question-purple.svg" class="mb-5" />
+              <g-image src="~/assets/images/arrowDown.svg" class="mb-5" />
               <h1
                 class="learn__conclusion"
               >{{text.node.section5Title}}</h1>

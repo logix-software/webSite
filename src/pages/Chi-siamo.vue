@@ -1,145 +1,321 @@
 <template>
   <Layout>
-       <div v-for="text in $page.texts.edges" :key="text.id">
-    <div class="hero hero--projects d-flex align-items-center justify-content-center text-center" :style="{ 'background-image': 'url(' + text.node.headerImage + ')' }">
-      <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco1" />
-      <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco2" />
-      <div class="mx-auto">
-        <h1
-          class="hero__title"
-          data-aos="fade-right"
-          data-aos-delay="200"
-          data-aos-duration="700"
-        >{{text.node.headerTitle1}}</h1>
-        <h1
-          class="hero__title"
-          data-aos="fade-left"
-          data-aos-delay="200"
-          data-aos-duration="700"
-        >{{text.node.headerTitle2}}</h1>
+    <div v-for="text in $page.texts.edges" :key="text.id">
+      <div
+        class="hero hero--projects d-flex align-items-center justify-content-center text-center"
+        :style="{ 'background-image': 'url(' + text.node.headerImage + ')' }"
+      >
+        <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco1" />
+        <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco2" />
+        <div class="mx-auto">
+          <h1
+            class="hero__title"
+            data-aos="fade-right"
+            data-aos-delay="200"
+            data-aos-duration="700"
+          >{{text.node.headerTitle1}}</h1>
+          <h1
+            class="hero__title"
+            data-aos="fade-left"
+            data-aos-delay="200"
+            data-aos-duration="700"
+          >{{text.node.headerTitle2}}</h1>
+        </div>
       </div>
-    </div>
-    <div class="aboutUs py-5">
-      <div class="py-5">
-        <div class="container mb-5">
-          <div class="row">
-            <div class="col-lg-9">
-              <h6
-                class="aboutUs__title"
-              >{{text.node.sectionTitle}}</h6>
+      <div class="aboutUs py-5">
+        <div class="py-5">
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-lg-9">
+                <h6 class="aboutUs__title">{{text.node.sectionTitle}}</h6>
+              </div>
+            </div>
+          </div>
+          <h1 class="aboutUs__bgText ml-auto text-right mb-5">{{text.node.sectionBgText1}}</h1>
+        </div>
+
+        <div v-if="deviceWidth > 992">
+          <div class="wrapper" id="js-wrapper">
+            <div class="sections" id="js-slideContainer">
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person1Img + ')' }"
+                    ></div>
+                    <span class="team__team">{{text.node.person1Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person1Name}}</h1>
+                    <h4 class="team__position">{{text.node.person1Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person2Img + ')' }"
+                    ></div>
+                    <span class="team__team">{{text.node.person2Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person2Name}}</h1>
+                    <h4 class="team__position">{{text.node.person2Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person3Img + ')' }"
+                    ></div>
+                    <span class="team__team">{{text.node.person3Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person3Name}}</h1>
+                    <h4 class="team__position">{{text.node.person3Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person4Img + ')' }"
+                    ></div>
+                    <span class="team__team">{{text.node.person4Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person4Name}}</h1>
+                    <h4 class="team__position">{{text.node.person4Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person5Img + ')' }"
+                    ></div>
+                    <span class="team__team">{{text.node.person5Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person5Name}}</h1>
+                    <h4 class="team__position">{{text.node.person5Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person6Img + ')' }"
+                    ></div>
+                    <span class="team__team">{{text.node.person6Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person6Name}}</h1>
+                    <h4 class="team__position">{{text.node.person6Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person7Img + ')' }"
+                    ></div>
+                    <span class="team__team">{{text.node.person7Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person7Name}}</h1>
+                    <h4 class="team__position">{{text.node.person7Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person8Img + ')' }"
+                    ></div>
+                    <span class="team__team">{{text.node.person8Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person8Name}}</h1>
+                    <h4 class="team__position">{{text.node.person8Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person9Img + ')' }"
+                    ></div>
+                    <span class="team__team">{{text.node.person9Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person9Name}}</h1>
+                    <h4 class="team__position">{{text.node.person9Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person10Img + ')' }"
+                    ></div>
+                    <span class="team__team">{{text.node.person10Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person10Name}}</h1>
+                    <h4 class="team__position">{{text.node.person10Position}}</h4>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <h1 class="aboutUs__bgText ml-auto text-right mb-5">{{text.node.sectionBgText1}}</h1>
-      </div>
-
-      <div v-if="deviceWidth > 992">
-        <div class="wrapper" id="js-wrapper">
-          <div class="sections" id="js-slideContainer">
-            <div class="step">
+        <div class="v-else">
+          <div class="owl-carousel owl-theme owl-carousel-team">
+            <div class="item">
               <div class="team">
                 <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
                 <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person1Img + ')' }"></div>
+                  <div
+                    class="team__photo mb-3"
+                    :style="{ 'background-image': 'url(' + text.node.person1Img + ')' }"
+                  ></div>
                   <span class="team__team">{{text.node.person1Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person1Name}}</h1>
                   <h4 class="team__position">{{text.node.person1Position}}</h4>
                 </div>
               </div>
             </div>
-            <div class="step">
-               <div class="team">
+            <div class="item">
+              <div class="team">
                 <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
                 <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person2Img + ')' }"></div>
+                  <div
+                    class="team__photo mb-3"
+                    :style="{ 'background-image': 'url(' + text.node.person2Img + ')' }"
+                  ></div>
                   <span class="team__team">{{text.node.person2Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person2Name}}</h1>
                   <h4 class="team__position">{{text.node.person2Position}}</h4>
                 </div>
               </div>
             </div>
-            <div class="step">
-               <div class="team">
+            <div class="item">
+              <div class="team">
                 <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
                 <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person3Img + ')' }"></div>
+                  <div
+                    class="team__photo mb-3"
+                    :style="{ 'background-image': 'url(' + text.node.person3Img + ')' }"
+                  ></div>
                   <span class="team__team">{{text.node.person3Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person3Name}}</h1>
                   <h4 class="team__position">{{text.node.person3Position}}</h4>
                 </div>
               </div>
             </div>
-            <div class="step">
-               <div class="team">
+            <div class="item">
+              <div class="team">
                 <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
                 <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person4Img + ')' }"></div>
+                  <div
+                    class="team__photo mb-3"
+                    :style="{ 'background-image': 'url(' + text.node.person4Img + ')' }"
+                  ></div>
                   <span class="team__team">{{text.node.person4Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person4Name}}</h1>
                   <h4 class="team__position">{{text.node.person4Position}}</h4>
                 </div>
               </div>
             </div>
-            <div class="step">
-               <div class="team">
+            <div class="item">
+              <div class="team">
                 <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
                 <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person5Img + ')' }"></div>
+                  <div
+                    class="team__photo mb-3"
+                    :style="{ 'background-image': 'url(' + text.node.person5Img + ')' }"
+                  ></div>
                   <span class="team__team">{{text.node.person5Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person5Name}}</h1>
                   <h4 class="team__position">{{text.node.person5Position}}</h4>
                 </div>
               </div>
             </div>
-            <div class="step">
-               <div class="team">
+            <div class="item">
+              <div class="team">
                 <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
                 <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person6Img + ')' }"></div>
+                  <div
+                    class="team__photo mb-3"
+                    :style="{ 'background-image': 'url(' + text.node.person6Img + ')' }"
+                  ></div>
                   <span class="team__team">{{text.node.person6Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person6Name}}</h1>
                   <h4 class="team__position">{{text.node.person6Position}}</h4>
                 </div>
               </div>
             </div>
-            <div class="step">
-               <div class="team">
+            <div class="item">
+              <div class="team">
                 <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
                 <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person7Img + ')' }"></div>
+                  <div
+                    class="team__photo mb-3"
+                    :style="{ 'background-image': 'url(' + text.node.person7Img + ')' }"
+                  ></div>
                   <span class="team__team">{{text.node.person7Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person7Name}}</h1>
                   <h4 class="team__position">{{text.node.person7Position}}</h4>
                 </div>
               </div>
             </div>
-            <div class="step">
-               <div class="team">
+            <div class="item">
+              <div class="team">
                 <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
                 <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person8Img + ')' }"></div>
+                  <div
+                    class="team__photo mb-3"
+                    :style="{ 'background-image': 'url(' + text.node.person8Img + ')' }"
+                  ></div>
                   <span class="team__team">{{text.node.person8Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person8Name}}</h1>
                   <h4 class="team__position">{{text.node.person8Position}}</h4>
                 </div>
               </div>
             </div>
-            <div class="step">
-               <div class="team">
+            <div class="item">
+              <div class="team">
                 <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
                 <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person9Img + ')' }"></div>
+                  <div
+                    class="team__photo mb-3"
+                    :style="{ 'background-image': 'url(' + text.node.person9Img + ')' }"
+                  ></div>
                   <span class="team__team">{{text.node.person9Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person9Name}}</h1>
                   <h4 class="team__position">{{text.node.person9Position}}</h4>
                 </div>
               </div>
             </div>
-            <div class="step">
-               <div class="team">
+            <div class="item">
+              <div class="team">
                 <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
                 <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person10Img + ')' }"></div>
+                  <div
+                    class="team__photo mb-3"
+                    :style="{ 'background-image': 'url(' + text.node.person10Img + ')' }"
+                  ></div>
                   <span class="team__team">{{text.node.person10Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person10Name}}</h1>
                   <h4 class="team__position">{{text.node.person10Position}}</h4>
@@ -148,122 +324,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="v-else">
-        <div class="owl-carousel owl-theme owl-carousel-team">
-          <div class="item">
-            <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
-                <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person1Img + ')' }"></div>
-                  <span class="team__team">{{text.node.person1Team}}</span>
-                  <h1 class="team__name mb-3 mt-4">{{text.node.person1Name}}</h1>
-                  <h4 class="team__position">{{text.node.person1Position}}</h4>
-                </div>
-              </div>
-          </div>
-          <div class="item">
-            <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
-                <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person2Img + ')' }"></div>
-                  <span class="team__team">{{text.node.person2Team}}</span>
-                  <h1 class="team__name mb-3 mt-4">{{text.node.person2Name}}</h1>
-                  <h4 class="team__position">{{text.node.person2Position}}</h4>
-                </div>
-              </div>
-          </div>
-          <div class="item">
-            <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
-                <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person3Img + ')' }"></div>
-                  <span class="team__team">{{text.node.person3Team}}</span>
-                  <h1 class="team__name mb-3 mt-4">{{text.node.person3Name}}</h1>
-                  <h4 class="team__position">{{text.node.person3Position}}</h4>
-                </div>
-              </div>
-          </div>
-          <div class="item">
-            <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
-                <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person4Img + ')' }"></div>
-                  <span class="team__team">{{text.node.person4Team}}</span>
-                  <h1 class="team__name mb-3 mt-4">{{text.node.person4Name}}</h1>
-                  <h4 class="team__position">{{text.node.person4Position}}</h4>
-                </div>
-              </div>
-          </div>
-          <div class="item">
-            <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
-                <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person5Img + ')' }"></div>
-                  <span class="team__team">{{text.node.person5Team}}</span>
-                  <h1 class="team__name mb-3 mt-4">{{text.node.person5Name}}</h1>
-                  <h4 class="team__position">{{text.node.person5Position}}</h4>
-                </div>
-              </div>
-          </div>
-          <div class="item">
-            <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
-                <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person6Img + ')' }"></div>
-                  <span class="team__team">{{text.node.person6Team}}</span>
-                  <h1 class="team__name mb-3 mt-4">{{text.node.person6Name}}</h1>
-                  <h4 class="team__position">{{text.node.person6Position}}</h4>
-                </div>
-              </div>
-          </div>
-          <div class="item">
-            <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
-                <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person7Img + ')' }"></div>
-                  <span class="team__team">{{text.node.person7Team}}</span>
-                  <h1 class="team__name mb-3 mt-4">{{text.node.person7Name}}</h1>
-                  <h4 class="team__position">{{text.node.person7Position}}</h4>
-                </div>
-              </div>
-          </div>
-          <div class="item">
-            <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
-                <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person8Img + ')' }"></div>
-                  <span class="team__team">{{text.node.person8Team}}</span>
-                  <h1 class="team__name mb-3 mt-4">{{text.node.person8Name}}</h1>
-                  <h4 class="team__position">{{text.node.person8Position}}</h4>
-                </div>
-              </div>
-          </div>
-          <div class="item">
-            <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
-                <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person9Img + ')' }"></div>
-                  <span class="team__team">{{text.node.person9Team}}</span>
-                  <h1 class="team__name mb-3 mt-4">{{text.node.person9Name}}</h1>
-                  <h4 class="team__position">{{text.node.person9Position}}</h4>
-                </div>
-              </div>
-          </div>
-          <div class="item">
-            <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
-                <div class="team__body ml-auto">
-                  <div class="team__photo mb-3" :style="{ 'background-image': 'url(' + text.node.person10Img + ')' }"></div>
-                  <span class="team__team">{{text.node.person10Team}}</span>
-                  <h1 class="team__name mb-3 mt-4">{{text.node.person10Name}}</h1>
-                  <h4 class="team__position">{{text.node.person10Position}}</h4>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-      <h1 class="aboutUs__bgText ml-auto text-left mb-5 mt-5 mt-lg-0">{{text.node.sectionBgText2}}</h1>
+        <h1 class="aboutUs__bgText ml-auto text-left mb-5 mt-5 mt-lg-0">{{text.node.sectionBgText2}}</h1>
+        ciao
       </div>
       <div
         class="partnership pb-5"
@@ -478,9 +540,9 @@ export default {
   background-color: #111111;
   min-height: 750px;
   position: relative;
-   @media screen and (max-width: 992px) {
-      min-height: 500px; 
-   }
+  @media screen and (max-width: 992px) {
+    min-height: 500px;
+  }
   color: #ffffff;
   &__deco1 {
     position: absolute;
@@ -496,11 +558,11 @@ export default {
     font-family: "Lexend Deca";
     font-size: 161px;
     letter-spacing: -9.63px;
-        line-height: 140px;
+    line-height: 140px;
     @media screen and (max-width: 992px) {
       font-size: 62px;
-       letter-spacing: initial;
-           line-height: initial;
+      letter-spacing: initial;
+      line-height: initial;
     }
   }
 }
@@ -512,10 +574,10 @@ export default {
     font-size: 40px;
     letter-spacing: -1.47px;
     line-height: 50px;
- @media screen and (max-width: 992px) {
+    @media screen and (max-width: 992px) {
       font-size: 30px;
       line-height: initial;
-   }
+    }
   }
   &__bgText {
     font-family: "Lexend Deca";
@@ -524,7 +586,7 @@ export default {
     @media screen and (max-width: 992px) {
       font-size: 50px;
       letter-spacing: initial;
-   }
+    }
   }
 }
 .team {

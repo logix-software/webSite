@@ -264,6 +264,18 @@ collections:
         - {label: "Person10Team", name: "person10Team", widget: "string"}
         - {label: "Person10Position", name: "person10Position", widget: "string"}
         - {label: "Person10Img", name: "person10Img", widget: "image"}
+        - {label: "Testimonials",
+          name: "testimonials",
+          widget: "list",
+          fields:
+            - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"},
+            - label: Author,
+              name: author,
+              widget: object,
+              fields:
+                - {label: Name, name: name, widget: string, default: "Emmet"}
+                - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
+          }
     - name: "proojects"
       label: "Projects" 
       folder: "progetti"
@@ -526,11 +538,20 @@ collections:
         - {label: "CompetenceAbstract", name: "competenceAbstract", widget: "text"}
         - {label: "CompetenceBox1Icon", name: "competenceBox1Icon", widget: "image"}
         - {label: "CompetenceBox1Title", name: "competenceBox1Title", widget: "string"}
-        - {label: "CompetenceBox1Abstract", name: "competenceBox1Abstract", widget: "text"}
+        - {label: "CompetenceBox1Abstract1", name: "competenceBox1Abstract1", widget: "text"}
+        - {label: "CompetenceBox1Abstract2", name: "competenceBox1Abstract2", widget: "text"}
+        - {label: "CompetenceBox1Abstrac3", name: "competenceBox1Abstract3", widget: "text"}
+        - {label: "CompetenceBox1Abstract4", name: "competenceBox1Abstract4", widget: "text"}
         - {label: "CompetenceBox2Icon", name: "competenceBox2Icon", widget: "image"}
         - {label: "CompetenceBox2Title", name: "competenceBox2Title", widget: "string"}
-        - {label: "CompetenceBox2Abstract", name: "competenceBox2Abstract", widget: "text"}
+        - {label: "CompetenceBox2Abstract1", name: "competenceBox2Abstract1", widget: "text"}
+        - {label: "CompetenceBox2Abstract2", name: "competenceBox2Abstract2", widget: "text"}
+        - {label: "CompetenceBox2Abstract3", name: "competenceBox2Abstract3", widget: "text"}
+        - {label: "CompetenceBox2Abstract4", name: "competenceBox2Abstract4", widget: "text"}
         - {label: "CompetenceBox3Icon", name: "competenceBox3Icon", widget: "image"}
         - {label: "CompetenceBox3Title", name: "competenceBox3Title", widget: "string"}
-        - {label: "CompetenceBox3Abstract", name: "competenceBox3Abstract", widget: "text"}
+        - {label: "CompetenceBox3Abstract1", name: "competenceBox3Abstract1", widget: "text"}
+        - {label: "CompetenceBox3Abstract2", name: "competenceBox3Abstract2", widget: "text"}
+        - {label: "CompetenceBox3Abstract3", name: "competenceBox3Abstract3", widget: "text"}
+        - {label: "CompetenceBox3Abstract4", name: "competenceBox3Abstract4", widget: "text"}
         

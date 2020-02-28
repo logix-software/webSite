@@ -34,9 +34,12 @@
                   <span class="label label--dev mr-3">DEVELOPMENT</span>
                   <span class="label label--des">DESIGN</span>
                 </div>
-                <p class="competence__description list-unstyled text-left pl-5">
-                 {{text.node.competenceBox1Abstract}}
-                </p>
+                <ul class="competence__description list-unstyled text-left pl-5">
+                  <li>{{text.node.competenceBox1Abstract1}}</li>
+                  <li>{{text.node.competenceBox1Abstract2}}</li>
+                  <li>{{text.node.competenceBox1Abstract3}}</li>
+                  <li>{{text.node.competenceBox1Abstract4}}</li>
+                </ul>
               </div>
             </div>
             <div class="col-lg-4">
@@ -47,9 +50,12 @@
                   <span class="label label--dev mr-3">DEVELOPMENT</span>
                   <span class="label label--des">DESIGN</span>
                 </div>
-                <p class="competence__description list-unstyled text-left pl-5">
-                 {{text.node.competenceBox2Abstract}}
-                </p>
+                <ul class="competence__description list-unstyled text-left pl-5">
+                  <li>{{text.node.competenceBox2Abstract1}}</li>
+                  <li>{{text.node.competenceBox2Abstract2}}</li>
+                  <li>{{text.node.competenceBox2Abstract3}}</li>
+                  <li>{{text.node.competenceBox2Abstract4}}</li>
+                </ul>
               </div>
             </div>
             <div class="col-lg-4">
@@ -60,9 +66,12 @@
                   <span class="label label--dev mr-3">DEVELOPMENT</span>
                   <span class="label label--des">DESIGN</span>
                 </div>
-                <p class="competence__description list-unstyled text-left pl-5">
-                  {{text.node.competenceBox3Abstract}}
-                </p>
+                <ul class="competence__description list-unstyled text-left pl-5">
+                  <li>{{text.node.competenceBox3Abstract1}}</li>
+                  <li>{{text.node.competenceBox3Abstract2}}</li>
+                  <li>{{text.node.competenceBox3Abstract3}}</li>
+                  <li>{{text.node.competenceBox3Abstract4}}</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -135,13 +144,22 @@ query {
         competenceAbstract
         competenceBox1Icon
         competenceBox1Title
-        competenceBox1Abstract
+        competenceBox1Abstract1
+        competenceBox1Abstract2
+        competenceBox1Abstract3
+        competenceBox1Abstract4
         competenceBox2Icon
         competenceBox2Title
-        competenceBox2Abstract
+        competenceBox2Abstract1
+        competenceBox2Abstract2
+        competenceBox2Abstract3
+        competenceBox2Abstract4
         competenceBox3Icon
         competenceBox3Title
-        competenceBox3Abstract
+        competenceBox3Abstract1
+        competenceBox3Abstract2
+        competenceBox3Abstract3
+        competenceBox3Abstract4
       }
     }
   },
@@ -268,6 +286,7 @@ export default {
     background-color: #f0fffb;
     box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.2);
     padding-bottom: 50px;
+    min-height: 363px;
     @media screen and (max-width: 992px) {
       margin-bottom: 150px;
     }
