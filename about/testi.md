@@ -17,7 +17,7 @@ person2Name: Alessandro
 person2Team: OPERATION
 person2Position: Founder & CEO
 person2Img: /uploads/alessandro_cirocchi.jpg
-person3Name: Marco
+person3Name: Susanna
 person3Team: OPERATION
 person3Position: Founder & CEO
 person3Img: /uploads/team.jpg
