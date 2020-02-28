@@ -264,19 +264,6 @@ collections:
         - {label: "Person10Team", name: "person10Team", widget: "string"}
         - {label: "Person10Position", name: "person10Position", widget: "string"}
         - {label: "Person10Img", name: "person10Img", widget: "image"}
-        - {label: "Testimonials",
-          name: "testimonials",
-          widget: "list",
-          fields:
-            - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"},
-            - {label: Author,
-              name: author,
-              widget: object,
-              fields:
-                - {label: Name, name: name, widget: string, default: "Emmet"}
-                - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
-            }
-          }
     - name: "proojects"
       label: "Projects" 
       folder: "progetti"
