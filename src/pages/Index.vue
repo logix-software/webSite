@@ -57,56 +57,19 @@
                 <source src="@/assets/images/video.mp4" type="video/mp4" />Your browser does not support HTML5 video.
               </video>
             </div>
-            <!-- ~/assets/images/logo-aosp.png -->
           </div>
         </div>
       </div>
 
-      <!-- <div class="container">
-      <h1>List articles</h1>
-      <a href="http://" class="btn btn-primary">Ciao</a>
-      <a href="http://" class="btn btn-secondary">Ciao</a>
-      <a href="http://" class="btn btn-default">Ciao</a>
-      <div v-for="article in $page.articles.edges" :key="article.id" class="article d-lg-flex">
-        <div>
-          <div
-            class="article__img"
-            :style="{ 'background-image': 'url(' + article.node.image + ')' }"
-          ></div>
-        </div>
-        <div class="article__body">
-          <g-link :to="article.node.path" class="article__link"></g-link>
-          <h1 class="article__title">{{article.node.title}}</h1>
-          <p class="article__abstract">{{article.node.abstract}}</p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <h1>List articles</h1>
-      <div v-for="article in $page.articles.edges" :key="article.id" class="article d-lg-flex">
-        <div>
-          <div
-            class="article__img"
-            :style="{ 'background-image': 'url(' + article.node.image + ')' }"
-          ></div>
-        </div>
-        <div class="article__body">
-          <g-link :to="article.node.path" class="article__link"></g-link>
-          <h1 class="article__title">{{article.node.title}}</h1>
-          <p class="article__abstract">{{article.node.abstract}}</p>
-        </div>
-      </div>
-      </div>-->
       <div class="container services mt-5 pt-5">
         <div class="row">
           <div class="col-lg-6 mx-auto mt-5">
             <h6 class="services__name">{{text.node.section1Name}}</h6>
-            <h2 class="services__tittle">{{text.node.section1Title}}</h2>
+            <h2 class="services__title">{{text.node.section1Title}}</h2>
             <p class="services__description">{{text.node.section1Abstract}}</p>
           </div>
         </div>
       </div>
-      <!-- v-if="deviceWidth > 992" -->
       <div v-if="deviceWidth > 992">
         <div class="wrapper" id="js-wrapper">
           <div class="sections" id="js-slideContainer">
@@ -285,7 +248,7 @@
       <div class="container pb-5 mt-5">
         <div class="row">
           <div class="col-lg-12">
-            <a href="#" class="btn btn-primary">Scopri le competenze</a>
+            <a href="/competenze" class="btn btn-primary">Scopri le competenze</a>
           </div>
         </div>
       </div>
@@ -565,8 +528,8 @@
             <div class="col-lg-5 mx-auto text-center py-5">
               <h1 class="idea__title mb-3">{{text.node.section5Title}}</h1>
               <p class="idea__descrition mb-5">{{text.node.section5Abstract}}</p>
-              <a href="http://" class="btn btn-primary mr-lg-3">Certo</a>
-              <a href="http://" class="btn btn-secondary">Abbastanza</a>
+              <button class="btn btn-primary mx-1 mx-lg-2" data-toggle="modal"
+              data-target="#modalContact">Contattaci</button>
             </div>
           </div>
         </div>
@@ -717,16 +680,25 @@ query {
 <script>
 export default {
   metaInfo: {
+    title: "Logix Software - progettazione e sviluppo software",
     meta: [
-      { name: "description", content: "" },
-      { property: "og:title", content: "" },
+      {
+        name: "description",
+        content:
+          "Logix Software è un’azienda informatica che offre a professionisti, aziende pubbliche e private, servizi di design e sviluppo per la realizzazione e il restauro di soluzioni digitali, in ambito web e mobile."
+      },
+      {
+        property: "og:title",
+        content: "Logix Software - progettazione e sviluppo software"
+      },
       {
         property: "og:description",
-        content: ""
+        content:
+          "Logix Software è un’azienda informatica che offre a professionisti, aziende pubbliche e private, servizi di design e sviluppo per la realizzazione e il restauro di soluzioni digitali, in ambito web e mobile."
       },
       {
         property: "og:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
       {
         property: "twitter:card",
@@ -734,17 +706,17 @@ export default {
       },
       {
         property: "twitter:title",
-        content: ""
+        content: "Logix Software - progettazione e sviluppo software"
       },
       {
         property: "twitter:description",
-        content: ""
+        content:
+          "Logix Software è un’azienda informatica che offre a professionisti, aziende pubbliche e private, servizi di design e sviluppo per la realizzazione e il restauro di soluzioni digitali, in ambito web e mobile."
       },
       {
         property: "twitter:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
-      { property: "og:url", content: "" },
       { name: "robots", content: "index, follow" }
     ]
   },
@@ -1090,6 +1062,11 @@ export default {
     font-size: 56px;
     letter-spacing: -1.91px;
     line-height: 58px;
+    @media screen and (max-width: 992px) {
+      font-size: 40px;
+      line-height: initial;
+      letter-spacing: initial;
+    }
   }
   &__description {
     color: #000000;
@@ -1586,7 +1563,7 @@ export default {
     line-height: 25px;
   }
   &__logo {
-     width: 70px;
+    width: 70px;
     @media screen and (max-width: 992px) {
       width: 50px;
     }
@@ -1608,7 +1585,7 @@ export default {
   color: #fff;
   padding: 145px 0px;
   @media screen and (max-width: 992px) {
-    padding: 200px 0px 100px;
+    padding: 100px 0px;
   }
   &__title {
     font-family: "Lexend Deca";

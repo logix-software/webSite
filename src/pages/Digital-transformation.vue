@@ -233,7 +233,8 @@
                   Pronto a realizzare la tua prossima
                   <span class="text-blue">innovazione</span>?
                 </h1>
-                <a href="http://" class="btn btn-primary">Contattaci</a>
+                <button class="btn btn-primary" data-toggle="modal"
+              data-target="#modalContact">Contattaci</button>
               </div>
             </div>
           </div>
@@ -348,8 +349,8 @@
               class="partnership__descriptionClosing mb-5"
             >{{textPartnership.node.sectionAbstract2}}</p>
             <div>
-              <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
-              <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
+              <button class="btn btn-primary mx-1 mx-lg-2" data-toggle="modal"
+              data-target="#modalContact">Contattaci</button>
             </div>
           </div>
         </div>
@@ -448,17 +449,17 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Digital Transformation",
+    title: "Digital Transformation - Logix Software",
     meta: [
-      { name: "description", content: "" },
-      { property: "og:title", content: "" },
+      { name: "description", content: "Abbiamo pensato il servizio di Digital Transformation per aziende pubbliche e private che vogliono, anche grazie ai piani Industria 4.0 e transizione 4.0, realizzare, migliorare o ridisegnare prodotti e servizi digitali. " },
+      { property: "og:title", content: "Digital Transformation - Logix Software" },
       {
         property: "og:description",
-        content: ""
+        content: "Abbiamo pensato il servizio di Digital Transformation per aziende pubbliche e private che vogliono, anche grazie ai piani Industria 4.0 e transizione 4.0, realizzare, migliorare o ridisegnare prodotti e servizi digitali. "
       },
       {
         property: "og:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
       {
         property: "twitter:card",
@@ -466,17 +467,17 @@ export default {
       },
       {
         property: "twitter:title",
-        content: ""
+        content: "Digital Transformation - Logix Software"
       },
       {
         property: "twitter:description",
-        content: ""
+        content: "Abbiamo pensato il servizio di Digital Transformation per aziende pubbliche e private che vogliono, anche grazie ai piani Industria 4.0 e transizione 4.0, realizzare, migliorare o ridisegnare prodotti e servizi digitali. "
       },
       {
         property: "twitter:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
-      { property: "og:url", content: "" },
+      { property: "og:url", content: "https://www.logix-software.it/digital-transformation" },
       { name: "robots", content: "index, follow" }
     ]
   },

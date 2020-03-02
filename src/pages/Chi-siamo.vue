@@ -330,9 +330,7 @@
             <div class="row">
               <div class="col-lg-6">
                 <h1 class="workForUs__title">{{text.node.workForUsTitle}}</h1>
-                <p
-                  class="workForUs__description"
-                >{{text.node.workForUsDescription1}}</p>
+                <p class="workForUs__description">{{text.node.workForUsDescription1}}</p>
               </div>
             </div>
             <div class="row py-5">
@@ -340,7 +338,8 @@
                 <div class="position__body">
                   <h1 class="position__title">{{text.node.position1Title}}</h1>
                   <p class="position__place mb-0">
-                    <i class="fas fa-map-marker-alt mr-1"></i>{{text.node.position1Location}}
+                    <i class="fas fa-map-marker-alt mr-1"></i>
+                    {{text.node.position1Location}}
                   </p>
                 </div>
               </div>
@@ -348,7 +347,8 @@
                 <div class="position__body">
                   <h1 class="position__title">{{text.node.position2Title}}</h1>
                   <p class="position__place mb-0">
-                    <i class="fas fa-map-marker-alt mr-1"></i>{{text.node.position2Location}}
+                    <i class="fas fa-map-marker-alt mr-1"></i>
+                    {{text.node.position2Location}}
                   </p>
                 </div>
               </div>
@@ -356,7 +356,8 @@
                 <div class="position__body">
                   <h1 class="position__title">{{text.node.position3Title}}</h1>
                   <p class="position__place mb-0">
-                    <i class="fas fa-map-marker-alt mr-1"></i>{{text.node.position3Location}}
+                    <i class="fas fa-map-marker-alt mr-1"></i>
+                    {{text.node.position3Location}}
                   </p>
                 </div>
               </div>
@@ -364,21 +365,19 @@
                 <div class="position__body">
                   <h1 class="position__title">{{text.node.position4Title}}</h1>
                   <p class="position__place mb-0">
-                    <i class="fas fa-map-marker-alt mr-1"></i>{{text.node.position4Location}}
+                    <i class="fas fa-map-marker-alt mr-1"></i>
+                    {{text.node.position4Location}}
                   </p>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-6">
-                <p
-                  class="workForUs__description"
-                >{{text.node.workForUsDescription2}}</p>
+                <p class="workForUs__description">{{text.node.workForUsDescription2}}</p>
                 <a href="mailto:info@logixcorp.it" class="workForUs__link">info@logixcorp.it</a>
-                <p
-                  class="workForUs__description"
-                >{{text.node.workForUsDescription3}}</p>
-                <a href="mailto:" class="btn btn-secondary">Contattaci</a>
+                <p class="workForUs__description">{{text.node.workForUsDescription3}}</p>
+                <button class="btn btn-secondary" data-toggle="modal"
+                  data-target="#modalContact">Contattaci</button>
               </div>
             </div>
           </div>
@@ -414,8 +413,11 @@
                 class="partnership__descriptionClosing mb-5"
               >{{textPartnership.node.sectionAbstract2}}</p>
               <div>
-                <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
-                <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
+                <button
+                  class="btn btn-primary mx-1 mx-lg-2"
+                  data-toggle="modal"
+                  data-target="#modalContact"
+                >Contattaci</button>
               </div>
             </div>
           </div>
@@ -524,17 +526,22 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Chi siamo",
+    title: "Chi siamo - Logix Software",
     meta: [
-      { name: "description", content: "" },
-      { property: "og:title", content: "" },
+      {
+        name: "description",
+        content:
+          "Logix Software, azienda informatica con sede a Roma e Terni, è composta da un team di professionisti digital, specializzati nello sviluppo, nel design e nel marketing."
+      },
+      { property: "og:title", content: "Chi siamo - Logix Software" },
       {
         property: "og:description",
-        content: ""
+        content:
+          "Logix Software, azienda informatica con sede a Roma e Terni, è composta da un team di professionisti digital, specializzati nello sviluppo, nel design e nel marketing."
       },
       {
         property: "og:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
       {
         property: "twitter:card",
@@ -542,17 +549,18 @@ export default {
       },
       {
         property: "twitter:title",
-        content: ""
+        content: "Chi siamo - Logix Software"
       },
       {
         property: "twitter:description",
-        content: ""
+        content:
+          "Logix Software, azienda informatica con sede a Roma e Terni, è composta da un team di professionisti digital, specializzati nello sviluppo, nel design e nel marketing."
       },
       {
         property: "twitter:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
-      { property: "og:url", content: "" },
+      { property: "og:url", content: "https://www.logix-software.it/chi-siamo" },
       { name: "robots", content: "index, follow" }
     ]
   },

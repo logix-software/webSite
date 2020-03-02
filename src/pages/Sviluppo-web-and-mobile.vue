@@ -28,7 +28,8 @@
               <p
                 class="competence__description mb-4"
               >{{text.node.Section1Abstract}}</p>
-              <a href class="btn btn-secondary">Parliamo di questo servizio</a>
+              <button data-toggle="modal"
+              data-target="#modalContact" class="btn btn-secondary">Parliamo di questo servizio</button>
             </div>
           </div>
         </div>
@@ -187,7 +188,8 @@
               <p
                 class="competence__description mb-4"
               >{{text.node.Section2Abstract}}</p>
-              <a href class="btn btn-secondary">Parliamo di questo servizio</a>
+              <button class="btn btn-secondary" data-toggle="modal"
+              data-target="#modalContact">Parliamo di questo servizio</button>
             </div>
           </div>
         </div>
@@ -382,8 +384,8 @@
               class="partnership__descriptionClosing mb-5"
             >{{textPartnership.node.sectionAbstract2}}</p>
             <div>
-              <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
-              <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
+              <button class="btn btn-primary mx-1 mx-lg-2" data-toggle="modal"
+              data-target="#modalContact">Contattaci</button>
             </div>
           </div>
         </div>
@@ -522,17 +524,17 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Sviluppo Web & Mobile",
+    title: "Sviluppo web e mobile - Logix Software",
     meta: [
-      { name: "description", content: "" },
-      { property: "og:title", content: "" },
+      { name: "description", content: "Ci occupiamo di sviluppare prodotti digitali, focalizzandosi su System integration, IoT, piattaforme cloud, web e mobile app, offrendo soluzioni cross platform o native, per istituzioni ed aziende." },
+      { property: "og:title", content: "Sviluppo web e mobile - Logix Software" },
       {
         property: "og:description",
-        content: ""
+        content: "Ci occupiamo di sviluppare prodotti digitali, focalizzandosi su System integration, IoT, piattaforme cloud, web e mobile app, offrendo soluzioni cross platform o native, per istituzioni ed aziende."
       },
       {
         property: "og:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
       {
         property: "twitter:card",
@@ -540,17 +542,17 @@ export default {
       },
       {
         property: "twitter:title",
-        content: ""
+        content: "Sviluppo web e mobile - Logix Software"
       },
       {
         property: "twitter:description",
-        content: ""
+        content: "Ci occupiamo di sviluppare prodotti digitali, focalizzandosi su System integration, IoT, piattaforme cloud, web e mobile app, offrendo soluzioni cross platform o native, per istituzioni ed aziende."
       },
       {
         property: "twitter:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
-      { property: "og:url", content: "" },
+      { property: "og:url", content: "https://www.logix-software.it/sviluppo-web-and-mobile" },
       { name: "robots", content: "index, follow" }
     ]
   },

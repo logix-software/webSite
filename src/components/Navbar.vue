@@ -25,7 +25,7 @@
                 <g-link
                   class="nav__link mx-3 py-1 d-inline-block"
                   to="/sviluppo-web-and-mobile"
-                >> Swiluppo web & mobile</g-link>
+                >> Sviluppo web & mobile</g-link>
               </li>
               <li>
                 <g-link

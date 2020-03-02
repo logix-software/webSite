@@ -155,54 +155,54 @@
       </div>
     </div>
     <div
-        class="partnership pb-5"
-        v-for="textPartnership in $page.textsPartnership.edges"
-        :key="textPartnership.id"
-      >
-        <div class="partnership__box mb-5 py-5">
-          <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-11 ml-auto pl-lg-5">
-                <h6 class="pl-2 pl-lg-4 partnership__name">{{textPartnership.node.sectionName}}</h6>
-                <h1 class="pl-2 pl-lg-4 partnership__title">{{textPartnership.node.sectionTitle}}</h1>
-                <div class="d-flex flex-wrap align-items-center">
-                  <g-image :src="textPartnership.node.logo1" class="partnership__logo" />
-                  <g-image :src="textPartnership.node.logo2" class="partnership__logo" />
-                  <g-image :src="textPartnership.node.logo3" class="partnership__logo" />
-                  <g-image :src="textPartnership.node.logo4" class="partnership__logo" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      class="partnership pb-5"
+      v-for="textPartnership in $page.textsPartnership.edges"
+      :key="textPartnership.id"
+    >
+      <div class="partnership__box mb-5 py-5">
+        <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
         <div class="container">
           <div class="row">
-            <div class="col-lg-5 mx-auto text-center py-5">
-              <h1 class="partnership__titleClosing mb-4">{{textPartnership.node.sectionTitle2}}</h1>
-              <p
-                class="partnership__descriptionClosing mb-5"
-              >{{textPartnership.node.sectionAbstract2}}</p>
-              <div>
-                <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
-                <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container my-5 pt-5">
-          <div class="row">
-            <div class="col-lg-10 ml-auto position-relative mt-lg-5">
-              <div class="cta cta--black">
-                <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
-                <div class="d-flex align-items-center justify-content-between w-75">
-                  <h1 class="cta__title">{{textPartnership.node.ctaTitle}}</h1>
-                </div>
+            <div class="col-lg-11 ml-auto pl-lg-5">
+              <h6 class="pl-2 pl-lg-4 partnership__name">{{textPartnership.node.sectionName}}</h6>
+              <h1 class="pl-2 pl-lg-4 partnership__title">{{textPartnership.node.sectionTitle}}</h1>
+              <div class="d-flex flex-wrap align-items-center">
+                <g-image :src="textPartnership.node.logo1" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo2" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo3" class="partnership__logo" />
+                <g-image :src="textPartnership.node.logo4" class="partnership__logo" />
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 mx-auto text-center py-5">
+            <h1 class="partnership__titleClosing mb-4">{{textPartnership.node.sectionTitle2}}</h1>
+            <p
+              class="partnership__descriptionClosing mb-5"
+            >{{textPartnership.node.sectionAbstract2}}</p>
+            <div>
+              <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
+              <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container my-5 pt-5">
+        <div class="row">
+          <div class="col-lg-10 ml-auto position-relative mt-lg-5">
+            <div class="cta cta--black">
+              <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
+              <div class="d-flex align-items-center justify-content-between w-75">
+                <h1 class="cta__title">{{textPartnership.node.ctaTitle}}</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </Layout>
 </template>
 <page-query>
@@ -229,6 +229,7 @@ query ($path: String!) {
         section3Image
         cta
         content
+        path
     },
     textsPartnership: allPartnership {
         edges {
@@ -249,34 +250,56 @@ query ($path: String!) {
 </page-query>
 <script>
 export default {
-  //   metaInfo: {
-  //     title: "About us"
-  // meta: [
-  //   { name: 'author', content: 'John Doe' }
-  // ],
-  // link: [
-  //   { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js' },
-  // ],
-  //   },
-  //   metaInfo: {
-  //     title: "About us",
-  //     meta: [
-  //       //   { name: 'author', content: 'John Doe' }
-  //     ],
-  //     link: [
-  //       { rel: "stylesheet", href: "https://unpkg.com/aos@2.3.1/dist/aos.css" }
-  //     ],
-  //     script: [{ src: "https://unpkg.com/aos@2.3.1/dist/aos.js", body: true }]
-  //     // etc...
-  //   },
+  metaInfo() {
+    return {
+      title: this.$page.project.title,
+      meta: [
+        {
+          name: "description",
+          content: this.$page.project.abstract,
+        },
+        {
+          property: "og:title",
+          content: this.$page.project.title,
+        },
+        {
+          property: "og:description",
+          content: this.$page.project.abstract,
+        },
+        {
+          property: "og:image",
+          content:
+            "https://www.logix-software.it/assets/static/uploads/share.jpg"
+        },
+        {
+          property: "twitter:card",
+          content: "summary"
+        },
+        {
+          property: "twitter:title",
+          content: this.$page.project.title,
+        },
+        {
+          property: "twitter:description",
+          content: this.$page.project.abstract,
+        },
+        {
+          property: "twitter:image",
+          content:
+            "https://www.logix-software.it/assets/static/uploads/share.jpg"
+        },
+        {
+          property: "og:url",
+          content: "https://www.logix-software.it" + this.$page.project.path,
+        },
+        { name: "robots", content: "index, follow" }
+      ]
+    };
+  },
+
   data() {
     return {
       //   deviceWidth: 0
-    };
-  },
-  metaInfo() {
-    return {
-      title: this.$page.project.title
     };
   },
   mounted() {

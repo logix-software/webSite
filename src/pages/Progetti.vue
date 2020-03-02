@@ -166,8 +166,8 @@
               class="partnership__descriptionClosing mb-5"
             >{{textPartnership.node.sectionAbstract2}}</p>
             <div>
-              <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
-              <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
+              <button class="btn btn-primary mx-1 mx-lg-2" data-toggle="modal"
+              data-target="#modalContact">Contattaci</button>
             </div>
           </div>
         </div>
@@ -254,17 +254,17 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Progetti",
+    title: "Progetti - Logix Software",
     meta: [
-      { name: "description", content: "" },
-      { property: "og:title", content: "" },
+      { name: "description", content: "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile." },
+      { property: "og:title", content: "Progetti - Logix Software" },
       {
         property: "og:description",
-        content: ""
+        content: "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile."
       },
       {
         property: "og:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
       {
         property: "twitter:card",
@@ -272,17 +272,17 @@ export default {
       },
       {
         property: "twitter:title",
-        content: ""
+        content: "Progetti - Logix Software"
       },
       {
         property: "twitter:description",
-        content: ""
+        content: "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile."
       },
       {
         property: "twitter:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
-      { property: "og:url", content: "" },
+      { property: "og:url", content: "https://www.logix-software.it/progetti" },
       { name: "robots", content: "index, follow" }
     ]
   },

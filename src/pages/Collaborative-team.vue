@@ -77,7 +77,8 @@
           </div>
         </div>
         <div class="text-center">
-          <a href="http://" class="btn btn-primary">Scopri</a>
+          <button class="btn btn-primary" data-toggle="modal"
+              data-target="#modalContact">Parliamo di questo servizio</button>
         </div>
       </div>
     </div>
@@ -111,8 +112,8 @@
               class="partnership__descriptionClosing mb-5"
             >{{textPartnership.node.sectionAbstract2}}</p>
             <div>
-              <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
-              <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
+              <button class="btn btn-primary mx-1 mx-lg-2" data-toggle="modal"
+              data-target="#modalContact">Contattaci</button>
             </div>
           </div>
         </div>
@@ -183,17 +184,17 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Collaborative Team",
+    title: "Collaborative Team - Logix Software",
     meta: [
-      { name: "description", content: "" },
-      { property: "og:title", content: "" },
+      { name: "description", content: "Il team di esperti Logix è in grado di affiancare le aziende clienti per collaborare nell’ambito digital su progetti di ricerca, sviluppo e design." },
+      { property: "og:title", content: "Collaborative Team - Logix Software" },
       {
         property: "og:description",
-        content: ""
+        content: "Il team di esperti Logix è in grado di affiancare le aziende clienti per collaborare nell’ambito digital su progetti di ricerca, sviluppo e design."
       },
       {
         property: "og:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
       {
         property: "twitter:card",
@@ -201,17 +202,17 @@ export default {
       },
       {
         property: "twitter:title",
-        content: ""
+        content: "Collaborative Team - Logix Software"
       },
       {
         property: "twitter:description",
-        content: ""
+        content: "Il team di esperti Logix è in grado di affiancare le aziende clienti per collaborare nell’ambito digital su progetti di ricerca, sviluppo e design."
       },
       {
         property: "twitter:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
-      { property: "og:url", content: "" },
+      { property: "og:url", content: "https://www.logix-software.it/collaborative-team" },
       { name: "robots", content: "index, follow" }
     ]
   },

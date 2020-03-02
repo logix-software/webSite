@@ -28,7 +28,8 @@
               <p
                 class="competence__description mb-4"
               >{{text.node.Section1Abstract}}</p>
-              <a href class="btn btn-secondary">Parliamo di questo servizio</a>
+              <button class="btn btn-secondary" data-toggle="modal"
+              data-target="#modalContact">Parliamo di questo servizio</button>
             </div>
           </div>
         </div>
@@ -100,7 +101,8 @@
               <p
                 class="competence__description mb-4"
               >{{text.node.Section2Abstract}}</p>
-              <a href class="btn btn-secondary">Parliamo di questo servizio</a>
+              <button class="btn btn-secondary" data-toggle="modal"
+              data-target="#modalContact">Parliamo di questo servizio</button>
             </div>
           </div>
         </div>
@@ -198,7 +200,8 @@
                 <h1 class="cta__title">
                   {{text.node.cta}}
                 </h1>
-                <a href="http://" class="btn btn-primary">Contattaci</a>
+                <button class="btn btn-primary" data-toggle="modal"
+              data-target="#modalContact">Contattaci</button>
               </div>
             </div>
           </div>
@@ -284,7 +287,8 @@
           </div>
         </div>
         <div class="py-5 text-center my-5">
-          <a href="http://" class="btn btn-primary">Parliamo di questo servizio</a>
+          <button class="btn btn-primary" data-toggle="modal"
+              data-target="#modalContact">Parliamo di questo servizio</button>
         </div>
       </div>
       <div class="methods position-relative">
@@ -338,8 +342,8 @@
               class="partnership__descriptionClosing mb-5"
             >{{textPartnership.node.sectionAbstract2}}</p>
             <div>
-              <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
-              <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
+              <button class="btn btn-primary mx-1 mx-lg-2" data-toggle="modal"
+              data-target="#modalContact">Contattaci</button>
             </div>
           </div>
         </div>
@@ -458,17 +462,17 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Design Research & Strategy",
+    title: "Design - Logix Software",
     meta: [
-      { name: "description", content: "" },
-      { property: "og:title", content: "" },
+      { name: "description", content: "Attraverso i nostri servizi di design, permettiamo ad aziende ed istituzione di ideare esperienze digitali pensate per gli utenti finali e sviluppate sulla base di ricerche ed analisi concrete." },
+      { property: "og:title", content: "Design - Logix Software" },
       {
         property: "og:description",
-        content: ""
+        content: "Attraverso i nostri servizi di design, permettiamo ad aziende ed istituzione di ideare esperienze digitali pensate per gli utenti finali e sviluppate sulla base di ricerche ed analisi concrete."
       },
       {
         property: "og:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
       {
         property: "twitter:card",
@@ -476,17 +480,17 @@ export default {
       },
       {
         property: "twitter:title",
-        content: ""
+        content: "Design - Logix Software"
       },
       {
         property: "twitter:description",
-        content: ""
+        content: "Attraverso i nostri servizi di design, permettiamo ad aziende ed istituzione di ideare esperienze digitali pensate per gli utenti finali e sviluppate sulla base di ricerche ed analisi concrete."
       },
       {
         property: "twitter:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
-      { property: "og:url", content: "" },
+      { property: "og:url", content: "https://www.logix-software.it/design-research-and-strategy" },
       { name: "robots", content: "index, follow" }
     ]
   },

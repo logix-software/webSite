@@ -9,10 +9,8 @@
           </div>
         </div>
         <div class="row">
-          
           <div class="col-lg-4">
             <div class="pr-lg-5">
-              
               <h3 class="mb-4 footer__title2">Passa da noi</h3>
               <h5 class="footer__title3">Terni</h5>
               <p>Piazza Europa, 5 - 05100 Terni(TR)</p>
@@ -25,12 +23,12 @@
           </div>
           <div class="col-lg-3">
             <h5 class="mb-4 footer__title2">Scrivici</h5>
-            <p><a href="mailto:info@logixcorp.com">info@logixcorp.com</a></p>
-            
-           
+            <p>
+              <a href="mailto:info@logixcorp.com">info@logixcorp.com</a>
+            </p>
           </div>
           <div class="col-lg-4">
-             <h5 class="mb-4 footer__title2">Seguici</h5>
+            <h5 class="mb-4 footer__title2">Seguici</h5>
             <ul class="list-unstyled d-flex">
               <li>
                 <a
@@ -40,6 +38,16 @@
                   class="mr-3"
                 >
                   <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/company/logix-srl/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mr-3"
+                >
+                  <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li>
@@ -66,7 +74,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12 d-lg-flex align-items-center justify-content-between">
-            <p class="mb-3 mb-lg-0">© Copyright 2019 - Logix  Srl</p>
+            <p class="mb-3 mb-lg-0">© Copyright 2019 - Logix Srl</p>
             <p>P.iva: 01388050559</p>
           </div>
         </div>
@@ -99,33 +107,34 @@ export default {
   color: #fff;
   a {
     color: #fff;
-    
+    &:hover,&:active,&:focus{
+ color: #fff;
+    }
   }
   p {
     font-size: 16px;
   }
-  &__deco{
+  &__deco {
     position: absolute;
     left: -200px;
     top: 12px;
   }
-  &__title1{
-font-family: "DM Sans";
-  font-size: 48px;
-  font-weight: 500;
-  letter-spacing: -1.76px;
+  &__title1 {
+    font-family: "DM Sans";
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: -1.76px;
   }
-  &__title2{
- font-family: "DM Sans";
-  font-size: 35px;
-  font-weight: 500;
-  letter-spacing: -1.28px;
+  &__title2 {
+    font-family: "DM Sans";
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: -1.28px;
   }
-  &__title3{
-     font-family: "DM Sans";
-  font-size: 22px;
-  letter-spacing: -0.44px;
+  &__title3 {
+    font-family: "DM Sans";
+    font-size: 22px;
+    letter-spacing: -0.44px;
   }
-  
 }
 </style>

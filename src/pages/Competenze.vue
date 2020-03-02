@@ -25,8 +25,11 @@
           <div class="row">
             <div class="col-lg-10 mx-auto">
               <div class="caseHistoryCompetenze">
-                <div class="d-lg-flex align-items-center justify-content-between" v-for="textCtaProject in $page.textsCtaProject.edges"
-      :key="textCtaProject.id">
+                <div
+                  class="d-lg-flex align-items-center justify-content-between"
+                  v-for="textCtaProject in $page.textsCtaProject.edges"
+                  :key="textCtaProject.id"
+                >
                   <div class="d-lg-flex align-items-start">
                     <g-image :src="textCtaProject.node.image" class="caseHistoryCompetenze__img" />
                     <div class="caseHistoryCompetenze__body ml-4">
@@ -38,13 +41,14 @@
                       <p
                         class="caseHistoryCompetenze__description"
                       >{{textCtaProject.node.description}}</p>
-                      <p
-                        class="caseHistoryCompetenze__tags"
-                      >{{textCtaProject.node.hashtags}}</p>
+                      <p class="caseHistoryCompetenze__tags">{{textCtaProject.node.hashtags}}</p>
                     </div>
                   </div>
                   <div class="text-right">
-                    <g-link :to="textCtaProject.node.link" class="caseHistoryCompetenze__link">_Scopri di più</g-link>
+                    <g-link
+                      :to="textCtaProject.node.link"
+                      class="caseHistoryCompetenze__link"
+                    >_Scopri di più</g-link>
                   </div>
                 </div>
               </div>
@@ -472,8 +476,11 @@
               class="partnership__descriptionClosing mb-5"
             >{{textPartnership.node.sectionAbstract2}}</p>
             <div>
-              <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
-              <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
+              <button
+                class="btn btn-primary mx-1 mx-lg-2"
+                data-toggle="modal"
+                data-target="#modalContact"
+              >Contattaci</button>
             </div>
           </div>
         </div>
@@ -590,17 +597,22 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Competenze",
+    title: "Competenze - Logix Software",
     meta: [
-      { name: "description", content: "" },
-      { property: "og:title", content: "" },
+      {
+        name: "description",
+        content:
+          "In Logix Software accompagniamo le aziende pubbliche e private nella loro forma digitale, progettando e sviluppando soluzioni web e mobile, pensate per gli utenti, attraverso metodologia agile, lungo un percorso consolidato."
+      },
+      { property: "og:title", content: "Competenze - Logix Software" },
       {
         property: "og:description",
-        content: ""
+        content:
+          "In Logix Software accompagniamo le aziende pubbliche e private nella loro forma digitale, progettando e sviluppando soluzioni web e mobile, pensate per gli utenti, attraverso metodologia agile, lungo un percorso consolidato."
       },
       {
         property: "og:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
       {
         property: "twitter:card",
@@ -608,17 +620,18 @@ export default {
       },
       {
         property: "twitter:title",
-        content: ""
+        content: "Competenze - Logix Software"
       },
       {
         property: "twitter:description",
-        content: ""
+        content:
+          "In Logix Software accompagniamo le aziende pubbliche e private nella loro forma digitale, progettando e sviluppando soluzioni web e mobile, pensate per gli utenti, attraverso metodologia agile, lungo un percorso consolidato."
       },
       {
         property: "twitter:image",
-        content: ""
+        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
       },
-      { property: "og:url", content: "" },
+      { property: "og:url", content: "https://www.logix-software.it/competenze" },
       { name: "robots", content: "index, follow" }
     ]
   },
@@ -853,8 +866,9 @@ export default {
     .col-right {
       order: 0;
       .step__keyWord {
-         @media screen and (min-width: 992px) {
-        margin-top: 1.5rem;}
+        @media screen and (min-width: 992px) {
+          margin-top: 1.5rem;
+        }
       }
       @media screen and (max-width: 992px) {
         order: 1;
