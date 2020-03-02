@@ -284,6 +284,7 @@ collections:
       slug: "{{slug}}"
       fields: 
         - {label: "Title", name: "title", widget: "string"}
+        - {label: "Abstract", name: "abstract", widget: "text"}
         - {label: "Hashtags", name: "hashtags", widget: "string"}
         - {label: "Image1", name: "image1", widget: "image"}
         - {label: "SectionTitle", name: "sectionTitle", widget: "string"}
