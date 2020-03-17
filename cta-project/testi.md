@@ -1,10 +1,13 @@
 ---
-title: 'Acta: il registro elettronico'
+title: Acta Logix - Registro elettronico
 description: >-
-  Last month, my wife, Anne Doe, took me to Las Vegas because she had to go for
-  convention.
-hashtags: '#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE'
+  In Logix abbiamo pensato proprio a tutti, Acta Logix nasce dall'esigenza di
+  creare uno strumento ideale per la scuola e la formazione di ogni ordine e
+  grado. Il registro elettronico di casa Logix permette l’organizzazione in
+  cloud di ogni fase dell’attività scolastica: dalle assenze ai ritardi, dai
+  voti agli scrutini, fino ai programmi didattici e alle comunicazioni di
+  interesse comune.
+hashtags: '#W#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
 image: /uploads/cta-case.png
 link: '#'
 ---
-
