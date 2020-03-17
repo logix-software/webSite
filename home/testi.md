@@ -50,11 +50,15 @@ slider1Slide5Image: /uploads/bg-pic.png
 caseHistoryName: CASE HISTORY
 caseHistoryTitleSection: Tra gli ultimi lavori realizzati
 caseHistoryBgText: Education
-caseHistoryTitle: Acta Logix - registro elettronico
+caseHistoryTitle: Acta Logix - Registro elettronico
 caseHistoryAbstract: >-
-  When you enter into any new area of science, you almost always find yourself
-  with a baffling new language of technical terms to learn before.
-caseHistoryTestimonialDescription: "Abbiamo portato avanti il progetto! \U0001F44D\U0001F44D una collaborazione che dura da anni."
+  In Logix abbiamo pensato proprio a tutti, Acta Logix nasce dall'esigenza di
+  creare uno strumento ideale per la scuola e la formazione di ogni ordine e
+  grado. Il registro elettronico di casa Logix permette l’organizzazione in
+  cloud di ogni fase dell’attività scolastica: dalle assenze ai ritardi, dai
+  voti agli scrutini, fino ai programmi didattici e alle comunicazioni di
+  interesse comune.
+caseHistoryTestimonialDescription: "Abbiamo portato avanti il progetto! \U0001F44D\U0001F44D Una collaborazione che dura da anni."
 caseHistoryTestimonialName: Giovanna Miriani
 caseHistoryTestimonialPosition: Preside scolastico - Istituto M. Rosselli
 caseHistoryLink: link
@@ -138,4 +142,3 @@ section5Abstract: >-
 cta2Title: Consiglio last minute? Parla con noi al 0744/283733
 section2Logo7: /uploads/logo-ionic.png
 ---
-
