@@ -7,8 +7,8 @@ logo3: /uploads/logo-cogne.png
 logo4: /uploads/logo-umbriadigitale.png
 sectionTitle2: Sei sicuro della tua nuova idea?
 sectionAbstract2: >-
-  When you enter into any new area of science, you almost always find yourself
-  with a baffling new language.
+  Inizia il tuo percorso adottando un approccio olistico, strategico, orientato
+  ai risultati che sfrutta conoscenze e competenze di mondi differenti ed
+  affini: il design e lo sviluppo. Verso nuove logiche digitali. 
 ctaTitle: Consiglio last minute? Parla con Bottino oppure chiama al 0744/33434522
 ---
-
