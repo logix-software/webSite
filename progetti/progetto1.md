@@ -1,6 +1,12 @@
 ---
 title: Acta Logix - Registro elettronico
-abstract: ' '
+abstract: >-
+  In Logix abbiamo pensato proprio a tutti, Acta Logix nasce dall’esigenza di
+  creare uno strumento ideale per la scuola e la formazione di ogni ordine e
+  grado. Il registro elettronico di casa Logix permette l’organizzazione in
+  cloud di ogni fase dell’attività scolastica: dalle assenze ai ritardi, dai
+  voti agli scrutini, fino ai programmi didattici e alle comunicazioni di
+  interesse comune.
 hashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
 image1: /uploads/project.jpg
 sectionTitle: Il progetto
@@ -9,14 +15,13 @@ title2: 'Per gli insegnanti:'
 abstract2: >-
   Docenti e formatori hanno il vantaggio di fruire di due strumenti, registro di
   classe e registro personale, in unico device. All’interno di Acta Logix è
-  possibile annotare presenze, firmare lezioni, assegnare compiti e leggere news
-  e circolari. Allo stesso tempo, per quel che riguarda l’area riservata di
-  ciascun alunno, gli insegnanti possono: registrare voti, note,
-  giustificazioni, o qualsiasi altra documentazione di tipo privato; ottenendo
-  così un quadro completo di ciascun alunno. I docenti possono, inoltre, avere
-  accesso ad un “archivio digitale” in cui caricare materiale scaricabile e
-  creare file in condivisione con gli altri insegnanti per progetti
-  collaborativi o di compresenza.
+  possibile annotare presenze e ritardi, firmare lezioni, assegnare compiti e
+  leggere news e circolari. Allo stesso tempo, per quel che riguarda l’area
+  riservata di ciascun alunno, gli insegnanti possono: registrare voti, note,
+  giustificazioni o qualsiasi altra documentazione di tipo privato. I docenti
+  possono, inoltre, avere accesso ad un “archivio digitale” in cui caricare
+  materiale scaricabile e creare file in condivisione con gli altri insegnanti
+  per progetti collaborativi o di compresenza.
 image3: /uploads/project.png
 title3: ' Per studenti e famiglie:'
 abstract3: >-
