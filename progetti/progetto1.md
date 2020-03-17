@@ -5,7 +5,7 @@ hashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL
 image1: /uploads/project.jpg
 sectionTitle: Il progetto
 image2: /uploads/iphone1.png
-title2: 'PER GLI INSEGNANTI:'
+title2: 'Per gli Insegnati:'
 abstract2: >-
   Docenti e formatori hanno il vantaggio di fruire di due strumenti, registro di
   classe e registro personale, in unico device. All'interno di Acta Logix è
@@ -21,7 +21,7 @@ abstract2: >-
   caricare materiale scaricabile e creare file in condivisione con gli altri
   docenti per progetti collaborativi o di compresenza.
 image3: /uploads/project.png
-title3: ' PER STUDENTI E FAMIGLIE:'
+title3: ' Per studenti e famiglie:'
 abstract3: >-
   Con Acta Logix gli studenti hanno la possibilità di rivedere gli argomenti
   trattati, l’orario dei giorni successivi e i compiti assegnati; è inoltre
@@ -42,7 +42,7 @@ section2Feedback: "Abbiamo portato avanti il progetto! \U0001F44D\U0001F44D una 
 section2Name: Giovanna Miriani
 section2Position: Preside scolastico - Istituto M. Rosselli
 section2Image: /uploads/rectangle-2x.png
-section3Title: 'AMMINISTRAZIONE E GESTIONE DEL PERSONALE:'
+section3Title: 'Amministrazione e gestione del personale:'
 section3Abstract: >-
   Dirigenti e personale ATA, grazie al nostro registro, possono fornire
   autorizzazioni, documenti e comunicazioni di tipo organizzativo come:
