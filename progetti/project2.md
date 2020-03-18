@@ -1,5 +1,5 @@
 ---
-title: 'Esibit - piattaforma per gli artisti '
+title: 'Esibit - Piattaforma per gli artisti '
 abstract: >-
   Esibit è una piattaforma dedicata al mondo dell’arte, dove artisti,
   galleristi, critici o chiunque ne sia in qualche modo coinvolto o affascinato
@@ -40,10 +40,12 @@ abstract3: >-
   legate agli eventi, ma non possono interagire con la community e utilizzare le
   funzioni social offerte ai membri accreditati.
 section2Title: Testimonial
-section2Feedback: "Abbiamo portato avanti il progetto! \U0001F44D\U0001F44D una collaborazione che dura da anni."
-section2Name: Giovanna Miriani
-section2Position: Preside scolastico - Istituto M. Rosselli
-section2Image: /uploads/rectangle-2x.png
+section2Feedback: >-
+  Un ponte tra arte e tecnologia!. Grazie ad Esibit il progetto Enredadas
+  acquisisce una dimensione digitale e globale.
+section2Name: 'Igor Borozan '
+section2Position: Presidente dell'Accademia di Belle Arti di Terni
+section2Image: /uploads/igor-borozan.jpg
 section3Title: ' '
 section3Abstract: ' '
 section3Image: /uploads/esibit_3-2x.png
