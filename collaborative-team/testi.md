@@ -16,18 +16,17 @@ competenceBox1Title: Progetto
 competenceBox1Abstract1: '> Scenario research'
 competenceBox1Abstract2: '> Project management'
 competenceBox1Abstract3: '> Lean product development'
-competenceBox1Abstract4: ''
+competenceBox1Abstract4: '  '
 competenceBox2Icon: /uploads/sviluppo-icon.svg
-competenceBox2Title: Progetto
+competenceBox2Title: Sviluppo
 competenceBox2Abstract1: '> Scenario research'
 competenceBox2Abstract2: '> Project management'
 competenceBox2Abstract3: '> Lean product development'
-competenceBox2Abstract4: ''
+competenceBox2Abstract4: '  '
 competenceBox3Icon: /uploads/design-icon.svg
-competenceBox3Title: Progetto
+competenceBox3Title: Design
 competenceBox3Abstract1: '> Scenario research'
 competenceBox3Abstract2: '> Project management'
 competenceBox3Abstract3: '> Lean product development'
 competenceBox3Abstract4: '> Lean product '
 ---
-
