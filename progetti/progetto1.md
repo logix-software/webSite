@@ -49,6 +49,6 @@ section3Abstract: >-
   materie, ecc.
 section3Image: /uploads/project2.png
 cta: Dai un’occhiata agli altri progetti!
-date: 2020-01-23T13:13:17.904Z
+date: 2020-01-22T13:13:00.000Z
 ---
 Acta Logix nasce dall’esigenza di creare un strumento per tutti, ideale per la scuola e la formazione di ogni ordine e grado; il registro elettronico di casa Logix permette l’organizzazione in cloud di ogni fase dell’attività scolastica: dalle assenze ai ritardi, dai voti agli scrutini, fino ai programmi didattici e alle comunicazioni di interesse comune.
