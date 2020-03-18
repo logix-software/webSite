@@ -14,40 +14,40 @@ person1Team: OPERATION
 person1Position: Founder & CEO
 person1Img: /uploads/team.jpg
 person2Name: Alessandro
-person2Team: OPERATION
-person2Position: Founder & CEO
+person2Team: DEVELOPMENT
+person2Position: 'Chief Technology Officer '
 person2Img: /uploads/alessandro_cirocchi.jpg
-person3Name: Susanna
+person3Name: Maurizio
 person3Team: OPERATION
-person3Position: Founder & CEO
+person3Position: Account
 person3Img: /uploads/team.jpg
-person4Name: Marco
-person4Team: OPERATION
-person4Position: Founder & CEO
+person4Name: Susanna
+person4Team: DESIGN
+person4Position: Digital Product Architect
 person4Img: /uploads/team.jpg
-person5Name: Marco
-person5Team: OPERATION
-person5Position: Founder & CEO
+person5Name: Gaia
+person5Team: MARKETING
+person5Position: 'Marketing Manager '
 person5Img: /uploads/team.jpg
-person6Name: Marco
-person6Team: OPERATION
-person6Position: Founder & CEO
+person6Name: Paolo
+person6Team: DEVELOPMENT
+person6Position: Senior Developer
 person6Img: /uploads/team.jpg
-person7Name: Marco
-person7Team: OPERATION
-person7Position: Founder & CEO
+person7Name: Simone
+person7Team: DEVELOPMENT
+person7Position: Senior Developer
 person7Img: /uploads/team.jpg
-person8Name: Marco
-person8Team: OPERATION
-person8Position: Founder & CEO
+person8Name: Enrico
+person8Team: DEVELOPMENT
+person8Position: Mobile Developer
 person8Img: /uploads/team.jpg
-person9Name: Marco
-person9Team: OPERATION
-person9Position: Founder & CEO
+person9Name: Giulio
+person9Team: DEVELOPMENT
+person9Position: Developer
 person9Img: /uploads/team.jpg
-person10Name: Marco
-person10Team: OPERATION
-person10Position: Founder & CEO
+person10Name: Rudi
+person10Team: DEVELOPMENT
+person10Position: Developer
 person10Img: /uploads/team.jpg
 workForUsTitle: Siamo alla ricerca di talenti da inserire nel team
 workForUsDescription1: >-
@@ -67,4 +67,3 @@ position3Location: Terni / REMOTO
 position4Title: Frontend Developer
 position4Location: Terni / REMOTO
 ---
-
