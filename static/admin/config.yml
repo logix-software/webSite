@@ -309,12 +309,12 @@ collections:
         - {label: "Image3", name: "image3", widget: "image"}
         - {label: "Title3", name: "title3", widget: "string"}
         - {label: "Abstract3", name: "abstract3", widget: "text"}
-        - {label: "Image4", name: "image4", widget: "image"}
-        - {label: "Title4", name: "title4", widget: "string"}
-        - {label: "Abstract4", name: "abstract4", widget: "text"}
-        - {label: "Image5", name: "image5", widget: "image"}
-        - {label: "Title5", name: "title5", widget: "string"}
-        - {label: "Abstract5", name: "abstract5", widget: "text"}
+        - {label: "Image4", name: "image4", widget: "image" required: false}
+        - {label: "Title4", name: "title4", widget: "string" required: false}
+        - {label: "Abstract4", name: "abstract4", widget: "text" required: false}
+        - {label: "Image5", name: "image5", widget: "image" required: false}
+        - {label: "Title5", name: "title5", widget: "string" required: false}
+        - {label: "Abstract5", name: "abstract5", widget: "text" required: false}
         - {label: "Section2Title", name: "section2Title", widget: "string"}
         - {label: "Section2Feedback", name: "section2Feedback", widget: "text"}
         - {label: "Section2Name", name: "section2Name", widget: "string"}
