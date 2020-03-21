@@ -302,7 +302,7 @@ collections:
         - {label: "Hashtags", name: "hashtags", widget: "string"}
         - {label: "Image1", name: "image1", widget: "image"}
         - {label: "SectionTitle", name: "sectionTitle", widget: "string"}
-        - {label: "NumberSections, name: "numberSections, widget: "number"}
+        - {label: "NumberSections", name: "numberSections", widget: "number"}
         - {label: "Image2", name: "image2", widget: "image"}
         - {label: "Title2", name: "title2", widget: "string"}
         - {label: "Abstract2", name: "abstract2", widget: "text"}
