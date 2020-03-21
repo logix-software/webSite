@@ -540,7 +540,7 @@
             <div class="cta cta--black">
               <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
               <div class="d-flex align-items-center justify-content-between w-75">
-                <h1 class="cta__title">{{text.node.cta2Title}}</h1>
+                <h1 class="cta__title">{{text.node.cta2Title}} <span class="text-green">{{text.node.cta2green}}</span> </h1>
               </div>
             </div>
           </div>
@@ -673,6 +673,7 @@ query {
         section5Title
         section5Abstract
         cta2Title
+        cta2Green
       }
     }
   }

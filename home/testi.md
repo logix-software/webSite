@@ -140,6 +140,7 @@ section5Abstract: >-
   Inizia il tuo percorso adottando un approccio olistico, strategico, diretto ai
   risultati, che sfrutta conoscenze e competenze di mondi differenti ed affini:
   il design e lo sviluppo. Orientati verso nuove logiche digitali.
-cta2Title: Consiglio last minute? Parla con noi al 0744/283733
+cta2Title: Consiglio last minute? Parla con noi al
+cta2Green: 0744/283733
 section2Logo7: /uploads/logo-ionic.png
 ---

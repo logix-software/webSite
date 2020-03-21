@@ -98,6 +98,7 @@ collections:
         - {label: "Section5Title", name: "section5Title", widget: "string"}
         - {label: "Section5Abstract", name: "section5Abstract", widget: "text"}
         - {label: "Cta2Title", name: "cta2Title", widget: "string"}
+        - {label: "Cta2Green", name: "cta2Green", widget: "string"}
     - name: "competence"
       label: "Competence Page" 
       folder: "competenze"
@@ -301,12 +302,19 @@ collections:
         - {label: "Hashtags", name: "hashtags", widget: "string"}
         - {label: "Image1", name: "image1", widget: "image"}
         - {label: "SectionTitle", name: "sectionTitle", widget: "string"}
+        - {label: "NumberSections, name: "numberSections, widget: "number"}
         - {label: "Image2", name: "image2", widget: "image"}
         - {label: "Title2", name: "title2", widget: "string"}
         - {label: "Abstract2", name: "abstract2", widget: "text"}
         - {label: "Image3", name: "image3", widget: "image"}
         - {label: "Title3", name: "title3", widget: "string"}
         - {label: "Abstract3", name: "abstract3", widget: "text"}
+        - {label: "Image4", name: "image4", widget: "image"}
+        - {label: "Title4", name: "title4", widget: "string"}
+        - {label: "Abstract4", name: "abstract4", widget: "text"}
+        - {label: "Image5", name: "image5", widget: "image"}
+        - {label: "Title5", name: "title5", widget: "string"}
+        - {label: "Abstract5", name: "abstract5", widget: "text"}
         - {label: "Section2Title", name: "section2Title", widget: "string"}
         - {label: "Section2Feedback", name: "section2Feedback", widget: "text"}
         - {label: "Section2Name", name: "section2Name", widget: "string"}

@@ -11,6 +11,7 @@ abstract: >-
 hashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
 image1: /uploads/project.jpg
 sectionTitle: Il progetto
+numberSections: 2
 image2: /uploads/iphone1.png
 title2: 'Per gli insegnanti:'
 abstract2: >-
@@ -26,6 +27,31 @@ abstract2: >-
 image3: /uploads/project.png
 title3: ' Per studenti e famiglie:'
 abstract3: >-
+  Con Acta Logix gli studenti hanno la possibilità di rivedere gli argomenti
+  trattati, l’orario dei giorni successivi e i compiti assegnati, è possibile
+  richiedere certificazioni o iscriversi ad eventi e manifestazioni di
+  interesse. In ogni momento, grazie al nostro registro, i genitori possono
+  consultare la situazione scolastica dei propri figli: voti, assenze, note di
+  classe, e non sono più costretti a spostarsi, mettersi in coda o prendere
+  permessi dal lavoro per richiedere pagelle e pagellini. Acta Logix offre anche
+  uno spazio di comunicazione per alunni e docenti; una chat controllata e
+  privata, che non necessitando di alcun numero telefonico o contatto privato,
+  metta in comunicazione studenti ed insegnanti. 
+image4: /uploads/iphone1.png
+title4: 'Per gli insegnanti:'
+abstract4: >-
+  Docenti e formatori hanno il vantaggio di fruire di due strumenti, registro di
+  classe e registro personale, in unico device. All’interno di Acta Logix è
+  possibile annotare presenze e ritardi, firmare lezioni, assegnare compiti e
+  leggere news e circolari. Allo stesso tempo, per quel che riguarda l’area
+  riservata di ciascun alunno, gli insegnanti possono: registrare voti, note,
+  giustificazioni o qualsiasi altra documentazione di tipo privato. I docenti
+  possono, inoltre, avere accesso ad un “archivio digitale” in cui caricare
+  materiale scaricabile e creare file in condivisione con gli altri insegnanti
+  per progetti collaborativi o di compresenza.
+image5: /uploads/project.png
+title5: ' Per studenti e famiglie:'
+abstract5: >-
   Con Acta Logix gli studenti hanno la possibilità di rivedere gli argomenti
   trattati, l’orario dei giorni successivi e i compiti assegnati, è possibile
   richiedere certificazioni o iscriversi ad eventi e manifestazioni di

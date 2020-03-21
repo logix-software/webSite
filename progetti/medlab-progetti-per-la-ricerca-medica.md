@@ -12,6 +12,7 @@ abstract: >-
 hashtags: '#PLATFORM #WEBAPPLICATION #WEB #RICERCA #MEDICAL #MEDICALRESEARCH #BIGDATA'
 image1: /uploads/medlab_img_1-2x.jpg
 sectionTitle: Il progetto
+numberSections: 2
 image2: /uploads/medlab_2-2x.png
 title2: MedLab for Imigastric
 abstract2: >-
@@ -30,6 +31,38 @@ abstract2: >-
 image3: /uploads/medlab_3-2x.png
 title3: MEDLAB for Esinodop
 abstract3: >
+  Il secondo progetto al quale abbiamo lavorato è Esinodop, un software cloud di
+  screening e Case Report Form (CRF).  Il progetto prevede l’arruolamento di un
+  campione X di pazienti rispondenti a determinate caratteristiche fisiche e
+  anamnestiche; questi, selezionati in maniera casuale da un algoritmo, vengono
+  sottoposti a due tipologie di trattamenti, uno medico convenzionale e l’altro
+  sperimentale chirurgico, per individuare il trattamento più efficace per la
+  patologia presa in esame. Il software da noi realizzato permette di
+  memorizzare all'interno del sistema, dati medico-clinici, referti da esami di
+  laboratorio e strumentali, terapie farmacologiche ed eventi connessi con la
+  terapia, elaborando in tal modo un Case Report Form utile per la pubblicazione
+  dei risultati della ricerca e la valutazione finale del metodo sperimentale.
+  Tutte le connessioni sono protette mediante il protocollo https e l’adozione
+  di Certificati Digitali, in modo da assicurare la riservatezza delle
+  trasmissioni e la privacy degli utenti. 
+image4: /uploads/medlab_2-2x.png
+title4: MedLab for Imigastric
+abstract4: >-
+  Imigastric, sistema cloud per la gestione di uno screening internazionale
+  nell'ambito della chirurgia gastrica, è la prima applicazione del progetto
+  Medlab. L'obiettivo è quello di offrire, in modalità cloud, un sistema per
+  l’inserimento e la conservazione, a fini statistici e di ricerca, di dati
+  inerenti ad interventi di chirurgia digestiva. Il sistema è accessibile da
+  parte del mondo e consente ai centri medici accreditati, dislocati in varie
+  aree geografiche, di condividere, seguendo uno specifico protocollo
+  informativo, informazioni relative agli interventi effettuati all'interno
+  delle proprie strutture. Nel pieno rispetto della Privacy, ogni utente del
+  sistema ha a disposizione un account associato al centro di appartenenza ed
+  ogni paziente è identificato univocamente da un codice progressivo generato
+  automaticamente dal sistema. 
+image5: /uploads/medlab_3-2x.png
+title5: MEDLAB for Esinodop
+abstract5: >
   Il secondo progetto al quale abbiamo lavorato è Esinodop, un software cloud di
   screening e Case Report Form (CRF).  Il progetto prevede l’arruolamento di un
   campione X di pazienti rispondenti a determinate caratteristiche fisiche e

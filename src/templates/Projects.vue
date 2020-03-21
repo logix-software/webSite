@@ -29,7 +29,7 @@
         </div>
       </div>
     </div>
-    <div class="info1 d-flex align-items-center py-5">
+    <div class="info1 d-flex align-items-center py-5" v-if="$page.project.numberSections > 0">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 mx-auto d-flex align-items-center justify-content-center order-1 order-lg-0">
@@ -44,7 +44,7 @@
         </div>
       </div>
     </div>
-    <div class="info2 d-flex align-items-center py-5 mb-5">
+    <div class="info2 d-flex align-items-center py-5 mb-5" v-if="$page.project.numberSections > 1">
       <div class="container mb-lg-5">
         <div class="row mb-lg-5">
           <div class="col-lg-6 mx-auto d-flex align-items-center">
@@ -55,6 +55,36 @@
           </div>
           <div class="col-lg-4 mx-auto text-center d-flex align-items-center justify-content-center">
             <g-image :src="$page.project.image3" class="info2__img" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="info1 d-flex align-items-center py-5" v-if="$page.project.numberSections > 2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mx-auto d-flex align-items-center justify-content-center order-1 order-lg-0">
+            <g-image :src="$page.project.image4" class="info1__img" />
+          </div>
+          <div class="col-lg-6 mx-auto d-flex align-items-center order-0 order-lg-1">
+            <div>
+              <h1 class="info1__title mb-3">{{$page.project.title4}}</h1>
+              <p class="info1__description">{{$page.project.abstract4}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="info2 d-flex align-items-center py-5 mb-5" v-if="$page.project.numberSections > 3">
+      <div class="container mb-lg-5">
+        <div class="row mb-lg-5">
+          <div class="col-lg-6 mx-auto d-flex align-items-center">
+            <div>
+              <h1 class="info2__title mb-3">{{$page.project.title5}}</h1>
+              <p class="info2__description">{{$page.project.abstract5}}</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mx-auto text-center d-flex align-items-center justify-content-center">
+            <g-image :src="$page.project.image5" class="info2__img" />
           </div>
         </div>
       </div>
@@ -214,12 +244,19 @@ query ($path: String!) {
         hashtags
         abstract
         sectionTitle
+        numberSections
         image2
         title2
         abstract2
         image3
         title3
         abstract3
+        image4
+        title4
+        abstract4
+        image5
+        title5
+        abstract5
         section2Title
         section2Feedback
         section2Name
