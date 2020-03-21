@@ -16,7 +16,7 @@
               <p>Piazza Europa, 5 - 05100 Terni(TR)</p>
               <h5 class="footer__title3">Roma</h5>
               <p>
-                Via Marcello Galliani, 62/64 - 00133
+                Via Marcello Gallian, 62/64 - 00133
                 Roma(RM)
               </p>
             </div>

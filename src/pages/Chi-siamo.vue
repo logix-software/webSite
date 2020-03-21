@@ -45,7 +45,7 @@
                       class="team__photo mb-3"
                       :style="{ 'background-image': 'url(' + text.node.person1Img + ')' }"
                     ></div>
-                    <span class="team__team">{{text.node.person1Team}}</span>
+                    <span :class="'team__team team__team--'+text.node.person1Color">{{text.node.person1Team}}</span>
                     <h1 class="team__name mb-3 mt-4">{{text.node.person1Name}}</h1>
                     <h4 class="team__position">{{text.node.person1Position}}</h4>
                   </div>
@@ -59,7 +59,7 @@
                       class="team__photo mb-3"
                       :style="{ 'background-image': 'url(' + text.node.person2Img + ')' }"
                     ></div>
-                    <span class="team__team">{{text.node.person2Team}}</span>
+                    <span :class="'team__team team__team--'+text.node.person2Color">{{text.node.person2Team}}</span>
                     <h1 class="team__name mb-3 mt-4">{{text.node.person2Name}}</h1>
                     <h4 class="team__position">{{text.node.person2Position}}</h4>
                   </div>
@@ -73,7 +73,7 @@
                       class="team__photo mb-3"
                       :style="{ 'background-image': 'url(' + text.node.person3Img + ')' }"
                     ></div>
-                    <span class="team__team">{{text.node.person3Team}}</span>
+                    <span :class="'team__team team__team--'+text.node.person3Color">{{text.node.person3Team}}</span>
                     <h1 class="team__name mb-3 mt-4">{{text.node.person3Name}}</h1>
                     <h4 class="team__position">{{text.node.person3Position}}</h4>
                   </div>
@@ -87,7 +87,7 @@
                       class="team__photo mb-3"
                       :style="{ 'background-image': 'url(' + text.node.person4Img + ')' }"
                     ></div>
-                    <span class="team__team">{{text.node.person4Team}}</span>
+                    <span :class="'team__team team__team--'+text.node.person4Color">{{text.node.person4Team}}</span>
                     <h1 class="team__name mb-3 mt-4">{{text.node.person4Name}}</h1>
                     <h4 class="team__position">{{text.node.person4Position}}</h4>
                   </div>
@@ -101,7 +101,7 @@
                       class="team__photo mb-3"
                       :style="{ 'background-image': 'url(' + text.node.person5Img + ')' }"
                     ></div>
-                    <span class="team__team">{{text.node.person5Team}}</span>
+                    <span :class="'team__team team__team--'+text.node.person5Color">{{text.node.person5Team}}</span>
                     <h1 class="team__name mb-3 mt-4">{{text.node.person5Name}}</h1>
                     <h4 class="team__position">{{text.node.person5Position}}</h4>
                   </div>
@@ -115,7 +115,7 @@
                       class="team__photo mb-3"
                       :style="{ 'background-image': 'url(' + text.node.person6Img + ')' }"
                     ></div>
-                    <span class="team__team">{{text.node.person6Team}}</span>
+                    <span :class="'team__team team__team--'+text.node.person6Color">{{text.node.person6Team}}</span>
                     <h1 class="team__name mb-3 mt-4">{{text.node.person6Name}}</h1>
                     <h4 class="team__position">{{text.node.person6Position}}</h4>
                   </div>
@@ -129,7 +129,7 @@
                       class="team__photo mb-3"
                       :style="{ 'background-image': 'url(' + text.node.person7Img + ')' }"
                     ></div>
-                    <span class="team__team">{{text.node.person7Team}}</span>
+                    <span :class="'team__team team__team--'+text.node.person7Color">{{text.node.person7Team}}</span>
                     <h1 class="team__name mb-3 mt-4">{{text.node.person7Name}}</h1>
                     <h4 class="team__position">{{text.node.person7Position}}</h4>
                   </div>
@@ -143,7 +143,7 @@
                       class="team__photo mb-3"
                       :style="{ 'background-image': 'url(' + text.node.person8Img + ')' }"
                     ></div>
-                    <span class="team__team">{{text.node.person8Team}}</span>
+                    <span :class="'team__team team__team--'+text.node.person8Color">{{text.node.person8Team}}</span>
                     <h1 class="team__name mb-3 mt-4">{{text.node.person8Name}}</h1>
                     <h4 class="team__position">{{text.node.person8Position}}</h4>
                   </div>
@@ -157,7 +157,7 @@
                       class="team__photo mb-3"
                       :style="{ 'background-image': 'url(' + text.node.person9Img + ')' }"
                     ></div>
-                    <span class="team__team">{{text.node.person9Team}}</span>
+                    <span :class="'team__team team__team--'+text.node.person9Color">{{text.node.person9Team}}</span>
                     <h1 class="team__name mb-3 mt-4">{{text.node.person9Name}}</h1>
                     <h4 class="team__position">{{text.node.person9Position}}</h4>
                   </div>
@@ -171,7 +171,7 @@
                       class="team__photo mb-3"
                       :style="{ 'background-image': 'url(' + text.node.person10Img + ')' }"
                     ></div>
-                    <span class="team__team">{{text.node.person10Team}}</span>
+                    <span :class="'team__team team__team--'+text.node.person10Color">{{text.node.person10Team}}</span>
                     <h1 class="team__name mb-3 mt-4">{{text.node.person10Name}}</h1>
                     <h4 class="team__position">{{text.node.person10Position}}</h4>
                   </div>
@@ -190,7 +190,7 @@
                     class="team__photo mb-3"
                     :style="{ 'background-image': 'url(' + text.node.person1Img + ')' }"
                   ></div>
-                  <span class="team__team">{{text.node.person1Team}}</span>
+                  <span :class="'team__team team__team--'+text.node.person1Color">{{text.node.person1Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person1Name}}</h1>
                   <h4 class="team__position">{{text.node.person1Position}}</h4>
                 </div>
@@ -204,7 +204,7 @@
                     class="team__photo mb-3"
                     :style="{ 'background-image': 'url(' + text.node.person2Img + ')' }"
                   ></div>
-                  <span class="team__team">{{text.node.person2Team}}</span>
+                  <span :class="'team__team team__team--'+text.node.person2Color">{{text.node.person2Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person2Name}}</h1>
                   <h4 class="team__position">{{text.node.person2Position}}</h4>
                 </div>
@@ -218,7 +218,7 @@
                     class="team__photo mb-3"
                     :style="{ 'background-image': 'url(' + text.node.person3Img + ')' }"
                   ></div>
-                  <span class="team__team">{{text.node.person3Team}}</span>
+                  <span :class="'team__team team__team--'+text.node.person3Color">{{text.node.person3Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person3Name}}</h1>
                   <h4 class="team__position">{{text.node.person3Position}}</h4>
                 </div>
@@ -232,7 +232,7 @@
                     class="team__photo mb-3"
                     :style="{ 'background-image': 'url(' + text.node.person4Img + ')' }"
                   ></div>
-                  <span class="team__team">{{text.node.person4Team}}</span>
+                  <span :class="'team__team team__team--'+text.node.person4Color">{{text.node.person4Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person4Name}}</h1>
                   <h4 class="team__position">{{text.node.person4Position}}</h4>
                 </div>
@@ -246,7 +246,7 @@
                     class="team__photo mb-3"
                     :style="{ 'background-image': 'url(' + text.node.person5Img + ')' }"
                   ></div>
-                  <span class="team__team">{{text.node.person5Team}}</span>
+                  <span :class="'team__team team__team--'+text.node.person5Color">{{text.node.person5Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person5Name}}</h1>
                   <h4 class="team__position">{{text.node.person5Position}}</h4>
                 </div>
@@ -260,7 +260,7 @@
                     class="team__photo mb-3"
                     :style="{ 'background-image': 'url(' + text.node.person6Img + ')' }"
                   ></div>
-                  <span class="team__team">{{text.node.person6Team}}</span>
+                  <span :class="'team__team team__team--'+text.node.person6Color">{{text.node.person6Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person6Name}}</h1>
                   <h4 class="team__position">{{text.node.person6Position}}</h4>
                 </div>
@@ -274,7 +274,7 @@
                     class="team__photo mb-3"
                     :style="{ 'background-image': 'url(' + text.node.person7Img + ')' }"
                   ></div>
-                  <span class="team__team">{{text.node.person7Team}}</span>
+                  <span :class="'team__team team__team--'+text.node.person7Color">{{text.node.person7Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person7Name}}</h1>
                   <h4 class="team__position">{{text.node.person7Position}}</h4>
                 </div>
@@ -288,7 +288,7 @@
                     class="team__photo mb-3"
                     :style="{ 'background-image': 'url(' + text.node.person8Img + ')' }"
                   ></div>
-                  <span class="team__team">{{text.node.person8Team}}</span>
+                  <span :class="'team__team team__team--'+text.node.person8Color">{{text.node.person8Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person8Name}}</h1>
                   <h4 class="team__position">{{text.node.person8Position}}</h4>
                 </div>
@@ -302,7 +302,7 @@
                     class="team__photo mb-3"
                     :style="{ 'background-image': 'url(' + text.node.person9Img + ')' }"
                   ></div>
-                  <span class="team__team">{{text.node.person9Team}}</span>
+                  <span :class="'team__team team__team--'+text.node.person9Color">{{text.node.person9Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person9Name}}</h1>
                   <h4 class="team__position">{{text.node.person9Position}}</h4>
                 </div>
@@ -316,7 +316,7 @@
                     class="team__photo mb-3"
                     :style="{ 'background-image': 'url(' + text.node.person10Img + ')' }"
                   ></div>
-                  <span class="team__team">{{text.node.person10Team}}</span>
+                  <span :class="'team__team team__team--'+text.node.person10Color">{{text.node.person10Team}}</span>
                   <h1 class="team__name mb-3 mt-4">{{text.node.person10Name}}</h1>
                   <h4 class="team__position">{{text.node.person10Position}}</h4>
                 </div>
@@ -428,7 +428,7 @@
               <div class="cta cta--black">
                 <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
                 <div class="d-flex align-items-center justify-content-between w-75">
-                  <h1 class="cta__title">{{textPartnership.node.ctaTitle}}</h1>
+                  <h1 class="cta__title">{{textPartnership.node.ctaTitle}} <span class="text-green">{{textPartnership.node.ctaGreen}}</span></h1>
                 </div>
               </div>
             </div>
@@ -452,42 +452,52 @@ query {
         sectionBgText2
         person1Name
         person1Team
+        person1Color
         person1Position
         person1Img
         person2Name
         person2Team
+        person2Color
         person2Position
         person2Img
         person3Name
         person3Team
+        person3Color
         person3Position
         person3Img
         person4Name
         person4Team
+        person4Color
         person4Position
         person4Img
         person5Name
         person5Team
+        person5Color
         person5Position
         person5Img
         person6Name
         person6Team
+        person6Color
         person6Position
         person6Img
         person7Name
         person7Team
+        person7Color
         person7Position
         person7Img
         person8Name
         person8Team
+        person8Color
         person8Position
         person8Img
         person9Name
         person9Team
+        person9Color
         person9Position
         person9Img
         person10Name
         person10Team
+        person10Color
         person10Position
         person10Img
         workForUsTitle
@@ -518,6 +528,7 @@ query {
         sectionTitle2
         sectionAbstract2
         ctaTitle
+        ctaGreen
       }
     }
   }
@@ -699,6 +710,18 @@ export default {
     letter-spacing: 1px;
     line-height: 18px;
     text-align: center;
+    &--operation{
+      background-color: #F9B35F;
+    }
+    &--dev{
+      background-color: #B5F7E3;
+    }
+    &--marketing{
+      background-color: #FFA5D6;
+    }
+    &--design{
+      background-color: #D0D0FF;
+    }
   }
   &__name {
     font-family: "DM Sans";

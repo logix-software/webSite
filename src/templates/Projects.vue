@@ -32,10 +32,10 @@
     <div class="info1 d-flex align-items-center py-5">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 mx-auto text-center order-1 order-lg-0">
+          <div class="col-lg-4 mx-auto d-flex align-items-center justify-content-center order-1 order-lg-0">
             <g-image :src="$page.project.image2" class="info1__img" />
           </div>
-          <div class="col-lg-4 mx-auto d-flex align-items-center order-0 order-lg-1">
+          <div class="col-lg-6 mx-auto d-flex align-items-center order-0 order-lg-1">
             <div>
               <h1 class="info1__title mb-3">{{$page.project.title2}}</h1>
               <p class="info1__description">{{$page.project.abstract2}}</p>
@@ -47,13 +47,13 @@
     <div class="info2 d-flex align-items-center py-5 mb-5">
       <div class="container mb-lg-5">
         <div class="row mb-lg-5">
-          <div class="col-lg-4 mx-auto d-flex align-items-center">
+          <div class="col-lg-6 mx-auto d-flex align-items-center">
             <div>
               <h1 class="info2__title mb-3">{{$page.project.title3}}</h1>
               <p class="info2__description">{{$page.project.abstract3}}</p>
             </div>
           </div>
-          <div class="col-lg-4 mx-auto text-center">
+          <div class="col-lg-4 mx-auto text-center d-flex align-items-center justify-content-center">
             <g-image :src="$page.project.image3" class="info2__img" />
           </div>
         </div>
@@ -128,28 +128,29 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <div class="caseHistoryCompetenze">
-              <div class="d-lg-flex align-items-center justify-content-between">
-                <div class="d-lg-flex align-items-start">
-                  <g-image src="~/assets/images/cta-case.png" class="caseHistoryCompetenze__img" />
-                  <div class="caseHistoryCompetenze__body ml-4">
-                    <div class="mb-2">
-                      <span class="label label--dev mr-3">DEVELOPMENT</span>
-                      <span class="label label--des">DESIGN</span>
+                <div class="d-lg-flex align-items-center justify-content-between" >
+                  <div class="d-lg-flex align-items-start">
+                    <g-image :src="$page.project.ctaProjectImage" class="caseHistoryCompetenze__img" />
+                    <div class="caseHistoryCompetenze__body ml-4">
+                      <div class="mb-2">
+                        <span class="label label--dev mr-3">DEVELOPMENT</span>
+                        <span class="label label--des">DESIGN</span>
+                      </div>
+                      <h1 class="caseHistoryCompetenze__title">{{$page.project.ctaProjectTitle}}</h1>
+                      <p
+                        class="caseHistoryCompetenze__description"
+                      >{{$page.project.ctaProjectDescription}}</p>
+                      <p class="caseHistoryCompetenze__tags">{{$page.project.ctaProjectHashtags}}</p>
                     </div>
-                    <h1 class="caseHistoryCompetenze__title">Acta: il registro elettronico</h1>
-                    <p
-                      class="caseHistoryCompetenze__description"
-                    >Last month, my wife, Anne Doe, took me to Las Vegas because she had to go for convention.</p>
-                    <p
-                      class="caseHistoryCompetenze__tags"
-                    >#WEB APPLICATION #GESTIONE DEL PERSONALE #SOFTWARE</p>
+                  </div>
+                  <div class="text-right">
+                    <g-link
+                      :to="$page.project.ctaProjectLink"
+                      class="caseHistoryCompetenze__link"
+                    >_Scopri di più</g-link>
                   </div>
                 </div>
-                <div class="text-right">
-                  <g-link to class="caseHistoryCompetenze__link">_Scopri di più</g-link>
-                </div>
               </div>
-            </div>
           </div>
         </div>
       </div>
@@ -227,6 +228,11 @@ query ($path: String!) {
         section3Title
         section3Abstract
         section3Image
+        ctaProjectTitle
+        ctaProjectDescription
+        ctaProjectHashtags
+        ctaProjectImage
+        ctaProjectLink
         cta
         content
         path
@@ -380,7 +386,7 @@ export default {
   color: #000000;
   &__img {
     max-width: 100%;
-    margin-bottom: -100px;
+    // margin-bottom: -100px;
     @media screen and (max-width: 992px) {
       max-width: 80%;
       margin: 20px auto;
@@ -410,7 +416,7 @@ export default {
   color: #000000;
   &__img {
     max-width: 100%;
-    margin-top: -100px;
+    // margin-top: -100px;
     @media screen and (max-width: 992px) {
       max-width: 80%;
       margin: 20px auto;

@@ -1,5 +1,6 @@
 ---
 title: 'Esibit - Piattaforma per gli artisti '
+imageList: /uploads/img_1-2x.jpg
 abstract: >-
   Esibit è una piattaforma dedicata al mondo dell’arte, dove artisti,
   galleristi, critici o chiunque ne sia in qualche modo coinvolto o affascinato
@@ -49,6 +50,16 @@ section2Image: /uploads/igor-borozan.jpg
 section3Title: ' '
 section3Abstract: ' '
 section3Image: /uploads/esibit_3-2x.png
+ctaProjectTitle: Acta Logix - Registro elettronico
+ctaProjectDescription: >-
+  Acta Logix nasce dall'esigenza di creare uno strumento ideale per la scuola e
+  la formazione di ogni ordine e grado. Il registro elettronico di casa Logix
+  permette l’organizzazione in cloud di ogni fase dell’attività scolastica:
+  dalle assenze ai ritardi, dai voti agli scrutini, fino ai programmi didattici
+  e alle comunicazioni di interesse comune.
+ctaProjectHashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
+ctaProjectImage: /uploads/cta-case.png
+ctaProjectLink: '#'
 cta: Dai un’occhiata agli altri progetti!
 date: 2020-01-23T13:13:17.904Z
 ---

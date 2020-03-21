@@ -1,5 +1,6 @@
 ---
 title: Acta Logix - Registro elettronico
+imageList: /uploads/project.jpg
 abstract: >-
   In Logix abbiamo pensato proprio a tutti, Acta Logix nasce dall’esigenza di
   creare uno strumento ideale per la scuola e la formazione di ogni ordine e
@@ -48,6 +49,16 @@ section3Abstract: >-
   relativi incarichi, ma anche informazioni sulle sezioni, piani di studio,
   materie, ecc.
 section3Image: /uploads/project2.png
+ctaProjectTitle: Acta Logix - Registro elettronico
+ctaProjectDescription: >-
+  Acta Logix nasce dall'esigenza di creare uno strumento ideale per la scuola e
+  la formazione di ogni ordine e grado. Il registro elettronico di casa Logix
+  permette l’organizzazione in cloud di ogni fase dell’attività scolastica:
+  dalle assenze ai ritardi, dai voti agli scrutini, fino ai programmi didattici
+  e alle comunicazioni di interesse comune.
+ctaProjectHashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
+ctaProjectImage: /uploads/cta-case.png
+ctaProjectLink: '#'
 cta: Dai un’occhiata agli altri progetti!
 date: 2020-01-22T13:13:00.000Z
 ---

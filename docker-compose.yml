@@ -1,0 +1,11 @@
+version: "3.7"
+services: 
+    dev:
+        image: "node:12.15-alpine"
+        working_dir: "/srv"
+        command: "npm run develop"
+        tty: true
+        volumes: 
+            - "./:/srv/"
+        ports: 
+            - "8080:8080"

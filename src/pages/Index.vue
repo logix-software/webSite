@@ -103,9 +103,9 @@
                 <div class="section__shadow"></div>
                 <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
                 <p></p>
-                <div class="d-flex align-items-center">
-                  <p class="section__label mr-3">Development</p>
-                  <p class="section__label section__label--2">Design</p>
+                <div class="mb-2">
+                  <span class="label label--dev mr-3">DEVELOPMENT</span>
+                  <span class="label label--des">DESIGN</span>
                 </div>
                 <h1 class="section__title">{{text.node.slider1Slide2Title}}</h1>
                 <div class="section__line mb-3"></div>
@@ -123,9 +123,9 @@
                 <div class="section__shadow"></div>
                 <g-image src="~/assets/images/icon-digital.svg" class="section__icon" />
                 <p></p>
-                <div class="d-flex align-items-center">
-                  <p class="section__label mr-3">Development</p>
-                  <p class="section__label section__label--2">Design</p>
+                <div class="mb-2">
+                  <span class="label label--dev mr-3">DEVELOPMENT</span>
+                  <span class="label label--des">DESIGN</span>
                 </div>
                 <h1 class="section__title">{{text.node.slider1Slide3Title}}</h1>
                 <div class="section__line mb-3"></div>
@@ -143,9 +143,9 @@
                 <div class="section__shadow"></div>
                 <g-image src="~/assets/images/icon-development.svg" class="section__icon" />
                 <p></p>
-                <div class="d-flex align-items-center">
-                  <p class="section__label mr-3">Development</p>
-                  <p class="section__label section__label--2">Design</p>
+                <div class="mb-2">
+                  <span class="label label--dev mr-3">DEVELOPMENT</span>
+                  <span class="label label--des">DESIGN</span>
                 </div>
                 <h1 class="section__title">{{text.node.slider1Slide4Title}}</h1>
                 <div class="section__line mb-3"></div>
@@ -245,7 +245,7 @@
         </div>
       </div>
 
-      <div class="container pb-5 mt-5">
+      <div class="container mt-5">
         <div class="row">
           <div class="col-lg-12">
             <a href="/competenze" class="btn btn-primary">Scopri le competenze</a>
@@ -280,7 +280,7 @@
 
               <div class="d-flex align-items-center mb-5">
                 <div>
-                  <div class="testimonial__pic mr-2"></div>
+                  <div class="testimonial__pic mr-2" :style="{ 'background-image': 'url(' + text.node.caseHistoryTestimonialPhoto + ')' }"></div>
                 </div>
                 <div>
                   <h6 class="testimonial__name mb-0">{{text.node.caseHistoryTestimonialName}}</h6>
@@ -620,6 +620,7 @@ query {
         caseHistoryTestimonialDescription
         caseHistoryTestimonialName
         caseHistoryTestimonialPosition
+        caseHistoryTestimonialPhoto
         caseHistoryLink
         caseHistoryImage
         section2Name

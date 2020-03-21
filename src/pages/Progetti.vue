@@ -31,7 +31,7 @@
         <div class="container py-5">
           <div class="row">
             <div class="col-lg-6 col-left">
-              <div class="project__img" :style="{ 'background-image': 'url(' + project.node.image1 + ')' }">
+              <div class="project__img" :style="{ 'background-image': 'url(' + project.node.imageList + ')' }">
                 <g-image src="~/assets/images/deco3.svg" class="integration__img" />
               </div>
             </div>
@@ -114,7 +114,7 @@
         <div class="container py-5">
           <div class="row">
             <div class="col-lg-6 col-left">
-              <div class="project__img" :style="{ 'background-image': 'url(' + project.node.image + ')' }">
+              <div class="project__img" :style="{ 'background-image': 'url(' + project.node.imageList + ')' }">
                 <g-image src="~/assets/images/deco3.svg" class="integration__img" />
               </div>
             </div>
@@ -178,7 +178,7 @@
             <div class="cta cta--black">
               <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
               <div class="d-flex align-items-center justify-content-between w-75">
-                <h1 class="cta__title">{{textPartnership.node.ctaTitle}}</h1>
+                <h1 class="cta__title">{{textPartnership.node.ctaTitle}} <span class="text-green">{{textPartnership.node.ctaGreen}}</span></h1>
               </div>
             </div>
           </div>
@@ -217,6 +217,7 @@ query {
     edges {
       node {
         title
+        imageList
         image1
         hashtags
         abstract
@@ -228,6 +229,7 @@ query {
     edges {
       node {
         title
+        imageList
         image
         hashtags
         abstract
@@ -246,6 +248,7 @@ query {
         sectionTitle2
         sectionAbstract2
         ctaTitle
+        ctaGreen
       }
     }
   }
@@ -473,6 +476,9 @@ export default {
     font-size: 35px;
     letter-spacing: -1.28px;
     line-height: 37px;
+    @media screen and (min-width: 992px) {
+      min-height: 74px;
+    }
   }
   &__subtitle {
     font-family: Lato;
@@ -494,6 +500,9 @@ export default {
     font-weight: 300;
     letter-spacing: -0.18px;
     line-height: 20px;
+    @media screen and (min-width: 992px) {
+      min-height: 200px;
+    }
   }
   &__box {
     border-radius: 3px;

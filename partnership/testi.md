@@ -10,5 +10,6 @@ sectionAbstract2: >-
   Inizia il tuo percorso adottando un approccio olistico, strategico, orientato
   ai risultati che sfrutta conoscenze e competenze di mondi differenti ed
   affini: il design e lo sviluppo. Verso nuove logiche digitali. 
-ctaTitle: Consiglio last minute? Parla con Bottino oppure chiama al 0744/33434522
+ctaTitle: Consiglio last minute? Parla con Bottino oppure chiama al
+ctaGreen: 0744/33434522
 ---

@@ -5,7 +5,7 @@ headerImage: /uploads/hero-collaborative.jpg
 headerAbstract: >-
   Collaborare con aziende che operano nel digital è per noi un’importante
   opportunità. Per ovviare a tempi stretti e scadenze incombenti che
-  richiederebbero l’assunzione di personale qualificato, iI nostro team di
+  richiederebbero l’assunzione di personale qualificato, il nostro team di
   professionisti è in grado di affiancare le aziende clienti, offrendo le
   professionalità, le competenze, gli strumenti ed i metodi migliori, in tempi
   rapidi.

@@ -1,5 +1,6 @@
 ---
 title: Nima - App multidevice consegna dell’ultimo miglio
+imageList: /uploads/case_nima_photo-2x.png
 hashtags: >-
   #WEBAPPLICATION #GESTIONEDELPERSONALE #SOFTWARE #SYSTEMINTEGRATOR #DELIVERY
   #LASTMILE

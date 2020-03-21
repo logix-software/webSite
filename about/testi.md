@@ -11,42 +11,52 @@ sectionBgText1: Design
 sectionBgText2: Development
 person1Name: Marco
 person1Team: OPERATION
+person1Color: operation
 person1Position: Founder & CEO
 person1Img: /uploads/team.jpg
 person2Name: Alessandro
 person2Team: DEVELOPMENT
+person2Color: dev
 person2Position: 'Chief Technology Officer '
 person2Img: /uploads/alessandro_cirocchi.jpg
 person3Name: Maurizio
 person3Team: OPERATION
+person3Color: operation
 person3Position: Account
 person3Img: /uploads/team.jpg
 person4Name: Susanna
 person4Team: DESIGN
+person4Color: design
 person4Position: Digital Product Architect
 person4Img: /uploads/team.jpg
 person5Name: Gaia
 person5Team: MARKETING
+person5Color: marketing
 person5Position: 'Marketing Manager '
 person5Img: /uploads/team.jpg
 person6Name: Paolo
 person6Team: DEVELOPMENT
+person6Color: dev
 person6Position: Senior Developer
 person6Img: /uploads/team.jpg
 person7Name: Simone
 person7Team: DEVELOPMENT
+person7Color: dev
 person7Position: Senior Developer
 person7Img: /uploads/team.jpg
 person8Name: Enrico
 person8Team: DEVELOPMENT
+person8Color: dev
 person8Position: Mobile Developer
 person8Img: /uploads/team.jpg
 person9Name: Giulio
 person9Team: DEVELOPMENT
+person9Color: dev
 person9Position: Developer
 person9Img: /uploads/team.jpg
 person10Name: Rudi
 person10Team: DEVELOPMENT
+person10Color: dev
 person10Position: Developer
 person10Img: /uploads/team.jpg
 workForUsTitle: Siamo alla ricerca di talenti da inserire nel team

@@ -49,7 +49,10 @@
             <div class="col-lg-4 px-4">
               <div class="tool__card d-flex align-items-start justify-content-center">
                 <div class="d-flex align-items-start">
-                  <g-image :src="text.node.toolsBox1Icon" class="tool__img mr-3" />
+                  <div>
+                    <g-image :src="text.node.toolsBox1Icon" class="tool__img mr-3" />
+                  </div>
+                  
                   <div>
                     <h2 class="tool__title">{{text.node.toolsBox1Title}}</h2>
                     <p
@@ -62,7 +65,10 @@
             <div class="col-lg-4 px-4">
               <div class="tool__card d-flex align-items-start justify-content-center">
                 <div class="d-flex align-items-start">
-                  <g-image :src="text.node.toolsBox2Icon" class="tool__img mr-3" />
+                  <div>
+                    <g-image :src="text.node.toolsBox2Icon" class="tool__img mr-3" />
+                  </div>
+                  
                   <div>
                     <h2 class="tool__title">{{text.node.toolsBox2Title}}</h2>
                     <p
@@ -75,7 +81,10 @@
             <div class="col-lg-4 px-4">
               <div class="tool__card d-flex align-items-start justify-content-center">
                 <div class="d-flex align-items-start">
-                  <g-image :src="text.node.toolsBox3Icon" class="tool__img mr-3" />
+                  <div>
+                    <g-image :src="text.node.toolsBox3Icon" class="tool__img mr-3" />
+                  </div>
+                  
                   <div>
                     <h2 class="tool__title">{{text.node.toolsBox3Title}}</h2>
                     <p
@@ -354,7 +363,7 @@
             <div class="cta cta--black">
               <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
               <div class="d-flex align-items-center justify-content-between w-75">
-                <h1 class="cta__title">{{textPartnership.node.ctaTitle}}</h1>
+                <h1 class="cta__title">{{textPartnership.node.ctaTitle}} <span class="text-green">{{textPartnership.node.ctaGreen}}</span></h1>
               </div>
             </div>
           </div>
@@ -454,6 +463,7 @@ query {
         sectionTitle2
         sectionAbstract2
         ctaTitle
+        ctaGreen
       }
     }
   }
@@ -570,6 +580,13 @@ export default {
     font-size: 161px;
     letter-spacing: -9.63px;
     line-height: 41px;
+     @media screen and (max-width: 992px) {
+      font-size: 100px;
+      letter-spacing: initial;
+      line-height: initial;
+      bottom: -60px;
+      right: -20px;
+      }
   }
   &--inverted {
     .competence__bigText {

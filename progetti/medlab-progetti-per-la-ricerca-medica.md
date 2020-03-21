@@ -1,5 +1,6 @@
 ---
 title: MedLab - Progetti per la ricerca medica
+imageList: /uploads/medlab_img_1-2x.jpg
 abstract: >-
   Logix è innovazione, sperimentazione, cultura e ricerca. In collaborazione con
   il dipartimento di chirurgia gastrica dell’azienda ospedaliera di Terni,
@@ -55,6 +56,16 @@ section2Image: /uploads/amilcare-parisi.jpg
 section3Title: '  '
 section3Abstract: '  '
 section3Image: /uploads/case_medlab_photo-2x.png
+ctaProjectTitle: Acta Logix - Registro elettronico
+ctaProjectDescription: >-
+  Acta Logix nasce dall'esigenza di creare uno strumento ideale per la scuola e
+  la formazione di ogni ordine e grado. Il registro elettronico di casa Logix
+  permette l’organizzazione in cloud di ogni fase dell’attività scolastica:
+  dalle assenze ai ritardi, dai voti agli scrutini, fino ai programmi didattici
+  e alle comunicazioni di interesse comune.
+ctaProjectHashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
+ctaProjectImage: /uploads/cta-case.png
+ctaProjectLink: '#'
 cta: Dai un’occhiata agli altri progetti!
 date: 2020-03-18T17:27:35.444Z
 ---

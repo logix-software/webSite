@@ -46,6 +46,7 @@ collections:
         - {label: "CaseHistoryTestimonialDescription", name: "caseHistoryTestimonialDescription", widget: "text"}
         - {label: "CaseHistoryTestimonialName", name: "caseHistoryTestimonialName", widget: "string"}
         - {label: "CaseHistoryTestimonialPosition", name: "caseHistoryTestimonialPosition", widget: "string"}
+        - {label: "CaseHistoryTestimonialPhoto", name: "caseHistoryTestimonialPhoto", widget: "image"}
         - {label: "CaseHistoryLink", name: "caseHistoryLink", widget: "string"}
         - {label: "CaseHistoryImage", name: "caseHistoryImage", widget: "image"}
         - {label: "Section2Name", name: "section2Name", widget: "string"}
@@ -176,6 +177,7 @@ collections:
         - {label: "SectionTitle2", name: "sectionTitle2", widget: "string"}
         - {label: "SectionAbstract2", name: "sectionAbstract2", widget: "text"}
         - {label: "CtaTitle", name: "ctaTitle", widget: "string"}
+        - {label: "CtaGreen", name: "ctaGreen", widget: "string"}
     - name: "CtaProject"
       label: "Cta Project" 
       folder: "cta-project"
@@ -226,42 +228,52 @@ collections:
         - {label: "SectionBgText2", name: "sectionBgText2", widget: "string"}
         - {label: "Person1Name", name: "person1Name", widget: "string"}
         - {label: "Person1Team", name: "person1Team", widget: "string"}
+        - {label: "Person1Color", name: "person1Color", widget: "string"}
         - {label: "Person1Position", name: "person1Position", widget: "string"}
         - {label: "Person1Img", name: "person1Img", widget: "image"}
         - {label: "Person2Name", name: "person2Name", widget: "string"}
         - {label: "Person2Team", name: "person2Team", widget: "string"}
+        - {label: "Person2Color", name: "person2Color", widget: "string"}
         - {label: "Person2Position", name: "person2Position", widget: "string"}
         - {label: "Person2Img", name: "person2Img", widget: "image"}
         - {label: "Person3Name", name: "person3Name", widget: "string"}
         - {label: "Person3Team", name: "person3Team", widget: "string"}
+        - {label: "Person3Color", name: "person3Color", widget: "string"}
         - {label: "Person3Position", name: "person3Position", widget: "string"}
         - {label: "Person3Img", name: "person3Img", widget: "image"}
         - {label: "Person4Name", name: "person4Name", widget: "string"}
         - {label: "Person4Team", name: "person4Team", widget: "string"}
+        - {label: "Person4Color", name: "person4Color", widget: "string"}
         - {label: "Person4Position", name: "person4Position", widget: "string"}
         - {label: "Person4Img", name: "person4Img", widget: "image"}
         - {label: "Person5Name", name: "person5Name", widget: "string"}
         - {label: "Person5Team", name: "person5Team", widget: "string"}
+        - {label: "Person5Color", name: "person5Color", widget: "string"}
         - {label: "Person5Position", name: "person5Position", widget: "string"}
         - {label: "Person5Img", name: "person5Img", widget: "image"}
         - {label: "Person6Name", name: "person6Name", widget: "string"}
         - {label: "Person6Team", name: "person6Team", widget: "string"}
+        - {label: "Person6Color", name: "person6Color", widget: "string"}
         - {label: "Person6Position", name: "person6Position", widget: "string"}
         - {label: "Person6Img", name: "person6Img", widget: "image"}
         - {label: "Person7Name", name: "person7Name", widget: "string"}
         - {label: "Person7Team", name: "person7Team", widget: "string"}
+        - {label: "Person7Color", name: "person7Color", widget: "string"}
         - {label: "Person7Position", name: "person7Position", widget: "string"}
         - {label: "Person7Img", name: "person7Img", widget: "image"}
         - {label: "Person8Name", name: "person8Name", widget: "string"}
         - {label: "Person8Team", name: "person8Team", widget: "string"}
+        - {label: "Person8Color", name: "person8Color", widget: "string"}
         - {label: "Person8Position", name: "person8Position", widget: "string"}
         - {label: "Person8Img", name: "person8Img", widget: "image"}
         - {label: "Person9Name", name: "person9Name", widget: "string"}
         - {label: "Person9Team", name: "person9Team", widget: "string"}
+        - {label: "Person9Color", name: "person9Color", widget: "string"}
         - {label: "Person9Position", name: "person9Position", widget: "string"}
         - {label: "Person9Img", name: "person9Img", widget: "image"}
         - {label: "Person10Name", name: "person10Name", widget: "string"}
         - {label: "Person10Team", name: "person10Team", widget: "string"}
+        - {label: "Person10Color", name: "person10Color", widget: "string"}
         - {label: "Person10Position", name: "person10Position", widget: "string"}
         - {label: "Person10Img", name: "person10Img", widget: "image"}
         - {label: "WorkForUsTitle", name: "workForUsTitle", widget: "string"}
@@ -285,6 +297,7 @@ collections:
       fields: 
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Abstract", name: "abstract", widget: "text"}
+        - {label: "ImageList", name: "imageList", widget: "image"}
         - {label: "Hashtags", name: "hashtags", widget: "string"}
         - {label: "Image1", name: "image1", widget: "image"}
         - {label: "SectionTitle", name: "sectionTitle", widget: "string"}
@@ -302,6 +315,11 @@ collections:
         - {label: "Section3Title", name: "section3Title", widget: "string"}
         - {label: "Section3Abstract", name: "section3Abstract", widget: "text"}
         - {label: "Section3Image", name: "section3Image", widget: "image"}
+        - {label: "CtaProjectTitle", name: "ctaProjectTitle", widget: "string"}
+        - {label: "CtaProjectDescription", name: "ctaProjectDescription", widget: "text"}
+        - {label: "CtaProjectHashtags", name: "ctaProjectHashtags", widget: "string"}
+        - {label: "CtaProjectImage", name: "ctaProjectImage", widget: "image"}
+        - {label: "CtaProjectLink", name: "ctaProjectLink", widget: "string"}
         - {label: "cta", name: "cta", widget: "text"}
         - {label: "Body", name: "body", widget: "markdown"} 
         - {label: "Date", name: "date", widget: "datetime"}  
@@ -312,9 +330,11 @@ collections:
       slug: "{{slug}}"
       fields: 
         - {label: "Title", name: "title", widget: "string"}
+        - {label: "ImageList", name: "imageList", widget: "image"}
         - {label: "Hashtags", name: "hashtags", widget: "string"}
         - {label: "Image", name: "image", widget: "image"}
         - {label: "Abstract", name: "abstract", widget: "string"}
+        - {label: "Date", name: "date", widget: "datetime"}
     - name: "DigitalTransformation"
       label: "DigitalTransformation Page" 
       folder: "digital-transformation"

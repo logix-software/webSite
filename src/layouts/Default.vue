@@ -481,7 +481,7 @@ h6 {
     padding: 20px 15px;
   }
   &__body {
-    width: 40%;
+    width: 60%;
     @media screen and (max-width: 992px) {
       width: 90%;
     }

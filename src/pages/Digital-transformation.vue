@@ -361,7 +361,7 @@
             <div class="cta cta--black">
               <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
               <div class="d-flex align-items-center justify-content-between w-75">
-                <h1 class="cta__title">{{textPartnership.node.ctaTitle}}</h1>
+                <h1 class="cta__title">{{textPartnership.node.ctaTitle}} <span class="text-green">{{textPartnership.node.ctaGreen}}</span> </h1>
               </div>
             </div>
           </div>
@@ -430,6 +430,7 @@ query {
         sectionTitle2
         sectionAbstract2
         ctaTitle
+        ctaGreen
       }
     }
   },
