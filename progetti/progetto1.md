@@ -1,6 +1,5 @@
 ---
 title: Acta Logix - Registro elettronico
-imageList: /uploads/project.jpg
 abstract: >-
   In Logix abbiamo pensato proprio a tutti, Acta Logix nasce dall’esigenza di
   creare uno strumento ideale per la scuola e la formazione di ogni ordine e
@@ -8,10 +7,11 @@ abstract: >-
   cloud di ogni fase dell’attività scolastica: dalle assenze ai ritardi, dai
   voti agli scrutini, fino ai programmi didattici e alle comunicazioni di
   interesse comune.
+imageList: /uploads/project.jpg
 hashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
 image1: /uploads/project.jpg
 sectionTitle: Il progetto
-numberSections: 2
+numberSections: 3
 image2: /uploads/iphone1.png
 title2: 'Per gli insegnanti:'
 abstract2: >-
@@ -49,19 +49,9 @@ abstract4: >-
   possono, inoltre, avere accesso ad un “archivio digitale” in cui caricare
   materiale scaricabile e creare file in condivisione con gli altri insegnanti
   per progetti collaborativi o di compresenza.
-image5: /uploads/project.png
-title5: ' Per studenti e famiglie:'
-abstract5: >-
-  Con Acta Logix gli studenti hanno la possibilità di rivedere gli argomenti
-  trattati, l’orario dei giorni successivi e i compiti assegnati, è possibile
-  richiedere certificazioni o iscriversi ad eventi e manifestazioni di
-  interesse. In ogni momento, grazie al nostro registro, i genitori possono
-  consultare la situazione scolastica dei propri figli: voti, assenze, note di
-  classe, e non sono più costretti a spostarsi, mettersi in coda o prendere
-  permessi dal lavoro per richiedere pagelle e pagellini. Acta Logix offre anche
-  uno spazio di comunicazione per alunni e docenti; una chat controllata e
-  privata, che non necessitando di alcun numero telefonico o contatto privato,
-  metta in comunicazione studenti ed insegnanti. 
+image5: ''
+title5: ''
+abstract5: ''
 section2Title: Testimonial
 section2Feedback: "Abbiamo portato avanti il progetto! \U0001F44D\U0001F44D una collaborazione che dura da anni."
 section2Name: Giovanna Miriani
