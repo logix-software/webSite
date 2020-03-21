@@ -12,7 +12,7 @@ imageList: /uploads/medlab_img_1-2x.jpg
 hashtags: '#PLATFORM #WEBAPPLICATION #WEB #RICERCA #MEDICAL #MEDICALRESEARCH #BIGDATA'
 image1: /uploads/medlab_img_1-2x.jpg
 sectionTitle: Il progetto
-numberSections: 2
+numberSections: 3
 image2: /uploads/medlab_2-2x.png
 title2: MedLab for Imigastric
 abstract2: >-
