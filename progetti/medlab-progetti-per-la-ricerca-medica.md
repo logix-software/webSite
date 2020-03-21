@@ -1,6 +1,5 @@
 ---
 title: MedLab - Progetti per la ricerca medica
-imageList: /uploads/medlab_img_1-2x.jpg
 abstract: >-
   Logix è innovazione, sperimentazione, cultura e ricerca. In collaborazione con
   il dipartimento di chirurgia gastrica dell’azienda ospedaliera di Terni,
@@ -9,6 +8,7 @@ abstract: >-
   cloud per la gestione di uno screening internazionale nell'ambito della
   chirurgia gastrica, e Esinodop, software cloud di screening e Case Report Form
   (CRF).
+imageList: /uploads/medlab_img_1-2x.jpg
 hashtags: '#PLATFORM #WEBAPPLICATION #WEB #RICERCA #MEDICAL #MEDICALRESEARCH #BIGDATA'
 image1: /uploads/medlab_img_1-2x.jpg
 sectionTitle: Il progetto
@@ -100,7 +100,7 @@ ctaProjectHashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURC
 ctaProjectImage: /uploads/cta-case.png
 ctaProjectLink: '#'
 cta: Dai un’occhiata agli altri progetti!
-date: 2020-03-18T17:27:35.444Z
+date: 2020-03-20T17:27:35.444Z
 ---
 Nell'ambito del progetto MEDLAB abbiamo creato una collezione di moduli software ed algoritmi pensati per il mondo medico-sanitario, rendendoli, sin dal principio, volutamente riutilizzabili, espandibili e configurabili per essere “declinati” in vari modi.
 
