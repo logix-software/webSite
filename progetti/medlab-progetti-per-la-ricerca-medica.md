@@ -67,7 +67,7 @@ ctaProjectHashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURC
 ctaProjectImage: /uploads/cta-case.png
 ctaProjectLink: '#'
 cta: Dai un’occhiata agli altri progetti!
-date: 2019-07-30T16:27:35.444Z
+date: 2020-03-20T17:27:35.444Z
 ---
 Nell'ambito del progetto MEDLAB abbiamo creato una collezione di moduli software ed algoritmi pensati per il mondo medico-sanitario, rendendoli, sin dal principio, volutamente riutilizzabili, espandibili e configurabili per essere “declinati” in vari modi.
 
