@@ -19,14 +19,15 @@ competenceBox1Abstract3: '> Lean product development'
 competenceBox1Abstract4: '  '
 competenceBox2Icon: /uploads/sviluppo-icon.svg
 competenceBox2Title: Sviluppo
-competenceBox2Abstract1: '> Scenario research'
-competenceBox2Abstract2: '> Project management'
-competenceBox2Abstract3: '> Lean product development'
-competenceBox2Abstract4: '  '
+competenceBox2Abstract1: '> Web development'
+competenceBox2Abstract2: |
+  > Mobile development
+competenceBox2Abstract3: '> DevOps'
+competenceBox2Abstract4: '> Cloud'
 competenceBox3Icon: /uploads/design-icon.svg
 competenceBox3Title: Design
-competenceBox3Abstract1: '> Scenario research'
-competenceBox3Abstract2: '> Project management'
-competenceBox3Abstract3: '> Lean product development'
-competenceBox3Abstract4: '> Lean product '
+competenceBox3Abstract1: '> UX Research'
+competenceBox3Abstract2: '> UX Strategy'
+competenceBox3Abstract3: '> UI Design'
+competenceBox3Abstract4: '> Prototyping & Test'
 ---
