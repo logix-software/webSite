@@ -72,9 +72,9 @@ ctaProjectDescription: >-
   e alle comunicazioni di interesse comune.
 ctaProjectHashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
 ctaProjectImage: /uploads/cta-case.png
-ctaProjectLink: 'https://logix-software.netlify.com/progetti/progetto1/'
+ctaProjectLink: '#'
 cta: Dai un’occhiata agli altri progetti!
-date: 2020-03-20T17:27:35.444Z
+date: 2020-01-01T17:27:35.444Z
 ---
 Nell'ambito del progetto MEDLAB abbiamo creato una collezione di moduli software ed algoritmi pensati per il mondo medico-sanitario, rendendoli, sin dal principio, volutamente riutilizzabili, espandibili e configurabili per essere “declinati” in vari modi.
 
