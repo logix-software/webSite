@@ -11,7 +11,7 @@ imageList: /uploads/project.jpg
 hashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
 image1: /uploads/project.jpg
 sectionTitle: Il progetto
-numberSections: 3
+numberSections: 4
 image2: /uploads/iphone1.png
 title2: 'Per gli insegnanti:'
 abstract2: >-
