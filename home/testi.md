@@ -61,7 +61,7 @@ caseHistoryAbstract: >-
 caseHistoryTestimonialDescription: "Abbiamo portato avanti il progetto! \U0001F44D\U0001F44D Una collaborazione che dura da anni."
 caseHistoryTestimonialName: Giovanna Miriani
 caseHistoryTestimonialPosition: Preside scolastico - Istituto M. Rosselli
-caseHistoryTestimonialPhoto: /uploads/project.png
+caseHistoryTestimonialPhoto: /uploads/rectangle-2x.png
 caseHistoryLink: link
 caseHistoryImage: /uploads/project.png
 section2Name: STRUMENTI
