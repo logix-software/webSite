@@ -50,8 +50,19 @@ abstract4: >-
   materiale scaricabile e creare file in condivisione con gli altri insegnanti
   per progetti collaborativi o di compresenza.
 image5: ''
-title5: ''
-abstract5: ''
+title5: Piattaforma didattica cloud integrata ACTA 2.0
+abstract5: >-
+  ACTA 2.0 è la piattaforma didattica cloud integrata che permette la
+  condivisione in tempo reale del materiale e la consultabilità dello stesso a
+  distanza e nel tempo; uno strumento utile per i ragazzi in età scolare ma
+  anche per le scuole di formazione, che offrono molto spesso percorsi
+  e-leraning o propongono ore di lavoro in aula in affiancamento ad una
+  formazione di tipo FAD. 
+
+  Master e corsi di formazione professionalizzante, corsi di aggiornamento sono
+  comunemente proposti sotto forma di “Formazione A Distanza” al fine di
+  garantire a chi per motivi economici, occupazionali o geografici non sarebbe
+  in grado di seguire in loco i corsi. 
 section2Title: Testimonial
 section2Feedback: "Abbiamo portato avanti il progetto! \U0001F44D\U0001F44D una collaborazione che dura da anni."
 section2Name: Giovanna Miriani
@@ -74,8 +85,8 @@ ctaProjectDescription: >-
   e alle comunicazioni di interesse comune.
 ctaProjectHashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
 ctaProjectImage: /uploads/cta-case.png
-ctaProjectLink: '#'
+ctaProjectLink: 'https://logix-software.netlify.com/progetti/progetto1/'
 cta: Dai un’occhiata agli altri progetti!
-date: 2020-01-22T13:13:00.000Z
+date: 2020-01-17T13:13:00.000Z
 ---
 Acta Logix nasce dall’esigenza di creare un strumento per tutti, ideale per la scuola e la formazione di ogni ordine e grado; il registro elettronico di casa Logix permette l’organizzazione in cloud di ogni fase dell’attività scolastica: dalle assenze ai ritardi, dai voti agli scrutini, fino ai programmi didattici e alle comunicazioni di interesse comune.
