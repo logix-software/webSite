@@ -38,16 +38,16 @@ abstract3: >-
   privata, che non necessitando di alcun numero telefonico o contatto privato,
   metta in comunicazione studenti ed insegnanti. 
 image4: ''
-title4: ''
-abstract4: ''
-image5: ''
-title5: 'Amministrazione e gestione del personale:'
-abstract5: >-
+title4: 'Amministrazione e gestione del personale:'
+abstract4: >-
   Dirigenti e personale ATA, grazie al nostro registro, possono fornire
   autorizzazioni, documenti e comunicazioni di tipo organizzativo come:
   calendario scolastico, periodi didattici, sedi, anagrafica alunni, docenti e
   relativi incarichi, ma anche informazioni sulle sezioni, piani di studio,
   materie, ecc.
+image5: ''
+title5: ''
+abstract5: ''
 section2Title: Testimonial
 section2Feedback: "Abbiamo portato avanti il progetto! \U0001F44D\U0001F44D una collaborazione che dura da anni."
 section2Name: Giovanna Miriani
