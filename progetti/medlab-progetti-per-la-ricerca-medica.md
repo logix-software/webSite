@@ -8,12 +8,12 @@ abstract: >-
   cloud per la gestione di uno screening internazionale nell'ambito della
   chirurgia gastrica, e Esinodop, software cloud di screening e Case Report Form
   (CRF).
-imageList: /uploads/medlab_img_1-2x.jpg
+imageList: /uploads/case_medlab_photo-2x.png
 hashtags: '#PLATFORM #WEBAPPLICATION #WEB #RICERCA #MEDICAL #MEDICALRESEARCH #BIGDATA'
 image1: /uploads/medlab_img_1-2x.jpg
 sectionTitle: Il progetto
 numberSections: 2
-image2: /uploads/medlab_2-2x.png
+image2: /uploads/iphone_imigastric-2x.png
 title2: MedLab for Imigastric
 abstract2: >-
   Imigastric, sistema cloud per la gestione di uno screening internazionale
@@ -55,14 +55,14 @@ section2Title: Testimonial
 section2Feedback: >-
   L’innovazione tecnologica portata avanti dall'Azienda ospedaliera di Terni ci
   ha consentito di avviare progetti di collaborazione internazionale, che aprono
-  straordinarie possibilità non soltanto nel trattamento chirurgico del cancro
-  ma in tutto il percorso assistenziale del paziente oncologico.
+  straordinarie possibilità in tutto il percorso assistenziale del paziente
+  oncologico.
 section2Name: Amilcare Parisi
 section2Position: Direttore Chirurgia Digestiva e Gastroenterologia del Santa Maria di Terni
 section2Image: /uploads/amilcare-parisi.jpg
 section3Title: '  '
 section3Abstract: '  '
-section3Image: /uploads/case_medlab_photo-2x.png
+section3Image: /uploads/ipad_esinodop-2x.png
 ctaProjectTitle: Acta Logix - Registro elettronico
 ctaProjectDescription: >-
   Acta Logix nasce dall'esigenza di creare uno strumento ideale per la scuola e
