@@ -13,7 +13,7 @@ hashtags: '#PLATFORM #WEBAPPLICATION #WEB #RICERCA #MEDICAL #MEDICALRESEARCH #BI
 image1: /uploads/medlab_img_1-2x.jpg
 sectionTitle: Il progetto
 numberSections: 2
-image2: /uploads/iphone_imigastric-2x.png
+image2: /uploads/iphone_imigastric.png
 title2: MedLab for Imigastric
 abstract2: >-
   Imigastric, sistema cloud per la gestione di uno screening internazionale
