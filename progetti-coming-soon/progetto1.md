@@ -14,5 +14,5 @@ abstract: >-
   ottimizzando i tempi; sia per i manager, in quanto, accessibile da qualsiasi
   dispositivo, permette al personale amministrativo di svolgere al meglio tutte
   le attività di gestione e supervisione.
-date: 2020-01-23T13:13:17.904Z
+date: 2020-02-19T13:13:17.904Z
 ---
