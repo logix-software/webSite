@@ -72,7 +72,7 @@ ctaProjectDescription: >-
   e alle comunicazioni di interesse comune.
 ctaProjectHashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
 ctaProjectImage: /uploads/cta-case.png
-ctaProjectLink: '#'
+ctaProjectLink: 'https://logix-software.netlify.com/progetti/progetto1/'
 cta: Dai un’occhiata agli altri progetti!
 date: 2020-03-20T17:27:35.444Z
 ---
