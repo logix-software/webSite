@@ -8,5 +8,5 @@ abstract: >-
   energetica, abbiamo realizzato un sistema software consente l’interazione fra
   i diversi sistemi di produzione, in grado di migliorarne l'efficienza sia
   nella gestione degli impianti che durante il ciclo produttivo.
-date: 2020-03-18T17:27:35.444Z
+date: 2020-03-01T17:27:35.444Z
 ---
