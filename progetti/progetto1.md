@@ -11,7 +11,7 @@ imageList: /uploads/case_acta_photo-2x.png
 hashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
 image1: /uploads/project.jpg
 sectionTitle: Il progetto
-numberSections: 4
+numberSections: 3
 image2: /uploads/iphone1.png
 title2: 'Per gli insegnanti:'
 abstract2: >-
@@ -38,20 +38,23 @@ abstract3: >-
   privata, che non necessitando di alcun numero telefonico o contatto privato,
   metta in comunicazione studenti ed insegnanti. 
 image4: ''
-title4: 'Per gli insegnanti:'
+title4: 'Amministrazione e gestione del personale:'
 abstract4: >-
-  Docenti e formatori hanno il vantaggio di fruire di due strumenti, registro di
-  classe e registro personale, in unico device. All’interno di Acta Logix è
-  possibile annotare presenze e ritardi, firmare lezioni, assegnare compiti e
-  leggere news e circolari. Allo stesso tempo, per quel che riguarda l’area
-  riservata di ciascun alunno, gli insegnanti possono: registrare voti, note,
-  giustificazioni o qualsiasi altra documentazione di tipo privato. I docenti
-  possono, inoltre, avere accesso ad un “archivio digitale” in cui caricare
-  materiale scaricabile e creare file in condivisione con gli altri insegnanti
-  per progetti collaborativi o di compresenza.
+  Dirigenti e personale ATA, grazie al nostro registro, possono fornire
+  autorizzazioni, documenti e comunicazioni di tipo organizzativo come:
+  calendario scolastico, periodi didattici, sedi, anagrafica alunni, docenti e
+  relativi incarichi, ma anche informazioni sulle sezioni, piani di studio,
+  materie, ecc.
 image5: ''
-title5: Piattaforma didattica cloud integrata ACTA 2.0
-abstract5: >-
+title5: ''
+abstract5: ''
+section2Title: Testimonial
+section2Feedback: "Abbiamo portato avanti il progetto! \U0001F44D\U0001F44D una collaborazione che dura da anni."
+section2Name: Giovanna Miriani
+section2Position: Preside scolastico - Istituto M. Rosselli
+section2Image: /uploads/rectangle-2x.png
+section3Title: Piattaforma didattica cloud integrata ACTA 2.0
+section3Abstract: >-
   ACTA 2.0 è la piattaforma didattica cloud integrata che permette la
   condivisione in tempo reale del materiale e la consultabilità dello stesso a
   distanza e nel tempo; uno strumento utile per i ragazzi in età scolare ma
@@ -63,18 +66,6 @@ abstract5: >-
   comunemente proposti sotto forma di “Formazione A Distanza” al fine di
   garantire a chi per motivi economici, occupazionali o geografici non sarebbe
   in grado di seguire in loco i corsi. 
-section2Title: Testimonial
-section2Feedback: "Abbiamo portato avanti il progetto! \U0001F44D\U0001F44D una collaborazione che dura da anni."
-section2Name: Giovanna Miriani
-section2Position: Preside scolastico - Istituto M. Rosselli
-section2Image: /uploads/rectangle-2x.png
-section3Title: 'Amministrazione e gestione del personale:'
-section3Abstract: >-
-  Dirigenti e personale ATA, grazie al nostro registro, possono fornire
-  autorizzazioni, documenti e comunicazioni di tipo organizzativo come:
-  calendario scolastico, periodi didattici, sedi, anagrafica alunni, docenti e
-  relativi incarichi, ma anche informazioni sulle sezioni, piani di studio,
-  materie, ecc.
 section3Image: /uploads/img_4-2x.png
 ctaProjectTitle: 'Esibit - piattaforma per gli artisti '
 ctaProjectDescription: >-
