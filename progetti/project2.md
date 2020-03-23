@@ -9,7 +9,7 @@ abstract: >-
   e strumento di diffusione per la propria idea di arte ma diventa veicolo di
   relazioni, grazie anche a collaborazioni ad eventi e progetti, e strumento di
   valorizzazione e monetizzazione del proprio lavoro.
-imageList: /uploads/img_1-2x.jpg
+imageList: /uploads/case_esibit_photo-2x.png
 hashtags: '#PLATFORM #WEBAPPLICATION #ARTE #SOCIAL #ARTIST #CREATIVE #ARTCOMMUNITY'
 image1: /uploads/img_1-2x.jpg
 sectionTitle: Il progetto
