@@ -62,10 +62,10 @@
     <div class="info1 d-flex align-items-center py-5" v-if="$page.project.numberSections > 2">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 mx-auto d-flex align-items-center justify-content-center order-1 order-lg-0">
+          <!-- <div class="col-lg-4 mx-auto d-flex align-items-center justify-content-center order-1 order-lg-0">
             <g-image :src="$page.project.image4" class="info1__img" />
-          </div>
-          <div class="col-lg-6 mx-auto d-flex align-items-center order-0 order-lg-1">
+          </div> -->
+          <div class="col-lg-6 mx-auto text-center">
             <div>
               <h1 class="info1__title mb-3">{{$page.project.title4}}</h1>
               <p class="info1__description">{{$page.project.abstract4}}</p>
@@ -99,7 +99,8 @@
                 Pronto a realizzare la tua prossima
                 <span class="text-blue">innovazione</span>?
               </h1>
-              <a href="http://" class="btn btn-primary">Contattaci</a>
+               <button class="btn btn-primary " data-toggle="modal"
+              data-target="#modalContact">Contattaci</button>
             </div>
           </div>
         </div>
@@ -215,8 +216,8 @@
               class="partnership__descriptionClosing mb-5"
             >{{textPartnership.node.sectionAbstract2}}</p>
             <div>
-              <a href="http://" class="btn btn-primary mx-1 mx-lg-2">Certo</a>
-              <a href="http://" class="btn btn-secondary mx-1 mx-lg-2">Abbastanza</a>
+              <button class="btn btn-primary " data-toggle="modal"
+              data-target="#modalContact">Contattaci</button>
             </div>
           </div>
         </div>
@@ -227,7 +228,7 @@
             <div class="cta cta--black">
               <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
               <div class="d-flex align-items-center justify-content-between w-75">
-                <h1 class="cta__title">{{textPartnership.node.ctaTitle}}</h1>
+                <h1 class="cta__title">{{textPartnership.node.ctaTitle}} <span class="text-green">{{textPartnership.node.ctaGreen}}</span> </h1>
               </div>
             </div>
           </div>
@@ -286,6 +287,7 @@ query ($path: String!) {
                 sectionTitle2
                 sectionAbstract2
                 ctaTitle
+                ctaGreen
             }
         }
     }

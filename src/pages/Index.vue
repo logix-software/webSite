@@ -326,7 +326,8 @@
               <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
               <div class="d-lg-flex align-items-center justify-content-between">
                 <h1 class="cta__title">{{text.node.cta1Title}}</h1>
-                <g-link :to="text.node.cta1Link" class="btn btn-primary">Contattaci</g-link>
+                <button class="btn btn-primary" data-toggle="modal"
+              data-target="#modalContact">Contattaci</button>
               </div>
             </div>
           </div>
@@ -526,11 +527,15 @@
         <div class="container py-5">
           <div class="row">
             <div class="col-lg-5 mx-auto text-center py-5">
-              <h1 class="idea__title mb-3">{{text.node.section5Title}}</h1>
-              <p class="idea__descrition mb-5">{{text.node.section5Abstract}}</p>
+            <h1 class="partnership__titleClosing mb-4">{{text.node.section5Title}}</h1>
+            <p
+              class="partnership__descriptionClosing mb-5"
+            >{{text.node.section5Abstract}}</p>
+            <div>
               <button class="btn btn-primary mx-1 mx-lg-2" data-toggle="modal"
               data-target="#modalContact">Contattaci</button>
             </div>
+          </div>
           </div>
         </div>
       </div>
@@ -540,7 +545,7 @@
             <div class="cta cta--black">
               <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
               <div class="d-flex align-items-center justify-content-between w-75">
-                <h1 class="cta__title">{{text.node.cta2Title}} <span class="text-green">{{text.node.cta2green}}</span> </h1>
+                <h1 class="cta__title">{{text.node.cta2Title}} <span class="text-green">{{text.node.cta2Green}}</span> </h1>
               </div>
             </div>
           </div>
