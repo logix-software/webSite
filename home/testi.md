@@ -62,7 +62,7 @@ caseHistoryTestimonialDescription: "Abbiamo portato avanti il progetto! \U0001F4
 caseHistoryTestimonialName: Giovanna Miriani
 caseHistoryTestimonialPosition: Preside scolastico - Istituto M. Rosselli
 caseHistoryTestimonialPhoto: /uploads/rectangle-2x.png
-caseHistoryLink: /progetti/progetto1/
+caseHistoryLink: /progetti/acta-logix-registro-elettronico/
 caseHistoryImage: /uploads/project.png
 section2Name: STRUMENTI
 section2Title: Utilizziamo i linguaggi ed i framework più potenti e stabili
