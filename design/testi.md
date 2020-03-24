@@ -118,8 +118,8 @@ day1Abstract: >-
   Insieme con il cliente cerchiamo di capire le necessità e le problematiche che
   con il progetto vorremmo risolvere.
 day2Abstract: >-
-  Insieme con il cliente cerchiamo di capire le necessità e le problematiche che
-  con il progetto vorremmo risolvere.
+  Indaghiamo il contesto in cui ci dobbiamo muovere, i competitor e lo scenario
+  in cui s'inseriscono gli utenti finali.
 section4Box1Abstract: >-
   Tanto più semplice risulterà l’esperienza utente, tanto più facile sarà
   raggiungere obiettivi aziendali. Prodotti digitali usabili, intuitivi e
@@ -130,11 +130,11 @@ section4Box2Icon: /uploads/business.svg
 day3Icon: /uploads/num-3.svg
 day4Icon: /uploads/num-4.svg
 day3Abstract: >-
-  Insieme con il cliente cerchiamo di capire le necessità e le problematiche che
-  con il progetto vorremmo risolvere.
+  Insieme cerchiamo di dare risposte per le esigenze e gli obiettivi
+  individuati. Proponiamo e valutiamo le migliori soluzioni possibili.
 day4Abstract: >-
-  Insieme con il cliente cerchiamo di capire le necessità e le problematiche che
-  con il progetto vorremmo risolvere.
+  Diamo forma alla soluzione con flussi e mappe. Testiamo, raccogliamo feedback
+  e validiamo il progetto.
 section4Box2Abstract: >-
   Il mondo del design include all’interno molteplici ruoli, metodi e strumenti
   che vanno ben oltre la semplice immagine o l’aspetto di un prodotto o
