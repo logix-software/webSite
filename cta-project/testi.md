@@ -8,5 +8,5 @@ description: >-
   e alle comunicazioni di interesse comune.
 hashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
 image: /uploads/cta-case.png
-link: 'https://logix-software.netlify.com/progetti/progetto1/'
+link: /progetti/acta-logix-registro-elettronico/
 ---
