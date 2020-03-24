@@ -10,7 +10,7 @@ abstract: >-
   (CRF).
 imageList: /uploads/case_medlab_photo-2x.png
 hashtags: '#PLATFORM #WEBAPPLICATION #WEB #RICERCA #MEDICAL #MEDICALRESEARCH #BIGDATA'
-image1: /uploads/medlab_img_1-2x.jpg
+image1: /uploads/medlab_top.jpg
 sectionTitle: Il progetto
 numberSections: 2
 image2: /uploads/iphone_imigastric.png
@@ -72,9 +72,9 @@ ctaProjectDescription: >-
   e alle comunicazioni di interesse comune.
 ctaProjectHashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
 ctaProjectImage: /uploads/cta-case.png
-ctaProjectLink: '#'
+ctaProjectLink: /progetti/acta-logix-registro-elettronico/
 cta: Dai un’occhiata agli altri progetti!
-date: 2020-03-23T22:27:00.000Z
+date: 2020-03-22T22:27:00.000Z
 ---
 Nell'ambito del progetto MEDLAB abbiamo creato una collezione di moduli software ed algoritmi pensati per il mondo medico-sanitario, rendendoli, sin dal principio, volutamente riutilizzabili, espandibili e configurabili per essere “declinati” in vari modi.
 
