@@ -52,7 +52,7 @@
                   <div>
                     <g-image :src="text.node.toolsBox1Icon" class="tool__img mr-3" />
                   </div>
-                  
+
                   <div>
                     <h2 class="tool__title">{{text.node.toolsBox1Title}}</h2>
                     <p
@@ -68,7 +68,7 @@
                   <div>
                     <g-image :src="text.node.toolsBox2Icon" class="tool__img mr-3" />
                   </div>
-                  
+
                   <div>
                     <h2 class="tool__title">{{text.node.toolsBox2Title}}</h2>
                     <p
@@ -84,7 +84,7 @@
                   <div>
                     <g-image :src="text.node.toolsBox3Icon" class="tool__img mr-3" />
                   </div>
-                  
+
                   <div>
                     <h2 class="tool__title">{{text.node.toolsBox3Title}}</h2>
                     <p
@@ -239,10 +239,9 @@
               <p class="day__name mb-0">{{text.node.day1Name}}</p>
               <h6 class="day__title">{{text.node.day1Title}}</h6>
               <div class="mb-3">
-                <span 
-                  class="mb-1 mb-lg-0  label label--dev mr-lg-3"
-                >DEVELOPMENT</span>
-                <span class=" label label--des">DESIGN</span>
+                <span class="mb-1 mb-lg-0  label label--des  mr-lg-3"
+                >DESIGN</span>
+                <span class="label label--dev">CLIENTE</span>
               </div>
               <p
                 class="day__description"
@@ -255,8 +254,6 @@
               <p class="day__name mb-0">{{text.node.day2Name}}</p>
               <h6 class="day__title">{{text.node.day2Title}}</h6>
               <div class="mb-3">
-                <span class="mb-1 mb-lg-0  label label--dev mr-lg-3"
-                >DEVELOPMENT</span>
                 <span class="label label--des">DESIGN</span>
               </div>
               <p
@@ -270,9 +267,9 @@
               <p class="day__name mb-0">{{text.node.day3Name}}</p>
               <h6 class="day__title">{{text.node.day3Title}}</h6>
               <div class="mb-3">
-                <span class="mb-1 mb-lg-0  label label--dev mr-lg-3"
-                >DEVELOPMENT</span>
-                <span class="label label--des">DESIGN</span>
+                <span class="mb-1 mb-lg-0  label label--des  mr-lg-3"
+                >DESIGN</span>
+                <span class="label label--dev">CLIENTE</span>
               </div>
               <p
                 class="day__description"
@@ -285,8 +282,6 @@
               <p class="day__name mb-0">{{text.node.day4Name}}</p>
               <h6 class="day__title">{{text.node.day4Title}}</h6>
               <div class="mb-3">
-                <span class="mb-1 mb-lg-0  label label--dev mr-lg-3"
-                >DEVELOPMENT</span>
                 <span class="label label--des">DESIGN</span>
               </div>
               <p
@@ -743,6 +738,9 @@ export default {
     font-weight: 300;
     letter-spacing: -0.15px;
     line-height: 20px;
+    @media screen and (min-width: 992px) {
+    min-height: 100px;
+    }
     @media screen and (max-width: 992px) {
       font-size: 14px;
     }
