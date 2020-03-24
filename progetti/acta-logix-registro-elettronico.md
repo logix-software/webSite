@@ -55,17 +55,15 @@ section2Position: Preside scolastico - Istituto M. Rosselli
 section2Image: /uploads/rectangle-2x.png
 section3Title: Piattaforma didattica cloud integrata ACTA 2.0
 section3Abstract: >-
-  ACTA 2.0 è la piattaforma didattica cloud integrata che permette la
-  condivisione in tempo reale del materiale e la consultabilità dello stesso a
-  distanza e nel tempo; uno strumento utile per i ragazzi in età scolare ma
-  anche per le scuole di formazione, che offrono molto spesso percorsi
-  e-leraning o propongono ore di lavoro in aula in affiancamento ad una
-  formazione di tipo FAD. 
-
-  Master e corsi di formazione professionalizzante, corsi di aggiornamento sono
-  comunemente proposti sotto forma di “Formazione A Distanza” al fine di
-  garantire a chi per motivi economici, occupazionali o geografici non sarebbe
-  in grado di seguire in loco i corsi. 
+  ACTA 2.0 è la piattaforma didattica in cloud che consente la condivisione in
+  tempo reale del materiale di studio e ne permette la consultabilità a distanza
+  e nel tempo. Uno strumento utile per i ragazzi in età scolare ma anche per le
+  scuole di formazione, che offrono molto spesso percorsi e-learning o
+  propongono ore di lavoro in aula in affiancamento ad una formazione di tipo
+  FAD. Master e corsi di formazione professionalizzante sono comunemente
+  proposti sotto forma di “Formazione A Distanza” al fine di garantire a chi per
+  motivi economici, occupazionali o geografici non sarebbe in grado di seguire i
+  corsi in aula. 
 section3Image: /uploads/img_4-2x.png
 ctaProjectTitle: 'Esibit - piattaforma per gli artisti '
 ctaProjectDescription: >-
