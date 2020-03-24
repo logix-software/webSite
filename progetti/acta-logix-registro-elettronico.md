@@ -75,7 +75,7 @@ ctaProjectDescription: >-
   connessione chi “fa arte” con chi” cerca arte”.
 ctaProjectHashtags: '#PLATFORM #WEBAPPLICATION #ARTE #SOCIAL #ARTIST #CREATIVE #ARTCOMMUNITY'
 ctaProjectImage: /uploads/cta-2x.png
-ctaProjectLink: '#'
+ctaProjectLink: /progetti/esibit-piattaforma-per-gli-artisti/
 cta: Dai un’occhiata agli altri progetti!
 date: 2020-03-24T20:01:49.133Z
 ---
