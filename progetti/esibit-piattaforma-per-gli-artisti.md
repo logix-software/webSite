@@ -85,7 +85,7 @@ ctaProjectDescription: >-
   e alle comunicazioni di interesse comune.
 ctaProjectHashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
 ctaProjectImage: /uploads/cta-case.png
-ctaProjectLink: /progetti/esibit-piattaforma-per-gli-artisti/
+ctaProjectLink: /progetti/acta-logix-registro-elettronico/
 cta: Dai un’occhiata agli altri progetti!
 date: 2020-03-23T20:02:14.288Z
 ---
