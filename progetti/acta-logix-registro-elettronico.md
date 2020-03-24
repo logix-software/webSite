@@ -9,7 +9,7 @@ abstract: >-
   interesse comune.
 imageList: /uploads/case_acta_photo-2x.png
 hashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
-image1: /uploads/project.jpg
+image1: /uploads/acta_top.jpg
 sectionTitle: Il progetto
 numberSections: 3
 image2: /uploads/iphone1.png
@@ -77,6 +77,6 @@ ctaProjectHashtags: '#PLATFORM #WEBAPPLICATION #ARTE #SOCIAL #ARTIST #CREATIVE #
 ctaProjectImage: /uploads/cta-2x.png
 ctaProjectLink: '#'
 cta: Dai un’occhiata agli altri progetti!
-date: 2020-03-23T20:01:49.133Z
+date: 2020-03-24T20:01:49.133Z
 ---
 Acta Logix nasce dall’esigenza di creare un strumento per tutti, ideale per la scuola e la formazione di ogni ordine e grado; il registro elettronico di casa Logix permette l’organizzazione in cloud di ogni fase dell’attività scolastica: dalle assenze ai ritardi, dai voti agli scrutini, fino ai programmi didattici e alle comunicazioni di interesse comune.
