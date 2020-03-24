@@ -11,7 +11,7 @@ abstract: >-
   valorizzazione e monetizzazione del proprio lavoro.
 imageList: /uploads/case_esibit_photo-2x.png
 hashtags: '#PLATFORM #WEBAPPLICATION #ARTE #SOCIAL #ARTIST #CREATIVE #ARTCOMMUNITY'
-image1: /uploads/img_1-2x.jpg
+image1: /uploads/esibit_top.jpg
 sectionTitle: Il progetto
 numberSections: 2
 image2: /uploads/esibit_2-2x.png
@@ -85,7 +85,7 @@ ctaProjectDescription: >-
   e alle comunicazioni di interesse comune.
 ctaProjectHashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
 ctaProjectImage: /uploads/cta-case.png
-ctaProjectLink: '#'
+ctaProjectLink: /progetti/esibit-piattaforma-per-gli-artisti/
 cta: Dai un’occhiata agli altri progetti!
 date: 2020-03-23T20:02:14.288Z
 ---
