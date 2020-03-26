@@ -552,7 +552,7 @@ export default {
       },
       {
         property: "og:image",
-        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
+        content: "https://www.logix-software.it/uploads/share.jpg"
       },
       {
         property: "twitter:card",
@@ -569,7 +569,7 @@ export default {
       },
       {
         property: "twitter:image",
-        content: "https://www.logix-software.it/assets/static/uploads/share.jpg"
+        content: "https://www.logix-software.it/uploads/share.jpg"
       },
       { property: "og:url", content: "https://www.logix-software.it/chi-siamo" },
       { name: "robots", content: "index, follow" }

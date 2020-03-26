@@ -12,9 +12,9 @@
           <li class="position-relative py-2 py-lg-0">
             <g-link to="/competenze" class="nav__link mx-3 py-3">
               Competenze
-              <!-- <i class="fas fa-chevron-down ml-2"></i> -->
+              <i class="fas fa-chevron-down ml-2"></i>
             </g-link>
-            <!-- <ul class="dropdown list-unstyled">
+            <ul class="dropdown list-unstyled">
               <li>
                 <g-link
                   class="nav__link mx-3 py-1 d-inline-block"
@@ -39,7 +39,7 @@
                   to="/collaborative-team"
                 >> Collaborative team</g-link>
               </li>
-            </ul> -->
+            </ul>
           </li>
           <li class="position-relative py-2 py-lg-0">
             <g-link to="/progetti" class="nav__link mx-3 py-3">Progetti</g-link>
@@ -249,44 +249,44 @@ export default {
     //           color: #3838c4!important;
     //       }
     //   }
-    // &:hover {
-    //   .dropdown {
-    //     display: block;
-    //   }
-    // }
+    &:hover {
+      .dropdown {
+        display: block;
+      }
+    }
   }
-  // .dropdown {
-  //   position: absolute;
-  //   top: 120%;
+  .dropdown {
+    position: absolute;
+    top: 120%;
 
-  //   border-radius: 5px;
-  //   padding: 25px 0;
-  //   display: none;
-  //   z-index: 1;
-  //   width: 240px;
-  //   @media screen and (max-width: 992px) {
-  //     width: 100%;
-  //     margin-left: 15px;
-  //     position: relative;
-  //   }
-  //   // -webkit-box-shadow: 0px 2px 9px -2px rgba(82, 83, 94, 0.63);
-  //   // -moz-box-shadow: 0px 2px 9px -2px rgba(82, 83, 94, 0.63);
-  //   // box-shadow: 0px 2px 9px -2px rgba(82, 83, 94, 0.63);
-  //   a {
-  //     font-size: 16px;
-  //     font-weight: 300;
-  //     color: #fff;
-  //     @media screen and (min-width: 992px) {
-  //       color: rgba(255, 255, 255, 0.8);
-  //       &:hover {
-  //         color: rgba(255, 255, 255, 1);
-  //       }
-  //     }
-  //     @media screen and (max-width: 992px) {
-  //       font-size: 22px;
-  //       margin: 6px 0;
-  //     }
-  //   }
-  // }
+    border-radius: 5px;
+    padding: 25px 0;
+    display: none;
+    z-index: 1;
+    width: 240px;
+    @media screen and (max-width: 992px) {
+      width: 100%;
+      margin-left: 15px;
+      position: relative;
+    }
+    // -webkit-box-shadow: 0px 2px 9px -2px rgba(82, 83, 94, 0.63);
+    // -moz-box-shadow: 0px 2px 9px -2px rgba(82, 83, 94, 0.63);
+    // box-shadow: 0px 2px 9px -2px rgba(82, 83, 94, 0.63);
+    a {
+      font-size: 16px;
+      font-weight: 300;
+      color: #fff;
+      @media screen and (min-width: 992px) {
+        color: rgba(255, 255, 255, 0.8);
+        &:hover {
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+      @media screen and (max-width: 992px) {
+        font-size: 22px;
+        margin: 6px 0;
+      }
+    }
+  }
 }
 </style>
