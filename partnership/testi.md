@@ -11,5 +11,5 @@ sectionAbstract2: >-
   ai risultati che sfrutta conoscenze e competenze di mondi differenti ed
   affini: il design e lo sviluppo. Verso nuove logiche digitali.
 ctaTitle: Consiglio last minute? Parla con noi al
-ctaGreen: 0744/33434522
+ctaGreen: 0744/283733
 ---
