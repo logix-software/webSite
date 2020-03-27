@@ -93,13 +93,13 @@ slider2slide2BgText: Sociale
 slider2slide2Abstract: >-
   Crediamo che il fattore trainante dell’evoluzione sia la tecnologia che
   sostiene progetti per rispondere a problematiche sociali e comunitarie.
-slider2slide2Image: /uploads/ambiente.png
+slider2slide2Image: /uploads/sociale.png
 slider2slide3Title: Ambiente e salute
 slider2slide3BgText: Ambiente
 slider2slide3Abstract: >-
   Cerchiamo di promuovere e incentivare progetti che adottino soluzioni
   sostenibili nel rispetto dell’ambiente e di noi stessi.
-slider2slide3Image: /uploads/sociale.png
+slider2slide3Image: /uploads/ambiente.png
 section4Name: VALORI
 section4Title: Cosa non dimentichiamo mai
 section4Abstract: >-
