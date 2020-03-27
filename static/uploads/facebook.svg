@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon/facebook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Email-template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <g id="icon/facebook">
+                <circle id="Oval" fill="#111111" cx="11" cy="11" r="11"></circle>
+                <g id="facebook" transform="translate(4.000000, 4.000000)">
+                    <g id="Group-26">
+                        <g id="facebook">
+                            <g>
+                                <rect id="Rectangle" x="0" y="0" width="14" height="14"></rect>
+                                <path d="M9.47177778,4.85802826 L7.57011111,4.85802826 L7.57011111,3.55058381 C7.54495308,3.39721623 7.58966879,3.24063188 7.69202247,3.12367776 C7.79437614,3.00672364 7.94365093,2.9416453 8.099,2.94625048 L9.44066667,2.94625048 L9.44066667,0.787917144 L7.59266667,0.780917144 C6.89292609,0.745165399 6.212351,1.01615754 5.72870549,1.52311127 C5.24505998,2.030065 5.00637707,2.72263244 5.075,3.41991714 L5.075,4.85802826 L3.88888889,4.85802826 L3.88888889,7.08091714 L5.075,7.08091714 L5.075,13.3739171 L7.57011111,13.3739171 L7.57011111,7.0824727 L9.25322222,7.0824727 L9.47177778,4.85802826 Z" id="Facebook" fill="#FFFFFF"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
