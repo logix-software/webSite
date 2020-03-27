@@ -4,7 +4,7 @@ headerTitle1: I nostri ultimi
 headerTitle2: progetti
 headerImage: /uploads/hero-projects.svg
 toolsName: PUNTI DI FORZA
-toolsTitle: Una lunga esperienza in progetti specifici
+toolsTitle: Ambiti differenti su cui basiamo la nostra esperienza
 toolsBox1Title: MES
 toolsBox1Subtitle: SOFWARE PRODUZIONE
 toolsBox1Hashtags: '#SOFTWARE #GESTIONALE #RFID #TRACCIABILITÀ’ #GATECONTROL'
