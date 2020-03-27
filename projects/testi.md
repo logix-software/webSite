@@ -3,8 +3,8 @@ title: Progetti
 headerTitle1: I nostri ultimi
 headerTitle2: progetti
 headerImage: /uploads/hero-projects.svg
-toolsName: TOOL
-toolsTitle: Gli strumenti linguaggi e framework
+toolsName: PUNTI DI FORZA
+toolsTitle: Una lunga esperienza in progetti specifici
 toolsBox1Title: MES
 toolsBox1Subtitle: SOFWARE PRODUZIONE
 toolsBox1Hashtags: '#SOFTWARE #GESTIONALE #RFID #TRACCIABILITÀ’ #GATECONTROL'
