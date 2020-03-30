@@ -16,8 +16,7 @@
               <p>Piazza Europa, 5 - 05100 Terni(TR)</p>
               <h5 class="footer__title3">Roma</h5>
               <p>
-                Via Marcello Gallian, 62/64 - 00133
-                Roma(RM)
+                Via Zoe Fontana, 220 00131 Roma RM
               </p>
             </div>
           </div>
