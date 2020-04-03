@@ -61,9 +61,9 @@ caseHistoryAbstract: >-
 caseHistoryTestimonialDescription: "Abbiamo portato avanti il progetto! \U0001F44D\U0001F44D Una collaborazione che dura da anni."
 caseHistoryTestimonialName: Giovanna Miriani
 caseHistoryTestimonialPosition: Preside scolastico - Istituto M. Rosselli
-caseHistoryTestimonialPhoto: /uploads/rectangle-2x.png
+caseHistoryTestimonialPhoto: /uploads/giovanna_testimonial.png
 caseHistoryLink: /progetti/acta-logix-registro-elettronico/
-caseHistoryImage: /uploads/project.png
+caseHistoryImage: /uploads/preview_acta_logix.jpg
 section2Name: STRUMENTI
 section2Title: Utilizziamo i linguaggi ed i framework più potenti e stabili
 section2Abstract: >-
@@ -87,19 +87,19 @@ slider2slide1BgText: Made in Italy
 slider2slide1Abstract: >-
   Siamo sempre felici di poter contribuire a progetti che tutelano e sostengono
   il Made in Italy.
-slider2slide1Image: /uploads/madeinitaly.png
+slider2slide1Image: /uploads/madeinitaly.jpg
 slider2slide2Title: Digital nel sociale
 slider2slide2BgText: Sociale
 slider2slide2Abstract: >-
   Crediamo che il fattore trainante dell’evoluzione sia la tecnologia che
   sostiene progetti per rispondere a problematiche sociali e comunitarie.
-slider2slide2Image: /uploads/sociale.png
+slider2slide2Image: /uploads/social.jpg
 slider2slide3Title: Ambiente e salute
 slider2slide3BgText: Ambiente
 slider2slide3Abstract: >-
   Cerchiamo di promuovere e incentivare progetti che adottino soluzioni
   sostenibili nel rispetto dell’ambiente e di noi stessi.
-slider2slide3Image: /uploads/ambiente.png
+slider2slide3Image: /uploads/ambiente.jpg
 section4Name: VALORI
 section4Title: Cosa non dimentichiamo mai
 section4Abstract: >-
