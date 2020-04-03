@@ -31,10 +31,14 @@ section3Title3: Con quali strumenti e in quanto tempo?
 section3Title4: A che punto siamo? Tutte le fasi sono state validate?
 section4BgText: To learn
 section4Name: LEARN
+section4Title1: 'Il nuovo prodotto, processo, servizio può essere migliorato?'
 section4Title2: >-
   Cosa viene richiesto dagli utilizzatori? Si inserisce correttamente nel
   contesto?
 section4Title3: Quali sono i risultati?
+section5title: >-
+  Rispondiamo a queste domande passo dopo passo insieme al cliente, progettando
+  le migliori logiche digitali.
 section6Name: VANTAGGI
 section6Title: Non offriamo solo risposte ma vantaggi concreti
 section6Box1Title: Ottimizzazione delle tempistiche
@@ -45,10 +49,6 @@ section6Box1Abstract: >-
   all’eliminazione di incomprensioni, intermediazioni e disallineamenti.
 section6Box2Title: Riduzione dei costi
 section5Title: >-
-  Rispondiamo a queste domande passo dopo passo insieme al cliente, progettando
-  le migliori logiche digitali.
-section4Title1: 'Il nuovo prodotto, processo, servizio può essere migliorato?'
-section5title: >-
   Rispondiamo a queste domande passo dopo passo insieme al cliente, progettando
   le migliori logiche digitali.
 section6Box2Abstract: >-
