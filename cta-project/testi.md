@@ -7,6 +7,6 @@ description: >-
   dalle assenze ai ritardi, dai voti agli scrutini, fino ai programmi didattici
   e alle comunicazioni di interesse comune.
 hashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
-image: /uploads/cta-case.png
+image: /uploads/cta_acta_logix.png
 link: /progetti/acta-logix-registro-elettronico/
 ---
