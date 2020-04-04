@@ -1,8 +1,8 @@
 ---
 title: Slowtailer - Piattaforma per artigiani e retailer
-imageList: /uploads/case_slowtailer_photo-2x.png
+imageList: /uploads/preview_slowtailer.png
 hashtags: '#WEBAPPLICATION #IoT #SOFTWARE #LOGISTIC #NETWORK #ECOLOGY '
-image: /uploads/case_slowtailer_photo-2x.png
+image: /uploads/preview_slowtailer.png
 abstract: >-
   Logix lancia Slowtailer, la Startup che nasce con l’intento di aiutare i
   retailer italiani ad offrire prodotti locali, di qualità e in grado di
