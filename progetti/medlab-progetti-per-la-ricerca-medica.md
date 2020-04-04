@@ -8,12 +8,12 @@ abstract: >-
   cloud per la gestione di uno screening internazionale nell'ambito della
   chirurgia gastrica, e Esinodop, software cloud di screening e Case Report Form
   (CRF).
-imageList: /uploads/case_medlab_photo-2x.png
+imageList: /uploads/preview_medlab.jpg
 hashtags: '#PLATFORM #WEBAPPLICATION #WEB #RICERCA #MEDICAL #MEDICALRESEARCH #BIGDATA'
-image1: /uploads/medlab_top.jpg
+image1: /uploads/hero-medlab.jpg
 sectionTitle: Il progetto
 numberSections: 2
-image2: /uploads/iphone_imigastric.png
+image2: /uploads/imigastric_list.png
 title2: MedLab for Imigastric
 abstract2: >-
   Imigastric, sistema cloud per la gestione di uno screening internazionale
@@ -28,7 +28,7 @@ abstract2: >-
   sistema ha a disposizione un account associato al centro di appartenenza ed
   ogni paziente è identificato univocamente da un codice progressivo generato
   automaticamente dal sistema. 
-image3: /uploads/medlab_3-2x.png
+image3: /uploads/esinodop_detail.png
 title3: MEDLAB for Esinodop
 abstract3: >
   Il secondo progetto al quale abbiamo lavorato è Esinodop, un software cloud di
@@ -59,7 +59,7 @@ section2Feedback: >-
   oncologico.
 section2Name: Amilcare Parisi
 section2Position: Direttore Chirurgia Digestiva e Gastroenterologia del Santa Maria di Terni
-section2Image: /uploads/amilcare-parisi.jpg
+section2Image: /uploads/amilcare_parisi_testimonial.png
 section3Title: '  '
 section3Abstract: '  '
 section3Image: /uploads/ipad_esinodop-2x.png
@@ -71,7 +71,7 @@ ctaProjectDescription: >-
   dalle assenze ai ritardi, dai voti agli scrutini, fino ai programmi didattici
   e alle comunicazioni di interesse comune.
 ctaProjectHashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
-ctaProjectImage: /uploads/cta-case.png
+ctaProjectImage: /uploads/cta_acta_logix.png
 ctaProjectLink: /progetti/acta-logix-registro-elettronico/
 cta: Dai un’occhiata agli altri progetti!
 date: 2020-03-22T22:27:00.000Z
