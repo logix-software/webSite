@@ -12,7 +12,7 @@ hashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL
 image1: /uploads/hero-acta.jpg
 sectionTitle: Il progetto
 numberSections: 3
-image2: /uploads/iphone1.png
+image2: /uploads/acta_login.png
 title2: 'Per gli insegnanti:'
 abstract2: >-
   Docenti e formatori hanno il vantaggio di fruire di due strumenti, registro di
@@ -52,7 +52,7 @@ section2Title: Testimonial
 section2Feedback: "Abbiamo portato avanti il progetto! \U0001F44D\U0001F44D una collaborazione che dura da anni."
 section2Name: Giovanna Miriani
 section2Position: Preside scolastico - Istituto M. Rosselli
-section2Image: /uploads/acta_calendar.png
+section2Image: /uploads/giovanna_testimonial.png
 section3Title: Piattaforma didattica cloud integrata ACTA 2.0
 section3Abstract: >-
   ACTA 2.0 è la piattaforma didattica in cloud che consente la condivisione in
@@ -64,7 +64,7 @@ section3Abstract: >-
   proposti sotto forma di “Formazione A Distanza” al fine di garantire a chi per
   motivi economici, occupazionali o geografici non sarebbe in grado di seguire i
   corsi in aula. 
-section3Image: /uploads/img_4-2x.png
+section3Image: /uploads/acta_calendar.png
 ctaProjectTitle: 'Esibit - piattaforma per gli artisti '
 ctaProjectDescription: >-
   Esibit è una piattaforma dedicata al mondo dell’arte, dove artisti,
