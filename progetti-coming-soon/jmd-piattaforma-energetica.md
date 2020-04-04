@@ -1,8 +1,8 @@
 ---
 title: 'JMD  - Piattaforma energetica '
-imageList: /uploads/case_jmd_photo-copy-2-2x.png
+imageList: /uploads/preview_jmd.jpg
 hashtags: '#PLATFORM #WEB #WEBAPPLICATION #ENERGY #IOT #SYSTEMINTEGRATOR'
-image: /uploads/case_jmd_photo-copy-2-2x.png
+image: /uploads/preview_jmd.jpg
 abstract: >-
   Insieme a JMD Energy, start up innovativa che si occupa di produzione
   energetica, abbiamo realizzato un sistema software che consente l’interazione
