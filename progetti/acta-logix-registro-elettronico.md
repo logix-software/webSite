@@ -7,9 +7,9 @@ abstract: >-
   cloud di ogni fase dell’attività scolastica: dalle assenze ai ritardi, dai
   voti agli scrutini, fino ai programmi didattici e alle comunicazioni di
   interesse comune.
-imageList: /uploads/case_acta_photo-2x.png
+imageList: /uploads/preview_acta_logix.jpg
 hashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
-image1: /uploads/acta_top.jpg
+image1: /uploads/hero-acta.jpg
 sectionTitle: Il progetto
 numberSections: 3
 image2: /uploads/iphone1.png
@@ -24,7 +24,7 @@ abstract2: >-
   possono, inoltre, avere accesso ad un “archivio digitale” in cui caricare
   materiale scaricabile e creare file in condivisione con gli altri insegnanti
   per progetti collaborativi o di compresenza.
-image3: /uploads/img_3-2x.png
+image3: /uploads/acta_home.png
 title3: ' Per studenti e famiglie:'
 abstract3: >-
   Con Acta Logix gli studenti hanno la possibilità di rivedere gli argomenti
@@ -52,7 +52,7 @@ section2Title: Testimonial
 section2Feedback: "Abbiamo portato avanti il progetto! \U0001F44D\U0001F44D una collaborazione che dura da anni."
 section2Name: Giovanna Miriani
 section2Position: Preside scolastico - Istituto M. Rosselli
-section2Image: /uploads/rectangle-2x.png
+section2Image: /uploads/acta_calendar.png
 section3Title: Piattaforma didattica cloud integrata ACTA 2.0
 section3Abstract: >-
   ACTA 2.0 è la piattaforma didattica in cloud che consente la condivisione in
