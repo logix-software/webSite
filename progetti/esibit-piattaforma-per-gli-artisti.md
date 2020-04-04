@@ -9,12 +9,12 @@ abstract: >-
   e strumento di diffusione per la propria idea di arte ma diventa veicolo di
   relazioni, grazie anche a collaborazioni ad eventi e progetti, e strumento di
   valorizzazione e monetizzazione del proprio lavoro.
-imageList: /uploads/case_esibit_photo-2x.png
+imageList: /uploads/preview_esibit.jpg
 hashtags: '#PLATFORM #WEBAPPLICATION #ARTE #SOCIAL #ARTIST #CREATIVE #ARTCOMMUNITY'
-image1: /uploads/esibit_top.jpg
+image1: /uploads/hero-esibit.jpg
 sectionTitle: Il progetto
 numberSections: 2
-image2: /uploads/esibit_2-2x.png
+image2: /uploads/esibit_ricerca.png
 title2: Artisti e addetti ai lavori
 abstract2: >-
   Esibit permette agli utenti di entrare a far parte della community registrando
@@ -30,7 +30,7 @@ abstract2: >-
 
   Accedendo con le proprie credenziali è possibile, inoltre, iscriversi e
   partecipare ad eventi esclusivi come manifestazioni, esposizioni o progetti.
-image3: /uploads/esibit_2b-2x.png
+image3: /uploads/esibit_eventi.png
 title3: 'Eventi e Mostre '
 abstract3: >-
   Esibit, tuttavia, accoglie a braccia aperte tutte le tipologie di utenti,
@@ -39,7 +39,7 @@ abstract3: >-
   utenti registrati, effettuare ricerche, visualizzare gallerie ed esposizioni
   virtuali legate agli eventi, ma non possono interagire con la community e
   utilizzare le funzioni social offerte ai membri accreditati.
-image4: /uploads/esibit_2-2x.png
+image4: /uploads/esibit_ricerca.png
 title4: Artisti e addetti ai lavori
 abstract4: >-
   “Log in”, “Log out”, ogni giorno ci registriamo su social e piattaforme per
@@ -72,10 +72,10 @@ section2Feedback: >-
   acquisisce una dimensione digitale e globale.
 section2Name: 'Igor Borozan '
 section2Position: Presidente dell'Accademia di Belle Arti di Terni
-section2Image: /uploads/igor-borozan.jpg
+section2Image: /uploads/igor_borozan_testimonial.png
 section3Title: ' '
 section3Abstract: ' '
-section3Image: /uploads/esibit_3-2x.png
+section3Image: /uploads/esibit_artista.png
 ctaProjectTitle: Acta Logix - Registro elettronico
 ctaProjectDescription: >-
   Acta Logix nasce dall'esigenza di creare uno strumento ideale per la scuola e
@@ -84,7 +84,7 @@ ctaProjectDescription: >-
   dalle assenze ai ritardi, dai voti agli scrutini, fino ai programmi didattici
   e alle comunicazioni di interesse comune.
 ctaProjectHashtags: '#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL'
-ctaProjectImage: /uploads/cta-case.png
+ctaProjectImage: /uploads/cta_acta_logix.png
 ctaProjectLink: /progetti/acta-logix-registro-elettronico/
 cta: Dai un’occhiata agli altri progetti!
 date: 2020-03-23T20:02:14.288Z
