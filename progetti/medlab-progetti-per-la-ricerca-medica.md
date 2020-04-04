@@ -62,7 +62,7 @@ section2Position: Direttore Chirurgia Digestiva e Gastroenterologia del Santa Ma
 section2Image: /uploads/amilcare_parisi_testimonial.png
 section3Title: '  '
 section3Abstract: '  '
-section3Image: /uploads/ipad_esinodop-2x.png
+section3Image: /uploads/esinodop_detail.png
 ctaProjectTitle: Acta Logix - Registro elettronico
 ctaProjectDescription: >-
   Acta Logix nasce dall'esigenza di creare uno strumento ideale per la scuola e
