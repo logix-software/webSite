@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-4 d-flex align-items-start position-relative">
-            <g-image src="~/assets/images/deco3.svg" class="footer__deco pl-5"></g-image>
+            <g-image src="~/assets/images/deco3.svg" class="footer__deco pl-5" alt="decoration"></g-image>
             <h2 class="footer__title1">Restiamo in contatto</h2>
           </div>
         </div>

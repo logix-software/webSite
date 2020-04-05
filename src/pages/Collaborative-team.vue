@@ -122,7 +122,7 @@
         <div class="row">
           <div class="col-lg-10 ml-auto position-relative mt-lg-5">
             <div class="cta cta--black">
-              <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
+              <g-image src="~/assets/images/deco3.svg" class="cta__deco" alt="decoration"/>
               <div class="d-flex align-items-center justify-content-between w-75">
                 <h1 class="cta__title">{{textPartnership.node.ctaTitle}} <span class="text-green">{{textPartnership.node.ctaGreen}}</span></h1>
               </div>

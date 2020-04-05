@@ -44,7 +44,7 @@
               <div class="row">
                 <div class="col-lg-11 position-relative">
                   <g-link to="/" class>
-                    <g-image src="~/assets/images/logo/logix-software.svg" class="header__logo" />
+                    <g-image src="~/assets/images/logo/logix-software.svg" class="header__logo" alt="logix-software"/>
                   </g-link>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <svg
@@ -104,7 +104,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-4">
-                  <g-image src="~/assets/images/deco-square.svg" class="modalContact__deco" />
+                  <g-image src="~/assets/images/deco-square.svg" class="modalContact__deco" alt="decoration"/>
                   <h1 class="modalContact__title">Contattaci</h1>
                   <p
                     class="modalContact__description mb-5"
@@ -119,7 +119,7 @@
                 >
                   <div class="formSent text-center">
                     <h1 class="modalContact__title">Grazie per averci contattato</h1>
-                    <g-image src="~/assets/images/icons/sent.svg" class="mt-3 mx-auto" />
+                    <g-image src="~/assets/images/icons/sent.svg" class="mt-3 mx-auto" alt="check sent"/>
                   </div>
                 </div>
                 <form

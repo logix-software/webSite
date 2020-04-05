@@ -93,7 +93,7 @@
       <div class="row">
         <div class="col-lg-10 mt-5 mt-sm-0 ml-auto position-relative">
           <div class="cta">
-            <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
+            <g-image src="~/assets/images/deco3.svg" class="cta__deco" alt="decoration"/>
             <div class="d-lg-flex align-items-center justify-content-between">
               <h1 class="cta__title">
                 Pronto a realizzare la tua prossima
@@ -192,7 +192,7 @@
       :key="textPartnership.id"
     >
       <div class="partnership__box mb-5 py-5">
-        <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
+        <g-image src="~/assets/images/deco2.svg" class="partnership__deco" alt="partnership"/>
         <div class="container">
           <div class="row">
             <div class="col-lg-11 ml-auto pl-lg-5">
@@ -226,7 +226,7 @@
         <div class="row">
           <div class="col-lg-10 ml-auto position-relative mt-lg-5">
             <div class="cta cta--black">
-              <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
+              <g-image src="~/assets/images/deco3.svg" class="cta__deco" alt="decoration"/>
               <div class="d-flex align-items-center justify-content-between w-75">
                 <h1 class="cta__title">{{textPartnership.node.ctaTitle}} <span class="text-green">{{textPartnership.node.ctaGreen}}</span> </h1>
               </div>

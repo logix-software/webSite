@@ -1,8 +1,8 @@
 <template>
   <Layout>
     <div class="hero hero--projects d-flex align-items-center" v-for="text in $page.texts.edges" :key="text.id">
-      <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco1" />
-      <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco2" />
+      <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco1" alt="decoration" />
+      <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco2" alt="decoration" />
       <div class="w-100">
         <h1
           class="hero__title text-left"
@@ -32,7 +32,7 @@
           <div class="row">
             <div class="col-lg-6 col-left">
               <div class="project__img" :style="{ 'background-image': 'url(' + project.node.imageList + ')' }">
-                <g-image src="~/assets/images/deco3.svg" class="integration__img" />
+                <g-image src="~/assets/images/deco3.svg" class="integration__img" alt="decoration"/>
               </div>
             </div>
             <div class="col-lg-6 pl-lg-5 col-right d-flex align-items-center">
@@ -115,7 +115,7 @@
           <div class="row">
             <div class="col-lg-6 col-left">
               <div class="project__img" :style="{ 'background-image': 'url(' + project.node.imageList + ')' }">
-                <g-image src="~/assets/images/deco3.svg" class="integration__img" />
+                <g-image src="~/assets/images/deco3.svg" class="integration__img" alt="decoration"/>
               </div>
             </div>
             <div class="col-lg-6 pl-lg-5 col-right d-flex align-items-center">
@@ -142,7 +142,7 @@
       :key="textPartnership.id"
     >
       <div class="partnership__box my-5 py-5">
-        <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
+        <g-image src="~/assets/images/deco2.svg" class="partnership__deco" alt="decoration"/>
         <div class="container">
           <div class="row">
             <div class="col-lg-11 ml-auto pl-lg-5">
@@ -176,7 +176,7 @@
         <div class="row">
           <div class="col-lg-10 ml-auto position-relative mt-lg-5">
             <div class="cta cta--black">
-              <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
+              <g-image src="~/assets/images/deco3.svg" class="cta__deco" alt="decoration"/>
               <div class="d-flex align-items-center justify-content-between w-75">
                 <h1 class="cta__title">{{textPartnership.node.ctaTitle}} <span class="text-green">{{textPartnership.node.ctaGreen}}</span></h1>
               </div>

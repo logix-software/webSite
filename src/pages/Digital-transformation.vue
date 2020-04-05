@@ -40,7 +40,7 @@
             <div class="col-lg-3 mb-2 mb-lg-0"></div>
             <div class="col-lg-3 mb-2 mb-lg-0">
               <div class="position-relative">
-                <g-image src="~/assets/images/deco-question-green.svg" class="learn__deco mb-5" />
+                <g-image src="~/assets/images/deco-question-green.svg" class="learn__deco mb-5" alt="decoration"/>
                 <h6 class="learn__name">{{text.node.section1Name}}</h6>
               </div>
 
@@ -101,6 +101,7 @@
                 <g-image
                   src="~/assets/images/deco-question-purple.svg"
                   class="strategy__deco mb-5"
+                  alt="decoration"
                 />
                 <h6 class="strategy__name">{{text.node.section2Name}}</h6>
               </div>
@@ -135,7 +136,7 @@
             <div class="col-lg-3 mb-2 mb-lg-0"></div>
             <div class="col-lg-3 mb-2 mb-lg-0">
               <div class="position-relative">
-                <g-image src="~/assets/images/icon-question-green.svg" class="make__deco mb-5" />
+                <g-image src="~/assets/images/icon-question-green.svg" class="make__deco mb-5" alt="decoration"/>
                 <h6 class="make__name">{{text.node.section3Name}}</h6>
               </div>
 
@@ -181,7 +182,7 @@
             </div>
             <div class="col-lg-3 mb-2 mb-lg-0">
               <div class="position-relative">
-                <g-image src="~/assets/images/deco-question-purple.svg" class="learn__deco mb-5" />
+                <g-image src="~/assets/images/deco-question-purple.svg" class="learn__deco mb-5" alt="decoration"/>
                 <h6 class="learn__name">{{text.node.section4Name}}</h6>
               </div>
 
@@ -215,7 +216,7 @@
           </div>
           <div class="row py-2 py-lg-5 pb-5">
             <div class="col-lg-7 mx-auto text-center py-5">
-              <g-image src="~/assets/images/arrowDown.svg" class="mb-5" />
+              <g-image src="~/assets/images/arrowDown.svg" class="mb-5" alt="decoration"/>
               <h1
                 class="learn__conclusion"
               >{{text.node.section5Title}}</h1>
@@ -227,7 +228,7 @@
         <div class="row">
           <div class="col-lg-10 ml-auto position-relative">
             <div class="cta">
-              <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
+              <g-image src="~/assets/images/deco3.svg" class="cta__deco" alt="decoration"/>
               <div class="d-lg-flex align-items-center justify-content-between">
                 <h1 class="cta__title">
                   Pronto a realizzare la tua prossima
@@ -253,7 +254,7 @@
               <div class="row">
                 <div class="col-lg-6 mb-2 mb-lg-5">
                   <div class="d-lg-flex align-items-start">
-                    <g-image src="~/assets/images/icon-num-1.svg" class="advantages__num" />
+                    <g-image src="~/assets/images/icon-num-1.svg" class="advantages__num" alt="number 1"/>
                     <div>
                       <h1 class="advantages__title">{{text.node.section6Box1Title}}</h1>
                       <p
@@ -264,7 +265,7 @@
                 </div>
                 <div class="col-lg-6 mb-2 mb-lg-5">
                   <div class="d-lg-flex align-items-start">
-                    <g-image src="~/assets/images/icon-num-2.svg" class="advantages__num" />
+                    <g-image src="~/assets/images/icon-num-2.svg" class="advantages__num" alt="number 2"/>
                     <div>
                       <h1 class="advantages__title">{{text.node.section6Box2Title}}</h1>
                       <p
@@ -275,7 +276,7 @@
                 </div>
                 <div class="col-lg-6 mb-2 mb-lg-5">
                   <div class="d-lg-flex align-items-start">
-                    <g-image src="~/assets/images/icon-num-3.svg" class="advantages__num" />
+                    <g-image src="~/assets/images/icon-num-3.svg" class="advantages__num" alt="number 3"/>
                     <div>
                       <h1 class="advantages__title">{{text.node.section6Box3Title}}</h1>
                       <p
@@ -325,7 +326,7 @@
       :key="textPartnership.id"
     >
       <div class="partnership__box my-5 py-5">
-        <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
+        <g-image src="~/assets/images/deco2.svg" class="partnership__deco" alt="decoration"/>
         <div class="container">
           <div class="row">
             <div class="col-lg-11 ml-auto pl-lg-5">
@@ -359,7 +360,7 @@
         <div class="row">
           <div class="col-lg-10 ml-auto position-relative mt-lg-5">
             <div class="cta cta--black">
-              <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
+              <g-image src="~/assets/images/deco3.svg" class="cta__deco" alt="decoration" />
               <div class="d-flex align-items-center justify-content-between w-75">
                 <h1 class="cta__title">{{textPartnership.node.ctaTitle}} <span class="text-green">{{textPartnership.node.ctaGreen}}</span> </h1>
               </div>

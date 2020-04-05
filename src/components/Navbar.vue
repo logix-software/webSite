@@ -2,7 +2,7 @@
   <header class="header py-3">
     <div class="container-fluid d-lg-flex align-items-center justify-content-between">
       <g-link to="/" class>
-        <g-image src="~/assets/images/logo/logix-software.svg" class="header__logo" />
+        <g-image src="~/assets/images/logo/logix-software.svg" class="header__logo" alt="logix-software" />
       </g-link>
       <nav class="nav">
         <ul class="list-unstyled d-lg-flex align-items-center m-0">

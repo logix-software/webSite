@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5 mx-auto text-center">
-              <g-image src="~/assets/images/deco-short1.svg" class="" />
+              <g-image src="~/assets/images/deco-short1.svg" alt="decoration" />
             <h1 class="page404__title">Pagina non trovata</h1>
             <h1 class="page404__title mb-4">(-__-;))</h1>
             <p class="page404__description">Oops! La pagina che stavi <br> cercando non esiste,<br> <g-link to="/">torna alla home</g-link> </p>

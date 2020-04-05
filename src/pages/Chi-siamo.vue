@@ -5,8 +5,8 @@
         class="hero hero--projects d-flex align-items-center justify-content-center text-center"
         :style="{ 'background-image': 'url(' + text.node.headerImage + ')' }"
       >
-        <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco1" />
-        <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco2" />
+        <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco1" alt="decoration" />
+        <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco2" alt="decoration" />
         <div class="mx-auto">
           <h1
             class="hero__title"
@@ -39,7 +39,7 @@
             <div class="sections" id="js-slideContainer">
               <div class="step">
                 <div class="team">
-                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                   <div class="team__body ml-auto">
                     <div
                       class="team__photo mb-3"
@@ -53,7 +53,7 @@
               </div>
               <div class="step">
                 <div class="team">
-                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                   <div class="team__body ml-auto">
                     <div
                       class="team__photo mb-3"
@@ -67,7 +67,7 @@
               </div>
               <div class="step">
                 <div class="team">
-                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                   <div class="team__body ml-auto">
                     <div
                       class="team__photo mb-3"
@@ -81,7 +81,7 @@
               </div>
               <div class="step">
                 <div class="team">
-                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                   <div class="team__body ml-auto">
                     <div
                       class="team__photo mb-3"
@@ -95,7 +95,7 @@
               </div>
               <div class="step">
                 <div class="team">
-                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                   <div class="team__body ml-auto">
                     <div
                       class="team__photo mb-3"
@@ -109,7 +109,7 @@
               </div>
               <div class="step">
                 <div class="team">
-                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                   <div class="team__body ml-auto">
                     <div
                       class="team__photo mb-3"
@@ -123,7 +123,7 @@
               </div>
               <div class="step">
                 <div class="team">
-                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                   <div class="team__body ml-auto">
                     <div
                       class="team__photo mb-3"
@@ -137,7 +137,7 @@
               </div>
               <div class="step">
                 <div class="team">
-                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                   <div class="team__body ml-auto">
                     <div
                       class="team__photo mb-3"
@@ -151,7 +151,7 @@
               </div>
               <div class="step">
                 <div class="team">
-                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                   <div class="team__body ml-auto">
                     <div
                       class="team__photo mb-3"
@@ -165,7 +165,7 @@
               </div>
               <div class="step">
                 <div class="team">
-                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                   <div class="team__body ml-auto">
                     <div
                       class="team__photo mb-3"
@@ -184,7 +184,7 @@
           <div class="owl-carousel owl-theme owl-carousel-team">
             <div class="item">
               <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                 <div class="team__body ml-auto">
                   <div
                     class="team__photo mb-3"
@@ -198,7 +198,7 @@
             </div>
             <div class="item">
               <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                 <div class="team__body ml-auto">
                   <div
                     class="team__photo mb-3"
@@ -212,7 +212,7 @@
             </div>
             <div class="item">
               <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                 <div class="team__body ml-auto">
                   <div
                     class="team__photo mb-3"
@@ -226,7 +226,7 @@
             </div>
             <div class="item">
               <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                 <div class="team__body ml-auto">
                   <div
                     class="team__photo mb-3"
@@ -240,7 +240,7 @@
             </div>
             <div class="item">
               <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                 <div class="team__body ml-auto">
                   <div
                     class="team__photo mb-3"
@@ -254,7 +254,7 @@
             </div>
             <div class="item">
               <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                 <div class="team__body ml-auto">
                   <div
                     class="team__photo mb-3"
@@ -268,7 +268,7 @@
             </div>
             <div class="item">
               <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                 <div class="team__body ml-auto">
                   <div
                     class="team__photo mb-3"
@@ -282,7 +282,7 @@
             </div>
             <div class="item">
               <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                 <div class="team__body ml-auto">
                   <div
                     class="team__photo mb-3"
@@ -296,7 +296,7 @@
             </div>
             <div class="item">
               <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                 <div class="team__body ml-auto">
                   <div
                     class="team__photo mb-3"
@@ -310,7 +310,7 @@
             </div>
             <div class="item">
               <div class="team">
-                <g-image src="~/assets/images/deco-square.svg" class="team__deco" />
+                <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
                 <div class="team__body ml-auto">
                   <div
                     class="team__photo mb-3"

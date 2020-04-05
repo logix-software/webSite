@@ -36,7 +36,7 @@
       </div>
       <div class="tool py-5">
         <div class="container py-5 position-relative">
-          <g-image src="~/assets/images/deco2.svg" class="tool__deco" />
+          <g-image src="~/assets/images/deco2.svg" class="tool__deco" alt="decoration"/>
           <div class="row">
             <div class="col-lg-5 mx-auto text-center">
               <h6 class="tool__name">{{text.node.toolsName}}</h6>
@@ -196,7 +196,7 @@
       </div>
       <div class="tool tool--inverted py-5">
         <div class="container py-5 position-relative">
-          <g-image src="~/assets/images/deco2.svg" class="tool__deco" />
+          <g-image src="~/assets/images/deco2.svg" class="tool__deco" alt="tool"/>
           <div class="row">
             <div class="col-lg-5 mx-auto text-center">
               <h6 class="tool__name">{{text.node.tools2Name}}</h6>
@@ -360,7 +360,7 @@
       :key="textPartnership.id"
     >
       <div class="partnership__box my-5 py-5">
-        <g-image src="~/assets/images/deco2.svg" class="partnership__deco" />
+        <g-image src="~/assets/images/deco2.svg" class="partnership__deco" alt="partnership"/>
         <div class="container">
           <div class="row">
             <div class="col-lg-11 ml-auto pl-lg-5">
