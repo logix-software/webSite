@@ -338,7 +338,7 @@
                 <div class="position__body">
                   <h1 class="position__title">{{text.node.position1Title}}</h1>
                   <p class="position__place mb-0">
-                    <i class="fas fa-map-marker-alt mr-1"></i>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" class="svg-inline--fa fa-map-marker-alt mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>
                     {{text.node.position1Location}}
                   </p>
                 </div>
@@ -347,7 +347,7 @@
                 <div class="position__body">
                   <h1 class="position__title">{{text.node.position2Title}}</h1>
                   <p class="position__place mb-0">
-                    <i class="fas fa-map-marker-alt mr-1"></i>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" class="svg-inline--fa fa-map-marker-alt mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>
                     {{text.node.position2Location}}
                   </p>
                 </div>
@@ -356,7 +356,7 @@
                 <div class="position__body">
                   <h1 class="position__title">{{text.node.position3Title}}</h1>
                   <p class="position__place mb-0">
-                    <i class="fas fa-map-marker-alt mr-1"></i>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" class="svg-inline--fa fa-map-marker-alt mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>
                     {{text.node.position3Location}}
                   </p>
                 </div>
@@ -365,7 +365,7 @@
                 <div class="position__body">
                   <h1 class="position__title">{{text.node.position4Title}}</h1>
                   <p class="position__place mb-0">
-                    <i class="fas fa-map-marker-alt mr-1"></i>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" class="svg-inline--fa fa-map-marker-alt mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>
                     {{text.node.position4Location}}
                   </p>
                 </div>
@@ -926,6 +926,9 @@ export default {
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 1.2px;
+    svg{
+      width: 12px;
+    }
   }
   &:nth-child(even) {
     .position__body {

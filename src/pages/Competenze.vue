@@ -198,7 +198,7 @@
                     <h6 class="step__num">{{text.node.slider1Slide1Number}}</h6>
                     <h1 class="step__name">{{text.node.slider1Slide1Title}}</h1>
                     <div>
-                      <i class="fas fa-plus text-white"></i>
+                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
                     </div>
                   </div>
                   <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
@@ -240,7 +240,7 @@
                     <h6 class="step__num">{{text.node.slider1Slide2Number}}</h6>
                     <h1 class="step__name">{{text.node.slider1Slide2Title}}</h1>
                     <div>
-                      <i class="fas fa-plus text-white"></i>
+                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
                     </div>
                   </div>
                   <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
@@ -280,8 +280,8 @@
                   <div class="d-flex align-items-end justify-content-between">
                     <h6 class="step__num">{{text.node.slider1Slide3Number}}</h6>
                     <h1 class="step__name">{{text.node.slider1Slide3Title}}</h1>
-                    <div>
-                      <i class="fas fa-plus text-white"></i>
+                    <div class="text-white">
+                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
                     </div>
                   </div>
                   <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
@@ -322,7 +322,7 @@
                     <h6 class="step__num">{{text.node.slider1Slide4Number}}</h6>
                     <h1 class="step__name">{{text.node.slider1Slide4Title}}</h1>
                     <div>
-                      <i class="fas fa-plus text-white"></i>
+                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
                     </div>
                   </div>
                   <g-image src="~/assets/images/deco-short2.svg" class="step__shortDeco ml-3" />
@@ -1020,6 +1020,9 @@ export default {
     background-color: transparent;
     .card-header {
       background-color: transparent;
+      .svg-inline--fa{
+        width: 16px;
+      }
     }
   }
 }
