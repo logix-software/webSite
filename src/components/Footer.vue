@@ -23,7 +23,7 @@
           <div class="col-lg-3">
             <h5 class="mb-4 footer__title2">Scrivici</h5>
             <p>
-              <a href="mailto:info@logixcorp.com">info@logixcorp.com</a>
+              <a href="mailto:info@logixcorp.it">info@logixcorp.it</a>
             </p>
           </div>
           <div class="col-lg-4">
