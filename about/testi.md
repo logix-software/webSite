@@ -3,10 +3,9 @@ title: Logix Software - Chi siamo
 headerTitle1: Questi
 headerTitle2: siamo noi!
 headerImage: /uploads/hero-about.jpg
-sectionTitle: >-
-  In Logix non ci fermiamo mai, siamo sempre in movimento, con la voglia di
-  cambiare ed inventare, con la consapevolezza che la nostra forza siano le
-  persone e la loro passione, parti di una famiglia.
+sectionTitle: In Logix non ci fermiamo mai, siamo sempre in movimento, con la
+  voglia di cambiare ed inventare, con la consapevolezza che la nostra forza
+  siano le persone e la loro passione, parti di una famiglia.
 sectionBgText1: Design
 sectionBgText2: Development
 person1Name: Marco
@@ -17,7 +16,7 @@ person1Img: /uploads/marco_filetti.jpg
 person2Name: Alessandro
 person2Team: DEVELOPMENT
 person2Color: dev
-person2Position: 'Chief Technology Officer '
+person2Position: "Chief Technology Officer "
 person2Img: /uploads/alessandro_cirocchi.jpg
 person3Name: Maurizio
 person3Team: OPERATION
@@ -27,12 +26,12 @@ person3Img: /uploads/maurizio.jpg
 person4Name: Susanna
 person4Team: DESIGN
 person4Color: design
-person4Position: Digital Product Architect
+person4Position: UX/UI Designer
 person4Img: /uploads/susanna_cirocchi.jpg
 person5Name: Gaia
 person5Team: MARKETING
 person5Color: marketing
-person5Position: 'Marketing Manager '
+person5Position: "Marketing Manager "
 person5Img: /uploads/gaia_costantini.jpg
 person6Name: Paolo
 person6Team: DEVELOPMENT
@@ -60,13 +59,12 @@ person10Color: dev
 person10Position: Developer
 person10Img: /uploads/francesco_leonardi.jpg
 workForUsTitle: Siamo alla ricerca di talenti da inserire nel team
-workForUsDescription1: >-
-  Un luogo in cui puoi crescere, imparare e sperimentare, mostrare il tuo vero
-  potenziale, conoscere persone simpatiche e lavorare con il buon umore.
-workForUsDescription2: >-
-  Per candidarti a queste posizioni o se pensi che Logix sia il posto giusto per
-  te, scrivici allegando il tuo curriculum a:
-workForUsDescription3: 'Se hai dubbi o vuoi sapere di più su di noi siamo a tua disposizione:)'
+workForUsDescription1: Un luogo in cui puoi crescere, imparare e sperimentare,
+  mostrare il tuo vero potenziale, conoscere persone simpatiche e lavorare con
+  il buon umore.
+workForUsDescription2: "Per candidarti a queste posizioni o se pensi che Logix
+  sia il posto giusto per te, scrivici allegando il tuo curriculum a:"
+workForUsDescription3: Se hai dubbi o vuoi sapere di più su di noi siamo a tua disposizione:)
 numberPosition: 2
 position1Title: Frontend Developer
 position1Location: Terni / REMOTO
