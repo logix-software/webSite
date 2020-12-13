@@ -7,11 +7,11 @@ public_folder: "/uploads"
 
 collections:
     - name: "home"
-      label: "Home Page" 
+      label: "Home Page"
       folder: "home"
-      create: false 
+      create: false
       slug: "{{slug}}"
-      fields: 
+      fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "HeaderTitle", name: "headerTitle", widget: "string"}
         - {label: "HeaderAbstract", name: "headerAbstract", widget: "text"}
@@ -100,11 +100,11 @@ collections:
         - {label: "Cta2Title", name: "cta2Title", widget: "string"}
         - {label: "Cta2Green", name: "cta2Green", widget: "string"}
     - name: "competence"
-      label: "Competence Page" 
+      label: "Competence Page"
       folder: "competenze"
-      create: false 
+      create: false
       slug: "{{slug}}"
-      fields: 
+      fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "HeaderTitle", name: "headerTitle", widget: "string"}
         - {label: "HeaderImage", name: "headerImage", widget: "image"}
@@ -164,11 +164,11 @@ collections:
         - {label: "Competence4Abstract", name: "competence4Abstract", widget: "text"}
         - {label: "Competence4Img", name: "competence4Img", widget: "image"}
     - name: "partnership"
-      label: "Partnership Section" 
+      label: "Partnership Section"
       folder: "partnership"
-      create: false 
+      create: false
       slug: "{{slug}}"
-      fields: 
+      fields:
         - {label: "SectionTitle", name: "sectionTitle", widget: "string"}
         - {label: "SectionName", name: "sectionName", widget: "string"}
         - {label: "logo1", name: "logo1", widget: "image"}
@@ -180,22 +180,22 @@ collections:
         - {label: "CtaTitle", name: "ctaTitle", widget: "string"}
         - {label: "CtaGreen", name: "ctaGreen", widget: "string"}
     - name: "CtaProject"
-      label: "Cta Project" 
+      label: "Cta Project"
       folder: "cta-project"
-      create: false 
+      create: false
       slug: "{{slug}}"
-      fields: 
+      fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Description", name: "description", widget: "text"}
         - {label: "Hashtags", name: "hashtags", widget: "string"}
         - {label: "Image", name: "image", widget: "image"}
         - {label: "Link", name: "link", widget: "string"}
     - name: "projectsPage"
-      label: "Projects Page" 
+      label: "Projects Page"
       folder: "projects"
-      create: false 
+      create: false
       slug: "{{slug}}"
-      fields: 
+      fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "HeaderTitle1", name: "headerTitle1", widget: "string"}
         - {label: "HeaderTitle2", name: "headerTitle2", widget: "string"}
@@ -215,11 +215,11 @@ collections:
         - {label: "ToolsBox3Hashtags", name: "toolsBox3Hashtags", widget: "string"}
         - {label: "ToolsBox3Description", name: "toolsBox3Description", widget: "text"}
     - name: "about"
-      label: "About Page" 
+      label: "About Page"
       folder: "about"
-      create: false 
+      create: false
       slug: "{{slug}}"
-      fields: 
+      fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "HeaderTitle1", name: "headerTitle1", widget: "string"}
         - {label: "HeaderTitle2", name: "headerTitle2", widget: "string"}
@@ -291,11 +291,11 @@ collections:
         - {label: "Position4Title", name: "position4Title", widget: "string"}
         - {label: "Position4Location", name: "position4Location", widget: "string"}
     - name: "proojects"
-      label: "Projects" 
+      label: "Projects"
       folder: "progetti"
-      create: true 
+      create: true
       slug: "{{slug}}"
-      fields: 
+      fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Abstract", name: "abstract", widget: "text"}
         - {label: "ImageList", name: "imageList", widget: "image"}
@@ -329,14 +329,14 @@ collections:
         - {label: "CtaProjectImage", name: "ctaProjectImage", widget: "image"}
         - {label: "CtaProjectLink", name: "ctaProjectLink", widget: "string"}
         - {label: "cta", name: "cta", widget: "text"}
-        - {label: "Body", name: "body", widget: "markdown"} 
-        - {label: "Date", name: "date", widget: "datetime"}  
+        - {label: "Body", name: "body", widget: "markdown"}
+        - {label: "Date", name: "date", widget: "datetime"}
     - name: "proojectsComingSoon"
-      label: "ProjectsComingSoon" 
+      label: "ProjectsComingSoon"
       folder: "progetti-coming-soon"
-      create: true 
+      create: true
       slug: "{{slug}}"
-      fields: 
+      fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "ImageList", name: "imageList", widget: "image"}
         - {label: "Hashtags", name: "hashtags", widget: "string"}
@@ -344,11 +344,11 @@ collections:
         - {label: "Abstract", name: "abstract", widget: "string"}
         - {label: "Date", name: "date", widget: "datetime"}
     - name: "DigitalTransformation"
-      label: "DigitalTransformation Page" 
+      label: "DigitalTransformation Page"
       folder: "digital-transformation"
-      create: false 
+      create: false
       slug: "{{slug}}"
-      fields: 
+      fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "HeaderTitle", name: "headerTitle", widget: "string"}
         - {label: "HeaderImage", name: "headerImage", widget: "image"}
@@ -390,11 +390,11 @@ collections:
         - {label: "Section6Box3Title", name: "section6Box3Title", widget: "string"}
         - {label: "Section6Box3Abstract", name: "section6Box3Abstract", widget: "text"}
     - name: "SviluppoWeb"
-      label: "SviluppoWeb Page" 
+      label: "SviluppoWeb Page"
       folder: "sviluppo-web"
-      create: false 
+      create: false
       slug: "{{slug}}"
-      fields: 
+      fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "HeaderTitle", name: "headerTitle", widget: "string"}
         - {label: "HeaderImage", name: "headerImage", widget: "image"}
@@ -477,11 +477,11 @@ collections:
         - {label: "Logo4", name: "logo4", widget: "image"}
         - {label: "Logo5", name: "logo5", widget: "image"}
     - name: "Design"
-      label: "Design Page" 
+      label: "Design Page"
       folder: "design"
-      create: false 
+      create: false
       slug: "{{slug}}"
-      fields: 
+      fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "HeaderTitle", name: "headerTitle", widget: "string"}
         - {label: "HeaderImage", name: "headerImage", widget: "image"}
@@ -555,11 +555,11 @@ collections:
         - {label: "section4Box2Title", name: "section4Box2Title", widget: "string"}
         - {label: "section4Box2Abstract", name: "section4Box2Abstract", widget: "image"}
     - name: "CollaborativeTeam"
-      label: "CollaborativeTeam Page" 
+      label: "CollaborativeTeam Page"
       folder: "collaborative-team"
-      create: false 
+      create: false
       slug: "{{slug}}"
-      fields: 
+      fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "HeaderTitle", name: "headerTitle", widget: "string"}
         - {label: "HeaderImage", name: "headerImage", widget: "image"}
@@ -584,4 +584,11 @@ collections:
         - {label: "CompetenceBox3Abstract2", name: "competenceBox3Abstract2", widget: "text"}
         - {label: "CompetenceBox3Abstract3", name: "competenceBox3Abstract3", widget: "text"}
         - {label: "CompetenceBox3Abstract4", name: "competenceBox3Abstract4", widget: "text"}
-        
+    - name: "LegalNote"
+      label: "LegalNote Page"
+      folder: "note-legali"
+      create: false
+      slug: "{{slug}}"
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}

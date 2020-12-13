@@ -12,12 +12,7 @@
           <div class="col-lg-4">
             <div class="pr-lg-5">
               <h3 class="mb-4 footer__title2">Passa da noi</h3>
-              <h5 class="footer__title3">Terni</h5>
-              <p>Piazza Europa, 5 - 05100 Terni(TR)</p>
-              <h5 class="footer__title3">Roma</h5>
-              <p>
-                Via Zoe Fontana, 220 00131 Roma RM
-              </p>
+              <p>Via di Porta San Giovanni, 28 - 05100 Terni(TR)</p>
             </div>
           </div>
           <div class="col-lg-3">

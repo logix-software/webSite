@@ -97,6 +97,16 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        path: 'note-legali/**/*.md',
+        typeName: 'LegalNote',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         path: 'sviluppo-web/**/*.md',
         typeName: 'SviluppoWeb',
         remark: {
