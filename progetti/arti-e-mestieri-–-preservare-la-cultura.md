@@ -15,17 +15,27 @@ sectionTitle: Il progetto
 numberSections: 2
 image2: /uploads/img_1_artiemestieri.png
 title2: "Eventi e mostre:"
-abstract2: La piattaforma fornisce uno spazio capace di aggregare i vari eventi
-  sul territorio, permette all’utente di informarsi, conoscere gli appuntamenti
-  in agenda, le modalità di partecipazione, sia da spettatore che da espositore,
-  e tutti i dettagli sul programma.
+abstract2: La piattaforma fornirà uno spazio capace di aggregare i vari eventi
+  sul territorio, permetterà all’utente di informarsi, conoscere gli
+  appuntamenti in agenda, le modalità di partecipazione, sia da spettatore che
+  da espositore, e tutti i dettagli sul programma.
 image3: /uploads/img_2_artiemestieri.png
 title3: "Artisti e Artigiani:"
-abstract3: All’interno del proprio spazio ciascun artista ed artigiano è in
+abstract3: All’interno del proprio spazio ciascun artista ed artigiano sarà in
   grado di presentare se stesso, la propria arte, i materiali scelti, le
   tecniche utilizzate e di esporre le proprie creazioni. L’ampia visibilità
-  offerta dalla piattaforma permette di far conoscere il proprio progetto ad un
-  pubblico sempre più ampio, capace di apprezzarne autenticità e unicità.
+  offerta dalla piattaforma permetterà di far conoscere il proprio progetto ad
+  un pubblico sempre più ampio, capace di apprezzarne autenticità e unicità.
+title4: Finalità
+abstract4: >-
+  L’obiettivo specifico delle attività progettuali è quello di digitalizzare e
+  rendere accessibile e fruibile in qualsiasi momento il retaggio
+  artistico-culturale e artigianale della provincia di Rieti, ivi incluso in
+  particolare quello delle aree colpite dal sisma del Centro Italia del 2016;
+  integrando i contenuti digitali con la promozione di retaggio artigianale,
+  merchandising tradizionale, turismo e l’interazione sociale tra gli utenti. 
+
+  A fronte di un investimento di 191.510 €, abbiamo ricevuto un sostegno finanziario dall'UE pari a: 125.656€.
 section2Title: Testimonial
 section2Feedback: Entusiasti di poter contribuire ad un progetto per il nostro territorio!
 section2Name: "Logix "
@@ -36,7 +46,7 @@ section3Abstract: >-
   Gli spazi della città diventano il cuore degli eventi e si prestano ad essere
   luoghi di esperienza. 
 
-  Grazie alla piattaforma gli utenti possono scoprire temporary store, spazi dedicati all’interno di locali commerciali, mostre ed eventi, dove artisti e artigiani hanno la possibilità di esporre e mettere in vendita le proprie creazioni. In questi spazi i visitatori potranno fare esperienza di ciò che trovano online, conoscere le storie degli artisti e degli artigiani e approfondire le loro passioni immersi in suggestive location.
+  Grazie alla piattaforma gli utenti potranno scoprire temporary store, spazi dedicati all’interno di locali commerciali, mostre ed eventi, dove artisti e artigiani hanno la possibilità di esporre e mettere in vendita le proprie creazioni. In questi spazi i visitatori potranno fare esperienza di ciò che trovano online, conoscere le storie degli artisti e degli artigiani e approfondire le loro passioni immersi in suggestive location.
 section3Image: /uploads/img_3_artiemestieri.png
 ctaProjectTitle: Acta Logix - Registro elettronico
 ctaProjectDescription: "Acta Logix nasce dall'esigenza di creare uno strumento
