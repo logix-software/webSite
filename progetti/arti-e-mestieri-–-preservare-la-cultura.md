@@ -26,7 +26,7 @@ abstract3: All’interno del proprio spazio ciascun artista ed artigiano sarà i
   tecniche utilizzate e di esporre le proprie creazioni. L’ampia visibilità
   offerta dalla piattaforma permetterà di far conoscere il proprio progetto ad
   un pubblico sempre più ampio, capace di apprezzarne autenticità e unicità.
-image4: ""
+image4: /uploads/img_3_artiemestieri.png
 title4: Esposizioni temporanee
 abstract4: >-
   Gli spazi della città diventano il cuore degli eventi e si prestano ad essere
@@ -49,7 +49,7 @@ section2Image: /uploads/testimonial_artimestieri.png
 section3Title: "Sostegno finanziario ricevuto "
 section3Abstract: "A fronte di un investimento di 191.510 €, abbiamo ricevuto un
   sostegno finanziario dall'UE pari a: 125.656€."
-section3Image: /uploads/img_3_artiemestieri.png
+section3Image: /uploads/img.jpg
 ctaProjectTitle: Acta Logix - Registro elettronico
 ctaProjectDescription: "Acta Logix nasce dall'esigenza di creare uno strumento
   ideale per la scuola e la formazione di ogni ordine e grado. Il registro
