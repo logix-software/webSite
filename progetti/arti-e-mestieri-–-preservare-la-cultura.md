@@ -26,28 +26,30 @@ abstract3: All’interno del proprio spazio ciascun artista ed artigiano sarà i
   tecniche utilizzate e di esporre le proprie creazioni. L’ampia visibilità
   offerta dalla piattaforma permetterà di far conoscere il proprio progetto ad
   un pubblico sempre più ampio, capace di apprezzarne autenticità e unicità.
-title4: Finalità
+image4: /uploads/img_3_artiemestieri.png
+title4: Esposizioni temporanee
 abstract4: >-
-  L’obiettivo specifico delle attività progettuali è quello di digitalizzare e
-  rendere accessibile e fruibile in qualsiasi momento il retaggio
-  artistico-culturale e artigianale della provincia di Rieti, ivi incluso in
-  particolare quello delle aree colpite dal sisma del Centro Italia del 2016;
-  integrando i contenuti digitali con la promozione di retaggio artigianale,
-  merchandising tradizionale, turismo e l’interazione sociale tra gli utenti. 
+  Gli spazi della città diventano il cuore degli eventi e si prestano ad essere
+  luoghi di esperienza. 
 
-  A fronte di un investimento di 191.510 €, abbiamo ricevuto un sostegno finanziario dall'UE pari a: 125.656€.
+  Grazie alla piattaforma gli utenti potranno scoprire temporary store, spazi dedicati all’interno di locali commerciali, mostre ed eventi, dove artisti e artigiani hanno la possibilità di esporre e mettere in vendita le proprie creazioni. In questi spazi i visitatori potranno fare esperienza di ciò che trovano online, conoscere le storie degli artisti e degli artigiani e approfondire le loro passioni immersi in suggestive location.
+title5: Sostegno finanziario ricevuto
+abstract5: "A fronte di un investimento di 191.510 €, abbiamo ricevuto un
+  sostegno finanziario dall'UE pari a: 125.656€."
 section2Title: Testimonial
 section2Feedback: Entusiasti di poter contribuire ad un progetto per il nostro territorio!
 section2Name: "Logix "
 section2Position: Ideatore del progetto
 section2Image: /uploads/testimonial_artimestieri.png
-section3Title: Esposizioni temporanee
-section3Abstract: >-
-  Gli spazi della città diventano il cuore degli eventi e si prestano ad essere
-  luoghi di esperienza. 
-
-  Grazie alla piattaforma gli utenti potranno scoprire temporary store, spazi dedicati all’interno di locali commerciali, mostre ed eventi, dove artisti e artigiani hanno la possibilità di esporre e mettere in vendita le proprie creazioni. In questi spazi i visitatori potranno fare esperienza di ciò che trovano online, conoscere le storie degli artisti e degli artigiani e approfondire le loro passioni immersi in suggestive location.
-section3Image: /uploads/img_3_artiemestieri.png
+section3Title: "Finalità "
+section3Abstract: "L’obiettivo specifico delle attività progettuali è quello di
+  digitalizzare e rendere accessibile e fruibile in qualsiasi momento il
+  retaggio artistico-culturale e artigianale della provincia di Rieti, ivi
+  incluso in particolare quello delle aree colpite dal sisma del Centro Italia
+  del 2016; integrando i contenuti digitali con la promozione di retaggio
+  artigianale, merchandising tradizionale, turismo e l’interazione sociale tra
+  gli utenti. "
+section3Image: /uploads/img.jpg
 ctaProjectTitle: Acta Logix - Registro elettronico
 ctaProjectDescription: "Acta Logix nasce dall'esigenza di creare uno strumento
   ideale per la scuola e la formazione di ogni ordine e grado. Il registro
