@@ -40,9 +40,9 @@ slider1Slide5Abstract: Che si tratti di una nuova startup o la ristrutturazione
   di servizi e processi, offririamo le soluzioni più adatte al cliente ed agli
   utilizzatori finali.
 slider1Slide5Image: /uploads/bg-pic.png
-caseHistoryName: CASE HISTORY
-caseHistoryTitleSection: Tra gli ultimi lavori realizzati
-caseHistoryBgText: Education
+caseHistoryName: PROGETTI
+caseHistoryTitleSection: Tra i nostri lavori
+caseHistoryBgText: Cultura
 caseHistoryTitle: Arti e Mestieri – preservare la cultura
 caseHistoryAbstract: "Logix partecipa al bando “Arti e Mestieri”, un progetto
   finalizzato a digitalizzare, rendere accessibile e fruibile il patrimonio
