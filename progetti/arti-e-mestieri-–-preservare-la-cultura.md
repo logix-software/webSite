@@ -26,7 +26,7 @@ abstract3: All’interno del proprio spazio ciascun artista ed artigiano sarà i
   tecniche utilizzate e di esporre le proprie creazioni. L’ampia visibilità
   offerta dalla piattaforma permetterà di far conoscere il proprio progetto ad
   un pubblico sempre più ampio, capace di apprezzarne autenticità e unicità.
-image4: /uploads/img_3_artiemestieri.png
+image4: /uploads/img_2_artiemestieri.png
 title4: Esposizioni temporanee
 abstract4: >-
   Gli spazi della città diventano il cuore degli eventi e si prestano ad essere
