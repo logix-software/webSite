@@ -12,7 +12,7 @@ imageList: /uploads/preview_arti_mestieri.jpg
 hashtags: "#PLATFORM #WEB #WEBAPPLICATION #ARTISAN #ART #ARTCOMMUNITY #CREATIVE"
 image1: /uploads/hero_artiemestieri.jpg
 sectionTitle: Il progetto
-numberSections: 2
+numberSections: 3
 image2: /uploads/img_1_artiemestieri.png
 title2: "Eventi e mostre:"
 abstract2: La piattaforma fornirà uno spazio capace di aggregare i vari eventi
