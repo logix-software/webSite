@@ -10,7 +10,7 @@ abstract: "Logix è beneficiaria dell'Avviso pubblico L'Impresa fa Cultura per l
   territorio. LINK CE - https://ec.europa.eu/regional_policy/it/funding/erdf/ "
 imageList: /uploads/preview_arti_mestieri.jpg
 hashtags: "#PLATFORM #WEB #WEBAPPLICATION #ARTISAN #ART #ARTCOMMUNITY #CREATIVE"
-image1: /uploads/hero_artiemestieri-.jpg
+image1: /uploads/hero_artiemestieri.jpg
 sectionTitle: Il progetto
 numberSections: 4
 image2: /uploads/img_1_artiemestieri.png
