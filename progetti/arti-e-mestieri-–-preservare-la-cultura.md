@@ -1,13 +1,13 @@
 ---
 title: Arti e Mestieri – preservare la cultura
-abstract: "Logix partecipa al bando “Arti e Mestieri”, un progetto finalizzato a
-  digitalizzare, rendere accessibile e fruibile il patrimonio
-  artistico-culturale e artigianale della provincia di Rieti. Stiamo sviluppando
-  una piattaforma in grado di creare uno spazio di connessione fra artisti,
-  artigiani, estimatori di arte, potenziali clienti ma anche appassionati di
-  mostre, cultura e creazioni realizzate a mano che vogliono restare aggiornati
-  su eventi e novità sul territorio. LINK CE -
-  https://ec.europa.eu/regional_policy/it/funding/erdf/ "
+abstract: "Logix è beneficiaria dell'Avviso pubblico L'Impresa fa Cultura per la
+  realizzazione di \"Arti e Mestieri\", un progetto finalizzato a digitalizzare,
+  rendere accessibile e fruibile il patrimonio artistico-culturale e artigianale
+  della provincia di Rieti. Stiamo sviluppando una piattaforma in grado di
+  creare uno spazio di connessione fra artisti, artigiani, estimatori di arte,
+  potenziali clienti ma anche appassionati di mostre, cultura e creazioni
+  realizzate a mano che vogliono restare aggiornati su eventi e novità sul
+  territorio. LINK CE - https://ec.europa.eu/regional_policy/it/funding/erdf/ "
 imageList: /uploads/preview_arti_mestieri.jpg
 hashtags: "#PLATFORM #WEB #WEBAPPLICATION #ARTISAN #ART #ARTCOMMUNITY #CREATIVE"
 image1: /uploads/hero_artiemestieri.jpg
