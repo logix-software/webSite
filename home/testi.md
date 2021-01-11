@@ -51,7 +51,7 @@ caseHistoryAbstract: "Logix partecipa al bando “Arti e Mestieri”, un progett
   artigiani, estimatori di arte, potenziali clienti ma anche appassionati di
   mostre, cultura e creazioni realizzate a mano che vogliono restare aggiornati
   su eventi e novità sul territorio. "
-caseHistoryTestimonialDescription: Entusiasti di poter contribuire ad un progetto per il nostro territorio!
+caseHistoryTestimonialDescription: '" Entusiasti di poter contribuire ad un progetto per il nostro territorio! "'
 caseHistoryTestimonialName: "Logix "
 caseHistoryTestimonialPosition: Ideatore del progetto
 caseHistoryTestimonialPhoto: /uploads/testimonial_artimestieri.png
