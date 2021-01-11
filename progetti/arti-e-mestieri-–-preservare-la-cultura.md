@@ -47,8 +47,8 @@ section2Name: "Logix "
 section2Position: Ideatore del progetto
 section2Image: /uploads/testimonial_artimestieri.png
 section3Title: "Sostegno finanziario ricevuto "
-section3Abstract: "A fronte di un investimento di 191.510 €, abbiamo ricevuto un
-  sostegno finanziario dall'UE pari a: 125.656€."
+section3Abstract: "A fronte di un investimento di 191.510,00 €, abbiamo ricevuto
+  un sostegno finanziario dall'UE pari a: 152.656,00€."
 section3Image: /uploads/img.jpg
 ctaProjectTitle: Acta Logix - Registro elettronico
 ctaProjectDescription: "Acta Logix nasce dall'esigenza di creare uno strumento
@@ -63,5 +63,7 @@ cta: Dai un’occhiata agli altri progetti!
 date: 2021-01-08T17:38:21.133Z
 ---
 Logix è beneficiaria dell'Avviso pubblico L'Impresa fa Cultura per la realizzazione di "Arti e Mestieri", un progetto finalizzato a digitalizzare, rendere accessibile e fruibile il patrimonio artistico-culturale e artigianale della provincia di Rieti. Stiamo sviluppando una piattaforma in grado di creare uno spazio di connessione fra artisti, artigiani, estimatori di arte, potenziali clienti ma anche appassionati di mostre, cultura e creazioni realizzate a mano che vogliono restare aggiornati su eventi e novità sul territorio. [LINK CE](https://ec.europa.eu/regional_policy/it/funding/erdf/)
+
+**Sostegno finanziario ricevuto:**
 
 A fronte di un investimento di 191.510,00 €, Logix ha ricevuto un sostegno finanziario dall'UE pari a: 152.656,00€.
