@@ -62,10 +62,13 @@
     <div class="info1 d-flex align-items-center py-5" v-if="$page.project.numberSections > 2">
       <div class="container">
         <div class="row">
-          <!-- <div class="col-lg-4 mx-auto d-flex align-items-center justify-content-center order-1 order-lg-0">
+          <div class="col-lg-4 mx-auto d-flex align-items-center justify-content-center order-1 order-lg-0" v-if="$page.project.image4">
             <g-image :src="$page.project.image4" class="info1__img" />
-          </div> -->
-          <div class="col-lg-6 mx-auto text-center">
+          </div>
+          <div class="col-lg-6 mx-auto"
+            :class="{
+              'text-center': !$page.project.image4
+            }">
             <div>
               <h1 class="info1__title mb-3">{{$page.project.title4}}</h1>
               <p class="info1__description">{{$page.project.abstract4}}</p>
@@ -77,13 +80,16 @@
     <div class="info2 d-flex align-items-center py-5 mb-5" v-if="$page.project.numberSections > 3">
       <div class="container mb-lg-5">
         <div class="row mb-lg-5">
-          <div class="col-lg-6 mx-auto d-flex align-items-center">
+          <div class="col-lg-6 mx-auto d-flex align-items-center"
+            :class="{
+              'text-center': !$page.project.image5
+            }">
             <div>
               <h1 class="info2__title mb-3">{{$page.project.title5}}</h1>
               <p class="info2__description">{{$page.project.abstract5}}</p>
             </div>
           </div>
-          <div class="col-lg-4 mx-auto text-center d-flex align-items-center justify-content-center">
+          <div class="col-lg-4 mx-auto text-center d-flex align-items-center justify-content-center" v-if="$page.project.image5">
             <g-image :src="$page.project.image5" class="info2__img" />
           </div>
         </div>
@@ -393,8 +399,9 @@ export default {
   }
 }
 .theProject {
+  padding: 100px 0px;
   width: 100%;
-  height: 600px;
+  height: auto;
   background-color: #111111;
   color: #ffffff;
   &__title {
