@@ -48,7 +48,7 @@ section2Position: Ideatore del progetto
 section2Image: /uploads/testimonial_artimestieri.png
 section3Title: "Sostegno finanziario ricevuto "
 section3Abstract: "A fronte di un investimento di 191.510,00 €, abbiamo ricevuto
-  un sostegno finanziario dall'UE pari a: 152.656,00€."
+  un sostegno finanziario pari a: 152.656,00€."
 section3Image: /uploads/img.jpg
 ctaProjectTitle: Acta Logix - Registro elettronico
 ctaProjectDescription: "Acta Logix nasce dall'esigenza di creare uno strumento
@@ -66,4 +66,4 @@ Logix è beneficiaria dell'Avviso pubblico L'Impresa fa Cultura per la realizzaz
 
 **Sostegno finanziario ricevuto:**
 
-A fronte di un investimento di 191.510,00 €, Logix ha ricevuto un sostegno finanziario dall'UE pari a: 152.656,00€.
+A fronte di un investimento di 191.510,00 €, Logix ha ricevuto un sostegno finanziario pari a: 152.656,00€.
