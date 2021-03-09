@@ -53,7 +53,7 @@ section6Box2Abstract: L’ottimizzazione delle tempistichei insieme con la ricer
   mantenimento.
 section6Box3Title: Conoscenza e know how comune
 section6Box3Abstract: L’approccio collaborativo non solo permette di ridurre
-  costi e tempi; ma anche di difforndere conoscenze del progetto lungo tutto
+  costi e tempi; ma anche di diffonderne conoscenze del progetto lungo tutto
   l’ecosistema aziendale fino ad arrivare all’utente fruitore e utilizzatore del
   servizio. Che sia un dipendente o un investitore, facendo parte del team di
   progettazione, ha una consapevolezza costante nel tempo delle motivazioni e
