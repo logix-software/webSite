@@ -46,17 +46,17 @@ section6Box1Abstract: Il nostro approccio permette al cliente, al team aziendale
 section6Box2Title: Riduzione dei costi
 section5Title: Rispondiamo a queste domande passo dopo passo insieme al cliente,
   progettando le migliori logiche digitali.
-section6Box2Abstract: L’ottimizzazione delle tempistichei insieme con la ricerca
+section6Box2Abstract: L’ottimizzazione delle tempistiche insieme con la ricerca
   iterativa, i test e la collaborazione con clienti e stakeholder aziendali
   consentono di progettare e realizzare prodotti realmente utili e usabili
   incidendo considerevolmente nella definizione dei costi di realizzazione e
   mantenimento.
 section6Box3Title: Conoscenza e know how comune
 section6Box3Abstract: L’approccio collaborativo non solo permette di ridurre
-  costi e tempi; ma anche di diffonderne conoscenze del progetto lungo tutto
-  l’ecosistema aziendale fino ad arrivare all’utente fruitore e utilizzatore del
-  servizio. Che sia un dipendente o un investitore, facendo parte del team di
-  progettazione, ha una consapevolezza costante nel tempo delle motivazioni e
+  costi e tempi; ma anche di diffondere le conoscenze del progetto lungo tutto
+  l’ecosistema aziendale, fino ad arrivare all’utente fruitore e utilizzatore
+  del servizio. Che sia un dipendente o un investitore, facendo parte del team
+  di progettazione, ha una consapevolezza costante nel tempo delle motivazioni e
   delle esigenze che portano alla realizzazione di ogni singolo componente del
   progetto.
 ---
