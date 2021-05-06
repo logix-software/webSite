@@ -111,7 +111,7 @@
                   >Qualunque sia la sfida saremo sempre felici 😃 di parlare con te. Scrivici e ti risponderemo al più presto!</p>
                   <p class="modalContact__text"> <span class="text-green-contact">Scrivici:</span> info@logixcorp.it</p>
                   <p class="modalContact__text"><span class="text-green-contact">Chiamaci:</span> 0744/283733</p>
-                  <p class="modalContact__text"><span class="text-green-contact">Passa:</span> Piazza Europa, 5 - 05100 Terni(TR)</p>
+                  <p class="modalContact__text"><span class="text-green-contact">Passa:</span> Via di Porta San Giovanni, 28 - 05100 Terni (TR)</p>
                 </div>
                 <div
                   class="col-lg-8 pl-lg-5 d-flex align-items-center text-center"
