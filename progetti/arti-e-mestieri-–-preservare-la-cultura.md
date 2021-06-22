@@ -62,7 +62,7 @@ ctaProjectLink: /progetti/acta-logix-registro-elettronico/
 cta: Dai un’occhiata agli altri progetti!
 date: 2021-01-08T17:38:21.133Z
 ---
-Logix è beneficiaria dell'Avviso pubblico L'Impresa fa Cultura per la realizzazione di "Arti e Mestieri", un progetto finalizzato a digitalizzare, rendere accessibile e fruibile il patrimonio artistico-culturale e artigianale della provincia di Rieti. Stiamo sviluppando una piattaforma in grado di creare uno spazio di connessione fra artisti, artigiani, estimatori di arte, potenziali clienti ma anche appassionati di mostre, cultura e creazioni realizzate a mano che vogliono restare aggiornati su eventi e novità sul territorio.  Scopri [Arti e Mestieri](https://www.arti-mestieri.com/)![](https://ec.europa.eu/regional_policy/it/funding/erdf/)
+Logix è beneficiaria dell'Avviso pubblico L'Impresa fa Cultura per la realizzazione di "Arti e Mestieri", un progetto finalizzato a digitalizzare, rendere accessibile e fruibile il patrimonio artistico-culturale e artigianale della provincia di Rieti. Stiamo sviluppando una piattaforma in grado di creare uno spazio di connessione fra artisti, artigiani, estimatori di arte, potenziali clienti ma anche appassionati di mostre, cultura e creazioni realizzate a mano che vogliono restare aggiornati su eventi e novità sul territorio.  Scopri [Arti e Mestieri](https://www.arti-mestieri.com/)[](https://ec.europa.eu/regional_policy/it/funding/erdf/)
 
 **Sostegno finanziario ricevuto:**
 
