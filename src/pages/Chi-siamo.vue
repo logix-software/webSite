@@ -177,6 +177,104 @@
                   </div>
                 </div>
               </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person11Img + ')' }"
+                    ></div>
+                    <span :class="'team__team team__team--'+text.node.person11Color">{{text.node.person11Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person11Name}}</h1>
+                    <h4 class="team__position">{{text.node.person11Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person12Img + ')' }"
+                    ></div>
+                    <span :class="'team__team team__team--'+text.node.person12Color">{{text.node.person12Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person12Name}}</h1>
+                    <h4 class="team__position">{{text.node.person12Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person13Img + ')' }"
+                    ></div>
+                    <span :class="'team__team team__team--'+text.node.person13Color">{{text.node.person13Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person13Name}}</h1>
+                    <h4 class="team__position">{{text.node.person13Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person14Img + ')' }"
+                    ></div>
+                    <span :class="'team__team team__team--'+text.node.person14Color">{{text.node.person14Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person14Name}}</h1>
+                    <h4 class="team__position">{{text.node.person14Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person15Img + ')' }"
+                    ></div>
+                    <span :class="'team__team team__team--'+text.node.person15Color">{{text.node.person15Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person15Name}}</h1>
+                    <h4 class="team__position">{{text.node.person15Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person16Img + ')' }"
+                    ></div>
+                    <span :class="'team__team team__team--'+text.node.person16Color">{{text.node.person16Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person16Name}}</h1>
+                    <h4 class="team__position">{{text.node.person16Position}}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="team">
+                  <g-image src="~/assets/images/deco-square.svg" class="team__deco" alt="decoration" />
+                  <div class="team__body ml-auto">
+                    <div
+                      class="team__photo mb-3"
+                      :style="{ 'background-image': 'url(' + text.node.person17Img + ')' }"
+                    ></div>
+                    <span :class="'team__team team__team--'+text.node.person17Color">{{text.node.person17Team}}</span>
+                    <h1 class="team__name mb-3 mt-4">{{text.node.person17Name}}</h1>
+                    <h4 class="team__position">{{text.node.person17Position}}</h4>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -873,7 +971,7 @@ export default {
 }
 .sections {
   @media screen and (min-width: 992px) {
-    width: 400%;
+    width: 700%;
     height: 100%;
   }
 }
@@ -882,8 +980,8 @@ export default {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    -webkit-perspective: 1000;
-    perspective: 1000;
+    -webkit-perspective: 1700;
+    perspective: 1700;
     padding-left: 7%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -902,7 +1000,7 @@ export default {
 .step {
   @media screen and (min-width: 992px) {
     height: 100%;
-    width: calc(100% / 10);
+    width: calc(100% / 19);
     float: left;
   }
   position: relative;
