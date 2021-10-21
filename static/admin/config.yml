@@ -277,6 +277,41 @@ collections:
         - {label: "Person10Color", name: "person10Color", widget: "string"}
         - {label: "Person10Position", name: "person10Position", widget: "string"}
         - {label: "Person10Img", name: "person10Img", widget: "image"}
+        - {label: "Person11Name", name: "person11Name", widget: "string"}
+        - {label: "Person11Team", name: "person11Team", widget: "string"}
+        - {label: "Person11Color", name: "person11Color", widget: "string"}
+        - {label: "Person11Position", name: "person11Position", widget: "string"}
+        - {label: "Person11Img", name: "person11Img", widget: "image"}
+        - {label: "Person12Name", name: "person12Name", widget: "string"}
+        - {label: "Person12Team", name: "person12Team", widget: "string"}
+        - {label: "Person12Color", name: "person12Color", widget: "string"}
+        - {label: "Person12Position", name: "person12Position", widget: "string"}
+        - {label: "Person12Img", name: "person12Img", widget: "image"}
+        - {label: "Person13Name", name: "person13Name", widget: "string"}
+        - {label: "Person13Team", name: "person13Team", widget: "string"}
+        - {label: "Person13Color", name: "person13Color", widget: "string"}
+        - {label: "Person13Position", name: "person13Position", widget: "string"}
+        - {label: "Person13Img", name: "person13Img", widget: "image"}
+        - {label: "Person14Name", name: "person14Name", widget: "string"}
+        - {label: "Person14Team", name: "person14Team", widget: "string"}
+        - {label: "Person14Color", name: "person14Color", widget: "string"}
+        - {label: "Person14Position", name: "person14Position", widget: "string"}
+        - {label: "Person14Img", name: "person14Img", widget: "image"}
+        - {label: "Person15Name", name: "person15Name", widget: "string"}
+        - {label: "Person15Team", name: "person15Team", widget: "string"}
+        - {label: "Person15Color", name: "person15Color", widget: "string"}
+        - {label: "Person15Position", name: "person15Position", widget: "string"}
+        - {label: "Person15Img", name: "person15Img", widget: "image"}
+        - {label: "Person16Name", name: "person16Name", widget: "string"}
+        - {label: "Person16Team", name: "person16Team", widget: "string"}
+        - {label: "Person16Color", name: "person16Color", widget: "string"}
+        - {label: "Person16Position", name: "person16Position", widget: "string"}
+        - {label: "Person16Img", name: "person16Img", widget: "image"}
+        - {label: "Person17Name", name: "person17Name", widget: "string"}
+        - {label: "Person17Team", name: "person17Team", widget: "string"}
+        - {label: "Person17Color", name: "person17Color", widget: "string"}
+        - {label: "Person17Position", name: "person17Position", widget: "string"}
+        - {label: "Person17Img", name: "person17Img", widget: "image"}
         - {label: "WorkForUsTitle", name: "workForUsTitle", widget: "string"}
         - {label: "WorkForUsDescription1", name: "workForUsDescription1", widget: "text"}
         - {label: "WorkForUsDescription2", name: "workForUsDescription2", widget: "text"}
