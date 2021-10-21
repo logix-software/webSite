@@ -12,12 +12,12 @@ person1Name: Marco
 person1Team: OPERATION
 person1Color: operation
 person1Position: Founder & CEO
-person1Img: /uploads/marco_filetti.jpg
+person1Img: /uploads/marco-filetti.png
 person2Name: Alessandro
 person2Team: DEVELOPMENT
 person2Color: dev
 person2Position: "Chief Technology Officer "
-person2Img: /uploads/alessandro_cirocchi.jpg
+person2Img: /uploads/alessandro-cirocchi.png
 person3Name: Maurizio
 person3Team: OPERATION
 person3Color: operation
@@ -27,37 +27,37 @@ person4Name: Susanna
 person4Team: DESIGN
 person4Color: design
 person4Position: UX/UI Designer
-person4Img: /uploads/susanna_cirocchi.jpg
+person4Img: /uploads/susanna-cirocchi.png
 person5Name: Gaia
 person5Team: MARKETING
 person5Color: marketing
 person5Position: "Marketing Manager "
-person5Img: /uploads/gaia_costantini.jpg
+person5Img: /uploads/gaia-costantini.png
 person6Name: Paolo
 person6Team: DEVELOPMENT
 person6Color: dev
 person6Position: Senior Developer
-person6Img: /uploads/paolo_camillucci.jpg
+person6Img: /uploads/paolo-camillucci.png
 person7Name: Simone
 person7Team: DEVELOPMENT
 person7Color: dev
 person7Position: Senior Developer
-person7Img: /uploads/simone_proietti.jpg
+person7Img: /uploads/simone-proietti.png
 person8Name: Enrico
 person8Team: DEVELOPMENT
 person8Color: dev
 person8Position: Mobile Developer
-person8Img: /uploads/enrico_lanciotti.jpg
+person8Img: /uploads/enrico-lanciotti.png
 person9Name: Giulio
 person9Team: DEVELOPMENT
 person9Color: dev
-person9Position: Developer
+person9Position: "Software Engineer "
 person9Img: /uploads/giulio_chierichini.jpg
 person10Name: Francesco
 person10Team: DEVELOPMENT
 person10Color: dev
-person10Position: Developer
-person10Img: /uploads/francesco_leonardi.jpg
+person10Position: Jr. Developer
+person10Img: /uploads/francesco-leonardi.png
 person11Name: Claudia
 person11Team: MARKETING
 person11Color: marketing
