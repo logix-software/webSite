@@ -58,6 +58,41 @@ person10Team: DEVELOPMENT
 person10Color: dev
 person10Position: Developer
 person10Img: /uploads/francesco_leonardi.jpg
+person11Name: test
+person11Team: test
+person11Color: test
+person11Position: test
+person11Img: /uploads/alessandro_cirocchi.jpg
+person12Name: test
+person12Team: test
+person12Color: test
+person12Position: test
+person12Img: /uploads/alessandro_cirocchi.jpg
+person13Name: test
+person13Team: test
+person13Color: test
+person13Position: test
+person13Img: /uploads/alessandro_cirocchi.jpg
+person14Name: test
+person14Team: test
+person14Color: test
+person14Position: test
+person14Img: /uploads/alessandro_cirocchi.jpg
+person15Name: test
+person15Team: test
+person15Color: test
+person15Position: test
+person15Img: /uploads/alessandro_cirocchi.jpg
+person16Name: test
+person16Team: test
+person16Color: test
+person16Position: test
+person16Img: /uploads/alessandro_cirocchi.jpg
+person17Name: test
+person17Team: test
+person17Color: test
+person17Position: test
+person17Img: /uploads/alessandro_cirocchi.jpg
 workForUsTitle: Siamo alla ricerca di talenti da inserire nel team
 workForUsDescription1: Un luogo in cui puoi crescere, imparare e sperimentare,
   mostrare il tuo vero potenziale, conoscere persone simpatiche e lavorare con
