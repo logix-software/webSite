@@ -598,6 +598,41 @@ query {
         person10Color
         person10Position
         person10Img
+        person11Name
+        person11Team
+        person11Color
+        person11Position
+        person11Img
+        person12Name
+        person12Team
+        person12Color
+        person12Position
+        person12Img
+        person13Name
+        person13Team
+        person13Color
+        person13Position
+        person13Img
+        person14Name
+        person14Team
+        person14Color
+        person14Position
+        person14Img
+        person15Name
+        person15Team
+        person15Color
+        person15Position
+        person15Img
+        person16Name
+        person16Team
+        person16Color
+        person16Position
+        person16Img
+        person17Name
+        person17Team
+        person17Color
+        person17Position
+        person17Img
         workForUsTitle
         workForUsDescription1
         workForUsDescription2
