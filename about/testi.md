@@ -66,7 +66,7 @@ person11Img: /uploads/claudia-pagliaccia.png
 person12Name: Lucia
 person12Team: ACCOUNTING
 person12Color: accounting
-person12Position: Accounting Assistant
+person12Position: Accounting Manager
 person12Img: /uploads/lucia-capitoni.png
 person13Name: Enrico
 person13Team: DEVELOPMENT
