@@ -9,7 +9,7 @@ abstract: >
   sviluppo integrale del sistema.
 imageList: /uploads/domusgo15_preview.png
 hashtags: "#WEBAPPLICATION #MOBILEAPP #STARTUP #APARTMENT #HOUSE #COMMUNITY "
-image1: /uploads/domusgo15_4.png
+image1: /uploads/domusgo15_3.png.png
 sectionTitle: Il progetto
 numberSections: 3
 image2: /uploads/domusgo15.png
