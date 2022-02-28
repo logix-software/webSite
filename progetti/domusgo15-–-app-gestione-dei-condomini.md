@@ -25,7 +25,7 @@ abstract3: "Web app riservata agli amministratori appartenenti al network per
   tutte le attività di configurazione, controllo e gestione dei condomìni: dal
   caricamento della documentazione, alla pubblicazione di avvisi di interesse
   comune, all’inserimento dei professionisti convenzionati."
-image4: /uploads/domusgo15_5.png
+image4: ""
 title4: ""
 abstract4: ""
 image5: ""
