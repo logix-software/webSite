@@ -34,12 +34,12 @@ section2Feedback: Da quando abbiamo scelto All Food riusciamo a coordinare al
 section2Name: Sara De Rosa
 section2Position: Direttore Mensa
 section2Image: /uploads/sara_testimonial.png
-section3Title: " Il device preferito"
-section3Abstract: Gli utenti potranno scegliere se completare i loro ordini
-  direttamente dallo smartphone o se utilizzare screen più grandi come pc e
-  tablet; effettuare ordini, vedere il riepilogo delle scelte fatte o consultare
-  semplicemente le opzioni disponibili non sarà più un problema ovunque essi si
-  trovino.
+section3Title: Admin
+section3Abstract: >-
+  L’admin mensa ha una funzione di gestione e controllo sull’intero sistema
+  integrato che permette alla società di gestire tutte le mense del gruppo. 
+
+  L’admin può creare nuove mense, gestirne le informazioni di dettaglio, abilitare i servizi take-away o consumazione sul posto, determinare fasce orarie, tipologia e numero di servizi che è possibile effettuare e creare cataloghi di prodotti disponibili in tutte le mense appartenenti al gruppo.
 section3Image: /uploads/device-all-food.png
 ctaProjectTitle: DomusGo15 – App gestione dei condomini
 ctaProjectDescription: "Per Freeday15 abbiamo realizzato DomusGo15 un sistema di
