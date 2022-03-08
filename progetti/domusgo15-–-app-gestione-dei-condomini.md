@@ -43,7 +43,7 @@ section3Abstract: >-
   dagli amministratori per poter operare all’interno della rete.
 
   L’utente-professionista, una volta registrato il suo account, può compilare la propria scheda profilo visibile ai condomìni, descrivere le proprie attività, approfondire i servizi offerti, proporre sconti e promozioni e fornire preventivi.
-section3Image: /uploads/domusgo15_-amministratore.png
+section3Image: /uploads/domusgo15_professionista.png
 ctaProjectTitle: Acta Logix - Registro elettronico
 ctaProjectDescription: "Acta Logix nasce dall'esigenza di creare uno strumento
   ideale per la scuola e la formazione di ogni ordine e grado. Il registro
