@@ -5,7 +5,7 @@ abstract: "Per Freeday15 abbiamo realizzato DomusGo15 un sistema di applicativi
   amministratori, professionisti e condòmini possono comunicare tra loro,
   reperire informazioni e accedere a documenti in modo facile e veloce. L’intero
   processo creativo ha coinvolto: dalla progettazione, al design, fino allo
-  sviluppo integrale del sistema."
+  sviluppo integrale del sistema. "
 imageList: /uploads/domusgo15_-preview.png
 hashtags: "#WEBAPPLICATION #MOBILEAPP #STARTUP #APARTMENT #HOUSE #COMMUNITY "
 image1: /uploads/domusgo15_-hero.png
