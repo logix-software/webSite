@@ -13,7 +13,7 @@ sectionTitle: Il progetto
 numberSections: 2
 image2: /uploads/allfood_amministratore.png
 title2: Amministratore
-abstract2: "Tramite la Web App sviluppata per gli amministratori appartenenti
+abstract2: "Grazie alla Web App sviluppata per gli amministratori appartenenti
   alla società All Food, essi possono gestire tutte le attività di
   configurazione, controllo e gestione mense: gli Amministratori Mensa, oltre a
   tutte le azioni che può fare un semplice utente, possono creare una mensa,
@@ -28,7 +28,9 @@ abstract3: "L’utente della società che si serve delle mense All Food, una vol
   mensa, consultare il menù, selezionare il giorno e in quale fascia oraria
   riceverlo e/o ritirarlo. "
 section2Title: "Testimonial "
-section2Feedback: ...
+section2Feedback: Da quando abbiamo scelto All Food riusciamo a coordinare al
+  meglio le nostre mense e siamo capaci di offrire agli utenti un servizio
+  preciso e puntuale sulla base delle esigenze di tutti.
 section2Name: Sara De Rosa
 section2Position: Direttore Mensa
 section2Image: /uploads/sara_testimonial.png
