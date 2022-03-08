@@ -35,20 +35,26 @@ abstract3: "L’utente della società che si serve delle mense All Food, una vol
   riceverlo e/o ritirarlo. "
 section2Title: "Testimonial "
 section2Feedback: ...
-section2Name: Sara Bianchi
+section2Name: Sara De Ros
 section2Position: Direttore Mensa
 section2Image: /uploads/giovanna_testimonial.png
-section3Title: ...
-section3Abstract: ...
-section3Image: /uploads/allfood_hero.png
-ctaProjectTitle: "Esibit - piattaforma per gli artisti "
-ctaProjectDescription: Esibit è una piattaforma dedicata al mondo dell’arte,
-  dove artisti, galleristi, critici o chiunque ne sia in qualche modo coinvolto
-  o affascinato ha la possibilità di incontrarsi. Uno spazio in grado di mettere
-  in connessione chi “fa arte” con chi” cerca arte”.
-ctaProjectHashtags: "#PLATFORM #WEBAPPLICATION #ARTE #SOCIAL #ARTIST #CREATIVE #ARTCOMMUNITY"
-ctaProjectImage: /uploads/cta_esibit.png
-ctaProjectLink: /progetti/esibit-piattaforma-per-gli-artisti/
+section3Title: " Il device preferito"
+section3Abstract: Gli utenti potranno scegliere se completare i loro ordini
+  direttamente dallo smartphone o se utilizzare screen più grandi come pc e
+  tablet; effettuare ordini, vedere il riepilogo delle scelte fatte o consultare
+  semplicemente le opzioni disponibili non sarà più un problema ovunque essi si
+  trovino.
+section3Image: /uploads/device-all-food.png
+ctaProjectTitle: DomusGo15 – App gestione dei condomini
+ctaProjectDescription: "Per Freeday15 abbiamo realizzato DomusGo15 un sistema di
+  applicativi per l’organizzazione e la gestione dell’ecosistema dei condomìni
+  dove amministratori, professionisti e condòmini possono comunicare tra loro,
+  reperire informazioni e accedere a documenti in modo facile e veloce. L’intero
+  processo creativo ha coinvolto: dalla progettazione, al design, fino allo
+  sviluppo integrale del sistema."
+ctaProjectHashtags: "#WEBAPPLICATION #MOBILEAPP #STARTUP #APARTMENT #HOUSE #COMMUNITY "
+ctaProjectImage: /uploads/domusgo15-cta.png
+ctaProjectLink: /progetti/domusgo15-app-gestione-dei-condomini/
 cta: Dai un’occhiata agli altri progetti!
 date: 2022-03-07T18:15:12.833Z
 ---
