@@ -1,16 +1,10 @@
 ---
 title: All Food – Gestione Mense
-abstract: >-
-  La digital transformation investe velocemente ogni ambito lavorativo e noi di
-  Logix abbiamo messo a disposizione le nostre competenze per realizzare un
-  sistema semplice e intuitivo, completamente custom, sia per gli utenti finali
-  che per chi gestisce il servizio mense del gruppo All Food s.p.a. Tramite la
-  Progressive Web App possono essere visualizzate le portate del catalogo e si
-  possono scegliere i tipi di servizio tra i diversi menù disponibili; gli
-  amministratori e gli addetti, invece, tramite Web App, possono gestire
-  agilmente tutte le mense delle aziende che aderiscono al servizio.
-
-  L’insieme di web app è stato sviluppato sfruttando un'architettura a micro-servizi e la parte frontend è in VueJS, consentendo la gestione sia lato Utente che lato Amministratore Mensa.
+abstract: "La digital transformation investe velocemente ogni ambito lavorativo
+  e noi di Logix abbiamo messo a disposizione le nostre competenze per
+  realizzare un sistema semplice e intuitivo, completamente custom, sia per gli
+  utenti finali che per chi gestisce il servizio mense del gruppo All Food
+  S.p.A. "
 imageList: /uploads/allfood_-preview-light-version.png
 hashtags: "#PROGRESSIVEWEBAPP #ALLFOOD #WEDEVELOPMENT #VUEJS #MICROSERVIZI
   #DIGITALTRANSFORMATION"
@@ -35,9 +29,9 @@ abstract3: "L’utente della società che si serve delle mense All Food, una vol
   riceverlo e/o ritirarlo. "
 section2Title: "Testimonial "
 section2Feedback: ...
-section2Name: Sara De Ros
+section2Name: Sara De Rosa
 section2Position: Direttore Mensa
-section2Image: /uploads/giovanna_testimonial.png
+section2Image: /uploads/sara_testimonial.png
 section3Title: " Il device preferito"
 section3Abstract: Gli utenti potranno scegliere se completare i loro ordini
   direttamente dallo smartphone o se utilizzare screen più grandi come pc e
@@ -58,5 +52,5 @@ ctaProjectLink: /progetti/domusgo15-app-gestione-dei-condomini/
 cta: Dai un’occhiata agli altri progetti!
 date: 2022-03-07T18:15:12.833Z
 ---
-La digital transformation investe velocemente ogni ambito lavorativo e noi di Logix abbiamo messo a disposizione le nostre competenze per realizzare un sistema semplice e intuitivo, completamente custom, sia per gli utenti finali che per chi gestisce il servizio mense del gruppo All Food s.p.a. Tramite la Progressive Web App possono essere visualizzate le portate del catalogo e si possono scegliere i tipi di servizio tra i diversi menù disponibili; gli amministratori e gli addetti, invece, tramite Web App, possono gestire agilmente tutte le mense delle aziende che aderiscono al servizio.
+Tramite la Progressive Web App possono essere visualizzate le portate del catalogo e si possono scegliere i tipi di servizio tra i diversi menù disponibili; gli amministratori e gli addetti, invece, tramite Web App, possono gestire agilmente tutte le mense delle aziende che aderiscono al servizio.
 L’insieme di web app è stato sviluppato sfruttando un'architettura a micro-servizi e la parte frontend è in VueJS, consentendo la gestione sia lato Utente che lato Amministratore Mensa.
