@@ -33,7 +33,7 @@ section2Feedback: "Utilizzare DomusGo15 una svolta per il mio lavoro: tutte le
   condòmini veloce è immediata. "
 section2Name: Luigi Zara
 section2Position: Amministratore di condominio
-section2Image: /uploads/domusgo15_professionista.png
+section2Image: /uploads/luigi_testimonial.png
 section3Title: Professionisti
 section3Abstract: >-
   Web app riservata ai professionisti convenzionati e verificati dagli
@@ -44,15 +44,16 @@ section3Abstract: >-
 
   L’utente-professionista, una volta registrato il suo account, può compilare la propria scheda profilo visibile ai condomìni, descrivere le proprie attività, approfondire i servizi offerti, proporre sconti e promozioni e fornire preventivi.
 section3Image: /uploads/domusgo15_professionista.png
-ctaProjectTitle: Acta Logix - Registro elettronico
-ctaProjectDescription: "Acta Logix nasce dall'esigenza di creare uno strumento
-  ideale per la scuola e la formazione di ogni ordine e grado. Il registro
-  elettronico di casa Logix permette l’organizzazione in cloud di ogni fase
-  dell’attività scolastica: dalle assenze ai ritardi, dai voti agli scrutini,
-  fino ai programmi didattici e alle comunicazioni di interesse comune."
-ctaProjectHashtags: "#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL"
-ctaProjectImage: /uploads/cta_acta_logix.png
-ctaProjectLink: /progetti/acta-logix-registro-elettronico/
+ctaProjectTitle: All Food – Gestione Mense
+ctaProjectDescription: La digital transformation investe velocemente ogni ambito
+  lavorativo e noi di Logix abbiamo messo a disposizione le nostre competenze
+  per realizzare un sistema semplice e intuitivo, completamente custom, sia per
+  gli utenti finali che per chi gestisce il servizio mense del gruppo All Food
+  S.p.A.
+ctaProjectHashtags: "#PROGRESSIVEWEBAPP #ALLFOOD #WEDEVELOPMENT #VUEJS
+  #MICROSERVIZI #DIGITALTRANSFORMATION"
+ctaProjectImage: /uploads/frame-4.png
+ctaProjectLink: /progetti/all-food-gestione-mense/
 cta: Dai un’occhiata agli altri progetti!
 date: 2022-03-08T09:13:23.659Z
 ---
