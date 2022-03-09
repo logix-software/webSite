@@ -1,10 +1,9 @@
 ---
 title: All Food – Gestione Mense
-abstract: "La digital transformation investe velocemente ogni ambito lavorativo
-  e noi di Logix abbiamo messo a disposizione le nostre competenze per
-  realizzare un sistema semplice e intuitivo, completamente custom, sia per gli
-  utenti finali che per chi gestisce il servizio mense del gruppo All Food
-  S.p.A. "
+abstract: La digital transformation investe velocemente ogni ambito lavorativo e
+  noi di Logix abbiamo messo a disposizione le nostre competenze per realizzare
+  un sistema semplice e intuitivo, completamente custom, sia per gli utenti
+  finali che per chi gestisce il servizio mense del gruppo.
 imageList: /uploads/allfood_-preview-light-version.png
 hashtags: "#PROGRESSIVEWEBAPP #ALLFOOD #WEDEVELOPMENT #VUEJS #MICROSERVIZI
   #DIGITALTRANSFORMATION"
