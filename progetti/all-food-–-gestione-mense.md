@@ -18,7 +18,7 @@ abstract2: "Grazie alla Web App sviluppata per gli amministratori appartenenti
   configurazione, controllo e gestione mense: gli Amministratori Mensa, oltre a
   tutte le azioni che può fare un semplice utente, possono creare una mensa,
   definire gli orari e i tipi di servizi che quella mensa offre, possono creare
-  e gestire i turni e infine gestire i calendari delle mense. "
+  e gestire i turni e infine gestire i calendari delle mense."
 image3: /uploads/allfood_utente-mensa.png
 title3: Utenti
 abstract3: "L’utente della società che si serve delle mense All Food, una volta
