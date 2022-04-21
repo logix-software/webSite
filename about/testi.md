@@ -26,7 +26,7 @@ person3Img: /uploads/maurizio.jpg
 person4Name: Susanna
 person4Team: DESIGN
 person4Color: design
-person4Position: UX/UI Designer
+person4Position: Senior UX/UI Designer
 person4Img: /uploads/susanna-cirocchi.png
 person5Name: Gaia
 person5Team: MARKETING
@@ -83,11 +83,11 @@ person15Team: DEVELOPMENT
 person15Color: dev
 person15Position: Jr. Frontend Developer
 person15Img: /uploads/federico-caiello.png
-person16Name: Federica
-person16Team: MARKETING
-person16Color: marketing
-person16Position: Web Content Creator
-person16Img: /uploads/federica-tazza.png
+person16Name: Vera
+person16Team: DESIGN
+person16Color: design
+person16Position: Visual Designer
+person16Img: /uploads/vera-schwierz.png
 person17Name: Massimiliano
 person17Team: DEVELOPMENT
 person17Color: dev
