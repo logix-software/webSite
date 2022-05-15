@@ -77,8 +77,9 @@
           </div>
         </div>
         <div class="text-center">
-          <button class="btn btn-primary" data-toggle="modal"
-              data-target="#modalContact">Parliamo di questo servizio</button>
+          <g-link to="/contatti" class="btn btn-primary">
+            Parliamo di questo servizio
+          </g-link>
         </div>
       </div>
     </div>
@@ -112,8 +113,10 @@
               class="partnership__descriptionClosing mb-5"
             >{{textPartnership.node.sectionAbstract2}}</p>
             <div>
-              <button class="btn btn-primary mx-1 mx-lg-2" data-toggle="modal"
-              data-target="#modalContact">Contattaci</button>
+            <g-link to="/contatti" class="btn btn-primary mx-1 mx-lg-2">
+              Contattaci
+            </g-link>
+            
             </div>
           </div>
         </div>

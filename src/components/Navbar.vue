@@ -46,11 +46,7 @@
             <g-link to="/progetti" class="nav__link mx-3 py-3">Progetti</g-link>
           </li>
           <li class="position-relative py-2 py-lg-0">
-            <button
-              class="btn btn-default btn-navbar mx-3"
-              data-toggle="modal"
-              data-target="#modalContact"
-            >Contattaci</button>
+            <g-link to="/contatti" class="btn btn-default btn-navbar mx-3">Contattaci</g-link>
           </li>
         </ul>
       </nav>

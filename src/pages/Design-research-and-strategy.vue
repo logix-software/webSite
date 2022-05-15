@@ -28,8 +28,9 @@
               <p
                 class="competence__description mb-4"
               >{{text.node.Section1Abstract}}</p>
-              <button class="btn btn-secondary" data-toggle="modal"
-              data-target="#modalContact">Parliamo di questo servizio</button>
+              <g-link to="/contatti" class="btn btn-secondary">
+                Parliamo di questo servizio
+              </g-link>
             </div>
           </div>
         </div>
@@ -110,8 +111,9 @@
               <p
                 class="competence__description mb-4"
               >{{text.node.Section2Abstract}}</p>
-              <button class="btn btn-secondary" data-toggle="modal"
-              data-target="#modalContact">Parliamo di questo servizio</button>
+              <g-link to="/contatti" class="btn btn-secondary">
+                Parliamo di questo servizio
+              </g-link>
             </div>
           </div>
         </div>
@@ -209,8 +211,9 @@
                 <h1 class="cta__title">
                   {{text.node.cta}}
                 </h1>
-                <button class="btn btn-primary" data-toggle="modal"
-              data-target="#modalContact">Contattaci</button>
+                <g-link to="/contatti" class="btn btn-primary">
+                  Contattaci
+                </g-link>
               </div>
             </div>
           </div>
@@ -291,8 +294,9 @@
           </div>
         </div>
         <div class="py-5 text-center my-5">
-          <button class="btn btn-primary" data-toggle="modal"
-              data-target="#modalContact">Parliamo di questo servizio</button>
+          <g-link to="/contatti" class="btn btn-primary">
+            Parliamo di questo servizio
+          </g-link>
         </div>
       </div>
       <div class="methods position-relative">
@@ -346,8 +350,9 @@
               class="partnership__descriptionClosing mb-5"
             >{{textPartnership.node.sectionAbstract2}}</p>
             <div>
-              <button class="btn btn-primary mx-1 mx-lg-2" data-toggle="modal"
-              data-target="#modalContact">Contattaci</button>
+            <g-link to="/contatti" class="btn btn-primary mx-1 mx-lg-2">
+                Contattaci
+            </g-link>
             </div>
           </div>
         </div>

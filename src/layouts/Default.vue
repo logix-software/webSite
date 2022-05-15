@@ -4,7 +4,7 @@
     <slot />
     <Footer />
     <!-- Modal -->
-    <div
+    <!-- <div
       class="modal fade modalContact"
       id="modalContact"
       tabindex="-1"
@@ -19,9 +19,18 @@
               <div class="row">
                 <div class="col-lg-11 position-relative">
                   <g-link to="/" class>
-                    <g-image src="~/assets/images/logo/logix-software.svg" class="header__logo" alt="logix-software"/>
+                    <g-image
+                      src="~/assets/images/logo/logix-software.svg"
+                      class="header__logo"
+                      alt="logix-software"
+                    />
                   </g-link>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
                     <svg
                       width="20px"
                       height="20px"
@@ -30,7 +39,6 @@
                       xmlns="http://www.w3.org/2000/svg"
                       xmlns:xlink="http://www.w3.org/1999/xlink"
                     >
-                      <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
                       <title>Group@3x</title>
                       <desc>Created with Sketch.</desc>
                       <g
@@ -79,22 +87,42 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-4">
-                  <g-image src="~/assets/images/deco-square.svg" class="modalContact__deco" alt="decoration"/>
+                  <g-image
+                    src="~/assets/images/deco-square.svg"
+                    class="modalContact__deco"
+                    alt="decoration"
+                  />
                   <h1 class="modalContact__title">Contattaci</h1>
-                  <p
-                    class="modalContact__description mb-5"
-                  >Qualunque sia la sfida saremo sempre felici 😃 di parlare con te. Scrivici e ti risponderemo al più presto!</p>
-                  <p class="modalContact__text"> <span class="text-green-contact">Scrivici:</span> info@logixcorp.it</p>
-                  <p class="modalContact__text"><span class="text-green-contact">Chiamaci:</span> 0744/283733</p>
-                  <p class="modalContact__text"><span class="text-green-contact">Passa:</span> Via di Porta San Giovanni, 28 - 05100 Terni (TR)</p>
+                  <p class="modalContact__description mb-5">
+                    Qualunque sia la sfida saremo sempre felici 😃 di parlare
+                    con te. Scrivici e ti risponderemo al più presto!
+                  </p>
+                  <p class="modalContact__text">
+                    <span class="text-green-contact">Scrivici:</span>
+                    info@logixcorp.it
+                  </p>
+                  <p class="modalContact__text">
+                    <span class="text-green-contact">Chiamaci:</span>
+                    0744/283733
+                  </p>
+                  <p class="modalContact__text">
+                    <span class="text-green-contact">Passa:</span> Via di Porta
+                    San Giovanni, 28 - 05100 Terni (TR)
+                  </p>
                 </div>
                 <div
                   class="col-lg-8 pl-lg-5 d-flex align-items-center text-center"
-                  v-if="formSent==true"
+                  v-if="formSent == true"
                 >
                   <div class="formSent text-center">
-                    <h1 class="modalContact__title">Grazie per averci contattato</h1>
-                    <g-image src="~/assets/images/icons/sent.svg" class="mt-3 mx-auto" alt="check sent"/>
+                    <h1 class="modalContact__title">
+                      Grazie per averci contattato
+                    </h1>
+                    <g-image
+                      src="~/assets/images/icons/sent.svg"
+                      class="mt-3 mx-auto"
+                      alt="check sent"
+                    />
                   </div>
                 </div>
                 <form
@@ -117,7 +145,12 @@
                   <div class="row">
                     <div class="col-lg-6">
                       <div class="group">
-                        <input type="text" name="name" v-model="formData.name" required />
+                        <input
+                          type="text"
+                          name="name"
+                          v-model="formData.name"
+                          required
+                        />
                         <span class="highlight"></span>
                         <span class="bar"></span>
                         <label>Name</label>
@@ -125,7 +158,12 @@
                     </div>
                     <div class="col-lg-6">
                       <div class="group">
-                        <input type="email" name="email" v-model="formData.email" required />
+                        <input
+                          type="email"
+                          name="email"
+                          v-model="formData.email"
+                          required
+                        />
                         <span class="highlight"></span>
                         <span class="bar"></span>
                         <label>Email</label>
@@ -133,7 +171,12 @@
                     </div>
                     <div class="col-lg-6">
                       <div class="group">
-                        <input type="text" name="company" v-model="formData.company" required />
+                        <input
+                          type="text"
+                          name="company"
+                          v-model="formData.company"
+                          required
+                        />
                         <span class="highlight"></span>
                         <span class="bar"></span>
                         <label>Azienda (opzionale)</label>
@@ -141,39 +184,50 @@
                     </div>
                     <div class="col-lg-6">
                       <div class="group">
-                        <select v-model="formData.reason" name="reason" required>
-                          <option value="Ci contatti per" selected>Ci contatti per</option>
+                        <select
+                          v-model="formData.reason"
+                          name="reason"
+                          required
+                        >
+                          <option value="Ci contatti per" selected>
+                            Ci contatti per
+                          </option>
                           <option value="Digital">Digital tranformation</option>
                           <option value="Development">Sviluppo</option>
                           <option value="Design">Design</option>
-                          <option value="Collaborative">Collaborative Team</option>
+                          <option value="Collaborative">
+                            Collaborative Team
+                          </option>
                           <option value="Job">Posizione lavorativa</option>
                         </select>
                       </div>
                     </div>
                     <div class="col-lg-12">
                       <div class="group">
-                        <textarea name="message" v-model="formData.message" required row="6" />
+                        <textarea
+                          name="message"
+                          v-model="formData.message"
+                          required
+                          row="6"
+                        />
                         <span class="highlight"></span>
                         <span class="bar"></span>
                         <label>Messaggio</label>
                       </div>
                     </div>
                     <div class="col-lg-12 text-right">
-                      <button type="submit" class="btn btn-secondary">Invia messaggio</button>
+                      <button type="submit" class="btn btn-secondary">
+                        Invia messaggio
+                      </button>
                     </div>
                   </div>
                 </form>
               </div>
             </div>
           </div>
-          <!-- <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>-->
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <static-query>
@@ -189,38 +243,38 @@ import Footer from "~/components/Footer.vue";
 export default {
   components: {
     Navbar,
-    Footer
+    Footer,
   },
-  data() {
-    return {
-      formData: {
-        reason: "Ci contatti per"
-      },
-      formSent: false
-    };
-  },
-  methods: {
-    encode(data) {
-      return Object.keys(data)
-        .map(
-          key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-        )
-        .join("&");
-    },
-    handleSubmit(e) {
-      var _this = this;
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: this.encode({
-          "form-name": e.target.getAttribute("name"),
-          ...this.formData
-        })
-      })
-        .then(() => (_this.formSent = true))
-        .catch(error => alert(error));
-    },
-  },
+  // data() {
+  //   return {
+  //     formData: {
+  //       reason: "Ci contatti per",
+  //     },
+  //     formSent: false,
+  //   };
+  // },
+  // methods: {
+  //   encode(data) {
+  //     return Object.keys(data)
+  //       .map(
+  //         (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+  //       )
+  //       .join("&");
+  //   },
+  //   handleSubmit(e) {
+  //     var _this = this;
+  //     fetch("/", {
+  //       method: "POST",
+  //       headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  //       body: this.encode({
+  //         "form-name": e.target.getAttribute("name"),
+  //         ...this.formData,
+  //       }),
+  //     })
+  //       .then(() => (_this.formSent = true))
+  //       .catch((error) => alert(error));
+  //   },
+  // },
 };
 </script>
 <style lang="scss">
@@ -607,7 +661,8 @@ h6 {
   margin-bottom: 45px;
 }
 input,
-textarea, select {
+textarea,
+select {
   outline: none;
   border-radius: 0;
   font-size: 18px;
@@ -619,7 +674,7 @@ textarea, select {
   background: transparent !important;
   color: #fff;
 }
-select{
+select {
   height: 48px;
   //  -webkit-appearance: none;
   //   -moz-appearance: none;
@@ -736,7 +791,11 @@ input:focus ~ .highlight {
   }
 }
 
-.text-green-contact{
-  color: #36F2B9;
+.text-green-contact {
+  color: #36f2b9;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 </style>

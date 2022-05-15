@@ -28,8 +28,9 @@
               <p
                 class="competence__description mb-4"
               >{{text.node.Section1Abstract}}</p>
-              <button data-toggle="modal"
-              data-target="#modalContact" class="btn btn-secondary">Parliamo di questo servizio</button>
+              <g-link to="/contatti" class="btn btn-secondary">
+                Parliamo di questo servizio
+              </g-link>
             </div>
           </div>
         </div>
@@ -188,8 +189,9 @@
               <p
                 class="competence__description mb-4"
               >{{text.node.Section2Abstract}}</p>
-              <button class="btn btn-secondary" data-toggle="modal"
-              data-target="#modalContact">Parliamo di questo servizio</button>
+              <g-link to="/contatti" class="btn btn-secondary">
+                Parliamo di questo servizio
+              </g-link>
             </div>
           </div>
         </div>
@@ -384,8 +386,9 @@
               class="partnership__descriptionClosing mb-5"
             >{{textPartnership.node.sectionAbstract2}}</p>
             <div>
-              <button class="btn btn-primary mx-1 mx-lg-2" data-toggle="modal"
-              data-target="#modalContact">Contattaci</button>
+            <g-link to="/contatti" class="btn btn-primary mx-1 mx-lg-2">
+              Contattaci
+            </g-link>
             </div>
           </div>
         </div>

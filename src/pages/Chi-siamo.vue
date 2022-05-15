@@ -572,8 +572,9 @@
                 <p class="workForUs__description">{{text.node.workForUsDescription2}}</p>
                 <a href="mailto:info@logixcorp.it" class="workForUs__link">info@logixcorp.it</a>
                 <p class="workForUs__description">{{text.node.workForUsDescription3}}</p>
-                <button class="btn btn-secondary" data-toggle="modal"
-                  data-target="#modalContact">Contattaci</button>
+                <g-link to="/contatti" class="btn btn-secondary">
+                  Contattaci
+                </g-link>
               </div>
             </div>
           </div>
@@ -609,11 +610,9 @@
                 class="partnership__descriptionClosing mb-5"
               >{{textPartnership.node.sectionAbstract2}}</p>
               <div>
-                <button
-                  class="btn btn-primary mx-1 mx-lg-2"
-                  data-toggle="modal"
-                  data-target="#modalContact"
-                >Contattaci</button>
+              <g-link to="/contatti" class="btn btn-primary mx-1 mx-lg-2">
+                Contattaci
+              </g-link>
               </div>
             </div>
           </div>
