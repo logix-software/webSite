@@ -189,7 +189,25 @@ export default {
       fullInput: false,
     };
   },
-
+  mounted() {
+    var script = document.createElement("script");
+    var fun = document.createTextNode(`
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof url != "undefined") {
+            window.location = url;
+          }
+        };
+        gtag("event", "conversion", {
+          send_to: "AW-358917451/gN_YCOnc1MEDEMvKkqsB",
+          event_callback: callback,
+        });
+        return false;
+      }
+    `);
+    script.appendChild(fun);
+    document.body.appendChild(script);
+  },
   methods: {
     onInputEmail() {
       if (this.formData.email) {
@@ -206,6 +224,10 @@ export default {
         .join("&");
     },
     handleSubmit(e) {
+      gtag("event", "conversion", {
+        send_to: "AW-358917451/gN_YCOnc1MEDEMvKkqsB",
+      });
+
       var _this = this;
       fetch("/", {
         method: "POST",
