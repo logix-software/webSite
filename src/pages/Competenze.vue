@@ -299,7 +299,7 @@
                 data-parent="#accordionExample"
               >
                 <div class="card-body">
-                  <p class="step__description">{{text.node.slider1Slide1Abstract}}</p>
+                  <p class="step__description">{{text.node.slider1Slide3Abstract}}</p>
 
                   <div class="col-right">
                     <h6 class="step__keyWord">{{text.node.slider1Slide3ToolsName}}</h6>
