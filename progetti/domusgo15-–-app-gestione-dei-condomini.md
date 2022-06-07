@@ -3,9 +3,9 @@ title: DomusGo15 – App gestione dei condomini
 abstract: "Per Freeday15 abbiamo realizzato DomusGo15 un sistema di applicativi
   per l’organizzazione e la gestione dell’ecosistema dei condomìni dove
   amministratori, professionisti e condòmini possono comunicare tra loro,
-  reperire informazioni e accedere a documenti in modo facile e veloce. L’intero
-  processo creativo ha coinvolto: dalla progettazione, al design, fino allo
-  sviluppo integrale del sistema. "
+  reperire informazioni e accedere a documenti in modo facile e veloce. Siamo
+  stati coinvolti nell’intero processo creativo: dalla progettazione, al design,
+  fino allo sviluppo integrale del sistema, di cui abbiamo curato ogni aspetto."
 imageList: /uploads/domusgo15_-preview.png
 hashtags: "#WEBAPPLICATION #MOBILEAPP #STARTUP #APARTMENT #HOUSE #COMMUNITY "
 image1: /uploads/domusgo15_-hero.png
