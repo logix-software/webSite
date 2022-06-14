@@ -79,7 +79,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12 d-lg-flex align-items-center justify-content-between">
-            <p class="mb-3 mb-lg-0">© Copyright 2019 - Logix Srl</p>
+            <p class="mb-3 mb-lg-0">© Copyright {{ new Date().getFullYear() }} - Logix Srl</p>
             <p>P.iva: 01388050559</p>
           </div>
         </div>
