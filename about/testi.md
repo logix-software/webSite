@@ -92,7 +92,7 @@ person17Name: Massimiliano
 person17Team: DEVELOPMENT
 person17Color: dev
 person17Position: Software & System Architect
-person17Img: /uploads/none.png
+person17Img: /uploads/massimiliano-fiori-1.png
 workForUsTitle: Siamo alla ricerca di talenti da inserire nel team
 workForUsDescription1: Un luogo in cui puoi crescere, imparare e sperimentare,
   mostrare il tuo vero potenziale, conoscere persone simpatiche e lavorare con
