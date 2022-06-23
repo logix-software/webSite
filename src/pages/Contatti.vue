@@ -24,21 +24,8 @@
             Giovanni, 28 - 05100 Terni (TR)
           </p>
         </div>
-        <div
-          class="col-lg-8 pl-lg-5 d-flex align-items-center text-center"
-          v-if="formSent == true"
-        >
-          <div class="formSent text-center">
-            <h1 class="modalContact__title">Grazie per averci contattato</h1>
-            <g-image
-              src="~/assets/images/icons/sent.svg"
-              class="mt-3 mx-auto"
-              alt="check sent"
-            />
-          </div>
-        </div>
+
         <form
-          v-else
           class="col-lg-8 pl-lg-5 d-flex align-items-center"
           name="contact"
           method="post"
@@ -185,7 +172,6 @@ export default {
       formData: {
         reason: "Ci contatti per",
       },
-      formSent: false,
       fullInput: false,
     };
   },
@@ -237,7 +223,9 @@ export default {
           ...this.formData,
         }),
       })
-        .then(() => (_this.formSent = true))
+        .then(() => {
+          this.$router.push("/thank-you");
+        })
         .catch((error) => alert(error));
     },
   },
