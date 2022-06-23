@@ -79,10 +79,10 @@ toolsBox2Title: Osserviamo gli utenti
 toolsBox3Icon: /uploads/osserviamo.svg
 toolsBox3Title: Studiamo i competotor
 Section2Abstract: Con le considerazioni e la consapevolezza acquisita con la
-  riceraca, progettiamo ed elaboriamo soluzioni creative ed efficaci, in grado
-  di stupire e soddisfare le aspettative degli utenti. Creiamo esperienze
-  piacevoli che consentono agli utenti di raggiungere i propri obiettivi e che
-  grazie a design accattivanti, generano fiducia e consapevolezza nell’utilizzo.
+  ricerca, progettiamo ed elaboriamo soluzioni creative ed efficaci, in grado di
+  stupire e soddisfare le aspettative degli utenti. Creiamo esperienze piacevoli
+  che consentono agli utenti di raggiungere i propri obiettivi e che grazie a
+  design accattivanti, generano fiducia e consapevolezza nell’utilizzo.
 section2Image: /uploads/design-str.png
 tools2Abstract: Gli strumenti, i processi ed i metodi
 tools2Box1Icon: /uploads/utenti.svg
