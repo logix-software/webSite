@@ -21,7 +21,7 @@ toolsBox3Abstract: Analizziamo le scelte, le strategie ed i prodotti degli altri
   migliorati.
 section2Title: UX Strategy
 section2Link: link
-tools2Name: TOOL
+tools2Name: VALORI
 tools2Box2Abstract: Progettiamo la struttura del prodotto partendo
   dall’organizzazione delle informazioni alle quali l’utente deve giungere nel
   modo più semplice e veloce possibile. Dalla gerarchia o tassonomia nelle voci
@@ -96,7 +96,7 @@ tools2Box3Icon: /uploads/flussi.svg
 tools2Box3Title: Generiamo i flussi
 tools2Box4Icon: /uploads/prototipo.svg
 tools2Box4Title: Sviluppiamo il prototipo
-section3Name: VALORI
+section3Name: TOOL
 day1Img: /uploads/num-1.svg
 day2Icon: /uploads/num-2.svg
 tools2Box2Icon: /uploads/informazione.svg
