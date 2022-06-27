@@ -44,9 +44,9 @@ ctaProjectTitle: DomusGo15 – App gestione dei condomini
 ctaProjectDescription: "Per Freeday15 abbiamo realizzato DomusGo15 un sistema di
   applicativi per l’organizzazione e la gestione dell’ecosistema dei condomìni
   dove amministratori, professionisti e condòmini possono comunicare tra loro,
-  reperire informazioni e accedere a documenti in modo facile e veloce. L’intero
-  processo creativo ha coinvolto: dalla progettazione, al design, fino allo
-  sviluppo integrale del sistema."
+  reperire informazioni e accedere a documenti in modo facile e veloce. Siamo
+  stati coinvolti nell’intero processo creativo: dalla progettazione, al design,
+  fino allo sviluppo integrale del sistema, di cui abbiamo curato ogni aspetto."
 ctaProjectHashtags: "#WEBAPPLICATION #MOBILEAPP #STARTUP #APARTMENT #HOUSE #COMMUNITY "
 ctaProjectImage: /uploads/domusgo15-cta.png
 ctaProjectLink: /progetti/domusgo15-app-gestione-dei-condomini/
