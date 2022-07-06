@@ -45,9 +45,9 @@
 export default {
     metaInfo: {
     title: "Thank you - Logix Software",
-    meta: [
-      { name: "robots", content: "noindex, nofollow" },
-    ],
+    // meta: [
+    //   { name: "robots", content: "noindex, nofollow" },
+    // ],
   },
 };
 </script>
