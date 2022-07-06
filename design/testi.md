@@ -59,7 +59,7 @@ day4Title: La validazione
 section4BgText: Business
 section4Box1Icon: /uploads/notwow.svg
 section4Box1Title: È questione di business
-section4Box2Title: Non significa “renedere le cose belle”
+section4Box2Title: Non significa “rendere le cose belle”
 day1Icon: /uploads/num-1.svg
 title: Logix Software - Design research & strategy
 headerImage: /uploads/hero-design.jpg
@@ -77,7 +77,7 @@ toolsBox1Title: Parliamo con il cliente
 toolsBox2Icon: /uploads/ascoltiamo.svg
 toolsBox2Title: Osserviamo gli utenti
 toolsBox3Icon: /uploads/osserviamo.svg
-toolsBox3Title: Studiamo i competotor
+toolsBox3Title: Studiamo i competitor
 Section2Abstract: Con le considerazioni e la consapevolezza acquisita con la
   ricerca, progettiamo ed elaboriamo soluzioni creative ed efficaci, in grado di
   stupire e soddisfare le aspettative degli utenti. Creiamo esperienze piacevoli
