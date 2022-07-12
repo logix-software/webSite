@@ -44,14 +44,13 @@ section3Abstract: >-
 
   L’utente-professionista, una volta registrato il suo account, può compilare la propria scheda profilo visibile ai condomìni, descrivere le proprie attività, approfondire i servizi offerti, proporre sconti e promozioni e fornire preventivi.
 section3Image: /uploads/domusgo15_professionista.png
-ctaProjectTitle: All Food – Gestione Mense
+ctaProjectTitle: Sistema Gestione Mense
 ctaProjectDescription: La digital transformation investe velocemente ogni ambito
-  lavorativo e noi di Logix abbiamo messo a disposizione le nostre competenze
-  per realizzare un sistema semplice e intuitivo, completamente custom, sia per
-  gli utenti finali che per chi gestisce il servizio mense del gruppo All Food
-  S.p.A.
-ctaProjectHashtags: "#PROGRESSIVEWEBAPP #ALLFOOD #WEDEVELOPMENT #VUEJS
-  #MICROSERVIZI #DIGITALTRANSFORMATION"
+  lavorativo e noi di Logix, per la startup innovativa Freeday 15, abbiamo messo
+  a disposizione le nostre competenze realizzando un sistema semplice e
+  intuitivo, completamente custom, sia per gli utenti finali che per chi
+  gestisce il servizio mense.
+ctaProjectHashtags: "#PROGRESSIVEWEBAPP #WEDEVELOPMENT #VUEJS #MICROSERVIZI #DIGITALTRANSFORMATION"
 ctaProjectImage: /uploads/frame-4.png
 ctaProjectLink: /progetti/all-food-gestione-mense/
 cta: Dai un’occhiata agli altri progetti!
