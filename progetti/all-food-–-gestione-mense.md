@@ -40,7 +40,7 @@ section3Abstract: >-
   integrato che permette alla società di gestire tutte le mense del gruppo. 
 
   L’admin può creare nuove mense, gestirne le informazioni di dettaglio, abilitare i servizi take-away o consumazione sul posto, determinare fasce orarie, tipologia e numero di servizi che è possibile effettuare e creare cataloghi di prodotti disponibili in tutte le mense appartenenti al gruppo.
-section3Image: /uploads/device-all-food.png
+section3Image: /uploads/allfood_-preview-light-version.png
 ctaProjectTitle: DomusGo15 – App gestione dei condomini
 ctaProjectDescription: "Per Freeday15 abbiamo realizzato DomusGo15 un sistema di
   applicativi per l’organizzazione e la gestione dell’ecosistema dei condomìni
