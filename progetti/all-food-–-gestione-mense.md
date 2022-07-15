@@ -5,7 +5,7 @@ abstract: La digital transformation investe velocemente ogni ambito lavorativo e
   abbiamo messo a disposizione le nostre competenze per realizzare un sistema
   semplice e intuitivo. Una piattaforma completamente custom, sia per gli utenti
   finali che per chi gestisce il servizio mense attualmente utilizzato da All
-  Food .
+  Food.
 imageList: /uploads/allfood_-preview-light-version.png
 hashtags: "#PROGRESSIVEWEBAPP #FREEDAY15 #WEDEVELOPMENT #VUEJS #MICROSERVIZI
   #DIGITALTRANSFORMATION #ALLFOOD"
