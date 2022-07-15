@@ -1,13 +1,14 @@
 ---
 title: Sistema Gestione Mense
 abstract: La digital transformation investe velocemente ogni ambito lavorativo e
-  noi di Logix, per la startup innovativa Freeday 15, abbiamo messo a
-  disposizione le nostre competenze realizzando un sistema semplice e intuitivo,
-  completamente custom, sia per gli utenti finali che per chi gestisce il
-  servizio mense.
+  noi di Logix, come partner tecnologico della startup innovativa Freeday 15,
+  abbiamo messo a disposizione le nostre competenze per realizzare un sistema
+  semplice e intuitivo. Una piattaforma completamente custom, sia per gli utenti
+  finali che per chi gestisce il servizio mense attualmente utilizzato da All
+  Food .
 imageList: /uploads/allfood_-preview-light-version.png
 hashtags: "#PROGRESSIVEWEBAPP #FREEDAY15 #WEDEVELOPMENT #VUEJS #MICROSERVIZI
-  #DIGITALTRANSFORMATION"
+  #DIGITALTRANSFORMATION #ALLFOOD"
 image1: /uploads/allfood_hero.png
 sectionTitle: Il progetto
 numberSections: 2
