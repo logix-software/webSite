@@ -1,5 +1,5 @@
 ---
-title: "A.BIUNO – Sito eCommerce "
+title: A.BIUNO – Sito eCommerce
 abstract: Per la linea di abbigliamento e accessori A.BIUNO abbiamo realizzato
   un sito eCommerce per permettere agli utenti di scoprire non solo la storia, i
   valori e le creazioni del brand, ma anche di acquistare senza vincoli di
