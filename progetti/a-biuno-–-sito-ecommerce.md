@@ -7,7 +7,7 @@ abstract: Per la linea di abbigliamento e accessori A.BIUNO abbiamo realizzato
   progettazione, fino al design e lo sviluppo, insieme al copy e a tutte le
   diverse attività finalizzate all’ottimizzazione in chiave SEO.
 imageList: /uploads/abiuno-_-preview.png
-hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION"
+hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
 image1: /uploads/abiuno_hero.png
 sectionTitle: Il progetto
 numberSections: 4
@@ -39,7 +39,8 @@ image5: ""
 title5: ""
 abstract5: ""
 section2Title: Testimonial
-section2Feedback: ...
+section2Feedback: Cercavo qualcosa che fosse casual, informale e confortevole
+  senza rinunciare allo stile. In A.BIUNO ho trovato tutto questo!
 section2Name: Manuel
 section2Position: New A.BIUNO member
 section2Image: /uploads/manuel_testimonial.png
