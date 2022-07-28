@@ -23,7 +23,7 @@ image3: /uploads/abiuno_dettaglio-prodotto.png
 title3: Il CMS
 abstract3: >-
   Per la gestione dei contenuti abbiamo scelto di utilizzare Contentful, un
-  headless CMS che mette a disposizione direttamente le API.
+  headless CMS che mette a disposizione direttamente le API. 
 
   Contentful fornisce a tutti gli editor, compresi coloro che non hanno particolare dimestichezza con i codici, la possibilità di gestire in modo interattivo un’interfaccia di modifica intuitiva e facile da utilizzare.
 image4: /uploads/abiuno-_-mobile.png
@@ -66,4 +66,4 @@ date: 2022-07-28T08:59:02.143Z
 ---
 A.BIUNO è un brand emergente, dal design made in Italy, produttore di borse, zaini, accessori e abbigliamento outdoor. Per A.BIUNO abbiamo curato l’intera brand identity: a partire dal restyling del logo fino alla definizione della style guide; dalla progettazione del sito web, al design, fino allo sviluppo. 
 Abbiamo sviluppato il sito basandoci su un’architettura JAMstack, un nuovo modo di creare siti Web e app, basata sul lato client e non dipendente da un server web. Fra i maggiori vantaggi forniti da JAMstack velocità, miglioramento delle prestazioni e una migliore scalabilità.
-Per la creazione del progetto è stata utilizzata una combinazione di tool che ha permesso di creare, partendo da zero, una UI/UX dal design unico e moderno, responsive, flessibile e dalle alte prestazioni.
+Per la creazione del progetto è stata utilizzata una combinazione di tool che ha permesso di creare, partendo da zero, una UI/UX dal design unico e moderno, responsive, flessibile e dalle alte prestazioni
