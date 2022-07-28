@@ -23,7 +23,7 @@ image3: /uploads/abiuno_dettaglio-prodotto.png
 title3: Il CMS
 abstract3: >-
   Per la gestione dei contenuti abbiamo scelto di utilizzare Contentful, un
-  headless CMS che mette a disposizione direttamente le API. 
+  headless CMS che mette a disposizione direttamente le API.
 
   Contentful fornisce a tutti gli editor, compresi coloro che non hanno particolare dimestichezza con i codici, la possibilità di gestire in modo interattivo un’interfaccia di modifica intuitiva e facile da utilizzare.
 image4: /uploads/abiuno-_-mobile.png
