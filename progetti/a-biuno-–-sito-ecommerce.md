@@ -19,14 +19,14 @@ abstract2: Per lo sviluppo del sito web abbiamo scelto di utilizzare Gridsome,
   l'approccio non più basato su classi che realizzano elementi già
   preconfezionati, ma su una serie di classi di utility che permettono di
   implementare le nostre idee direttamente nelle pagine HTML.
-image3: /uploads/abiuno_dettaglio-prodotto.png
+image3: /uploads/abiuno-_-mobile.png
 title3: Il CMS
 abstract3: >-
   Per la gestione dei contenuti abbiamo scelto di utilizzare Contentful, un
   headless CMS che mette a disposizione direttamente le API. 
 
   Contentful fornisce a tutti gli editor, compresi coloro che non hanno particolare dimestichezza con i codici, la possibilità di gestire in modo interattivo un’interfaccia di modifica intuitiva e facile da utilizzare.
-image4: /uploads/abiuno-_-mobile.png
+image4: /uploads/abiuno_dettaglio-prodotto.png
 title4: Deploy
 abstract4: >-
   Per costruire, organizzare e gestire il sito web abbiamo scelto di utilizzare
@@ -39,8 +39,8 @@ image5: ""
 title5: ""
 abstract5: ""
 section2Title: Testimonial
-section2Feedback: Cercavo qualcosa che fosse casual, informale e confortevole
-  senza rinunciare allo stile. In A.BIUNO ho trovato tutto questo!
+section2Feedback: "Cercavo qualcosa che fosse casual, informale e confortevole
+  senza rinunciare allo stile: in A.BIUNO ho trovato tutto questo!"
 section2Name: Manuel
 section2Position: New A.BIUNO member
 section2Image: /uploads/manuel_testimonial.png
