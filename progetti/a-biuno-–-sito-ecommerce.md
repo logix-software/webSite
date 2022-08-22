@@ -62,7 +62,7 @@ ctaProjectHashtags: "#WEBAPPLICATION #MOBILEAPP #STARTUP #APARTMENT #HOUSE #COMM
 ctaProjectImage: /uploads/domusgo15-cta.png
 ctaProjectLink: /progetti/domusgo15-app-gestione-dei-condomini/
 cta: Dai un’occhiata agli altri progetti!
-date: 2022-07-28T08:59:02.143Z
+date: 2022-06-01T08:59:02.143Z
 ---
 A.BIUNO è un brand emergente, dal design made in Italy, produttore di borse, zaini, accessori e abbigliamento outdoor. Per A.BIUNO abbiamo curato l’intera brand identity: a partire dal restyling del logo fino alla definizione della style guide; dalla progettazione del sito web, al design, fino allo sviluppo. 
 Abbiamo sviluppato il sito basandoci su un’architettura JAMstack, un nuovo modo di creare siti Web e app, basata sul lato client e non dipendente da un server web. Fra i maggiori vantaggi forniti da JAMstack velocità, miglioramento delle prestazioni e una migliore scalabilità.
