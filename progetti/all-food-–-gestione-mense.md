@@ -53,7 +53,7 @@ ctaProjectHashtags: "#WEBAPPLICATION #MOBILEAPP #STARTUP #APARTMENT #HOUSE #COMM
 ctaProjectImage: /uploads/domusgo15-cta.png
 ctaProjectLink: /progetti/domusgo15-app-gestione-dei-condomini/
 cta: Dai un’occhiata agli altri progetti!
-date: 2022-03-07T18:15:12.833Z
+date: 2022-06-01T17:15:12.833Z
 ---
 Tramite la Progressive Web App possono essere visualizzate le portate del catalogo e si possono scegliere i tipi di servizio tra i diversi menù disponibili; gli amministratori e gli addetti, invece, tramite Web App, possono gestire agilmente tutte le mense delle aziende che aderiscono al servizio.
 L’insieme di web app è stato sviluppato sfruttando un'architettura a micro-servizi e la parte frontend è in VueJS, consentendo la gestione sia lato Utente che lato Amministratore Mensa.
