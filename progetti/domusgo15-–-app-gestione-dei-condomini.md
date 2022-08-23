@@ -54,7 +54,7 @@ ctaProjectHashtags: "#PROGRESSIVEWEBAPP #WEDEVELOPMENT #VUEJS #MICROSERVIZI #DIG
 ctaProjectImage: /uploads/frame-4.png
 ctaProjectLink: /progetti/all-food-gestione-mense/
 cta: Dai un’occhiata agli altri progetti!
-date: 2022-03-08T09:13:23.659Z
+date: 2022-07-01T08:13:23.659Z
 ---
 Con DomusGo15 attraverso un unico accesso i diversi profili interessati dal servizio, quali: co-proprietari, inquilini in affitto, amministratori condomìnio, gestori attività, professionisti, enti e organizzazioni saranno in grado di offrire e fruire di servizi dedicati ai singoli target di riferimento in un unico sistema integrato.
 In Logix abbiamo curato l’intero sviluppo del sistema, vale a dire un’app mobile per gli utenti condòmini ed una web app per gli amministratori e i professionisti.
