@@ -10,7 +10,7 @@ imageList: /uploads/abiuno-_-preview.png
 hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
 image1: /uploads/abiuno_hero.png
 sectionTitle: Il progetto
-numberSections: 4
+numberSections: 3
 image2: /uploads/abiuno-_-mobile2.png
 title2: I framework
 abstract2: Per lo sviluppo del sito web abbiamo scelto di utilizzare Gridsome,
