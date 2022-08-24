@@ -13,7 +13,7 @@ hashtags: "#NFT #WEB3 #suonicontrovento #fattoriacreativa #blockchain #Ethereum
   #arte #musica"
 image1: /uploads/suoni-controvento-_-hero.png
 sectionTitle: Il progetto
-numberSections: 3
+numberSections: 2
 image2: /uploads/suoni-controvento-_-mobile.png
 title2: Che cos’è un NFT?
 abstract2: Gli NFT sono token non fungibili, cioè beni immutabili e non
@@ -61,5 +61,6 @@ date: 2022-08-24T14:15:35.243Z
 ---
 Suoni Controvento è un Festival dall’impronta green orientato al mondo delle nuove tecnologie e noi di Logix, come partner tecnologico del Festival, ci siamo occupati di realizzarne il progetto NFT, protagonista digitale di questa edizione. Per Suoni Controvento ne abbiamo realizzati 20 ciascuno dei quali una volta acquistati, danno diritto a una serie di vantaggi, utility, promozioni e iniziative che coinvolgono la community, gli artisti e il territorio.
 
+Scopri il nostro progetto:
 
-Scopri il nostro progetto: [NFT Marketplace SCV ](https://nft.suonicontrovento.it/)
+[NFT Marketplace SCV ](https://nft.suonicontrovento.it/)
