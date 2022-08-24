@@ -21,7 +21,7 @@ abstract2: Gli NFT sono token non fungibili, cioè beni immutabili e non
   vengono creati tramite la tecnologia blockchain, cioè una struttura di dati
   che si basa sulla condivisione e l’immutabilità. Non sono falsificabili e
   rappresentano la proprietà di un asset digitale o fisico collegato.
-image3: /uploads/suoni-controvento-_-mobile2.png
+image3: /uploads/suoni-controvento-_-mobile3.png
 title3: La collezione
 abstract3: "Per Suoni Controvento abbiamo realizzato tre categorie di NFT, con
   relative utility e vantaggi esclusivi: Natura, Musica e Chiave. L’acquisto di
