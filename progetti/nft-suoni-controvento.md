@@ -61,5 +61,5 @@ date: 2022-08-24T14:15:35.243Z
 ---
 Suoni Controvento è un Festival dall’impronta green orientato al mondo delle nuove tecnologie e noi di Logix, come partner tecnologico del Festival, ci siamo occupati di realizzarne il progetto NFT, protagonista digitale di questa edizione. Per Suoni Controvento ne abbiamo realizzati 20 ciascuno dei quali una volta acquistati, danno diritto a una serie di vantaggi, utility, promozioni e iniziative che coinvolgono la community, gli artisti e il territorio.
 
-Scopri il nostro progetto:
-[NFT Marketplace SCV](https://nft.suonicontrovento.it/)
+Scopri il nostro progetto: 
+[NFT Marketplace Suoni Contro Vento](https://nft.suonicontrovento.it/)
