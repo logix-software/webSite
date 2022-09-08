@@ -12,7 +12,7 @@
           <div class="col-lg-4">
             <div class="pr-lg-5">
               <h3 class="mb-4 footer__title2">Passa da noi</h3>
-              <p>Via di Porta San Giovanni, 28 - 05100 Terni (TR)</p>
+              <p>Sede operativa: Via di Porta San Giovanni, 28 - 05100 Terni (TR)</p>
               <p>Sede legale/operativa: Via Montenero Sabino, 50 - 00131 Roma (RM)</p>
             </div>
           </div>
