@@ -8,11 +8,11 @@ headerLogo2: /uploads/logo-ast.png
 headerLogo3: /uploads/logo-cogne.png
 headerLogo4: /uploads/logo-umbriadigitale.png
 section1Name: SERVIZI
-section1Title: Offriamo le nostre competenze per i tuoi risultati
-section1Abstract: "Logix si propone come punto di riferimento dallo sviluppo
-  all’assistenza nel tempo. Affianchiamo le aziende in ogni fase del ciclo di
-  sviluppo del software: dalla ricerca, al design e sviluppo, alla creazione di
-  MVP, al ridimensionamento, al restauro dei prodotti digitali."
+section1Title: "Da più di dieci anni collaboriamo con le aziende per costruire
+  soluzioni digitali creative, personalizzate e usabili. "
+section1Abstract: "Come partner affianchiamo i nostri clienti in ogni fase del
+  ciclo di sviluppo del software: dalla ricerca, al design e sviluppo, alla
+  creazione di MVP al restyling di prodotti digitali."
 slider1Slide1Title: Digital transformation
 slider1Slide1Abstract: Attraverso un percorso iterativo ci interroghiamo sulle
   richieste del mercato e, insieme, progettiamo le più efficienti logiche
