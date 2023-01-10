@@ -1,8 +1,7 @@
 ---
 title: "Logix Software "
 headerTitle: Sviluppiamo nuove logiche digitali.
-headerAbstract: Collaboriamo da più di 10 anni con le aziende per costruire
-  soluzioni digitali personalizzate e adatte agli utenti che le utilizzano.
+headerAbstract: Creiamo insieme il tuo progetto >
 headerImage: /uploads/hero-home.jpg
 headerLogo1: /uploads/logo-aosp.png
 headerLogo2: /uploads/logo-ast.png
