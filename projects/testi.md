@@ -1,6 +1,6 @@
 ---
 title: Progetti
-headerTitle1: I nostri ultimi
+headerTitle1: Gli ultimi progetti e clienti con cui abbiamo collaborato.
 headerTitle2: progetti
 headerImage: /uploads/hero-projects.svg
 toolsName: PUNTI DI FORZA
