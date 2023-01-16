@@ -21,7 +21,7 @@ collections:
         - {label: "HeaderLogo3", name: "headerLogo3", widget: "image"}
         - {label: "HeaderLogo4", name: "headerLogo4", widget: "image"}
         - {label: "Section1Name", name: "section1Name", widget: "string"}
-        - {label: "Section1Title", name: "section1Title", widget: "string"}
+        - {label: "Section1Title", name: "section1Title", widget: "text"}
         - {label: "Section1Abstract", name: "section1Abstract", widget: "text"}
         - {label: "Slider1Slide1Title", name: "slider1Slide1Title", widget: "string"}
         - {label: "Slider1Slide1Abstract", name: "slider1Slide1Abstract", widget: "text"}
@@ -366,6 +366,22 @@ collections:
         - {label: "cta", name: "cta", widget: "text"}
         - {label: "Body", name: "body", widget: "markdown"}
         - {label: "Date", name: "date", widget: "datetime"}
+    - name: "listPartners"
+      label: "Lista partners"
+      folder: "listPartners"
+      create: true
+      slug: "{{slug}}"
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "image", name: "image", widget: "image"}
+    - name: "listTech"
+      label: "Lista tecnologie"
+      folder: "listTech"
+      create: true
+      slug: "{{slug}}"
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "image", name: "image", widget: "image"}
     - name: "proojectsComingSoon"
       label: "ProjectsComingSoon"
       folder: "progetti-coming-soon"
