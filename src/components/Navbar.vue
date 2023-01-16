@@ -1,84 +1,236 @@
 <template>
-  <header class="header py-3">
-    <div class="container-fluid d-lg-flex align-items-center justify-content-between">
-      <g-link to="/" class>
-        <g-image src="~/assets/images/logo/logix-software.svg" class="header__logo" alt="logix-software" />
-      </g-link>
-      <nav class="nav">
-        <ul class="list-unstyled d-lg-flex align-items-center m-0">
-          <li class="position-relative py-2 py-lg-0">
-            <g-link to="/chi-siamo" class="nav__link mx-3 py-3">Chi siamo</g-link>
-          </li>
-          <li class="position-relative py-2 py-lg-0">
-            <g-link to="/competenze" class="nav__link mx-3 py-3">
-              Competenze
-              <!--  class="fas fa-chevron-down ml-2"></i> -->
-              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
-            </g-link>
-            <ul class="dropdown list-unstyled">
-              <li>
-                <g-link
-                  class="nav__link mx-3 py-1 d-inline-block"
-                  to="/digital-transformation"
-                >> Digital transformation</g-link>
-              </li>
-              <li>
-                <g-link
-                  class="nav__link mx-3 py-1 d-inline-block"
-                  to="/sviluppo-web-and-mobile"
-                >> Sviluppo web & mobile</g-link>
-              </li>
-              <li>
-                <g-link
-                  class="nav__link mx-3 py-1 d-inline-block"
-                  to="/design-research-and-strategy"
-                >> Design research & strategy</g-link>
-              </li>
-              <li>
-                <g-link
-                  class="nav__link mx-3 py-1 d-inline-block"
-                  to="/collaborative-team"
-                >> Collaborative team</g-link>
-              </li>
-            </ul>
-          </li>
-          <li class="position-relative py-2 py-lg-0">
-            <g-link to="/progetti" class="nav__link mx-3 py-3">Progetti</g-link>
-          </li>
-          <li class="position-relative py-2 py-lg-0">
-            <g-link to="/contatti" class="btn btn-default btn-navbar mx-3">Contattaci</g-link>
-          </li>
-        </ul>
-      </nav>
+  <div>
+    <header
+      class="header py-3"
+      :class="{
+        'header--white': color === 'white',
+      }"
+    >
+      <div
+        class="
+          container-fluid
+          d-lg-flex
+          align-items-center
+          justify-content-between
+        "
+      >
+        <g-link to="/" class>
+          <g-image
+            src="~/assets/images/logo/logix-software.svg"
+            class="header__logo"
+            alt="logix-software"
+            v-if="color === 'default' || isMenuOpen"
+          />
+          <g-image
+            src="~/assets/images/logo/logix-software-black.svg"
+            class="header__logo"
+            alt="logix-software"
+            v-if="color === 'white' && !isMenuOpen"
+          />
+        </g-link>
+        <nav class="nav">
+          <ul class="list-unstyled d-lg-flex align-items-center m-0">
+            <li class="position-relative py-2 py-lg-0">
+              <g-link to="/chi-siamo" class="nav__link mx-3 py-3"
+                >Chi siamo</g-link
+              >
+            </li>
+            <li class="position-relative py-2 py-lg-0">
+              <g-link to="/competenze" class="nav__link mx-3 py-3">
+                Competenze
+              </g-link>
+            </li>
+            <li class="position-relative py-2 py-lg-0">
+              <g-link to="/progetti" class="nav__link mx-3 py-3"
+                >Progetti</g-link
+              >
+            </li>
+            <li class="position-relative py-2 py-lg-0">
+              <g-link
+                to="/contatti"
+                class="btn btn-gradient-border btn-navbar mx-3"
+              >
+                Contattaci
+              </g-link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div
+      class="navigationHamburger text-white"
+      :class="{
+        'navigationHamburger--active': isMenuDesktopOpen,
+      }"
+    >
+      <div
+        class="
+          container-fluid
+          navigationHamburger__head
+          d-flex
+          justify-content-between
+        "
+      >
+        <g-image
+          src="~/assets/images/logo/logix-software.svg"
+          class="header__logo"
+          alt="logix-software"
+        />
+      </div>
+      <div class="row h-100">
+        <div
+          class="
+            col-lg-6
+            h-100
+            text-center
+            d-flex
+            align-items-center
+            justify-content-center
+            position-relative
+          "
+        >
+          <g-image
+            src="~/assets/images/bg-menu.svg"
+            class="navigationHamburger__deco"
+          />
+          <div class="position-relative">
+            <h2 class="navigationHamburger__title mb-5">
+              Parliamo del tuo progetto?
+            </h2>
+            <g-link
+              to="/contattaci"
+              class="btn btn-gradient-border btn-gradient-border--white"
+              >Contattaci</g-link
+            >
+          </div>
+        </div>
+        <div
+          class="
+            col-lg-6
+            navigationHamburger__bg
+            h-100
+            d-flex
+            align-items-center
+            pl-5
+          "
+        >
+          <ul class="list-unstyled pl-5">
+            <li class="mb-4">
+              <span class="navigationHamburger__titleLink mb-2 d-inline-block">
+                Competenze
+              </span>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <g-link to="/" class="navigationHamburger__link">
+                    > Digital transformation
+                  </g-link>
+                </li>
+                <li class="mb-2">
+                  <g-link to="/" class="navigationHamburger__link">
+                    > Sviluppo Web & Mobile
+                  </g-link>
+                </li>
+                <li class="mb-2">
+                  <g-link to="/" class="navigationHamburger__link">
+                    > Design research & strategy
+                  </g-link>
+                </li>
+                <li class="mb-2">
+                  <g-link to="/" class="navigationHamburger__link"
+                    >> Progettazione Web3/NFT
+                  </g-link>
+                </li>
+                <li class="mb-2">
+                  <g-link to="/" class="navigationHamburger__link">
+                    > Branding
+                  </g-link>
+                </li>
+                <li class="mb-2">
+                  <g-link to="/" class="navigationHamburger__link">
+                    > Collaborative team
+                  </g-link>
+                </li>
+              </ul>
+            </li>
+            <li class="mb-4">
+              <g-link to="/" class="navigationHamburger__titleLink"
+                >Progetti</g-link
+              >
+            </li>
+            <li>
+              <g-link to="/" class="navigationHamburger__titleLink">
+                Chi siamo
+              </g-link>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="hamburger-container d-flex align-items-center d-lg-none" @click="hamburger()">
+    <div
+      class="hamburger-container align-items-center"
+      @click="hamburger()"
+      :class="{
+        'hamburger-container--white': color === 'white',
+        'd-flex': widthScreen < 992,
+        'd-none': widthScreen > 992 && scrollTop < 200,
+        'd-flex': widthScreen > 992 && scrollTop > 200,
+      }"
+    >
       <div class="hamburger"></div>
     </div>
-  </header>
+  </div>
 </template>
 
 <script>
 export default {
   name: "Navbar",
+  props: {
+    color: {
+      type: String,
+      required: false,
+      validator: (value) => ["default", "white"].includes(value),
+      default: () => "default",
+    },
+  },
+  data() {
+    return {
+      isMenuOpen: false,
+      scrollTop: 0,
+      widthScreen: null,
+      isMenuDesktopOpen: false,
+    };
+  },
   mounted() {
     var _this = this;
-    var width = screen.width;
+    this.widthScreen = screen.width;
 
-    if (width < 992 && $("html").hasClass("overflow-hidden")) {
+    if (this.widthScreen < 992 && $("html").hasClass("overflow-hidden")) {
       // _this.hamburger();
       document.querySelector("html").classList.remove("overflow-hidden");
     }
+    if (this.widthScreen > 992) {
+      window.addEventListener("scroll", function () {
+        _this.scrollTop = window.pageYOffset;
+      });
+    }
   },
   methods: {
-    hamburger: function(el) {
-      console.log("test2--");
-      document
-        .querySelector(".hamburger")
-        .classList.toggle("hamburger--active");
-      document.querySelector("nav").classList.toggle("nav--active");
-      document.querySelector("header").classList.toggle("header--black");
-      document.querySelector("html").classList.toggle("overflow-hidden");
-    }
+    hamburger: function (el) {
+      if (this.widthScreen < 992) {
+        document
+          .querySelector(".hamburger")
+          .classList.toggle("hamburger--active");
+        document.querySelector("nav").classList.toggle("nav--active");
+        document.querySelector("header").classList.toggle("header--black");
+        document.querySelector("html").classList.toggle("overflow-hidden");
+        this.isMenuOpen = !this.isMenuOpen;
+      } else {
+        document
+          .querySelector(".hamburger")
+          .classList.toggle("hamburger--active");
+        this.isMenuDesktopOpen = !this.isMenuDesktopOpen;
+      }
+    },
 
     // removeOverflow: function(){
 
@@ -89,45 +241,82 @@ export default {
     //   document.querySelector("header").classList.toggle("header--black");
     //   document.querySelector("html, body").classList.toggle("overflow-hidden");
     // }
-  }
+  },
 };
 </script>
 
 <style lang="scss">
-
 .hamburger-container {
-  width: 30px;
-  height: 20px;
-  position: absolute;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  position: fixed;
   top: 23px;
   right: 30px;
-  z-index: 9;
-}
-.hamburger {
-  width: 26px;
-  height: 1px;
-  background-color: #fff;
-  z-index: 9;
+  z-index: 11;
+  border-radius: 100%;
+  background: #000;
+
+  @media screen and (max-width: 992px) {
+    top: 10px;
+    position: absolute;
+  }
   &:before {
     content: "";
-    width: 30px;
-    height: 1px;
+    position: absolute;
+    inset: 0;
+    border-radius: 100%;
+    padding: 2px;
+    background: linear-gradient(45deg, #f60994, #7878f9, #faca00, #36f2b9);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+  &--white {
+    background: #fff;
+    .hamburger {
+      background-color: #000;
+      &:before,
+      &:after {
+        background-color: #000;
+      }
+    }
+  }
+}
+.hamburger {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  left: -1px;
+  background-color: #fff;
+  z-index: 11;
+  position: relative;
+  @media screen and (max-width: 992px) {
+    top: 19px;
+  }
+  &:before {
+    content: "";
+    width: 120%;
+    height: 3px;
     background-color: #fff;
-    top: 0;
+    top: 5px;
     position: absolute;
     transition: all 0.2s;
   }
   &:after {
     content: "";
-    width: 30px;
-    height: 1px;
+    width: 120%;
+    height: 3px;
     background-color: #fff;
-    top: 100%;
+    bottom: 5px;
     position: absolute;
     transition: all 0.2s;
   }
   &--active {
-    background-color: transparent;
+    background-color: transparent !important;
     &:before {
       background-color: #fff;
       top: 50%;
@@ -141,8 +330,6 @@ export default {
   }
 }
 .header {
-  //   color: #333;
-
   position: absolute;
   top: 0;
   right: 0;
@@ -151,6 +338,7 @@ export default {
     background-color: #000;
     z-index: 3;
   }
+
   &__logo {
     width: 160px;
     z-index: 9;
@@ -223,8 +411,8 @@ export default {
       @media screen and (max-width: 992px) {
         font-size: 24px;
       }
-      &:after{
-        content: '';
+      &:after {
+        content: "";
         position: absolute;
         left: 50%;
         bottom: 0;
@@ -232,10 +420,10 @@ export default {
         width: 0px;
         height: 1px;
         background-color: #fff;
-        transition: .2s all;
+        transition: 0.2s all;
       }
-      &:hover{
-        &:after{
+      &:hover {
+        &:after {
           left: 0;
           width: 100%;
         }
@@ -284,6 +472,83 @@ export default {
         margin: 6px 0;
       }
     }
+  }
+  &--white {
+    @media screen and (min-width: 992px) {
+      // background-color: #fff;
+      li {
+        a {
+          color: #000;
+        }
+      }
+    }
+  }
+}
+.navigationHamburger {
+  background: #000;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  &--active {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  &__deco {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100;
+    object-fit: cover;
+  }
+  &__bg {
+    background: #111;
+    overflow-y: auto;
+  }
+  &__title {
+    font-family: "Lexend Deca";
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 74px;
+    letter-spacing: -3px;
+  }
+  &__titleLink {
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 58px;
+    color: #969696;
+    letter-spacing: -2.21209px;
+    &:hover {
+      color: #fff;
+    }
+  }
+  &__link {
+    color: #969696;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: -0.44px;
+    &:hover {
+      color: #fff;
+    }
+  }
+  &__head {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1rem;
   }
 }
 </style>

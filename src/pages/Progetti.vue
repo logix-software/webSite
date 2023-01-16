@@ -1,59 +1,59 @@
 <template>
-  <Layout>
-    <div class="hero hero--projects d-flex align-items-center" v-for="text in $page.texts.edges" :key="text.id">
-      <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco1" alt="decoration" />
-      <g-image src="~/assets/images/deco-hero-projects.svg" class="hero__deco2" alt="decoration" />
-      <div class="w-100">
-        <h1
-          class="hero__title text-left"
-          data-aos="fade-right"
-          data-aos-delay="200"
-          data-aos-duration="700"
-        >{{text.node.headerTitle1}}</h1>
-        <h1
+  <div>
+    <Navbar color="white" />
+    <div v-for="text in $page.texts.edges" :key="text.id">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-9">
+            <h1 class="hero__title">
+              {{ text.node.headerTitle1 }}
+            </h1>
+          </div>
+        </div>
+
+        <!-- <h1
           class="hero__title text-right"
           data-aos="fade-left"
           data-aos-delay="200"
           data-aos-duration="700"
-        >{{text.node.headerTitle2}}</h1>
-        <div class="container">
+        >{{text.node.headerTitle2}}</h1> -->
+        <!-- <div class="container">
           <div class="row">
             <div class="col-lg-12">
               <g-image :src="text.node.headerImage" class="hero__img" />
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
-    <div id="list-projects">
-      <!-- <h2 v-for="project in $page.projects.edges" :key="project.id">{{project.node.title}}</h2> -->
-      <div class="project py-5" v-for="project in $page.projects.edges" :key="project.id">
-        <div class="container py-5">
-          <div class="row">
-            <div class="col-lg-6 col-left">
-              <div class="project__img" :style="{ 'background-image': 'url(' + project.node.imageList + ')' }">
-                <g-image src="~/assets/images/deco3.svg" class="integration__img" alt="decoration"/>
-              </div>
-            </div>
-            <div class="col-lg-6 pl-lg-5 col-right d-flex align-items-center">
-              <div class="pl-lg-5">
-                <h1 class="project__title mb-3">{{project.node.title}}</h1>
-                <div class="mb-2">
-                  <span class="label label--dev mr-3">DEVELOPMENT</span>
-                  <span class="label label--des">DESIGN</span>
-                </div>
-                <p class="project__hashtags mb-3">{{project.node.hashtags}}</p>
-                <p class="project__description mb-4">
-                  {{project.node.abstract}}
-                </p>
-                <g-link :to="project.node.path" class="btn btn-secondary">Scopri di più</g-link>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="container" id="list-projects">
+      <div class="row py-5">
+        <ParallaxContainer
+          v-for="(project, index) in $page.projects.edges.slice(0, 6)"
+          :key="project.id"
+          :class="getClassWidth(index + 1)"
+        >
+          <ParallaxElement :factor="getFactor(index + 1)">
+            <app-project
+              :index="index + 1"
+              :title="project.node.title"
+              :img="project.node.imageList"
+              :abstract="project.node.abstract"
+              :link="project.node.path"
+              label1="DEVELOPMENT"
+              label2="DEVELOPMENT"
+              label3="DEVELOPMENT"
+              tag1="DEVELOPMENT"
+              tag2="DEVELOPMENT"
+              tag3="DEVELOPMENT"
+              class="mb-2"
+            ></app-project>
+          </ParallaxElement>
+        </ParallaxContainer>
       </div>
     </div>
-    <div class="tools py-5 my-lg-5" v-for="text in $page.texts.edges" :key="text.id">
+    <lets-talk />
+    <!-- <div class="tools py-5 my-lg-5" v-for="text in $page.texts.edges" :key="text.id">
       <div class="container mb-4">
         <div class="row">
           <div class="col-lg-5 mx-auto text-center mb-5">
@@ -185,8 +185,9 @@
           </div>
         </div>
       </div>
-    </div>
-  </Layout>
+    </div> -->
+    <Footer />
+  </div>
 </template>
 <page-query>
 query {
@@ -256,39 +257,60 @@ query {
 }
 </page-query>
 <script>
+import AppProject from "~/components/AppProject.vue";
+import Navbar from "~/components/Navbar.vue";
+import ParallaxElement from "~/components/ParallaxElement.vue";
+import ParallaxContainer from "~/components/ParallaxContainer.vue";
+import Footer from "~/components/Footer.vue";
+import LetsTalk from '~/components/LetsTalk.vue';
+
 export default {
   metaInfo: {
     title: "Progetti - Logix Software",
     meta: [
-      { name: "description", content: "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile." },
+      {
+        name: "description",
+        content:
+          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
+      },
       { property: "og:title", content: "Progetti - Logix Software" },
       {
         property: "og:description",
-        content: "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile."
+        content:
+          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
       },
       {
         property: "og:image",
-        content: "https://www.logix-software.it/uploads/share.jpg"
+        content: "https://www.logix-software.it/uploads/share.jpg",
       },
       {
         property: "twitter:card",
-        content: "summary"
+        content: "summary",
       },
       {
         property: "twitter:title",
-        content: "Progetti - Logix Software"
+        content: "Progetti - Logix Software",
       },
       {
         property: "twitter:description",
-        content: "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile."
+        content:
+          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
       },
       {
         property: "twitter:image",
-        content: "https://www.logix-software.it/uploads/share.jpg"
+        content: "https://www.logix-software.it/uploads/share.jpg",
       },
       { property: "og:url", content: "https://www.logix-software.it/progetti" },
-      { name: "robots", content: "index, follow" }
-    ]
+      { name: "robots", content: "index, follow" },
+    ],
+  },
+  components: {
+    Navbar,
+    Footer,
+    AppProject,
+    ParallaxElement,
+    ParallaxContainer,
+    LetsTalk,
   },
   data() {
     return {
@@ -300,9 +322,62 @@ export default {
   // },
   mounted() {
     AOS.init();
-  }
+
+    let element1 = document.querySelector(".hero__title");
+    let word2 = "progetti";
+    let word3 = " e ";
+    let word4 = "clienti";
+
+    element1.innerHTML = element1.innerHTML.replace(
+      word2,
+      `<span>${word2}</span>`
+    );
+    element1.innerHTML = element1.innerHTML.replace(
+      word3,
+      `<span>${word3}</span>`
+    );
+    element1.innerHTML = element1.innerHTML.replace(
+      word4,
+      `<span>${word4}</span>`
+    );
+  },
+  methods: {
+    getClassWidth(index) {
+      if (index % 3 == 0) {
+        return "col-lg-9";
+      } else if (index % 2 == 0) {
+        return "col-lg-6";
+      } else {
+        return "col-lg-6";
+      }
+    },
+    getFactor(index) {
+      if (index % 2 == 0) {
+        return -0.05;
+      } else {
+        return -0.15;
+      }
+    },
+  },
 };
 </script>
+<style lang="scss">
+.hero {
+  &__title {
+    span {
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(
+        98.09deg,
+        #36f2b9 37.9%,
+        #7878f9 50.47%,
+        #f60994 62.93%
+      );
+    }
+  }
+}
+</style>
 <style lang="scss" scoped>
 .hero {
   background-color: #111111;
@@ -318,212 +393,21 @@ export default {
     bottom: 100px;
     position: absolute;
   }
-  &__deco2 {
-  }
   &__title {
-    color: #ffffff;
     font-family: "Lexend Deca";
-    font-size: 161px;
-    letter-spacing: -9.63px;
-    @media screen and (max-width: 992px) {
-      font-size: 50px;
-      letter-spacing: initial;
+    font-weight: 300;
+    font-size: 46px;
+
+    @media screen and (min-width: 992px) {
+      font-size: 75px;
+      line-height: 77px;
+      letter-spacing: -4px;
     }
   }
   &__img {
     margin-top: -20px;
     @media screen and (max-width: 992px) {
       margin-top: 0;
-    }
-  }
-}
-.project {
-  position: relative;
-  &:nth-child(odd) {
-    background-color: #1d1d1d;
-    .project__img {
-      img {
-        position: absolute;
-        right: -60px;
-        top: 60px;
-      }
-    }
-    .project__title,
-    .project__hashtags,
-    .project__description {
-      color: #fff;
-    }
-  }
-  &:nth-child(even) {
-    background-color: #fff;
-    .project__img {
-      img {
-        position: absolute;
-        left: -60px;
-        top: 60px;
-      }
-    }
-    &:before {
-      background-color: #f3f5fb;
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      width: 70%;
-      height: 100%;
-    }
-    .col-left {
-      @media screen and (min-width: 992px) {
-        order: 1;
-      }
-    }
-    .col-right {
-      @media screen and (min-width: 992px) {
-        order: 0;
-      }
-    }
-    .project__title,
-    .project__hashtags,
-    .project__description {
-      color: #000;
-    }
-  }
-  &--comingSoon {
-    opacity: 0.8;
-    pointer-events: none;
-    &:nth-child(odd) {
-      .btn-secondary{
-        color: #fff!important;
-        border: 2px solid #fff!important;
-        background-color: transparent!important;
-      }
-    }
-    &:nth-child(even) {
-       .btn-secondary{
-          background-color: transparent!important;
-        color:#3838C4!important;
-        border: 2px solid #3838C4!important;
-      }
-    }
-  }
-  &__img {
-    width: 100%;
-    height: 700px;
-    border-radius: 5px;
-    // background-image: url("~@/assets/images/project.png");
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    img {
-      position: absolute;
-      right: -60px;
-      top: 60px;
-    }
-    @media screen and (max-width: 992px) {
-      height: 300px;
-      margin-bottom: 30px;
-    }
-  }
-  &__title {
-    font-family: "Lexend Deca";
-    font-size: 40px;
-    letter-spacing: -1.47px;
-    line-height: 42px;
-  }
-  &__hashtags {
-    font-family: Lato;
-    font-size: 10px;
-    font-weight: bold;
-    letter-spacing: 0.59px;
-    line-height: 17px;
-  }
-  &__description {
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: -0.18px;
-    line-height: 25px;
-  }
-}
-.tools {
-  position: relative;
-  &:before {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 200px;
-    bottom: -50px;
-    width: 70%;
-    background-color: #f3f5fb;
-  }
-  &__name {
-    color: #000000;
-    font-family: Lato;
-    font-size: 16px;
-    letter-spacing: 0.94px;
-    line-height: 25px;
-  }
-  &__titleSection {
-    color: #000000;
-    font-family: "DM Sans";
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: -1.47px;
-    line-height: 42px;
-  }
-  &__title {
-    font-family: "Lexend Deca";
-    font-size: 35px;
-    letter-spacing: -1.28px;
-    line-height: 37px;
-    @media screen and (min-width: 992px) {
-      min-height: 74px;
-    }
-  }
-  &__subtitle {
-    font-family: Lato;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1.2px;
-    line-height: 16.08px;
-  }
-  &__hashtags {
-    font-family: Lato;
-    font-size: 10px;
-    font-weight: bold;
-    letter-spacing: 0.59px;
-    line-height: 17px;
-  }
-  &__description {
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: -0.18px;
-    line-height: 20px;
-    @media screen and (min-width: 992px) {
-      min-height: 200px;
-    }
-  }
-  &__box {
-    border-radius: 3px;
-    background-color: #000000;
-    box-shadow: 0 19px 56px 0 rgba(25, 25, 141, 0.2);
-    color: #fff;
-    padding: 40px 30px;
-  }
-}
-
-.cta {
-  @media screen and (max-width: 992px) {
-    bottom: -60px;
-  }
-  &--black {
-    @media screen and (max-width: 992px) {
-      bottom: -80px;
-    }
-    @media screen and (max-width: 576px) {
-      bottom: -120px;
     }
   }
 }
