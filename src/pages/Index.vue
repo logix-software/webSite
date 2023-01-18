@@ -1868,7 +1868,7 @@ export default {
   }
 }
 .owl-carousel .owl-stage-outer {
-    /* override */
-    overflow: initial!important;
+    opacity: 1!important;
+    display: block!important;
 }
 </style>
