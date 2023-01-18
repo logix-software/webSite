@@ -710,6 +710,8 @@ export default {
           },
         },
       });
+    }, 500);
+    setTimeout(function () {
       $(".owl-tech").owlCarousel({
         loop: true,
         nav: false,
