@@ -4,18 +4,86 @@
       <img :src="img" :alt="title" />
     </div>
     <div class="col-lg-8">
-      <h2 class="appProject__title">{{ title }}</h2>
+      <h2
+        class="appProject__title"
+        :class="{
+          'text-white': variant === 'white',
+        }"
+      >
+        {{ title }}
+      </h2>
       <ul class="list-unstyled d-flex">
-        <li class="appProject__label" v-if="label1">{{ label1 }}</li>
-        <li class="appProject__label mx-1" v-if="label2">{{ label2 }}</li>
-        <li class="appProject__label" v-if="label3">{{ label3 }}</li>
+        <li
+          class="appProject__label"
+          :class="{
+            'appProject__label--development': label1.toLowerCase() === 'development',
+            'appProject__label--design': label1.toLowerCase() === 'design',
+            'appProject__label--strategist': label1.toLowerCase() === 'strategist',
+          }"
+          v-if="label1"
+        >
+          {{ label1 }}
+        </li>
+        <li
+          class="appProject__label mx-1"
+          v-if="label2"
+          :class="{
+            'appProject__label--development': label2.toLowerCase() === 'development',
+            'appProject__label--design': label2.toLowerCase() === 'design',
+            'appProject__label--strategist': label2.toLowerCase() === 'strategist',
+          }"
+        >
+          {{ label2 }}
+        </li>
+        <li
+          class="appProject__label"
+          v-if="label3"
+          :class="{
+            'appProject__label--development': label3.toLowerCase() === 'development',
+            'appProject__label--design': label3.toLowerCase() === 'design',
+            'appProject__label--strategist': label3.toLowerCase() === 'strategist',
+          }"
+        >
+          {{ label3 }}
+        </li>
       </ul>
       <ul class="list-unstyled d-flex">
-        <li class="appProject__tag" v-if="tag1">#{{ tag1 }}</li>
-        <li class="appProject__tag mx-1" v-if="tag2">#{{ tag2 }}</li>
-        <li class="appProject__tag" v-if="tag3">#{{ tag3 }}</li>
+        <li
+          class="appProject__tag"
+          v-if="tag1"
+          :class="{
+            'text-white': variant === 'white',
+          }"
+        >
+          #{{ tag1 }}
+        </li>
+        <li
+          class="appProject__tag mx-1"
+          v-if="tag2"
+          :class="{
+            'text-white': variant === 'white',
+          }"
+        >
+          #{{ tag2 }}
+        </li>
+        <li
+          class="appProject__tag"
+          v-if="tag3"
+          :class="{
+            'text-white': variant === 'white',
+          }"
+        >
+          #{{ tag3 }}
+        </li>
       </ul>
-      <p class="appProject__abstract">{{ abstract }}</p>
+      <p
+        class="appProject__abstract"
+        :class="{
+          'text-white': variant === 'white',
+        }"
+      >
+        {{ abstract }}
+      </p>
     </div>
     <g-link :to="link" class="appProject__link"></g-link>
   </div>
@@ -24,6 +92,12 @@
 <script>
 export default {
   props: {
+    variant: {
+      type: String,
+      required: false,
+      validator: (value) => ["default", "white"].includes(value),
+      default: () => "default",
+    },
     index: {
       type: Number,
       required: true,
@@ -115,8 +189,10 @@ export default {
     }
   }
   &__label {
-    padding: 0.1rem 0.2rem;
+    padding: 0.2rem 0.4rem;
     border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
     &--development {
       background: linear-gradient(103.3deg, #36f2b9 75.53%, #7878f9 131.85%);
     }
