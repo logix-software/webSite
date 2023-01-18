@@ -116,22 +116,22 @@
         >
           <ul class="list-unstyled pl-5">
             <li class="mb-4">
-              <span class="navigationHamburger__titleLink mb-2 d-inline-block">
+              <g-link to="/competenze" class="navigationHamburger__titleLink mb-2 d-inline-block">
                 Competenze
-              </span>
+              </g-link>
               <ul class="list-unstyled">
                 <li class="mb-2">
-                  <g-link to="/" class="navigationHamburger__link">
+                  <g-link to="/digital-transformation" class="navigationHamburger__link">
                     > Digital transformation
                   </g-link>
                 </li>
                 <li class="mb-2">
-                  <g-link to="/" class="navigationHamburger__link">
+                  <g-link to="/sviluppo-web-and-mobile" class="navigationHamburger__link">
                     > Sviluppo Web & Mobile
                   </g-link>
                 </li>
                 <li class="mb-2">
-                  <g-link to="/" class="navigationHamburger__link">
+                  <g-link to="/design-research-and-strategy" class="navigationHamburger__link">
                     > Design research & strategy
                   </g-link>
                 </li>
@@ -146,19 +146,19 @@
                   </g-link>
                 </li>
                 <li class="mb-2">
-                  <g-link to="/" class="navigationHamburger__link">
+                  <g-link to="/collaborative-team" class="navigationHamburger__link">
                     > Collaborative team
                   </g-link>
                 </li>
               </ul>
             </li>
             <li class="mb-4">
-              <g-link to="/" class="navigationHamburger__titleLink"
+              <g-link to="/progetti" class="navigationHamburger__titleLink"
                 >Progetti</g-link
               >
             </li>
             <li>
-              <g-link to="/" class="navigationHamburger__titleLink">
+              <g-link to="/chi-siamo" class="navigationHamburger__titleLink">
                 Chi siamo
               </g-link>
             </li>
@@ -257,7 +257,6 @@ export default {
   z-index: 11;
   border-radius: 100%;
   background: #000;
-
   @media screen and (max-width: 992px) {
     top: 10px;
     position: absolute;
@@ -304,7 +303,7 @@ export default {
     background-color: #fff;
     top: 5px;
     position: absolute;
-    transition: all 0.2s;
+    transition: transform 0.2s;
   }
   &:after {
     content: "";
@@ -313,7 +312,7 @@ export default {
     background-color: #fff;
     bottom: 5px;
     position: absolute;
-    transition: all 0.2s;
+    transition: transform 0.2s;
   }
   &--active {
     background-color: transparent !important;

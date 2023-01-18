@@ -1,62 +1,80 @@
 <template>
-  <div
-    class="letsTalk py-5 position-relative"
-    :class="{
-      'letsTalk--black': isIntersectingElement2,
-    }"
-  >
-    <g-image
-      src="~/assets/images/icon-bg.png"
-      class="letsTalk__deco"
+  <div>
+    <div
+      v-for="text in $static.texts.edges"
+      :key="text.id"
+      class="letsTalk py-5 position-relative"
       :class="{
-        'd-none': !isIntersectingElement2,
-        'd-block': isIntersectingElement2,
+        'letsTalk--black': isIntersectingElement2,
       }"
-    />
+    >
+      <g-image
+        src="~/assets/images/icon-bg.png"
+        class="letsTalk__deco"
+        :class="{
+          'd-none': !isIntersectingElement2,
+          'd-block': isIntersectingElement2,
+        }"
+      />
 
-    <div class="container text-center py-5">
-      <intersection-observer
-        class="letsTalk__intersection"
-        sentinal-name="sentinal-letsTalk"
-        @on-intersection-element="onIntersectionElement2"
-      ></intersection-observer>
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2 class="letsTalk__title mb-5">
-            Parliamo del tuo prossimo progetto?
-          </h2>
-          <p class="letsTalk__description mb-4 mx-auto">
-            Confrontiamoci su, Web Development, Saas, Web3, Blockchain, Consumer
-            app, b2b services
-          </p>
-          <g-link to="/contatti" class="btn btn-gradient-border mb-5">
-            Contattaci
-          </g-link>
-          <div>
-            <g-image
-              src="~/assets/images/logo/logix-short.svg"
-              class="letsTalk__logo mx-auto"
-              :class="{
-                'd-none': isIntersectingElement2,
-                'd-block': !isIntersectingElement2,
-              }"
-              alt="logo Logix"
-            />
-            <g-image
-              src="~/assets/images/logo/logix-short-white.svg"
-              class="letsTalk__logo mx-auto"
-              :class="{
-                'd-none': !isIntersectingElement2,
-                'd-block': isIntersectingElement2,
-              }"
-              alt="logo Logix"
-            />
+      <div class="container text-center py-5">
+        <intersection-observer
+          class="letsTalk__intersection"
+          sentinal-name="sentinal-letsTalk"
+          @on-intersection-element="onIntersectionElement2"
+        ></intersection-observer>
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="letsTalk__title mb-5">
+              {{ text.node.title }}
+            </h2>
+            <p class="letsTalk__description mb-4 mx-auto">
+              {{ text.node.description }}
+            </p>
+            <g-link to="/contatti" class="btn btn-gradient-border mb-5">
+              Contattaci
+            </g-link>
+            <div>
+              <g-image
+                src="~/assets/images/logo/logix-short.svg"
+                class="letsTalk__logo mx-auto"
+                :class="{
+                  'd-none': isIntersectingElement2,
+                  'd-block': !isIntersectingElement2,
+                }"
+                alt="logo Logix"
+              />
+              <g-image
+                src="~/assets/images/logo/logix-short-white.svg"
+                class="letsTalk__logo mx-auto"
+                :class="{
+                  'd-none': !isIntersectingElement2,
+                  'd-block': isIntersectingElement2,
+                }"
+                alt="logo Logix"
+              />
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<static-query>
+query {
+  texts: allLetsTalk {
+    edges {
+      node {
+        id
+        title
+        description
+      }
+    }
+  },
+}
+</static-query>
+
 
 <script>
 import IntersectionObserver from "~/components/IntersectionObserver.vue";

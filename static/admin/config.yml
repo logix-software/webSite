@@ -6,6 +6,14 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
+    - name: "letsTalk"
+      label: "Parliamone"
+      folder: "letsTalk"
+      create: false
+      slug: "{{slug}}"
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Description", name: "description", widget: "string"}
     - name: "home"
       label: "Home Page"
       folder: "home"
@@ -99,6 +107,29 @@ collections:
         - {label: "Section5Abstract", name: "section5Abstract", widget: "text"}
         - {label: "Cta2Title", name: "cta2Title", widget: "string"}
         - {label: "Cta2Green", name: "cta2Green", widget: "string"}
+        - {label: "OurApproachTitle", name: "ourApproachTitle", widget: "text"}
+        - {label: "OurApproachDescription", name: "ourApproachDescription", widget: "text"}
+        - {label: "OurApproachLink", name: "ourApproachLink", widget: "string"}
+        - {label: "AboutUsTitle", name: "aboutUsTitle", widget: "text"}
+        - {label: "AboutUsDescription", name: "aboutUsDescription", widget: "string"}
+        - {label: "aboutUsClientLogo1", name: "aboutUsClientLogo1", widget: "image"}
+        - {label: "aboutUsClientTitle1", name: "aboutUsClientTitle1", widget: "string"}
+        - {label: "aboutUsClientDescription1", name: "aboutUsClientDescription1", widget: "text"}
+        - {label: "aboutUsClientLogo2", name: "aboutUsClientLogo2", widget: "image"}
+        - {label: "aboutUsClientTitle2", name: "aboutUsClientTitle2", widget: "string"}
+        - {label: "aboutUsClientDescription2", name: "aboutUsClientDescription2", widget: "text"}
+        - {label: "aboutUsClientLogo3", name: "aboutUsClientLogo3", widget: "image"}
+        - {label: "aboutUsClientTitle3", name: "aboutUsClientTitle3", widget: "string"}
+        - {label: "aboutUsClientDescription3", name: "aboutUsClientDescription3", widget: "text"}
+        - {label: "aboutUsClientLogo4", name: "aboutUsClientLogo4", widget: "image"}
+        - {label: "aboutUsClientTitle4", name: "aboutUsClientTitle4", widget: "string"}
+        - {label: "aboutUsClientDescription4", name: "aboutUsClientDescription4", widget: "text"}
+        - {label: "aboutUsClientLogo5", name: "aboutUsClientLogo5", widget: "image"}
+        - {label: "aboutUsClientTitle5", name: "aboutUsClientTitle5", widget: "string"}
+        - {label: "aboutUsClientDescription5", name: "aboutUsClientDescription5", widget: "text"}
+        - {label: "aboutUsClientLogo6", name: "aboutUsClientLogo6", widget: "image"}
+        - {label: "aboutUsClientTitle6", name: "aboutUsClientTitle6", widget: "string"}
+        - {label: "aboutUsClientDescription6", name: "aboutUsClientDescription6", widget: "text"}
     - name: "competence"
       label: "Competence Page"
       folder: "competenze"
@@ -382,6 +413,19 @@ collections:
       fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "image", name: "image", widget: "image"}
+    - name: "services"
+      label: "Servizi"
+      folder: "services"
+      create: true
+      slug: "{{slug}}"
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "List1", name: "list1", widget: "string"}
+        - {label: "List2", name: "list2", widget: "string"}
+        - {label: "List3", name: "list3", widget: "string"}
+        - {label: "List4", name: "list4", widget: "string"}
+        - {label: "List5", name: "list5", widget: "string"}
+        - {label: "Link", name: "link", widget: "string"}
     - name: "proojectsComingSoon"
       label: "ProjectsComingSoon"
       folder: "progetti-coming-soon"

@@ -25,8 +25,7 @@
                 alt="dev"
               />
 
-              <h1 class="hero__title mb-5 mb-lg-0">
-                {{ text.node.headerTitle }}
+              <h1 class="hero__title mb-5 mb-lg-0" v-html="wrapAsteriskWords(text.node.headerTitle)">
               </h1>
             </div>
           </div>
@@ -69,169 +68,43 @@
       <div class="bg-gradient py-5 serviceList position-relative">
         <div class="container py-5">
           <div class="row" id="accordion" role="tablist">
-            <div class="col-lg-6">
-              <div role="tab" id="headingOne">
+            <div
+              class="col-lg-6"
+              v-for="(service, index) in $page.services.edges.slice(0, 6)"
+              :key="service.id"
+            >
+              <div role="tab" :id="`heading-${index}`">
                 <h2>
                   <a
                     role="button"
                     data-toggle="collapse"
                     data-parent="#accordion"
-                    href="#collapseOne"
+                    :href="`#collapseOne-${index}`"
                     aria-expanded="false"
-                    aria-controls="collapseOne"
+                    :aria-controls="`collapseOne-${index}`"
                     class="serviceList__title"
                   >
-                    Digital transformation >
+                    {{ service.node.title }}
                   </a>
                 </h2>
               </div>
               <div
                 role="tabpanel"
-                aria-labelledby="headingOne"
-                id="collapseOne"
+                :aria-labelledby="`heading-${index}`"
+                :id="`collapseOne-${index}`"
                 class="collapse serviceList__description"
               >
                 <ul class="list-unstyled">
-                  <li>Anlysis</li>
-                  <li>Presentation deck</li>
-                  <li>Stato dell’arte</li>
-                  <li>Prototyping</li>
-                  <li>Development</li>
-                  <li>Plan</li>
+                  <li>{{ service.node.list1 }}</li>
+                  <li>{{ service.node.list2 }}</li>
+                  <li>{{ service.node.list3 }}</li>
+                  <li>{{ service.node.list4 }}</li>
+                  <li>{{ service.node.list5 }}</li>
+                  <li>{{ service.node.list6 }}</li>
                 </ul>
-                <button class="btn btn-sm btn-outline">Approfondisci</button>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div role="tab" id="headingTwo">
-                <h2>
-                  <a
-                    role="button"
-                    data-toggle="collapse"
-                    data-parent="#accordion"
-                    href="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                    class="serviceList__title"
-                  >
-                    Design research & strategy >
-                  </a>
-                </h2>
-              </div>
-              <div
-                role="tabpanel"
-                aria-labelledby="headingTwo"
-                id="collapseTwo"
-                class="collapse serviceList__description"
-              >
-                <ul class="list-unstyled">
-                  <li>Anlysis</li>
-                  <li>Presentation deck</li>
-                  <li>Stato dell’arte</li>
-                  <li>Prototyping</li>
-                  <li>Development</li>
-                  <li>Plan</li>
-                </ul>
-                <button class="btn btn-sm btn-outline">Approfondisci</button>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div role="tab" id="headingThree">
-                <h2>
-                  <a
-                    role="button"
-                    data-toggle="collapse"
-                    data-parent="#accordion"
-                    href="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                    class="serviceList__title"
-                  >
-                    Progettazione Web3/NFT >
-                  </a>
-                </h2>
-              </div>
-              <div
-                role="tabpanel"
-                aria-labelledby="headingThree"
-                id="collapseThree"
-                class="collapse serviceList__description"
-              >
-                <ul class="list-unstyled">
-                  <li>Anlysis</li>
-                  <li>Presentation deck</li>
-                  <li>Stato dell’arte</li>
-                  <li>Prototyping</li>
-                  <li>Development</li>
-                  <li>Plan</li>
-                </ul>
-                <button class="btn btn-sm btn-outline">Approfondisci</button>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div role="tab" id="headingFour">
-                <h2>
-                  <a
-                    role="button"
-                    data-toggle="collapse"
-                    data-parent="#accordion"
-                    href="#collapseFour"
-                    aria-expanded="false"
-                    aria-controls="collapseFour"
-                    class="serviceList__title"
-                  >
-                    Collaborative team >
-                  </a>
-                </h2>
-              </div>
-              <div
-                role="tabpanel"
-                aria-labelledby="headingFour"
-                id="collapseFour"
-                class="collapse serviceList__description"
-              >
-                <ul class="list-unstyled">
-                  <li>Anlysis</li>
-                  <li>Presentation deck</li>
-                  <li>Stato dell’arte</li>
-                  <li>Prototyping</li>
-                  <li>Development</li>
-                  <li>Plan</li>
-                </ul>
-                <button class="btn btn-sm btn-outline">Approfondisci</button>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div role="tab" id="headingFive">
-                <h2>
-                  <a
-                    role="button"
-                    data-toggle="collapse"
-                    data-parent="#accordion"
-                    href="#collapseFive"
-                    aria-expanded="false"
-                    aria-controls="collapseFive"
-                    class="serviceList__title"
-                  >
-                    Sviluppo web e mobile >
-                  </a>
-                </h2>
-              </div>
-              <div
-                role="tabpanel"
-                aria-labelledby="headingFive"
-                id="collapseFive"
-                class="collapse serviceList__description"
-              >
-                <ul class="list-unstyled">
-                  <li>Anlysis</li>
-                  <li>Presentation deck</li>
-                  <li>Stato dell’arte</li>
-                  <li>Prototyping</li>
-                  <li>Development</li>
-                  <li>Plan</li>
-                </ul>
-                <button class="btn btn-sm btn-outline">Approfondisci</button>
+                <g-link :to="service.node.link" class="btn btn-sm btn-outline"
+                  >Approfondisci</g-link
+                >
               </div>
             </div>
           </div>
@@ -285,16 +158,13 @@
         <div class="container py-5">
           <div class="row">
             <div class="col-lg-6">
-              <h2 class="ourWay__title mb-5 pb-4">
-                Il nostro approccio fatto di <span>metodo</span> e giusti
-                strumenti
+              <h2 class="ourWay__title mb-5 pb-4" v-html="wrapAsteriskWords(text.node.ourApproachTitle)">
               </h2>
               <p class="ourWay__description mb-4">
-                Abbiamo sviluppato un nostro metodo di lavoro che, insieme ai
-                migliori strumenti a disposizione, ci permette di lavorare
-                attivamente con il cliente dalla progettazione al lancio.
+                {{ text.node.ourApproachDescription }}
               </p>
-              <button
+              <g-link
+                :to="text.node.ourApproachDescriptionLink"
                 class="btn btn-sm"
                 :class="{
                   'btn-outline': !isIntersectingElement,
@@ -302,7 +172,7 @@
                 }"
               >
                 Approfondisci
-              </button>
+              </g-link>
             </div>
             <div class="col-lg-6">
               <g-image src="~/assets/images/our-way.svg" class="ourWay__deco" />
@@ -331,12 +201,9 @@
         <div class="container mb-5">
           <div class="row">
             <div class="col-lg-7">
-              <h2 class="aboutUs__title mb-4">Cosa non dimentichiamo mai</h2>
+              <h2 class="aboutUs__title mb-4">{{ text.node.aboutUsTitle }}</h2>
               <p class="aboutUs__description">
-                Come sviluppatori, come designer, come professionisti, ma
-                soprattutto come persone, qui in Logix crediamo nel nostro
-                lavoro e pensiamo che, con i nostri valori e attravreso i nostri
-                progetti, almeno un po’, il mondo possa cambiare.
+                {{ text.node.aboutUsDescription }}
               </p>
             </div>
           </div>
@@ -401,80 +268,62 @@
           <div class="row mb-4">
             <div class="col-lg-4">
               <g-image
-                src="~/assets/images/logo/logix-software.svg"
+                :src="text.node.aboutUsClientLogo1"
                 class="listClients__logo mb-4"
-                alt="decoration"
+                :alt="text.node.aboutUsClientTitle1"
               />
               <p class="listClients__text">
-                Come sviluppatori, come designer, come professionisti, ma
-                soprattutto come persone, qui in Logix crediamo.Come
-                sviluppatori, come designer, come professionisti, ma soprattutto
-                come persone, qui in Logix crediamo.
+                {{ text.node.aboutUsClientDescription1 }}
               </p>
             </div>
             <div class="col-lg-4 mb-4">
               <g-image
-                src="~/assets/images/logo/logix-software.svg"
+                :src="text.node.aboutUsClientLogo2"
                 class="listClients__logo mb-4"
-                alt="decoration"
+                :alt="text.node.aboutUsClientTitle2"
               />
               <p class="listClients__text">
-                Come sviluppatori, come designer, come professionisti, ma
-                soprattutto come persone, qui in Logix crediamo.Come
-                sviluppatori, come designer, come professionisti, ma soprattutto
-                come persone, qui in Logix crediamo.
+                {{ text.node.aboutUsClientDescription2 }}
               </p>
             </div>
             <div class="col-lg-4 mb-4">
               <g-image
-                src="~/assets/images/logo/logix-software.svg"
+                :src="text.node.aboutUsClientLogo3"
                 class="listClients__logo mb-4"
-                alt="decoration"
+                :alt="text.node.aboutUsClientTitle3"
               />
               <p class="listClients__text">
-                Come sviluppatori, come designer, come professionisti, ma
-                soprattutto come persone, qui in Logix crediamo.Come
-                sviluppatori, come designer, come professionisti, ma soprattutto
-                come persone, qui in Logix crediamo.
+                {{ text.node.aboutUsClientDescription3 }}
               </p>
             </div>
             <div class="col-lg-4 mb-4">
               <g-image
-                src="~/assets/images/logo/logix-software.svg"
+                :src="text.node.aboutUsClientLogo4"
                 class="listClients__logo mb-4"
-                alt="decoration"
+                :alt="text.node.aboutUsClientTitle4"
               />
               <p class="listClients__text">
-                Come sviluppatori, come designer, come professionisti, ma
-                soprattutto come persone, qui in Logix crediamo.Come
-                sviluppatori, come designer, come professionisti, ma soprattutto
-                come persone, qui in Logix crediamo.
+                {{ text.node.aboutUsClientDescription4 }}
               </p>
             </div>
             <div class="col-lg-4">
               <g-image
-                src="~/assets/images/logo/logix-software.svg"
+                :src="text.node.aboutUsClientLogo5"
                 class="listClients__logo mb-4"
-                alt="decoration"
+                :alt="text.node.aboutUsClientTitle5"
               />
               <p class="listClients__text">
-                Come sviluppatori, come designer, come professionisti, ma
-                soprattutto come persone, qui in Logix crediamo.Come
-                sviluppatori, come designer, come professionisti, ma soprattutto
-                come persone, qui in Logix crediamo.
+                {{ text.node.aboutUsClientDescription5 }}
               </p>
             </div>
             <div class="col-lg-4">
               <g-image
-                src="~/assets/images/logo/logix-software.svg"
+                :src="text.node.aboutUsClientLogo6"
                 class="listClients__logo mb-4"
-                alt="decoration"
+                :alt="text.node.aboutUsClientTitle6"
               />
               <p class="listClients__text">
-                Come sviluppatori, come designer, come professionisti, ma
-                soprattutto come persone, qui in Logix crediamo.Come
-                sviluppatori, come designer, come professionisti, ma soprattutto
-                come persone, qui in Logix crediamo.
+                {{ text.node.aboutUsClientDescription6 }}
               </p>
             </div>
           </div>
@@ -1308,6 +1157,19 @@
 </template>
 <page-query>
 query {
+  services: allServices(order: DESC) {
+    edges {
+      node {
+        title
+        list1
+        list2
+        list3
+        list4
+        list5
+        link
+      }
+    }
+  },
   projects: allProjects(order: DESC) {
     edges {
       node {
@@ -1428,6 +1290,29 @@ query {
         section5Abstract
         cta2Title
         cta2Green
+        ourApproachTitle
+        ourApproachDescription
+        ourApproachLink
+        aboutUsTitle
+        aboutUsDescription
+        aboutUsClientLogo1
+        aboutUsClientTitle1
+        aboutUsClientDescription1
+        aboutUsClientLogo2
+        aboutUsClientTitle2
+        aboutUsClientDescription2
+        aboutUsClientLogo3
+        aboutUsClientTitle3
+        aboutUsClientDescription3
+        aboutUsClientLogo4
+        aboutUsClientTitle4
+        aboutUsClientDescription4
+        aboutUsClientLogo5
+        aboutUsClientTitle5
+        aboutUsClientDescription5
+        aboutUsClientLogo6
+        aboutUsClientTitle6
+        aboutUsClientDescription6
       }
     }
   }
@@ -1496,9 +1381,6 @@ export default {
       isIntersectingElement: false,
     };
   },
-  // metaInfo: {
-  //   title: "My blog"
-  // },
   mounted() {
     $(".owl-partners").owlCarousel({
       loop: true,
@@ -1528,29 +1410,6 @@ export default {
         },
       },
     });
-
-    let element = document.querySelector(".hero__title");
-    let word = "logiche";
-
-    element.innerHTML = element.innerHTML.replace(word, `<span>${word}</span>`);
-
-    let element1 = document.querySelector(".services__title");
-    let word2 = "creative";
-    let word3 = "personalizzate";
-    let word4 = "usabili";
-
-    element1.innerHTML = element1.innerHTML.replace(
-      word2,
-      `<span>${word2}</span>`
-    );
-    element1.innerHTML = element1.innerHTML.replace(
-      word3,
-      `<span>${word3}</span>`
-    );
-    element1.innerHTML = element1.innerHTML.replace(
-      word4,
-      `<span>${word4}</span>`
-    );
 
     // const secondWordNode = document.createElement("span");
     // secondWordNode.textContent = secondWord;
@@ -1689,6 +1548,13 @@ export default {
     }
   },
   methods: {
+    wrapAsteriskWords(str) {
+      var regex = /\*\w+/g;
+      var replaced = str.replace(regex, function (match) {
+        return "<span>" + match.slice(1) + "</span>";
+      });
+      return replaced;
+    },
     onIntersectionElement(value) {
       this.isIntersectingElement = value;
     },
