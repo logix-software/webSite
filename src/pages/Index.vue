@@ -192,10 +192,6 @@
               :src="logo.node.image"
               :alt="logo.node.title"
               class="partnership__logo"
-              :class="{
-                'text-black': !isIntersectingElement,
-                'text-white': isIntersectingElement,
-              }"
             />
           </div>
         </div>
@@ -1870,5 +1866,9 @@ export default {
     line-height: 20px;
     letter-spacing: -0.173906px;
   }
+}
+.owl-carousel .owl-stage-outer {
+    /* override */
+    overflow: initial!important;
 }
 </style>
