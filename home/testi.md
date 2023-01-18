@@ -1,6 +1,6 @@
 ---
 title: "Logix Software "
-headerTitle: Sviluppiamo nuove logiche digitali.
+headerTitle: Sviluppiamo nuove *logiche digitali.
 headerAbstract: Creiamo insieme il tuo progetto >
 headerImage: /uploads/hero-home.jpg
 headerLogo1: /uploads/logo-aosp.png
