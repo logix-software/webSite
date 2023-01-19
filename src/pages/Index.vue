@@ -182,7 +182,7 @@
             </div>
           </div>
         </div>
-        <div class="owl-carousel owl-theme owl-tech py-2">
+        <div class="owl-carousel owl-theme owl-tech py-2 owl-loaded">
           <div
             class="item listPartners"
             v-for="logo in $page.listTech.edges"
