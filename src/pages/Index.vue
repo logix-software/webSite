@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="bg-gray-dark pb-5">
-        <div class="owl-carousel owl-theme owl-partners py-2">
+        <div class="owl-carousel owl-theme owl-partners py-2 owl-loaded">
           <div
             class="item listPartners"
             v-for="partner in $page.partners.edges"
@@ -1867,8 +1867,8 @@ export default {
     letter-spacing: -0.173906px;
   }
 }
-.owl-carousel .owl-stage-outer {
-    opacity: 1!important;
-    display: block!important;
-}
+// .owl-hidden {
+//     opacity: 1!important;
+//     display: block!important;
+// }
 </style>
