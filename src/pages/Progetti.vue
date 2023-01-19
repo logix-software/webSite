@@ -74,22 +74,6 @@ query {
       node {
         title
         headerTitle1
-        headerTitle2
-        headerImage
-        toolsName
-        toolsTitle
-        toolsBox1Title
-        toolsBox1Subtitle
-        toolsBox1Hashtags
-        toolsBox1Description
-        toolsBox2Title
-        toolsBox2Subtitle
-        toolsBox2Hashtags
-        toolsBox2Description
-        toolsBox3Title
-        toolsBox3Subtitle
-        toolsBox3Hashtags
-        toolsBox3Description
       }
     }
   },
@@ -105,33 +89,6 @@ query {
       }
     }
   },
-  projectsComingSoon: allProjectsComingSoon(order: DESC) {
-    edges {
-      node {
-        title
-        imageList
-        image
-        hashtags
-        abstract
-      }
-    }
-  },
-  textsPartnership: allPartnership {
-    edges {
-      node {
-        sectionTitle
-        sectionName
-        logo1
-        logo2
-        logo3
-        logo4
-        sectionTitle2
-        sectionAbstract2
-        ctaTitle
-        ctaGreen
-      }
-    }
-  }
 }
 </page-query>
 <script>
@@ -200,8 +157,6 @@ export default {
   //   title: "My blog"
   // },
   mounted() {
-    AOS.init();
-
     var _this = this;
     this.widthScreen = screen.width;
     window.addEventListener("scroll", function () {
@@ -268,16 +223,6 @@ export default {
   background-color: #111111;
   min-height: 800px;
   position: relative;
-  &__deco1 {
-    position: absolute;
-    left: 0;
-    top: 100px;
-  }
-  &__deco2 {
-    right: 0;
-    bottom: 100px;
-    position: absolute;
-  }
   &__title {
     font-family: "Lexend Deca";
     font-weight: 300;
@@ -287,12 +232,6 @@ export default {
       font-size: 75px;
       line-height: 77px;
       letter-spacing: -4px;
-    }
-  }
-  &__img {
-    margin-top: -20px;
-    @media screen and (max-width: 992px) {
-      margin-top: 0;
     }
   }
 }
