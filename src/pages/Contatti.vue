@@ -14,10 +14,12 @@
             Scrivici e ti risponderemo al più presto!
           </p>
           <p class="modalContact__text">
-            <span class="text-green-contact">Scrivici:</span> info@logixcorp.it
+            <span class="text-green-contact">Scrivici: </span>
+            <a href="mailto:info@logixcorp.it" class="text-white">info@logixcorp.it</a>
           </p>
           <p class="modalContact__text">
-            <span class="text-green-contact">Chiamaci:</span> 0744/283733
+            <span class="text-green-contact">Chiamaci: </span>
+            <a href="tel:+0744283733" class="text-white">0744/283733</a>
           </p>
           <p class="modalContact__text">
             <span class="text-green-contact">Passa:</span> Via di Porta San
@@ -90,14 +92,36 @@
             <div class="col-lg-6">
               <div class="group">
                 <select v-model="formData.reason" name="reason" required>
-                  <option value="Ci contatti per" selected>
-                    Ci contatti per
-                  </option>
+                  <option value="Ci contatti per">Ci contatti per</option>
                   <option value="Digital">Digital tranformation</option>
                   <option value="Development">Sviluppo</option>
                   <option value="Design">Design</option>
                   <option value="Collaborative">Collaborative Team</option>
                   <option value="Job">Posizione lavorativa</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="group">
+                <select v-model="formData.budget" name="budget">
+                  <option value="Hai un budget di">Hai un budget di</option>
+                  <option value="Non lo so">Non lo so ancora</option>
+                  <option value="-30">meno di 30.000 €</option>
+                  <option value="30-70">tra 30.000€ - 70.000€</option>
+                  <option value="70+">più di 70.000€</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="group">
+                <select v-model="formData.deadline" name="deadline">
+                  <option value="Hai fissato una scadenza per">
+                    Hai fissato una scadenza per
+                  </option>
+                  <option value="Non lo so">Non lo so ancora</option>
+                  <option value="3+">3 mesi +</option>
+                  <option value="6+">6 mesi +</option>
+                  <option value="12+">12 mesi +</option>
                 </select>
               </div>
             </div>
@@ -171,6 +195,8 @@ export default {
     return {
       formData: {
         reason: "Ci contatti per",
+        budget: "Hai un budget di",
+        deadline: "Hai fissato una scadenza per",
       },
       fullInput: false,
     };

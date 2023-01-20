@@ -98,7 +98,7 @@
               Parliamo del tuo progetto?
             </h2>
             <g-link
-              to="/contattaci"
+              to="/contatti"
               class="btn btn-gradient-border btn-gradient-border--white"
               >Contattaci</g-link
             >

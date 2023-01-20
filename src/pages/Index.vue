@@ -26,7 +26,7 @@
 
               <h1
                 class="hero__title mb-5 mb-lg-0"
-                v-html="wrapAsteriskWords(text.node.headerTitle)"
+                v-html="text.node.headerTitle"
               ></h1>
             </div>
           </div>
@@ -56,9 +56,10 @@
         <div class="container services my-5 py-5 text-center">
           <div class="row">
             <div class="col-lg-11 mx-auto mt-5">
-              <h2 class="services__title mb-4">
-                {{ text.node.section1Title }}
-              </h2>
+              <h2
+                class="services__title mb-4"
+                v-html="text.node.section1Title"
+              ></h2>
               <p class="services__description">
                 {{ text.node.section1Abstract }}
               </p>
@@ -161,7 +162,7 @@
             <div class="col-lg-6">
               <h2
                 class="ourWay__title mb-5 pb-4"
-                v-html="wrapAsteriskWords(text.node.ourApproachTitle)"
+                v-html="text.node.ourApproachTitle"
               ></h2>
               <p class="ourWay__description mb-4">
                 {{ text.node.ourApproachDescription }}
@@ -263,7 +264,7 @@
             </div>
           </div>
         </div>
-        <div class="container listClients p-5 ">
+        <div class="container listClients p-5">
           <div class="row mb-4">
             <div class="col-lg-4">
               <g-image
@@ -575,13 +576,6 @@ export default {
     }, 500);
   },
   methods: {
-    wrapAsteriskWords(str) {
-      var regex = /\*\w+/g;
-      var replaced = str.replace(regex, function (match) {
-        return "<span>" + match.slice(1) + "</span>";
-      });
-      return replaced;
-    },
     onIntersectionElement(value) {
       this.isIntersectingElement = value;
     },
@@ -690,17 +684,6 @@ export default {
     font-weight: 300;
     letter-spacing: -5.61316px;
     line-height: 94px;
-    span {
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-image: linear-gradient(
-        98.09deg,
-        #36f2b9 37.9%,
-        #7878f9 50.47%,
-        #f60994 62.93%
-      );
-    }
     @media screen and (max-width: 1025px) {
       font-size: 70px;
     }
@@ -745,40 +728,6 @@ export default {
     font-size: 77px;
     line-height: 77px;
     letter-spacing: -3.5px;
-    span {
-      &:nth-child(1) {
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-image: linear-gradient(
-          286.48deg,
-          #36f2b9 -26.84%,
-          #7878f9 60.85%,
-          #f60994 115.74%
-        );
-      }
-      &:nth-child(2) {
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-image: linear-gradient(
-          287.05deg,
-          #36f2b9 15.43%,
-          #7878f9 45.24%,
-          #f60994 66.92%
-        );
-      }
-      &:nth-child(3) {
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-image: linear-gradient(
-          103.3deg,
-          #36f2b9 15.36%,
-          #7878f9 107.51%
-        );
-      }
-    }
     @media screen and (max-width: 992px) {
       font-size: 40px;
       line-height: initial;
@@ -842,17 +791,6 @@ export default {
       font-size: 65px;
       line-height: 57px;
       letter-spacing: -0.025em;
-    }
-    span {
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-image: linear-gradient(
-        98.97deg,
-        #36f2b9 24.02%,
-        #7878f9 48.35%,
-        #f60994 74.9%
-      );
     }
   }
   &__description {
@@ -944,8 +882,4 @@ export default {
     letter-spacing: -0.173906px;
   }
 }
-// .owl-hidden {
-//     opacity: 1!important;
-//     display: block!important;
-// }
 </style>

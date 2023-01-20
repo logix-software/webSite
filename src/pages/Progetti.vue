@@ -15,25 +15,10 @@
               :class="{
                 'text-white': scrollTop > 200,
               }"
-            >
-              {{ text.node.headerTitle1 }}
-            </h1>
+              v-html="text.node.headerTitle1"
+            ></h1>
           </div>
         </div>
-
-        <!-- <h1
-          class="hero__title text-right"
-          data-aos="fade-left"
-          data-aos-delay="200"
-          data-aos-duration="700"
-        >{{text.node.headerTitle2}}</h1> -->
-        <!-- <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <g-image :src="text.node.headerImage" class="hero__img" />
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
     <div class="container" id="list-projects">
@@ -162,24 +147,6 @@ export default {
     window.addEventListener("scroll", function () {
       _this.scrollTop = window.pageYOffset;
     });
-
-    let element1 = document.querySelector(".hero__title");
-    let word2 = "progetti";
-    let word3 = " e ";
-    let word4 = "clienti";
-
-    element1.innerHTML = element1.innerHTML.replace(
-      word2,
-      `<span>${word2}</span>`
-    );
-    element1.innerHTML = element1.innerHTML.replace(
-      word3,
-      `<span>${word3}</span>`
-    );
-    element1.innerHTML = element1.innerHTML.replace(
-      word4,
-      `<span>${word4}</span>`
-    );
   },
   methods: {
     getClassWidth(index) {
@@ -201,23 +168,6 @@ export default {
   },
 };
 </script>
-<style lang="scss">
-.hero {
-  &__title {
-    span {
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-image: linear-gradient(
-        98.09deg,
-        #36f2b9 37.9%,
-        #7878f9 50.47%,
-        #f60994 62.93%
-      );
-    }
-  }
-}
-</style>
 <style lang="scss" scoped>
 .hero {
   background-color: #111111;
