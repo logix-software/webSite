@@ -11,7 +11,7 @@ section1Title: 'Da più di dieci anni collaboriamo con le aziende per costruire
 section1Abstract: "Come partner affianchiamo i nostri clienti in ogni fase del
   ciclo di sviluppo del software: dalla ricerca, al design e sviluppo, alla
   creazione di MVP al restyling di prodotti digitali."
-ourApproachTitle: Il nostro approccio fatto di *metodo e giusti strumenti
+ourApproachTitle: Il nostro approccio fatto di <span class="text-gradient-1">metodo</span> e giusti strumenti
 ourApproachDescription: Abbiamo sviluppato un nostro metodo di lavoro che, insieme ai migliori strumenti a disposizione, ci  permette di lavorare attivamente con il cliente dalla progettazione al lancio.
 ourApproachLink: /
 aboutUsTitle: Cosa non dimentichiamo mai

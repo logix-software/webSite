@@ -216,9 +216,9 @@ export default {
   }
   &__title {
     font-weight: 500;
-    font-size: 40px;
+    font-size: 38px;
     line-height: 56px;
-    letter-spacing: -0.6px;
+    letter-spacing: -1px;
     text-decoration: underline;
   }
   &__abstract {

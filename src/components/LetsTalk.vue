@@ -5,6 +5,7 @@
       :key="text.id"
       class="letsTalk py-5 position-relative"
       :class="{
+        'letsTalk--white': !isIntersectingElement2,
         'letsTalk--black': isIntersectingElement2,
       }"
     >
@@ -113,6 +114,13 @@ export default {
     color: #fff;
     .btn {
       color: #fff;
+    }
+  }
+  &--white {
+    background: #FFF;
+    color: #000;
+    .btn {
+      color: #000;
     }
   }
   &__intersection {

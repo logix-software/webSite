@@ -3,231 +3,6 @@
     <Navbar />
     <slot />
     <Footer />
-    <!-- Modal -->
-    <!-- <div
-      class="modal fade modalContact"
-      id="modalContact"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="modalContactLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-11 position-relative">
-                  <g-link to="/" class>
-                    <g-image
-                      src="~/assets/images/logo/logix-software.svg"
-                      class="header__logo"
-                      alt="logix-software"
-                    />
-                  </g-link>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <svg
-                      width="20px"
-                      height="20px"
-                      viewBox="0 0 20 20"
-                      version="1.1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                    >
-                      <title>Group@3x</title>
-                      <desc>Created with Sketch.</desc>
-                      <g
-                        id="UI"
-                        stroke="none"
-                        stroke-width="1"
-                        fill="none"
-                        fill-rule="evenodd"
-                        stroke-linecap="square"
-                      >
-                        <g
-                          id="A.2.0---Contattaci"
-                          transform="translate(-1233.000000, -43.000000)"
-                          stroke="#FFFFFF"
-                          stroke-width="1.44"
-                        >
-                          <g
-                            id="Group"
-                            transform="translate(1243.000000, 53.000000) scale(-1, 1) translate(-1243.000000, -53.000000) translate(1234.000000, 44.000000)"
-                          >
-                            <line
-                              x1="0.0967741935"
-                              y1="17.5714286"
-                              x2="17.516129"
-                              y2="0.428571429"
-                              id="Line-3-Copy"
-                            />
-                            <line
-                              x1="0.0967741935"
-                              y1="17.5714286"
-                              x2="17.516129"
-                              y2="0.428571429"
-                              id="Line-3-Copy"
-                              transform="translate(9.000000, 9.000000) scale(-1, 1) translate(-9.000000, -9.000000) "
-                            />
-                          </g>
-                        </g>
-                      </g>
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-body d-flex align-items-center">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-4">
-                  <g-image
-                    src="~/assets/images/deco-square.svg"
-                    class="modalContact__deco"
-                    alt="decoration"
-                  />
-                  <h1 class="modalContact__title">Contattaci</h1>
-                  <p class="modalContact__description mb-5">
-                    Qualunque sia la sfida saremo sempre felici 😃 di parlare
-                    con te. Scrivici e ti risponderemo al più presto!
-                  </p>
-                  <p class="modalContact__text">
-                    <span class="text-green-contact">Scrivici:</span>
-                    info@logixcorp.it
-                  </p>
-                  <p class="modalContact__text">
-                    <span class="text-green-contact">Chiamaci:</span>
-                    0744/283733
-                  </p>
-                  <p class="modalContact__text">
-                    <span class="text-green-contact">Passa:</span> Via di Porta
-                    San Giovanni, 28 - 05100 Terni (TR)
-                  </p>
-                </div>
-                <div
-                  class="col-lg-8 pl-lg-5 d-flex align-items-center text-center"
-                  v-if="formSent == true"
-                >
-                  <div class="formSent text-center">
-                    <h1 class="modalContact__title">
-                      Grazie per averci contattato
-                    </h1>
-                    <g-image
-                      src="~/assets/images/icons/sent.svg"
-                      class="mt-3 mx-auto"
-                      alt="check sent"
-                    />
-                  </div>
-                </div>
-                <form
-                  v-else
-                  class="col-lg-8 pl-lg-5 d-flex align-items-center"
-                  name="contact"
-                  method="post"
-                  v-on:submit.prevent="handleSubmit"
-                  action="/success/"
-                  data-netlify="true"
-                  data-netlify-honeypot="bot-field"
-                >
-                  <input type="hidden" name="form-name" value="contact" />
-                  <p hidden>
-                    <label>
-                      Don’t fill this out:
-                      <input name="bot-field" />
-                    </label>
-                  </p>
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="group">
-                        <input
-                          type="text"
-                          name="name"
-                          v-model="formData.name"
-                          required
-                        />
-                        <span class="highlight"></span>
-                        <span class="bar"></span>
-                        <label>Name</label>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="group">
-                        <input
-                          type="email"
-                          name="email"
-                          v-model="formData.email"
-                          required
-                        />
-                        <span class="highlight"></span>
-                        <span class="bar"></span>
-                        <label>Email</label>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="group">
-                        <input
-                          type="text"
-                          name="company"
-                          v-model="formData.company"
-                          required
-                        />
-                        <span class="highlight"></span>
-                        <span class="bar"></span>
-                        <label>Azienda (opzionale)</label>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="group">
-                        <select
-                          v-model="formData.reason"
-                          name="reason"
-                          required
-                        >
-                          <option value="Ci contatti per" selected>
-                            Ci contatti per
-                          </option>
-                          <option value="Digital">Digital tranformation</option>
-                          <option value="Development">Sviluppo</option>
-                          <option value="Design">Design</option>
-                          <option value="Collaborative">
-                            Collaborative Team
-                          </option>
-                          <option value="Job">Posizione lavorativa</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="group">
-                        <textarea
-                          name="message"
-                          v-model="formData.message"
-                          required
-                          row="6"
-                        />
-                        <span class="highlight"></span>
-                        <span class="bar"></span>
-                        <label>Messaggio</label>
-                      </div>
-                    </div>
-                    <div class="col-lg-12 text-right">
-                      <button type="submit" class="btn btn-secondary">
-                        Invia messaggio
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
   </div>
 </template>
 <static-query>
@@ -448,7 +223,7 @@ h6 {
   outline: none !important;
   box-shadow: none !important;
   border: 1px solid transparent !important;
-  
+
   &:hover {
     border: 1px solid transparent !important;
     background-color: #eceafd !important;
@@ -468,7 +243,7 @@ h6 {
   border-radius: 5px;
   border: 0;
   &--white {
-    color: #fff!important;
+    color: #fff !important;
   }
   &:before {
     content: "";
@@ -487,6 +262,7 @@ h6 {
     background: linear-gradient(45deg, #f60994, #7878f9, #faca00, #36f2b9);
     color: #fff !important;
     text-decoration: none;
+    border: 0 !important;
     animation: gradient-animation 1.6s linear infinite alternate;
     &:before {
       display: none;
@@ -495,13 +271,6 @@ h6 {
       display: none;
     }
   }
-  // &:focus,
-  // &:active {
-  //   box-shadow: none !important;
-  //   color: #3838c4 !important;
-  //   border: 1px solid #3838c4 !important;
-  //   background-color: #ffffff !important;
-  // }
   @keyframes gradient-animation {
     0% {
       background: linear-gradient(45deg, #f60994, #7878f9, #faca00, #36f2b9);
@@ -721,6 +490,49 @@ h6 {
       #f60994 193.86%
     );
   }
+}
+.text-gradient-1 {
+  padding-right: 2px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(
+    98.09deg,
+    #36f2b9 37.9%,
+    #7878f9 50.47%,
+    #f60994 98.93%
+  );
+}
+.text-gradient-2 {
+  padding-right: 2px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(
+    -123.52deg,
+    #36f2b9 -296.84%,
+    #7878f9 60.85%,
+    #f60994 115.74%
+  );
+}
+.text-gradient-3 {
+  padding-right: 2px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(
+    287.05deg,
+    #36f2b9 15.43%,
+    #7878f9 45.24%,
+    #f60994 123.92%
+  );
+}
+.text-gradient-4 {
+  padding-right: 2px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(103.3deg, #36f2b9 15.36%, #7878f9 127.51%);
 }
 
 .bg-gray-dark {
