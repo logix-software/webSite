@@ -1,6 +1,6 @@
 ---
 title: "Logix Software "
-headerTitle: Sviluppiamo nuove *logiche digitali.
+headerTitle: Sviluppiamo nuove <span class="text-gradient-1">logiche</span> digitali.
 headerAbstract: Creiamo insieme il tuo progetto >
 headerImage: /uploads/hero-home.jpg
 headerLogo1: /uploads/logo-aosp.png
@@ -8,8 +8,10 @@ headerLogo2: /uploads/logo-ast.png
 headerLogo3: /uploads/logo-cogne.png
 headerLogo4: /uploads/logo-umbriadigitale.png
 section1Name: SERVIZI
-section1Title: "Da più di dieci anni collaboriamo con le aziende per costruire
-  soluzioni digitali creative, personalizzate e usabili. "
+section1Title: 'Da più di dieci anni collaboriamo con le aziende per costruire
+  soluzioni digitali <span class="text-gradient-2">creative</span>, <span
+  class="text-gradient-3">personalizzate</span> e <span
+  class="text-gradient-4">usabili</span>. '
 section1Abstract: "Come partner affianchiamo i nostri clienti in ogni fase del
   ciclo di sviluppo del software: dalla ricerca, al design e sviluppo, alla
   creazione di MVP al restyling di prodotti digitali."
