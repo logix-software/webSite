@@ -684,13 +684,10 @@ export default {
     font-weight: 300;
     letter-spacing: -5.61316px;
     line-height: 94px;
-    @media screen and (max-width: 1025px) {
-      font-size: 70px;
-    }
-    @media screen and (max-width: 576px) {
-      font-size: 50px !important;
-      letter-spacing: initial;
-      line-height: initial;
+    @media screen and (max-width: 992px) {
+      font-size: 60px !important;
+      letter-spacing: -0.05em;
+      line-height: 4.25rem;
     }
   }
   &__description {
@@ -729,9 +726,9 @@ export default {
     line-height: 77px;
     letter-spacing: -3.5px;
     @media screen and (max-width: 992px) {
-      font-size: 40px;
-      line-height: initial;
-      letter-spacing: initial;
+      font-size: 45px;
+      line-height: 2.8rem;
+      letter-spacing: -0.05em;
     }
   }
   &__description {
@@ -750,7 +747,7 @@ export default {
 .serviceList {
   &__title {
     font-weight: 400;
-    font-size: 26px;
+    font-size: 35px;
     text-decoration: underline;
     color: #000;
     font-family: "Lexend Deca";
@@ -767,6 +764,9 @@ export default {
     font-weight: 400;
     font-size: 22px;
     line-height: 29px;
+    @media screen and (max-width: 992px) {
+     letter-spacing: -0.025em;
+    }
   }
 }
 

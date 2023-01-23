@@ -16,9 +16,11 @@
         <li
           class="appProject__label"
           :class="{
-            'appProject__label--development': label1.toLowerCase() === 'development',
+            'appProject__label--development':
+              label1.toLowerCase() === 'development',
             'appProject__label--design': label1.toLowerCase() === 'design',
-            'appProject__label--strategist': label1.toLowerCase() === 'strategist',
+            'appProject__label--strategist':
+              label1.toLowerCase() === 'strategist',
           }"
           v-if="label1"
         >
@@ -28,9 +30,11 @@
           class="appProject__label mx-1"
           v-if="label2"
           :class="{
-            'appProject__label--development': label2.toLowerCase() === 'development',
+            'appProject__label--development':
+              label2.toLowerCase() === 'development',
             'appProject__label--design': label2.toLowerCase() === 'design',
-            'appProject__label--strategist': label2.toLowerCase() === 'strategist',
+            'appProject__label--strategist':
+              label2.toLowerCase() === 'strategist',
           }"
         >
           {{ label2 }}
@@ -39,9 +43,11 @@
           class="appProject__label"
           v-if="label3"
           :class="{
-            'appProject__label--development': label3.toLowerCase() === 'development',
+            'appProject__label--development':
+              label3.toLowerCase() === 'development',
             'appProject__label--design': label3.toLowerCase() === 'design',
-            'appProject__label--strategist': label3.toLowerCase() === 'strategist',
+            'appProject__label--strategist':
+              label3.toLowerCase() === 'strategist',
           }"
         >
           {{ label3 }}
@@ -215,9 +221,9 @@ export default {
     letter-spacing: 1px;
   }
   &__title {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 38px;
-    line-height: 56px;
+    line-height: 50px;
     letter-spacing: -1px;
     text-decoration: underline;
   }

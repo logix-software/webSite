@@ -8,7 +8,7 @@
     <Navbar :color="scrollTop < 200 ? 'white' : 'default'" />
     <div v-for="text in $page.texts.edges" :key="text.id">
       <div class="container py-5">
-        <div class="row py-5">
+        <div class="row pt-5">
           <div class="col-lg-9">
             <h1
               class="hero__title"
@@ -176,7 +176,9 @@ export default {
   &__title {
     font-family: "Lexend Deca";
     font-weight: 300;
-    font-size: 46px;
+    font-size: 50px;
+    letter-spacing: -0.05em;
+    line-height: 3.5rem;
 
     @media screen and (min-width: 992px) {
       font-size: 75px;
