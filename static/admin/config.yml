@@ -397,7 +397,6 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "HeaderTitle1", name: "headerTitle1", widget: "string" }
-      - { label: "UrlVideo", name: "urlVideo", widget: "string" }
       - { label: "HeaderTitle2", name: "headerTitle2", widget: "string" }
       - { label: "HeaderImage", name: "headerImage", widget: "image" }
       - { label: "SectionTitle", name: "sectionTitle", widget: "text" }
@@ -569,6 +568,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "SubTitle", name: "subTitle", widget: "string" }
+      - { label: "UrlVideo", name: "urlVideo", widget: "string" }
       - { label: "LogoClient", name: "logoClient", widget: "image" }
       - { label: "Abstract", name: "abstract", widget: "text" }
       - { label: "DescriptionLogo", name: "descriptionLogo", widget: "text" }
