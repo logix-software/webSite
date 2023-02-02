@@ -1,16 +1,26 @@
 ---
 title: A.BIUNO – Sito eCommerce
 subTitle: A.BIUNO – Sito eCommerce
-logoClient: /uploads/abiuno_hero.png
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
+logoClient: /uploads/abiuno_hero.png
 abstract: Lorem ipsum lore ipsum e lorem ipsum perchè loremipsum e dai lorem ipsum
-descriptionLogo: Per la linea di abbigliamento e accessori A.BIUNO abbiamo realizzato un sito eCommerce per permettere agli utenti di scoprire non solo la storia, i valori e le creazioni del brand, ma anche di acquistare senza vincoli di distanza e tempo. Un progetto curato da noi a partire dalla fase di progettazione, fino al design e lo sviluppo, insieme al copy e a tutte le diverse attività finalizzate all’ottimizzazione in chiave SEO.
-descriptionClient: Per la linea di abbigliamento e accessori A.BIUNO abbiamo realizzato un sito eCommerce per permettere agli utenti di scoprire non solo la storia, i valori e le creazioni del brand, ma anche di acquistare senza vincoli di distanza e tempo. Un progetto curato da noi a partire dalla fase di progettazione, fino al design e lo sviluppo, insieme al copy e a tutte le diverse attività finalizzate all’ottimizzazione in chiave SEO.
+descriptionLogo: Per la linea di abbigliamento e accessori A.BIUNO abbiamo
+  realizzato un sito eCommerce per permettere agli utenti di scoprire non solo
+  la storia, i valori e le creazioni del brand, ma anche di acquistare senza
+  vincoli di distanza e tempo. Un progetto curato da noi a partire dalla fase di
+  progettazione, fino al design e lo sviluppo, insieme al copy e a tutte le
+  diverse attività finalizzate all’ottimizzazione in chiave SEO.
+descriptionClient: Per la linea di abbigliamento e accessori A.BIUNO abbiamo
+  realizzato un sito eCommerce per permettere agli utenti di scoprire non solo
+  la storia, i valori e le creazioni del brand, ma anche di acquistare senza
+  vincoli di distanza e tempo. Un progetto curato da noi a partire dalla fase di
+  progettazione, fino al design e lo sviluppo, insieme al copy e a tutte le
+  diverse attività finalizzate all’ottimizzazione in chiave SEO.
 imageList: /uploads/abiuno-_-preview.png
 hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
 image1: /uploads/abiuno_hero.png
 image1Style: horizontal
-image2: /uploads/abiuno_hero.png
+image2: /uploads/ezgif.com-gif-maker-1-.gif
 image2Style: vertical
 image3: /uploads/abiuno_hero.png
 image3Style: vertical
