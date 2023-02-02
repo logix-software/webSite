@@ -205,7 +205,7 @@ export default {
     &--design {
       background: linear-gradient(102.23deg, #36f2b9 -39.46%, #7878f9 30.96%);
     }
-    &__strategist {
+    &--strategist {
       background: linear-gradient(
         103.38deg,
         #36f2b9 -114.97%,

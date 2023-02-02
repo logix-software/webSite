@@ -24,7 +24,7 @@
     <div class="container" id="list-projects">
       <div class="row py-5">
         <ParallaxContainer
-          v-for="(project, index) in $page.projects.edges.slice(0, 6)"
+          v-for="(project, index) in $page.projects.edges"
           :key="project.id"
           :class="getClassWidth(index + 1)"
         >

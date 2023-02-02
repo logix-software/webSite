@@ -1,287 +1,424 @@
 <template>
   <Layout>
-    <div class="hero d-flex align-items-center">
+    <div class="hero py-5 d-flex align-items-end">
+      <video autoplay muted loop id="myVideo">
+        <source :src="$page.project.urlVideo" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h1 class="hero__title">{{$page.project.title}}</h1>
-            <div class="mb-3">
-              <span class="label label--dev mr-3">DEVELOPMENT</span>
-              <span class="label label--des">DESIGN</span>
-            </div>
-            <p class="hero__hashtags mb-0">{{$page.project.hashtags}}</p>
-          </div>
-        </div>
+        <h1 class="hero__title">{{ $page.project.title }}</h1>
+        <h6 class="hero__subtitle">{{ $page.project.subTitle }}</h6>
       </div>
     </div>
-    <div class="imgPrimary" :style="{ 'background-image': 'url(' + $page.project.image1 + ')' }"></div>
-    <div class="theProject d-flex align-items-center">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col-lg-12">
-            <h1 class="theProject__title">{{$page.project.sectionTitle}}</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <p class="theProject__description" v-html="$page.project.content"></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="info1 d-flex align-items-center py-5" v-if="$page.project.numberSections > 0">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 mx-auto d-flex align-items-center justify-content-center order-1 order-lg-0">
-            <g-image :src="$page.project.image2" class="info1__img" />
-          </div>
-          <div class="col-lg-6 mx-auto d-flex align-items-center order-0 order-lg-1">
-            <div>
-              <h1 class="info1__title mb-3">{{$page.project.title2}}</h1>
-              <p class="info1__description">{{$page.project.abstract2}}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="info2 d-flex align-items-center py-5 mb-5" v-if="$page.project.numberSections > 1">
-      <div class="container mb-lg-5">
-        <div class="row mb-lg-5">
-          <div class="col-lg-6 mx-auto d-flex align-items-center">
-            <div>
-              <h1 class="info2__title mb-3">{{$page.project.title3}}</h1>
-              <p class="info2__description">{{$page.project.abstract3}}</p>
-            </div>
-          </div>
-          <div class="col-lg-4 mx-auto text-center d-flex align-items-center justify-content-center">
-            <g-image :src="$page.project.image3" class="info2__img" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="info1 d-flex align-items-center py-5" v-if="$page.project.numberSections > 2">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 mx-auto d-flex align-items-center justify-content-center order-1 order-lg-0" v-if="$page.project.image4">
-            <g-image :src="$page.project.image4" class="info1__img" />
-          </div>
-          <div class="col-lg-6 mx-auto"
-            :class="{
-              'text-center': !$page.project.image4
-            }">
-            <div>
-              <h1 class="info1__title mb-3">{{$page.project.title4}}</h1>
-              <p class="info1__description">{{$page.project.abstract4}}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="info2 d-flex align-items-center py-5 mb-5" v-if="$page.project.numberSections > 3">
-      <div class="container mb-lg-5">
-        <div class="row mb-lg-5">
-          <div class="col-lg-6 mx-auto d-flex align-items-center"
-            :class="{
-              'text-center': !$page.project.image5
-            }">
-            <div>
-              <h1 class="info2__title mb-3">{{$page.project.title5}}</h1>
-              <p class="info2__description">{{$page.project.abstract5}}</p>
-            </div>
-          </div>
-          <div class="col-lg-4 mx-auto text-center d-flex align-items-center justify-content-center" v-if="$page.project.image5">
-            <g-image :src="$page.project.image5" class="info2__img" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container my-5 my-sm-0">
+    <div class="container py-5">
       <div class="row">
-        <div class="col-lg-10 mt-5 mt-sm-0 ml-auto position-relative">
-          <div class="cta">
-            <g-image src="~/assets/images/deco3.svg" class="cta__deco" alt="decoration"/>
-            <div class="d-lg-flex align-items-center justify-content-between">
-              <h1 class="cta__title">
-                Pronto a realizzare la tua prossima
-                <span class="text-blue">innovazione</span>?
-              </h1>
-              <g-link to="/contatti" class="btn btn-primary">
-                Contattaci
-              </g-link>
-            </div>
+        <div class="col-lg-3 client">
+          <g-image
+            :src="$page.project.logoClient"
+            class="client__logo mb-4"
+          ></g-image>
+          <p class="client__abstract mb-5">
+            {{ $page.project.descriptionLogo }}
+          </p>
+          <div class="flex items-center mb-3">
+            <span class="label label--development">DEVELOPMENT</span>
+            <span class="label label--design mx-1">DESIGN</span>
+            <span class="label label--strategist">STRATEGIST</span>
+          </div>
+          <p class="client__hashtags">
+            {{ $page.project.hashtags }}
+          </p>
+        </div>
+        <div class="col-lg-9 pl-lg-5">
+          <div class="pl-lg-5 mb-5">
+            <h2 class="title">Il cliente</h2>
+            <p class="description">
+              {{ $page.project.descriptionClient }}
+            </p>
+          </div>
+          <div class="pl-lg-5 mb-5">
+            <h2 class="title">Il progetto</h2>
+            <div class="description" v-html="$page.project.content"></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="testimonial d-flex align-items-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 d-flex align-items-center">
-            <h1 class="testimonial__title">{{$page.project.section2Title}}</h1>
-          </div>
-          <div class="col-lg-4">
-            <h6 class="testimonial__description mb-3">{{$page.project.section2Feedback}}</h6>
-            <div class="d-flex align-items-center">
-              <div class="mr-3">
-                <div
-                  class="testimonial__photo"
-                  :style="{ 'background-image': 'url(' + $page.project.section2Image + ')' }"
-                ></div>
-              </div>
-              <div>
-                <h6 class="testimonial__name">{{$page.project.section2Name}}</h6>
-                <p class="testimonial__position mb-0">{{$page.project.section2Position}}</p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="container pb-5">
+      <div class="row">
+        <g-image
+          v-if="$page.project.image1"
+          :src="$page.project.image1"
+          class="image mb-4"
+          :class="{
+            'col-lg-12': $page.project.image1Style === 'horizontal',
+            'col-lg-6': $page.project.image1Style !== 'horizontal',
+          }"
+        ></g-image>
+        <g-image
+          v-if="$page.project.image2"
+          :src="$page.project.image2"
+          class="image mb-4"
+          :class="{
+            'col-lg-12': $page.project.image2Style === 'horizontal',
+            'col-lg-6': $page.project.image2Style !== 'horizontal',
+          }"
+        ></g-image>
+        <g-image
+          v-if="$page.project.image3"
+          :src="$page.project.image3"
+          class="image mb-4"
+          :class="{
+            'col-lg-12': $page.project.image3Style === 'horizontal',
+            'col-lg-6': $page.project.image3Style !== 'horizontal',
+          }"
+        ></g-image>
+        <g-image
+          v-if="$page.project.image4"
+          :src="$page.project.image4"
+          class="image mb-4"
+          :class="{
+            'col-lg-12': $page.project.image4Style === 'horizontal',
+            'col-lg-6': $page.project.image4Style !== 'horizontal',
+          }"
+        ></g-image>
+        <g-image
+          v-if="$page.project.image5"
+          :src="$page.project.image5"
+          class="image mb-4"
+          :class="{
+            'col-lg-12': $page.project.image5Style === 'horizontal',
+            'col-lg-6': $page.project.image5Style !== 'horizontal',
+          }"
+        ></g-image>
+        <g-image
+          v-if="$page.project.image6"
+          :src="$page.project.image6"
+          class="image mb-4"
+          :class="{
+            'col-lg-12': $page.project.image6Style === 'horizontal',
+            'col-lg-6': $page.project.image6Style !== 'horizontal',
+          }"
+        ></g-image>
+        <g-image
+          v-if="$page.project.image7"
+          :src="$page.project.image7"
+          class="image mb-4"
+          :class="{
+            'col-lg-12': $page.project.image7Style === 'horizontal',
+            'col-lg-6': $page.project.image7Style !== 'horizontal',
+          }"
+        ></g-image>
+        <g-image
+          v-if="$page.project.image8"
+          :src="$page.project.image8"
+          class="image mb-4"
+          :class="{
+            'col-lg-12': $page.project.image8Style === 'horizontal',
+            'col-lg-6': $page.project.image8Style !== 'horizontal',
+          }"
+        ></g-image>
       </div>
     </div>
-    <div class="projectSecondary py-5 my-lg-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 mx-auto text-center">
-            <h1 class="projectSecondary__title">{{$page.project.section3Title}}</h1>
-            <p class="projectSecondary__description mb-5">{{$page.project.section3Abstract}}</p>
-          </div>
-        </div>
+    <div class="container py-5">
+      <h5 class="titleTeam mb-5">Team operativo</h5>
+      <div
+        class="theTeam"
+        v-if="
+          $page.project.team1Position1 ||
+          $page.project.team1Position2 ||
+          $page.project.team1Position3 ||
+          $page.project.team1Position4 ||
+          $page.project.team1Position5 ||
+          $page.project.team1Position6
+        "
+      >
+        <h6
+          class="theTeam__titleTeam mb-4"
+          :class="{
+            'text-gradient-development':
+              $page.project.titleTeam1.toLowerCase() === 'development',
+            'text-gradient-design':
+              $page.project.titleTeam1.toLowerCase() === 'design',
+            'text-gradient-strategy':
+              $page.project.titleTeam1.toLowerCase() === 'strategy',
+          }"
+        >
+          {{ $page.project.titleTeam1 }}
+        </h6>
+        <ul class="row list-unstyled">
+          <li class="col-lg-3 mb-3" v-if="$page.project.team1Position1">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team1Position1 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team1Name1 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team1Position2">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team1Position2 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team1Name2 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team1Position3">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team1Position3 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team1Name3 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team1Position4">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team1Position4 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team1Name4 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team1Position5">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team1Position5 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team1Name5 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team1Position6">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team1Position6 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team1Name6 }}
+            </span>
+          </li>
+        </ul>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 mx-auto">
-            <g-image :src="$page.project.section3Image" class="projectSecondary__img" />
-          </div>
-        </div>
+
+      <div
+        class="theTeam"
+        v-if="
+          $page.project.team2Position1 ||
+          $page.project.team2Position2 ||
+          $page.project.team2Position3 ||
+          $page.project.team2Position4 ||
+          $page.project.team2Position5 ||
+          $page.project.team2Position6
+        "
+      >
+        <h6
+          class="theTeam__titleTeam mb-4"
+          :class="{
+            'text-gradient-development':
+              $page.project.titleTeam2.toLowerCase() === 'development',
+            'text-gradient-design':
+              $page.project.titleTeam2.toLowerCase() === 'design',
+            'text-gradient-strategy':
+              $page.project.titleTeam2.toLowerCase() === 'strategy',
+          }"
+        >
+          {{ $page.project.titleTeam2 }}
+        </h6>
+        <ul class="row list-unstyled">
+          <li class="col-lg-3 mb-3" v-if="$page.project.team2Position1">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team2Position1 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team2Name1 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team2Position2">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team2Position2 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team2Name2 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team2Position3">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team2Position3 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team2Name3 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team2Position4">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team2Position4 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team2Name4 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team2Position5">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team2Position5 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team2Name5 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team2Position6">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team2Position6 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team2Name6 }}
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div
+        class="theTeam"
+        v-if="
+          $page.project.team3Position1 ||
+          $page.project.team3Position2 ||
+          $page.project.team3Position3 ||
+          $page.project.team3Position4 ||
+          $page.project.team3Position5 ||
+          $page.project.team3Position6
+        "
+      >
+        <h6
+          class="theTeam__titleTeam mb-4"
+          :class="{
+            'text-gradient-development':
+              $page.project.titleTeam3.toLowerCase() === 'development',
+            'text-gradient-design':
+              $page.project.titleTeam3.toLowerCase() === 'design',
+            'text-gradient-strategy':
+              $page.project.titleTeam3.toLowerCase() === 'strategy',
+          }"
+        >
+          {{ $page.project.titleTeam3 }}
+        </h6>
+        <ul class="row list-unstyled">
+          <li class="col-lg-3 mb-3" v-if="$page.project.team3Position1">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team3Position1 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team3Name1 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team3Position2">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team3Position2 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team3Name2 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team3Position3">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team3Position3 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team3Name3 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team3Position4">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team3Position4 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team3Name4 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team3Position5">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team3Position5 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team3Name5 }}
+            </span>
+          </li>
+          <li class="col-lg-3 mb-3" v-if="$page.project.team3Position6">
+            <span class="d-block theTeam__position">
+              {{ $page.project.team3Position6 }}
+            </span>
+            <span class="d-block theTeam__name">
+              {{ $page.project.team3Name6 }}
+            </span>
+          </li>
+        </ul>
       </div>
     </div>
-    <div class="bg-black py-5 mb-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center py-5">
-            <h1 class="title">{{$page.project.cta}}</h1>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <div class="caseHistoryCompetenze">
-                <div class="d-lg-flex align-items-center justify-content-between" >
-                  <div class="d-lg-flex align-items-start">
-                    <g-image :src="$page.project.ctaProjectImage" class="caseHistoryCompetenze__img" />
-                    <div class="caseHistoryCompetenze__body ml-4">
-                      <div class="mb-2">
-                        <span class="label label--dev mr-3">DEVELOPMENT</span>
-                        <span class="label label--des">DESIGN</span>
-                      </div>
-                      <h1 class="caseHistoryCompetenze__title">{{$page.project.ctaProjectTitle}}</h1>
-                      <p
-                        class="caseHistoryCompetenze__description"
-                      >{{$page.project.ctaProjectDescription}}</p>
-                      <p class="caseHistoryCompetenze__tags">{{$page.project.ctaProjectHashtags}}</p>
-                    </div>
-                  </div>
-                  <div class="text-right">
-                    <g-link
-                      :to="$page.project.ctaProjectLink"
-                      class="caseHistoryCompetenze__link"
-                    >_Scopri di più</g-link>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="partnership pb-5"
-      v-for="textPartnership in $page.textsPartnership.edges"
-      :key="textPartnership.id"
-    >
-      <div class="partnership__box mb-5 py-5">
-        <g-image src="~/assets/images/deco2.svg" class="partnership__deco" alt="partnership"/>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-11 ml-auto pl-lg-5">
-              <h6 class="pl-2 pl-lg-4 partnership__name">{{textPartnership.node.sectionName}}</h6>
-              <h1 class="pl-2 pl-lg-4 partnership__title">{{textPartnership.node.sectionTitle}}</h1>
-              <div class="d-flex flex-wrap align-items-center">
-                <g-image :src="textPartnership.node.logo1" class="partnership__logo" />
-                <g-image :src="textPartnership.node.logo2" class="partnership__logo" />
-                <g-image :src="textPartnership.node.logo3" class="partnership__logo" />
-                <g-image :src="textPartnership.node.logo4" class="partnership__logo" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 mx-auto text-center py-5">
-            <h1 class="partnership__titleClosing mb-4">{{textPartnership.node.sectionTitle2}}</h1>
-            <p
-              class="partnership__descriptionClosing mb-5"
-            >{{textPartnership.node.sectionAbstract2}}</p>
-            <div>
-             
-              <g-link to="/contatti" class="btn btn-primary">
-                Contattaci
-              </g-link>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container my-5 pt-5">
-        <div class="row">
-          <div class="col-lg-10 ml-auto position-relative mt-lg-5">
-            <div class="cta cta--black">
-              <g-image src="~/assets/images/deco3.svg" class="cta__deco" alt="decoration"/>
-              <div class="d-flex align-items-center justify-content-between w-75">
-                <h1 class="cta__title">{{textPartnership.node.ctaTitle}} <span class="text-green">{{textPartnership.node.ctaGreen}}</span> </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- <h1>{{ $page.project }}</h1> -->
   </Layout>
 </template>
 <page-query>
 query ($path: String!) {
     project: projects (path: $path) {
         title
-        image1
+        subTitle
+        logoClient
         hashtags
-        abstract
-        sectionTitle
-        numberSections
-        image2
-        title2
-        abstract2
-        image3
-        title3
-        abstract3
-        image4
-        title4
-        abstract4
-        image5
-        title5
-        abstract5
-        section2Title
-        section2Feedback
-        section2Name
-        section2Position
-        section2Image
-        section3Title
-        section3Abstract
-        section3Image
-        ctaProjectTitle
-        ctaProjectDescription
-        ctaProjectHashtags
-        ctaProjectImage
-        ctaProjectLink
-        cta
+        urlVideo
+        descriptionLogo
+        descriptionClient
         content
+        imageList
+        image1
+        image1Style
+        image2
+        image2Style
+        image3
+        image3Style
+        image4
+        image4Style
+        image5
+        image5Style
+        image6
+        image6Style
+        image7
+        image7Style
+        image8
+        image8Style
+        titleTeam1
+        team1Position1
+        team1Name1
+        team1Position2
+        team1Name2
+        team1Position3
+        team1Name3
+        team1Position4
+        team1Name4
+        team1Position5
+        team1Name5
+        team1Position6
+        team1Name6
+        titleTeam2
+        team2Position1
+        team2Name1
+        team2Position2
+        team2Name2
+        team2Position3
+        team2Name3
+        team2Position4
+        team2Name4
+        team2Position5
+        team2Name5
+        team2Position6
+        team2Name6
+        titleTeam3
+        team3Position1
+        team3Name1
+        team3Position2
+        team3Name2
+        team3Position3
+        team3Name3
+        team3Position4
+        team3Name4
+        team3Position5
+        team3Name5
+        team3Position6
+        team3Name6
         path
     },
     textsPartnership: allPartnership {
@@ -322,12 +459,11 @@ export default {
         },
         {
           property: "og:image",
-          content:
-            "https://www.logix-software.it/uploads/share.jpg"
+          content: "https://www.logix-software.it/uploads/share.jpg",
         },
         {
           property: "twitter:card",
-          content: "summary"
+          content: "summary",
         },
         {
           property: "twitter:title",
@@ -339,15 +475,14 @@ export default {
         },
         {
           property: "twitter:image",
-          content:
-            "https://www.logix-software.it/uploads/share.jpg"
+          content: "https://www.logix-software.it/uploads/share.jpg",
         },
         {
           property: "og:url",
           content: "https://www.logix-software.it" + this.$page.project.path,
         },
-        { name: "robots", content: "index, follow" }
-      ]
+        { name: "robots", content: "index, follow" },
+      ],
     };
   },
 
@@ -358,237 +493,140 @@ export default {
   },
   mounted() {
     AOS.init();
-  }
+  },
 };
 </script>
 <style lang="scss" scoped>
+.title {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: -1.5px;
+}
+.description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: -0.5px;
+
+  color: #292929;
+}
 .hero {
-  background-color: #111111;
-  height: 500px;
-  color: #ffffff;
-  &__title {
-    font-family: "Lexend Deca";
-    font-size: 80px;
-    letter-spacing: -3.61px;
-    line-height: 82px;
-    @media screen and (max-width: 992px) {
-      font-size: 46px;
-      letter-spacing: initial;
-      line-height: initial;
-    }
-  }
-  &__hashtags {
-    width: 30%;
-    margin: 0 auto;
-    font-family: Lato;
-    font-size: 10px;
-    font-weight: bold;
-    letter-spacing: 0.59px;
-    line-height: 17px;
-    @media screen and (max-width: 992px) {
-      width: 80%;
-    }
-  }
-}
-.imgPrimary {
-  width: 100%;
-  height: 700px;
-  //   background-image: url("~@/assets/images/project.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  @media screen and (max-width: 992px) {
-    height: 250px;
-  }
-}
-.theProject {
-  padding: 100px 0px;
-  width: 100%;
-  height: auto;
-  background-color: #111111;
-  color: #ffffff;
-  &__title {
-    font-family: "Lexend Deca";
-    font-size: 161px;
-    letter-spacing: -9.63px;
-    @media screen and (max-width: 992px) {
-      font-size: 60px;
-      letter-spacing: initial;
-      line-height: initial;
-    }
-  }
-  &__description {
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: -0.18px;
-    line-height: 25px;
-  }
-}
-.info1 {
-  background-color: #f3f5fb;
-  height: 600px;
-  @media screen and (max-width: 992px) {
-    height: auto;
-  }
-  width: 100%;
-  color: #000000;
-  &__img {
-    max-width: 100%;
-    // margin-bottom: -100px;
-    @media screen and (max-width: 992px) {
-      max-width: 80%;
-      margin: 20px auto;
-    }
-  }
-  &__title {
-    font-family: "Lexend Deca";
-    font-size: 40px;
-    letter-spacing: -1.47px;
-    line-height: 42px;
-  }
-  &__description {
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: -0.18px;
-    line-height: 25px;
-  }
-}
-.info2 {
-  background-color: #fff;
-  height: 600px;
-  @media screen and (max-width: 992px) {
-    height: auto;
-  }
-  width: 100%;
-  color: #000000;
-  &__img {
-    max-width: 100%;
-    // margin-top: -100px;
-    @media screen and (max-width: 992px) {
-      max-width: 80%;
-      margin: 20px auto;
-    }
-  }
-  &__title {
-    font-family: "Lexend Deca";
-    font-size: 40px;
-    letter-spacing: -1.47px;
-    line-height: 42px;
-  }
-  &__description {
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: -0.18px;
-    line-height: 25px;
-  }
-}
-.testimonial {
-  background-color: #1d1d1d;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
   color: #fff;
-  height: 342px;
+  font-family: "Lexend Deca";
+  &:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
   &__title {
-    font-family: "Lexend Deca";
-    font-size: 56px;
-    letter-spacing: -2.21px;
-  }
-  &__description {
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: -0.18px;
-    line-height: 25px;
     position: relative;
-    &:before {
-      content: '"';
-      position: absolute;
-      top: -10px;
-      left: -10px;
-      color: #fff;
-      font-size: 36px;
-      font-family: Lato;
-    }
-    &:after {
-      content: '"';
-      position: absolute;
-      bottom: -10px;
-      right: -10px;
-      color: #fff;
-      font-size: 36px;
-      font-family: Lato;
-    }
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.25px;
   }
-  &__name {
+  &__subtitle {
+    position: relative;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -1.25px;
+  }
+}
+#myVideo {
+  // width: 100vw;
+  // height: 100vh;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.client {
+  &__logo {
+    width: 85px;
+  }
+  &__abstract {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: -0.5px;
+    color: #808080;
+  }
+
+  &__hashtags {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 1px;
+  }
+}
+.label {
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  &--development {
+    background: linear-gradient(103.3deg, #36f2b9 75.53%, #7878f9 131.85%);
+  }
+  &--design {
+    background: linear-gradient(102.23deg, #36f2b9 -39.46%, #7878f9 30.96%);
+  }
+  &--strategist {
+    background: linear-gradient(
+      103.38deg,
+      #36f2b9 -114.97%,
+      #7878f9 -10.09%,
+      #f60994 131.51%
+    );
+  }
+}
+.image {
+  height: 540px;
+  object-fit: cover;
+}
+
+.titleTeam {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: -0.6px;
+}
+
+.theTeam {
+  &__titleTeam {
     font-family: "Lexend Deca";
-    font-size: 22px;
-    letter-spacing: -0.44px;
-    line-height: 24px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.25px;
   }
   &__position {
-    font-family: "Lexend Deca";
-    font-size: 12px;
-    letter-spacing: -0.24px;
-    line-height: 24px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.5px;
+    color: #6a6a6a;
   }
-  &__photo {
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    // background-image: url("~@/assets/images/project.jpg");
-  }
-}
-.projectSecondary {
-  &__title {
-    color: #000000;
-    font-family: "Lexend Deca";
-    font-size: 40px;
-    letter-spacing: -1.47px;
-    line-height: 42px;
-  }
-  &__description {
-    color: #000000;
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: -0.18px;
-    line-height: 25px;
-  }
-  &__img {
-    margin: 0 auto;
-    max-width: 100%;
-  }
-}
-.bg-black {
-  .title {
-    color: #ffffff;
-    font-family: "Lexend Deca";
-    font-size: 56px;
-    letter-spacing: -2.21px;
-    line-height: 58px;
-  }
-}
-.caseHistoryCompetenze {
-  margin-bottom: -210px;
-}
-.partnership {
-  margin-top: 200px;
-}
-.cta {
-  @media screen and (max-width: 992px) {
-    bottom: -60px;
-  }
-  &--black {
-    @media screen and (max-width: 992px) {
-      bottom: -80px;
-    }
-    @media screen and (max-width: 576px) {
-      bottom: -120px;
-    }
+  &__name {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: -0.4px;
+    color: #6a6a6a;
   }
 }
 </style>
