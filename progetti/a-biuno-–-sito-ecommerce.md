@@ -71,8 +71,8 @@ team3Position4: Dev Sen
 team3Name4: Nik
 team3Position5: Dev Sen
 team3Name5: Nik
-team3Position6: Dev Sen
-team3Name6: Nik
+team3Position6: ""
+team3Name6: ""
 date: 2022-05-01T08:59:02.143Z
 ---
 A.BIUNO è un brand emergente, dal design made in Italy, produttore di borse, zaini, accessori e abbigliamento outdoor. Per A.BIUNO abbiamo curato l’intera brand identity: a partire dal restyling del logo fino alla definizione della style guide; dalla progettazione del sito web, al design, fino allo sviluppo. 
