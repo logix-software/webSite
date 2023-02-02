@@ -20,7 +20,7 @@ imageList: /uploads/abiuno-_-preview.png
 hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
 image1: /uploads/abiuno_hero.png
 image1Style: horizontal
-image2: /uploads/ezgif.com-gif-maker-1-.gif
+image2: /uploads/ambiente.jpg
 image2Style: vertical
 image3: /uploads/abiuno_hero.png
 image3Style: vertical
