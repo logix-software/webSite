@@ -534,7 +534,32 @@ h6 {
   color: transparent;
   background-image: linear-gradient(103.3deg, #36f2b9 15.36%, #7878f9 127.51%);
 }
-
+.text-gradient-design {
+  padding-right: 2px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(
+    102.23deg,
+    #36f2b9 -39.46%,
+    #7878f9 68.85%,
+    #f60994 140.03%
+  );
+}
+.text-gradient-development {
+  padding-right: 2px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(103.3deg, #36f2b9 15.36%, #7878f9 107.51%);
+}
+.text-gradient-strategy {
+  padding-right: 2px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(103.38deg, #7878f9 -10.09%, #f60994 131.51%);
+}
 .bg-gray-dark {
   background-color: #141414;
 }

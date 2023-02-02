@@ -1,59 +1,69 @@
 ---
 title: Sistema Gestione Mense
-abstract: La digital transformation investe velocemente ogni ambito lavorativo e
-  noi di Logix, come partner tecnologico della startup innovativa Freeday 15,
-  abbiamo messo a disposizione le nostre competenze per realizzare un sistema
-  semplice e intuitivo. Una piattaforma completamente custom, sia per gli utenti
-  finali che per chi gestisce il servizio mense attualmente utilizzato da All
-  Food.
-imageList: /uploads/allfood_-preview-light-version.png
-hashtags: "#PROGRESSIVEWEBAPP #FREEDAY15 #WEDEVELOPMENT #VUEJS #MICROSERVIZI
-  #DIGITALTRANSFORMATION #ALLFOOD"
-image1: /uploads/allfood_hero.png
-sectionTitle: Il progetto
-numberSections: 2
-image2: /uploads/allfood_amministratore.png
-title2: Amministratore
-abstract2: "Grazie alla Web App sviluppata per gli amministratori del servizio
-  mensa, essi possono curare tutte le attività di configurazione, controllo e
-  gestione: gli Amministratori, oltre a tutte le azioni che può fare un semplice
-  utente, possono creare una mensa, definire gli orari e i tipi di servizi che
-  questa offre, possono creare e organizzare i turni e infine gestire i
-  calendari delle mense."
+subTitle: Sistema Gestione Mense
+logoClient: /uploads/allfood_-preview-light-version.png
+urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
+abstract: Lorem ipsum lore ipsum e lorem ipsum perchè loremipsum e dai lorem ipsum
+descriptionLogo: La digital transformation investe velocemente ogni ambito lavorativo e noi di Logix, come partner tecnologico della startup innovativa Freeday 15, abbiamo messo a disposizione le nostre competenze per realizzare un sistema semplice e intuitivo. Una piattaforma completamente custom, sia per gli utenti finali che per chi gestisce il servizio mense attualmente utilizzato da All Food.
+descriptionClient: La digital transformation investe velocemente ogni ambito lavorativo e noi di Logix, come partner tecnologico della startup innovativa Freeday 15, abbiamo messo a disposizione le nostre competenze per realizzare un sistema semplice e intuitivo. Una piattaforma completamente custom, sia per gli utenti finali che per chi gestisce il servizio mense attualmente utilizzato da All Food.
+imageList: /uploads/allfood_utente-mensa.png
+hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
+image1: /uploads/allfood_utente-mensa.png
+image1Style: horizontal
+image2: /uploads/allfood_utente-mensa.png
+image2Style: vertical
 image3: /uploads/allfood_utente-mensa.png
-title3: Utenti
-abstract3: "L’utente della società che si serve delle mense, una volta
-  effettuato il login e scelto il proprio punto mensa, potrà autonomamente
-  effettuare una serie di azioni tramite la Progressive Web App sviluppata:
-  scegliere la tipologia di pasto desiderato in base a quelli presenti nella
-  mensa, consultare il menù, selezionare il giorno e in quale fascia oraria
-  riceverlo e/o ritirarlo."
-section2Title: "Testimonial "
-section2Feedback: Da quando abbiamo iniziato ad utilizzare la piattaforma
-  riusciamo a coordinare al meglio le nostre mense e siamo capaci di offrire
-  agli utenti un servizio preciso e puntuale sulla base delle esigenze di tutti.
-section2Name: Sara De Rosa
-section2Position: Direttore Mensa
-section2Image: /uploads/sara_testimonial.png
-section3Title: Admin
-section3Abstract: >-
-  L’admin mensa ha una funzione di gestione e controllo sull’intero sistema
-  integrato che permette alla società di gestire tutte le mense del gruppo. 
-
-  L’admin può creare nuove mense, gestirne le informazioni di dettaglio, abilitare i servizi take-away o consumazione sul posto, determinare fasce orarie, tipologia e numero di servizi che è possibile effettuare e creare cataloghi di prodotti disponibili in tutte le mense appartenenti al gruppo.
-section3Image: /uploads/device-all-food.png
-ctaProjectTitle: DomusGo15 – App gestione dei condomini
-ctaProjectDescription: "Per Freeday15 abbiamo realizzato DomusGo15 un sistema di
-  applicativi per l’organizzazione e la gestione dell’ecosistema dei condomìni
-  dove amministratori, professionisti e condòmini possono comunicare tra loro,
-  reperire informazioni e accedere a documenti in modo facile e veloce. Siamo
-  stati coinvolti nell’intero processo creativo: dalla progettazione, al design,
-  fino allo sviluppo integrale del sistema, di cui abbiamo curato ogni aspetto."
-ctaProjectHashtags: "#WEBAPPLICATION #MOBILEAPP #STARTUP #APARTMENT #HOUSE #COMMUNITY "
-ctaProjectImage: /uploads/domusgo15-cta.png
-ctaProjectLink: /progetti/domusgo15-app-gestione-dei-condomini/
-cta: Dai un’occhiata agli altri progetti!
-date: 2022-06-01T17:15:12.833Z
+image3Style: vertical
+image4: /uploads/allfood_utente-mensa.png
+image4Style: horizontal
+image5: /uploads/allfood_utente-mensa.png
+image5Style: horizontal
+image6: /uploads/allfood_utente-mensa.png
+image6Style: horizontal
+image7: /uploads/allfood_utente-mensa.png
+image7Style: horizontal
+image8: /uploads/allfood_utente-mensa.png
+image8Style: horizontal
+titleTeam1: DEVELOPMENT
+team1Position1: Dev Sen
+team1Name1: Nik
+team1Position2: Dev Sen
+team1Name2: Nik
+team1Position3: Dev Sen
+team1Name3: Nik
+team1Position4: Dev Sen
+team1Name4: Nik
+team1Position5: Dev Sen
+team1Name5: Nik
+team1Position6: Dev Sen
+team1Name6: Nik
+titleTeam2: DESIGN
+team2Position1: Dev Sen
+team2Name1: Nik
+team2Position2: Dev Sen
+team2Name2: Nik
+team2Position3: Dev Sen
+team2Name3: Nik
+team2Position4: Dev Sen
+team2Name4: Nik
+team2Position5: Dev Sen
+team2Name5: Nik
+team2Position6: Dev Sen
+team2Name6: Nik
+titleTeam3: STRATEGY
+team3Position1: Dev Sen
+team3Name1: Nik
+team3Position2: Dev Sen
+team3Name2: Nik
+team3Position3: Dev Sen
+team3Name3: Nik
+team3Position4: Dev Sen
+team3Name4: Nik
+team3Position5: Dev Sen
+team3Name5: Nik
+team3Position6: Dev Sen
+team3Name6: Nik
+date: 2022-05-01T08:59:02.143Z
 ---
 Tramite la Progressive Web App possono essere visualizzate le portate del catalogo e si possono scegliere i tipi di servizio tra i diversi menù disponibili; gli amministratori e gli addetti, invece, tramite Web App, possono gestire agilmente tutte le mense delle aziende che aderiscono al servizio.
 L’insieme di web app è stato sviluppato sfruttando un'architettura a micro-servizi e la parte frontend è in VueJS, consentendo la gestione sia lato Utente che lato Amministratore Mensa.

@@ -1,80 +1,68 @@
 ---
-title: "Esibit - Piattaforma per gli artisti "
-abstract: Esibit è una piattaforma dedicata al mondo dell’arte, dove artisti,
-  galleristi, critici o chiunque ne sia in qualche modo coinvolto o affascinato
-  ha la possibilità di incontrarsi. Uno spazio in grado di mettere in
-  connessione chi “fa arte” con chi” cerca arte”. Attraverso la creazione di un
-  profilo registrato o in maniera anonima, la piattaforma non solo si fa vetrina
-  e strumento di diffusione per la propria idea di arte ma diventa veicolo di
-  relazioni, grazie anche a collaborazioni ad eventi e progetti, e strumento di
-  valorizzazione e monetizzazione del proprio lavoro.
+title: Esibit - Piattaforma per gli artisti
+subTitle: Esibit - Piattaforma per gli artisti
+logoClient: /uploads/hero-esibit.jpg
+urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
+abstract: Lorem ipsum lore ipsum e lorem ipsum perchè loremipsum e dai lorem ipsum
+descriptionLogo: Per Freeday15 abbiamo realizzato DomusGo15 un sistema di applicativi per l’organizzazione e la gestione dell’ecosistema dei condomìni dove amministratori, professionisti e condòmini possono comunicare tra loro, reperire informazioni e accedere a documenti in modo facile e veloce. Siamo stati coinvolti nell’intero processo creativo dalla progettazione, al design, fino allo sviluppo integrale del sistema, di cui abbiamo curato ogni aspetto.
+descriptionClient: Per Freeday15 abbiamo realizzato DomusGo15 un sistema di applicativi per l’organizzazione e la gestione dell’ecosistema dei condomìni dove amministratori, professionisti e condòmini possono comunicare tra loro, reperire informazioni e accedere a documenti in modo facile e veloce. Siamo stati coinvolti nell’intero processo creativo dalla progettazione, al design, fino allo sviluppo integrale del sistema, di cui abbiamo curato ogni aspetto.
 imageList: /uploads/preview_esibit.jpg
-hashtags: "#PLATFORM #WEBAPPLICATION #ARTE #SOCIAL #ARTIST #CREATIVE #ARTCOMMUNITY"
-image1: /uploads/hero-esibit.jpg
-sectionTitle: Il progetto
-numberSections: 2
-image2: /uploads/esibit_ricerca.png
-title2: Artisti e addetti ai lavori
-abstract2: >-
-  Esibit permette agli utenti di entrare a far parte della community registrando
-  il proprio profilo personale: Profilo artistico (artisti e docenti) e Profilo
-  Istituzionale (Accademie, Gallerie e Corsi universitari). 
-
-  Il profilo personale può essere associato ad una o più categorie artistiche offrendo la possibilità di inserire biografia, luogo di provenienza e informazioni utili ad illustrare interessi e capacità. Gli utenti registrati hanno a disposizione una galleria personale in cui “esporre” le proprie creazioni e, che siano stati proprietari, organizzatori, semplicemente iscritti o partecipanti, una pagina dedicata agli eventi.
-
-  Accedendo con le proprie credenziali è possibile, inoltre, iscriversi e partecipare ad eventi esclusivi come manifestazioni, esposizioni o progetti.
-image3: /uploads/esibit_eventi.png
-title3: "Eventi e Mostre "
-abstract3: Esibit, tuttavia, accoglie a braccia aperte tutte le tipologie di
-  utenti, anche quelli non registrati. I visitatori anonimi, così si chiamano
-  sulla piattaforma, hanno la possibilità di visualizzare i profili pubblici
-  degli utenti registrati, effettuare ricerche, visualizzare gallerie ed
-  esposizioni virtuali legate agli eventi, ma non possono interagire con la
-  community e utilizzare le funzioni social offerte ai membri accreditati.
-image4: /uploads/esibit_ricerca.png
-title4: Artisti e addetti ai lavori
-abstract4: "“Log in”, “Log out”, ogni giorno ci registriamo su social e
-  piattaforme per accedere a profili e informazioni che ci interessano; anche il
-  social dell’arte di casa Logix funziona così. Esibit permette agli utenti di
-  registrare il proprio profilo personale entrando così a pieno titolo nella
-  community. L’utente registrato si divide in due categorie: Profilo artistico
-  (artisti, docenti e appassionati) e Profilo Istituzionale (Accademie,
-  Gallerie, Corsi universitari). Il profilo personale può essere associato ad
-  una o più categorie artistiche offrendo la possibilità di inserire biografia,
-  luogo di provenienza e informazioni utili ad illustrare interessi ed capacità.
-  Gli utenti registrati hanno a disposizione una galleria personale in cui
-  “esporre” le proprie creazioni, una pagina dedicata agli eventi, sia quelli di
-  cui si è proprietari o organizzatori, sia quelli ai quali si è semplicemente
-  iscritti e ai quali si è partecipato. Accedendo con le proprie credenziali è
-  possibile, inoltre, iscriversi e partecipare ad eventi esclusivi come
-  manifestazioni, esposizioni o progetti."
-image5: /uploads/esibit_2b-2x.png
-title5: "Eventi e Mostre "
-abstract5: Esibit, tuttavia, accoglie a braccia aperte tutti i visitatori, anche
-  quelli non registrati. I visitatori anonimi, così si chiamano sulla
-  piattaforma, hanno la possibilità di visualizzare i profili pubblici degli
-  utenti registrati, effettuare ricerche, visualizzare gallerie ed esposizioni
-  virtuali legate agli eventi, ma non possono interagire con la community e
-  utilizzare le funzioni social offerte ai membri accreditati.
-section2Title: Testimonial
-section2Feedback: Un ponte tra arte e tecnologia!. Grazie ad Esibit il progetto
-  Enredadas acquisisce una dimensione digitale e globale.
-section2Name: "Igor Borozan "
-section2Position: Presidente dell'Accademia di Belle Arti di Terni
-section2Image: /uploads/igor_borozan_testimonial.png
-section3Title: " "
-section3Abstract: " "
-section3Image: /uploads/esibit_artista.png
-ctaProjectTitle: Acta Logix - Registro elettronico
-ctaProjectDescription: "Acta Logix nasce dall'esigenza di creare uno strumento
-  ideale per la scuola e la formazione di ogni ordine e grado. Il registro
-  elettronico di casa Logix permette l’organizzazione in cloud di ogni fase
-  dell’attività scolastica: dalle assenze ai ritardi, dai voti agli scrutini,
-  fino ai programmi didattici e alle comunicazioni di interesse comune."
-ctaProjectHashtags: "#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL"
-ctaProjectImage: /uploads/cta_acta_logix.png
-ctaProjectLink: /progetti/acta-logix-registro-elettronico/
-cta: Dai un’occhiata agli altri progetti!
-date: 2022-02-01T20:02:14.288Z
+hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
+image1: /uploads/preview_esibit.jpg
+image1Style: horizontal
+image2: /uploads/preview_esibit.jpg
+image2Style: vertical
+image3: /uploads/preview_esibit.jpg
+image3Style: vertical
+image4: /uploads/preview_esibit.jpg
+image4Style: horizontal
+image5: /uploads/preview_esibit.jpg
+image5Style: horizontal
+image6: /uploads/preview_esibit.jpg
+image6Style: horizontal
+image7: /uploads/preview_esibit.jpg
+image7Style: horizontal
+image8: /uploads/preview_esibit.jpg
+image8Style: horizontal
+titleTeam1: DEVELOPMENT
+team1Position1: Dev Sen
+team1Name1: Nik
+team1Position2: Dev Sen
+team1Name2: Nik
+team1Position3: Dev Sen
+team1Name3: Nik
+team1Position4: Dev Sen
+team1Name4: Nik
+team1Position5: Dev Sen
+team1Name5: Nik
+team1Position6: Dev Sen
+team1Name6: Nik
+titleTeam2: DESIGN
+team2Position1: Dev Sen
+team2Name1: Nik
+team2Position2: Dev Sen
+team2Name2: Nik
+team2Position3: Dev Sen
+team2Name3: Nik
+team2Position4: Dev Sen
+team2Name4: Nik
+team2Position5: Dev Sen
+team2Name5: Nik
+team2Position6: Dev Sen
+team2Name6: Nik
+titleTeam3: STRATEGY
+team3Position1: Dev Sen
+team3Name1: Nik
+team3Position2: Dev Sen
+team3Name2: Nik
+team3Position3: Dev Sen
+team3Name3: Nik
+team3Position4: Dev Sen
+team3Name4: Nik
+team3Position5: Dev Sen
+team3Name5: Nik
+team3Position6: Dev Sen
+team3Name6: Nik
+date: 2022-05-01T08:59:02.143Z
 ---
 Esibit è una piattaforma dedicata al mondo dell’arte, dove artisti, galleristi o appassionati in generale hanno la possibilità di incontrarsi. Uno spazio in grado di mettere in connessione chi “fa arte” con chi” cerca arte”. Attraverso la creazione di un profilo registrato o in maniera anonima, il social di casa Logix non solo si fa vetrina e strumento di diffusione per la propria idea di arte ma, grazie anche a collaborazioni ad eventi e progetti, diventa veicolo di relazioni.
