@@ -453,39 +453,41 @@ query {
 </page-query>
 <script>
 export default {
-  metaInfo: {
-    title: "Digital Transformation - Logix Software",
-    meta: [
-      { name: "description", content: "Abbiamo pensato il servizio di Digital Transformation per aziende pubbliche e private che vogliono, anche grazie ai piani Industria 4.0 e transizione 4.0, realizzare, migliorare o ridisegnare prodotti e servizi digitali. " },
-      { property: "og:title", content: "Digital Transformation - Logix Software" },
-      {
-        property: "og:description",
-        content: "Abbiamo pensato il servizio di Digital Transformation per aziende pubbliche e private che vogliono, anche grazie ai piani Industria 4.0 e transizione 4.0, realizzare, migliorare o ridisegnare prodotti e servizi digitali. "
-      },
-      {
-        property: "og:image",
-        content: "https://www.logix-software.it/uploads/share.jpg"
-      },
-      {
-        property: "twitter:card",
-        content: "summary"
-      },
-      {
-        property: "twitter:title",
-        content: "Digital Transformation - Logix Software"
-      },
-      {
-        property: "twitter:description",
-        content: "Abbiamo pensato il servizio di Digital Transformation per aziende pubbliche e private che vogliono, anche grazie ai piani Industria 4.0 e transizione 4.0, realizzare, migliorare o ridisegnare prodotti e servizi digitali. "
-      },
-      {
-        property: "twitter:image",
-        content: "https://www.logix-software.it/uploads/share.jpg"
-      },
-      { property: "og:url", content: "https://www.logix-software.it/digital-transformation" },
-      { name: "robots", content: "index, follow" }
-    ]
-  },
+  // inizio
+  // metaInfo: {
+  //   title: "Digital Transformation - Logix Software",
+  //   meta: [
+  //     { name: "description", content: "Abbiamo pensato il servizio di Digital Transformation per aziende pubbliche e private che vogliono, anche grazie ai piani Industria 4.0 e transizione 4.0, realizzare, migliorare o ridisegnare prodotti e servizi digitali. " },
+  //     { property: "og:title", content: "Digital Transformation - Logix Software" },
+  //     {
+  //       property: "og:description",
+  //       content: "Abbiamo pensato il servizio di Digital Transformation per aziende pubbliche e private che vogliono, anche grazie ai piani Industria 4.0 e transizione 4.0, realizzare, migliorare o ridisegnare prodotti e servizi digitali. "
+  //     },
+  //     {
+  //       property: "og:image",
+  //       content: "https://www.logix-software.it/uploads/share.jpg"
+  //     },
+  //     {
+  //       property: "twitter:card",
+  //       content: "summary"
+  //     },
+  //     {
+  //       property: "twitter:title",
+  //       content: "Digital Transformation - Logix Software"
+  //     },
+  //     {
+  //       property: "twitter:description",
+  //       content: "Abbiamo pensato il servizio di Digital Transformation per aziende pubbliche e private che vogliono, anche grazie ai piani Industria 4.0 e transizione 4.0, realizzare, migliorare o ridisegnare prodotti e servizi digitali. "
+  //     },
+  //     {
+  //       property: "twitter:image",
+  //       content: "https://www.logix-software.it/uploads/share.jpg"
+  //     },
+  //     { property: "og:url", content: "https://www.logix-software.it/digital-transformation" },
+  //     { name: "robots", content: "index, follow" }
+  //   ]
+  // },
+  // fine
   data() {
     return {
       //   deviceWidth: 0

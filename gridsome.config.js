@@ -1,7 +1,9 @@
 module.exports = {
-  siteName: 'Logix Software',
-  titleTemplate: (title) => title ? `${title} - %s` : '%s',
-  siteUrl: 'https://www.logix-software.it/',
+  // inizio
+  // siteName: 'Logix Software',
+  // titleTemplate: (title) => title ? `${title} - %s` : '%s',
+  // siteUrl: 'https://www.logix-software.it/',
+  // fine
   plugins: [
 
     {

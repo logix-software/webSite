@@ -187,39 +187,41 @@ query {
 </page-query>
 <script>
 export default {
-  metaInfo: {
-    title: "Collaborative Team - Logix Software",
-    meta: [
-      { name: "description", content: "Il team di esperti Logix è in grado di affiancare le aziende clienti per collaborare nell’ambito digital su progetti di ricerca, sviluppo e design." },
-      { property: "og:title", content: "Collaborative Team - Logix Software" },
-      {
-        property: "og:description",
-        content: "Il team di esperti Logix è in grado di affiancare le aziende clienti per collaborare nell’ambito digital su progetti di ricerca, sviluppo e design."
-      },
-      {
-        property: "og:image",
-        content: "https://www.logix-software.it/uploads/share.jpg"
-      },
-      {
-        property: "twitter:card",
-        content: "summary"
-      },
-      {
-        property: "twitter:title",
-        content: "Collaborative Team - Logix Software"
-      },
-      {
-        property: "twitter:description",
-        content: "Il team di esperti Logix è in grado di affiancare le aziende clienti per collaborare nell’ambito digital su progetti di ricerca, sviluppo e design."
-      },
-      {
-        property: "twitter:image",
-        content: "https://www.logix-software.it/uploads/share.jpg"
-      },
-      { property: "og:url", content: "https://www.logix-software.it/collaborative-team" },
-      { name: "robots", content: "index, follow" }
-    ]
-  },
+  // inizio
+  // metaInfo: {
+  //   title: "Collaborative Team - Logix Software",
+  //   meta: [
+  //     { name: "description", content: "Il team di esperti Logix è in grado di affiancare le aziende clienti per collaborare nell’ambito digital su progetti di ricerca, sviluppo e design." },
+  //     { property: "og:title", content: "Collaborative Team - Logix Software" },
+  //     {
+  //       property: "og:description",
+  //       content: "Il team di esperti Logix è in grado di affiancare le aziende clienti per collaborare nell’ambito digital su progetti di ricerca, sviluppo e design."
+  //     },
+  //     {
+  //       property: "og:image",
+  //       content: "https://www.logix-software.it/uploads/share.jpg"
+  //     },
+  //     {
+  //       property: "twitter:card",
+  //       content: "summary"
+  //     },
+  //     {
+  //       property: "twitter:title",
+  //       content: "Collaborative Team - Logix Software"
+  //     },
+  //     {
+  //       property: "twitter:description",
+  //       content: "Il team di esperti Logix è in grado di affiancare le aziende clienti per collaborare nell’ambito digital su progetti di ricerca, sviluppo e design."
+  //     },
+  //     {
+  //       property: "twitter:image",
+  //       content: "https://www.logix-software.it/uploads/share.jpg"
+  //     },
+  //     { property: "og:url", content: "https://www.logix-software.it/collaborative-team" },
+  //     { name: "robots", content: "index, follow" }
+  //   ]
+  // },
+  // fine
   data() {
     return {
       //   deviceWidth: 0

@@ -766,45 +766,47 @@ query {
 </page-query>
 <script>
 export default {
-  metaInfo: {
-    title: "Chi siamo - Logix Software",
-    meta: [
-      {
-        name: "description",
-        content:
-          "Logix Software, azienda informatica con sede a Roma e Terni, è composta da un team di professionisti digital, specializzati nello sviluppo, nel design e nel marketing."
-      },
-      { property: "og:title", content: "Chi siamo - Logix Software" },
-      {
-        property: "og:description",
-        content:
-          "Logix Software, azienda informatica con sede a Roma e Terni, è composta da un team di professionisti digital, specializzati nello sviluppo, nel design e nel marketing."
-      },
-      {
-        property: "og:image",
-        content: "https://www.logix-software.it/uploads/share.jpg"
-      },
-      {
-        property: "twitter:card",
-        content: "summary"
-      },
-      {
-        property: "twitter:title",
-        content: "Chi siamo - Logix Software"
-      },
-      {
-        property: "twitter:description",
-        content:
-          "Logix Software, azienda informatica con sede a Roma e Terni, è composta da un team di professionisti digital, specializzati nello sviluppo, nel design e nel marketing."
-      },
-      {
-        property: "twitter:image",
-        content: "https://www.logix-software.it/uploads/share.jpg"
-      },
-      { property: "og:url", content: "https://www.logix-software.it/chi-siamo" },
-      { name: "robots", content: "index, follow" }
-    ]
-  },
+  // inizio
+  // metaInfo: {
+  //   title: "Chi siamo - Logix Software",
+  //   meta: [
+  //     {
+  //       name: "description",
+  //       content:
+  //         "Logix Software, azienda informatica con sede a Roma e Terni, è composta da un team di professionisti digital, specializzati nello sviluppo, nel design e nel marketing."
+  //     },
+  //     { property: "og:title", content: "Chi siamo - Logix Software" },
+  //     {
+  //       property: "og:description",
+  //       content:
+  //         "Logix Software, azienda informatica con sede a Roma e Terni, è composta da un team di professionisti digital, specializzati nello sviluppo, nel design e nel marketing."
+  //     },
+  //     {
+  //       property: "og:image",
+  //       content: "https://www.logix-software.it/uploads/share.jpg"
+  //     },
+  //     {
+  //       property: "twitter:card",
+  //       content: "summary"
+  //     },
+  //     {
+  //       property: "twitter:title",
+  //       content: "Chi siamo - Logix Software"
+  //     },
+  //     {
+  //       property: "twitter:description",
+  //       content:
+  //         "Logix Software, azienda informatica con sede a Roma e Terni, è composta da un team di professionisti digital, specializzati nello sviluppo, nel design e nel marketing."
+  //     },
+  //     {
+  //       property: "twitter:image",
+  //       content: "https://www.logix-software.it/uploads/share.jpg"
+  //     },
+  //     { property: "og:url", content: "https://www.logix-software.it/chi-siamo" },
+  //     { name: "robots", content: "index, follow" }
+  //   ]
+  // },
+  // fine
   data() {
     return {
       deviceWidth: 0

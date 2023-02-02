@@ -429,47 +429,49 @@ import ParallaxElement from "~/components/ParallaxElement.vue";
 import ParallaxContainer from "~/components/ParallaxContainer.vue";
 
 export default {
-  metaInfo: {
-    title: "Logix Software - progettazione e sviluppo software",
-    meta: [
-      {
-        name: "description",
-        content:
-          "Logix Software è un’azienda informatica, con sede a Terni e Roma, che offre a professionisti, aziende pubbliche e private, servizi di design e sviluppo per la realizzazione e il restauro di soluzioni digitali, in ambito web e mobile.",
-      },
-      {
-        property: "og:title",
-        content: "Logix Software - progettazione e sviluppo software",
-      },
-      {
-        property: "og:description",
-        content:
-          "Logix Software è un’azienda informatica, con sede a Terni e Roma, che offre a professionisti, aziende pubbliche e private, servizi di design e sviluppo per la realizzazione e il restauro di soluzioni digitali, in ambito web e mobile.",
-      },
-      {
-        property: "og:image",
-        content: "https://www.logix-software.it/uploads/share.jpg",
-      },
-      {
-        property: "twitter:card",
-        content: "summary",
-      },
-      {
-        property: "twitter:title",
-        content: "Logix Software - progettazione e sviluppo software",
-      },
-      {
-        property: "twitter:description",
-        content:
-          "Logix Software è un’azienda informatica, con sede a Terni e Roma, che offre a professionisti, aziende pubbliche e private, servizi di design e sviluppo per la realizzazione e il restauro di soluzioni digitali, in ambito web e mobile.",
-      },
-      {
-        property: "twitter:image",
-        content: "https://www.logix-software.it/uploads/share.jpg",
-      },
-      { name: "robots", content: "index, follow" },
-    ],
-  },
+  // inizio
+  // metaInfo: {
+  //   title: "Logix Software - progettazione e sviluppo software",
+  //   meta: [
+  //     {
+  //       name: "description",
+  //       content:
+  //         "Logix Software è un’azienda informatica, con sede a Terni e Roma, che offre a professionisti, aziende pubbliche e private, servizi di design e sviluppo per la realizzazione e il restauro di soluzioni digitali, in ambito web e mobile.",
+  //     },
+  //     {
+  //       property: "og:title",
+  //       content: "Logix Software - progettazione e sviluppo software",
+  //     },
+  //     {
+  //       property: "og:description",
+  //       content:
+  //         "Logix Software è un’azienda informatica, con sede a Terni e Roma, che offre a professionisti, aziende pubbliche e private, servizi di design e sviluppo per la realizzazione e il restauro di soluzioni digitali, in ambito web e mobile.",
+  //     },
+  //     {
+  //       property: "og:image",
+  //       content: "https://www.logix-software.it/uploads/share.jpg",
+  //     },
+  //     {
+  //       property: "twitter:card",
+  //       content: "summary",
+  //     },
+  //     {
+  //       property: "twitter:title",
+  //       content: "Logix Software - progettazione e sviluppo software",
+  //     },
+  //     {
+  //       property: "twitter:description",
+  //       content:
+  //         "Logix Software è un’azienda informatica, con sede a Terni e Roma, che offre a professionisti, aziende pubbliche e private, servizi di design e sviluppo per la realizzazione e il restauro di soluzioni digitali, in ambito web e mobile.",
+  //     },
+  //     {
+  //       property: "twitter:image",
+  //       content: "https://www.logix-software.it/uploads/share.jpg",
+  //     },
+  //     { name: "robots", content: "index, follow" },
+  //   ],
+  // },
+  // fine
   components: {
     AppProject,
     LetsTalk,
