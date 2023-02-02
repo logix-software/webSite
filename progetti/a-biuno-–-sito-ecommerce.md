@@ -103,12 +103,12 @@ team3Position2: Horizontal
 team3Position3: Horizontal
 team3Position4: Horizontal
 team3Name4: Horizontal
-team3Name6: Horizontal
+team3Name6: test
 section2Position: New A.BIUNO member
 team3Position5: Horizontal
 team3Name5: Horizontal
 numberSections: 3
-team3Position6: Horizontal
+team3Position6: test
 section2Name: Manuel
 title2: I framework
 title3: Il CMS
