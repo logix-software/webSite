@@ -1,13 +1,27 @@
 ---
-title: NFT Suoni Controvento
+abstract: Lorem ipsum lore ipsum e lorem ipsum perchè loremipsum e dai lorem ipsum
+descriptionLogo: Logix e Fattoria Creativa, insieme, per offrire al Festival
+  Suoni Controvento una nuova finestra sul mondo digital. Una collaborazione
+  volta a permettere l’incontro tra musica, letteratura, arte e territorio umbro
+  con uno degli asset più popolari del momento gli NFT. La novità dell’edizione
+  ’22 si configura come un’opportunità per gli utenti di avvicinarsi al mondo
+  del Web 3.0, per vivere il festival in un’ottica differente e offrire vantaggi
+  e nuove modalità di partecipazione attiva a tutta la community di appassionati
+  e curiosi.
+descriptionClient: Logix e Fattoria Creativa, insieme, per offrire al Festival
+  Suoni Controvento una nuova finestra sul mondo digital. Una collaborazione
+  volta a permettere l’incontro tra musica, letteratura, arte e territorio umbro
+  con uno degli asset più popolari del momento gli NFT. La novità dell’edizione
+  ’22 si configura come un’opportunità per gli utenti di avvicinarsi al mondo
+  del Web 3.0, per vivere il festival in un’ottica differente e offrire vantaggi
+  e nuove modalità di  partecipazione attiva a tutta la community di
+  appassionati e curiosi.
+hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
+urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
+title: "NFT Suoni Controvento "
 subTitle: NFT Suoni Controvento
 logoClient: /uploads/suoni-controvento-_-hero.png
-urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
-abstract: Lorem ipsum lore ipsum e lorem ipsum perchè loremipsum e dai lorem ipsum
-descriptionLogo: Logix e Fattoria Creativa, insieme, per offrire al Festival Suoni Controvento una nuova finestra sul mondo digital. Una collaborazione volta a permettere l’incontro tra musica, letteratura, arte e territorio umbro con uno degli asset più popolari del momento gli NFT. La novità dell’edizione ’22 si configura come un’opportunità per gli utenti di avvicinarsi al mondo del Web 3.0, per vivere il festival in un’ottica differente e offrire vantaggi e nuove modalità di partecipazione attiva a tutta la community di appassionati e curiosi.
-descriptionClient: Logix e Fattoria Creativa, insieme, per offrire al Festival Suoni Controvento una nuova finestra sul mondo digital. Una collaborazione volta a permettere l’incontro tra musica, letteratura, arte e territorio umbro con uno degli asset più popolari del momento gli NFT. La novità dell’edizione ’22 si configura come un’opportunità per gli utenti di avvicinarsi al mondo del Web 3.0, per vivere il festival in un’ottica differente e offrire vantaggi e nuove modalità di  partecipazione attiva a tutta la community di appassionati e curiosi.
 imageList: /uploads/suoni-controvento-_-preview.png
-hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
 image1: /uploads/suoni-controvento-_-preview.png
 image1Style: horizontal
 image2: /uploads/suoni-controvento-_-preview.png
