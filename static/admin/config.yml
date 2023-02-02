@@ -275,21 +275,21 @@ collections:
         - {label: "ImageList", name: "imageList", widget: "image"}
         - {label: "Hashtags", name: "hashtags", widget: "string"}
         - {label: "Image1", name: "image1", widget: "image"}
-        - {label: "Image1Style", name: "image1Style", widget: "image", default: "horizontal"}
-        - {label: "Image2", name: "image2", widget: "image"}
-        - {label: "Image2Style", name: "image2Style", widget: "image", default: "horizontal"}
-        - {label: "Image3", name: "image3", widget: "image"}
-        - {label: "Image3Style", name: "image3Style", widget: "image", default: "horizontal"}
-        - {label: "Image4", name: "image4", widget: "image"}
-        - {label: "Image4Style", name: "image4Style", widget: "image", default: "horizontal"}
-        - {label: "Image5", name: "image5", widget: "image"}
-        - {label: "Image5Style", name: "image5Style", widget: "image", default: "horizontal"}
-        - {label: "Image6", name: "image6", widget: "image"}
-        - {label: "Image6Style", name: "image6Style", widget: "image", default: "horizontal"}
-        - {label: "Image7", name: "image7", widget: "image"}
-        - {label: "Image7Style", name: "image7Style", widget: "image", default: "horizontal"}
-        - {label: "Image8", name: "image8", widget: "image"}
-        - {label: "Image8Style", name: "image8Style", widget: "image", default: "horizontal"}
+        - {label: "Image1Style", name: "image1Style", widget: "string", default: "horizontal"}
+        - {label: "Image2", name: "image2", widget: "image", required: false}
+        - {label: "Image2Style", name: "image2Style", widget: "string", default: "horizontal"}
+        - {label: "Image3", name: "image3", widget: "image", required: false}
+        - {label: "Image3Style", name: "image3Style", widget: "string", default: "horizontal"}
+        - {label: "Image4", name: "image4", widget: "image", required: false}
+        - {label: "Image4Style", name: "image4Style", widget: "string", default: "horizontal"}
+        - {label: "Image5", name: "image5", widget: "image", required: false}
+        - {label: "Image5Style", name: "image5Style", widget: "string", default: "horizontal"}
+        - {label: "Image6", name: "image6", widget: "image", required: false}
+        - {label: "Image6Style", name: "image6Style", widget: "string", default: "horizontal"}
+        - {label: "Image7", name: "image7", widget: "image", required: false}
+        - {label: "Image7Style", name: "image7Style", widget: "string", default: "horizontal"}
+        - {label: "Image8", name: "image8", widget: "image", required: false}
+        - {label: "Image8Style", name: "image8Style", widget: "string", default: "horizontal"}
         - {label: "TitleTeam1", name: "titleTeam1", widget: "string"}
         - {label: "Team1Position1", name: "team1Position1", widget: "string"}
         - {label: "Team1Name1", name: "team1Name1", widget: "string"}
