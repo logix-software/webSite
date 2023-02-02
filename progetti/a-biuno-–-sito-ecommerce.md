@@ -63,7 +63,7 @@ image8Style: Horizontal
 team1Name2: Horizontal
 team2Position1: Horizontal
 sectionTitle: Il progetto
-title: A.BIUNO – Sito eCommerce
+title: "A.BIUNO – Sito eCommerce "
 subTitle: Horizontal
 logoClient: /uploads/abiuno-_-mobile.png
 imageList: /uploads/abiuno-_-preview.png
