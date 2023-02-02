@@ -38,7 +38,7 @@ collections:
       - {
           label: "AboutUsDescription",
           name: "aboutUsDescription",
-          widget: "string",
+          widget: "text",
         }
       - {
           label: "aboutUsClientLogo1",
@@ -635,45 +635,45 @@ collections:
           widget: "string",
           default: "horizontal",
         }
-      - { label: "TitleTeam1", name: "titleTeam1", widget: "string" }
-      - { label: "Team1Position1", name: "team1Position1", widget: "string" }
-      - { label: "Team1Name1", name: "team1Name1", widget: "string" }
-      - { label: "Team1Position2", name: "team1Position2", widget: "string" }
-      - { label: "Team1Name2", name: "team1Name2", widget: "string" }
-      - { label: "Team1Position3", name: "team1Position3", widget: "string" }
-      - { label: "Team1Name3", name: "team1Name3", widget: "string" }
-      - { label: "Team1Position4", name: "team1Position4", widget: "string" }
-      - { label: "Team1Name4", name: "team1Name4", widget: "string" }
-      - { label: "Team1Position5", name: "team1Position5", widget: "string" }
-      - { label: "Team1Name5", name: "team1Name5", widget: "string" }
-      - { label: "Team1Position6", name: "team1Position6", widget: "string" }
-      - { label: "Team1Name6", name: "team1Name6", widget: "string" }
-      - { label: "TitleTeam2", name: "titleTeam2", widget: "string" }
-      - { label: "Team2Position1", name: "team2Position1", widget: "string" }
-      - { label: "Team2Name1", name: "team2Name1", widget: "string" }
-      - { label: "Team2Position2", name: "team2Position2", widget: "string" }
-      - { label: "Team2Name2", name: "team2Name2", widget: "string" }
-      - { label: "Team2Position3", name: "team2Position3", widget: "string" }
-      - { label: "Team2Name3", name: "team2Name3", widget: "string" }
-      - { label: "Team2Position4", name: "team2Position4", widget: "string" }
-      - { label: "Team2Name4", name: "team2Name4", widget: "string" }
-      - { label: "Team2Position5", name: "team2Position5", widget: "string" }
-      - { label: "Team2Name5", name: "team2Name5", widget: "string" }
-      - { label: "Team2Position6", name: "team2Position6", widget: "string" }
-      - { label: "Team2Name6", name: "team2Name6", widget: "string" }
-      - { label: "TitleTeam3", name: "titleTeam3", widget: "string" }
-      - { label: "Team3Position1", name: "team3Position1", widget: "string" }
-      - { label: "Team3Name1", name: "team3Name1", widget: "string" }
-      - { label: "Team3Position2", name: "team3Position2", widget: "string" }
-      - { label: "Team3Name2", name: "team3Name2", widget: "string" }
-      - { label: "Team3Position3", name: "team3Position3", widget: "string" }
-      - { label: "Team3Name3", name: "team3Name3", widget: "string" }
-      - { label: "Team3Position4", name: "team3Position4", widget: "string" }
-      - { label: "Team3Name4", name: "team3Name4", widget: "string" }
-      - { label: "Team3Position5", name: "team3Position5", widget: "string" }
-      - { label: "Team3Name5", name: "team3Name5", widget: "string" }
-      - { label: "Team3Position6", name: "team3Position6", widget: "string" }
-      - { label: "Team3Name6", name: "team3Name6", widget: "string" }
+      - { label: "TitleTeam1", name: "titleTeam1", widget: "string", required: false }
+      - { label: "Team1Position1", name: "team1Position1", widget: "string", required: false }
+      - { label: "Team1Name1", name: "team1Name1", widget: "string", required: false }
+      - { label: "Team1Position2", name: "team1Position2", widget: "string", required: false }
+      - { label: "Team1Name2", name: "team1Name2", widget: "string", required: false }
+      - { label: "Team1Position3", name: "team1Position3", widget: "string", required: false }
+      - { label: "Team1Name3", name: "team1Name3", widget: "string", required: false }
+      - { label: "Team1Position4", name: "team1Position4", widget: "string", required: false }
+      - { label: "Team1Name4", name: "team1Name4", widget: "string", required: false }
+      - { label: "Team1Position5", name: "team1Position5", widget: "string", required: false }
+      - { label: "Team1Name5", name: "team1Name5", widget: "string", required: false }
+      - { label: "Team1Position6", name: "team1Position6", widget: "string", required: false }
+      - { label: "Team1Name6", name: "team1Name6", widget: "string", required: false }
+      - { label: "TitleTeam2", name: "titleTeam2", widget: "string", required: false }
+      - { label: "Team2Position1", name: "team2Position1", widget: "string", required: false }
+      - { label: "Team2Name1", name: "team2Name1", widget: "string", required: false }
+      - { label: "Team2Position2", name: "team2Position2", widget: "string", required: false }
+      - { label: "Team2Name2", name: "team2Name2", widget: "string", required: false }
+      - { label: "Team2Position3", name: "team2Position3", widget: "string", required: false }
+      - { label: "Team2Name3", name: "team2Name3", widget: "string", required: false }
+      - { label: "Team2Position4", name: "team2Position4", widget: "string", required: false }
+      - { label: "Team2Name4", name: "team2Name4", widget: "string", required: false }
+      - { label: "Team2Position5", name: "team2Position5", widget: "string", required: false }
+      - { label: "Team2Name5", name: "team2Name5", widget: "string", required: false }
+      - { label: "Team2Position6", name: "team2Position6", widget: "string", required: false }
+      - { label: "Team2Name6", name: "team2Name6", widget: "string", required: false }
+      - { label: "TitleTeam3", name: "titleTeam3", widget: "string", required: false }
+      - { label: "Team3Position1", name: "team3Position1", widget: "string", required: false }
+      - { label: "Team3Name1", name: "team3Name1", widget: "string", required: false }
+      - { label: "Team3Position2", name: "team3Position2", widget: "string", required: false }
+      - { label: "Team3Name2", name: "team3Name2", widget: "string", required: false }
+      - { label: "Team3Position3", name: "team3Position3", widget: "string", required: false }
+      - { label: "Team3Name3", name: "team3Name3", widget: "string", required: false }
+      - { label: "Team3Position4", name: "team3Position4", widget: "string", required: false }
+      - { label: "Team3Name4", name: "team3Name4", widget: "string", required: false }
+      - { label: "Team3Position5", name: "team3Position5", widget: "string", required: false }
+      - { label: "Team3Name5", name: "team3Name5", widget: "string", required: false }
+      - { label: "Team3Position6", name: "team3Position6", widget: "string", required: false }
+      - { label: "Team3Name6", name: "team3Name6", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Date", name: "date", widget: "datetime" }
   - name: "listPartners"
