@@ -1,4 +1,4 @@
 ---
-title: aosp
-image: /uploads/logo-aosp.png
+title: Acciai Speciali Terni
+image: /uploads/ast.png
 ---
