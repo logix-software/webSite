@@ -13,9 +13,9 @@ descriptionLogo: A.BIUNO brand emergente di abbigliamento e accessori Made in
 descriptionClient: Dotare il brand di una vetrina digitale e di un eCommerce per
   permettere agli utenti di scoprire non solo la storia, i valori e le creazioni
   A.BIUNO, ma anche di acquistare senza vincoli di distanza e tempo.
-imageList: /uploads/abiuno-_-cover.png
+imageList: /uploads/abiuno-_-preview.png
 hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
-image1: /uploads/abiuno-_-preview.png
+image1: /uploads/abiuno-_-cover.png
 image1Style: horizontal
 image2: /uploads/abiuno-_-composition-01.png
 image2Style: vertical
