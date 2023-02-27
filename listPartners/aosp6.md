@@ -1,4 +1,4 @@
 ---
-title: aosp
-image: /uploads/logo-aosp.png
+title: " DigiPASS "
+image: /uploads/digipass.png
 ---
