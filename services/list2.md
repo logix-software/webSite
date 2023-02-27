@@ -1,14 +1,9 @@
 ---
 title: Design research & strategy >
-list1: Anlysis
-list2: Presentation deck
-list3: Stato dell’arte
-list4: Prototyping
-list5: Development 
+list1: UX Research
+list2: UX Strategy
+list3: Branding & visual concept
+list4: UI Design
+list5: Prototyping
 link: /
 ---
-
-
-
-
-
