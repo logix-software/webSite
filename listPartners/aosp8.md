@@ -1,4 +1,4 @@
 ---
-title: aosp
-image: /uploads/logo-aosp.png
+title: UmbriaDigitale
+image: /uploads/umbriadigitale.png
 ---

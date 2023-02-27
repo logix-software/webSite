@@ -1,14 +1,9 @@
 ---
 title: Collaborative team >
-list1: Anlysis
-list2: Presentation deck
-list3: Stato dell’arte
-list4: Prototyping
-list5: Development
+list1: Designer
+list2: Frontend Developer
+list3: Backend Developer
+list4: Marketing & Strategyst expert
+list5: " "
 link: /
 ---
-
-
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: Sviluppo web e mobile >
-list1: Anlysis
-list2: Presentation deck
-list3: Stato dell’arte
-list4: Prototyping
-list5: Development
+list1: Web development
+list2: Micro-service architecture
+list3: Mobile development (Ibride, progressive, native)
+list4: " "
+list5: " "
 link: /
 ---
-
-
-
-
-
