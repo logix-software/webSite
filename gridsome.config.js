@@ -59,6 +59,16 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        path: 'listTeam/**/*.md',
+        typeName: 'ListTeam',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         path: 'listTech/**/*.md',
         typeName: 'ListTech',
         remark: {

@@ -340,6 +340,9 @@ h6 {
   &--design {
     background: linear-gradient(102.23deg, #36f2b9 -39.46%, #7878f9 30.96%);
   }
+  &--operation {
+    background: #F9B35F;
+  }
   &--strategist {
     background: linear-gradient(
       103.38deg,

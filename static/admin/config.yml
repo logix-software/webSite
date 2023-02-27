@@ -400,125 +400,6 @@ collections:
       - { label: "HeaderTitle2", name: "headerTitle2", widget: "string" }
       - { label: "HeaderImage", name: "headerImage", widget: "image" }
       - { label: "SectionTitle", name: "sectionTitle", widget: "text" }
-      - { label: "SectionBgText1", name: "sectionBgText1", widget: "string" }
-      - { label: "SectionBgText2", name: "sectionBgText2", widget: "string" }
-      - { label: "Person1Name", name: "person1Name", widget: "string" }
-      - { label: "Person1Team", name: "person1Team", widget: "string" }
-      - { label: "Person1Color", name: "person1Color", widget: "string" }
-      - { label: "Person1Position", name: "person1Position", widget: "string" }
-      - { label: "Person1Img", name: "person1Img", widget: "image" }
-      - { label: "Person2Name", name: "person2Name", widget: "string" }
-      - { label: "Person2Team", name: "person2Team", widget: "string" }
-      - { label: "Person2Color", name: "person2Color", widget: "string" }
-      - { label: "Person2Position", name: "person2Position", widget: "string" }
-      - { label: "Person2Img", name: "person2Img", widget: "image" }
-      - { label: "Person3Name", name: "person3Name", widget: "string" }
-      - { label: "Person3Team", name: "person3Team", widget: "string" }
-      - { label: "Person3Color", name: "person3Color", widget: "string" }
-      - { label: "Person3Position", name: "person3Position", widget: "string" }
-      - { label: "Person3Img", name: "person3Img", widget: "image" }
-      - { label: "Person4Name", name: "person4Name", widget: "string" }
-      - { label: "Person4Team", name: "person4Team", widget: "string" }
-      - { label: "Person4Color", name: "person4Color", widget: "string" }
-      - { label: "Person4Position", name: "person4Position", widget: "string" }
-      - { label: "Person4Img", name: "person4Img", widget: "image" }
-      - { label: "Person5Name", name: "person5Name", widget: "string" }
-      - { label: "Person5Team", name: "person5Team", widget: "string" }
-      - { label: "Person5Color", name: "person5Color", widget: "string" }
-      - { label: "Person5Position", name: "person5Position", widget: "string" }
-      - { label: "Person5Img", name: "person5Img", widget: "image" }
-      - { label: "Person6Name", name: "person6Name", widget: "string" }
-      - { label: "Person6Team", name: "person6Team", widget: "string" }
-      - { label: "Person6Color", name: "person6Color", widget: "string" }
-      - { label: "Person6Position", name: "person6Position", widget: "string" }
-      - { label: "Person6Img", name: "person6Img", widget: "image" }
-      - { label: "Person7Name", name: "person7Name", widget: "string" }
-      - { label: "Person7Team", name: "person7Team", widget: "string" }
-      - { label: "Person7Color", name: "person7Color", widget: "string" }
-      - { label: "Person7Position", name: "person7Position", widget: "string" }
-      - { label: "Person7Img", name: "person7Img", widget: "image" }
-      - { label: "Person8Name", name: "person8Name", widget: "string" }
-      - { label: "Person8Team", name: "person8Team", widget: "string" }
-      - { label: "Person8Color", name: "person8Color", widget: "string" }
-      - { label: "Person8Position", name: "person8Position", widget: "string" }
-      - { label: "Person8Img", name: "person8Img", widget: "image" }
-      - { label: "Person9Name", name: "person9Name", widget: "string" }
-      - { label: "Person9Team", name: "person9Team", widget: "string" }
-      - { label: "Person9Color", name: "person9Color", widget: "string" }
-      - { label: "Person9Position", name: "person9Position", widget: "string" }
-      - { label: "Person9Img", name: "person9Img", widget: "image" }
-      - { label: "Person10Name", name: "person10Name", widget: "string" }
-      - { label: "Person10Team", name: "person10Team", widget: "string" }
-      - { label: "Person10Color", name: "person10Color", widget: "string" }
-      - {
-          label: "Person10Position",
-          name: "person10Position",
-          widget: "string",
-        }
-      - { label: "Person10Img", name: "person10Img", widget: "image" }
-      - { label: "Person11Name", name: "person11Name", widget: "string" }
-      - { label: "Person11Team", name: "person11Team", widget: "string" }
-      - { label: "Person11Color", name: "person11Color", widget: "string" }
-      - {
-          label: "Person11Position",
-          name: "person11Position",
-          widget: "string",
-        }
-      - { label: "Person11Img", name: "person11Img", widget: "image" }
-      - { label: "Person12Name", name: "person12Name", widget: "string" }
-      - { label: "Person12Team", name: "person12Team", widget: "string" }
-      - { label: "Person12Color", name: "person12Color", widget: "string" }
-      - {
-          label: "Person12Position",
-          name: "person12Position",
-          widget: "string",
-        }
-      - { label: "Person12Img", name: "person12Img", widget: "image" }
-      - { label: "Person13Name", name: "person13Name", widget: "string" }
-      - { label: "Person13Team", name: "person13Team", widget: "string" }
-      - { label: "Person13Color", name: "person13Color", widget: "string" }
-      - {
-          label: "Person13Position",
-          name: "person13Position",
-          widget: "string",
-        }
-      - { label: "Person13Img", name: "person13Img", widget: "image" }
-      - { label: "Person14Name", name: "person14Name", widget: "string" }
-      - { label: "Person14Team", name: "person14Team", widget: "string" }
-      - { label: "Person14Color", name: "person14Color", widget: "string" }
-      - {
-          label: "Person14Position",
-          name: "person14Position",
-          widget: "string",
-        }
-      - { label: "Person14Img", name: "person14Img", widget: "image" }
-      - { label: "Person15Name", name: "person15Name", widget: "string" }
-      - { label: "Person15Team", name: "person15Team", widget: "string" }
-      - { label: "Person15Color", name: "person15Color", widget: "string" }
-      - {
-          label: "Person15Position",
-          name: "person15Position",
-          widget: "string",
-        }
-      - { label: "Person15Img", name: "person15Img", widget: "image" }
-      - { label: "Person16Name", name: "person16Name", widget: "string" }
-      - { label: "Person16Team", name: "person16Team", widget: "string" }
-      - { label: "Person16Color", name: "person16Color", widget: "string" }
-      - {
-          label: "Person16Position",
-          name: "person16Position",
-          widget: "string",
-        }
-      - { label: "Person16Img", name: "person16Img", widget: "image" }
-      - { label: "Person17Name", name: "person17Name", widget: "string" }
-      - { label: "Person17Team", name: "person17Team", widget: "string" }
-      - { label: "Person17Color", name: "person17Color", widget: "string" }
-      - {
-          label: "Person17Position",
-          name: "person17Position",
-          widget: "string",
-        }
-      - { label: "Person17Img", name: "person17Img", widget: "image" }
       - { label: "WorkForUsTitle", name: "workForUsTitle", widget: "string" }
       - {
           label: "WorkForUsDescription1",
@@ -635,45 +516,240 @@ collections:
           widget: "string",
           default: "horizontal",
         }
-      - { label: "TitleTeam1", name: "titleTeam1", widget: "string", required: false }
-      - { label: "Team1Position1", name: "team1Position1", widget: "string", required: false }
-      - { label: "Team1Name1", name: "team1Name1", widget: "string", required: false }
-      - { label: "Team1Position2", name: "team1Position2", widget: "string", required: false }
-      - { label: "Team1Name2", name: "team1Name2", widget: "string", required: false }
-      - { label: "Team1Position3", name: "team1Position3", widget: "string", required: false }
-      - { label: "Team1Name3", name: "team1Name3", widget: "string", required: false }
-      - { label: "Team1Position4", name: "team1Position4", widget: "string", required: false }
-      - { label: "Team1Name4", name: "team1Name4", widget: "string", required: false }
-      - { label: "Team1Position5", name: "team1Position5", widget: "string", required: false }
-      - { label: "Team1Name5", name: "team1Name5", widget: "string", required: false }
-      - { label: "Team1Position6", name: "team1Position6", widget: "string", required: false }
-      - { label: "Team1Name6", name: "team1Name6", widget: "string", required: false }
-      - { label: "TitleTeam2", name: "titleTeam2", widget: "string", required: false }
-      - { label: "Team2Position1", name: "team2Position1", widget: "string", required: false }
-      - { label: "Team2Name1", name: "team2Name1", widget: "string", required: false }
-      - { label: "Team2Position2", name: "team2Position2", widget: "string", required: false }
-      - { label: "Team2Name2", name: "team2Name2", widget: "string", required: false }
-      - { label: "Team2Position3", name: "team2Position3", widget: "string", required: false }
-      - { label: "Team2Name3", name: "team2Name3", widget: "string", required: false }
-      - { label: "Team2Position4", name: "team2Position4", widget: "string", required: false }
-      - { label: "Team2Name4", name: "team2Name4", widget: "string", required: false }
-      - { label: "Team2Position5", name: "team2Position5", widget: "string", required: false }
-      - { label: "Team2Name5", name: "team2Name5", widget: "string", required: false }
-      - { label: "Team2Position6", name: "team2Position6", widget: "string", required: false }
-      - { label: "Team2Name6", name: "team2Name6", widget: "string", required: false }
-      - { label: "TitleTeam3", name: "titleTeam3", widget: "string", required: false }
-      - { label: "Team3Position1", name: "team3Position1", widget: "string", required: false }
-      - { label: "Team3Name1", name: "team3Name1", widget: "string", required: false }
-      - { label: "Team3Position2", name: "team3Position2", widget: "string", required: false }
-      - { label: "Team3Name2", name: "team3Name2", widget: "string", required: false }
-      - { label: "Team3Position3", name: "team3Position3", widget: "string", required: false }
-      - { label: "Team3Name3", name: "team3Name3", widget: "string", required: false }
-      - { label: "Team3Position4", name: "team3Position4", widget: "string", required: false }
-      - { label: "Team3Name4", name: "team3Name4", widget: "string", required: false }
-      - { label: "Team3Position5", name: "team3Position5", widget: "string", required: false }
-      - { label: "Team3Name5", name: "team3Name5", widget: "string", required: false }
-      - { label: "Team3Position6", name: "team3Position6", widget: "string", required: false }
-      - { label: "Team3Name6", name: "team3Name6", widget: "string", required: false }
+      - {
+          label: "TitleTeam1",
+          name: "titleTeam1",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team1Position1",
+          name: "team1Position1",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team1Name1",
+          name: "team1Name1",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team1Position2",
+          name: "team1Position2",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team1Name2",
+          name: "team1Name2",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team1Position3",
+          name: "team1Position3",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team1Name3",
+          name: "team1Name3",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team1Position4",
+          name: "team1Position4",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team1Name4",
+          name: "team1Name4",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team1Position5",
+          name: "team1Position5",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team1Name5",
+          name: "team1Name5",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team1Position6",
+          name: "team1Position6",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team1Name6",
+          name: "team1Name6",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "TitleTeam2",
+          name: "titleTeam2",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team2Position1",
+          name: "team2Position1",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team2Name1",
+          name: "team2Name1",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team2Position2",
+          name: "team2Position2",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team2Name2",
+          name: "team2Name2",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team2Position3",
+          name: "team2Position3",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team2Name3",
+          name: "team2Name3",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team2Position4",
+          name: "team2Position4",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team2Name4",
+          name: "team2Name4",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team2Position5",
+          name: "team2Position5",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team2Name5",
+          name: "team2Name5",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team2Position6",
+          name: "team2Position6",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team2Name6",
+          name: "team2Name6",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "TitleTeam3",
+          name: "titleTeam3",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team3Position1",
+          name: "team3Position1",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team3Name1",
+          name: "team3Name1",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team3Position2",
+          name: "team3Position2",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team3Name2",
+          name: "team3Name2",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team3Position3",
+          name: "team3Position3",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team3Name3",
+          name: "team3Name3",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team3Position4",
+          name: "team3Position4",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team3Name4",
+          name: "team3Name4",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team3Position5",
+          name: "team3Position5",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team3Name5",
+          name: "team3Name5",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team3Position6",
+          name: "team3Position6",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Team3Name6",
+          name: "team3Name6",
+          widget: "string",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Date", name: "date", widget: "datetime" }
   - name: "listPartners"
@@ -683,6 +759,16 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "image", name: "image", widget: "image" }
+  - name: "listTeam"
+    label: "Lista Team"
+    folder: "listTeam"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Position", name: "position", widget: "string" }
+      - { label: "Team", name: "team", widget: "string" }
       - { label: "image", name: "image", widget: "image" }
   - name: "listTech"
     label: "Lista tecnologie"

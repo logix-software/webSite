@@ -322,7 +322,7 @@
                 tag1="DEVELOPMENT"
                 tag2="DEVELOPMENT"
                 tag3="DEVELOPMENT"
-                class="mb-2"
+                class="mb-5 mb-md-2"
               ></app-project>
             </ParallaxElement>
           </ParallaxContainer>
