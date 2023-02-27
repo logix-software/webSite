@@ -1,4 +1,4 @@
 ---
-title: aosp
-image: /uploads/logo-aosp.png
+title: AllFood
+image: /uploads/allfood.png
 ---
