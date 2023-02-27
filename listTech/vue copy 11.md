@@ -1,4 +1,4 @@
 ---
-title: Vue.js
-image: /uploads/vue.svg
+title: Java
+image: /uploads/java.png
 ---
