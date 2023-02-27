@@ -1,4 +1,4 @@
 ---
-title: Vue.js
-image: /uploads/vue.svg
+title: Ionic
+image: /uploads/ionic.png
 ---
