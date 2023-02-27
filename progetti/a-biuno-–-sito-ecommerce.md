@@ -46,7 +46,7 @@ team1Position6: ""
 team1Name6: ""
 titleTeam2: DESIGN
 team2Position1: Senior UX/UI Designer
-team2Name1: ""
+team2Name1: Susanna Cirocchi
 team2Position2: ""
 team2Name2: ""
 team2Position3: ""
