@@ -1,28 +1,38 @@
 ---
-title: Sistema Gestione Mense
+title: FoodGO15 - Sistema Gestione Mense
 subTitle: Sistema Gestione Mense
-logoClient: /uploads/allfood_-preview-light-version.png
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
+logoClient: /uploads/logo-freeday15.png
 abstract: Lorem ipsum lore ipsum e lorem ipsum perchè loremipsum e dai lorem ipsum
-descriptionLogo: La digital transformation investe velocemente ogni ambito lavorativo e noi di Logix, come partner tecnologico della startup innovativa Freeday 15, abbiamo messo a disposizione le nostre competenze per realizzare un sistema semplice e intuitivo. Una piattaforma completamente custom, sia per gli utenti finali che per chi gestisce il servizio mense attualmente utilizzato da All Food.
-descriptionClient: La digital transformation investe velocemente ogni ambito lavorativo e noi di Logix, come partner tecnologico della startup innovativa Freeday 15, abbiamo messo a disposizione le nostre competenze per realizzare un sistema semplice e intuitivo. Una piattaforma completamente custom, sia per gli utenti finali che per chi gestisce il servizio mense attualmente utilizzato da All Food.
-imageList: /uploads/allfood_utente-mensa.png
+descriptionLogo: La digital transformation investe velocemente ogni ambito
+  lavorativo e noi di Logix, come partner tecnologico della startup innovativa
+  Freeday 15, abbiamo messo a disposizione le nostre competenze per realizzare
+  un sistema semplice e intuitivo. Una piattaforma completamente custom, sia per
+  gli utenti finali che per chi gestisce il servizio mense attualmente
+  utilizzato da All Food.
+descriptionClient: La digital transformation investe velocemente ogni ambito
+  lavorativo e noi di Logix, come partner tecnologico della startup innovativa
+  Freeday 15, abbiamo messo a disposizione le nostre competenze per realizzare
+  un sistema semplice e intuitivo. Una piattaforma completamente custom, sia per
+  gli utenti finali che per chi gestisce il servizio mense attualmente
+  utilizzato da All Food.
+imageList: /uploads/allfood_-preview-light-version.png
 hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
-image1: /uploads/allfood_utente-mensa.png
+image1: /uploads/all-food-_.png
 image1Style: horizontal
-image2: /uploads/allfood_utente-mensa.png
+image2: /uploads/all-food1.png
 image2Style: vertical
-image3: /uploads/allfood_utente-mensa.png
+image3: /uploads/all-food-_2.png
 image3Style: vertical
-image4: /uploads/allfood_utente-mensa.png
+image4: /uploads/all-food-_-3.png
 image4Style: horizontal
-image5: /uploads/allfood_utente-mensa.png
-image5Style: horizontal
-image6: /uploads/allfood_utente-mensa.png
-image6Style: horizontal
-image7: /uploads/allfood_utente-mensa.png
+image5: /uploads/all-food4.png
+image5Style: vertical
+image6: /uploads/all-food-_5.png
+image6Style: vertical
+image7: /uploads/all-food-_-6.png
 image7Style: horizontal
-image8: /uploads/allfood_utente-mensa.png
+image8: ""
 image8Style: horizontal
 titleTeam1: DEVELOPMENT
 team1Position1: Dev Sen
