@@ -1,4 +1,4 @@
 ---
-title: aosp
-image: /uploads/logo-aosp.png
+title: Freeday15
+image: /uploads/freeday15.png
 ---
