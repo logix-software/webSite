@@ -1,14 +1,9 @@
 ---
 title: Digital transformation >
-list1: Anlysis
-list2: Presentation deck
-list3: Stato dell’arte
-list4: Prototyping
-list5: Development
+list1: Interview & workshop
+list2: Innovation strategy
+list3: Product improvement
+list4: " "
+list5: " "
 link: /
 ---
-
-
-
-
-
