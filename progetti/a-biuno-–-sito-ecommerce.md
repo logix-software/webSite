@@ -3,19 +3,16 @@ title: A.BIUNO – Sito eCommerce
 subTitle: A.BIUNO – Sito eCommerce
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
 logoClient: /uploads/abiuno_hero.png
-abstract: Lorem ipsum lore ipsum e lorem ipsum perchè loremipsum e dai lorem ipsum
-descriptionLogo: Per la linea di abbigliamento e accessori A.BIUNO abbiamo
-  realizzato un sito eCommerce per permettere agli utenti di scoprire non solo
-  la storia, i valori e le creazioni del brand, ma anche di acquistare senza
-  vincoli di distanza e tempo. Un progetto curato da noi a partire dalla fase di
-  progettazione, fino al design e lo sviluppo, insieme al copy e a tutte le
-  diverse attività finalizzate all’ottimizzazione in chiave SEO.
-descriptionClient: Per la linea di abbigliamento e accessori A.BIUNO abbiamo
-  realizzato un sito eCommerce per permettere agli utenti di scoprire non solo
-  la storia, i valori e le creazioni del brand, ma anche di acquistare senza
-  vincoli di distanza e tempo. Un progetto curato da noi a partire dalla fase di
-  progettazione, fino al design e lo sviluppo, insieme al copy e a tutte le
-  diverse attività finalizzate all’ottimizzazione in chiave SEO.
+abstract: Un sito eCommerce dalla progettazione, fino al design e lo sviluppo,
+  insieme all’intera attività di marketing e comunicazione.
+descriptionLogo: A.BIUNO brand emergente di abbigliamento e accessori Made in
+  Italy, nasce nel 2014 da un’idea della designer italiana Alessia Bianco.
+  Inizialmente laboratorio artigianale, nel 2020 il progetto si evolve in un
+  gruppo di lavoro più ampio con l’obiettivo di operare e dialogare con un
+  pubblico più vasto e senza confini.
+descriptionClient: Dotare il brand di una vetrina digitale e di un eCommerce per
+  permettere agli utenti di scoprire non solo la storia, i valori e le creazioni
+  A.BIUNO, ma anche di acquistare senza vincoli di distanza e tempo.
 imageList: /uploads/abiuno-_-preview.png
 hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
 image1: /uploads/abiuno_hero.png
@@ -75,8 +72,16 @@ team3Position6: ""
 team3Name6: ""
 date: 2022-05-01T08:59:02.143Z
 ---
-A.BIUNO è un brand emergente, dal design made in Italy, produttore di borse, zaini, accessori e abbigliamento outdoor. Per A.BIUNO abbiamo curato l’intera brand identity: a partire dal restyling del logo fino alla definizione della style guide; dalla progettazione del sito web, al design, fino allo sviluppo. 
-Abbiamo sviluppato il sito basandoci su un’architettura JAMstack, un nuovo modo di creare siti Web e app, basata sul lato client e non dipendente da un server web. Fra i maggiori vantaggi forniti da JAMstack velocità, miglioramento delle prestazioni e una migliore scalabilità.
-Per la creazione del progetto è stata utilizzata una combinazione di tool che ha permesso di creare, partendo da zero, una UI/UX dal design unico e moderno, responsive, flessibile e dalle alte prestazioni.
+Per A.BIUNO abbiamo curato l’intero processo creativo: a partire dal restyling del logo fino alla definizione della style guide; dalla progettazione del sito web, al design, allo sviluppo, fino al marketing e a tutte le diverse attività finalizzate all’ottimizzazione in chiave SEO.
+Abbiamo sviluppato il sito basandoci su un’architettura JAMstack, un nuovo modo di creare siti Web e app, basata sul lato client e non dipendente da un server web. Fra i maggiori vantaggi forniti da JAMstack velocità, miglioramento delle prestazioni e una migliore scalabilità. Per la creazione del progetto è stata utilizzata una combinazione di tool che ha permesso di creare, partendo da zero, una UI/UX dal design unico e moderno, responsive, flessibile e dalle alte prestazioni.
 
 Dai uno sguardo al nostro progetto: [ABIUNO](https://www.abiuno.com/)
+
+**I framework**
+Per lo sviluppo del sito web abbiamo scelto di utilizzare Gridsome, un framework di Vue.js che semplifica la generazione di pagine statiche. Per la gestione del CSS abbiamo scelto Tailwindcss che si contraddistingue per l'approccio non più basato su classi che realizzano elementi già preconfezionati, ma su una serie di classi di utility che permettono di implementare le nostre idee direttamente nelle pagine HTML.
+
+**Il CMS**
+Per la gestione dei contenuti abbiamo scelto di utilizzare Contentful, un headless CMS che mette a disposizione direttamente le API. Contentful fornisce a tutti gli editor, compresi coloro che non hanno particolare dimestichezza con i codici, la possibilità di gestire in modo interattivo un’interfaccia di modifica intuitiva e facile da utilizzare.
+
+**Deploy**
+Per costruire, organizzare e gestire il sito web abbiamo scelto di utilizzare Netlify. Questo opera in “Continuous deployment", ovvero si interfaccia automaticamente con GitHub e, al momento della modifica, ne permette in pochi secondi la ricompilazione del sito e la pubblicazione (deploy). Netlify opera alla stessa maniera anche con Contenful ma la modifica in questo caso non avviene su GitHub ma direttamente su Contentful.
