@@ -1,4 +1,4 @@
 ---
 title: Fullstory
-image: /uploads/vector.png
+image: /uploads/fullstory.png
 ---
