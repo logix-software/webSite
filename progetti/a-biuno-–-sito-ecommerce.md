@@ -32,42 +32,42 @@ image7Style: horizontal
 image8: /uploads/abiuno_hero.png
 image8Style: horizontal
 titleTeam1: DEVELOPMENT
-team1Position1: Dev Sen
-team1Name1: Nik
-team1Position2: Dev Sen
-team1Name2: Nik
-team1Position3: Dev Sen
-team1Name3: Nik
-team1Position4: Dev Sen
-team1Name4: Nik
-team1Position5: Dev Sen
-team1Name5: Nik
-team1Position6: Dev Sen
-team1Name6: Nik
+team1Position1: Frontend Developer
+team1Name1: Luca Spezzano
+team1Position2: ""
+team1Name2: ""
+team1Position3: ""
+team1Name3: ""
+team1Position4: ""
+team1Name4: ""
+team1Position5: ""
+team1Name5: ""
+team1Position6: ""
+team1Name6: ""
 titleTeam2: DESIGN
-team2Position1: Dev Sen
-team2Name1: Nik
-team2Position2: Dev Sen
-team2Name2: Nik
-team2Position3: Dev Sen
-team2Name3: Nik
-team2Position4: Dev Sen
-team2Name4: Nik
-team2Position5: Dev Sen
-team2Name5: Nik
-team2Position6: Dev Sen
-team2Name6: Nik
+team2Position1: Senior UX/UI Designer
+team2Name1: ""
+team2Position2: ""
+team2Name2: ""
+team2Position3: ""
+team2Name3: ""
+team2Position4: ""
+team2Name4: ""
+team2Position5: ""
+team2Name5: ""
+team2Position6: ""
+team2Name6: ""
 titleTeam3: STRATEGY
-team3Position1: Dev Sen
-team3Name1: Nik
-team3Position2: Dev Sen
-team3Name2: Nik
-team3Position3: Dev Sen
-team3Name3: Nik
-team3Position4: Dev Sen
-team3Name4: Nik
-team3Position5: Dev Sen
-team3Name5: Nik
+team3Position1: Marketing Manager
+team3Name1: Gaia Costantini
+team3Position2: ""
+team3Name2: ""
+team3Position3: ""
+team3Name3: ""
+team3Position4: ""
+team3Name4: ""
+team3Position5: ""
+team3Name5: ""
 team3Position6: ""
 team3Name6: ""
 date: 2022-05-01T08:59:02.143Z
