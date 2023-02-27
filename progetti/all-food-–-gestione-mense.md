@@ -75,10 +75,13 @@ date: 2022-05-01T08:59:02.143Z
 Tramite la Progressive Web App possono essere visualizzate le portate del catalogo e si possono scegliere i tipi di servizio tra i diversi menù disponibili; gli amministratori e gli addetti, invece, tramite Web App, possono gestire agilmente tutte le mense delle aziende che aderiscono al servizio. L’insieme di Web App è stato sviluppato sfruttando un'architettura a micro-servizi e la parte frontend è in VueJS, consentendo la gestione sia lato Utente che lato Amministratore Mensa.
 
 **Amministratore**
+
 Grazie alla Web App sviluppata per gli amministratori del servizio mensa, essi possono curare tutte le attività di configurazione, controllo e gestione: gli Amministratori, oltre a tutte le azioni che può fare un semplice utente, possono creare una mensa, definire gli orari e i tipi di servizi che questa offre, possono creare e organizzare i turni e infine gestire i calendari delle mense.
 
 **Utenti**
+
 L’utente della società che si serve delle mense, una volta effettuato il login e scelto il proprio punto mensa, potrà autonomamente effettuare una serie di azioni tramite la Progressive Web App sviluppata: scegliere la tipologia di pasto desiderato in base a quelli presenti nella mensa, consultare il menù, selezionare il giorno e in quale fascia oraria riceverlo e/o ritirarlo.
 
 **Admin**
+
 L’admin mensa ha una funzione di gestione e controllo sull’intero sistema integrato che permette alla società di gestire tutte le mense del gruppo. L’admin può creare nuove mense, gestirne le informazioni di dettaglio, abilitare i servizi take-away o consumazione sul posto, determinare fasce orarie, tipologia e numero di servizi che è possibile effettuare e creare cataloghi di prodotti disponibili in tutte le mense appartenenti al gruppo.
