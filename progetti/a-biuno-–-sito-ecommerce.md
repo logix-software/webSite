@@ -2,7 +2,7 @@
 title: A.BIUNO – Sito eCommerce
 subTitle: A.BIUNO – Sito eCommerce
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
-logoClient: /uploads/abiuno_hero.png
+logoClient: /uploads/logo-abiuno.png
 abstract: Un sito eCommerce dalla progettazione, fino al design e lo sviluppo,
   insieme all’intera attività di marketing e comunicazione.
 descriptionLogo: A.BIUNO brand emergente di abbigliamento e accessori Made in
@@ -13,19 +13,19 @@ descriptionLogo: A.BIUNO brand emergente di abbigliamento e accessori Made in
 descriptionClient: Dotare il brand di una vetrina digitale e di un eCommerce per
   permettere agli utenti di scoprire non solo la storia, i valori e le creazioni
   A.BIUNO, ma anche di acquistare senza vincoli di distanza e tempo.
-imageList: /uploads/abiuno-_-composition-01.png
+imageList: /uploads/abiuno-_-cover.png
 hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
-image1: /uploads/abiuno-_-composition-02.png
+image1: /uploads/abiuno-_-preview.png
 image1Style: horizontal
-image2: /uploads/abiuno-_-composition-03.png
+image2: /uploads/abiuno-_-composition-01.png
 image2Style: vertical
-image3: /uploads/abiuno-_-composition-4.png
+image3: /uploads/abiuno-_-composition-02.png
 image3Style: vertical
-image4: /uploads/abiuno-_-composition-5.png
+image4: /uploads/abiuno-_-composition-03.png
 image4Style: horizontal
-image5: ""
+image5: /uploads/abiuno-_-composition-4.png
 image5Style: horizontal
-image6: ""
+image6: /uploads/abiuno-_-composition-5.png
 image6Style: horizontal
 image7: ""
 image7Style: horizontal
