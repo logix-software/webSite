@@ -2,7 +2,7 @@
   <Layout>
     <div v-for="text in $page.texts.edges" :key="text.id">
       <div
-        class="hero hero--home d-flex align-items-center"
+        class="heroHome d-flex align-items-center"
         :style="{ 'background-image': 'url(' + text.node.headerImage + ')' }"
       >
         <div class="container">
@@ -10,29 +10,29 @@
             <div class="col-lg-10 position-relative mx-auto text-center">
               <g-image
                 src="~/assets/images/deco-designer.png"
-                class="hero__decoDesigner mouse-effect"
+                class="heroHome__decoDesigner mouse-effect"
                 alt="designer"
               />
               <g-image
                 src="~/assets/images/deco-developer.png"
-                class="hero__decoDeveloper mouse-effect2"
+                class="heroHome__decoDeveloper mouse-effect2"
                 alt="dev"
               />
               <g-image
                 src="~/assets/images/deco-strategist.png"
-                class="hero__decoStrategist mouse-effect3"
+                class="heroHome__decoStrategist mouse-effect3"
                 alt="dev"
               />
 
               <h1
-                class="hero__title mb-5 mb-lg-0"
+                class="heroHome__title mb-5 mb-lg-0"
                 v-html="text.node.headerTitle"
               ></h1>
             </div>
           </div>
           <div class="row mt-5">
             <div class="col-lg-5 mx-auto text-center">
-              <g-link to="/contatti" class="hero__description">{{
+              <g-link to="/contatti" class="heroHome__description">{{
                 text.node.headerAbstract
               }}</g-link>
             </div>
@@ -601,7 +601,7 @@ export default {
 };
 </script>
 <style lang="scss">
-.hero {
+.heroHome {
   width: 100%;
   height: 800px;
   // background-image: url("~@/assets/images/hero-home.jpg");

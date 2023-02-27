@@ -135,16 +135,16 @@
                     > Design research & strategy
                   </g-link>
                 </li>
-                <li class="mb-2">
+                <!-- <li class="mb-2">
                   <g-link to="/" class="navigationHamburger__link"
                     >> Progettazione Web3/NFT
                   </g-link>
-                </li>
-                <li class="mb-2">
+                </li> -->
+                <!-- <li class="mb-2">
                   <g-link to="/" class="navigationHamburger__link">
                     > Branding
                   </g-link>
-                </li>
+                </li> -->
                 <li class="mb-2">
                   <g-link to="/collaborative-team" class="navigationHamburger__link">
                     > Collaborative team

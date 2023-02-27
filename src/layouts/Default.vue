@@ -330,23 +330,23 @@ h6 {
   margin-top: 40px !important;
 }
 .label {
-  padding: 3px 8px;
-  height: 18px;
-  color: #171756;
-  font-family: Lato;
-  font-size: 10px;
-  letter-spacing: 1px;
-  line-height: 18px;
-  text-transform: uppercase;
-  @media screen and (max-width: 992px) {
-    line-height: initial;
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  &--development {
+    background: linear-gradient(103.3deg, #36f2b9 75.53%, #7878f9 131.85%);
   }
-  text-align: center;
-  &--dev {
-    background-color: #b5f7e3;
+  &--design {
+    background: linear-gradient(102.23deg, #36f2b9 -39.46%, #7878f9 30.96%);
   }
-  &--des {
-    background-color: #d0d0ff;
+  &--strategist {
+    background: linear-gradient(
+      103.38deg,
+      #36f2b9 -114.97%,
+      #7878f9 -10.09%,
+      #f60994 131.51%
+    );
   }
 }
 .cta {

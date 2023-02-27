@@ -104,9 +104,9 @@
                   >Digital transformation</g-link
                 >
               </li>
-              <li class="mb-2">
+              <!-- <li class="mb-2">
                 <g-link to="/">Progettazione Web3/NFT</g-link>
-              </li>
+              </li> -->
               <li class="mb-2">
                 <g-link to="/sviluppo-web-and-mobile">Web development</g-link>
               </li>
@@ -118,9 +118,9 @@
               <li class="mb-2">
                 <g-link to="/design-research-and-strategy">UX/UI design</g-link>
               </li>
-              <li class="mb-2">
+              <!-- <li class="mb-2">
                 <g-link to="/">Branding</g-link>
-              </li>
+              </li> -->
               <li>
                 <g-link to="/collaborative-team">Collaborative team</g-link>
               </li>

@@ -7,7 +7,7 @@
             <div class="col-lg-8 mx-auto">
               <h1 class="hero__title">{{text.node.headerTitle}}</h1>
               <div class="my-4">
-                <span class="label label--dev mx-2">Development</span>
+                <span class="label label--development">Development</span>
               </div>
               <p
                 class="hero__description"
@@ -28,7 +28,7 @@
               <p
                 class="competence__description mb-4"
               >{{text.node.Section1Abstract}}</p>
-              <g-link to="/contatti" class="btn btn-secondary">
+              <g-link to="/contatti" class="btn btn-gradient-border text-white">
                 Parliamo di questo servizio
               </g-link>
             </div>
@@ -37,7 +37,6 @@
       </div>
       <div class="tool py-5">
         <div class="container py-5 position-relative">
-          <g-image src="~/assets/images/deco2.svg" class="tool__deco" alt="decoration"/>
           <div class="row">
             <div class="col-lg-5 mx-auto text-center">
               <h6 class="tool__name">{{text.node.toolsName}}</h6>
@@ -189,7 +188,7 @@
               <p
                 class="competence__description mb-4"
               >{{text.node.Section2Abstract}}</p>
-              <g-link to="/contatti" class="btn btn-secondary">
+              <g-link to="/contatti" class="btn btn-gradient-border text-white">
                 Parliamo di questo servizio
               </g-link>
             </div>
@@ -198,7 +197,6 @@
       </div>
       <div class="tool tool--inverted py-5">
         <div class="container py-5 position-relative">
-          <g-image src="~/assets/images/deco2.svg" class="tool__deco" alt="tool"/>
           <div class="row">
             <div class="col-lg-5 mx-auto text-center">
               <h6 class="tool__name">{{text.node.tools2Name}}</h6>
@@ -326,90 +324,50 @@
           <g-image :src="text.node.logo5" class="techs__img mx-3" />
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <div class="caseHistoryCompetenze">
-              <div class="d-lg-flex align-items-center justify-content-between" v-for="textCtaProject in $page.textsCtaProject.edges" :key="textCtaProject.id">
-                <div class="d-lg-flex align-items-start">
-                  <g-image :src="textCtaProject.node.image" class="caseHistoryCompetenze__img" />
-                  <div class="caseHistoryCompetenze__body ml-4">
-                    <div class="mb-2">
-                      <span class="label label--dev mr-3">DEVELOPMENT</span>
-                      <span class="label label--des">DESIGN</span>
-                    </div>
-                    <h1 class="caseHistoryCompetenze__title">{{textCtaProject.node.title}}</h1>
-                    <p
-                      class="caseHistoryCompetenze__description"
-                    >{{textCtaProject.node.description}}</p>
-                    <p
-                      class="caseHistoryCompetenze__tags"
-                    >{{textCtaProject.node.hashtags}}</p>
-                  </div>
-                </div>
-                <div class="text-right">
-                  <g-link :to="textCtaProject.node.link" class="caseHistoryCompetenze__link">_Scopri di più</g-link>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="container pt-5">
+        <div class="row py-5">
+          <ParallaxContainer
+            v-for="(project, index) in $page.projects.edges.slice(0, 2)"
+            :key="project.id"
+            class="col-md-6"
+          >
+            <ParallaxElement :factor="getFactor(index + 1)">
+              <app-project
+                :index="index + 1"
+                :title="project.node.title"
+                :img="project.node.imageList"
+                :abstract="project.node.abstract"
+                :link="project.node.path"
+                label1="DEVELOPMENT"
+                label2="DEVELOPMENT"
+                label3="DEVELOPMENT"
+                tag1="DEVELOPMENT"
+                tag2="DEVELOPMENT"
+                tag3="DEVELOPMENT"
+                class="mb-2"
+              ></app-project>
+            </ParallaxElement>
+          </ParallaxContainer>
         </div>
       </div>
     </div>
-    <div
-      class="partnership py-5"
-      v-for="textPartnership in $page.textsPartnership.edges"
-      :key="textPartnership.id"
-    >
-      <div class="partnership__box my-5 py-5">
-        <g-image src="~/assets/images/deco2.svg" class="partnership__deco" alt="partnership"/>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-11 ml-auto pl-lg-5">
-              <h6 class="pl-2 pl-lg-4 partnership__name">{{textPartnership.node.sectionName}}</h6>
-              <h1 class="pl-2 pl-lg-4 partnership__title">{{textPartnership.node.sectionTitle}}</h1>
-              <div class="d-flex flex-wrap align-items-center">
-                <g-image :src="textPartnership.node.logo1" class="partnership__logo" />
-                <g-image :src="textPartnership.node.logo2" class="partnership__logo" />
-                <g-image :src="textPartnership.node.logo3" class="partnership__logo" />
-                <g-image :src="textPartnership.node.logo4" class="partnership__logo" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 mx-auto text-center py-5">
-            <h1 class="partnership__titleClosing mb-4">{{textPartnership.node.sectionTitle2}}</h1>
-            <p
-              class="partnership__descriptionClosing mb-5"
-            >{{textPartnership.node.sectionAbstract2}}</p>
-            <div>
-            <g-link to="/contatti" class="btn btn-primary mx-1 mx-lg-2">
-              Contattaci
-            </g-link>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container my-5 pt-5">
-        <div class="row">
-          <div class="col-lg-10 ml-auto position-relative mt-lg-5">
-            <div class="cta cta--black">
-              <g-image src="~/assets/images/deco3.svg" class="cta__deco" />
-              <div class="d-flex align-items-center justify-content-between w-75">
-                <h1 class="cta__title">{{textPartnership.node.ctaTitle}} <span class="text-green">{{textPartnership.node.ctaGreen}}</span></h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <LetsTalk />
   </Layout>
 </template>
 <page-query>
 query {
+  projects: allProjects(order: DESC) {
+    edges {
+      node {
+        title
+        imageList
+        image1
+        hashtags
+        abstract
+        path
+      }
+    }
+  },
   texts: allSviluppoWeb {
     edges {
       node {
@@ -496,36 +454,14 @@ query {
       }
     }
   },
-  textsPartnership: allPartnership {
-    edges {
-      node {
-        sectionTitle
-        sectionName
-        logo1
-        logo2
-        logo3
-        logo4
-        sectionTitle2
-        sectionAbstract2
-        ctaTitle
-        ctaGreen
-      }
-    }
-  }
-  textsCtaProject: allCtaProject {
-    edges {
-      node {
-        title
-        hashtags
-        image
-        description
-        link
-      }
-    }
-  }
 }
 </page-query>
 <script>
+import LetsTalk from "~/components/LetsTalk.vue";
+import AppProject from "~/components/AppProject.vue";
+import ParallaxElement from "~/components/ParallaxElement.vue";
+import ParallaxContainer from "~/components/ParallaxContainer.vue";
+
 export default {
   // inizio
   // metaInfo: {
@@ -562,16 +498,27 @@ export default {
   //   ]
   // },
   // fine
+  components: {
+    AppProject,
+    LetsTalk,
+    ParallaxElement,
+    ParallaxContainer,
+  },
   data() {
     return {
-      //   deviceWidth: 0
     };
   },
-  // metaInfo: {
-  //   title: "My blog"
-  // },
   mounted() {
     AOS.init();
+  },
+  methods:{
+    getFactor(index) {
+      if (index % 2 == 0) {
+        return -0.05;
+      } else {
+        return -0.15;
+      }
+    },
   }
 };
 </script>
@@ -666,11 +613,6 @@ export default {
 .tool {
   color: #000;
   position: relative;
-  &__deco {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
   &:before {
     content: "";
     position: absolute;
