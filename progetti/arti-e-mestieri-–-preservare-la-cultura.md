@@ -1,13 +1,18 @@
 ---
-title: Arti e Mestieri – preservare la cultura
-subTitle: Arti e Mestieri – preservare la cultura
-logoClient: /uploads/preview_arti_mestieri.jpg
+title: Arti e Mestieri
+subTitle: Preservare la cultura
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
-abstract: Lorem ipsum lore ipsum e lorem ipsum perchè loremipsum e dai lorem ipsum
-descriptionLogo: Logix è beneficiaria dell'Avviso pubblico L'Impresa fa Cultura per la realizzazione di \"Arti e Mestieri\", un progetto finalizzato a digitalizzare,rendere accessibile e fruibile il patrimonio artistico-culturale e artigianale della provincia di Rieti. Stiamo sviluppando una piattaforma in grado di creare uno spazio di connessione fra artisti, artigiani, estimatori di arte, potenziali clienti ma anche appassionati di mostre, cultura e creazioni realizzate a mano che vogliono restare aggiornati su eventi e novità sul territorio. LINK CE - https://ec.europa.eu/regional_policy/it/funding/erdf/ 
-descriptionClient: Logix è beneficiaria dell'Avviso pubblico L'Impresa fa Cultura per la realizzazione di \"Arti e Mestieri\", un progetto finalizzato a digitalizzare, rendere accessibile e fruibile il patrimonio artistico-culturale e artigianale della provincia di Rieti. Stiamo sviluppando una piattaforma in grado di creare uno spazio di connessione fra artisti, artigiani, estimatori di arte, potenziali clienti ma anche appassionati di mostre, cultura e creazioni realizzate a mano che vogliono restare aggiornati su eventi e novità sul territorio. LINK CE - https://ec.europa.eu/regional_policy/it/funding/erdf/ 
+logoClient: /uploads/commisione-europea.png
+abstract: Un progetto finalizzato a digitalizzare, rendere accessibile e
+  fruibile il patrimonio artistico-culturale e artigianale della provincia di
+  Rieti.
+descriptionLogo: FESR - Fondo europeo di sviluppo regionale 2014-2020. Avviso
+  pubblico "L'Impresa fa Cultura".
+descriptionClient: '"Arti e Mestieri" è un progetto che nasce dall’esigenza di
+  digitalizzare, rendere accessibile e fruibile il patrimonio
+  artistico-culturale e artigianale della provincia di Rieti.'
 imageList: /uploads/testimonial_artimestieri.png
-hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
+hashtags: "#PLATFORM #WEB #WEBAPPLICATION #ARTISAN #ART #ARTCOMMUNITY #CREATIVE"
 image1: /uploads/testimonial_artimestieri.png
 image1Style: horizontal
 image2: /uploads/testimonial_artimestieri.png
