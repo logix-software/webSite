@@ -16,24 +16,24 @@ descriptionClient: >
   Una collaborazione volta a permettere l’unione tra musica, letteratura, arte e territorio umbro con uno degli asset più popolari del momento: gli NFT. 
 
   La novità dell’edizione ’22 si configura come un’opportunità per gli utenti di avvicinarsi al mondo del Web3, per vivere il festival in un’ottica differente e offrire vantaggi e nuove modalità di partecipazione attiva a tutta la community di appassionati e curiosi.
-imageList: /uploads/suoni-controvento-_-preview.png
+imageList: /uploads/gif.png
 hashtags: "#NFT #WEB3 #BLOCKCHAIN #ETHEREUM #ARTE #MUSICA"
-image1: /uploads/suoni-controvento-_-preview.png
-image1Style: horizontal
-image2: /uploads/suoni-controvento-_-preview.png
+image1: /uploads/suoni-controvento-_1.png
+image1Style: vertical
+image2: /uploads/suoni-controvento_2.png
 image2Style: vertical
-image3: /uploads/suoni-controvento-_-preview.png
-image3Style: vertical
-image4: /uploads/suoni-controvento-_-preview.png
+image3: /uploads/suoni-controvento-_-3.png
+image3Style: horizontal
+image4: /uploads/suoni-controvento-_4.png
 image4Style: horizontal
-image5: /uploads/suoni-controvento-_-preview.png
-image5Style: horizontal
-image6: /uploads/suoni-controvento-_-preview.png
-image6Style: horizontal
-image7: /uploads/suoni-controvento-_-preview.png
-image7Style: horizontal
-image8: /uploads/suoni-controvento-_-preview.png
-image8Style: horizontal
+image5: /uploads/suoni-controvento_5.png
+image5Style: vertical
+image6: /uploads/suoni-controvento-_6.png
+image6Style: vertical
+image7: /uploads/suoni-controvento_6.png
+image7Style: vertical
+image8: /uploads/suoni-controvento-_7.png
+image8Style: vertical
 titleTeam1: DEVELOPMENT
 team1Position1: Dev Sen
 team1Name1: Nik
