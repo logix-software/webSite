@@ -1,6 +1,7 @@
 ---
-image: /uploads/alessandro-cirocchi.png
+image: /uploads/img_6552.jpg
 name: Alessandro
-position: Chief Technology Officier
-team: design
+title: Marco Filetti
+position: Founder & CEO
+team: operation
 ---
