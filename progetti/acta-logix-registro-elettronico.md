@@ -1,6 +1,6 @@
 ---
-title: Acta Logix - Registro elettronico
-subTitle: Acta Logix - Registro elettronico
+title: Acta Logix
+subTitle: Registro elettronico
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
 logoClient: /uploads/logo-giunti-scuola.png
 abstract: Un registro elettronico che permette l’organizzazione in cloud di ogni
@@ -64,7 +64,7 @@ team2Position5: ""
 team2Name5: ""
 team2Position6: ""
 team2Name6: ""
-titleTeam3: STRATEGY
+titleTeam3: ""
 team3Position1: ""
 team3Name1: ""
 team3Position2: ""
