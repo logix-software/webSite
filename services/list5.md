@@ -5,5 +5,5 @@ list2: Micro-service architecture
 list3: Mobile development (Ibride, progressive, native)
 list4: " "
 list5: " "
-link: /
+link: /sviluppo-web-and-mobile
 ---
