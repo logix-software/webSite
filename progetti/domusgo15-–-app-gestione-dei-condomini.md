@@ -1,13 +1,22 @@
 ---
-title: DomusGo15 – App gestione dei condomini
-subTitle: DomusGo15 – App gestione dei condomini
-logoClient: /uploads/domusgo15_-preview.png
+title: DomusGo15
+subTitle: App gestione dei condomini
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
-abstract: Lorem ipsum lore ipsum e lorem ipsum perchè loremipsum e dai lorem ipsum
-descriptionLogo: Per Freeday15 abbiamo realizzato DomusGo15 un sistema di applicativi per l’organizzazione e la gestione dell’ecosistema dei condomìni dove amministratori, professionisti e condòmini possono comunicare tra loro, reperire informazioni e accedere a documenti in modo facile e veloce. Siamo stati coinvolti nell’intero processo creativo dalla progettazione, al design, fino allo sviluppo integrale del sistema, di cui abbiamo curato ogni aspetto.
-descriptionClient: Per Freeday15 abbiamo realizzato DomusGo15 un sistema di applicativi per l’organizzazione e la gestione dell’ecosistema dei condomìni dove amministratori, professionisti e condòmini possono comunicare tra loro, reperire informazioni e accedere a documenti in modo facile e veloce. Siamo stati coinvolti nell’intero processo creativo dalla progettazione, al design, fino allo sviluppo integrale del sistema, di cui abbiamo curato ogni aspetto.
+logoClient: /uploads/domusgo15_-preview.png
+abstract: Un sistema di applicativi, un’app mobile e una Web App, per
+  l’organizzazione e la gestione dell’ecosistema dei condomìni.
+descriptionLogo: >+
+  FreeDay15 S.r.l. è una startup, nata a Terni nel 2020, operante nel settore
+  dell’innovazione tecnologica.
+
+descriptionClient: >-
+  DomusGo15 nasce dall’esigenza di ottimizzare la gestione dei servizi relativi
+  all’ecosistema organizzativo, manageriale e comunitario dei condomini e delle
+  proprietà residenziali condivise. 
+
+  Il progetto si fonda sulla necessità di stabilire una collaborazione e una condivisione delle informazioni, in modo facile e veloce, tra chi abita il condominio, chi lo amministra e gli stakeholder collegati.
 imageList: /uploads/domusgo15_utenti-e-condomini.png
-hashtags: "#ECOMMERCE #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
+hashtags: "#WEBAPPLICATION #MOBILEAPP #STARTUP #APARTMENT #HOUSE #COMMUNITY"
 image1: /uploads/domusgo15_utenti-e-condomini.png
 image1Style: horizontal
 image2: /uploads/domusgo15_utenti-e-condomini.png
@@ -25,46 +34,58 @@ image7Style: horizontal
 image8: /uploads/domusgo15_utenti-e-condomini.png
 image8Style: horizontal
 titleTeam1: DEVELOPMENT
-team1Position1: Dev Sen
-team1Name1: Nik
-team1Position2: Dev Sen
-team1Name2: Nik
-team1Position3: Dev Sen
-team1Name3: Nik
-team1Position4: Dev Sen
-team1Name4: Nik
-team1Position5: Dev Sen
-team1Name5: Nik
-team1Position6: Dev Sen
-team1Name6: Nik
+team1Position1: Alessandro Cirocchi
+team1Name1: Frontend Developer
+team1Position2: Luca Spezzano
+team1Name2: Mobile Developer
+team1Position3: Enrico Lanciotti
+team1Name3: Software Engineer
+team1Position4: Enrico Emanuele
+team1Name4: ""
+team1Position5: ""
+team1Name5: ""
+team1Position6: ""
+team1Name6: ""
 titleTeam2: DESIGN
-team2Position1: Dev Sen
+team2Position1: Senior UX/UI Designer
 team2Name1: Nik
-team2Position2: Dev Sen
-team2Name2: Nik
-team2Position3: Dev Sen
-team2Name3: Nik
-team2Position4: Dev Sen
-team2Name4: Nik
-team2Position5: Dev Sen
-team2Name5: Nik
-team2Position6: Dev Sen
-team2Name6: Nik
+team2Position2: Susanna Cirocchi
+team2Name2: Visual Designer
+team2Position3: Vera Schwierz
+team2Name3: ""
+team2Position4: ""
+team2Name4: ""
+team2Position5: ""
+team2Name5: ""
+team2Position6: ""
+team2Name6: ""
 titleTeam3: STRATEGY
-team3Position1: Dev Sen
-team3Name1: Nik
-team3Position2: Dev Sen
-team3Name2: Nik
-team3Position3: Dev Sen
-team3Name3: Nik
-team3Position4: Dev Sen
-team3Name4: Nik
-team3Position5: Dev Sen
-team3Name5: Nik
-team3Position6: Dev Sen
-team3Name6: Nik
+team3Position1: Marketing Manager
+team3Name1: Gaia Costantini
+team3Position2: ""
+team3Name2: ""
+team3Position3: ""
+team3Name3: ""
+team3Position4: ""
+team3Name4: ""
+team3Position5: ""
+team3Name5: ""
+team3Position6: ""
+team3Name6: ""
 date: 2022-05-01T08:59:02.143Z
 ---
-Con DomusGo15 attraverso un unico accesso i diversi profili interessati dal servizio, quali: co-proprietari, inquilini in affitto, amministratori condomìnio, gestori attività, professionisti, enti e organizzazioni saranno in grado di offrire e fruire di servizi dedicati ai singoli target di riferimento in un unico sistema integrato.
-In Logix abbiamo curato l’intero sviluppo del sistema, vale a dire un’app mobile per gli utenti condòmini ed una web app per gli amministratori e i professionisti.
-Lato backend è stata sfruttata un’architettura a micro-servizi e per il front-end della Mobile App IONIC e Angular, mentre per la Web App Vue.JS.
+Con DomusGo15 attraverso un unico accesso i diversi profili interessati dal servizio, quali: co-proprietari, inquilini in affitto, amministratori condomìnio, gestori attività, professionisti, enti e organizzazioni sono in grado di offrire e fruire di servizi dedicati ai singoli target di riferimento in un unico sistema integrato.
+L’intero processo creativo è stato curato in casa Logix: dalla progettazione, al design, fino allo sviluppo integrale del sistema, vale a dire un’app mobile per gli utenti condòmini ed una Web App per gli amministratori e i professionisti. 
+Lato backend è stata sfruttata un’architettura a micro-servizi. Per il front-end della Mobile App abbiamo utilizzato IONIC e Angular, mentre per la Web App Vue.JS.
+
+**Utenti e condòmini**
+
+Il sistema di applicativi permette di tenere sotto controllo e gestire tutte le attività del proprio condominio. Dall’homepage l’utente condòmino può avere una panoramica completa dell’attività condominiale: consultare documenti e avvisi caricati dal proprio amministratore, visualizzare l’area marketplace dedicata all’offerta di servizi professionali, consultare le richieste fatte ai professionisti, accettare o rifiutare i preventivi ricevuti.
+
+**Amministratori di condominio**
+
+Web app riservata agli amministratori appartenenti al network per tutte le attività di configurazione, controllo e gestione dei condomìni: dal caricamento della documentazione, alla pubblicazione di avvisi di interesse comune, all’inserimento dei professionisti convenzionati.
+
+**Professionisti**
+
+Web app riservata ai professionisti convenzionati e verificati dagli amministratori di condominio e dal team DomusGo15 per promuovere ed offrire i propri servizi all’interno del network. I professionisti, selezionati sulla base di standard qualitativi elevati, devono essere preventivamente approvati dagli amministratori per poter operare all’interno della rete. L’utente-professionista, una volta registrato il suo account, può compilare la propria scheda profilo visibile ai condomìni, descrivere le proprie attività, approfondire i servizi offerti, proporre sconti e promozioni e fornire preventivi.
