@@ -35,8 +35,8 @@ image7Style: vertical
 image8: /uploads/suoni-controvento-_7.png
 image8Style: vertical
 titleTeam1: DEVELOPMENT
-team1Position1: Dev Sen
-team1Name1: Nik
+team1Position1: ""
+team1Name1: ""
 team1Position2: Dev Sen
 team1Name2: Nik
 team1Position3: Dev Sen
