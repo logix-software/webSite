@@ -30,44 +30,44 @@ image7Style: vertical
 image8: /uploads/arti-e-mestieri-_9.png
 image8Style: vertical
 titleTeam1: DEVELOPMENT
-team1Position1: Dev Sen
-team1Name1: Nik
-team1Position2: Dev Sen
-team1Name2: Nik
-team1Position3: Dev Sen
-team1Name3: Nik
-team1Position4: Dev Sen
-team1Name4: Nik
-team1Position5: Dev Sen
-team1Name5: Nik
-team1Position6: Dev Sen
-team1Name6: Nik
+team1Position1: Chief Technology Officier
+team1Name1: Alessandro Cirocchi
+team1Position2: Frontend Developer
+team1Name2: Luca Spezzano
+team1Position3: ""
+team1Name3: ""
+team1Position4: ""
+team1Name4: ""
+team1Position5: ""
+team1Name5: ""
+team1Position6: ""
+team1Name6: ""
 titleTeam2: DESIGN
-team2Position1: Dev Sen
-team2Name1: Nik
-team2Position2: Dev Sen
-team2Name2: Nik
-team2Position3: Dev Sen
-team2Name3: Nik
-team2Position4: Dev Sen
-team2Name4: Nik
-team2Position5: Dev Sen
-team2Name5: Nik
-team2Position6: Dev Sen
-team2Name6: Nik
+team2Position1: Senior UX/UI Designer
+team2Name1: Susanna Cirocchi
+team2Position2: Visual Designer
+team2Name2: Vera Schwierz
+team2Position3: ""
+team2Name3: ""
+team2Position4: ""
+team2Name4: ""
+team2Position5: ""
+team2Name5: ""
+team2Position6: ""
+team2Name6: ""
 titleTeam3: STRATEGY
-team3Position1: Dev Sen
-team3Name1: Nik
-team3Position2: Dev Sen
-team3Name2: Nik
-team3Position3: Dev Sen
-team3Name3: Nik
-team3Position4: Dev Sen
-team3Name4: Nik
-team3Position5: Dev Sen
-team3Name5: Nik
-team3Position6: Dev Sen
-team3Name6: Nik
+team3Position1: Marketing Manager
+team3Name1: Gaia Costantini
+team3Position2: ""
+team3Name2: ""
+team3Position3: ""
+team3Name3: ""
+team3Position4: ""
+team3Name4: ""
+team3Position5: ""
+team3Name5: ""
+team3Position6: ""
+team3Name6: ""
 date: 2022-05-01T08:59:02.143Z
 ---
 Logix è beneficiaria dell'Avviso pubblico L'Impresa fa Cultura per la realizzazione di "Arti e Mestieri", un progetto finalizzato a digitalizzare, rendere accessibile e fruibile il patrimonio artistico-culturale e artigianale della provincia di Rieti. Stiamo sviluppando una piattaforma in grado di creare uno spazio di connessione fra artisti, artigiani, estimatori di arte, potenziali clienti ma anche appassionati di mostre, cultura e creazioni realizzate a mano che vogliono restare aggiornati su eventi e novità sul territorio.  Scopri [Arti e Mestieri](https://www.arti-mestieri.com/)[](https://ec.europa.eu/regional_policy/it/funding/erdf/)
