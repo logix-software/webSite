@@ -5,5 +5,5 @@ list2: Innovation strategy
 list3: Product improvement
 list4: " "
 list5: " "
-link: /sviluppo-web-and-mobile/
+link: /digital-transformation/
 ---
