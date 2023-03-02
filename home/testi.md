@@ -17,7 +17,7 @@ ourApproachTitle: Il nostro approccio fatto di <span
 ourApproachDescription: Abbiamo sviluppato un nostro metodo di lavoro che,
   insieme ai migliori strumenti a disposizione, ci  permette di lavorare
   attivamente con il cliente dalla progettazione al lancio.
-ourApproachLink: /
+ourApproachLink: /competenze
 aboutUsTitle: Cosa non dimentichiamo mai
 aboutUsDescription: Come sviluppatori, come designer, come professionisti, ma
   soprattutto come persone; qui in Logix crediamo nel nostro lavoro e pensiamo
