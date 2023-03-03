@@ -36,7 +36,7 @@ image7: ""
 image7Style: horizontal
 image8: ""
 image8Style: horizontal
-titleTeam1: DEVELOPMENT
+titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
 team1Position2: Senior Developer
@@ -49,7 +49,7 @@ team1Position5: ""
 team1Name5: ""
 team1Position6: ""
 team1Name6: ""
-titleTeam2: DESIGN
+titleTeam2: Design
 team2Position1: Senior UX/UI Designer
 team2Name1: Susanna Cirocchi
 team2Position2: ""
@@ -62,9 +62,9 @@ team2Position5: ""
 team2Name5: ""
 team2Position6: ""
 team2Name6: ""
-titleTeam3: ""
-team3Position1: ""
-team3Name1: ""
+titleTeam3: Strategy
+team3Position1: Digital Strategist
+team3Name1: Claudia Pagliaccia
 team3Position2: ""
 team3Name2: ""
 team3Position3: ""
