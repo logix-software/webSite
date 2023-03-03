@@ -20,7 +20,7 @@ descriptionClient: "Acta Logix nasce dall’esigenza di creare uno strumento
   Registro del Docente. Uno spazio digitale dove gli insegnanti, gli studenti e
   le famiglie possono salvare, reperire e archiviare tutte le informazioni che
   desiderano in modo rapido, intuitivo e conveniente."
-imageList: /uploads/acta_home.png
+imageList: /uploads/gif.png
 hashtags: "#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL"
 image1: /uploads/acta-logix.png
 image1Style: vertical
@@ -38,7 +38,7 @@ image7: /uploads/acta-logix7.png
 image7Style: vertical
 image8: /uploads/acta-logix8.png
 image8Style: vertical
-titleTeam1: DEVELOPMENT
+titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
 team1Position2: Senior Developer
@@ -51,7 +51,7 @@ team1Position5: ""
 team1Name5: ""
 team1Position6: ""
 team1Name6: ""
-titleTeam2: DESIGN
+titleTeam2: Design
 team2Position1: Senior UX/UI Designer
 team2Name1: Susanna Cirocchi
 team2Position2: Visual Designer
