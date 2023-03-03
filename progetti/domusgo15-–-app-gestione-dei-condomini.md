@@ -38,20 +38,20 @@ team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
 team1Position2: Frontend Developer
 team1Name2: Luca Spezzano
-team1Position3: Mobile Developer
-team1Name3: Enrico Lanciotti
-team1Position4: Software Engineer
-team1Name4: Enrico Emanuele
+team1Position3: Software Engineer
+team1Name3: Enrico Emanuele
+team1Position4: Mobile Developer
+team1Name4: "Enrico Lanciotti "
 team1Position5: ""
 team1Name5: ""
 team1Position6: ""
 team1Name6: ""
 titleTeam2: DESIGN
 team2Position1: Senior UX/UI Designer
-team2Name1: Nik
-team2Position2: Susanna Cirocchi
-team2Name2: Visual Designer
-team2Position3: Vera Schwierz
+team2Name1: Susanna Cirocchi
+team2Position2: Visual Designer
+team2Name2: Vera Schwierz
+team2Position3: ""
 team2Name3: ""
 team2Position4: ""
 team2Name4: ""
