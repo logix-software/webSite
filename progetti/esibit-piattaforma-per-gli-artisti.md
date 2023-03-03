@@ -33,7 +33,7 @@ image7: /uploads/esibit-_6.png
 image7Style: horizontal
 image8: ""
 image8Style: horizontal
-titleTeam1: DEVELOPMENT
+titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
 team1Position2: Senior Developer
@@ -46,7 +46,7 @@ team1Position5: ""
 team1Name5: ""
 team1Position6: ""
 team1Name6: ""
-titleTeam2: DESIGN
+titleTeam2: Design
 team2Position1: Senior UX/UI Designer
 team2Name1: Susanna Cirocchi
 team2Position2: ""
