@@ -15,7 +15,7 @@ descriptionClient: Il progetto nasce dalla volontà di creare uno spazio in grad
   di mettere in connessione chi “fa arte” con chi ”cerca arte”, dal desiderio di
   intessere una rete di relazioni tra gli artisti e tutte le personalità che
   gravitano intorno all’universo creativo.
-imageList: /uploads/preview_esibit.jpg
+imageList: /uploads/gif.png
 hashtags: "#PLATFORM #WEBAPPLICATION #ARTE #SOCIAL #ARTIST #CREATIVE #ARTCOMMUNITY"
 image1: /uploads/esibit-_-cover.png
 image1Style: horizontal
@@ -36,8 +36,8 @@ image8Style: horizontal
 titleTeam1: DEVELOPMENT
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
-team1Position2: ""
-team1Name2: ""
+team1Position2: Senior Developer
+team1Name2: Augusto Lelli
 team1Position3: ""
 team1Name3: ""
 team1Position4: ""
