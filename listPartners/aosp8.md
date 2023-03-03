@@ -1,4 +1,4 @@
 ---
-title: UmbriaDigitale
-image: /uploads/umbriadigitale.png
+title: Fattoria Creativa
+image: /uploads/fattoria_creativa.png
 ---
