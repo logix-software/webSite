@@ -537,6 +537,13 @@ h6 {
   color: transparent;
   background-image: linear-gradient(103.3deg, #36f2b9 15.36%, #7878f9 127.51%);
 }
+.text-gradient-5 {
+  padding-right: 2px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(99.97deg, #36F2B9 7.48%, #7878F9 42.43%, #F60994 89.62%);
+}
 .text-gradient-design {
   padding-right: 2px;
   -webkit-background-clip: text;
