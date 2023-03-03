@@ -1,33 +1,38 @@
 <template>
   <Layout>
     <div v-for="text in $page.texts.edges" :key="text.id">
-      <div class="hero hero--competenze d-flex align-items-center text-center" :style="{ 'background-image': 'url(' + text.node.headerImage + ')' }">
+      <div
+        class="hero hero--competenze d-flex align-items-center text-center"
+        :style="{ 'background-image': 'url(' + text.node.headerImage + ')' }"
+      >
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h1 class="hero__title">{{text.node.headerTitle}}</h1>
+              <h1 class="hero__title">{{ text.node.headerTitle }}</h1>
               <div class="my-4">
                 <span class="label label--development">Development</span>
               </div>
-              <p
-                class="hero__description"
-              >{{text.node.headerAbstract}}</p>
+              <p class="hero__description">{{ text.node.headerAbstract }}</p>
             </div>
           </div>
         </div>
       </div>
       <div class="competence position-relative py-5">
         <div class="container position-relative py-lg-5">
-          <h1 class="competence__bigText" data-aos="fade-left">{{text.node.section1BgText}}</h1>
+          <h1 class="competence__bigText" data-aos="fade-left">
+            {{ text.node.section1BgText }}
+          </h1>
           <div class="row align-items-center">
             <div class="col-lg-6">
               <g-image :src="text.node.section1Image" class="competence__img" />
             </div>
             <div class="col-lg-5 ml-lg-5">
-              <h1 class="competence__title my-3">{{text.node.section1Title}}</h1>
-              <p
-                class="competence__description mb-4"
-              >{{text.node.Section1Abstract}}</p>
+              <h1 class="competence__title my-3">
+                {{ text.node.section1Title }}
+              </h1>
+              <p class="competence__description mb-4">
+                {{ text.node.Section1Abstract }}
+              </p>
               <g-link to="/contatti" class="btn btn-gradient-border text-white">
                 Parliamo di questo servizio
               </g-link>
@@ -39,98 +44,112 @@
         <div class="container py-5 position-relative">
           <div class="row">
             <div class="col-lg-5 mx-auto text-center">
-              <h6 class="tool__name">{{text.node.toolsName}}</h6>
-              <h1
-                class="tool__titleSection"
-              >{{text.node.toolsAbstract}}</h1>
+              <h6 class="tool__name">{{ text.node.toolsName }}</h6>
+              <h1 class="tool__titleSection">{{ text.node.toolsAbstract }}</h1>
             </div>
           </div>
           <div class="row">
             <div class="col-lg-3">
-              <div class="tool__card d-flex align-items-center justify-content-center">
+              <div
+                class="tool__card d-flex align-items-center justify-content-center"
+              >
                 <div>
                   <g-image :src="text.node.toolsBox1Icon" class="tool__img" />
-                  <h2 class="tool__title">{{text.node.toolsBox1Title}}</h2>
-                  <p
-                    class="tool__description"
-                  >{{text.node.toolsBox1Abstract}}</p>
+                  <h2 class="tool__title">{{ text.node.toolsBox1Title }}</h2>
+                  <p class="tool__description">
+                    {{ text.node.toolsBox1Abstract }}
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col-lg-3">
-              <div class="tool__card d-flex align-items-center justify-content-center">
+              <div
+                class="tool__card d-flex align-items-center justify-content-center"
+              >
                 <div>
                   <g-image :src="text.node.toolsBox2Icon" class="tool__img" />
-                  <h2 class="tool__title">{{text.node.toolsBox2Title}}</h2>
-                  <p
-                    class="tool__description"
-                  >{{text.node.toolsBox2Abstract}}</p>
+                  <h2 class="tool__title">{{ text.node.toolsBox2Title }}</h2>
+                  <p class="tool__description">
+                    {{ text.node.toolsBox2Abstract }}
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col-lg-3">
-              <div class="tool__card d-flex align-items-center justify-content-center">
+              <div
+                class="tool__card d-flex align-items-center justify-content-center"
+              >
                 <div>
                   <g-image :src="text.node.toolsBox3Icon" class="tool__img" />
-                  <h2 class="tool__title">{{text.node.toolsBox3Title}}</h2>
-                  <p
-                    class="tool__description"
-                  >{{text.node.toolsBox3Abstract}}</p>
+                  <h2 class="tool__title">{{ text.node.toolsBox3Title }}</h2>
+                  <p class="tool__description">
+                    {{ text.node.toolsBox3Abstract }}
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col-lg-3">
-              <div class="tool__card d-flex align-items-center justify-content-center">
+              <div
+                class="tool__card d-flex align-items-center justify-content-center"
+              >
                 <div>
                   <g-image :src="text.node.toolsBox4Icon" class="tool__img" />
-                  <h2 class="tool__title">{{text.node.toolsBox4Title}}</h2>
-                  <p
-                    class="tool__description"
-                  >{{text.node.toolsBox4Abstract}}</p>
+                  <h2 class="tool__title">{{ text.node.toolsBox4Title }}</h2>
+                  <p class="tool__description">
+                    {{ text.node.toolsBox4Abstract }}
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col-lg-3">
-              <div class="tool__card d-flex align-items-center justify-content-center">
+              <div
+                class="tool__card d-flex align-items-center justify-content-center"
+              >
                 <div>
                   <g-image :src="text.node.toolsBox5Icon" class="tool__img" />
-                  <h2 class="tool__title">{{text.node.toolsBox5Title}}</h2>
-                  <p
-                    class="tool__description"
-                  >{{text.node.toolsBox5Abstract}}</p>
+                  <h2 class="tool__title">{{ text.node.toolsBox5Title }}</h2>
+                  <p class="tool__description">
+                    {{ text.node.toolsBox5Abstract }}
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col-lg-3">
-              <div class="tool__card d-flex align-items-center justify-content-center">
+              <div
+                class="tool__card d-flex align-items-center justify-content-center"
+              >
                 <div>
                   <g-image :src="text.node.toolsBox6Icon" class="tool__img" />
-                  <h2 class="tool__title">{{text.node.toolsBox6Title}}</h2>
-                  <p
-                    class="tool__description"
-                  >{{text.node.toolsBox6Abstract}}</p>
+                  <h2 class="tool__title">{{ text.node.toolsBox6Title }}</h2>
+                  <p class="tool__description">
+                    {{ text.node.toolsBox6Abstract }}
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col-lg-3">
-              <div class="tool__card d-flex align-items-center justify-content-center">
+              <div
+                class="tool__card d-flex align-items-center justify-content-center"
+              >
                 <div>
                   <g-image :src="text.node.toolsBox7Icon" class="tool__img" />
-                  <h2 class="tool__title">{{text.node.toolsBox7Title}}</h2>
-                  <p
-                    class="tool__description"
-                  >{{text.node.toolsBox7Abstract}}</p>
+                  <h2 class="tool__title">{{ text.node.toolsBox7Title }}</h2>
+                  <p class="tool__description">
+                    {{ text.node.toolsBox7Abstract }}
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col-lg-3">
-              <div class="tool__card d-flex align-items-center justify-content-center">
+              <div
+                class="tool__card d-flex align-items-center justify-content-center"
+              >
                 <div>
                   <g-image :src="text.node.toolsBox8Icon" class="tool__img" />
-                  <h2 class="tool__title">{{text.node.toolsBox8Title}}</h2>
-                  <p
-                    class="tool__description"
-                  >{{text.node.toolsBox8Abstract}}</p>
+                  <h2 class="tool__title">{{ text.node.toolsBox8Title }}</h2>
+                  <p class="tool__description">
+                    {{ text.node.toolsBox8Abstract }}
+                  </p>
                 </div>
               </div>
             </div>
@@ -138,17 +157,29 @@
         </div>
       </div>
       <div class="integration py-5">
-        <div class="container d-lg-flex align-items-start align-items-lg-center">
+        <div
+          class="container d-lg-flex align-items-start align-items-lg-center"
+        >
           <div class="mr-lg-5">
-            <h1 class="integration__name">> {{text.node.integrationName}}</h1>
+            <h1 class="integration__name">> {{ text.node.integrationName }}</h1>
           </div>
           <div class="d-flex align-items-center mx-lg-5 px-lg-5 my-4 my-lg-0">
-            <g-image :src="text.node.integration1Icon" class="integration__img" />
-            <h2 class="integration__title ml-3">{{text.node.integration1}}</h2>
+            <g-image
+              :src="text.node.integration1Icon"
+              class="integration__img"
+            />
+            <h2 class="integration__title ml-3">
+              {{ text.node.integration1 }}
+            </h2>
           </div>
           <div class="d-flex align-items-center ml-lg-5">
-            <g-image :src="text.node.integration2Icon" class="integration__img" />
-            <h2 class="integration__title ml-3">{{text.node.integration2}}</h2>
+            <g-image
+              :src="text.node.integration2Icon"
+              class="integration__img"
+            />
+            <h2 class="integration__title ml-3">
+              {{ text.node.integration2 }}
+            </h2>
           </div>
         </div>
       </div>
@@ -157,37 +188,41 @@
           <div class="row mb-5">
             <div class="col-lg-5 mx-auto text-center">
               <g-image src="~/assets/images/method.svg" class="methods__img" />
-              <h1 class="methods__title">{{text.node.methodsName}}</h1>
+              <h1 class="methods__title">{{ text.node.methodsName }}</h1>
             </div>
           </div>
           <div class="row">
             <div class="col-lg-4 mx-auto mb-4 mb-lg-0">
-              <h1 class="methods__title">{{text.node.methodsBox1Title}}</h1>
-              <p
-                class="methods__description"
-              >{{text.node.methodsBox1Abstract}}</p>
+              <h1 class="methods__title">{{ text.node.methodsBox1Title }}</h1>
+              <p class="methods__description">
+                {{ text.node.methodsBox1Abstract }}
+              </p>
             </div>
             <div class="col-lg-4 mx-auto">
-              <h1 class="methods__title">{{text.node.methodsBox2Title}}</h1>
-              <p
-                class="methods__description"
-              >{{text.node.methodsBox2Abstract}}</p>
+              <h1 class="methods__title">{{ text.node.methodsBox2Title }}</h1>
+              <p class="methods__description">
+                {{ text.node.methodsBox2Abstract }}
+              </p>
             </div>
           </div>
         </div>
       </div>
       <div class="competence competence--inverted position-relative py-5">
         <div class="container position-relative py-5">
-          <h1 class="competence__bigText" data-aos="fade-right">{{text.node.section2BgText}}</h1>
+          <h1 class="competence__bigText" data-aos="fade-right">
+            {{ text.node.section2BgText }}
+          </h1>
           <div class="row align-items-center">
             <div class="col-lg-6 cont-img">
               <g-image :src="text.node.section2Image" class="competence__img" />
             </div>
             <div class="col-lg-5 ml-lg-5 cont-body">
-              <h1 class="competence__title my-3">{{text.node.section2Title}}</h1>
-              <p
-                class="competence__description mb-4"
-              >{{text.node.Section2Abstract}}</p>
+              <h1 class="competence__title my-3">
+                {{ text.node.section2Title }}
+              </h1>
+              <p class="competence__description mb-4">
+                {{ text.node.Section2Abstract }}
+              </p>
               <g-link to="/contatti" class="btn btn-gradient-border text-white">
                 Parliamo di questo servizio
               </g-link>
@@ -199,21 +234,21 @@
         <div class="container py-5 position-relative">
           <div class="row">
             <div class="col-lg-5 mx-auto text-center">
-              <h6 class="tool__name">{{text.node.tools2Name}}</h6>
-              <h1
-                class="tool__titleSection"
-              >{{text.node.tools2Abstract}}</h1>
+              <h6 class="tool__name">{{ text.node.tools2Name }}</h6>
+              <h1 class="tool__titleSection">{{ text.node.tools2Abstract }}</h1>
             </div>
           </div>
           <div class="row justify-content-center">
             <div class="col-lg-3">
-              <div class="tool__card d-flex align-items-center justify-content-center">
+              <div
+                class="tool__card d-flex align-items-center justify-content-center"
+              >
                 <div>
                   <g-image :src="text.node.tools2Box1Icon" class="tool__img" />
-                  <h2 class="tool__title">{{text.node.tools2Box1Title}}</h2>
-                  <p
-                    class="tool__description"
-                  >{{text.node.tools2Box1Abstract}}</p>
+                  <h2 class="tool__title">{{ text.node.tools2Box1Title }}</h2>
+                  <p class="tool__description">
+                    {{ text.node.tools2Box1Abstract }}
+                  </p>
                 </div>
               </div>
             </div>
@@ -223,10 +258,10 @@
               >
                 <div>
                   <g-image :src="text.node.tools2Box2Icon" class="tool__img" />
-                  <h2 class="tool__title">{{text.node.tools2Box2Title}}</h2>
-                  <p
-                    class="tool__description"
-                  >{{text.node.tools2Box2Abstract}}</p>
+                  <h2 class="tool__title">{{ text.node.tools2Box2Title }}</h2>
+                  <p class="tool__description">
+                    {{ text.node.tools2Box2Abstract }}
+                  </p>
                 </div>
               </div>
             </div>
@@ -236,10 +271,10 @@
               >
                 <div>
                   <g-image :src="text.node.tools2Box3Icon" class="tool__img" />
-                  <h2 class="tool__title">{{text.node.tools2Box3Title}}</h2>
-                  <p
-                    class="tool__description"
-                  >{{text.node.tools2Box3Abstract}}</p>
+                  <h2 class="tool__title">{{ text.node.tools2Box3Title }}</h2>
+                  <p class="tool__description">
+                    {{ text.node.tools2Box3Abstract }}
+                  </p>
                 </div>
               </div>
             </div>
@@ -247,38 +282,41 @@
 
           <div class="row justify-content-center">
             <div class="col-lg-3">
-              <div class="tool__card d-flex align-items-center justify-content-center">
+              <div
+                class="tool__card d-flex align-items-center justify-content-center"
+              >
                 <div>
-                  <g-image
-                    :src="text.node.tools2Box4Icon"
-                    class="tool__img"
-                  />
-                  <h2 class="tool__title">{{text.node.tools2Box4Title}}</h2>
-                  <p
-                    class="tool__description"
-                  >{{text.node.tools2Box4Abstract}}</p>
+                  <g-image :src="text.node.tools2Box4Icon" class="tool__img" />
+                  <h2 class="tool__title">{{ text.node.tools2Box4Title }}</h2>
+                  <p class="tool__description">
+                    {{ text.node.tools2Box4Abstract }}
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col-lg-3">
-              <div class="tool__card d-flex align-items-center justify-content-center">
+              <div
+                class="tool__card d-flex align-items-center justify-content-center"
+              >
                 <div>
                   <g-image :src="text.node.tools2Box5Icon" class="tool__img" />
-                  <h2 class="tool__title">{{text.node.tools2Box5Title}}</h2>
-                  <p
-                    class="tool__description"
-                  >{{text.node.tools2Box5Abstract}}</p>
+                  <h2 class="tool__title">{{ text.node.tools2Box5Title }}</h2>
+                  <p class="tool__description">
+                    {{ text.node.tools2Box5Abstract }}
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col-lg-3">
-              <div class="tool__card d-flex align-items-center justify-content-center">
+              <div
+                class="tool__card d-flex align-items-center justify-content-center"
+              >
                 <div>
                   <g-image :src="text.node.tools2Box6Icon" class="tool__img" />
-                  <h2 class="tool__title">{{text.node.tools2Box6Title}}</h2>
-                  <p
-                    class="tool__description"
-                  >{{text.node.tools2Box6Abstract}}</p>
+                  <h2 class="tool__title">{{ text.node.tools2Box6Title }}</h2>
+                  <p class="tool__description">
+                    {{ text.node.tools2Box6Abstract }}
+                  </p>
                 </div>
               </div>
             </div>
@@ -289,13 +327,16 @@
         <div class="container py-5">
           <div class="row align-items-center">
             <div class="col-lg-4 ml-lg-auto">
-              <g-image :src="text.node.section3Image" class="technology__img mb-4 mb-lg-0" />
+              <g-image
+                :src="text.node.section3Image"
+                class="technology__img mb-4 mb-lg-0"
+              />
             </div>
             <div class="col-lg-4 mr-lg-auto">
-              <h1 class="technology__title">{{text.node.section3Title}}</h1>
-              <p
-                class="technology__description"
-              >{{text.node.section3Abstract}}</p>
+              <h1 class="technology__title">{{ text.node.section3Title }}</h1>
+              <p class="technology__description">
+                {{ text.node.section3Abstract }}
+              </p>
             </div>
           </div>
         </div>
@@ -304,19 +345,24 @@
         <div class="container py-5">
           <div class="row align-items-center">
             <div class="col-lg-4 mr-lg-auto col-left">
-              <g-image :src="text.node.section4Image" class="technology__img mb-4 mb-lg-0" />
+              <g-image
+                :src="text.node.section4Image"
+                class="technology__img mb-4 mb-lg-0"
+              />
             </div>
             <div class="col-lg-4 ml-lg-auto col-right">
-              <h1 class="technology__title">{{text.node.section4Title}}</h1>
-              <p
-                class="technology__description"
-              >{{text.node.section4Abstract}}</p>
+              <h1 class="technology__title">{{ text.node.section4Title }}</h1>
+              <p class="technology__description">
+                {{ text.node.section4Abstract }}
+              </p>
             </div>
           </div>
         </div>
       </div>
       <div class="techs py-5">
-        <div class="container d-inline-block d-lg-flex align-items-center justify-content-around">
+        <div
+          class="container d-inline-block d-lg-flex align-items-center justify-content-around"
+        >
           <g-image :src="text.node.logo1" class="techs__img mx-3" />
           <g-image :src="text.node.logo2" class="techs__img mx-3" />
           <g-image :src="text.node.logo3" class="techs__img mx-3" />
@@ -338,12 +384,10 @@
                 :img="project.node.imageList"
                 :abstract="project.node.abstract"
                 :link="project.node.path"
-                label1="DEVELOPMENT"
-                label2="DEVELOPMENT"
-                label3="DEVELOPMENT"
-                tag1="DEVELOPMENT"
-                tag2="DEVELOPMENT"
-                tag3="DEVELOPMENT"
+                :label1="project.node.label1"
+                :label2="project.node.label2"
+                :label3="project.node.label3"
+                :hashtags="project.node.hashtags"
                 class="mb-5 mb-md-2"
               ></app-project>
             </ParallaxElement>
@@ -361,7 +405,9 @@ query {
       node {
         title
         imageList
-        image1
+        label1
+        label2
+        label3
         hashtags
         abstract
         path
@@ -505,13 +551,12 @@ export default {
     ParallaxContainer,
   },
   data() {
-    return {
-    };
+    return {};
   },
   mounted() {
     AOS.init();
   },
-  methods:{
+  methods: {
     getFactor(index) {
       if (index % 2 == 0) {
         return -0.05;
@@ -519,7 +564,7 @@ export default {
         return -0.15;
       }
     },
-  }
+  },
 };
 </script>
 <style lang="scss" scoped>
@@ -803,7 +848,7 @@ export default {
   left: 0;
   position: fixed;
 }
-.bg-secondaryGray{
+.bg-secondaryGray {
   background-color: #f6f7fa;
 }
 </style>

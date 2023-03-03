@@ -16,6 +16,9 @@ descriptionClient: Il progetto nasce dalla volontà di creare uno spazio in grad
   intessere una rete di relazioni tra gli artisti e tutte le personalità che
   gravitano intorno all’universo creativo.
 imageList: /uploads/gif.png
+label1: DEVELOPMENT
+label2: DEVELOPMENT
+label3: DEVELOPMENT
 hashtags: "#PLATFORM #WEBAPPLICATION #ARTE #SOCIAL #ARTIST #CREATIVE #ARTCOMMUNITY"
 image1: /uploads/esibit-_-cover.png
 image1Style: horizontal
@@ -33,6 +36,10 @@ image7: /uploads/esibit-_6.png
 image7Style: horizontal
 image8: ""
 image8Style: horizontal
+image9: ""
+image9Style: ""
+image10: ""
+image10Style: ""
 titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi

@@ -35,12 +35,10 @@
               :img="project.node.imageList"
               :abstract="project.node.abstract"
               :link="project.node.path"
-              label1="DEVELOPMENT"
-              label2="DEVELOPMENT"
-              label3="DEVELOPMENT"
-              tag1="DEVELOPMENT"
-              tag2="DEVELOPMENT"
-              tag3="DEVELOPMENT"
+              :label1="project.node.label1"
+              :label2="project.node.label2"
+              :label3="project.node.label3"
+              :hashtags="project.node.hashtags"
               class="mb-2"
               :variant="scrollTop > 200 ? 'white' : 'default'"
             ></app-project>
@@ -67,7 +65,9 @@ query {
       node {
         title
         imageList
-        image1
+        label1
+        label2
+        label3
         hashtags
         abstract
         path

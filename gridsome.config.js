@@ -6,16 +6,16 @@ module.exports = {
   // fine
   plugins: [
 
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'progetti-coming-soon/**/*.md',
-        typeName: 'ProjectsComingSoon',
-        remark: {
-          // remark options
-        }
-      }
-    },
+    // {
+    //   use: '@gridsome/source-filesystem',
+    //   options: {
+    //     path: 'progetti-coming-soon/**/*.md',
+    //     typeName: 'ProjectsComingSoon',
+    //     remark: {
+    //       // remark options
+    //     }
+    //   }
+    // },
     {
       use: '@gridsome/source-filesystem',
       options: {
@@ -106,26 +106,26 @@ module.exports = {
         }
       }
     },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'partnership/**/*.md',
-        typeName: 'Partnership',
-        remark: {
-          // remark options
-        }
-      }
-    },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'cta-project/**/*.md',
-        typeName: 'CtaProject',
-        remark: {
-          // remark options
-        }
-      }
-    },
+    // {
+    //   use: '@gridsome/source-filesystem',
+    //   options: {
+    //     path: 'partnership/**/*.md',
+    //     typeName: 'Partnership',
+    //     remark: {
+    //       // remark options
+    //     }
+    //   }
+    // },
+    // {
+    //   use: '@gridsome/source-filesystem',
+    //   options: {
+    //     path: 'cta-project/**/*.md',
+    //     typeName: 'CtaProject',
+    //     remark: {
+    //       // remark options
+    //     }
+    //   }
+    // },
     {
       use: '@gridsome/source-filesystem',
       options: {

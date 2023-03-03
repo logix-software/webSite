@@ -7,8 +7,9 @@
             <div class="pr-lg-5">
               <h3 class="mb-4 footer__title">Passa da noi</h3>
               <h6 class="footer__titleSmall">A Terni</h6>
-              <p>Piazza Europa, 5 - 05100 Terni(TR)</p>
-              <p>Via Montenero Sabino, 20 - 00131 Roma(RM)</p>
+              <p>Via di Porta San Giovanni, 28 - 05100 Terni (TR)</p>
+              <h6 class="footer__titleSmall">A Roma</h6>
+              <p>Via Montenero Sabino, 50 - 00133 Roma (RM)</p>
             </div>
           </div>
           <div class="col-lg-3 mb-3 mb-lg-0">
@@ -147,7 +148,7 @@
                 </a>
               </li>
               <li>
-                <a href="/"> Condizioni Generali di Contartto </a>
+                <a href="/"> Condizioni Generali di Contratto </a>
               </li>
             </ul>
           </div>

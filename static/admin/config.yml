@@ -241,33 +241,33 @@ collections:
         }
       - { label: "ApproachTools4", name: "approachTools4", widget: "string" }
       - { label: "ApproachDoing4", name: "approachDoing4", widget: "string" }
-  - name: "partnership"
-    label: "Partnership Section"
-    folder: "partnership"
-    create: false
-    slug: "{{slug}}"
-    fields:
-      - { label: "SectionTitle", name: "sectionTitle", widget: "string" }
-      - { label: "SectionName", name: "sectionName", widget: "string" }
-      - { label: "logo1", name: "logo1", widget: "image" }
-      - { label: "logo2", name: "logo2", widget: "image" }
-      - { label: "logo3", name: "logo3", widget: "image" }
-      - { label: "logo4", name: "logo4", widget: "image" }
-      - { label: "SectionTitle2", name: "sectionTitle2", widget: "string" }
-      - { label: "SectionAbstract2", name: "sectionAbstract2", widget: "text" }
-      - { label: "CtaTitle", name: "ctaTitle", widget: "string" }
-      - { label: "CtaGreen", name: "ctaGreen", widget: "string" }
-  - name: "CtaProject"
-    label: "Cta Project"
-    folder: "cta-project"
-    create: false
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Hashtags", name: "hashtags", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Link", name: "link", widget: "string" }
+  # - name: "partnership"
+  #   label: "Partnership Section"
+  #   folder: "partnership"
+  #   create: false
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - { label: "SectionTitle", name: "sectionTitle", widget: "string" }
+  #     - { label: "SectionName", name: "sectionName", widget: "string" }
+  #     - { label: "logo1", name: "logo1", widget: "image" }
+  #     - { label: "logo2", name: "logo2", widget: "image" }
+  #     - { label: "logo3", name: "logo3", widget: "image" }
+  #     - { label: "logo4", name: "logo4", widget: "image" }
+  #     - { label: "SectionTitle2", name: "sectionTitle2", widget: "string" }
+  #     - { label: "SectionAbstract2", name: "sectionAbstract2", widget: "text" }
+  #     - { label: "CtaTitle", name: "ctaTitle", widget: "string" }
+  #     - { label: "CtaGreen", name: "ctaGreen", widget: "string" }
+  # - name: "CtaProject"
+  #   label: "Cta Project"
+  #   folder: "cta-project"
+  #   create: false
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "Description", name: "description", widget: "text" }
+  #     - { label: "Hashtags", name: "hashtags", widget: "string" }
+  #     - { label: "Image", name: "image", widget: "image" }
+  #     - { label: "Link", name: "link", widget: "string" }
   - name: "projectsPage"
     label: "Projects Page"
     folder: "projects"
@@ -346,6 +346,9 @@ collections:
           widget: "text",
         }
       - { label: "ImageList", name: "imageList", widget: "image" }
+      - { label: "Label1", name: "label1", widget: "string" }
+      - { label: "Label2", name: "label2", widget: "string" }
+      - { label: "Label3", name: "label3", widget: "string" }
       - { label: "Hashtags", name: "hashtags", widget: "string" }
       - { label: "Image1", name: "image1", widget: "image" }
       - {
@@ -396,10 +399,24 @@ collections:
           widget: "string",
           default: "horizontal",
         }
-      - { label: "Image8", name: "image8", widget: "image", required: false }
+      - { abel: "Image8", name: "image8", widget: "image", required: false }
       - {
           label: "Image8Style",
           name: "image8Style",
+          widget: "string",
+          default: "horizontal",
+        }
+      - { label: "Image9", name: "image9", widget: "image", required: false }
+      - {
+          label: "Image9Style",
+          name: "image9Style",
+          widget: "string",
+          default: "horizontal",
+        }
+      - { label: "Image10", name: "image10", widget: "image", required: false }
+      - {
+          label: "Image10Style",
+          name: "image10Style",
           widget: "string",
           default: "horizontal",
         }
@@ -678,18 +695,18 @@ collections:
       - { label: "List4", name: "list4", widget: "string" }
       - { label: "List5", name: "list5", widget: "string" }
       - { label: "Link", name: "link", widget: "string" }
-  - name: "proojectsComingSoon"
-    label: "ProjectsComingSoon"
-    folder: "progetti-coming-soon"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "ImageList", name: "imageList", widget: "image" }
-      - { label: "Hashtags", name: "hashtags", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Abstract", name: "abstract", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+  # - name: "proojectsComingSoon"
+  #   label: "ProjectsComingSoon"
+  #   folder: "progetti-coming-soon"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "ImageList", name: "imageList", widget: "image" }
+  #     - { label: "Hashtags", name: "hashtags", widget: "string" }
+  #     - { label: "Image", name: "image", widget: "image" }
+  #     - { label: "Abstract", name: "abstract", widget: "string" }
+  #     - { label: "Date", name: "date", widget: "datetime" }
   - name: "DigitalTransformation"
     label: "DigitalTransformation Page"
     folder: "digital-transformation"

@@ -19,6 +19,9 @@ descriptionClient: >-
 
   L’intero progetto di Ricerca e Sviluppo Medlab e basa le sue potenzialità di successo sulla possibilità di collezionare un’elevata quantità di dati (BigData) e di poterli organizzare e standardizzare efficientemente, così da poterli poi mettere a disposizione della comunità scientifica mondiale.
 imageList: /uploads/gif.png
+label1: DEVELOPMENT
+label2: DEVELOPMENT
+label3: DEVELOPMENT
 hashtags: "#PLATFORM #WEBAPPLICATION #WEB #RICERCA #MEDICAL #MEDICALRESEARCH #BIGDATA "
 image1: /uploads/medlab.png
 image1Style: vertical
@@ -36,6 +39,10 @@ image7: ""
 image7Style: horizontal
 image8: ""
 image8Style: horizontal
+image9: ""
+image9Style: ""
+image10: ""
+image10Style: ""
 titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi

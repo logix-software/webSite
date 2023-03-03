@@ -21,6 +21,9 @@ descriptionClient: "Acta Logix nasce dall’esigenza di creare uno strumento
   le famiglie possono salvare, reperire e archiviare tutte le informazioni che
   desiderano in modo rapido, intuitivo e conveniente."
 imageList: /uploads/gif.png
+label1: DEVELOPMENT
+label2: DEVELOPMENT
+label3: DEVELOPMENT
 hashtags: "#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL"
 image1: /uploads/acta-logix.png
 image1Style: vertical
@@ -38,6 +41,10 @@ image7: /uploads/acta-logix7.png
 image7Style: vertical
 image8: /uploads/acta-logix8.png
 image8Style: vertical
+image9: ""
+image9Style: ""
+image10: ""
+image10Style: ""
 titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi

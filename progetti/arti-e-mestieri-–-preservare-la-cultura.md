@@ -12,6 +12,9 @@ descriptionClient: '"Arti e Mestieri" è un progetto che nasce dall’esigenza d
   digitalizzare, rendere accessibile e fruibile il patrimonio
   artistico-culturale e artigianale della provincia di Rieti.'
 imageList: /uploads/gif.png
+label1: DEVELOPMENT
+label2: DEVELOPMENT
+label3: DEVELOPMENT
 hashtags: "#PLATFORM #WEB #WEBAPPLICATION #ARTISAN #ART #ARTCOMMUNITY #CREATIVE"
 image1: /uploads/arti-e-mestieri-_-cover.png
 image1Style: horizontal
@@ -29,6 +32,10 @@ image7: /uploads/arti-e-mestieri-_7.png
 image7Style: vertical
 image8: /uploads/arti-e-mestieri-_8.png
 image8Style: vertical
+image9: ""
+image9Style: ""
+image10: ""
+image10Style: ""
 titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi

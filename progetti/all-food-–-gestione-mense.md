@@ -14,6 +14,9 @@ descriptionClient: >-
 
   Alla base vi è l’esigenza di creare un sistema capace di ottimizzare l’intera gestione mense, dotando amministratori, addetti ai lavori e utenti finali di uno strumento organizzativo semplice e intuitivo.
 imageList: /uploads/gif.png
+label1: DEVELOPMENT
+label2: DEVELOPMENT
+label3: DEVELOPMENT
 hashtags: "#PWA #FREEDAY15 #VUEJS #WEBAPP #MICROSERVIZI #DIGITALTRANSFORMATION #ALLFOOD"
 image1: /uploads/all-food-_.png
 image1Style: horizontal
@@ -31,6 +34,10 @@ image7: /uploads/all-food-_-6.png
 image7Style: horizontal
 image8: ""
 image8Style: horizontal
+image9: ""
+image9Style: ""
+image10: ""
+image10Style: ""
 titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi

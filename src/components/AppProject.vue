@@ -53,35 +53,15 @@
           {{ label3 }}
         </li>
       </ul>
-      <ul class="list-unstyled d-flex">
-        <li
-          class="appProject__tag"
-          v-if="tag1"
-          :class="{
-            'text-white': variant === 'white',
-          }"
-        >
-          #{{ tag1 }}
-        </li>
-        <li
-          class="appProject__tag mx-1"
-          v-if="tag2"
-          :class="{
-            'text-white': variant === 'white',
-          }"
-        >
-          #{{ tag2 }}
-        </li>
-        <li
-          class="appProject__tag"
-          v-if="tag3"
-          :class="{
-            'text-white': variant === 'white',
-          }"
-        >
-          #{{ tag3 }}
-        </li>
-      </ul>
+      <div
+        class="appProject__tag"
+        :class="{
+          'text-white': variant === 'white',
+        }"
+      >
+        {{ hashtags }}
+      </div>
+
       <p
         class="appProject__abstract"
         :class="{
@@ -139,17 +119,7 @@ export default {
       required: false,
       default: () => undefined,
     },
-    tag1: {
-      type: String,
-      required: false,
-      default: () => undefined,
-    },
-    tag2: {
-      type: String,
-      required: false,
-      default: () => undefined,
-    },
-    tag3: {
+    hashtags: {
       type: String,
       required: false,
       default: () => undefined,
@@ -235,7 +205,7 @@ export default {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
   }
   &__link {

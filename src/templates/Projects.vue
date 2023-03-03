@@ -31,7 +31,7 @@
         </div>
         <div class="col-lg-9 pl-lg-5">
           <div class="pl-lg-5 mb-5">
-            <h2 class="title">Il cliente</h2>
+            <h2 class="title">L'esigenza</h2>
             <p class="description">
               {{ $page.project.descriptionClient }}
             </p>
@@ -115,6 +115,24 @@
           :class="{
             'col-lg-12': $page.project.image8Style === 'horizontal',
             'col-lg-6': $page.project.image8Style !== 'horizontal',
+          }"
+        ></g-image>
+        <g-image
+          v-if="$page.project.image9"
+          :src="$page.project.image9"
+          class="image mb-4"
+          :class="{
+            'col-lg-12': $page.project.image9Style === 'horizontal',
+            'col-lg-6': $page.project.image9Style !== 'horizontal',
+          }"
+        ></g-image>
+        <g-image
+          v-if="$page.project.image10"
+          :src="$page.project.image10"
+          class="image mb-4"
+          :class="{
+            'col-lg-12': $page.project.image10Style === 'horizontal',
+            'col-lg-6': $page.project.image10Style !== 'horizontal',
           }"
         ></g-image>
       </div>
@@ -421,22 +439,6 @@ query ($path: String!) {
         team3Name6
         path
     },
-    textsPartnership: allPartnership {
-        edges {
-            node {
-                sectionTitle
-                sectionName
-                logo1
-                logo2
-                logo3
-                logo4
-                sectionTitle2
-                sectionAbstract2
-                ctaTitle
-                ctaGreen
-            }
-        }
-    }
 }
 </page-query>
 <script>

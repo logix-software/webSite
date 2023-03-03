@@ -14,6 +14,8 @@ descriptionClient: Dotare il brand di una vetrina digitale e di un eCommerce per
   permettere agli utenti di scoprire non solo la storia, i valori e le creazioni
   A.BIUNO, ma anche di acquistare senza vincoli di distanza e tempo.
 imageList: /uploads/gif.png
+label1: DEVELOPMENT
+label2: DESIGN
 hashtags: "#ECOMMERCE  #MARKETING #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
 image1: /uploads/abiuno-_-cover.png
 image1Style: horizontal
@@ -31,6 +33,10 @@ image7: ""
 image7Style: horizontal
 image8: ""
 image8Style: horizontal
+image9: ""
+image9Style: ""
+image10: ""
+image10Style: ""
 titleTeam1: Development
 team1Position1: Frontend Developer
 team1Name1: Luca Spezzano

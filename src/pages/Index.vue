@@ -126,12 +126,10 @@
                 :img="project.node.imageList"
                 :abstract="project.node.abstract"
                 :link="project.node.path"
-                label1="DEVELOPMENT"
-                label2="DEVELOPMENT"
-                label3="DEVELOPMENT"
-                tag1="DEVELOPMENT"
-                tag2="DEVELOPMENT"
-                tag3="DEVELOPMENT"
+                :label1="project.node.label1"
+                :label2="project.node.label2"
+                :label3="project.node.label3"
+                :hashtags="project.node.hashtags"
                 class="mb-2"
               ></app-project>
             </ParallaxElement>
@@ -209,7 +207,7 @@
           </div>
         </div>
         <div class="position-relative overflow-hidden mb-5">
-          <div class="aboutUs__text aboutUs__text--1 aboutUs__sentence">
+          <div class="aboutUs__text aboutUs__text--1">
             <div v-for="i in 10" :key="i">
               <div class="d-inline-flex align-items-center mr-5">
                 <g-image
@@ -227,7 +225,7 @@
               </div>
             </div>
           </div>
-          <div class="aboutUs__text aboutUs__text--2 aboutUs__sentence">
+          <div class="aboutUs__text aboutUs__text--2">
             <div v-for="i in 10" :key="i">
               <div class="d-inline-flex align-items-center mr-5">
                 <g-image
@@ -245,7 +243,7 @@
               </div>
             </div>
           </div>
-          <div class="aboutUs__text aboutUs__text--1 aboutUs__sentence">
+          <div class="aboutUs__text aboutUs__text--1">
             <div v-for="i in 10" :key="i">
               <div class="d-inline-flex align-items-center mr-5">
                 <g-image
@@ -358,9 +356,11 @@ query {
       node {
         title
         imageList
-        image1
         hashtags
         abstract
+        label1
+        label2
+        label3
         path
       }
     }
@@ -645,7 +645,7 @@ export default {
     @media screen and (max-width: 576px) {
       top: -150px;
       right: 110px;
-      width: 100px;
+      width: 140px;
     }
   }
   &__decoDeveloper {
@@ -660,7 +660,7 @@ export default {
     @media screen and (max-width: 576px) {
       bottom: 30px;
       right: 100px;
-      width: 100px;
+      width: 140px;
     }
   }
   &__decoStrategist {
@@ -675,7 +675,7 @@ export default {
     @media screen and (max-width: 576px) {
       bottom: 30px;
       right: 100px;
-      width: 100px;
+      width: 140px;
     }
   }
   &__title {
@@ -767,7 +767,7 @@ export default {
     font-size: 22px;
     line-height: 29px;
     @media screen and (max-width: 992px) {
-     letter-spacing: -0.025em;
+      letter-spacing: -0.025em;
     }
   }
 }
@@ -784,7 +784,8 @@ export default {
     left: 0;
     right: 0;
     width: 100%;
-    top: 50%;
+    height: 100%;
+    top: 30%;
   }
   &__title {
     font-weight: 300;
@@ -833,6 +834,7 @@ export default {
     }
   }
   &__text {
+    font-family: 'DM Sans';
     display: inline-block;
     white-space: nowrap;
     animation-direction: alternate;

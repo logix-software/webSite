@@ -22,7 +22,7 @@
             <a href="tel:+0744283733" class="text-white">0744/283733</a>
           </p>
           <p class="modalContact__text">
-            <span class="text-green-contact">Passa:</span> Via di Porta San
+            <span class="text-green-contact">Passa da noi:</span> Via di Porta San
             Giovanni, 28 - 05100 Terni (TR)
           </p>
         </div>

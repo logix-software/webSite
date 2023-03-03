@@ -17,6 +17,9 @@ descriptionClient: >
 
   La novità dell’edizione ’22 si configura come un’opportunità per gli utenti di avvicinarsi al mondo del Web3, per vivere il festival in un’ottica differente e offrire vantaggi e nuove modalità di partecipazione attiva a tutta la community di appassionati e curiosi.
 imageList: /uploads/gif.png
+label1: DEVELOPMENT
+label2: DEVELOPMENT
+label3: DEVELOPMENT
 hashtags: "#NFT #WEB3 #BLOCKCHAIN #ETHEREUM #ARTE #MUSICA"
 image1: /uploads/suoni-controvento-_1.png
 image1Style: vertical
@@ -34,6 +37,10 @@ image7: /uploads/suoni-controvento_6.png
 image7Style: vertical
 image8: /uploads/suoni-controvento-_7.png
 image8Style: vertical
+image9: ""
+image9Style: ""
+image10: ""
+image10Style: ""
 titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi

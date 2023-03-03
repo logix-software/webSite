@@ -16,6 +16,8 @@ descriptionClient: >-
 
   Il progetto si fonda sulla necessità di stabilire una collaborazione e una condivisione delle informazioni, in modo facile e veloce, tra chi abita il condominio, chi lo amministra e gli stakeholder collegati.
 imageList: /uploads/gif.png
+label1: DEVELOPMENT
+label2: DESIGN
 hashtags: "#WEBAPPLICATION #MOBILEAPP #STARTUP #APARTMENT #HOUSE #COMMUNITY"
 image1: /uploads/domusgo15-_1.png
 image1Style: horizontal
@@ -33,6 +35,10 @@ image7: /uploads/domusgo15-_-app-mobile-_-messaggistica4.png
 image7Style: vertical
 image8: ""
 image8Style: horizontal
+image9: ""
+image9Style: ""
+image10: ""
+image10Style: ""
 titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
