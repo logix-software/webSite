@@ -13,7 +13,7 @@ descriptionLogo: A.BIUNO brand emergente di abbigliamento e accessori Made in
 descriptionClient: Dotare il brand di una vetrina digitale e di un eCommerce per
   permettere agli utenti di scoprire non solo la storia, i valori e le creazioni
   A.BIUNO, ma anche di acquistare senza vincoli di distanza e tempo.
-imageList: /uploads/abiuno-_-preview.png
+imageList: /uploads/gif.png
 hashtags: "#ECOMMERCE  #MARKETING #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
 image1: /uploads/abiuno-_-cover.png
 image1Style: horizontal
@@ -31,7 +31,7 @@ image7: ""
 image7Style: horizontal
 image8: ""
 image8Style: horizontal
-titleTeam1: DEVELOPMENT
+titleTeam1: Development
 team1Position1: Frontend Developer
 team1Name1: Luca Spezzano
 team1Position2: ""
@@ -44,11 +44,11 @@ team1Position5: ""
 team1Name5: ""
 team1Position6: ""
 team1Name6: ""
-titleTeam2: DESIGN
+titleTeam2: Design
 team2Position1: Senior UX/UI Designer
 team2Name1: Susanna Cirocchi
-team2Position2: ""
-team2Name2: ""
+team2Position2: Visual Designer
+team2Name2: Vera Schwierz
 team2Position3: ""
 team2Name3: ""
 team2Position4: ""
@@ -57,11 +57,11 @@ team2Position5: ""
 team2Name5: ""
 team2Position6: ""
 team2Name6: ""
-titleTeam3: STRATEGY
+titleTeam3: Strategy
 team3Position1: Marketing Manager
 team3Name1: Gaia Costantini
-team3Position2: ""
-team3Name2: ""
+team3Position2: Digital Strategist
+team3Name2: Claudia Pagliaccia
 team3Position3: ""
 team3Name3: ""
 team3Position4: ""
@@ -78,10 +78,13 @@ Abbiamo sviluppato il sito basandoci su un’architettura JAMstack, un nuovo mod
 Dai uno sguardo al nostro progetto: [ABIUNO](https://www.abiuno.com/)
 
 **I framework**
+
 Per lo sviluppo del sito web abbiamo scelto di utilizzare Gridsome, un framework di Vue.js che semplifica la generazione di pagine statiche. Per la gestione del CSS abbiamo scelto Tailwindcss che si contraddistingue per l'approccio non più basato su classi che realizzano elementi già preconfezionati, ma su una serie di classi di utility che permettono di implementare le nostre idee direttamente nelle pagine HTML.
 
 **Il CMS**
+
 Per la gestione dei contenuti abbiamo scelto di utilizzare Contentful, un headless CMS che mette a disposizione direttamente le API. Contentful fornisce a tutti gli editor, compresi coloro che non hanno particolare dimestichezza con i codici, la possibilità di gestire in modo interattivo un’interfaccia di modifica intuitiva e facile da utilizzare.
 
 **Deploy**
+
 Per costruire, organizzare e gestire il sito web abbiamo scelto di utilizzare Netlify. Questo opera in “Continuous deployment", ovvero si interfaccia automaticamente con GitHub e, al momento della modifica, ne permette in pochi secondi la ricompilazione del sito e la pubblicazione (deploy). Netlify opera alla stessa maniera anche con Contenful ma la modifica in questo caso non avviene su GitHub ma direttamente su Contentful.
