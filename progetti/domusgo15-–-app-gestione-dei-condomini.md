@@ -2,7 +2,7 @@
 title: DomusGo15
 subTitle: App gestione dei condomini
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
-logoClient: /uploads/domusgo15_-preview.png
+logoClient: /uploads/logo-freeday15.png
 abstract: Un sistema di applicativi, un’app mobile e una Web App, per
   l’organizzazione e la gestione dell’ecosistema dei condomìni.
 descriptionLogo: >+
@@ -15,33 +15,33 @@ descriptionClient: >-
   proprietà residenziali condivise. 
 
   Il progetto si fonda sulla necessità di stabilire una collaborazione e una condivisione delle informazioni, in modo facile e veloce, tra chi abita il condominio, chi lo amministra e gli stakeholder collegati.
-imageList: /uploads/domusgo15_utenti-e-condomini.png
+imageList: /uploads/gif.png
 hashtags: "#WEBAPPLICATION #MOBILEAPP #STARTUP #APARTMENT #HOUSE #COMMUNITY"
-image1: /uploads/domusgo15_utenti-e-condomini.png
+image1: /uploads/domusgo15-_1.png
 image1Style: horizontal
-image2: /uploads/domusgo15_utenti-e-condomini.png
-image2Style: vertical
-image3: /uploads/domusgo15_utenti-e-condomini.png
-image3Style: vertical
-image4: /uploads/domusgo15_utenti-e-condomini.png
-image4Style: horizontal
-image5: /uploads/domusgo15_utenti-e-condomini.png
-image5Style: horizontal
-image6: /uploads/domusgo15_utenti-e-condomini.png
-image6Style: horizontal
-image7: /uploads/domusgo15_utenti-e-condomini.png
-image7Style: horizontal
-image8: /uploads/domusgo15_utenti-e-condomini.png
+image2: /uploads/domusgo15-_-palette-colori-e-tipografia.png
+image2Style: horizontal
+image3: /uploads/domusgo15-_-app-mobile-_-login-utente.png
+image3Style: horizontal
+image4: /uploads/domusgo15-_-app-mobile-_-messaggistica.png
+image4Style: vertical
+image5: /uploads/domusgo15-_-app-mobile-_-messaggistica2.png
+image5Style: vertical
+image6: /uploads/domusgo15-_-app-mobile-_-messaggistica3.png
+image6Style: vertical
+image7: /uploads/domusgo15-_-app-mobile-_-messaggistica4.png
+image7Style: vertical
+image8: ""
 image8Style: horizontal
 titleTeam1: DEVELOPMENT
-team1Position1: Alessandro Cirocchi
-team1Name1: Frontend Developer
-team1Position2: Luca Spezzano
-team1Name2: Mobile Developer
-team1Position3: Enrico Lanciotti
-team1Name3: Software Engineer
-team1Position4: Enrico Emanuele
-team1Name4: ""
+team1Position1: Chief Technology Officier
+team1Name1: Alessandro Cirocchi
+team1Position2: Frontend Developer
+team1Name2: Luca Spezzano
+team1Position3: Mobile Developer
+team1Name3: Enrico Lanciotti
+team1Position4: Software Engineer
+team1Name4: Enrico Emanuele
 team1Position5: ""
 team1Name5: ""
 team1Position6: ""
