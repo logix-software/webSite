@@ -29,7 +29,7 @@ image7: /uploads/arti-e-mestieri-_7.png
 image7Style: vertical
 image8: /uploads/arti-e-mestieri-_8.png
 image8Style: vertical
-titleTeam1: DEVELOPMENT
+titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
 team1Position2: Frontend Developer
@@ -42,7 +42,7 @@ team1Position5: ""
 team1Name5: ""
 team1Position6: ""
 team1Name6: ""
-titleTeam2: DESIGN
+titleTeam2: Design
 team2Position1: Senior UX/UI Designer
 team2Name1: Susanna Cirocchi
 team2Position2: Visual Designer
@@ -55,7 +55,7 @@ team2Position5: ""
 team2Name5: ""
 team2Position6: ""
 team2Name6: ""
-titleTeam3: STRATEGY
+titleTeam3: Strategy
 team3Position1: Marketing Manager
 team3Name1: Gaia Costantini
 team3Position2: ""
@@ -70,7 +70,9 @@ team3Position6: ""
 team3Name6: ""
 date: 2022-05-01T08:59:02.143Z
 ---
-Logix è beneficiaria dell'Avviso pubblico L'Impresa fa Cultura per la realizzazione di "Arti e Mestieri", un progetto finalizzato a digitalizzare, rendere accessibile e fruibile il patrimonio artistico-culturale e artigianale della provincia di Rieti. Stiamo sviluppando una piattaforma in grado di creare uno spazio di connessione fra artisti, artigiani, estimatori di arte, potenziali clienti ma anche appassionati di mostre, cultura e creazioni realizzate a mano che vogliono restare aggiornati su eventi e novità sul territorio.  Scopri [Arti e Mestieri](https://www.arti-mestieri.com/)[](https://ec.europa.eu/regional_policy/it/funding/erdf/)
+Logix è beneficiaria dell'Avviso pubblico L'Impresa fa Cultura per la realizzazione di "Arti e Mestieri", un progetto finalizzato a digitalizzare, rendere accessibile e fruibile il patrimonio artistico-culturale e artigianale della provincia di Rieti. Stiamo sviluppando una piattaforma in grado di creare uno spazio di connessione fra artisti, artigiani, estimatori di arte, potenziali clienti ma anche appassionati di mostre, cultura e creazioni realizzate a mano che vogliono restare aggiornati su eventi e novità sul territorio.
+
+Scopri [Arti e Mestieri](https://www.arti-mestieri.com/)[](https://ec.europa.eu/regional_policy/it/funding/erdf/)
 
 **Sostegno finanziario ricevuto:**
 
