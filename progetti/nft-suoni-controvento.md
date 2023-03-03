@@ -81,7 +81,7 @@ Gli NFT sono token non fungibili, cioè beni immutabili e non sostituibili che s
 
 **La collezione**
 
-Per Suoni Controvento abbiamo realizzato 20 NFT, suddivisi in tre categorie diverse, con relative utility e vantaggi esclusivi: Natura, Musica e Chiave. L’acquisto di un NFT Natura permette di vivere esperienze esclusive sul territorio come degustazioni di vini e prodotti tipici umbri; gli NFT Musica permettono di accedere ad eventi premium e ottenere gadget in edizione limitata. Gli NFT Chiave, invece, garantiscono il pass di accesso a vita ad ogni evento di qualsiasi edizione del Festival
+Per Suoni Controvento abbiamo realizzato 20 NFT, suddivisi in tre categorie diverse, con relative utility e vantaggi esclusivi: Natura, Musica e Chiave. L’acquisto di un NFT Natura permette di vivere esperienze esclusive sul territorio come degustazioni di vini e prodotti tipici umbri; gli NFT Musica permettono di accedere ad eventi premium e ottenere gadget in edizione limitata. Gli NFT Chiave, invece, garantiscono il pass di accesso a vita ad ogni evento di qualsiasi edizione del Festival.
 
 **Come funziona?**
 
