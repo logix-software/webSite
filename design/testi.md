@@ -27,16 +27,16 @@ tools2Box2Abstract: Progettiamo la struttura del prodotto partendo
   modo più semplice e veloce possibile. Dalla gerarchia o tassonomia nelle voci
   di menù alla suddivisione delle sezioni, cerchiamo di dare fluidità e coerenza
   dell’esperienza.
-tools2Box3Abstract: Delineiamo la struttura del prodotto, le sue parti
-  essenziali e fondamentali, creando general flow e wireframe, definendo
-  sezioni, pagine ed elementi. Il materiale prodotto servirà per il confronto
-  con il cliente, gli utenti reali e gli stackeholder che avranno la possibilità
-  di valutare concretamente il lavoro in poco tempo.
+tools2Box3Abstract: >-
+  Delineiamo la struttura del prodotto, le sue parti essenziali e fondamentali,
+  creando general flow e wireframe, definendo sezioni, pagine ed elementi. 
+
+  Il materiale prodotto servirà per il confronto con il cliente, gli utenti reali e gli stackeholder che avranno la possibilità di valutare concretamente il lavoro in poco tempo.
 tools2Box4Abstract: Creiamo con cura le interfacce e la styleguide con tutte le
-  componenti e gli elementi che permettono al prodotto di mantenere la propria
-  identità e continuità nel tempo e nelle varie forme on e offline. Il prototipo
-  hi-fi che verrà costruito sulla base di tutto il processo sarà testato e
-  validato dagli utenti.
+  componenti e gli elementi che permettono  al prodotto di mantenere la propria
+  identità e continuità nel tempo e nelle varie forme on e offline (UI Design).
+  Il prototipo hi-fi che verrà costruito sulla base di tutto il processo sarà
+  testato e validato dagli utenti.
 section3Title: Gli strumenti che ci permettono
 logo1: /uploads/figma.svg
 logo2: /uploads/sketch.svg
