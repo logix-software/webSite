@@ -16,6 +16,7 @@ descriptionClient: Dotare il brand di una vetrina digitale e di un eCommerce per
 imageList: /uploads/gif.png
 label1: DEVELOPMENT
 label2: DESIGN
+label3: STRATEGIST
 hashtags: "#ECOMMERCE  #MARKETING #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
 image1: /uploads/abiuno-_-cover.png
 image1Style: horizontal
@@ -34,9 +35,9 @@ image7Style: horizontal
 image8: ""
 image8Style: horizontal
 image9: ""
-image9Style: ""
+image9Style: " "
 image10: ""
-image10Style: ""
+image10Style: " "
 titleTeam1: Development
 team1Position1: Frontend Developer
 team1Name1: Luca Spezzano
