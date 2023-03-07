@@ -3,9 +3,7 @@ title: MedLab
 subTitle: Progetti per la ricerca medica
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
 logoClient: /uploads/azienda-ospedaliera-terni.png
-abstract: In collaborazione con il dipartimento di chirurgia gastrica
-  dell’Azienda Ospedaliera di Terni; una collezione di moduli software ed
-  algoritmi pensati per il mondo medico.
+abstract: Una collezione di moduli software ed algoritmi pensati per il mondo medico.
 descriptionLogo: L’azienda Ospedaliera Santa Maria di Terni, in termini di
   grandezza il secondo ospedale della Regione Umbria. In stretta collaborazione
   con il dipartimento di Chirurgia Gastrica di Terni diretto da Dott. Amilcare
@@ -40,9 +38,9 @@ image7Style: horizontal
 image8: ""
 image8Style: horizontal
 image9: ""
-image9Style: ""
+image9Style: " "
 image10: ""
-image10Style: ""
+image10Style: " "
 titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
