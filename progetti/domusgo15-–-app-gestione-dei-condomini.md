@@ -18,6 +18,7 @@ descriptionClient: >-
 imageList: /uploads/gif.png
 label1: DEVELOPMENT
 label2: DESIGN
+label3: STRATEGIST
 hashtags: "#WEBAPPLICATION #MOBILEAPP #STARTUP #APARTMENT #HOUSE #COMMUNITY"
 image1: /uploads/domusgo15-_1.png
 image1Style: horizontal
@@ -36,9 +37,9 @@ image7Style: vertical
 image8: ""
 image8Style: horizontal
 image9: ""
-image9Style: ""
+image9Style: horizontal
 image10: ""
-image10Style: ""
+image10Style: horizontal
 titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
