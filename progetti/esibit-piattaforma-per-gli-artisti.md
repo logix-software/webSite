@@ -18,7 +18,7 @@ descriptionClient: Il progetto nasce dalla volontà di creare uno spazio in grad
 imageList: /uploads/gif.png
 label1: DEVELOPMENT
 label2: DESIGN
-label3: " "
+label3: "  "
 hashtags: "#PLATFORM #WEBAPPLICATION #ARTE #SOCIAL #ARTIST #CREATIVE #ARTCOMMUNITY"
 image1: /uploads/esibit-_-cover.png
 image1Style: horizontal
