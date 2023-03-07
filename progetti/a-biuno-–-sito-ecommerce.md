@@ -3,8 +3,8 @@ title: A.BIUNO
 subTitle: Sito eCommerce
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
 logoClient: /uploads/logo-abiuno.png
-abstract: Un sito eCommerce dalla progettazione, fino al design e lo sviluppo,
-  insieme all’intera attività di marketing e comunicazione.
+abstract: Dalla progettazione, fino al design e lo sviluppo, insieme all’intera
+  strategia di marketing e comunicazione.
 descriptionLogo: A.BIUNO brand emergente di abbigliamento e accessori Made in
   Italy, nasce nel 2014 da un’idea della designer italiana Alessia Bianco.
   Inizialmente laboratorio artigianale, nel 2020 il progetto si evolve in un
