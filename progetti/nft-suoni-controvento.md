@@ -3,8 +3,7 @@ title: Suoni Controvento
 subTitle: NFT
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
 logoClient: /uploads/logo-fattoria-creativa.png
-abstract: Logix e Fattoria Creativa, insieme, per offrire al Festival Suoni
-  Controvento una nuova finestra sul mondo digital del Web3.
+abstract: NFT Suoni Controvento una nuova finestra sul mondo digital del Web3.
 descriptionLogo: Fattoria Creativa è una web agency che nasce a Perugia nel
   2000. Oggi l'agenzia mette insieme diverse professionalità offrendo servizi
   legati al mondo del digital marketing e della comunicazione pubblicitaria.
@@ -18,8 +17,8 @@ descriptionClient: >
   La novità dell’edizione ’22 si configura come un’opportunità per gli utenti di avvicinarsi al mondo del Web3, per vivere il festival in un’ottica differente e offrire vantaggi e nuove modalità di partecipazione attiva a tutta la community di appassionati e curiosi.
 imageList: /uploads/gif.png
 label1: DEVELOPMENT
-label2: DEVELOPMENT
-label3: DEVELOPMENT
+label2: DESIGN
+label3: STRATEGIST
 hashtags: "#NFT #WEB3 #BLOCKCHAIN #ETHEREUM #ARTE #MUSICA"
 image1: /uploads/suoni-controvento-_1.png
 image1Style: vertical
@@ -38,9 +37,9 @@ image7Style: vertical
 image8: /uploads/suoni-controvento-_7.png
 image8Style: vertical
 image9: ""
-image9Style: ""
+image9Style: " "
 image10: ""
-image10Style: ""
+image10Style: " "
 titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
