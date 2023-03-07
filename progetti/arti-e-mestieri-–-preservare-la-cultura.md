@@ -3,9 +3,8 @@ title: Arti e Mestieri
 subTitle: Preservare la cultura
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
 logoClient: /uploads/commisione-europea.png
-abstract: Un progetto finalizzato a digitalizzare, rendere accessibile e
-  fruibile il patrimonio artistico-culturale e artigianale della provincia di
-  Rieti.
+abstract: Un progetto volto a digitalizzare e rendere accessibile il patrimonio
+  artistico, culturale e artigianale della provincia di Rieti.
 descriptionLogo: FESR - Fondo europeo di sviluppo regionale 2014-2020. Avviso
   pubblico "L'Impresa fa Cultura".
 descriptionClient: '"Arti e Mestieri" è un progetto che nasce dall’esigenza di
@@ -13,8 +12,8 @@ descriptionClient: '"Arti e Mestieri" è un progetto che nasce dall’esigenza d
   artistico-culturale e artigianale della provincia di Rieti.'
 imageList: /uploads/gif.png
 label1: DEVELOPMENT
-label2: DEVELOPMENT
-label3: DEVELOPMENT
+label2: DESIGN
+label3: STRATEGIST
 hashtags: "#PLATFORM #WEB #WEBAPPLICATION #ARTISAN #ART #ARTCOMMUNITY #CREATIVE"
 image1: /uploads/arti-e-mestieri-_-cover.png
 image1Style: horizontal
@@ -33,9 +32,9 @@ image7Style: vertical
 image8: /uploads/arti-e-mestieri-_8.png
 image8Style: vertical
 image9: ""
-image9Style: ""
+image9Style: " "
 image10: ""
-image10Style: ""
+image10Style: " "
 titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
