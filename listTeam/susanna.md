@@ -1,6 +1,7 @@
 ---
 title: Susanna
+name: Susanna
 position: Senior UX/UI Designer
-team: "design"
+team: design
 image: /uploads/img_6676.jpg
 ---
