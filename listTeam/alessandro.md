@@ -1,6 +1,6 @@
 ---
 title: Alessandro
-name: Alessandro Cirocchi
+name: Alessandro
 position: Chief Technology Officer
 team: development
 image: /uploads/img_6626.jpg
