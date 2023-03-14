@@ -37,13 +37,18 @@ competence4Abstract: Guidando ed accompagnando i clienti nel web3 per sfruttare
 competence4Img: /uploads/collaborative_team.png
 approachImg: /uploads/competence-deco.png
 approachTitle: Il nostro approccio olistico
-approachDescription: Il nostro team di professionisti è in grado di affiancare
-  il team delle aziende clienti, offrendo le professionalità, le competenze, gli
-  strumenti ed i metodi migliori nel breve periodo.
-approachDescription1: Il nostro team di professionisti è in grado di affiancare
-  il team delle aziende clienti, offrendo le professionalità, le competenze, gli
-  strumenti ed i metodi migliori nel breve periodo.
-approachTools1: item1 <br> item2 <br>item3
+approachDescription: In stretta collaborazione con le aziende seguiamo la
+  progettazione, la realizzazione ed il test di ogni componente, prodotto e
+  servizio. Metodologie di management AGILE che seguono un percorso iterativo
+  che ci lega al cliente, alla sua azienda ed agli utenti che utilizzano i
+  prodotti collettivamente realizzati.
+approachDescription1: Prodotti, componenti e servizi che caratterizzano il
+  progetto, dovranno essere testati e validati attraverso un continuo processo
+  iterativo che non si ferma alla semplice pubblicazione. L’adozione da parte
+  degli utenti reali, consentirà di migliorare ed integrare il progetto lungo
+  l’intero ciclo di vita. Logix offre un costante supporto per migliorare ed
+  ampliare prospettive e performance.
+approachTools1: Pitch<br> item2 <br>item3
 approachDoing1: item1 <br> item2 <br>item3
 approachDescription2: Il nostro team di professionisti è in grado di affiancare
   il team delle aziende clienti, offrendo le professionalità, le competenze, gli
