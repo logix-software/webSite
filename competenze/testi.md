@@ -14,13 +14,12 @@ competence2Title: Design research & strategy
 competence2Link: /design-research-and-strategy
 competence2Services: Anlysis <br> Presentation deck <br> Stato dell’arte <br>
   Prototyping <br> Development <br> Plan <br>
-competence2Abstract: Attraverso un percorso iterativo ci interroghiamo sulle
-  richieste del mercato e, insieme, progettiamo le più efficienti logiche
-  digitali. Un approccio collaborativo col cliente e con gli stakeholder che
-  permette di ottimizzare costi e tempi.
+competence2Abstract: Dalla comprensione delle esigenze, all’analisi dei
+  requisiti, grazie all’osservazione degli utenti, progettiamo ed elaboriamo
+  soluzioni creative ed efficaci, in grado di stupire e dare fiducia.
 competence2Img: /uploads/digital_transformation.png
 competence3Title: Digital transformation
-competence3Link: /design-research-and-strategy
+competence3Link: /digital-transformation
 competence3Services: Anlysis <br> Presentation deck <br> Stato dell’arte <br>
   Prototyping <br> Development <br> Plan <br>
 competence3Abstract: Attraverso un percorso iterativo ci interroghiamo sulle
@@ -29,12 +28,12 @@ competence3Abstract: Attraverso un percorso iterativo ci interroghiamo sulle
   permette di ottimizzare costi e tempi.
 competence3Img: /uploads/web3.png
 competence4Title: Progettazione Web3/NFT
-competence4Link: /collaborative-team
+competence4Link: "/ "
 competence4Services: Anlysis <br> Presentation deck <br> Stato dell’arte <br>
   Prototyping <br> Development <br> Plan <br>
-competence4Abstract: Il nostro team di professionisti è in grado di affiancare
-  il team delle aziende clienti, offrendo  le professionalità, le competenze,
-  gli strumenti ed i metodi migliori nel breve periodo.
+competence4Abstract: Guidando ed accompagnando i clienti nel web3 per sfruttare
+  le numerose opportunità e possibilità che le nuove tecnologie mettono a
+  disposizione. Da progetti NFT ad applicazioni complesse basate su Blockchain.
 competence4Img: /uploads/collaborative_team.png
 approachImg: /uploads/competence-deco.png
 approachTitle: Il nostro approccio olistico
