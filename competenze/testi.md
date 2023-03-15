@@ -75,5 +75,5 @@ approachDescription4: Prodotti, componenti e servizi che caratterizzano il
   l’intero ciclo di vita. Logix offre un costante supporto per migliorare ed
   ampliare prospettive e performance.
 approachTools4: Pitch <br> Landing page <br> Uset test <br> Data report <br> Analytics
-approachDoing4: Exploration <br>Market research <br> Ux research
+approachDoing4: Launch <br> Investment research  <br> Maintenance & Review
 ---
