@@ -6,7 +6,7 @@ competence1Title: Sviluppo web e mobile
 competence1Link: /sviluppo-web-and-mobile
 competence1Services: Web development <br> Micro-service architecture <br> Mobile
   development (Ibride, progressive, native)
-competence1Abstract: Seguendo la metodologia agile dall’analisi al test
+competence1Abstract: Seguendo la metodologia agile, dall’analisi al test
   costruiamo prodotti in linea con le esigenze di ciascun cliente, realizzando
   progetti web e mobile che si adattano alle diverse piattaforme esistenti.
 competence1Img: /uploads/development.png
@@ -30,7 +30,7 @@ competence4Title: Progettazione Web3/NFT
 competence4Link: "/ "
 competence4Services: Web3 strategy & development <br> Blockchain consulting <br>
   NFT ideation, DROP and MINT
-competence4Abstract: Guidando ed accompagnando i clienti nel web3 per sfruttare
+competence4Abstract: Guidiamo ed accompagniamo i clienti nel Web3 per sfruttare
   le numerose opportunità e possibilità che le nuove tecnologie mettono a
   disposizione. Da progetti NFT ad applicazioni complesse basate su Blockchain.
 competence4Img: /uploads/collaborative_team.png
