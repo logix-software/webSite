@@ -49,16 +49,25 @@ approachDescription1: Attraverso workshop partecipativi cerchiamo di comprendere
 approachTools1: "Workshop  <br> Stakeholder interview  <br> Competive analysis
   <br> Behaviour analysis  <br> User interview  <br> Surveys & test "
 approachDoing1: Exploration <br>Market research <br> Ux research
-approachDescription2: Il nostro team di professionisti è in grado di affiancare
-  il team delle aziende clienti, offrendo le professionalità, le competenze, gli
-  strumenti ed i metodi migliori nel breve periodo.
-approachTools2: item1 <br> item2 <br>item3
-approachDoing2: item1 <br> item2 <br>item3
-approachDescription3: Il nostro team di professionisti è in grado di affiancare
-  il team delle aziende clienti, offrendo le professionalità, le competenze, gli
-  strumenti ed i metodi migliori nel breve periodo.
-approachTools3: item1 <br> item2 <br>item3
-approachDoing3: item1 <br> item2 <br>item3
+approachDescription2: Svolgendo ricerche ed analisi, utilizzando tecniche del
+  mondo dello UCD (User centered Design) è possibile individuare in maniera più
+  precisa il problema che si vorrebbe risolvere ed il contesto in cui si
+  potrebbe agire, iniziando a delineare più concretamente l’idea che si intende
+  perseguire ed una prima idea di unique value proposition caratterizzante il
+  prodotto o il servizio che si dovrà realizzare.
+approachTools2: Co-design workshop <br> Personas  <br> User journey  <br> User
+  stories <br> Canvas
+approachDoing2: UX Strategy <br> Business model <br> Product thinking
+approachDescription3: La sinergia che lega design e sviluppo in Logix permette,
+  in questa fase, di definire, progettare e costruire tenendo in considerazione
+  le ricerche fatte, le esigenze tecniche e gli strumenti opportuni per la
+  realizzazione. Con la gestione agile del progetto  il cliente è sempre
+  coinvolto e consapevole in tutte le fasi di realizzazione del progetto.
+approachTools3: Service blueprint <br> Architettura informativa <br> Abstract DB
+  modelling <br> Low-fi prototype <br> User test <br> Hi-fi prototype <br>
+  Stress test
+approachDoing3: UX Design <br> Analisi tecnica <br> Rapid prototyping <br> MVP
+  Development <br> Product Development
 approachDescription4: Prodotti, componenti e servizi che caratterizzano il
   progetto, dovranno essere testati e validati attraverso un continuo processo
   iterativo che non si ferma alla semplice pubblicazione. L’adozione da parte
