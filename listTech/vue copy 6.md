@@ -1,4 +1,4 @@
 ---
 title: .NET
-image: /uploads/microsoft.net.png
+image: /uploads/dotnet.png
 ---
