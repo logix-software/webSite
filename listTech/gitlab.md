@@ -1,4 +1,4 @@
 ---
-title: Gitlab
-image: /uploads/gitlab.png
+title: PostGis
+image: /uploads/postgis.png
 ---
