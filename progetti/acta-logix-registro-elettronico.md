@@ -20,7 +20,7 @@ descriptionClient: "Acta Logix nasce dall’esigenza di creare uno strumento
   Registro del Docente. Uno spazio digitale dove gli insegnanti, gli studenti e
   le famiglie possono salvare, reperire e archiviare tutte le informazioni che
   desiderano in modo rapido, intuitivo e conveniente."
-imageList: /uploads/gif.png
+imageList: /uploads/acta-logix_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: " "
