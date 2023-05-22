@@ -1,4 +1,4 @@
 ---
-title: React Js
-image: /uploads/react-js.png
+title: Contentful
+image: /uploads/contentful.png
 ---
