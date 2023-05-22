@@ -15,7 +15,7 @@ descriptionClient: Il progetto nasce dalla volontà di creare uno spazio in grad
   di mettere in connessione chi “fa arte” con chi ”cerca arte”, dal desiderio di
   intessere una rete di relazioni tra gli artisti e tutte le personalità che
   gravitano intorno all’universo creativo.
-imageList: /uploads/gif.png
+imageList: /uploads/esibit_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: "  "
