@@ -10,7 +10,7 @@ descriptionLogo: FESR - Fondo europeo di sviluppo regionale 2014-2020. Avviso
 descriptionClient: '"Arti e Mestieri" è un progetto che nasce dall’esigenza di
   digitalizzare, rendere accessibile e fruibile il patrimonio
   artistico-culturale e artigianale della provincia di Rieti.'
-imageList: /uploads/gif.png
+imageList: /uploads/arti-mestieri_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
