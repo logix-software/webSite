@@ -1,4 +1,4 @@
 ---
-title: Nuxt
-image: /uploads/nuxt.png
+title: Nuxt js
+image: /uploads/nuxtjs.png
 ---
