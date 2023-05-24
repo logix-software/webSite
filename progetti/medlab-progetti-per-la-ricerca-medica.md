@@ -80,7 +80,7 @@ team3Position5: ""
 team3Name5: ""
 team3Position6: ""
 team3Name6: ""
-date: 2022-05-01T08:59:02.143Z
+date: 1991-01-01T09:59:02.143Z
 ---
 Nell'ambito del progetto MEDLAB abbiamo creato una collezione di moduli software ed algoritmi pensati per il mondo medico-sanitario, rendendoli, sin dal principio, volutamente riutilizzabili, espandibili e configurabili per essere “declinati” in vari modi.
 In collaborazione con il Dipartimento di Chirurgia Gastrica dell’Azienda Ospedaliera di Terni abbiamo realizzato progetti come Imigastric e Esinodop.
