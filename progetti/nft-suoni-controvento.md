@@ -79,7 +79,7 @@ team3Position5: ""
 team3Name5: ""
 team3Position6: ""
 team3Name6: ""
-date: 2022-05-01T08:59:02.143Z
+date: 1996-01-01T09:59:02.143Z
 ---
 **Che cos’è un NFT?**
 
