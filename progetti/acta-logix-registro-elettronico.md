@@ -84,7 +84,7 @@ team3Position5: ""
 team3Name5: ""
 team3Position6: ""
 team3Name6: ""
-date: 2022-05-01T08:59:02.143Z
+date: 1990-01-01T09:59:02.143Z
 ---
 Il registro elettronico di casa Logix permette l’organizzazione in cloud di ogni fase dell’attività scolastica: dalle assenze ai ritardi, dai voti agli scrutini, fino ai programmi didattici e alle comunicazioni di interesse comune.
 
