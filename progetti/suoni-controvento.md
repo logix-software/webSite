@@ -49,8 +49,8 @@ team1Position3: Software & System Architect
 team1Name3: Massimiliano Fiori
 team1Position4: Mobile Developer
 team1Name4: Enrico Lanciotti
-team1Position5: Marketing Manager
-team1Name5: Gaia Costantini
+team1Position5: ""
+team1Name5: ""
 team1Position6: ""
 team1Name6: ""
 titleTeam2: Design
