@@ -77,7 +77,7 @@ team3Position5: ""
 team3Name5: ""
 team3Position6: ""
 team3Name6: ""
-date: 2022-05-01T08:59:02.143Z
+date: 1995-01-01T09:59:02.143Z
 ---
 Tramite la Progressive Web App possono essere visualizzate le portate del catalogo e si possono scegliere i tipi di servizio tra i diversi menù disponibili; gli amministratori e gli addetti, invece, tramite Web App, possono gestire agilmente tutte le mense delle aziende che aderiscono al servizio. L’insieme di Web App è stato sviluppato sfruttando un'architettura a micro-servizi e la parte frontend è in VueJS, consentendo la gestione sia lato Utente che lato Amministratore Mensa.
 
