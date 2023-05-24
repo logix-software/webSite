@@ -2,7 +2,7 @@
 title: WeTheGround
 subTitle: NFT
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
-logoClient: /uploads/logo-fattoria-creativa.png
+logoClient: /uploads/logo-overtour.png
 abstract: NFT Suoni Controvento una nuova finestra sul mondo digital del Web3.
 descriptionLogo: Fattoria Creativa è una web agency che nasce a Perugia nel
   2000. Oggi l'agenzia mette insieme diverse professionalità offrendo servizi
@@ -15,12 +15,12 @@ descriptionClient: >
   Una collaborazione volta a permettere l’unione tra musica, letteratura, arte e territorio umbro con uno degli asset più popolari del momento: gli NFT. 
 
   La novità dell’edizione ’22 si configura come un’opportunità per gli utenti di avvicinarsi al mondo del Web3, per vivere il festival in un’ottica differente e offrire vantaggi e nuove modalità di partecipazione attiva a tutta la community di appassionati e curiosi.
-imageList: /uploads/suoni-controvento.png
+imageList: /uploads/wethegroung_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
 hashtags: "#NFT #WEB3 #BLOCKCHAIN #ETHEREUM #ARTE #MUSICA"
-image1: /uploads/suoni-controvento-_1.png
+image1: /uploads/wetheground-_-logo.png
 image1Style: vertical
 image2: /uploads/suoni-controvento_2.png
 image2Style: vertical
