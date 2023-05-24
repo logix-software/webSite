@@ -45,14 +45,14 @@ team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
 team1Position2: Frontend Developer
 team1Name2: Luca Spezzano
-team1Position3: ""
-team1Name3: ""
-team1Position4: ""
-team1Name4: ""
-team1Position5: ""
-team1Name5: ""
-team1Position6: ""
-team1Name6: ""
+team1Position3: Frontend Developer
+team1Name3: Claudio Coco
+team1Position4: Frontend Developer
+team1Name4: Nicola Solazzo
+team1Position5: Software Engineer
+team1Name5: Enrico Emanuele
+team1Position6: Mobile Developer
+team1Name6: Enrico Lanciotti
 titleTeam2: Design
 team2Position1: Senior UX/UI Designer
 team2Name1: Susanna Cirocchi
