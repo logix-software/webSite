@@ -1,8 +1,8 @@
 ---
 title: Interamna Acciaio
-subTitle: A
+subTitle: Piattaforma Gestionale
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
-logoClient: /uploads/logo-fattoria-creativa.png
+logoClient: /uploads/logo-interamna-acciaio.png
 abstract: NFT Suoni Controvento una nuova finestra sul mondo digital del Web3.
 descriptionLogo: Fattoria Creativa è una web agency che nasce a Perugia nel
   2000. Oggi l'agenzia mette insieme diverse professionalità offrendo servizi
@@ -15,26 +15,26 @@ descriptionClient: >
   Una collaborazione volta a permettere l’unione tra musica, letteratura, arte e territorio umbro con uno degli asset più popolari del momento: gli NFT. 
 
   La novità dell’edizione ’22 si configura come un’opportunità per gli utenti di avvicinarsi al mondo del Web3, per vivere il festival in un’ottica differente e offrire vantaggi e nuove modalità di partecipazione attiva a tutta la community di appassionati e curiosi.
-imageList: /uploads/suoni-controvento.png
+imageList: /uploads/interamna-_.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
 hashtags: "#NFT #WEB3 #BLOCKCHAIN #ETHEREUM #ARTE #MUSICA"
-image1: /uploads/suoni-controvento-_1.png
+image1: /uploads/interamna.png
 image1Style: vertical
-image2: /uploads/suoni-controvento_2.png
+image2: /uploads/interamna2.png
 image2Style: vertical
-image3: /uploads/suoni-controvento-_-3.png
+image3: /uploads/interamna-_2.png
 image3Style: horizontal
-image4: /uploads/suoni-controvento-_4.png
+image4: ""
 image4Style: horizontal
-image5: /uploads/suoni-controvento_5.png
+image5: ""
 image5Style: vertical
-image6: /uploads/suoni-controvento-_6.png
+image6: ""
 image6Style: vertical
-image7: /uploads/suoni-controvento_6.png
+image7: ""
 image7Style: vertical
-image8: /uploads/suoni-controvento-_7.png
+image8: ""
 image8Style: vertical
 image9: ""
 image9Style: " "
