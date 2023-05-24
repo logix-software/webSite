@@ -1,43 +1,43 @@
 ---
 title: WeTheGround
-subTitle: NFT
+subTitle: "Web app per il volontariato d’impresa "
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
 logoClient: /uploads/logo-overtour.png
-abstract: NFT Suoni Controvento una nuova finestra sul mondo digital del Web3.
-descriptionLogo: Fattoria Creativa è una web agency che nasce a Perugia nel
-  2000. Oggi l'agenzia mette insieme diverse professionalità offrendo servizi
-  legati al mondo del digital marketing e della comunicazione pubblicitaria.
-descriptionClient: >
-  Suoni Controvento è un Festival dall’impronta green orientato al mondo delle
-  nuove tecnologie; la partnership tra Logix e Fattoria Creativa nasce dalla
-  volontà di offrire al Festival una nuova finestra sul mondo digital. 
+abstract: Una piattaforma per la Corporate volunteering. Per tutte le imprese
+  che vogliono fare del bene.
+descriptionLogo: >-
+  Overtour, nasce a Lecco nel 2021, oggi opera nel settore del marketing e del
+  digital advertising. 
 
-  Una collaborazione volta a permettere l’unione tra musica, letteratura, arte e territorio umbro con uno degli asset più popolari del momento: gli NFT. 
+  Sotto i mesi del lockdown, quando la voglia di viaggiare era forte più che mai, grazie alla piattaforma Twich, i fondatori si sono impegnati a fornire agli utenti “un viaggio collettivo in giro per il mondo”, da questa esperienza nasce la volontà di sviluppare un nuovo business che coinvolga le persone, le aziende, la comunità.
+descriptionClient: >-
+  Overtour, nasce a Lecco nel 2021, oggi opera nel settore del marketing e del
+  digital advertising. 
 
-  La novità dell’edizione ’22 si configura come un’opportunità per gli utenti di avvicinarsi al mondo del Web3, per vivere il festival in un’ottica differente e offrire vantaggi e nuove modalità di partecipazione attiva a tutta la community di appassionati e curiosi.
+  Sotto i mesi del lockdown, quando la voglia di viaggiare era forte più che mai, grazie alla piattaforma Twich, i fondatori si sono impegnati a fornire agli utenti “un viaggio collettivo in giro per il mondo”, da questa esperienza nasce la volontà di sviluppare un nuovo business che coinvolga le persone, le aziende, la comunità.
 imageList: /uploads/wethegroung_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
-hashtags: "#NFT #WEB3 #BLOCKCHAIN #ETHEREUM #ARTE #MUSICA"
+hashtags: "#WEBAPPLICATION #SOFTWARE #VOLUNTEERING #BRANDING #SOCIAL #GREEN"
 image1: /uploads/wetheground-_-logo.png
 image1Style: vertical
-image2: /uploads/suoni-controvento_2.png
-image2Style: vertical
-image3: /uploads/suoni-controvento-_-3.png
+image2: /uploads/wetheground-_-color-palette.png
+image2Style: horizontal
+image3: /uploads/wetheground-_-font.png
 image3Style: horizontal
-image4: /uploads/suoni-controvento-_4.png
+image4: /uploads/wetheground-_-webapp.png
 image4Style: horizontal
-image5: /uploads/suoni-controvento_5.png
-image5Style: vertical
-image6: /uploads/suoni-controvento-_6.png
+image5: /uploads/wetheground-_-webapp2.png
+image5Style: horizontal
+image6: /uploads/wetheground-landing.png
 image6Style: vertical
-image7: /uploads/suoni-controvento_6.png
-image7Style: vertical
-image8: /uploads/suoni-controvento-_7.png
-image8Style: vertical
-image9: ""
-image9Style: " "
+image7: /uploads/wetheground-_-webapp3.png
+image7Style: horizontal
+image8: /uploads/wetheground-_-webapp4.png
+image8Style: horizontal
+image9: /uploads/wetheground-landing6.png
+image9Style: " vertical"
 image10: ""
 image10Style: " "
 titleTeam1: Development
@@ -81,17 +81,11 @@ team3Position6: ""
 team3Name6: ""
 date: 1998-01-01T09:24:25.983Z
 ---
-**Che cos’è un NFT?**
+WeTheGroung è una piattaforma SaaS all in one per il volontariato d’impresa, che partendo da una mappa di tutte le opportunità sul territorio permette di filtrare le cause che sono più in linea con le esigenze e skill personali dell’utente o del proprio team.
+La dashboard, facile e colorata, semplifica la gestione delle attività e dei progetti delle diverse risorse coinvolte e permette il monitoraggio dall’inizio alla fine in un unico posto. Con gli strumenti di analytics si può, inoltre, tenere traccia del valore generato, mentre grazie ai report automatici è possibile raccontarlo in modo immediato a tutti gli stakeholder.
+Tre gli attori principali: le aziende, che vogliono investire nell’attività di corporate voluteering; le associazioni, che mettono a disposizione i loro progetti e i volontari che possono candidarsi singolarmente o come membri di un team aziendale.
 
-Gli NFT sono token non fungibili, cioè beni immutabili e non sostituibili che si possono acquistare o vendere. Oggetti digitali unici che vengono creati tramite la tecnologia blockchain, cioè una struttura di dati che si basa sulla condivisione e l’immutabilità. Non sono falsificabili e rappresentano la proprietà di un asset digitale o fisico collegato.
+**Le tecnologie:**
 
-**La collezione**
-
-Per Suoni Controvento abbiamo realizzato 20 NFT, suddivisi in tre categorie diverse, con relative utility e vantaggi esclusivi: Natura, Musica e Chiave. L’acquisto di un NFT Natura permette di vivere esperienze esclusive sul territorio come degustazioni di vini e prodotti tipici umbri; gli NFT Musica permettono di accedere ad eventi premium e ottenere gadget in edizione limitata. Gli NFT Chiave, invece, garantiscono il pass di accesso a vita ad ogni evento di qualsiasi edizione del Festival.
-
-**Come funziona?**
-
-Per acquistare un NFT SCV si devono compiere tre step: per prima cosa è necessario creare un account, aprire un wallet gratuito su Metamask e registrarsi su Opensea. Per finalizzare l’acquisto occorre, poi, ricaricare gli Ethereum (ETH) sul proprio wallet Metamask e scegliere l’NFT desiderato dal marketplace di Suoni Controvento (collegato direttamente ad Opensea). Una volta acquistato il proprio token sarà possibile accedere a tutte le esperienze riservate.
-
-Scopri il nostro progetto: 
-[NFT Marketplace Suoni Contro Vento](https://nft.suonicontrovento.it/)
+WeTheGroung è una piattaforma web, una WEB APP, basata su infrastruttura Micro servizi Java Spring Boot “Dockerizzati” con orchestratore Kubernetes con gestione dati su DBMS no-sql MongoDB.
+Il Front-end dell’applicazione è, invece, sviluppato tramite framework Nuxt.js basato su Vue.js.
