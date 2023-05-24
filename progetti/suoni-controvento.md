@@ -1,5 +1,5 @@
 ---
-title: Suoni Controvento
+title: WeTheGround
 subTitle: NFT
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
 logoClient: /uploads/logo-fattoria-creativa.png
@@ -79,7 +79,7 @@ team3Position5: ""
 team3Name5: ""
 team3Position6: ""
 team3Name6: ""
-date: 2023-05-24T08:24:25.983Z
+date: 1998-01-01T09:24:25.983Z
 ---
 **Che cos’è un NFT?**
 
