@@ -77,7 +77,7 @@ team3Position5: ""
 team3Name5: ""
 team3Position6: ""
 team3Name6: ""
-date: 2022-05-01T08:59:02.143Z
+date: 1993-01-01T09:59:02.143Z
 ---
 Per A.BIUNO abbiamo curato l’intero processo creativo: a partire dal restyling del logo fino alla definizione della style guide; dalla progettazione del sito web, al design, allo sviluppo, fino al marketing e a tutte le diverse attività finalizzate all’ottimizzazione in chiave SEO.
 Abbiamo sviluppato il sito basandoci su un’architettura JAMstack, un nuovo modo di creare siti Web e app, basata sul lato client e non dipendente da un server web. Fra i maggiori vantaggi forniti da JAMstack velocità, miglioramento delle prestazioni e una migliore scalabilità. Per la creazione del progetto è stata utilizzata una combinazione di tool che ha permesso di creare, partendo da zero, una UI/UX dal design unico e moderno, responsive, flessibile e dalle alte prestazioni.
