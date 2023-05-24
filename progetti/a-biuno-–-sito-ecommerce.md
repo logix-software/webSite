@@ -65,9 +65,9 @@ team2Name5: ""
 team2Position6: ""
 team2Name6: ""
 titleTeam3: Strategy
-team3Position1: Marketing Manager
+team3Position1: Digital Strategist
 team3Name1: Gaia Costantini
-team3Position2: Digital Strategist
+team3Position2: Marketing Manager
 team3Name2: Claudia Pagliaccia
 team3Position3: ""
 team3Name3: ""
