@@ -1,25 +1,21 @@
 ---
-title: Roods Guardian
-subTitle: A
+title: Roads Guardian
+subTitle: Web app per la gestione delle buche stradali
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
 logoClient: /uploads/logo-fattoria-creativa.png
-abstract: NFT Suoni Controvento una nuova finestra sul mondo digital del Web3.
-descriptionLogo: Fattoria Creativa è una web agency che nasce a Perugia nel
-  2000. Oggi l'agenzia mette insieme diverse professionalità offrendo servizi
-  legati al mondo del digital marketing e della comunicazione pubblicitaria.
-descriptionClient: >
-  Suoni Controvento è un Festival dall’impronta green orientato al mondo delle
-  nuove tecnologie; la partnership tra Logix e Fattoria Creativa nasce dalla
-  volontà di offrire al Festival una nuova finestra sul mondo digital. 
-
-  Una collaborazione volta a permettere l’unione tra musica, letteratura, arte e territorio umbro con uno degli asset più popolari del momento: gli NFT. 
-
-  La novità dell’edizione ’22 si configura come un’opportunità per gli utenti di avvicinarsi al mondo del Web3, per vivere il festival in un’ottica differente e offrire vantaggi e nuove modalità di partecipazione attiva a tutta la community di appassionati e curiosi.
+abstract: Una piattaforma per il monitoraggio, la  gestione e il rilevamento
+  delle buche stradali.
+descriptionLogo: Smart Pot S.r.l. è una Startup innovativa, nata a Benevento nel
+  2021, operante nel settore della ricerca scientifica e dello sviluppo
+  dell'ingegneria.
+descriptionClient: "Creare uno strumento capace di gestire il rilevamento delle
+  buche presenti sul manto stradale di una data zona o città, al fine di poterne
+  seguire l’intero “ciclo di vita” dalla rilevazione fino alla riparazione. "
 imageList: /uploads/suoni-controvento.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
-hashtags: "#NFT #WEB3 #BLOCKCHAIN #ETHEREUM #ARTE #MUSICA"
+hashtags: "#WEBAPPLICATION #SOFTWARE #STREET #POTHOLE #PA"
 image1: /uploads/suoni-controvento-_1.png
 image1Style: vertical
 image2: /uploads/suoni-controvento_2.png
@@ -45,8 +41,8 @@ team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
 team1Position2: Frontend Developer
 team1Name2: Luca Spezzano
-team1Position3: ""
-team1Name3: ""
+team1Position3: Software Engineer
+team1Name3: Enrico Emanuele
 team1Position4: ""
 team1Name4: ""
 team1Position5: ""
@@ -67,7 +63,7 @@ team2Name5: ""
 team2Position6: ""
 team2Name6: ""
 titleTeam3: Strategy
-team3Position1: Marketing Manager
+team3Position1: Digital Strategist
 team3Name1: Gaia Costantini
 team3Position2: ""
 team3Name2: ""
@@ -81,17 +77,19 @@ team3Position6: ""
 team3Name6: ""
 date: 2000-01-01T09:30:34.839Z
 ---
-**Che cos’è un NFT?**
+Roads Guardian è una piattaforma SaaS che consente di gestire un sistema evoluto di rilevamento delle buche presenti sul manto stradale delle città in cui il servizio è attivo. Il sistema permette di dettagliare le informazioni di ogni singola buca e di seguire il “ciclo di vita” della buca stessa, dalla rilevazione fino alla riparazione. I dati di rilevamento e dettaglio delle buche vengono forniti da sistemi complessi installati su appositi veicoli gestiti dalla società.
 
-Gli NFT sono token non fungibili, cioè beni immutabili e non sostituibili che si possono acquistare o vendere. Oggetti digitali unici che vengono creati tramite la tecnologia blockchain, cioè una struttura di dati che si basa sulla condivisione e l’immutabilità. Non sono falsificabili e rappresentano la proprietà di un asset digitale o fisico collegato.
+**Gli Utenti:**
 
-**La collezione**
+Responsabile area tecnica, operatore area tecnica, responsabile amministrazione pubblica, cittadino, sono alcune delle figure che possono operare all’interno del sistema; ciascuno di questi può accedere ad una dashboard che restituisce dati aggregati personalizzati. A seconda del ruolo o della specifica autenticazione l’utente può accedere a dati come: statistiche su percentuali di copertura di una determinata area, numero di dispositivi di tracciamento attivi in una determinata area o numero di buche rilevate in una data area per un dato periodo di tempo.
 
-Per Suoni Controvento abbiamo realizzato 20 NFT, suddivisi in tre categorie diverse, con relative utility e vantaggi esclusivi: Natura, Musica e Chiave. L’acquisto di un NFT Natura permette di vivere esperienze esclusive sul territorio come degustazioni di vini e prodotti tipici umbri; gli NFT Musica permettono di accedere ad eventi premium e ottenere gadget in edizione limitata. Gli NFT Chiave, invece, garantiscono il pass di accesso a vita ad ogni evento di qualsiasi edizione del Festival.
+**La Navigazione:**
 
-**Come funziona?**
+Dal menù di navigazione l’utente può accedere alla sezione “City Explorer” dove può visualizzare su mappa interattiva tutte le rilevazioni fatte nella zona osservata per un dato periodo selezionato. L’utente può, inoltre, fare ricerche anche selezionando singole zone predeterminate o selezionando specifici comuni/provincie. Cliccando un “pin” su mappa l’utente accede alle informazioni di dettaglio della singola buca e, selezionandola, può seguirne il ciclo di riparazione. 
+Ad ogni buca, o gruppi di buche, possono essere associati dettagli circa bandi di gara pubblici banditi per la sua riparazione, fornitore vincitore, costi preventivati e costi consuntivati. In ogni caso, per ogni buca, viene tracciato lo stato di avanzamento della riparazione: lavori svolti, data di esecuzione, foto allegate, ecc..
+Tramite la sezione “simula riparazione” l’utente può per ogni singola buca procedere ad una simulazione sui tempi e costi della riparazione.
+Il sistema, infine, è in grado di fornire a specifici utenti o gruppi di utenti notifiche (email, sms, push) per particolari eventi quali ad esempio: rilevata nuova buca, concluso intervento di riparazione o dispositivo di rilevamento fuori uso.
 
-Per acquistare un NFT SCV si devono compiere tre step: per prima cosa è necessario creare un account, aprire un wallet gratuito su Metamask e registrarsi su Opensea. Per finalizzare l’acquisto occorre, poi, ricaricare gli Ethereum (ETH) sul proprio wallet Metamask e scegliere l’NFT desiderato dal marketplace di Suoni Controvento (collegato direttamente ad Opensea). Una volta acquistato il proprio token sarà possibile accedere a tutte le esperienze riservate.
+**Le tecnologie:**
 
-Scopri il nostro progetto: 
-[NFT Marketplace Suoni Contro Vento](https://nft.suonicontrovento.it/)
+Roads Guardian è una piattaforma web, una WEB APP, basata su infrastruttura Micro servizi Java Spring Boot “Dockerizzati” con orchestratore Kubernetes. Il Front-end dell’applicazione è sviluppato tramite framework Nuxt.js basato su Vue.js. La gestione delle identità e degli accessi è, invece, basata su Keycloak.
