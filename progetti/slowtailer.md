@@ -54,8 +54,8 @@ team1Name6: ""
 titleTeam2: Design
 team2Position1: Senior UX/UI Designer
 team2Name1: Susanna Cirocchi
-team2Position2: Visual Designer
-team2Name2: Vera Schwierz
+team2Position2: ""
+team2Name2: ""
 team2Position3: ""
 team2Name3: ""
 team2Position4: ""
@@ -65,7 +65,7 @@ team2Name5: ""
 team2Position6: ""
 team2Name6: ""
 titleTeam3: Strategy
-team3Position1: Marketing Manager
+team3Position1: Digital Strategist
 team3Name1: Gaia Costantini
 team3Position2: ""
 team3Name2: ""
