@@ -79,7 +79,7 @@ team3Position5: ""
 team3Name5: ""
 team3Position6: ""
 team3Name6: ""
-date: 2022-05-01T08:59:02.143Z
+date: 1992-01-01T09:59:02.143Z
 ---
 Esibit è una piattaforma dedicata al mondo dell’arte, dove artisti, galleristi, critici o chiunque ne sia in qualche modo coinvolto o affascinato ha la possibilità di incontrarsi. Attraverso la creazione di un profilo registrato o in maniera anonima, la piattaforma non solo si fa vetrina e strumento di diffusione per la propria idea di arte ma diventa veicolo di relazioni, grazie anche a collaborazioni ad eventi e progetti, e strumento di valorizzazione e monetizzazione del proprio lavoro.
 
