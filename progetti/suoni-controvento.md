@@ -21,23 +21,23 @@ label2: DESIGN
 label3: STRATEGIST
 hashtags: "#WEBAPPLICATION #SOFTWARE #VOLUNTEERING #BRANDING #SOCIAL #GREEN"
 image1: /uploads/wetheground-_-logo.png
-image1Style: vertical
+image1Style: horizontal
 image2: /uploads/wetheground-_-color-palette.png
-image2Style: horizontal
+image2Style: vertical
 image3: /uploads/wetheground-_-font.png
-image3Style: horizontal
+image3Style: vertical
 image4: /uploads/wetheground-_-webapp.png
-image4Style: horizontal
+image4Style: vertical
 image5: /uploads/wetheground-_-webapp2.png
-image5Style: horizontal
+image5Style: vertical
 image6: /uploads/wetheground-landing.png
-image6Style: vertical
+image6Style: horizontal
 image7: /uploads/wetheground-_-webapp3.png
-image7Style: horizontal
+image7Style: vertical
 image8: /uploads/wetheground-_-webapp4.png
-image8Style: horizontal
+image8Style: vertical
 image9: /uploads/wetheground-landing6.png
-image9Style: " vertical"
+image9Style: " horizontal"
 image10: ""
 image10Style: " "
 titleTeam1: Development
@@ -45,12 +45,12 @@ team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
 team1Position2: Frontend Developer
 team1Name2: Luca Spezzano
-team1Position3: ""
-team1Name3: ""
-team1Position4: ""
-team1Name4: ""
-team1Position5: ""
-team1Name5: ""
+team1Position3: Software & System Architect
+team1Name3: Massimiliano Fiori
+team1Position4: Mobile Developer
+team1Name4: Enrico Lanciotti
+team1Position5: Marketing Manager
+team1Name5: Gaia Costantini
 team1Position6: ""
 team1Name6: ""
 titleTeam2: Design
