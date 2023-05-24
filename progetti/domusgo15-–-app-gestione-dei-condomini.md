@@ -79,7 +79,7 @@ team3Position5: ""
 team3Name5: ""
 team3Position6: ""
 team3Name6: ""
-date: 2022-05-01T08:59:02.143Z
+date: 1997-01-01T09:59:02.143Z
 ---
 Con DomusGo15 attraverso un unico accesso i diversi profili interessati dal servizio, quali: co-proprietari, inquilini in affitto, amministratori condomìnio, gestori attività, professionisti, enti e organizzazioni sono in grado di offrire e fruire di servizi dedicati ai singoli target di riferimento in un unico sistema integrato.
 L’intero processo creativo è stato curato in casa Logix: dalla progettazione, al design, fino allo sviluppo integrale del sistema, vale a dire un’app mobile per gli utenti condòmini ed una Web App per gli amministratori e i professionisti. 
