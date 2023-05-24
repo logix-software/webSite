@@ -17,8 +17,8 @@ imageList: /uploads/suoni-controvento.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
-hashtags: "#NFT #WEB3 #BLOCKCHAIN #ETHEREUM #ARTE #MUSICA"
-image1: /uploads/suoni-controvento-_1.png
+hashtags: "#WEBAPPLICATION #SOFTWARE #LOGISTIC #NETWORK #ECOMMERCE"
+image1: /uploads/gif.png
 image1Style: vertical
 image2: /uploads/suoni-controvento_2.png
 image2Style: vertical
