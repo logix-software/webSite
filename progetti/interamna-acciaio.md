@@ -1,9 +1,10 @@
 ---
 title: Interamna Acciaio
-subTitle: Piattaforma Gestionale
+subTitle: Web App per l'amministrazione aziendale
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
 logoClient: /uploads/logo-interamna-acciaio.png
-abstract: NFT Suoni Controvento una nuova finestra sul mondo digital del Web3.
+abstract: "Gestionale aziendale per l’amministrazione dei flussi di lavoro e
+  degli effort previsti per ciascuna commessa. "
 descriptionLogo: Fattoria Creativa è una web agency che nasce a Perugia nel
   2000. Oggi l'agenzia mette insieme diverse professionalità offrendo servizi
   legati al mondo del digital marketing e della comunicazione pubblicitaria.
