@@ -1,7 +1,7 @@
 ---
 title: WeTheGround
 subTitle: "Web app per il volontariato d’impresa "
-urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
+urlVideo: https://drive.google.com/drive/folders/1uGst8Pto_n_bgA3QpBKRE86Grja-5PY1
 logoClient: /uploads/logo-overtour.png
 abstract: Una piattaforma per la Corporate volunteering. Per tutte le imprese
   che vogliono fare del bene.
