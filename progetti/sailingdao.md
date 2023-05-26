@@ -1,23 +1,26 @@
 ---
 title: SailingDAO
-subTitle: Sito eCommerce
+subTitle: Community Web3.0
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
 logoClient: /uploads/logo-abiuno.png
-abstract: Dalla progettazione, fino al design e lo sviluppo, insieme all’intera
-  strategia di marketing e comunicazione.
-descriptionLogo: A.BIUNO brand emergente di abbigliamento e accessori Made in
-  Italy, nasce nel 2014 da un’idea della designer italiana Alessia Bianco.
-  Inizialmente laboratorio artigianale, nel 2020 il progetto si evolve in un
-  gruppo di lavoro più ampio con l’obiettivo di operare e dialogare con un
-  pubblico più vasto e senza confini.
-descriptionClient: Dotare il brand di una vetrina digitale e di un eCommerce per
-  permettere agli utenti di scoprire non solo la storia, i valori e le creazioni
-  A.BIUNO, ma anche di acquistare senza vincoli di distanza e tempo.
+abstract: Community di esperti ed appassionati che vogliono contribuire alla
+  costruzione del più grande Yacht club nel mondo, attraverso le opportunità
+  offerte dal web3.0.
+descriptionLogo: Sailing DAO è una Startup che nasce nel 2022 dall’intuizione
+  dei suoi co-founder; tecnici ed esperti nel settore IT, che impegnati ciascuno
+  in ruoli diversi, ad oggi lavorano attivamente in prima persona per lo
+  sviluppo del progetto.
+descriptionClient: >-
+  Creare una grande comunità di esperti ed appassionati che vogliono contribuire
+  e partecipare attivamente alla costruzione del più grande Yacht club nel
+  mondo, attraverso nuovi strumenti ed opportunità offerte dal web3.0.
+
+  L’idea di fondo è una reinterpretazione dell’esclusività che rende così attraente il club nautico, un insieme di spazi e servizi condivisi da una molteplicità di personalità con le quali incontrarsi, condividere esperienze e conoscenze ma anche e soprattutto fare business.
 imageList: /uploads/abiuno_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
-hashtags: "#ECOMMERCE  #MARKETING #WEBSITE #ARTISAN #FASHION #MADEINITALY #MODA"
+hashtags: " #NFT #WEB3 #BLOCKCHAIN #ETHEREUM #DAO #NAUTICA"
 image1: /uploads/abiuno-_-cover.png
 image1Style: horizontal
 image2: /uploads/abiuno-_-composition-01.png
@@ -39,12 +42,12 @@ image9Style: " "
 image10: ""
 image10Style: " "
 titleTeam1: Development
-team1Position1: Frontend Developer
-team1Name1: Luca Spezzano
-team1Position2: ""
-team1Name2: ""
-team1Position3: ""
-team1Name3: ""
+team1Position1: Chief Technology Officier
+team1Name1: Alessandro Cirocchi
+team1Position2: Frontend Developer
+team1Name2: Luca Spezzano
+team1Position3: Software & System Architect
+team1Name3: Massimiliano Fiori
 team1Position4: ""
 team1Name4: ""
 team1Position5: ""
@@ -54,8 +57,8 @@ team1Name6: ""
 titleTeam2: Design
 team2Position1: Senior UX/UI Designer
 team2Name1: Susanna Cirocchi
-team2Position2: Visual Designer
-team2Name2: Vera Schwierz
+team2Position2: ""
+team2Name2: ""
 team2Position3: ""
 team2Name3: ""
 team2Position4: ""
@@ -65,10 +68,10 @@ team2Name5: ""
 team2Position6: ""
 team2Name6: ""
 titleTeam3: Strategy
-team3Position1: Marketing Manager
-team3Name1: Gaia Costantini
-team3Position2: Digital Strategist
-team3Name2: Claudia Pagliaccia
+team3Position1: Digital Strategist
+team3Name1: Gianluca Ambrogio
+team3Position2: ""
+team3Name2: ""
 team3Position3: ""
 team3Name3: ""
 team3Position4: ""
@@ -79,19 +82,23 @@ team3Position6: ""
 team3Name6: ""
 date: 2002-01-01T14:02:49.497Z
 ---
-Per A.BIUNO abbiamo curato l’intero processo creativo: a partire dal restyling del logo fino alla definizione della style guide; dalla progettazione del sito web, al design, allo sviluppo, fino al marketing e a tutte le diverse attività finalizzate all’ottimizzazione in chiave SEO.
-Abbiamo sviluppato il sito basandoci su un’architettura JAMstack, un nuovo modo di creare siti Web e app, basata sul lato client e non dipendente da un server web. Fra i maggiori vantaggi forniti da JAMstack velocità, miglioramento delle prestazioni e una migliore scalabilità. Per la creazione del progetto è stata utilizzata una combinazione di tool che ha permesso di creare, partendo da zero, una UI/UX dal design unico e moderno, responsive, flessibile e dalle alte prestazioni.
+I fondatori di Saling DAO, fermamente convinti delle potenzialità del web 3.0, vedono negli NFT lo strumento perfetto per formalizzare le membership (Utility NFT) e allo stesso tempo coinvolgere i membri della community globale in modo diretto (Governance NFT) nella creazione, evoluzione e direzione del progetto stesso.
 
-Dai uno sguardo al nostro progetto: [ABIUNO](https://www.abiuno.com/)
+In Sailing DAO i titolari degli NFT hanno una serie di vantaggi nel club, sia nella vita reale IRL che online; nel corso del tempo questi benefici verranno ulteriormente ampliati attraverso la promozione e l’acquisizione di partner e sponsor.
 
-**I framework**
+Attraverso appositi canali, i membri hanno, inoltre, accesso a votazioni e discussioni riguardanti l’utilizzo delle risorse, l’organizzazione delle competenze e in generale alla crescita del progetto, elementi che caratterizzano il concetto di DAO stesso.
 
-Per lo sviluppo del sito web abbiamo scelto di utilizzare Gridsome, un framework di Vue.js che semplifica la generazione di pagine statiche. Per la gestione del CSS abbiamo scelto Tailwindcss che si contraddistingue per l'approccio non più basato su classi che realizzano elementi già preconfezionati, ma su una serie di classi di utility che permettono di implementare le nostre idee direttamente nelle pagine HTML.
+**Come funziona?**
 
-**Il CMS**
+*STEP1: MINT - Acquisto NFT*
 
-Per la gestione dei contenuti abbiamo scelto di utilizzare Contentful, un headless CMS che mette a disposizione direttamente le API. Contentful fornisce a tutti gli editor, compresi coloro che non hanno particolare dimestichezza con i codici, la possibilità di gestire in modo interattivo un’interfaccia di modifica intuitiva e facile da utilizzare.
+L’acquisto della membership sotto forma di NFT avviene attraverso l’utilizzo della criptovaluta Ether (ETH) di Ethereum. Quando viene annunciato il MINT (in anteprima nei canali ufficiali Discord o Twitter), vale a dire la possibilità di acquisto delle membership, si deve avere a disposizione l’importo necessario nel proprio hot wallet in ETH per poter procedere con il checkout. Una volta che il processo è andato a buon fine la membership SailingDAO è automaticamente trasferita nel proprio hot wallet.
 
-**Deploy**
+*STEP2: Proprietà, utilizzo, rent e Rivendita*
 
-Per costruire, organizzare e gestire il sito web abbiamo scelto di utilizzare Netlify. Questo opera in “Continuous deployment", ovvero si interfaccia automaticamente con GitHub e, al momento della modifica, ne permette in pochi secondi la ricompilazione del sito e la pubblicazione (deploy). Netlify opera alla stessa maniera anche con Contenful ma la modifica in questo caso non avviene su GitHub ma direttamente su Contentful.
+Come tutti gli NFT anche le membership sono presenti su piattaforme come OpenSea ed è possibile per chi possiede il token rivendere la proprietà sul mercato secondario. Per chi possiede il token SailingDAO, sarà possibile inoltre, gestire il rent dell’NFT ricevendo entrate per l’affitto.
+
+**I vantaggi di diventare un membro Sailing DAO:**
+
+Una volta acquisita la proprietà della membership è possibile accedere alla piattaforma SailingDAO e usufruire dei vantaggi esclusivi riservati. Tramite autorizzazione (prenotazione e verifica proprietà NFT wallet) si può entrare in tutti i luoghi ed eventi messi organizzati da SailingDAO , si può inoltre accedere alle piattaforme per le votazioni e la governance.
+A tutti I membri è data la possibilità di partecipare attivamente alla community, attraverso l’accesso a canali speciali ed informazioni e news in anteprima; la partecipazione (con differenti pesi) alle votazioni per le decisioni sullo sviluppo del progetto o la gestione dei fondi; partecipare ad eventi e talk online tradizionali o metaverse esclusivi; la partecipazione all’organizzazione della DAO e molto altro…
