@@ -12,7 +12,7 @@ descriptionClient: Dotare l’azienda di una piattaforma cloud che consenta al
   reparto amministrativo di gestire informazioni relative a mezzi, driver e
   consegne; un monitoraggio, dunque, dell’intero processo e di ciascuna
   commessa.
-imageList: /uploads/suoni-controvento.png
+imageList: /uploads/sailingdao_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
