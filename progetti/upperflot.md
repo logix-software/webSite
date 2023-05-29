@@ -1,7 +1,7 @@
 ---
 title: Upperflot
 subTitle: Piattaforma per la gestione della logistica
-urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
+urlVideo: https://drive.google.com/drive/folders/1_E-6-8WCLoYlCNe0LacGp5WqMMa3iWbL
 logoClient: /uploads/gif.png
 abstract: Sistema di gestione, monitoraggio e comunicazione tra l’azienda
   operante nel settore della logistica ed i suoi driver.
