@@ -1,7 +1,7 @@
 ---
 title: Arti e Mestieri
 subTitle: Preservare la cultura
-urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
+urlVideo: https://drive.google.com/drive/folders/1_E-6-8WCLoYlCNe0LacGp5WqMMa3iWbL
 logoClient: /uploads/commisione-europea.png
 abstract: Un progetto finalizzato a digitalizzare e rendere accessibile il
   patrimonio artistico-culturale e artigianale della provincia di Rieti.
