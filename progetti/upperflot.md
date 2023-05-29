@@ -1,25 +1,22 @@
 ---
 title: Upperflot
-subTitle: A
+subTitle: Piattaforma per la gestione della logistica
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
-logoClient: /uploads/logo-fattoria-creativa.png
-abstract: NFT Suoni Controvento una nuova finestra sul mondo digital del Web3.
-descriptionLogo: Fattoria Creativa è una web agency che nasce a Perugia nel
-  2000. Oggi l'agenzia mette insieme diverse professionalità offrendo servizi
-  legati al mondo del digital marketing e della comunicazione pubblicitaria.
-descriptionClient: >
-  Suoni Controvento è un Festival dall’impronta green orientato al mondo delle
-  nuove tecnologie; la partnership tra Logix e Fattoria Creativa nasce dalla
-  volontà di offrire al Festival una nuova finestra sul mondo digital. 
-
-  Una collaborazione volta a permettere l’unione tra musica, letteratura, arte e territorio umbro con uno degli asset più popolari del momento: gli NFT. 
-
-  La novità dell’edizione ’22 si configura come un’opportunità per gli utenti di avvicinarsi al mondo del Web3, per vivere il festival in un’ottica differente e offrire vantaggi e nuove modalità di partecipazione attiva a tutta la community di appassionati e curiosi.
+logoClient: /uploads/logo-sailingdao.png
+abstract: Sistema di gestione, monitoraggio e comunicazione tra l’azienda
+  operante nel settore della logistica ed i suoi driver.
+descriptionLogo: Ecofin S.r.l. viene fondata a Roma, dal 2016 opera nel settore
+  autotrasporti e logistica. Attualmente l'azienda si occupa del trasporto merci
+  per conto terzi.
+descriptionClient: Dotare l’azienda di una piattaforma cloud che consenta al
+  reparto amministrativo di gestire informazioni relative a mezzi, driver e
+  consegne; un monitoraggio, dunque, dell’intero processo e di ciascuna
+  commessa.
 imageList: /uploads/suoni-controvento.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
-hashtags: "#NFT #WEB3 #BLOCKCHAIN #ETHEREUM #ARTE #MUSICA"
+hashtags: "#WEBAPPLICATION #MOBILEAPP #SOFTWARE #GESRTIONALE #LOGISTICA"
 image1: /uploads/suoni-controvento-_1.png
 image1Style: vertical
 image2: /uploads/suoni-controvento_2.png
@@ -43,16 +40,16 @@ image10Style: " "
 titleTeam1: Development
 team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
-team1Position2: Frontend Developer
-team1Name2: Luca Spezzano
-team1Position3: ""
-team1Name3: ""
-team1Position4: ""
-team1Name4: ""
-team1Position5: ""
-team1Name5: ""
-team1Position6: ""
-team1Name6: ""
+team1Position2: Mobile Developer
+team1Name2: Enrico Lanciotti
+team1Position3: Backend developer
+team1Name3: Simone Proietti
+team1Position4: Frontend Developer
+team1Name4: Claudio Coco
+team1Position5: Frontend Developer
+team1Name5: Nicola Solazzo
+team1Position6: Frontend Developer
+team1Name6: Luca Spezzano
 titleTeam2: Design
 team2Position1: Senior UX/UI Designer
 team2Name1: Susanna Cirocchi
@@ -66,9 +63,9 @@ team2Position5: ""
 team2Name5: ""
 team2Position6: ""
 team2Name6: ""
-titleTeam3: Strategy
-team3Position1: Marketing Manager
-team3Name1: Gaia Costantini
+titleTeam3: ""
+team3Position1: ""
+team3Name1: ""
 team3Position2: ""
 team3Name2: ""
 team3Position3: ""
@@ -81,17 +78,28 @@ team3Position6: ""
 team3Name6: ""
 date: 2001-01-01T09:31:37.306Z
 ---
-**Che cos’è un NFT?**
+Una Web App responsive residente su server cloud. All’interno della piattaforma web sono presenti diversi livelli di controllo; ogni utente ha a disposizione delle credenziali ed un codice univoco che permette l’accesso alle sue aree di competenza.
+Nell’area principale del manager gli utenti dell’amministrazione hanno la possibilità di visualizzare la dashboard in cui avere un quadro completo dell’intero flusso di lavoro, presente e passato. 
+Oltre a grafici e dati che danno un’immediata comprensione sullo stato di avanzamento del lavoro, l’andamento delle spese, delle segnalazioni, delle scadenze, degli interventi in lavorazione; l’utente -amministrativo ha la possibilità di tenere sotto controllo la situazione generale della flotta e del personale operativo. 
+Attraverso la sezione principale l’utente può accedere alle diverse aree: 
 
-Gli NFT sono token non fungibili, cioè beni immutabili e non sostituibili che si possono acquistare o vendere. Oggetti digitali unici che vengono creati tramite la tecnologia blockchain, cioè una struttura di dati che si basa sulla condivisione e l’immutabilità. Non sono falsificabili e rappresentano la proprietà di un asset digitale o fisico collegato.
+**View gestione del personale:**
+Area riservata alla visualizzazione di attività, dati e report relativi al personale.  Da qui l’utente amministratore ha la possibilità di: visualizzare i dati riguardanti i driver, le loro performance, le loro attività con rispettivi flussi di lavoro per ogni giornata, con relative tempistiche elaborate dalle timbrature. Dalla stessa sezione l’amministratore può visionare informazioni su assenze, presenze, permessi; approvare o modificare status del dipendente.
+Ogni driver ha una sezione dedicata in cui vengono riportati: la registrazione al sistema, dati e documentazione consegnata; presenze ed assenze; report delle attività/task svolte e da svolgere, km percorsi e segnalazioni comunicate. 
 
-**La collezione**
+**View gestione dei mezzi:**
+Area dedicata alla visualizzazione di attività, dati e report relativi ai veicoli a noleggio e/o di proprietà. Da qui l’utente amministratore ha la possibilità di: visualizzare i dati riguardanti i veicoli, le loro performance e le loro attività con rispettivi flussi di lavoro elaborati dal sistema per ogni giornata; visionare rotte assegnate, autisti  e commesse principali a cui sono stati associati. 
+Ogni veicolo ha una sezione dedicata in cui vengono riportati i dati riguardanti: l’inserimento nel sistema; dati e documentazione caricata; disponibilità o avaria con eventuali segnalazioni associate; eventuali punteggi e report per performance in relazione a chilometraggio, spese varie, in manutenzione ed in carburante.
 
-Per Suoni Controvento abbiamo realizzato 20 NFT, suddivisi in tre categorie diverse, con relative utility e vantaggi esclusivi: Natura, Musica e Chiave. L’acquisto di un NFT Natura permette di vivere esperienze esclusive sul territorio come degustazioni di vini e prodotti tipici umbri; gli NFT Musica permettono di accedere ad eventi premium e ottenere gadget in edizione limitata. Gli NFT Chiave, invece, garantiscono il pass di accesso a vita ad ogni evento di qualsiasi edizione del Festival.
+**Sezione gestione delle commesse:**
+Da quest’area è possibile controllare attività e dati relativi alle differenti commesse. L’utente ha la possibilità di monitorare il flusso di lavoro per ogni giornata e approvare o meno rotte associate a determinati mezzi driver.
+Ogni commessa ha una sezione dedicata dove verranno riportate le configurazioni relative a filiali, mezzi e driver associati seguendo accordi commerciali. 
 
-**Come funziona?**
+**Report e Notifiche:**
+Le aree relative alla visualizzazione dei dati permettono all’unte di comprendere l’andamento dei processi e del lavoro nel tempo, accedendo a relative statistiche e proiezioni, utili alla valutazione e gestione aziendale. 
+Attraverso la sezione dedicata alle notifiche l’utente può visionare le notifiche per lui interessanti provenienti dal sistema, connesse ad azioni di altri utenti con permessi da amministratore e nello stesso momento, creare e gestire a sua volta l’invio di comunicazioni rivolte ad utenti singoli, a determinati gruppi di utenti o all’intera community rappresentante l’azienda.
 
-Per acquistare un NFT SCV si devono compiere tre step: per prima cosa è necessario creare un account, aprire un wallet gratuito su Metamask e registrarsi su Opensea. Per finalizzare l’acquisto occorre, poi, ricaricare gli Ethereum (ETH) sul proprio wallet Metamask e scegliere l’NFT desiderato dal marketplace di Suoni Controvento (collegato direttamente ad Opensea). Una volta acquistato il proprio token sarà possibile accedere a tutte le esperienze riservate.
+Area profilo amministrativo
+Sezione dedicata al profilo dell’amministrativo che avrà una conformazione differente e, pertanto, una visualizzazione differenti a seconda dei permessi e delle attività associate. Ogni utente amministratore può, attraverso questa area: gestire il proprio profilo con relativi dati personali e di accesso; gestire configurazioni generali del sistema; gestire permessi ad altri utenti; creare ed inviare comunicazioni ; gestire nuove commesse,  driver o mezzi ; inserire e visionare contratti fornitori (es. inserimento azienda noleggio o rifornimento carburante).
 
-Scopri il nostro progetto: 
-[NFT Marketplace Suoni Contro Vento](https://nft.suonicontrovento.it/)
+**Le tecnologie:**
