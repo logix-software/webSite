@@ -1,7 +1,7 @@
 ---
 title: "FoodGO15 "
 subTitle: Sistema Gestione Mense
-urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
+urlVideo: https://drive.google.com/drive/folders/1_E-6-8WCLoYlCNe0LacGp5WqMMa3iWbL
 logoClient: /uploads/logo-freeday15.png
 abstract: >
   Una piattaforma completamente custom, sia per gli utenti finali che per chi
