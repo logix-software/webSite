@@ -1,7 +1,7 @@
 ---
 title: WeTheGround
 subTitle: "Web app per il volontariato d’impresa "
-urlVideo: https://drive.google.com/drive/folders/1uGst8Pto_n_bgA3QpBKRE86Grja-5PY1
+urlVideo: https://drive.google.com/drive/folders/1_E-6-8WCLoYlCNe0LacGp5WqMMa3iWbL
 logoClient: /uploads/logo-overtour.png
 abstract: Una piattaforma per la Corporate volunteering. Per tutte le imprese
   che vogliono fare del bene.
