@@ -2,7 +2,7 @@
 title: Upperflot
 subTitle: Piattaforma per la gestione della logistica
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
-logoClient: /uploads/logo-sailingdao.png
+logoClient: /uploads/gif.png
 abstract: Sistema di gestione, monitoraggio e comunicazione tra l’azienda
   operante nel settore della logistica ed i suoi driver.
 descriptionLogo: Ecofin S.r.l. viene fondata a Roma, dal 2016 opera nel settore
@@ -12,7 +12,7 @@ descriptionClient: Dotare l’azienda di una piattaforma cloud che consenta al
   reparto amministrativo di gestire informazioni relative a mezzi, driver e
   consegne; un monitoraggio, dunque, dell’intero processo e di ciascuna
   commessa.
-imageList: /uploads/sailingdao_preview.png
+imageList: /uploads/upperflot_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
