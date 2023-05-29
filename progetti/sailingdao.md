@@ -2,7 +2,7 @@
 title: SailingDAO
 subTitle: Community Web3.0
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
-logoClient: /uploads/logo-abiuno.png
+logoClient: /uploads/logo-sailingdao.png
 abstract: Community di esperti ed appassionati che vogliono contribuire alla
   costruzione del più grande Yacht club nel mondo, attraverso le opportunità
   offerte dal web3.0.
@@ -16,7 +16,7 @@ descriptionClient: >-
   mondo, attraverso nuovi strumenti ed opportunità offerte dal web3.0.
 
   L’idea di fondo è una reinterpretazione dell’esclusività che rende così attraente il club nautico, un insieme di spazi e servizi condivisi da una molteplicità di personalità con le quali incontrarsi, condividere esperienze e conoscenze ma anche e soprattutto fare business.
-imageList: /uploads/abiuno_preview.png
+imageList: /uploads/sailingdao_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
