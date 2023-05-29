@@ -67,7 +67,7 @@ team2Position5: ""
 team2Name5: ""
 team2Position6: ""
 team2Name6: ""
-titleTeam3: Strategy
+titleTeam3: ""
 team3Position1: ""
 team3Name1: ""
 team3Position2: ""
