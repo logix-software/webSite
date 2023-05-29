@@ -68,8 +68,8 @@ team2Name5: ""
 team2Position6: ""
 team2Name6: ""
 titleTeam3: Strategy
-team3Position1: Digital Strategist
-team3Name1: Claudia Pagliaccia
+team3Position1: ""
+team3Name1: ""
 team3Position2: ""
 team3Name2: ""
 team3Position3: ""
