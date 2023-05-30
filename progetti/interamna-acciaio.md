@@ -14,18 +14,18 @@ descriptionClient: >
   cliente, fino al compimento dell’intera commessa. Il fine ultimo, un
   monitoraggio puntuale di tutte le attività e degli effort previsti sia in
   termini di risorse umane che economiche.
-imageList: /uploads/interamna-_.png
+imageList: /uploads/interamna_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
 hashtags: "#WEBAPPLICATION #SOFTWARE #GESRTIONALE #INDUSTRIA4.0"
-image1: /uploads/interamna.png
-image1Style: vertical
-image2: /uploads/interamna2.png
+image1: /uploads/interamna-_.png
+image1Style: horizontal
+image2: /uploads/interamna.png
 image2Style: vertical
-image3: /uploads/interamna-_2.png
-image3Style: horizontal
-image4: ""
+image3: /uploads/interamna2.png
+image3Style: vertical
+image4: /uploads/interamna-_2.png
 image4Style: horizontal
 image5: ""
 image5Style: vertical
