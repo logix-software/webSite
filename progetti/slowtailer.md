@@ -2,7 +2,7 @@
 title: Slowtailer
 subTitle: Piattaforma per artigiani e retailer
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
-logoClient: /uploads/logo-fattoria-creativa.png
+logoClient: /uploads/slowtailer_logo.png
 abstract: "Una piattaforma eCommerce che nasce con l’intento di aiutare i
   retailer ad offrire prodotti locali e di qualità. "
 descriptionLogo: >
@@ -13,27 +13,27 @@ descriptionClient: Il progetto nasce dall'esigenza di raccogliere all'interno di
   retailer e artisti ai loro clienti di fiducia, ma anche a nuovi e potenziali
   acquirenti. L’intento è quello di supportare il commercio di prodotti locali,
   integrando canali fisici e digitali.
-imageList: /uploads/suoni-controvento.png
+imageList: /uploads/slowtailer_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
 hashtags: "#WEBAPPLICATION #SOFTWARE #LOGISTIC #NETWORK #ECOMMERCE"
-image1: /uploads/gif.png
-image1Style: vertical
-image2: /uploads/suoni-controvento_2.png
+image1: /uploads/slowtailer1.png
+image1Style: horizontal
+image2: /uploads/slowtailer2.png
 image2Style: vertical
-image3: /uploads/suoni-controvento-_-3.png
-image3Style: horizontal
-image4: /uploads/suoni-controvento-_4.png
-image4Style: horizontal
-image5: /uploads/suoni-controvento_5.png
+image3: /uploads/slowtailer3.png
+image3Style: vertical
+image4: /uploads/slowtailer4.png
+image4Style: vertical
+image5: /uploads/slowtailer5.png
 image5Style: vertical
-image6: /uploads/suoni-controvento-_6.png
-image6Style: vertical
-image7: /uploads/suoni-controvento_6.png
-image7Style: vertical
-image8: /uploads/suoni-controvento-_7.png
-image8Style: vertical
+image6: /uploads/slowtailer6.png
+image6Style: horizontal
+image7: ""
+image7Style: horizontal
+image8: ""
+image8Style: horizontal
 image9: ""
 image9Style: " "
 image10: ""
@@ -67,8 +67,8 @@ team2Name6: ""
 titleTeam3: Strategy
 team3Position1: Digital Strategist
 team3Name1: Gaia Costantini
-team3Position2: ""
-team3Name2: ""
+team3Position2: Marketing Manager
+team3Name2: Claudia Pagliaccia
 team3Position3: ""
 team3Name3: ""
 team3Position4: ""
