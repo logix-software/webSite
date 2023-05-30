@@ -16,21 +16,21 @@ label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
 hashtags: "#WEBAPPLICATION #SOFTWARE #STREET #POTHOLE #PA"
-image1: /uploads/suoni-controvento-_1.png
-image1Style: vertical
-image2: /uploads/suoni-controvento_2.png
+image1: /uploads/smartpot1.png
+image1Style: horizontal
+image2: /uploads/smartpot2.png
 image2Style: vertical
-image3: /uploads/suoni-controvento-_-3.png
-image3Style: horizontal
-image4: /uploads/suoni-controvento-_4.png
+image3: /uploads/smartpot3.png
+image3Style: vertical
+image4: /uploads/smartpot4.png
 image4Style: horizontal
-image5: /uploads/suoni-controvento_5.png
+image5: ""
 image5Style: vertical
-image6: /uploads/suoni-controvento-_6.png
+image6: ""
 image6Style: vertical
-image7: /uploads/suoni-controvento_6.png
+image7: ""
 image7Style: vertical
-image8: /uploads/suoni-controvento-_7.png
+image8: ""
 image8Style: vertical
 image9: ""
 image9Style: " "
