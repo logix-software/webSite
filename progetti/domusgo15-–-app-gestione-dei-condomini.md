@@ -1,7 +1,7 @@
 ---
 title: DomusGo15
 subTitle: App gestione dei condomini
-urlVideo: https://drive.google.com/drive/folders/1_E-6-8WCLoYlCNe0LacGp5WqMMa3iWbL
+urlVideo: https://drive.google.com/uc?export=view&id=1WTBeKG1X9-jJ3WyOcjRigTBcBF_qeG3Q
 logoClient: /uploads/logo-freeday15.png
 abstract: Un sistema di applicativi, un’app mobile e una Web App, per
   l’organizzazione e la gestione dell’ecosistema dei condomìni.
