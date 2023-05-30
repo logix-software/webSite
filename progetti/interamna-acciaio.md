@@ -111,3 +111,10 @@ I dati raccolti, inseriti, aggregati ed elaborati dal sistema sono visionabili t
 
 **Gestione amministrativo**
 Gli utenti amministrativi, a seconda di specifiche necessità di possono gestire il proprio profilo dall’area dedicata e, a loro volta, organizzare tipologie di accessi e permessi per altri utenti.
+
+**L﻿e tecnologie:** 
+
+Interamna è una piattaforma web avanzata, una WEB APP, fondata su un'infrastruttura di Microservizi Java Spring Boot "dockerizzati", garantendo flessibilità, scalabilità e affidabilità. 
+L'interfaccia utente coinvolgente e reattiva è realizzata utilizzando il framework Nuxt.js, basato su Vue.js, per offrire un'esperienza utente intuitiva e performante. 
+La sicurezza delle identità e degli accessi è una priorità per Interamna, pertanto la piattaforma si avvale del robusto sistema di gestione delle identità Keycloak, garantendo una protezione completa dei dati e un controllo accurato degli accessi. 
+Con Interamna, le aziende possono gestire le proprie attività in modo efficiente e ottenere un vantaggio competitivo grazie a una solida base tecnologica e funzionalità avanzate.
