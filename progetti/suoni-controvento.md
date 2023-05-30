@@ -87,5 +87,9 @@ Tre gli attori principali: le aziende, che vogliono investire nell’attività d
 
 **Le tecnologie:**
 
-WeTheGroung è una piattaforma web, una WEB APP, basata su infrastruttura Micro servizi Java Spring Boot “Dockerizzati” con orchestratore Kubernetes con gestione dati su DBMS no-sql MongoDB.
-Il Front-end dell’applicazione è, invece, sviluppato tramite framework Nuxt.js basato su Vue.js.
+WeTheGroung è una piattaforma web, WEB APP, basata su un'infrastruttura solida di Microservizi implementati in Java Spring Boot, che sono stati "dockerizzati" per garantire una maggiore efficienza e facilità di deployment. L'orchestratore Kubernetes è utilizzato per gestire in modo intelligente i nostri Microservizi, garantendo un'alta disponibilità e scalabilità.
+
+La gestione dei dati è affidata a MongoDB, un robusto sistema di gestione di database NoSQL. Grazie a MongoDB, siamo in grado di gestire grandi volumi di dati in modo efficiente e veloce, garantendo al contempo un'elevata affidabilità.
+
+Per quanto riguarda il Front-end dell'applicazione, abbiamo scelto di utilizzare il potente framework Nuxt.js, basato su Vue.js. Questo ci permette di creare un'interfaccia utente reattiva, intuitiva e altamente performante. Con il nostro Front-end sviluppato su Nuxt.js, offriamo una navigazione fluida e un'esperienza utente coinvolgente.
+
