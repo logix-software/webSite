@@ -92,4 +92,6 @@ Il sistema, infine, è in grado di fornire a specifici utenti o gruppi di utenti
 
 **Le tecnologie:**
 
-Roads Guardian è una piattaforma web, una WEB APP, basata su infrastruttura Micro servizi Java Spring Boot “Dockerizzati” con orchestratore Kubernetes. Il Front-end dell’applicazione è sviluppato tramite framework Nuxt.js basato su Vue.js. La gestione delle identità e degli accessi è, invece, basata su Keycloak.
+Roads Guardian è una completa e innovativa piattaforma web, una WEB APP, basata su un'infrastruttura avanzata di Microservizi Java Spring Boot, che utilizza la tecnologia Docker per garantire una gestione efficiente e scalabile. L'orchestrazione dei servizi è affidata a Kubernetes, un sistema di orchestratore altamente affidabile e flessibile.
+Per quanto riguarda il front-end dell'applicazione, è stato adottato il potente framework Nuxt.js, che si basa sul popolare framework Vue.js. Questa combinazione permette di creare un'interfaccia utente reattiva e performante, garantendo un'esperienza utente ottimale.
+Un aspetto fondamentale di Roads Guardian è la gestione delle identità e degli accessi, che è stata implementata utilizzando il robusto sistema di gestione delle identità Keycloak. Questa soluzione offre un'ampia gamma di funzionalità di autenticazione e autorizzazione, garantendo la sicurezza e il controllo degli accessi all'interno della piattaforma.
