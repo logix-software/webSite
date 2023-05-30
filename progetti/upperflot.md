@@ -17,21 +17,21 @@ label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
 hashtags: "#WEBAPPLICATION #MOBILEAPP #SOFTWARE #GESRTIONALE #LOGISTICA"
-image1: /uploads/suoni-controvento-_1.png
+image1: /uploads/upperflot-_-logo.png
 image1Style: vertical
-image2: /uploads/suoni-controvento_2.png
+image2: /uploads/upperflot-_-2.png
 image2Style: vertical
-image3: /uploads/suoni-controvento-_-3.png
+image3: /uploads/upperflot3.png
 image3Style: horizontal
-image4: /uploads/suoni-controvento-_4.png
-image4Style: horizontal
-image5: /uploads/suoni-controvento_5.png
+image4: /uploads/upperflot4.png
+image4Style: vertical
+image5: /uploads/upperflot5.png
 image5Style: vertical
-image6: /uploads/suoni-controvento-_6.png
+image6: ""
 image6Style: vertical
-image7: /uploads/suoni-controvento_6.png
+image7: ""
 image7Style: vertical
-image8: /uploads/suoni-controvento-_7.png
+image8: ""
 image8Style: vertical
 image9: ""
 image9Style: " "
