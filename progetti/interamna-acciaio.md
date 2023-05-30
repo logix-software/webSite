@@ -81,36 +81,24 @@ team3Name6: ""
 date: 1998-01-01T09:26:18.762Z
 ---
 Una Web App responsive residente su server cloud e raggiungibile da qualsiasi postazione con accesso alla rete internet.
-All’interno della piattaforma web l’utente amministratore può visualizzare, real- time, i dati principali che mostrano gli andamenti e le informazioni riguardanti lo stato dei lavori; nel particolare può osservare lo stato delle commesse, delle richieste, dei cantieri e dell’attività del personale.
-Dall’home page tramite apposite barre di navigazione è possibile accedere a tutte le sezioni principali della piattaforma ed alle sezioni relative alla gestione del profilo e dei permessi:
+La piattaforma consente all'utente amministratore di visualizzare in tempo reale i dati principali relativi allo stato dei lavori. L'amministratore può monitorare lo stato delle commesse, delle richieste, dei cantieri e dell'attività del personale.
+Attraverso la barra di navigazione sulla homepage, è possibile accedere alle sezioni principali della piattaforma e gestire il profilo e i permessi degli utenti:
 
-**Gestione contatti**
-La sezione contatti permette all’utente di avere una rubrica in cui trovare contatti utili quali fornitori, clienti o soggetti d’interesse. Possono, inoltre, essere associati al contatto documenti generici o specifici inserti come preventivi o offerte (legate alle commesse) ricevuti e negoziati.
+**Gestione contatti**: la sezione consente di avere una rubrica con informazioni sui fornitori, clienti e altri contatti di interesse. È possibile associare documenti come preventivi o offerte a ciascun contatto.
 
-**Gestione documenti**
-Nella sezione dedicata ai documenti, l’amministrazione può avere rapido accesso alla documentazione caricata, ordinata, catalogata e corredata da specifiche informazioni, di cui può fruire all’esigenza.
+**Gestione documenti**: offre rapido accesso alla documentazione caricata, ordinata e catalogata, con informazioni specifiche per una consultazione immediata. 
 
-**Gestione RDO (Richiesta di Offerta) e offerte (clienti)**
-Una volta ricevuta una Richiesta di Offerta il personale può caricarla in piattaforma
-nell’apposita sezione, attraverso un flusso che facilita l’inserimento e consente la futura fruizione o risposta. È possibile, infatti, collegare la RDO a clienti già esistenti o nuovi contatti, che verranno automaticamente creati ed inseriti nel sistema.
+**Gestione RDO e offerte**: consente al personale di caricare le Richieste di Offerta e di gestirle nel sistema. È possibile collegare le RDO a clienti esistenti o crearne di nuovi.
 
-**Gestione fornitori**
-L’utente amministratore può accedere alla sezione relativa ai fornitori, ordinati e individuabili attraverso differenti modalità di ricerca.
-Ad ogni fornitore vengono associati relativi preventivi, offerte e commesse.
-L’utente ha pertanto la possibilità di comporre una richiesta al fornitore importando dati specifici che riguardano l’offerta fatta al proprio cliente.
+**Gestione fornitori**: consente all'amministratore di accedere ai dati dei fornitori, cercarli e visualizzarli in modi diversi. Sono associati ai fornitori preventivi, offerte e commesse. È possibile inviare richieste specifiche ai fornitori importando dati relativi all'offerta per il cliente.
 
-**Commesse**
-Nella sezione dedicata si può trovare un quadro completo con i dati e le informazioni che riguardano lo stato dei lavori per ognuna delle attività inerenti a ciascuna commessa. Ad ogni commessa saranno collegati i dettagli riguardanti il cantiere associato, il personale a lavoro, il cliente, gli ordini ai fornitori, l’offerta fatta con relativo budget dedicato ad attività.
+**Commesse**: fornisce una visione completa dello stato dei lavori per ciascuna commessa, inclusi dettagli sul cantiere, personale, cliente, ordini ai fornitori e budget dedicato alle attività.
 
-**Cantieri e personale**
-Da quest’ultima sezione l’amministratore può inserire nuovi operai impiegati in specifici cantieri, con i dati anagrafici ed i dettagli contrattualistici.
-La piattaforma consente anche di specificare e monitorare, per ogni operativo, ingressi, uscite e presenze, eventualmente con l’integrazione di dati provenienti da sistemi terzi.
+**Cantieri e personale**: consente all'amministratore di aggiungere nuovi operai impiegati in cantieri specifici, con dettagli contrattuali e informazioni personali. La piattaforma permette anche di monitorare gli orari di ingresso, uscita e presenza dei dipendenti, eventualmente integrando dati provenienti da altri sistemi.
 
-**Report e notifiche**
-I dati raccolti, inseriti, aggregati ed elaborati dal sistema sono visionabili tramite schemi e grafici che consentono all’utente, nell’apposita area, di avere un’immediata comprensione dell’andamento delle attività aziendali. A supporto del funzionamento generale il sistema può elaborare notifiche per avvisi, alert e promemoria.
+I dati raccolti, aggregati ed elaborati dal sistema sono presentati attraverso schemi e grafici, fornendo una comprensione immediata delle attività aziendali. Il sistema può generare notifiche per avvisi, allarmi e promemoria.
 
-**Gestione amministrativo**
-Gli utenti amministrativi, a seconda di specifiche necessità di possono gestire il proprio profilo dall’area dedicata e, a loro volta, organizzare tipologie di accessi e permessi per altri utenti.
+Gli **utenti amministrativi** possono gestire il proprio profilo e organizzare l'accesso e i permessi per gli altri utenti nella sezione Gestione amministrativo in base alle loro specifiche necessità.
 
 **L﻿e tecnologie:** 
 
