@@ -61,8 +61,8 @@ team1Name6: ""
 titleTeam2: Design
 team2Position1: Senior UX/UI Designer
 team2Name1: Susanna Cirocchi
-team2Position2: Visual Designer
-team2Name2: Vera Schwierz
+team2Position2: ""
+team2Name2: ""
 team2Position3: ""
 team2Name3: ""
 team2Position4: ""
