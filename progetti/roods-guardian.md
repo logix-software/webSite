@@ -2,7 +2,7 @@
 title: Roads Guardian
 subTitle: Web app per la gestione delle buche stradali
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
-logoClient: /uploads/logo-fattoria-creativa.png
+logoClient: /uploads/gif.png
 abstract: Una piattaforma per il monitoraggio, la  gestione e il rilevamento
   delle buche stradali.
 descriptionLogo: Smart Pot S.r.l. è una Startup innovativa, nata a Benevento nel
@@ -11,7 +11,7 @@ descriptionLogo: Smart Pot S.r.l. è una Startup innovativa, nata a Benevento ne
 descriptionClient: "Creare uno strumento capace di gestire il rilevamento delle
   buche presenti sul manto stradale di una data zona o città, al fine di poterne
   seguire l’intero “ciclo di vita” dalla rilevazione fino alla riparazione. "
-imageList: /uploads/suoni-controvento.png
+imageList: /uploads/roads-guardian_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
