@@ -6,8 +6,8 @@ logoClient: /uploads/gif.png
 abstract: Sistema di gestione, monitoraggio e comunicazione tra l’azienda
   operante nel settore della logistica ed i suoi driver.
 descriptionLogo: Ecofin S.r.l. viene fondata a Roma, dal 2016 opera nel settore
-  autotrasporti e logistica. Attualmente l'azienda si occupa del trasporto merci
-  per conto terzi.
+  della logistica dell'ultimo miglio. Attualmente l'azienda si occupa del
+  trasporto merci per conto terzi.
 descriptionClient: Dotare l’azienda di una piattaforma cloud che consenta al
   reparto amministrativo di gestire informazioni relative a mezzi, driver e
   consegne; un monitoraggio, dunque, dell’intero processo e di ciascuna
