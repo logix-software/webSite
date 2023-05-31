@@ -1,7 +1,7 @@
 ---
 title: Acta Logix
 subTitle: Registro elettronico
-urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
+urlVideo: " "
 logoClient: /uploads/logo-giunti-scuola.png
 abstract: Un registro elettronico che permette l’organizzazione in cloud di ogni
   fase dell’attività scolastica.
