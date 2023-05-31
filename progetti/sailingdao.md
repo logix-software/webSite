@@ -87,18 +87,3 @@ I fondatori di Saling DAO, fermamente convinti delle potenzialità del web 3.0, 
 In Sailing DAO i titolari degli NFT hanno una serie di vantaggi nel club, sia nella vita reale IRL che online; nel corso del tempo questi benefici verranno ulteriormente ampliati attraverso la promozione e l’acquisizione di partner e sponsor.
 
 Attraverso appositi canali, i membri hanno, inoltre, accesso a votazioni e discussioni riguardanti l’utilizzo delle risorse, l’organizzazione delle competenze e in generale alla crescita del progetto, elementi che caratterizzano il concetto di DAO stesso.
-
-**Come funziona?**
-
-*STEP1: MINT - Acquisto NFT*
-
-L’acquisto della membership sotto forma di NFT avviene attraverso l’utilizzo della criptovaluta Ether (ETH) di Ethereum. Quando viene annunciato il MINT (in anteprima nei canali ufficiali Discord o Twitter), vale a dire la possibilità di acquisto delle membership, si deve avere a disposizione l’importo necessario nel proprio hot wallet in ETH per poter procedere con il checkout. Una volta che il processo è andato a buon fine la membership SailingDAO è automaticamente trasferita nel proprio hot wallet.
-
-*STEP2: Proprietà, utilizzo, rent e Rivendita*
-
-Come tutti gli NFT anche le membership sono presenti su piattaforme come OpenSea ed è possibile per chi possiede il token rivendere la proprietà sul mercato secondario. Per chi possiede il token SailingDAO, sarà possibile inoltre, gestire il rent dell’NFT ricevendo entrate per l’affitto.
-
-**I vantaggi di diventare un membro Sailing DAO:**
-
-Una volta acquisita la proprietà della membership è possibile accedere alla piattaforma SailingDAO e usufruire dei vantaggi esclusivi riservati. Tramite autorizzazione (prenotazione e verifica proprietà NFT wallet) si può entrare in tutti i luoghi ed eventi messi organizzati da SailingDAO , si può inoltre accedere alle piattaforme per le votazioni e la governance.
-A tutti I membri è data la possibilità di partecipare attivamente alla community, attraverso l’accesso a canali speciali ed informazioni e news in anteprima; la partecipazione (con differenti pesi) alle votazioni per le decisioni sullo sviluppo del progetto o la gestione dei fondi; partecipare ad eventi e talk online tradizionali o metaverse esclusivi; la partecipazione all’organizzazione della DAO e molto altro…
