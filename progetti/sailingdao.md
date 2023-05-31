@@ -3,9 +3,7 @@ title: SailingDAO
 subTitle: Community Web3.0
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
 logoClient: /uploads/logo-sailingdao.png
-abstract: Community di esperti ed appassionati che vogliono contribuire alla
-  costruzione del più grande Yacht club nel mondo, attraverso le opportunità
-  offerte dal web3.0.
+abstract: Community web3.0.
 descriptionLogo: Sailing DAO è una Startup che nasce nel 2022 dall’intuizione
   dei suoi co-founder; tecnici ed esperti nel settore IT, che impegnati ciascuno
   in ruoli diversi, ad oggi lavorano attivamente in prima persona per lo
