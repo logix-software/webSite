@@ -1,7 +1,7 @@
 ---
 title: MedLab
 subTitle: Progetti per la ricerca medica
-urlVideo: "#"
+urlVideo: " "
 logoClient: /uploads/azienda-ospedaliera-terni.png
 abstract: Una collezione di moduli software ed algoritmi pensati per il mondo medico.
 descriptionLogo: L’azienda Ospedaliera Santa Maria di Terni, in termini di
