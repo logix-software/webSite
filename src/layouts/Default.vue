@@ -241,6 +241,7 @@ h6 {
 .btn-gradient-border {
   position: relative;
   border-radius: 5px;
+  padding: 0.675rem 1.4rem !important;
   border: 0;
   &--white {
     color: #fff !important;
@@ -725,7 +726,7 @@ textarea:focus {
 }
 
 /* LABEL ======================================= */
-label {
+.labelForm {
   color: #fff;
   font-size: 18px;
   font-weight: normal;

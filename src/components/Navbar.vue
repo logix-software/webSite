@@ -48,7 +48,7 @@
             <li class="position-relative py-2 py-lg-0">
               <g-link
                 to="/contatti"
-                class="btn btn-gradient-border btn-navbar mx-3"
+                class="btn-gradient-border btn-navbar mx-3"
               >
                 Contattaci
               </g-link>
