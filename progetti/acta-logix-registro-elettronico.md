@@ -1,7 +1,7 @@
 ---
 title: Acta Logix
 subTitle: Registro elettronico
-urlVideo: " "
+urlVideo: " #"
 logoClient: /uploads/logo-giunti-scuola.png
 abstract: Un registro elettronico che permette l’organizzazione in cloud di ogni
   fase dell’attività scolastica.
@@ -21,7 +21,7 @@ descriptionClient: "Acta Logix nasce dall’esigenza di creare uno strumento
   le famiglie possono salvare, reperire e archiviare tutte le informazioni che
   desiderano in modo rapido, intuitivo e conveniente."
 imageList: /uploads/acta-logix_preview.png
-imageNoVideo: /uploads/acta-logix_preview.png
+imageNoVideo: /uploads/hero-_-acta-logix.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: " "
