@@ -1,7 +1,7 @@
 ---
 title: "Esibit "
 subTitle: Piattaforma per gli artisti
-urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
+urlVideo: "#"
 logoClient: /uploads/logo-giunti-bat-terni.png
 abstract: Uno spazio in grado di mettere in connessione chi “fa arte” con chi
   “cerca arte”.
@@ -16,7 +16,7 @@ descriptionClient: Il progetto nasce dalla volontà di creare uno spazio in grad
   intessere una rete di relazioni tra gli artisti e tutte le personalità che
   gravitano intorno all’universo creativo.
 imageList: /uploads/esibit_preview.png
-imageNoVideo: /uploads/esibit_preview.png
+imageNoVideo: /uploads/hero-_-case-esibit.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: "  "
