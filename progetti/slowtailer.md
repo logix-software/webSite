@@ -1,7 +1,8 @@
 ---
 title: Slowtailer
 subTitle: Piattaforma per artigiani e retailer
-urlVideo: https://drive.google.com/uc?export=view&id=19LM9PNQ-G8B2ppAcyPfAfiHTxqvo5qxN
+urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/Slowtailer_Case
+  Animation C.mp4
 logoClient: /uploads/slowtailer_logo.png
 abstract: "Una piattaforma eCommerce che nasce con l’intento di aiutare i
   retailer ad offrire prodotti locali e di qualità. "
