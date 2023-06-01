@@ -1,7 +1,8 @@
 ---
 title: Interamna Acciaio
 subTitle: Web App per l'amministrazione aziendale
-urlVideo: https://drive.google.com/uc?export=view&id=19ADfdrlbVX3JKjEYtVqTpKGbjUDgieHO
+urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/Interamna
+  Acciaio_Case Animation-2.mp4
 logoClient: /uploads/logo-interamna-acciaio.png
 abstract: "Gestionale per l’amministrazione dei flussi di lavoro e degli effort
   per ciascuna commessa. "
