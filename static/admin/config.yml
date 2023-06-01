@@ -189,23 +189,23 @@ collections:
           widget: "text",
         }
       - { label: "Competence3Img", name: "competence3Img", widget: "image" }
-      - {
-          label: "Competence4Title",
-          name: "competence4Title",
-          widget: "string",
-        }
-      - { label: "Competence4Link", name: "competence4Link", widget: "string" }
-      - {
-          label: "Competence4Services",
-          name: "competence4Services",
-          widget: "string",
-        }
-      - {
-          label: "Competence4Abstract",
-          name: "competence4Abstract",
-          widget: "text",
-        }
-      - { label: "Competence4Img", name: "competence4Img", widget: "image" }
+      # - {
+      #     label: "Competence4Title",
+      #     name: "competence4Title",
+      #     widget: "string",
+      #   }
+      # - { label: "Competence4Link", name: "competence4Link", widget: "string" }
+      # - {
+      #     label: "Competence4Services",
+      #     name: "competence4Services",
+      #     widget: "string",
+      #   }
+      # - {
+      #     label: "Competence4Abstract",
+      #     name: "competence4Abstract",
+      #     widget: "text",
+      #   }
+      # - { label: "Competence4Img", name: "competence4Img", widget: "image" }
       - { label: "ApproachImg", name: "approachImg", widget: "image" }
       - { label: "ApproachTitle", name: "approachTitle", widget: "string" }
       - {

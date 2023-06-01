@@ -81,7 +81,7 @@
             </div>
             <div class="col-lg-2" v-html="text.node.competence3Services"></div>
           </div>
-          <div class="row competence align-items-center mb-5 pb-5">
+          <!-- <div class="row competence align-items-center mb-5 pb-5">
             <div class="col-lg-2">
               <img
                 :src="text.node.competence4Img"
@@ -103,7 +103,7 @@
               >
             </div>
             <div class="col-lg-2" v-html="text.node.competence1Services"></div>
-          </div>
+          </div> -->
         </div>
         <div class="container">
           <div class="row">
@@ -1122,11 +1122,6 @@ query {
         competence3Abstract
         competence3Link
         competence3Services
-        competence4Img
-        competence4Title
-        competence4Abstract
-        competence4Link
-        competence4Services
         approachTitle
         approachDescription
         approachImg
