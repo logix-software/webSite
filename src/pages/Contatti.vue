@@ -407,7 +407,7 @@ export default {
   padding: 8px 26px;
   margin: 5px;
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   cursor: pointer;
   border-radius: 6px;
   transition: background-color 0.3s ease;
