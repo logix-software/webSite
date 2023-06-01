@@ -1,7 +1,7 @@
 ---
 title: A.BIUNO
 subTitle: Sito eCommerce
-urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
+urlVideo: " "
 logoClient: /uploads/logo-abiuno.png
 abstract: Dalla progettazione, fino al design e lo sviluppo, insieme all’intera
   strategia di marketing e comunicazione.
@@ -14,7 +14,7 @@ descriptionClient: Dotare il brand di una vetrina digitale e di un eCommerce per
   permettere agli utenti di scoprire non solo la storia, i valori e le creazioni
   A.BIUNO, ma anche di acquistare senza vincoli di distanza e tempo.
 imageList: /uploads/abiuno_preview.png
-imageNoVideo: /uploads/abiuno_preview.png
+imageNoVideo: /uploads/hero-_-abiuno.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
