@@ -81,5 +81,6 @@ In Sailing DAO i titolari degli NFT avranno una serie di vantaggi nel club, sia 
 Attraverso appositi canali, i membri hanno ad oggi, accesso a votazioni e discussioni riguardanti l’utilizzo delle risorse, l’organizzazione delle competenze e in generale alla crescita del progetto, elementi che caratterizzano il concetto di DAO stesso.
 
 **Cosa abbiamo fatto per SailingDAO:**
+
 Abbiamo contribuito alla realizzazione del brand, quindi del logo e della styleguide. Abbiamo realizzato la landing principale del progetto e sostenuto la startup nella creazione di contenuti da condividere sulle differenti piattaforme. 
 Continueremo a seguire SailingDAO e saremo partner tecnologico per i prossimi step.
