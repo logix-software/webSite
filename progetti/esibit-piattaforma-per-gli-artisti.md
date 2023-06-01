@@ -1,7 +1,7 @@
 ---
 title: "Esibit "
 subTitle: Piattaforma per gli artisti
-urlVideo: "#"
+urlVideo: " "
 logoClient: /uploads/logo-giunti-bat-terni.png
 abstract: Uno spazio in grado di mettere in connessione chi “fa arte” con chi
   “cerca arte”.
