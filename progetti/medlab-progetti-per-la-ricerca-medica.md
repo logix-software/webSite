@@ -1,7 +1,7 @@
 ---
 title: MedLab
 subTitle: Progetti per la ricerca medica
-urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
+urlVideo: "#"
 logoClient: /uploads/azienda-ospedaliera-terni.png
 abstract: Una collezione di moduli software ed algoritmi pensati per il mondo medico.
 descriptionLogo: L’azienda Ospedaliera Santa Maria di Terni, in termini di
@@ -17,7 +17,7 @@ descriptionClient: >-
 
   L’intero progetto di Ricerca e Sviluppo Medlab e basa le sue potenzialità di successo sulla possibilità di collezionare un’elevata quantità di dati (BigData) e di poterli organizzare e standardizzare efficientemente, così da poterli poi mettere a disposizione della comunità scientifica mondiale.
 imageList: /uploads/medlab_preview.png
-imageNoVideo: /uploads/medlab_preview.png
+imageNoVideo: /uploads/hero-_-medlab.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: " "
