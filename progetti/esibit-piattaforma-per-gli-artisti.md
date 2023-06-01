@@ -16,6 +16,7 @@ descriptionClient: Il progetto nasce dalla volontà di creare uno spazio in grad
   intessere una rete di relazioni tra gli artisti e tutte le personalità che
   gravitano intorno all’universo creativo.
 imageList: /uploads/esibit_preview.png
+imageNoVideo: /uploads/esibit_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: "  "

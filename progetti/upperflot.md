@@ -13,6 +13,7 @@ descriptionClient: Dotare l’azienda di una piattaforma cloud che consenta al
   consegne; un monitoraggio, dunque, dell’intero processo e di ciascuna
   commessa.
 imageList: /uploads/upperflot_preview.png
+imageNoVideo: /uploads/upperflot_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST

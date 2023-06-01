@@ -9,12 +9,16 @@
           <div class="row">
             <div class="col-lg-10 position-relative mx-auto text-center">
               <g-image
-                src="~/assets/images/deco-designer.png"
+              :src="
+                  require(`~/assets/images/deco-designer-${randomNumberDesigner}.png`)
+                "
                 class="heroHome__decoDesigner mouse-effect"
                 alt="designer"
               />
               <g-image
-                src="~/assets/images/deco-developer.png"
+                :src="
+                  require(`~/assets/images/deco-developer-${randomNumberDeveloper}.png`)
+                "
                 class="heroHome__decoDeveloper mouse-effect2"
                 alt="dev"
               />
@@ -483,6 +487,8 @@ export default {
     return {
       deviceWidth: 0,
       isIntersectingElement: false,
+      randomNumberDeveloper: this.getRandomNumberDeveloper(),
+      randomNumberDesigner: this.getRandomNumberDesigner(),
     };
   },
   mounted() {
@@ -576,8 +582,20 @@ export default {
         },
       });
     }, 500);
+    setInterval(() => {
+      this.randomNumberDesigner = this.getRandomNumberDesigner();
+    }, 10000);
+    setInterval(() => {
+      this.randomNumberDeveloper = this.getRandomNumberDeveloper();
+    }, 8000);
   },
   methods: {
+    getRandomNumberDeveloper() {
+      return Math.floor(Math.random() * 10) + 1;
+    },
+    getRandomNumberDesigner() {
+      return Math.floor(Math.random() * 3) + 1;
+    },
     onIntersectionElement(value) {
       this.isIntersectingElement = value;
     },
@@ -686,6 +704,9 @@ export default {
     font-weight: 300;
     letter-spacing: -5.61316px;
     line-height: 94px;
+    @media screen and (max-width: 1200px) {
+      line-height: 106px;
+    }
     @media screen and (max-width: 992px) {
       font-size: 60px !important;
       letter-spacing: -0.05em;
@@ -834,7 +855,7 @@ export default {
     }
   }
   &__text {
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     display: inline-block;
     white-space: nowrap;
     animation-direction: alternate;

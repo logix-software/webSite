@@ -557,11 +557,22 @@ h6 {
   );
 }
 .text-gradient-development {
-  padding-right: 2px;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(103.3deg, #36f2b9 15.36%, #7878f9 107.51%);
+  font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+/* or 120% */
+
+letter-spacing: -1.25px;
+
+/* Gradient/Developer */
+
+background: linear-gradient(103.3deg, #36F2B9 15.36%, #7878F9 107.51%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
 }
 .text-gradient-strategy {
   padding-right: 2px;
@@ -724,7 +735,7 @@ textarea:focus {
 }
 
 /* LABEL ======================================= */
-label {
+.labelForm {
   color: #fff;
   font-size: 18px;
   font-weight: normal;

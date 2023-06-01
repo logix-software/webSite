@@ -12,6 +12,7 @@ descriptionClient: "Creare uno strumento capace di gestire il rilevamento delle
   buche presenti sul manto stradale di una data zona o città, al fine di poterne
   seguire l’intero “ciclo di vita” dalla rilevazione fino alla riparazione. "
 imageList: /uploads/roads-guardian_preview.png
+imageNoVideo: /uploads/roads-guardian_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST

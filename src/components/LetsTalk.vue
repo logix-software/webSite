@@ -133,7 +133,8 @@ export default {
   &__title {
     font-family: "Lexend Deca";
     font-weight: 300;
-    font-size: 40px;
+    font-size: 55px;
+    line-height: 0.9;
     @media screen and (min-width: 992px) {
       font-size: 105px;
       line-height: 94px;

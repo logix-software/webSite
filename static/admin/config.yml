@@ -346,6 +346,7 @@ collections:
           widget: "text",
         }
       - { label: "ImageList", name: "imageList", widget: "image" }
+      - { label: "ImageNoVideo", name: "imageNoVideo", widget: "image" }
       - { label: "Label1", name: "label1", widget: "string" }
       - { label: "Label2", name: "label2", widget: "string" }
       - { label: "Label3", name: "label3", widget: "string" }

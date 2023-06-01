@@ -16,6 +16,7 @@ descriptionClient: >-
 
   Sotto i mesi del lockdown, quando la voglia di viaggiare era forte più che mai, grazie alla piattaforma Twich, i fondatori si sono impegnati a fornire agli utenti “un viaggio collettivo in giro per il mondo”, da questa esperienza nasce la volontà di sviluppare un nuovo business che coinvolga le persone, le aziende, la comunità.
 imageList: /uploads/wetheground_preview.png
+imageNoVideo: /uploads/wetheground_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST

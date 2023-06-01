@@ -21,6 +21,7 @@ descriptionClient: "Acta Logix nasce dall’esigenza di creare uno strumento
   le famiglie possono salvare, reperire e archiviare tutte le informazioni che
   desiderano in modo rapido, intuitivo e conveniente."
 imageList: /uploads/acta-logix_preview.png
+imageNoVideo: /uploads/acta-logix_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: " "

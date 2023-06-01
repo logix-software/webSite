@@ -15,6 +15,7 @@ descriptionClient: >
   monitoraggio puntuale di tutte le attività e degli effort previsti sia in
   termini di risorse umane che economiche.
 imageList: /uploads/interamna_preview.png
+imageNoVideo: /uploads/interamna_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST

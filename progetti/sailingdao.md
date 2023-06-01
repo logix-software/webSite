@@ -12,6 +12,7 @@ descriptionClient: Creare una grande comunità di esperti ed appassionati che
   vogliono contribuire e partecipare attivamente al progetto, attraverso nuovi
   strumenti ed opportunità offerte dal web3.0.
 imageList: /uploads/sailingdao_preview.png
+imageNoVideo: /uploads/sailingdao_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST

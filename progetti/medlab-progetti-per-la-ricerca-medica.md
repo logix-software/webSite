@@ -17,6 +17,7 @@ descriptionClient: >-
 
   L’intero progetto di Ricerca e Sviluppo Medlab e basa le sue potenzialità di successo sulla possibilità di collezionare un’elevata quantità di dati (BigData) e di poterli organizzare e standardizzare efficientemente, così da poterli poi mettere a disposizione della comunità scientifica mondiale.
 imageList: /uploads/medlab_preview.png
+imageNoVideo: /uploads/medlab_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: " "

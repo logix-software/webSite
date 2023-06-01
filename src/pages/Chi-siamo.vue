@@ -385,7 +385,7 @@ export default {
 <style lang="scss" scoped>
 .hero {
   background-color: #111111;
-  min-height: 750px;
+  min-height: 650px;
   position: relative;
   @media screen and (max-width: 992px) {
     min-height: 500px;

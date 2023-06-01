@@ -16,6 +16,7 @@ descriptionClient: >-
 
   Il progetto si fonda sulla necessità di stabilire una collaborazione e una condivisione delle informazioni, in modo facile e veloce, tra chi abita il condominio, chi lo amministra e gli stakeholder collegati.
 imageList: /uploads/domusgo15_preview.png
+imageNoVideo: /uploads/domusgo15_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST

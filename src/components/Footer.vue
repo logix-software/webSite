@@ -109,12 +109,7 @@
                 <g-link to="/">Progettazione Web3/NFT</g-link>
               </li> -->
               <li class="mb-2">
-                <g-link to="/sviluppo-web-and-mobile">Web development</g-link>
-              </li>
-              <li class="mb-2">
-                <g-link to="/sviluppo-web-and-mobile">
-                  Mobile development
-                </g-link>
+                <g-link to="/sviluppo-web-and-mobile">Sviluppo web e mobile</g-link>
               </li>
               <li class="mb-2">
                 <g-link to="/design-research-and-strategy">UX/UI design</g-link>
@@ -148,7 +143,7 @@
                 </a>
               </li>
               <li>
-                <a href="/"> Condizioni Generali di Contratto </a>
+                <a href="/note-legali"> Condizioni Generali di Contratto </a>
               </li>
             </ul>
           </div>

@@ -1,10 +1,19 @@
 <template>
   <Layout>
     <div class="hero py-5 d-flex align-items-end">
-      <video autoplay muted loop id="myVideo">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        id="myVideo"
+        v-if="$page.project.urlVideo && $page.project.urlVideo !== ' '"
+      >
         <source :src="$page.project.urlVideo" type="video/mp4" />
         Your browser does not support HTML5 video.
       </video>
+      <img v-else class="hero__img" :src="$page.project.imageNoVideo" />
+
       <div class="container">
         <h1 class="hero__title">{{ $page.project.title }}</h1>
         <h6 class="hero__subtitle">{{ $page.project.subTitle }}</h6>
@@ -21,9 +30,36 @@
             {{ $page.project.descriptionLogo }}
           </p>
           <div class="flex items-center mb-3">
-            <span class="label label--development">DEVELOPMENT</span>
-            <span class="label label--design mx-1">DESIGN</span>
-            <span class="label label--strategist">STRATEGIST</span>
+            <span
+              class="label label--development"
+              :class="{
+                'label--development': $page.project.label1 == 'DEVELOPMENT',
+                'label--design': $page.project.label1 == 'DESIGN',
+                'label--strategist': $page.project.label1 == 'STRATEGIST',
+              }"
+              v-if="$page.project.label1"
+              >{{ $page.project.label1 }}</span
+            >
+            <span
+              class="label label--design mx-1"
+              :class="{
+                'label--development': $page.project.label1 == 'DEVELOPMENT',
+                'label--design': $page.project.label1 == 'DESIGN',
+                'label--strategist': $page.project.label1 == 'STRATEGIST',
+              }"
+              v-if="$page.project.label2"
+              >{{ $page.project.label2 }}</span
+            >
+            <span
+              class="label label--strategist"
+              :class="{
+                'label--development': $page.project.label1 == 'DEVELOPMENT',
+                'label--design': $page.project.label1 == 'DESIGN',
+                'label--strategist': $page.project.label1 == 'STRATEGIST',
+              }"
+              v-if="$page.project.label3"
+              >{{ $page.project.label3 }}</span
+            >
           </div>
           <p class="client__hashtags">
             {{ $page.project.hashtags }}
@@ -48,7 +84,7 @@
         <g-image
           v-if="$page.project.image1"
           :src="$page.project.image1"
-          class="image mb-4"
+          class="image mb-4 h-100"
           :class="{
             'col-lg-12': $page.project.image1Style === 'horizontal',
             'col-lg-6': $page.project.image1Style !== 'horizontal',
@@ -57,7 +93,7 @@
         <g-image
           v-if="$page.project.image2"
           :src="$page.project.image2"
-          class="image mb-4"
+          class="image mb-4 h-100"
           :class="{
             'col-lg-12': $page.project.image2Style === 'horizontal',
             'col-lg-6': $page.project.image2Style !== 'horizontal',
@@ -66,7 +102,7 @@
         <g-image
           v-if="$page.project.image3"
           :src="$page.project.image3"
-          class="image mb-4"
+          class="image mb-4 h-100"
           :class="{
             'col-lg-12': $page.project.image3Style === 'horizontal',
             'col-lg-6': $page.project.image3Style !== 'horizontal',
@@ -75,7 +111,7 @@
         <g-image
           v-if="$page.project.image4"
           :src="$page.project.image4"
-          class="image mb-4"
+          class="image mb-4 h-100"
           :class="{
             'col-lg-12': $page.project.image4Style === 'horizontal',
             'col-lg-6': $page.project.image4Style !== 'horizontal',
@@ -84,7 +120,7 @@
         <g-image
           v-if="$page.project.image5"
           :src="$page.project.image5"
-          class="image mb-4"
+          class="image mb-4 h-100"
           :class="{
             'col-lg-12': $page.project.image5Style === 'horizontal',
             'col-lg-6': $page.project.image5Style !== 'horizontal',
@@ -93,7 +129,7 @@
         <g-image
           v-if="$page.project.image6"
           :src="$page.project.image6"
-          class="image mb-4"
+          class="image mb-4 h-100"
           :class="{
             'col-lg-12': $page.project.image6Style === 'horizontal',
             'col-lg-6': $page.project.image6Style !== 'horizontal',
@@ -102,7 +138,7 @@
         <g-image
           v-if="$page.project.image7"
           :src="$page.project.image7"
-          class="image mb-4"
+          class="image mb-4 h-100"
           :class="{
             'col-lg-12': $page.project.image7Style === 'horizontal',
             'col-lg-6': $page.project.image7Style !== 'horizontal',
@@ -111,7 +147,7 @@
         <g-image
           v-if="$page.project.image8"
           :src="$page.project.image8"
-          class="image mb-4"
+          class="image mb-4 h-100"
           :class="{
             'col-lg-12': $page.project.image8Style === 'horizontal',
             'col-lg-6': $page.project.image8Style !== 'horizontal',
@@ -120,7 +156,7 @@
         <g-image
           v-if="$page.project.image9"
           :src="$page.project.image9"
-          class="image mb-4"
+          class="image mb-4 h-100"
           :class="{
             'col-lg-12': $page.project.image9Style === 'horizontal',
             'col-lg-6': $page.project.image9Style !== 'horizontal',
@@ -129,7 +165,7 @@
         <g-image
           v-if="$page.project.image10"
           :src="$page.project.image10"
-          class="image mb-4"
+          class="image mb-4 h-100"
           :class="{
             'col-lg-12': $page.project.image10Style === 'horizontal',
             'col-lg-6': $page.project.image10Style !== 'horizontal',
@@ -381,7 +417,11 @@ query ($path: String!) {
         descriptionLogo
         descriptionClient
         content
+        label1
+        label2
+        label3
         imageList
+        imageNoVideo
         image1
         image1Style
         image2
@@ -543,6 +583,16 @@ export default {
     line-height: 38px;
     letter-spacing: -1.25px;
   }
+  &__img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
 }
 #myVideo {
   // width: 100vw;
@@ -610,7 +660,7 @@ export default {
 
 .theTeam {
   &__titleTeam {
-    font-family: "Lexend Deca";
+    // font-family: "Lexend Deca";
     font-weight: 400;
     font-size: 40px;
     line-height: 48px;
@@ -618,17 +668,31 @@ export default {
   }
   &__position {
     font-weight: 500;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 44px;
     letter-spacing: -0.5px;
     color: #6a6a6a;
   }
   &__name {
-    font-weight: 400;
-    font-size: 26px;
+    font-weight: 300;
+    font-size: 24px;
     line-height: 36px;
     letter-spacing: -0.4px;
     color: #6a6a6a;
   }
+}
+.text-gradient-development {
+  background-image: linear-gradient(177deg, #36f2b9 18.36%, #7878f9 105.51%);
+}
+.text-gradient-design {
+  background-image: linear-gradient(
+    179deg,
+    #36f2b9 -39.46%,
+    #7878f9 68.85%,
+    #f60994 126.03%
+  );
+}
+.text-gradient-strategy {
+  background-image: linear-gradient(181deg, #7878f9 -10.09%, #f60994 131.51%);
 }
 </style>

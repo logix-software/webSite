@@ -3,11 +3,6 @@
     <div class="container min-h-screen d-flex align-items-center py-5">
       <div class="row py-5">
         <div class="col-lg-4">
-          <g-image
-            src="~/assets/images/deco-square.svg"
-            class="modalContact__deco"
-            alt="decoration"
-          />
           <h1 class="modalContact__title">Contattaci</h1>
           <p class="modalContact__description mb-5">
             Qualunque sia la sfida saremo sempre felici 😃 di parlare con te.
@@ -15,20 +10,22 @@
           </p>
           <p class="modalContact__text">
             <span class="text-green-contact">Scrivici: </span>
-            <a href="mailto:info@logixcorp.it" class="text-white">info@logixcorp.it</a>
+            <a href="mailto:info@logixcorp.it" class="text-white"
+              >info@logixcorp.it</a
+            >
           </p>
           <p class="modalContact__text">
             <span class="text-green-contact">Chiamaci: </span>
             <a href="tel:+0744283733" class="text-white">0744/283733</a>
           </p>
           <p class="modalContact__text">
-            <span class="text-green-contact">Passa da noi:</span> Via di Porta San
-            Giovanni, 28 - 05100 Terni (TR)
+            <span class="text-green-contact">Passa da noi:</span> Via di Porta
+            San Giovanni, 28 - 05100 Terni (TR)
           </p>
         </div>
 
         <form
-          class="col-lg-8 pl-lg-5 d-flex align-items-center"
+          class="col-lg-8 px-5 d-flex align-items-center bg-custom-contact py-5"
           name="contact"
           method="post"
           v-on:submit.prevent="handleSubmit"
@@ -54,7 +51,7 @@
                 />
                 <span class="highlight"></span>
                 <span class="bar"></span>
-                <label>Name</label>
+                <label class="labelForm">Name</label>
               </div>
             </div>
             <div class="col-lg-6">
@@ -69,6 +66,7 @@
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label
+                  class="labelForm"
                   :class="{
                     'valid-email': fullInput,
                   }"
@@ -76,7 +74,7 @@
                 >
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-12">
               <div class="group">
                 <input
                   type="text"
@@ -86,10 +84,57 @@
                 />
                 <span class="highlight"></span>
                 <span class="bar"></span>
-                <label>Azienda (opzionale)</label>
+                <label class="labelForm">Azienda</label>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-12 group">
+              <span class="labelRadio mb-1 d-block">Ci contatti per</span>
+              <div class="button-radio">
+                <input
+                  name="contact-for"
+                  type="radio"
+                  id="radio1"
+                  value="Digital tranformation"
+                  v-model="formData.contactFor"
+                />
+                <label for="radio1">Digital transformation</label>
+
+                <input
+                  name="contact-for"
+                  type="radio"
+                  id="radio2"
+                  value="Sviluppo"
+                  v-model="formData.contactFor"
+                />
+                <label for="radio2">Sviluppo</label>
+
+                <input
+                  name="contact-for"
+                  type="radio"
+                  id="radio3"
+                  value="Design"
+                  v-model="formData.contactFor"
+                />
+                <label for="radio3">Design</label>
+                <input
+                  name="contact-for"
+                  type="radio"
+                  id="radio4"
+                  value="Collaborative"
+                  v-model="formData.contactFor"
+                />
+                <label for="radio4">Collaborative</label>
+                <input
+                  name="contact-for"
+                  type="radio"
+                  id="radio5"
+                  value="Posizione lavoro"
+                  v-model="formData.contactFor"
+                />
+                <label for="radio5">Posizione lavoro</label>
+              </div>
+            </div>
+            <!-- <div class="col-lg-6">
               <div class="group">
                 <select v-model="formData.reason" name="reason" required>
                   <option value="Ci contatti per">Ci contatti per</option>
@@ -100,8 +145,39 @@
                   <option value="Job">Posizione lavorativa</option>
                 </select>
               </div>
+            </div> -->
+            <div class="col-lg-12 group">
+              <span class="labelRadio mb-1 d-block">Hai un budget di</span>
+              <div class="button-radio">
+                <input
+                  name="Budget"
+                  type="radio"
+                  id="radio6"
+                  value="Meno di 30.000€"
+                  v-model="formData.budget"
+                />
+                <label for="radio6">Meno di 30.000€</label>
+
+                <input
+                  name="Budget"
+                  type="radio"
+                  id="radio7"
+                  value="30.000 - 70.000€"
+                  v-model="formData.budget"
+                />
+                <label for="radio7">30.000 - 70.000€</label>
+
+                <input
+                  name="Budget"
+                  type="radio"
+                  id="radio8"
+                  value="Più di 70.000€"
+                  v-model="formData.budget"
+                />
+                <label for="radio8">Più di 70.000€</label>
+              </div>
             </div>
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
               <div class="group">
                 <select v-model="formData.budget" name="budget">
                   <option value="Hai un budget di">Hai un budget di</option>
@@ -111,8 +187,47 @@
                   <option value="70+">più di 70.000€</option>
                 </select>
               </div>
+            </div> -->
+            <div class="col-lg-12 group">
+              <span class="labelRadio mb-1 d-block">Hai fissato una scadenza per</span>
+              <div class="button-radio">
+                <input
+                  name="expire"
+                  type="radio"
+                  id="radio9"
+                  value="Non lo so ancora"
+                  v-model="formData.expire"
+                />
+                <label for="radio9">Non lo so ancora</label>
+
+                <input
+                  name="expire"
+                  type="radio"
+                  id="radio10"
+                  value="3 mesi +"
+                  v-model="formData.expire"
+                />
+                <label for="radio10">3 mesi +</label>
+
+                <input
+                  name="expire"
+                  type="radio"
+                  id="radio11"
+                  value="6 mesi +"
+                  v-model="formData.expire"
+                />
+                <label for="radio11">6 mesi +</label>
+                <input
+                  name="expire"
+                  type="radio"
+                  id="radio12"
+                  value="12 mesi +"
+                  v-model="formData.expire"
+                />
+                <label for="radio12">12 mesi +</label>
+              </div>
             </div>
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
               <div class="group">
                 <select v-model="formData.deadline" name="deadline">
                   <option value="Hai fissato una scadenza per">
@@ -124,7 +239,7 @@
                   <option value="12+">12 mesi +</option>
                 </select>
               </div>
-            </div>
+            </div> -->
             <div class="col-lg-12">
               <div class="group">
                 <textarea
@@ -135,11 +250,14 @@
                 />
                 <span class="highlight"></span>
                 <span class="bar"></span>
-                <label>Messaggio</label>
+                <label class="labelForm">Messaggio</label>
               </div>
             </div>
             <div class="col-lg-12 text-right">
-              <button type="submit" class="btn btn-secondary">
+              <small v-if="errorForm" class="d-block mb-2"
+                >Compila tutti i dati in modo corretto</small
+              >
+              <button type="submit" class="btn btn-gradient-border text-white">
                 Invia messaggio
               </button>
             </div>
@@ -199,8 +317,13 @@ export default {
         reason: "Ci contatti per",
         budget: "Hai un budget di",
         deadline: "Hai fissato una scadenza per",
+        contactFor: "",
+        budget: "",
+        expire: "",
       },
       fullInput: false,
+
+      errorForm: false,
     };
   },
   mounted() {
@@ -238,32 +361,84 @@ export default {
         .join("&");
     },
     handleSubmit(e) {
-      gtag("event", "conversion", {
-        send_to: "AW-358917451/gN_YCOnc1MEDEMvKkqsB",
-      });
-
-      var _this = this;
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: this.encode({
-          "form-name": e.target.getAttribute("name"),
-          ...this.formData,
-        }),
-      })
-        .then(() => {
-          this.$router.push("/thank-you");
+      // gtag("event", "conversion", {
+      //   send_to: "AW-358917451/gN_YCOnc1MEDEMvKkqsB",
+      // });
+      if (
+        this.formData.contactFor &&
+        this.formData.budget &&
+        this.formData.expire
+      ) {
+        this.errorForm = false;
+        var _this = this;
+        fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: this.encode({
+            "form-name": e.target.getAttribute("name"),
+            ...this.formData,
+          }),
         })
-        .catch((error) => alert(error));
+          .then(() => {
+            this.$router.push("/thank-you");
+          })
+          .catch((error) => alert(error));
+      } else {
+        this.errorForm = true;
+      }
     },
   },
 };
 </script>
 
-<style>
+<style lang="postcss">
 .valid-email {
   top: -20px;
   font-size: 14px;
   color: #fff;
+}
+
+.button-radio input[type="radio"] {
+  display: none;
+}
+
+.button-radio label {
+  display: inline-block;
+  padding: 8px 26px;
+  margin: 5px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  opacity: 0.6;
+}
+.labelRadio {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.7px;
+
+  color: #ffffff;
+}
+.button-radio input[type="radio"]:checked + label {
+  opacity: 1;
+  font-size: 16px;
+}
+.button-radio input[type="radio"] + label {
+  font-size: 16px;
+}
+.button-radio input[required] + label {
+  font-size: 16px;
+}
+.bg-custom-contact {
+  background: linear-gradient(
+    177.7deg,
+    #3a3a3a 14.55%,
+    rgba(43, 43, 43, 0) 137.51%
+  );
+  border-radius: 5px;
 }
 </style>

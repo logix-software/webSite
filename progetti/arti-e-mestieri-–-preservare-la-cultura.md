@@ -11,6 +11,7 @@ descriptionClient: '"Arti e Mestieri" è un progetto che nasce dall’esigenza d
   digitalizzare, rendere accessibile e fruibile il patrimonio
   artistico-culturale e artigianale della provincia di Rieti.'
 imageList: /uploads/arti-mestieri_preview.png
+imageNoVideo: /uploads/arti-mestieri_preview.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
