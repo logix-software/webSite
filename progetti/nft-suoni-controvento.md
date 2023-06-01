@@ -1,7 +1,7 @@
 ---
 title: Suoni Controvento
 subTitle: NFT
-urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/suoni_video.mp4
+urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/SCV_Case Animation.mp4
 logoClient: /uploads/logo-fattoria-creativa.png
 abstract: NFT Suoni Controvento una nuova finestra sul mondo digital del Web3.
 descriptionLogo: Fattoria Creativa è una web agency che nasce a Perugia nel
