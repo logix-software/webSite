@@ -1,7 +1,8 @@
 ---
 title: SailingDAO
 subTitle: Community Web3.0
-urlVideo: https://drive.google.com/uc?export=view&id=1tjGDQkCSa9t6f-ydowTqf2Ap1D7V8C7k
+urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/SailingDAO_Case
+  Animation.mp4
 logoClient: /uploads/logo-sailingdao.png
 abstract: Community web3.0.
 descriptionLogo: Sailing DAO è una Startup che nasce nel 2022 dall’intuizione
