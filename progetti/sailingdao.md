@@ -29,7 +29,7 @@ image4Style: vertical
 image5: /uploads/sailingdao-5.png
 image5Style: vertical
 image6: /uploads/sailingdao-6.png
-image6Style: horizontal
+image6Style: vertical
 image7: /uploads/sailingdao-7.png
 image7Style: horizontal
 image8: ""
