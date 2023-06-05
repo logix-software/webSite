@@ -2,5 +2,5 @@
 name: Nicola
 position: "Frontend Developer "
 team: development
-image: /uploads/nicola-solazzo.jpg
+image: /uploads/nik_2.png
 ---
