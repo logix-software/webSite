@@ -14,8 +14,9 @@ Section1Abstract: Sviluppiamo web application e platform collaborando con il
 section1Link: Non offriamo solo risposte ma vantaggi concreti
 section1Image: /uploads/web.png
 toolsName: TOOL
-toolsBox1Abstract: Realizzata con una struttura tecnologica a livelli, la
-  tecnologia JEE facilita la creazione di modelli B2B e B2C.
+toolsBox1Abstract: Semplifica lo sviluppo di applicazioni complesse fornendo un
+  approccio strutturato e modulare alla progettazione ed implementazioni della
+  soluzione.
 toolsBox2Abstract: Linguaggio per lo scripting server-side, viene usato nello
   sviluppo web ed è supportato dalla maggior parte dei provider di hosting.
 toolsBox3Abstract: RFramework Web front-end open-source basato su JavaScript,
@@ -79,8 +80,8 @@ section4Abstract: Collaborando provider ed utilizzando migliori piattafome, ci
 title: Logix Software - Sviluppo Web & Mobile
 section1BgText: Web
 toolsAbstract: Gli strumenti, i framework ed i linguaggi che utilizziamo
-toolsBox1Icon: /uploads/java-white.svg
-toolsBox1Title: Java EE
+toolsBox1Icon: /uploads/springio.png
+toolsBox1Title: Java Spring
 toolsBox2Icon: /uploads/php-white.svg
 toolsBox2Title: PHP
 toolsBox3Icon: /uploads/angular-white.svg
