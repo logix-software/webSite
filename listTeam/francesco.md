@@ -1,7 +1,7 @@
 ---
 title: Francesco
 name: Francesco
-position: Jr. Developer
+position: Middle Developer
 team: development
 image: /uploads/img_6692.jpg
 ---
