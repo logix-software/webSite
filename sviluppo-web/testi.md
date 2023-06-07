@@ -15,8 +15,7 @@ section1Link: Non offriamo solo risposte ma vantaggi concreti
 section1Image: /uploads/web.png
 toolsName: TOOL
 toolsBox1Abstract: Semplifica lo sviluppo di applicazioni complesse fornendo un
-  approccio strutturato e modulare alla progettazione ed implementazioni della
-  soluzione.
+  approccio strutturato e modulare alla realizzazione della soluzione.
 toolsBox2Abstract: Linguaggio per lo scripting server-side, viene usato nello
   sviluppo web ed è supportato dalla maggior parte dei provider di hosting.
 toolsBox3Abstract: RFramework Web front-end open-source basato su JavaScript,
