@@ -66,7 +66,7 @@ team2Position6: ""
 team2Name6: ""
 titleTeam3: Strategy
 team3Position1: Digital Strategist
-team3Name1: Gianluca Ambrogio
+team3Name1: Marco Filetti
 team3Position2: ""
 team3Name2: ""
 team3Position3: ""
