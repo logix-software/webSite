@@ -80,7 +80,7 @@ section4Abstract: Collaborando provider ed utilizzando migliori piattafome, ci
 title: Logix Software - Sviluppo Web & Mobile
 section1BgText: Web
 toolsAbstract: Gli strumenti, i framework ed i linguaggi che utilizziamo
-toolsBox1Icon: /uploads/springio.png
+toolsBox1Icon: /uploads/springio-icon-01.png
 toolsBox1Title: Java Spring
 toolsBox2Icon: /uploads/php-white.svg
 toolsBox2Title: PHP
