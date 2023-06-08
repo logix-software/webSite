@@ -2,5 +2,5 @@
 name: Claudio
 position: "Frontend Developer "
 team: development
-image: /uploads/claudio-coco.jpg
+image: /uploads/claudio.png
 ---
