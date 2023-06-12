@@ -86,5 +86,6 @@ La dashboard include grafici e dati che consentono una comprensione immediata de
 Attraverso la sezione principale gli utenti possono accedere a diverse aree del sistema: view dedicata al personale con informazioni generali ed elenco operativi associati ai relativi task e veicoli; view dedicata ai mezzi, con report sullo stato degli stessi ed elenco con attivi associati ai relativi autisti e task; sezione dedicata alle commesse con dati che  indicano lo stato dei task ed i dettagli che li descrivono, compresi autisti e mezzi associati per ognuno di essi; area dedicata al profilo dell’utente amministrativo; sezione gestione delle notifiche; area relativa a report, statistiche e proiezioni.
 
 **Le tecnologie:**
+
 Upperflot è una Web App basata su Microservizi Java Spring Boot “dockerizzati”. Una piattaforma web avanzata capace di offrire flessibilità, scalabilità e affidabilità. L'interfaccia utente coinvolgente e reattiva di Upperflot è realizzata utilizzando il framework Nuxt.js, basato su Vue.js, questa combinazione offre un'esperienza utente intuitiva e prestazioni elevate.
 La sicurezza delle identità e degli accessi è garantita dall’utilizzo di Keycloak, un solido sistema di gestione delle identità, per assicurare una protezione completa dei dati e un controllo accurato degli accessi. 
