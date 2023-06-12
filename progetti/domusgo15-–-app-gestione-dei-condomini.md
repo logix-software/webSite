@@ -83,8 +83,7 @@ team3Name6: ""
 date: 1997-01-01T09:59:02.143Z
 ---
 Con DomusGo15 attraverso un unico accesso i diversi profili interessati dal servizio, quali: co-proprietari, inquilini in affitto, amministratori condomìnio, gestori attività, professionisti, enti e organizzazioni sono in grado di offrire e fruire di servizi dedicati ai singoli target di riferimento in un unico sistema integrato.
-L’intero processo creativo è stato curato in casa Logix: dalla progettazione, al design, fino allo sviluppo integrale del sistema, vale a dire un’app mobile per gli utenti condòmini ed una Web App per gli amministratori e i professionisti. 
-Lato backend è stata sfruttata un’architettura a micro-servizi. Per il front-end della Mobile App abbiamo utilizzato IONIC e Angular, mentre per la Web App Vue.JS.
+L’intero processo creativo è stato curato in casa Logix: dalla progettazione, al design, fino allo sviluppo integrale del sistema, vale a dire un’app mobile per gli utenti condòmini ed una Web App per gli amministratori e i professionisti.
 
 **Utenti e condòmini**
 
@@ -98,7 +97,7 @@ Web app riservata agli amministratori appartenenti al network per tutte le attiv
 
 Web app riservata ai professionisti convenzionati e verificati dagli amministratori di condominio e dal team DomusGo15 per promuovere ed offrire i propri servizi all’interno del network. I professionisti, selezionati sulla base di standard qualitativi elevati, devono essere preventivamente approvati dagli amministratori per poter operare all’interno della rete. L’utente-professionista, una volta registrato il suo account, può compilare la propria scheda profilo visibile ai condomìni, descrivere le proprie attività, approfondire i servizi offerti, proporre sconti e promozioni e fornire preventivi.
 
-**Tecnologie**
+**Le tecnologie**
 
 DomusGo15 è un innovativo sistema di applicativi basato su Microservizi Java Spring Boot, con una particolare enfasi sulla containerizzazione tramite Docker. Questo approccio consente di isolare e distribuire i microservizi in modo efficiente, garantendo un ambiente di esecuzione coeso e riproducibile. I microservizi, inoltre, danno la possibilità di sviluppare, testare e distribuire singolarmente i diversi componenti dell'applicazione, semplificando il processo di aggiornamento e manutenzione.
 Per garantire un'interfaccia utente di alta qualità, lato front-end, la Web App è stata sviluppata utilizzando il framework Nuxt.js, che si basa su Vue.js. La combinazione di questi strumenti è in grado di offrire una navigazione fluida e una visualizzazione ottimizzata dei contenuti.
