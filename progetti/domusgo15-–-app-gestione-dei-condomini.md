@@ -98,7 +98,7 @@ Web app riservata agli amministratori appartenenti al network per tutte le attiv
 
 Web app riservata ai professionisti convenzionati e verificati dagli amministratori di condominio e dal team DomusGo15 per promuovere ed offrire i propri servizi all’interno del network. I professionisti, selezionati sulla base di standard qualitativi elevati, devono essere preventivamente approvati dagli amministratori per poter operare all’interno della rete. L’utente-professionista, una volta registrato il suo account, può compilare la propria scheda profilo visibile ai condomìni, descrivere le proprie attività, approfondire i servizi offerti, proporre sconti e promozioni e fornire preventivi.
 
-**Professionisti**
+**Tecnologie**
 
 DomusGo15 è un innovativo sistema di applicativi basato su Microservizi Java Spring Boot, con una particolare enfasi sulla containerizzazione tramite Docker. Questo approccio consente di isolare e distribuire i microservizi in modo efficiente, garantendo un ambiente di esecuzione coeso e riproducibile. I microservizi, inoltre, danno la possibilità di sviluppare, testare e distribuire singolarmente i diversi componenti dell'applicazione, semplificando il processo di aggiornamento e manutenzione.
 Per garantire un'interfaccia utente di alta qualità, lato front-end, la Web App è stata sviluppata utilizzando il framework Nuxt.js, che si basa su Vue.js. La combinazione di questi strumenti è in grado di offrire una navigazione fluida e una visualizzazione ottimizzata dei contenuti.
