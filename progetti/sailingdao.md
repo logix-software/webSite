@@ -6,7 +6,7 @@ urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/SailingDAO_Case
 logoClient: /uploads/logo-sailingdao.png
 abstract: Community web3.0.
 descriptionLogo: SailingDAO è una Startup che nasce nel 2022 dall’intuizione dei
-  suoi co-founder; tecnici ed esperti nel settore IT, che impegnati ciascuno in
+  suoi founder; tecnici ed esperti nel settore IT, che impegnati ciascuno in
   ruoli diversi, ad oggi lavorano attivamente in prima persona per lo sviluppo
   del progetto.
 descriptionClient: Creare una grande comunità di esperti ed appassionati che
@@ -79,7 +79,7 @@ team3Position6: ""
 team3Name6: ""
 date: 2002-01-01T14:02:49.497Z
 ---
-In SailingDAO i titolari degli NFT avranno una serie di vantaggi nel club, sia nella vita reale IRL che online. 
+In SailingDAO i titolari degli NFT avranno una serie di vantaggi nel club, sia nella vita reale "IRL" che online. 
 Attraverso appositi canali, i membri hanno ad oggi, accesso a votazioni e discussioni riguardanti l’utilizzo delle risorse, l’organizzazione delle competenze e in generale alla crescita del progetto, elementi che caratterizzano il concetto di DAO stesso.
 
 **Cosa abbiamo fatto per SailingDAO:**
