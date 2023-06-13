@@ -37,27 +37,27 @@
                 'label--design': $page.project.label1 == 'DESIGN',
                 'label--strategist': $page.project.label1 == 'STRATEGIST',
               }"
-              v-if="$page.project.label1"
+              v-if="$page.project.label1 && $page.project.label1 !== ' '"
               >{{ $page.project.label1 }}</span
             >
             <span
               class="label label--design mx-1"
               :class="{
-                'label--development': $page.project.label1 == 'DEVELOPMENT',
-                'label--design': $page.project.label1 == 'DESIGN',
-                'label--strategist': $page.project.label1 == 'STRATEGIST',
+                'label--development': $page.project.label2 == 'DEVELOPMENT',
+                'label--design': $page.project.label2 == 'DESIGN',
+                'label--strategist': $page.project.label2 == 'STRATEGIST',
               }"
-              v-if="$page.project.label2"
+              v-if="$page.project.label2 && $page.project.label2 !== ' '"
               >{{ $page.project.label2 }}</span
             >
             <span
               class="label label--strategist"
               :class="{
-                'label--development': $page.project.label1 == 'DEVELOPMENT',
-                'label--design': $page.project.label1 == 'DESIGN',
-                'label--strategist': $page.project.label1 == 'STRATEGIST',
+                'label--development': $page.project.label3 == 'DEVELOPMENT',
+                'label--design': $page.project.label3 == 'DESIGN',
+                'label--strategist': $page.project.label3 == 'STRATEGIST',
               }"
-              v-if="$page.project.label3"
+              v-if="$page.project.label3 && $page.project.label3 !== ' '"
               >{{ $page.project.label3 }}</span
             >
           </div>

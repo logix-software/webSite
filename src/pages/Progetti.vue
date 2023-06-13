@@ -39,7 +39,7 @@
               :label2="project.node.label2"
               :label3="project.node.label3"
               :hashtags="project.node.hashtags"
-              class="mb-2"
+              class="mb-4"
               :variant="scrollTop > 200 ? 'white' : 'default'"
             ></app-project>
           </ParallaxElement>

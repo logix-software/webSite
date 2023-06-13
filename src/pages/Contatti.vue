@@ -152,29 +152,38 @@
                 <input
                   name="Budget"
                   type="radio"
-                  id="radio6"
-                  value="Meno di 30.000€"
-                  v-model="formData.budget"
-                />
-                <label for="radio6">Meno di 30.000€</label>
-
-                <input
-                  name="Budget"
-                  type="radio"
                   id="radio7"
-                  value="30.000 - 70.000€"
+                  value="Meno di 15.000€"
                   v-model="formData.budget"
                 />
-                <label for="radio7">30.000 - 70.000€</label>
+                <label for="radio7">Meno di 15.000€</label>
 
                 <input
                   name="Budget"
                   type="radio"
                   id="radio8"
+                  value="15.000 - 30.000€"
+                  v-model="formData.budget"
+                />
+                <label for="radio8">15.000 - 30.000€</label>
+
+                <input
+                  name="Budget"
+                  type="radio"
+                  id="radio9"
+                  value="30.000 - 70.000€"
+                  v-model="formData.budget"
+                />
+                <label for="radio9">30.000 - 70.000€</label>
+
+                <input
+                  name="Budget"
+                  type="radio"
+                  id="radio10"
                   value="Più di 70.000€"
                   v-model="formData.budget"
                 />
-                <label for="radio8">Più di 70.000€</label>
+                <label for="radio10">Più di 70.000€</label>
               </div>
             </div>
             <!-- <div class="col-lg-6">
@@ -189,42 +198,44 @@
               </div>
             </div> -->
             <div class="col-lg-12 group">
-              <span class="labelRadio mb-1 d-block">Hai fissato una scadenza per</span>
+              <span class="labelRadio mb-1 d-block"
+                >Hai fissato una scadenza per</span
+              >
               <div class="button-radio">
                 <input
                   name="expire"
                   type="radio"
-                  id="radio9"
+                  id="radio11"
                   value="Non lo so ancora"
                   v-model="formData.expire"
                 />
-                <label for="radio9">Non lo so ancora</label>
+                <label for="radio11">Non lo so ancora</label>
 
-                <input
-                  name="expire"
-                  type="radio"
-                  id="radio10"
-                  value="3 mesi +"
-                  v-model="formData.expire"
-                />
-                <label for="radio10">3 mesi +</label>
-
-                <input
-                  name="expire"
-                  type="radio"
-                  id="radio11"
-                  value="6 mesi +"
-                  v-model="formData.expire"
-                />
-                <label for="radio11">6 mesi +</label>
                 <input
                   name="expire"
                   type="radio"
                   id="radio12"
+                  value="3 mesi +"
+                  v-model="formData.expire"
+                />
+                <label for="radio12">3 mesi +</label>
+
+                <input
+                  name="expire"
+                  type="radio"
+                  id="radio13"
+                  value="6 mesi +"
+                  v-model="formData.expire"
+                />
+                <label for="radio13">6 mesi +</label>
+                <input
+                  name="expire"
+                  type="radio"
+                  id="radio14"
                   value="12 mesi +"
                   v-model="formData.expire"
                 />
-                <label for="radio12">12 mesi +</label>
+                <label for="radio14">12 mesi +</label>
               </div>
             </div>
             <!-- <div class="col-lg-6">
@@ -412,6 +423,9 @@ export default {
   border-radius: 6px;
   transition: background-color 0.3s ease;
   opacity: 0.6;
+  &:hover{
+    opacity: 0.75;
+  }
 }
 .labelRadio {
   font-family: "Lexend Deca";
@@ -420,8 +434,8 @@ export default {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: -0.7px;
-
   color: #ffffff;
+  
 }
 .button-radio input[type="radio"]:checked + label {
   opacity: 1;
