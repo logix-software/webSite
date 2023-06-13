@@ -16,27 +16,28 @@ section1Image: /uploads/web.png
 toolsName: TOOL
 toolsBox1Abstract: Semplifica lo sviluppo di applicazioni complesse fornendo un
   approccio strutturato e modulare alla realizzazione della soluzione.
-toolsBox2Abstract: Linguaggio per lo scripting server-side, viene usato nello
-  sviluppo web ed è supportato dalla maggior parte dei provider di hosting.
+toolsBox2Abstract: Progressive framework per la creazione delle interfacce
+  utente e delle single page application.
 toolsBox3Abstract: RFramework Web front-end open-source basato su JavaScript,
   utilizzato per lo sviluppo lato client.
-toolsBox4Abstract: Progressive framework per la creazione delle interfacce
-  utente e delle single page application.
-toolsBox5Abstract: Ambiente di runtime open source per lo sviluppo server-side,
+toolsBox4Abstract: >
+  Ambiente di esecuzione runtime consente di sfruttare un codice affidabile per
+  tutte le aree principali dello sviluppo di applicativi.
+toolsBox5Abstract: Linguaggio per lo scripting server-side, viene usato nello
+  sviluppo web ed è supportato dalla maggior parte dei provider di hosting.
+toolsBox6Abstract: Ambiente di runtime open source per lo sviluppo server-side,
   è leggero ed efficiente per applicazioni in tempo reale ed a alto flusso di
   dati.
-toolsBox6Abstract: Ambiente di esecuzione runtime consente di sfruttare un
-  codice affidabile per tutte le aree principali dello sviluppo di applicativi.
-toolsBox7Icon: /uploads/sql-white.svg
-toolsBox7Title: SQL
-toolsBox7Abstract: Linguaggio volto all’interrogazione di basi di dati
-  relazionali. Permette di definire la struttura di un DB e manipolare i dati
-  all’interno.
-toolsBox8Icon: /uploads/nosql-white.svg
-toolsBox8Title: No SQL
-toolsBox8Abstract: Linguaggio per la definizione di DB non relazionali,
+toolsBox7Icon: /uploads/nosql-white.svg
+toolsBox7Title: No SQL
+toolsBox7Abstract: Linguaggio per la definizione di DB non relazionali,
   realizzati per modelli di dati specifici con schemi flessibili, adatti alle
   applicazioni moderne.
+toolsBox8Icon: /uploads/sql-white.svg
+toolsBox8Title: SQL
+toolsBox8Abstract: Linguaggio volto all’interrogazione di basi di dati
+  relazionali. Permette di definire la struttura di un DB e manipolare i dati
+  all’interno.
 methodsBox1Title: Large-scale Distributed System
 section2Title: Mobile development
 Section2Abstract: Progettiamo e realizziamo app cross-platform attraverso
@@ -81,16 +82,16 @@ section1BgText: Web
 toolsAbstract: Gli strumenti, i framework ed i linguaggi che utilizziamo
 toolsBox1Icon: /uploads/springio-icon-02.png
 toolsBox1Title: Java Spring Boot
-toolsBox2Icon: /uploads/php-white.svg
-toolsBox2Title: PHP
+toolsBox2Icon: /uploads/vue-white.svg
+toolsBox2Title: Vue.js
 toolsBox3Icon: /uploads/angular-white.svg
 toolsBox3Title: Angular
-toolsBox4Icon: /uploads/vue-white.svg
-toolsBox4Title: Vue.js
-toolsBox5Icon: /uploads/node-white.svg
-toolsBox5Title: Node.js
-toolsBox6Icon: /uploads/dotnet-white.svg
-toolsBox6Title: .NET
+toolsBox4Icon: /uploads/dotnet-white.svg
+toolsBox4Title: .NET
+toolsBox5Icon: /uploads/php-white.svg
+toolsBox5Title: PHP
+toolsBox6Icon: /uploads/node-white.svg
+toolsBox6Title: Node.js
 integrationName: Includiamo
 integration1: API integration
 integration1Icon: /uploads/include.svg
