@@ -99,7 +99,7 @@
               <span class="labelRadio mb-1 d-block">Ci contatti per</span>
               <div class="button-radio">
                 <input
-                  name="contact-for"
+                  name="contactFor"
                   type="radio"
                   id="radio1"
                   value="Digital tranformation"
@@ -108,7 +108,7 @@
                 <label for="radio1">Digital transformation</label>
 
                 <input
-                  name="contact-for"
+                  name="contactFor"
                   type="radio"
                   id="radio2"
                   value="Sviluppo"
@@ -117,7 +117,7 @@
                 <label for="radio2">Sviluppo</label>
 
                 <input
-                  name="contact-for"
+                  name="contactFor"
                   type="radio"
                   id="radio3"
                   value="Design"
@@ -125,7 +125,7 @@
                 />
                 <label for="radio3">Design</label>
                 <input
-                  name="contact-for"
+                  name="contactFor"
                   type="radio"
                   id="radio4"
                   value="Collaborative"
@@ -133,7 +133,7 @@
                 />
                 <label for="radio4">Collaborative</label>
                 <input
-                  name="contact-for"
+                  name="contactFor"
                   type="radio"
                   id="radio5"
                   value="Posizione lavoro"
@@ -158,7 +158,7 @@
               <span class="labelRadio mb-1 d-block">Hai un budget di</span>
               <div class="button-radio">
                 <input
-                  name="Budget"
+                  name="budget"
                   type="radio"
                   id="radio7"
                   value="Meno di 15.000€"
@@ -167,7 +167,7 @@
                 <label for="radio7">Meno di 15.000€</label>
 
                 <input
-                  name="Budget"
+                  name="budget"
                   type="radio"
                   id="radio8"
                   value="15.000 - 30.000€"
@@ -176,7 +176,7 @@
                 <label for="radio8">15.000 - 30.000€</label>
 
                 <input
-                  name="Budget"
+                  name="budget"
                   type="radio"
                   id="radio9"
                   value="30.000 - 70.000€"
@@ -185,7 +185,7 @@
                 <label for="radio9">30.000 - 70.000€</label>
 
                 <input
-                  name="Budget"
+                  name="budget"
                   type="radio"
                   id="radio10"
                   value="Più di 70.000€"
@@ -194,17 +194,6 @@
                 <label for="radio10">Più di 70.000€</label>
               </div>
             </div>
-            <!-- <div class="col-lg-6">
-              <div class="group">
-                <select v-model="formData.budget" name="budget">
-                  <option value="Hai un budget di">Hai un budget di</option>
-                  <option value="Non lo so">Non lo so ancora</option>
-                  <option value="-30">meno di 30.000 €</option>
-                  <option value="30-70">tra 30.000€ - 70.000€</option>
-                  <option value="70+">più di 70.000€</option>
-                </select>
-              </div>
-            </div> -->
             <div class="col-lg-12 group">
               <span class="labelRadio mb-1 d-block"
                 >Hai fissato una scadenza per</span
@@ -333,7 +322,6 @@ export default {
   data() {
     return {
       formData: {
-        reason: "Ci contatti per",
         budget: "Hai un budget di",
         deadline: "Hai fissato una scadenza per",
         contactFor: "",
@@ -342,7 +330,6 @@ export default {
         param: "",
       },
       fullInput: false,
-
       errorForm: false,
     };
   },
