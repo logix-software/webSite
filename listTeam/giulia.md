@@ -3,5 +3,5 @@ name: Giulia
 position: UX/UI Designer
 team: design
 image: /uploads/giu.jpg
-date: 1993-01-01T09:59:02.143Z
+date: 2023-05-29T15:55:14.114Z
 ---
