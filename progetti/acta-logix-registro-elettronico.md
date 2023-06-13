@@ -24,7 +24,7 @@ imageList: /uploads/acta-logix_preview.png
 imageNoVideo: /uploads/hero-_-acta-logix.png
 label1: DEVELOPMENT
 label2: DESIGN
-label3: " "
+label3: " STRATEGIST"
 hashtags: "#PLATFORM #WEB #WEBAPPLICATION #CLOUD #SCUOLA2.0 #OPENSOURCE #DIGITAL"
 image1: /uploads/acta-logix.png
 image1Style: vertical
