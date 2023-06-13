@@ -16,8 +16,8 @@ toolsBox2Abstract: Facciamo ricerca per comprendere chi sono gli utenti, dal
   ed in quale punto si sentono frustrati e confusi, o dove avrebbero bisogno di
   essere rassicurati.
 toolsBox3Abstract: Analizziamo le scelte, le strategie ed i prodotti degli altri
-  operatori del settore. Cerchiamo di comprendere quali siano i puntidi forza,
-  che gratificano l’utente; e quelli di debolezza, che andrebbero evitati e
+  operatori del settore. Cerchiamo di comprendere quali siano i punti di forza,
+  che gratificano l’utente e quelli di debolezza, che andrebbero evitati e
   migliorati.
 section2Title: UX Strategy
 section2Link: link
