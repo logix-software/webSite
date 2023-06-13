@@ -40,6 +40,14 @@
               <input name="bot-field" />
             </label>
           </p>
+
+          <input
+            type="hidden"
+            id="param"
+            name="param"
+            :value="formData.param"
+          />
+
           <div class="row">
             <div class="col-lg-6">
               <div class="group">
@@ -331,6 +339,7 @@ export default {
         contactFor: "",
         budget: "",
         expire: "",
+        param: "",
       },
       fullInput: false,
 
@@ -355,6 +364,9 @@ export default {
     `);
     script.appendChild(fun);
     document.body.appendChild(script);
+    if (localStorage.getItem("param")) {
+      this.formData.param = localStorage.getItem("param");
+    }
   },
   methods: {
     onInputEmail() {
@@ -423,7 +435,7 @@ export default {
   border-radius: 6px;
   transition: background-color 0.3s ease;
   opacity: 0.6;
-  &:hover{
+  &:hover {
     opacity: 0.75;
   }
 }
@@ -435,7 +447,6 @@ export default {
   line-height: 22px;
   letter-spacing: -0.7px;
   color: #ffffff;
-  
 }
 .button-radio input[type="radio"]:checked + label {
   opacity: 1;

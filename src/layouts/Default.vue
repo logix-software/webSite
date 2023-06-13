@@ -28,6 +28,11 @@ export default {
   //     formSent: false,
   //   };
   // },
+  mounted() {
+    if (Object.keys(this.$route.query).length !== 0) {
+      localStorage.setItem("param", this.$route.fullPath);
+    }
+  },
   // methods: {
   //   encode(data) {
   //     return Object.keys(data)
@@ -343,7 +348,7 @@ h6 {
     background: linear-gradient(102.23deg, #36f2b9 -39.46%, #7878f9 30.96%);
   }
   &--operation {
-    background: #F9B35F;
+    background: #f9b35f;
   }
   &--strategist {
     background: linear-gradient(
@@ -544,7 +549,12 @@ h6 {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  background-image: linear-gradient(99.97deg, #36F2B9 7.48%, #7878F9 42.43%, #F60994 89.62%);
+  background-image: linear-gradient(
+    99.97deg,
+    #36f2b9 7.48%,
+    #7878f9 42.43%,
+    #f60994 89.62%
+  );
 }
 .text-gradient-design {
   padding-right: 2px;
@@ -570,7 +580,11 @@ h6 {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  background-image: linear-gradient(103.38deg, #7878f9 -10.09%, #f60994 131.51%);
+  background-image: linear-gradient(
+    103.38deg,
+    #7878f9 -10.09%,
+    #f60994 131.51%
+  );
 }
 .bg-gray-dark {
   background-color: #141414;

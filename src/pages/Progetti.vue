@@ -149,6 +149,10 @@ export default {
     window.addEventListener("scroll", function () {
       _this.scrollTop = window.pageYOffset;
     });
+
+    if (Object.keys(this.$route.query).length !== 0) {
+      localStorage.setItem("param", this.$route.fullPath);
+    }
   },
   methods: {
     getClassWidth(index) {
