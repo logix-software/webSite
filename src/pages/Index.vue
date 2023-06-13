@@ -23,7 +23,9 @@
                 alt="dev"
               />
               <g-image
-                src="~/assets/images/deco-strategist.png"
+              :src="
+                  require(`~/assets/images/deco-strategist-${randomNumberStrategist}.png`)
+                "
                 class="heroHome__decoStrategist mouse-effect3"
                 alt="dev"
               />
@@ -487,6 +489,7 @@ export default {
       isIntersectingElement: false,
       randomNumberDeveloper: this.getRandomNumberDeveloper(),
       randomNumberDesigner: this.getRandomNumberDesigner(),
+      randomNumberStrategist: this.getRandomNumberStrategist(),
     };
   },
   mounted() {
@@ -586,6 +589,9 @@ export default {
     setInterval(() => {
       this.randomNumberDeveloper = this.getRandomNumberDeveloper();
     }, 1500);
+    setInterval(() => {
+      this.randomNumberStrategist = this.getRandomNumberStrategist();
+    }, 3000);
   },
   methods: {
     getRandomNumberDeveloper() {
@@ -593,6 +599,9 @@ export default {
     },
     getRandomNumberDesigner() {
       return Math.floor(Math.random() * 3) + 1;
+    },
+    getRandomNumberStrategist() {
+      return Math.floor(Math.random() * 4) + 1;
     },
     onIntersectionElement(value) {
       this.isIntersectingElement = value;
