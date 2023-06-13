@@ -68,7 +68,7 @@ section3Image: /uploads/cloud.png
 section4Title: Cloud
 section4Image: /uploads/devops.png
 logo1: /uploads/ovh.svg
-logo2: /uploads/google-clouds.png
+logo2: /uploads/google-clouds_white.png
 logo3: /uploads/oracle.svg
 logo4: /uploads/mysql.svg
 logo5: /uploads/mongodb.svg
