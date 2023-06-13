@@ -43,8 +43,8 @@ team1Position1: Chief Technology Officier
 team1Name1: Alessandro Cirocchi
 team1Position2: Frontend Developer
 team1Name2: Luca Spezzano
-team1Position3: Backend developer
-team1Name3: Simone Proietti
+team1Position3: Software & System Architect
+team1Name3: Massimiliano Fiori
 team1Position4: Frontend Developer
 team1Name4: Claudio Coco
 team1Position5: Frontend Developer
