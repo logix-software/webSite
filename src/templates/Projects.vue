@@ -7,6 +7,7 @@
         loop
         playsinline
         id="myVideo"
+        :poster="$page.project.imageNoVideo"
         v-if="$page.project.urlVideo && $page.project.urlVideo !== ' '"
       >
         <source :src="$page.project.urlVideo" type="video/mp4" />
