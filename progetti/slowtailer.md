@@ -97,6 +97,4 @@ Chi effettua l’ordinazione ha la possibilità di pagare direttamente online at
 
 **Le spedizioni:**
 
-Le spedizioni sono garantite sia sul territorio nazionale che internazionale e sono effettuate dai maggiori corrieri nazionali con i quali Slowtailer ha stipulato convenzioni ad hoc. Le spedizioni vengono effettuate attraverso la rete di corrieri professionisti, l’infrastruttura informatica che coordina le risorse ha il vantaggio di garantire una gestione efficiente dei costi e delle tempistiche. 
-
-Dai uno sguardo al nostro progetto: [SLOWTAILER](https://www.slowtailer.com/)
+Le spedizioni sono garantite sia sul territorio nazionale che internazionale e sono effettuate dai maggiori corrieri nazionali con i quali Slowtailer ha stipulato convenzioni ad hoc. Le spedizioni vengono effettuate attraverso la rete di corrieri professionisti, l’infrastruttura informatica che coordina le risorse ha il vantaggio di garantire una gestione efficiente dei costi e delle tempistiche.
