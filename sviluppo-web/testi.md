@@ -80,7 +80,7 @@ title: Logix Software - Sviluppo Web & Mobile
 section1BgText: Web
 toolsAbstract: Gli strumenti, i framework ed i linguaggi che utilizziamo
 toolsBox1Icon: /uploads/springio-icon-02.png
-toolsBox1Title: Java Spring
+toolsBox1Title: Java Spring Boot
 toolsBox2Icon: /uploads/php-white.svg
 toolsBox2Title: PHP
 toolsBox3Icon: /uploads/angular-white.svg
