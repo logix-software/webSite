@@ -206,10 +206,9 @@ export default {
 
     window.addEventListener("resize", () => {
       this.widthScreen = screen.width;
-      console.log(this.widthScreen)
     });
   },
-   beforeDestroy() { // for Vue 2.x
+   beforeDestroy() { 
     window.removeEventListener('resize', null);
   },
   methods: {
