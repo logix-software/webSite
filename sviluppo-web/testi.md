@@ -47,9 +47,9 @@ Section2Abstract: Progettiamo e realizziamo app cross-platform attraverso
 section2Link: Riduzione dei costi
 section2Image: /uploads/mobile.png
 tools2Name: TOOL
-tools2Box2Abstract: Framework open-source, basato su Cordova, per Cross Platform
-  Mobile App, che permette di sviluppare in un unica codebase diminuendo i
-  tempi.
+tools2Box2Abstract: Framework open-source, basato su Capacitor, per Cross
+  Platform Mobile App, che permette di sviluppare in un unica codebase
+  diminuendo i tempi.
 tools2Box3Abstract: Framework open-source per la creazione di mobile app,
   combinando native development con React, risparmiando su tempi e costi.
 tools2Box4Abstract: Sviluppiamo applicazioni web con funzionalità simili ad app
