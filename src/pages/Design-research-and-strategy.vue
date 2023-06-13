@@ -431,41 +431,39 @@ import ParallaxElement from "~/components/ParallaxElement.vue";
 import ParallaxContainer from "~/components/ParallaxContainer.vue";
 
 export default {
-  // inizio
-  // metaInfo: {
-  //   title: "Design - Logix Software",
-  //   meta: [
-  //     { name: "description", content: "Attraverso i nostri servizi di design, permettiamo ad aziende ed istituzione di ideare esperienze digitali pensate per gli utenti finali e sviluppate sulla base di ricerche ed analisi concrete." },
-  //     { property: "og:title", content: "Design - Logix Software" },
-  //     {
-  //       property: "og:description",
-  //       content: "Attraverso i nostri servizi di design, permettiamo ad aziende ed istituzione di ideare esperienze digitali pensate per gli utenti finali e sviluppate sulla base di ricerche ed analisi concrete."
-  //     },
-  //     {
-  //       property: "og:image",
-  //       content: "https://www.logix-software.it/uploads/share.jpg"
-  //     },
-  //     {
-  //       property: "twitter:card",
-  //       content: "summary"
-  //     },
-  //     {
-  //       property: "twitter:title",
-  //       content: "Design - Logix Software"
-  //     },
-  //     {
-  //       property: "twitter:description",
-  //       content: "Attraverso i nostri servizi di design, permettiamo ad aziende ed istituzione di ideare esperienze digitali pensate per gli utenti finali e sviluppate sulla base di ricerche ed analisi concrete."
-  //     },
-  //     {
-  //       property: "twitter:image",
-  //       content: "https://www.logix-software.it/uploads/share.jpg"
-  //     },
-  //     { property: "og:url", content: "https://www.logix-software.it/design-research-and-strategy" },
-  //     { name: "robots", content: "index, follow" }
-  //   ]
-  // },
-  // fine
+  metaInfo: {
+    title: "Design - Logix Software",
+    meta: [
+      { name: "description", content: "Attraverso i nostri servizi di design, permettiamo ad aziende ed istituzione di ideare esperienze digitali pensate per gli utenti finali e sviluppate sulla base di ricerche ed analisi concrete." },
+      { property: "og:title", content: "Design - Logix Software" },
+      {
+        property: "og:description",
+        content: "Attraverso i nostri servizi di design, permettiamo ad aziende ed istituzione di ideare esperienze digitali pensate per gli utenti finali e sviluppate sulla base di ricerche ed analisi concrete."
+      },
+      {
+        property: "og:image",
+        content: "https://www.logix-software.it/uploads/share.jpg"
+      },
+      {
+        property: "twitter:card",
+        content: "summary"
+      },
+      {
+        property: "twitter:title",
+        content: "Design - Logix Software"
+      },
+      {
+        property: "twitter:description",
+        content: "Attraverso i nostri servizi di design, permettiamo ad aziende ed istituzione di ideare esperienze digitali pensate per gli utenti finali e sviluppate sulla base di ricerche ed analisi concrete."
+      },
+      {
+        property: "twitter:image",
+        content: "https://www.logix-software.it/uploads/share.jpg"
+      },
+      { property: "og:url", content: "https://www.logix-software.it/design-research-and-strategy" },
+      { name: "robots", content: "index, follow" }
+    ]
+  },
   components: {
     AppProject,
     LetsTalk,

@@ -509,41 +509,39 @@ import ParallaxElement from "~/components/ParallaxElement.vue";
 import ParallaxContainer from "~/components/ParallaxContainer.vue";
 
 export default {
-  // inizio
-  // metaInfo: {
-  //   title: "Sviluppo web e mobile - Logix Software",
-  //   meta: [
-  //     { name: "description", content: "Ci occupiamo di sviluppare prodotti digitali, focalizzandosi su System integration, IoT, piattaforme cloud, web e mobile app, offrendo soluzioni cross platform o native, per istituzioni ed aziende." },
-  //     { property: "og:title", content: "Sviluppo web e mobile - Logix Software" },
-  //     {
-  //       property: "og:description",
-  //       content: "Ci occupiamo di sviluppare prodotti digitali, focalizzandosi su System integration, IoT, piattaforme cloud, web e mobile app, offrendo soluzioni cross platform o native, per istituzioni ed aziende."
-  //     },
-  //     {
-  //       property: "og:image",
-  //       content: "https://www.logix-software.it/uploads/share.jpg"
-  //     },
-  //     {
-  //       property: "twitter:card",
-  //       content: "summary"
-  //     },
-  //     {
-  //       property: "twitter:title",
-  //       content: "Sviluppo web e mobile - Logix Software"
-  //     },
-  //     {
-  //       property: "twitter:description",
-  //       content: "Ci occupiamo di sviluppare prodotti digitali, focalizzandosi su System integration, IoT, piattaforme cloud, web e mobile app, offrendo soluzioni cross platform o native, per istituzioni ed aziende."
-  //     },
-  //     {
-  //       property: "twitter:image",
-  //       content: "https://www.logix-software.it/uploads/share.jpg"
-  //     },
-  //     { property: "og:url", content: "https://www.logix-software.it/sviluppo-web-and-mobile" },
-  //     { name: "robots", content: "index, follow" }
-  //   ]
-  // },
-  // fine
+  metaInfo: {
+    title: "Sviluppo web e mobile - Logix Software",
+    meta: [
+      { name: "description", content: "Ci occupiamo di sviluppare prodotti digitali, focalizzandosi su System integration, IoT, piattaforme cloud, web e mobile app, offrendo soluzioni cross platform o native, per istituzioni ed aziende." },
+      { property: "og:title", content: "Sviluppo web e mobile - Logix Software" },
+      {
+        property: "og:description",
+        content: "Ci occupiamo di sviluppare prodotti digitali, focalizzandosi su System integration, IoT, piattaforme cloud, web e mobile app, offrendo soluzioni cross platform o native, per istituzioni ed aziende."
+      },
+      {
+        property: "og:image",
+        content: "https://www.logix-software.it/uploads/share.jpg"
+      },
+      {
+        property: "twitter:card",
+        content: "summary"
+      },
+      {
+        property: "twitter:title",
+        content: "Sviluppo web e mobile - Logix Software"
+      },
+      {
+        property: "twitter:description",
+        content: "Ci occupiamo di sviluppare prodotti digitali, focalizzandosi su System integration, IoT, piattaforme cloud, web e mobile app, offrendo soluzioni cross platform o native, per istituzioni ed aziende."
+      },
+      {
+        property: "twitter:image",
+        content: "https://www.logix-software.it/uploads/share.jpg"
+      },
+      { property: "og:url", content: "https://www.logix-software.it/sviluppo-web-and-mobile" },
+      { name: "robots", content: "index, follow" }
+    ]
+  },
   components: {
     AppProject,
     LetsTalk,

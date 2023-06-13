@@ -1483,47 +1483,45 @@ import ParallaxElement from "~/components/ParallaxElement.vue";
 import ParallaxContainer from "~/components/ParallaxContainer.vue";
 
 export default {
-  // inizio
-  // metaInfo: {
-  //   title: "Competenze - Logix Software",
-  //   meta: [
-  //     {
-  //       name: "description",
-  //       content:
-  //         "In Logix Software accompagniamo le aziende pubbliche e private nella loro forma digitale, progettando e sviluppando soluzioni web e mobile, pensate per gli utenti, attraverso metodologia agile, lungo un percorso consolidato."
-  //     },
-  //     { property: "og:title", content: "Competenze - Logix Software" },
-  //     {
-  //       property: "og:description",
-  //       content:
-  //         "In Logix Software accompagniamo le aziende pubbliche e private nella loro forma digitale, progettando e sviluppando soluzioni web e mobile, pensate per gli utenti, attraverso metodologia agile, lungo un percorso consolidato."
-  //     },
-  //     {
-  //       property: "og:image",
-  //       content: "https://www.logix-software.it/uploads/share.jpg"
-  //     },
-  //     {
-  //       property: "twitter:card",
-  //       content: "summary"
-  //     },
-  //     {
-  //       property: "twitter:title",
-  //       content: "Competenze - Logix Software"
-  //     },
-  //     {
-  //       property: "twitter:description",
-  //       content:
-  //         "In Logix Software accompagniamo le aziende pubbliche e private nella loro forma digitale, progettando e sviluppando soluzioni web e mobile, pensate per gli utenti, attraverso metodologia agile, lungo un percorso consolidato."
-  //     },
-  //     {
-  //       property: "twitter:image",
-  //       content: "https://www.logix-software.it/uploads/share.jpg"
-  //     },
-  //     { property: "og:url", content: "https://www.logix-software.it/competenze" },
-  //     { name: "robots", content: "index, follow" }
-  //   ]
-  // },
-  // fine
+  metaInfo: {
+    title: "Competenze - Logix Software",
+    meta: [
+      {
+        name: "description",
+        content:
+          "In Logix Software accompagniamo le aziende pubbliche e private nella loro forma digitale, progettando e sviluppando soluzioni web e mobile, pensate per gli utenti, attraverso metodologia agile, lungo un percorso consolidato."
+      },
+      { property: "og:title", content: "Competenze - Logix Software" },
+      {
+        property: "og:description",
+        content:
+          "In Logix Software accompagniamo le aziende pubbliche e private nella loro forma digitale, progettando e sviluppando soluzioni web e mobile, pensate per gli utenti, attraverso metodologia agile, lungo un percorso consolidato."
+      },
+      {
+        property: "og:image",
+        content: "https://www.logix-software.it/uploads/share.jpg"
+      },
+      {
+        property: "twitter:card",
+        content: "summary"
+      },
+      {
+        property: "twitter:title",
+        content: "Competenze - Logix Software"
+      },
+      {
+        property: "twitter:description",
+        content:
+          "In Logix Software accompagniamo le aziende pubbliche e private nella loro forma digitale, progettando e sviluppando soluzioni web e mobile, pensate per gli utenti, attraverso metodologia agile, lungo un percorso consolidato."
+      },
+      {
+        property: "twitter:image",
+        content: "https://www.logix-software.it/uploads/share.jpg"
+      },
+      { property: "og:url", content: "https://www.logix-software.it/competenze" },
+      { name: "robots", content: "index, follow" }
+    ]
+  },
   components: {
     AppProject,
     LetsTalk,

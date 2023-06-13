@@ -85,47 +85,45 @@ import Footer from "~/components/Footer.vue";
 import LetsTalk from "~/components/LetsTalk.vue";
 
 export default {
-  // inizio
-  // metaInfo: {
-  //   title: "Progetti - Logix Software",
-  //   meta: [
-  //     {
-  //       name: "description",
-  //       content:
-  //         "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
-  //     },
-  //     { property: "og:title", content: "Progetti - Logix Software" },
-  //     {
-  //       property: "og:description",
-  //       content:
-  //         "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
-  //     },
-  //     {
-  //       property: "og:image",
-  //       content: "https://www.logix-software.it/uploads/share.jpg",
-  //     },
-  //     {
-  //       property: "twitter:card",
-  //       content: "summary",
-  //     },
-  //     {
-  //       property: "twitter:title",
-  //       content: "Progetti - Logix Software",
-  //     },
-  //     {
-  //       property: "twitter:description",
-  //       content:
-  //         "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
-  //     },
-  //     {
-  //       property: "twitter:image",
-  //       content: "https://www.logix-software.it/uploads/share.jpg",
-  //     },
-  //     { property: "og:url", content: "https://www.logix-software.it/progetti" },
-  //     { name: "robots", content: "index, follow" },
-  //   ],
-  // },
-  // fine
+  metaInfo: {
+    title: "Progetti - Logix Software",
+    meta: [
+      {
+        name: "description",
+        content:
+          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
+      },
+      { property: "og:title", content: "Progetti - Logix Software" },
+      {
+        property: "og:description",
+        content:
+          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
+      },
+      {
+        property: "og:image",
+        content: "https://www.logix-software.it/uploads/share.jpg",
+      },
+      {
+        property: "twitter:card",
+        content: "summary",
+      },
+      {
+        property: "twitter:title",
+        content: "Progetti - Logix Software",
+      },
+      {
+        property: "twitter:description",
+        content:
+          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
+      },
+      {
+        property: "twitter:image",
+        content: "https://www.logix-software.it/uploads/share.jpg",
+      },
+      { property: "og:url", content: "https://www.logix-software.it/progetti" },
+      { name: "robots", content: "index, follow" },
+    ],
+  },
   components: {
     Navbar,
     Footer,
@@ -140,9 +138,6 @@ export default {
       widthScreen: null,
     };
   },
-  // metaInfo: {
-  //   title: "My blog"
-  // },
   mounted() {
     var _this = this;
     this.widthScreen = screen.width;

@@ -1,9 +1,7 @@
 module.exports = {
-  // inizio
-  // siteName: 'Logix Software',
-  // titleTemplate: (title) => title ? `${title} - %s` : '%s',
-  // siteUrl: 'https://www.logix-software.it/',
-  // fine
+  siteName: 'Logix Software',
+  titleTemplate: (title) => title ? `${title} - %s` : '%s',
+  siteUrl: 'https://www.logix-software.it/',
   plugins: [
 
     // {
@@ -186,49 +184,47 @@ module.exports = {
         }
       }
     },
-    // inizio
-    // {
-    //   use: '@gridsome/plugin-sitemap',
-    //   options: {
-    //     cacheTime: 600000, // default
-    //     // exclude: ['/exclude-me'],
-    //     config: {
-    //       '/chi-siamo/': {
-    //         changefreq: 'monthly',
-    //         priority: 0.5
-    //       },
-    //       '/collaborative-team/': {
-    //         changefreq: 'monthly',
-    //         priority: 0.7
-    //       },
-    //       '/design-research-and-strategy/': {
-    //         changefreq: 'monthly',
-    //         priority: 0.7
-    //       },
-    //       '/sviluppo-web-and-mobile/': {
-    //         changefreq: 'monthly',
-    //         priority: 0.7
-    //       },
-    //       '/digital-transformation/': {
-    //         changefreq: 'monthly',
-    //         priority: 0.7
-    //       },
-    //       '/proggetti/*': {
-    //         changefreq: 'monthly',
-    //         priority: 0.8
-    //       },
-    //       '/competenze': {
-    //         changefreq: 'weekly',
-    //         priority: 0.9
-    //       },
-    //       '/': {
-    //         changefreq: 'weekly',
-    //         priority: 1.0
-    //       }
-    //     }
-    //   }
-    // },
-    // fine
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+        // exclude: ['/exclude-me'],
+        config: {
+          '/chi-siamo/': {
+            changefreq: 'monthly',
+            priority: 0.5
+          },
+          '/collaborative-team/': {
+            changefreq: 'monthly',
+            priority: 0.7
+          },
+          '/design-research-and-strategy/': {
+            changefreq: 'monthly',
+            priority: 0.7
+          },
+          '/sviluppo-web-and-mobile/': {
+            changefreq: 'monthly',
+            priority: 0.7
+          },
+          '/digital-transformation/': {
+            changefreq: 'monthly',
+            priority: 0.7
+          },
+          '/proggetti/*': {
+            changefreq: 'monthly',
+            priority: 0.8
+          },
+          '/competenze': {
+            changefreq: 'weekly',
+            priority: 0.9
+          },
+          '/': {
+            changefreq: 'weekly',
+            priority: 1.0
+          }
+        }
+      }
+    },
   ],
   transformers: {
     remark: {
