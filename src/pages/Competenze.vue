@@ -1744,7 +1744,7 @@ export default {
     border-radius: 50%;
     position: absolute;
     left: -11px;
-    top: -12px;
+    top: -11px;
     cursor: pointer;
     pointer-events: all;
   }
