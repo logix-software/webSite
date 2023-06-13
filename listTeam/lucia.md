@@ -4,5 +4,5 @@ name: Lucia
 position: Office Manager
 team: operation
 image: /uploads/img_6593.jpg
-date: 1993-01-01T09:59:02.143Z
+date: 2023-06-02T15:53:30.796Z
 ---
