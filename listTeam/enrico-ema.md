@@ -3,5 +3,5 @@ name: Enrico
 position: Software Engineer
 team: development
 image: /uploads/enrico-emanuele.jpg
-date: 1993-01-01T09:59:02.143Z
+date: 2023-06-09T15:47:42.528Z
 ---
