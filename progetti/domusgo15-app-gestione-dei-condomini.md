@@ -102,4 +102,4 @@ Web app riservata ai professionisti convenzionati e verificati dagli amministrat
 DomusGo15 è un sistema di applicativi basato su Microservizi Java Spring Boot, con una particolare enfasi sulla containerizzazione tramite Docker. Questo approccio consente di isolare e distribuire i microservizi, garantendo un ambiente di esecuzione coeso e riproducibile.
 Lato front-end, la Web App è stata sviluppata utilizzando il framework Nuxt.js, che si basa su Vue.js. 
 La gestione unificata di identità e accessi è gestita attraverso il sistema Keycloak. 
-Per quanto riguarda la componente Mobile è stata sviluppata una progressive web app utilizzando i framework Angular e IONIC. Il primo è un framework JavaScript sviluppato da Google che semplifica la creazione di applicazioni web complesse, il secondo consente di creare app ibride e PWA utilizzando tecnologie web come HTML, CSS e JavaScript.
+Per quanto riguarda il front-end della Mobile App, invece, sono stati utilizzati i framework IONIC e Angular.
