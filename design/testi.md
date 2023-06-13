@@ -1,7 +1,7 @@
 ---
 headerTitle: Design research & strategy
 section1Title: UX Research
-Section1Abstract: Quando è troppo lontani dagli utenti, è necessario fare
+Section1Abstract: Quando si è troppo lontani dagli utenti, è necessario fare
   ricerca, analizzare l’esperienza di utilizzo, raccogliere ed elaborare i dati
   trasformandoli in informazioni. Un processo utile per comprendere cosa davvero
   desiderano gli utenti e cosa è necessario fare per accontentarli.
