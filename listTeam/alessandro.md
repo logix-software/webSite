@@ -4,5 +4,5 @@ name: Alessandro
 position: Chief Technology Officer
 team: development
 image: /uploads/img_6626.jpg
-date: 1993-01-01T09:59:02.143Z
+date: 2023-06-13T08:59:02.143Z
 ---
