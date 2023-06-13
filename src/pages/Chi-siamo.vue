@@ -234,7 +234,7 @@ query {
       }
     }
   },
-  listTeam: allListTeam {
+  listTeam: allListTeam(order: DESC) {
     edges {
       node {
         id
@@ -242,6 +242,7 @@ query {
         position
         team
         image
+        date
       }
     }
   },

@@ -675,6 +675,7 @@ collections:
       - { label: "Position", name: "position", widget: "string" }
       - { label: "Team", name: "team", widget: "string" }
       - { label: "image", name: "image", widget: "image" }
+      - { label: "Date", name: "date", widget: "datetime" }
   - name: "listTech"
     label: "Lista tecnologie"
     folder: "listTech"
