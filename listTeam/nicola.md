@@ -3,5 +3,5 @@ name: Nicola
 position: "Frontend Developer "
 team: development
 image: /uploads/nik_2.png
-date: 1993-01-01T09:59:02.143Z
+date: 2023-06-01T15:53:52.230Z
 ---
