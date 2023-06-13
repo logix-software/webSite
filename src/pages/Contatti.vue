@@ -142,18 +142,6 @@
                 <label for="radio5">Posizione lavoro</label>
               </div>
             </div>
-            <!-- <div class="col-lg-6">
-              <div class="group">
-                <select v-model="formData.reason" name="reason" required>
-                  <option value="Ci contatti per">Ci contatti per</option>
-                  <option value="Digital">Digital tranformation</option>
-                  <option value="Development">Sviluppo</option>
-                  <option value="Design">Design</option>
-                  <option value="Collaborative">Collaborative Team</option>
-                  <option value="Job">Posizione lavorativa</option>
-                </select>
-              </div>
-            </div> -->
             <div class="col-lg-12 group">
               <span class="labelRadio mb-1 d-block">Hai un budget di</span>
               <div class="button-radio">
@@ -235,19 +223,6 @@
                 <label for="radio14">12 mesi +</label>
               </div>
             </div>
-            <!-- <div class="col-lg-6">
-              <div class="group">
-                <select v-model="formData.deadline" name="deadline">
-                  <option value="Hai fissato una scadenza per">
-                    Hai fissato una scadenza per
-                  </option>
-                  <option value="Non lo so">Non lo so ancora</option>
-                  <option value="3+">3 mesi +</option>
-                  <option value="6+">6 mesi +</option>
-                  <option value="12+">12 mesi +</option>
-                </select>
-              </div>
-            </div> -->
             <div class="col-lg-12">
               <div class="group">
                 <textarea
@@ -262,9 +237,9 @@
               </div>
             </div>
             <div class="col-lg-12 text-right">
-              <small v-if="errorForm" class="d-block mb-2"
-                >Compila tutti i dati in modo corretto</small
-              >
+              <small v-if="errorForm" class="d-block mb-2">
+                Compila tutti i campi per inviare il messaggio
+                </small>
               <button type="submit" class="btn btn-gradient-border text-white">
                 Invia messaggio
               </button>
