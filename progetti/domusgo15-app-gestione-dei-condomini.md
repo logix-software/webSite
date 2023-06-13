@@ -99,7 +99,7 @@ Web app riservata ai professionisti convenzionati e verificati dagli amministrat
 
 **Le tecnologie**
 
-DomusGo15 è un innovativo sistema di applicativi basato su Microservizi Java Spring Boot, con una particolare enfasi sulla containerizzazione tramite Docker. Questo approccio consente di isolare e distribuire i microservizi in modo efficiente, garantendo un ambiente di esecuzione coeso e riproducibile. I microservizi, inoltre, danno la possibilità di sviluppare, testare e distribuire singolarmente i diversi componenti dell'applicazione, semplificando il processo di aggiornamento e manutenzione.
-Per garantire un'interfaccia utente di alta qualità, lato front-end, la Web App è stata sviluppata utilizzando il framework Nuxt.js, che si basa su Vue.js. La combinazione di questi strumenti è in grado di offrire una navigazione fluida e una visualizzazione ottimizzata dei contenuti.
-La sicurezza delle identità e degli accessi è garantita dal sistema Keycloak che offre funzionalità di autorizzazione granulare, concedendo di definire e gestire in modo preciso i diritti di accesso per gli utenti e i ruoli all'interno del sistema. 
-Per quanto riguarda il front-end della Mobile App sono stati utilizzati i framework IONIC e Angular che, in collaborazione con i microservizi, permettono di sviluppare un'interfaccia mobile altamente interattiva e responsive, capace di offrire una perfetta esperienza utente su diverse piattaforme e dispositivi.
+DomusGo15 è un sistema di applicativi basato su Microservizi Java Spring Boot, con una particolare enfasi sulla containerizzazione tramite Docker. Questo approccio consente di isolare e distribuire i microservizi, garantendo un ambiente di esecuzione coeso e riproducibile.
+Lato front-end, la Web App è stata sviluppata utilizzando il framework Nuxt.js, che si basa su Vue.js. 
+La gestione unificata di identità e accessi è gestita attraverso il sistema Keycloak. 
+Per quanto riguarda la componente Mobile è stata sviluppata una progressive web app utilizzando i framework Angular e IONIC. Il primo è un framework JavaScript sviluppato da Google che semplifica la creazione di applicazioni web complesse, il secondo consente di creare app ibride e PWA utilizzando tecnologie web come HTML, CSS e JavaScript.
