@@ -79,11 +79,12 @@ team3Position6: ""
 team3Name6: ""
 date: 2001-01-01T09:31:37.306Z
 ---
-Una Web App responsive residente su server cloud per una gestione efficiente del personale, dei mezzi e delle commesse.
-All’interno della piattaforma web sono presenti diversi livelli di controllo, ogni utente ha a disposizione delle credenziali ed un codice univoco che permette l’accesso alle sue aree di competenza. 
-Nell’area principale del manager gli utenti dell’amministrazione hanno la possibilità di visualizzare la dashboard in cui avere un quadro completo dell’intero flusso di lavoro, presente e passato.
-La dashboard include grafici e dati che consentono una comprensione immediata dello stato di avanzamento del lavoro, delle spese, delle segnalazioni, delle scadenze e degli interventi in corso. Inoltre, gli utenti amministrativi hanno la possibilità di monitorare la situazione generale della flotta di veicoli e del personale operativo.
-Attraverso la sezione principale gli utenti possono accedere a diverse aree del sistema: view dedicata al personale con informazioni generali ed elenco operativi associati ai relativi task e veicoli; view dedicata ai mezzi, con report sullo stato degli stessi ed elenco con attivi associati ai relativi autisti e task; sezione dedicata alle commesse con dati che  indicano lo stato dei task ed i dettagli che li descrivono, compresi autisti e mezzi associati per ognuno di essi; area dedicata al profilo dell’utente amministrativo; sezione gestione delle notifiche; area relativa a report, statistiche e proiezioni.
+Una Web App responsive residente su server cloud, raggiungibile da qualsiasi postazione con accesso alla rete internet, per una gestione efficiente del personale, dei mezzi e delle commesse.
+Nell’area principale del manager gli utenti dell’amministrazione hanno la possibilità di visualizzare in tempo reale i dati principali relativi allo stato dei lavori. 
+L'amministratore può monitorare lo stato delle commesse, delle richieste, dei cantieri e dell'attività del personale.
+Attraverso la barra di navigazione sulla homepage, è possibile accedere alle sezioni principali della piattaforma e gestire il profilo e i permessi degli utenti: contatti, documenti, gestione RDO (richiesta di offerte) e offerte, fornitori, commesse, cantieri e personale, gestione amministrativo.
+I dati raccolti, aggregati ed elaborati dal sistema sono presentati attraverso schemi e grafici, fornendo una comprensione immediata delle attività aziendali. Il sistema può generare, inoltre, notifiche per avvisi, allarmi e promemoria. 
+All’account di ciascun driver è collegato un giornale di bordo all’interno del quale ogni autista può segnalare la targa del mezzo che sta utilizzando, data di inizio e di fine lavoro, km percorsi ed eventuali rifornimenti di carburante.
 
 **Le tecnologie:**
 
