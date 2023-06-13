@@ -7,12 +7,7 @@
       }"
     >
       <div
-        class="
-          container-fluid
-          d-lg-flex
-          align-items-center
-          justify-content-between
-        "
+        class="container-fluid d-lg-flex align-items-center justify-content-between"
       >
         <g-link to="/" class>
           <g-image
@@ -64,12 +59,7 @@
       }"
     >
       <div
-        class="
-          container-fluid
-          navigationHamburger__head
-          d-flex
-          justify-content-between
-        "
+        class="container-fluid navigationHamburger__head d-flex justify-content-between"
       >
         <g-image
           src="~/assets/images/logo/logix-software.svg"
@@ -79,15 +69,7 @@
       </div>
       <div class="row h-100">
         <div
-          class="
-            col-lg-6
-            h-100
-            text-center
-            d-flex
-            align-items-center
-            justify-content-center
-            position-relative
-          "
+          class="col-lg-6 h-100 text-center d-flex align-items-center justify-content-center position-relative"
         >
           <g-image
             src="~/assets/images/bg-menu.svg"
@@ -105,33 +87,38 @@
           </div>
         </div>
         <div
-          class="
-            col-lg-6
-            navigationHamburger__bg
-            h-100
-            d-flex
-            align-items-center
-            pl-5
-          "
+          class="col-lg-6 navigationHamburger__bg h-100 d-flex align-items-center pl-5"
         >
           <ul class="list-unstyled pl-5">
             <li class="mb-4">
-              <g-link to="/competenze" class="navigationHamburger__titleLink mb-2 d-inline-block">
+              <g-link
+                to="/competenze"
+                class="navigationHamburger__titleLink mb-2 d-inline-block"
+              >
                 Competenze
               </g-link>
               <ul class="list-unstyled">
                 <li class="mb-2">
-                  <g-link to="/digital-transformation" class="navigationHamburger__link">
+                  <g-link
+                    to="/digital-transformation"
+                    class="navigationHamburger__link"
+                  >
                     > Digital transformation
                   </g-link>
                 </li>
                 <li class="mb-2">
-                  <g-link to="/sviluppo-web-and-mobile" class="navigationHamburger__link">
+                  <g-link
+                    to="/sviluppo-web-and-mobile"
+                    class="navigationHamburger__link"
+                  >
                     > Sviluppo Web & Mobile
                   </g-link>
                 </li>
                 <li class="mb-2">
-                  <g-link to="/design-research-and-strategy" class="navigationHamburger__link">
+                  <g-link
+                    to="/design-research-and-strategy"
+                    class="navigationHamburger__link"
+                  >
                     > Design research & strategy
                   </g-link>
                 </li>
@@ -146,7 +133,10 @@
                   </g-link>
                 </li> -->
                 <li class="mb-2">
-                  <g-link to="/collaborative-team" class="navigationHamburger__link">
+                  <g-link
+                    to="/collaborative-team"
+                    class="navigationHamburger__link"
+                  >
                     > Collaborative team
                   </g-link>
                 </li>
@@ -213,6 +203,14 @@ export default {
         _this.scrollTop = window.pageYOffset;
       });
     }
+
+    window.addEventListener("resize", () => {
+      this.widthScreen = screen.width;
+      console.log(this.widthScreen)
+    });
+  },
+   beforeDestroy() { // for Vue 2.x
+    window.removeEventListener('resize', null);
   },
   methods: {
     hamburger: function (el) {
