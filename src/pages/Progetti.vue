@@ -145,8 +145,8 @@ export default {
       _this.scrollTop = window.pageYOffset;
     });
 
-    if (Object.keys(this.$route.query).length !== 0) {
-      localStorage.setItem("param", this.$route.fullPath);
+    if (Object.keys(this.$route.query).length !== 0 && this.$route.query.cmp) {
+      localStorage.setItem("param", this.$route.query.cmp);
     }
   },
   methods: {
