@@ -14,7 +14,7 @@ descriptionClient: >-
 
   Alla base vi è l’esigenza di creare un sistema capace di ottimizzare l’intera gestione mense, dotando amministratori, addetti ai lavori e utenti finali di uno strumento organizzativo semplice e intuitivo.
 imageList: /uploads/foodgo15.png
-imageNoVideo: /uploads/foodgo15.png
+imageNoVideo: /uploads/animation-_-case-app-gestione-mense-_-frame-16.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
