@@ -99,7 +99,4 @@ Web app riservata ai professionisti convenzionati e verificati dagli amministrat
 
 **Le tecnologie**
 
-DomusGo15 è un sistema di applicativi basato su Microservizi Java Spring Boot, con una particolare enfasi sulla containerizzazione tramite Docker. Questo approccio consente di isolare e distribuire i microservizi, garantendo un ambiente di esecuzione coeso e riproducibile.
-Lato front-end, la Web App è stata sviluppata utilizzando il framework Nuxt.js, che si basa su Vue.js. 
-La gestione unificata di identità e accessi è gestita attraverso il sistema Keycloak. 
-Per quanto riguarda il front-end della Mobile App, invece, sono stati utilizzati i framework IONIC e Angular.
+DomusGo15 è un sistema di applicativi basato su Microservizi Java Spring Boot, con una particolare enfasi sulla containerizzazione tramite Docker. Questo approccio consente di isolare e distribuire i microservizi garantendo un ambiente di esecuzione coeso e riproducibile. Lato front-end, la Web App è stata sviluppata con Nuxt.js, un framework che si basa su Vue.js. Nuxt.js introduce il concetto di rendering universale o server-side rendering (SSR), che consente di generare le pagine del sito lato server e inviarle al client già compilate. Questo approccio permette ai motori di ricerca di indicizzare il contenuto del sito in modo più efficace, favorendone la SEO.La gestione delle identità e degli accessi è gestita attraverso il sistema Keycloak,una soluzione open source basata su standard aperti come OAuth 2.0 e OpenID Connect. Per quanto riguarda il front-end della Mobile App sono stati utilizzati i framework IONIC e Angular.
