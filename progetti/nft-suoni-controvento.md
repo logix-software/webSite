@@ -16,7 +16,7 @@ descriptionClient: >
 
   La novità dell’edizione ’22 si configura come un’opportunità per gli utenti di avvicinarsi al mondo del Web3, per vivere il festival in un’ottica differente e offrire vantaggi e nuove modalità di partecipazione attiva a tutta la community di appassionati e curiosi.
 imageList: /uploads/suoni-controvento.png
-imageNoVideo: /uploads/suoni-controvento.png
+imageNoVideo: /uploads/animation-_-case-scv-_-frame-11.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
