@@ -89,5 +89,5 @@ All’account di ciascun driver è collegato un giornale di bordo all’interno 
 **Le tecnologie:**
 
 Upperflot è una Web App basata su Microservizi Java Spring Boot “dockerizzati”. I microservizi danno la possibilità di sviluppare, testare e distribuire singolarmente i diversi componenti dell'applicazione, semplificando il processo di aggiornamento e manutenzione.
-L'interfaccia utente coinvolgente e reattiva di Upperflot è realizzata utilizzando il framework Nuxt.js, basato su Vue.js. La combinazione di questi strumenti è in grado di offrire una navigazione fluida e una visualizzazione ottimizzata dei contenuti.
+L'interfaccia utente è stata realizzata utilizzando il framework Nuxt.js, basato su Vue.js. La combinazione di questi strumenti è in grado di offrire una navigazione fluida e una visualizzazione ottimizzata dei contenuti.
 La sicurezza delle identità e degli accessi è garantita dall’utilizzo di Keycloak, un sistema di gestione delle identità capace di assicurare una protezione completa dei dati e un controllo accurato degli accessi.
