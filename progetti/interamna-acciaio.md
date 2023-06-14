@@ -88,6 +88,6 @@ I dati raccolti, aggregati ed elaborati dal sistema sono presentati attraverso s
 
 **L﻿e tecnologie:** 
 
-Interamna è una piattaforma Web avanzata fondata su un'infrastruttura di Microservizi Java Spring Boot “Dockerizzati", che permette flessibilità, scalabilità e affidabilità nel tempo. Con il framework Nuxt.js, basato su Vue.js, si ottiene un'interfaccia utente coinvolgente e in grado di assicurare un'esperienza intuitiva e performante.
-La web app si avvale del robusto sistema di gestione delle identità Keycloak, che garantisce una protezione completa dei dati e un controllo accurato degli accessi. 
-Con Interamna, le aziende possono gestire le proprie attività in modo efficiente e ottenere un vantaggio competitivo grazie a una solida base tecnologica e funzionalità avanzate.
+Interamna è una piattaforma Web realizzata secondo un approccio architetturale a Microservizi che consente di suddividere l'applicazione in moduli più piccoli e autonomi; ogni microservizio è sviluppato utilizzando il framework Java Spring Boot e viene eseguito all'interno di container Docker, che garantiscono un ambiente isolato e portabile.
+Per il front-end è stato utilizzato Nuxt.js, che si basandosi su Vue.js semplifica lo sviluppo di componenti UI riutilizzabili, che possono essere facilmente organizzati e gestiti.
+La web app si avvale del sistema di gestione delle identità Keycloak, che garantisce una protezione completa dei dati e un controllo accurato degli accessi. Con Interamna, le aziende possono gestire le proprie attività in modo efficiente e ottenere un vantaggio competitivo grazie a una solida base tecnologica e funzionalità avanzate.
