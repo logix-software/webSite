@@ -15,7 +15,7 @@ descriptionClient: Il progetto nasce dall'esigenza di raccogliere all'interno di
   acquirenti. L’intento è quello di supportare il commercio di prodotti locali,
   integrando canali fisici e digitali.
 imageList: /uploads/slowtailer_preview.png
-imageNoVideo: /uploads/slowtailer_preview.png
+imageNoVideo: /uploads/animation-_-case-slowtailer.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
