@@ -19,9 +19,7 @@
       </div>
       <div class="competence position-relative py-5">
         <div class="container position-relative py-lg-5">
-          <h1 class="competence__bigText" data-aos="fade-left">
-            {{ text.node.section1BgText }}
-          </h1>
+         
           <div class="row align-items-center">
             <div class="col-lg-6">
               <g-image :src="text.node.section1Image" class="competence__img" />
@@ -209,9 +207,6 @@
       </div>
       <div class="competence competence--inverted position-relative py-5">
         <div class="container position-relative py-5">
-          <h1 class="competence__bigText" data-aos="fade-right">
-            {{ text.node.section2BgText }}
-          </h1>
           <div class="row align-items-center">
             <div class="col-lg-6 cont-img">
               <g-image :src="text.node.section2Image" class="competence__img" />
@@ -361,13 +356,13 @@
       </div>
       <div class="techs py-5">
         <div
-          class="container d-inline-block d-lg-flex align-items-center justify-content-around"
+          class="container d-block d-lg-flex align-items-center justify-content-around"
         >
-          <g-image :src="text.node.logo1" class="techs__img mx-3" />
-          <g-image :src="text.node.logo2" class="techs__img mx-3" />
-          <g-image :src="text.node.logo3" class="techs__img mx-3" />
-          <g-image :src="text.node.logo4" class="techs__img mx-3" />
-          <g-image :src="text.node.logo5" class="techs__img mx-3" />
+          <g-image :src="text.node.logo1" class="techs__img mx-auto mx-lg-3" />
+          <g-image :src="text.node.logo2" class="techs__img mx-auto mx-lg-3" />
+          <g-image :src="text.node.logo3" class="techs__img mx-auto mx-lg-3" />
+          <g-image :src="text.node.logo4" class="techs__img mx-auto mx-lg-3" />
+          <g-image :src="text.node.logo5" class="techs__img mx-auto mx-lg-3" />
         </div>
       </div>
       <div class="container pt-5">
@@ -619,32 +614,7 @@ export default {
     letter-spacing: -0.18px;
     line-height: 25px;
   }
-  &__bigText {
-    position: absolute;
-    right: -100px;
-    bottom: 80px;
-    color: rgba(255, 255, 255, 1);
-    font-family: "Lexend Deca";
-    font-size: 161px;
-    letter-spacing: -9.63px;
-    line-height: 41px;
-    @media screen and (max-width: 992px) {
-      font-size: 100px;
-      letter-spacing: initial;
-      line-height: initial;
-      bottom: -60px;
-      right: -20px;
-    }
-  }
   &--inverted {
-    .competence__bigText {
-      left: -100px;
-      bottom: 0px;
-      @media screen and (max-width: 992px) {
-        left: -20px;
-        bottom: -60px;
-      }
-    }
     .cont-body {
       order: 0;
     }
@@ -823,7 +793,8 @@ export default {
   &__img {
     max-width: 180px;
     @media screen and (max-width: 992px) {
-      max-width: 80px;
+      max-width: 180px;
+      display: block;
     }
   }
 }

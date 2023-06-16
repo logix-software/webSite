@@ -172,6 +172,15 @@
             'col-lg-6': $page.project.image10Style !== 'horizontal',
           }"
         ></g-image>
+        <g-image
+          v-if="$page.project.image11"
+          :src="$page.project.image11"
+          class="image mb-4 h-100"
+          :class="{
+            'col-lg-12': $page.project.image11Style === 'horizontal',
+            'col-lg-6': $page.project.image11Style !== 'horizontal',
+          }"
+        ></g-image>
       </div>
     </div>
     <div class="container py-5">
@@ -439,6 +448,10 @@ query ($path: String!) {
         image7Style
         image8
         image8Style
+        image9
+        image9Style
+        image10
+        image10Style
         titleTeam1
         team1Position1
         team1Name1
@@ -556,7 +569,9 @@ export default {
   color: #292929;
 }
 .hero {
-  min-height: 100vh;
+  overflow: auto;
+  height: 100vh;
+  max-height: 1080px;
   position: relative;
   overflow: hidden;
   color: #fff;
