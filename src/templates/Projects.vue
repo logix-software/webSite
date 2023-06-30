@@ -571,7 +571,7 @@ export default {
 .hero {
   overflow: auto;
   height: 100vh;
-  max-height: 1080px;
+  max-height: 1079px;
   position: relative;
   overflow: hidden;
   color: #fff;
