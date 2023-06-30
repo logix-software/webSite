@@ -25,7 +25,7 @@
             <ul class="list-unstyled d-flex">
               <li>
                 <a
-                  href="https://www.facebook.com/SupportLogixSoftware/"
+                  href="https://www.facebook.com/LogixSoftware"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="mr-3"
