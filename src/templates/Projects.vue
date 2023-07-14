@@ -576,6 +576,9 @@ export default {
   overflow: hidden;
   color: #fff;
   font-family: "Lexend Deca";
+  @media screen and (max-width: 600px) {
+    max-height: 620px;
+  }
   &:before {
     content: "";
     position: absolute;
