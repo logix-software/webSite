@@ -1,7 +1,7 @@
 ---
 headerTitle: Sviluppo Web & Mobile
 headerImage: /uploads/hero-development.jpg
-headerAbstract: Logix si occupa dello sviluppo software da più di 10 anni sulla
+headerAbstract: Logix si occupa dello sviluppo software da più di 15 anni sulla
   base delle esigenze delle aziende clienti. Dall’analisi al test abbracciamo
   l’approccio agile per il management del progetto che permette la
   consapevolezza comune e la massima efficienza nei risultati.
