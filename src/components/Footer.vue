@@ -9,7 +9,7 @@
               <h6 class="footer__titleSmall">A Terni</h6>
               <p>Via di Porta San Giovanni, 28 - 05100 Terni (TR)</p>
               <h6 class="footer__titleSmall">A Roma</h6>
-              <p>Via Montenero Sabino, 50 - 00133 Roma (RM)</p>
+              <p>Via Montenero Sabino, 50 - 00131 Roma (RM)</p>
             </div>
           </div>
           <div class="col-lg-3 mb-3 mb-lg-0">

@@ -15,13 +15,17 @@
       </video>
       <img v-else class="hero__img" :src="$page.project.imageNoVideo" />
 
-      <div class="container">
+      <div class="container d-none d-lg-block">
         <h1 class="hero__title">{{ $page.project.title }}</h1>
         <h6 class="hero__subtitle">{{ $page.project.subTitle }}</h6>
       </div>
     </div>
     <div class="container py-5">
       <div class="row">
+        <div class="col-lg-12 d-block d-lg-none">
+        <h1 class="hero__title">{{ $page.project.title }}</h1>
+        <h6 class="hero__subtitle">{{ $page.project.subTitle }}</h6>
+      </div>
         <div class="col-lg-3 client">
           <g-image
             :src="$page.project.logoClient"
@@ -577,7 +581,10 @@ export default {
   color: #fff;
   font-family: "Lexend Deca";
   @media screen and (max-width: 600px) {
-    max-height: 620px;
+    max-height: 420px;
+  }
+  @media screen and (max-width: 992px) {
+    max-height: 600px;
   }
   &:before {
     content: "";
@@ -614,8 +621,6 @@ export default {
   }
 }
 #myVideo {
-  // width: 100vw;
-  // height: 100vh;
   width: 100%;
   height: 100%;
   object-fit: cover;

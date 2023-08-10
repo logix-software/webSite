@@ -25,6 +25,14 @@
         </g-link>
         <nav class="nav">
           <ul class="list-unstyled d-lg-flex align-items-center m-0">
+            <li class="mb-4 d-lg-none">
+              <g-image
+                src="~/assets/images/logo/logix-software.svg"
+                class="header__logo mx-3"
+                alt="logix-software"
+                v-if="color === 'default' || isMenuOpen"
+              />
+            </li>
             <li class="position-relative py-2 py-lg-0">
               <g-link to="/chi-siamo" class="nav__link mx-3 py-3"
                 >Chi siamo</g-link
@@ -35,7 +43,7 @@
                 Competenze
               </g-link>
             </li>
-            <li class="position-relative py-2 py-lg-0">
+            <li class="position-relative py-2 py-lg-0 mb-4 mb-lg-0">
               <g-link to="/progetti" class="nav__link mx-3 py-3"
                 >Progetti</g-link
               >
@@ -208,8 +216,8 @@ export default {
       this.widthScreen = screen.width;
     });
   },
-   beforeDestroy() { 
-    window.removeEventListener('resize', null);
+  beforeDestroy() {
+    window.removeEventListener("resize", null);
   },
   methods: {
     hamburger: function (el) {
@@ -256,7 +264,7 @@ export default {
   background: #000;
   @media screen and (max-width: 992px) {
     top: 10px;
-    position: absolute;
+    position: fixed;
   }
   &:before {
     content: "";
@@ -351,33 +359,16 @@ export default {
       @media screen and (max-width: 992px) {
         font-size: 24px;
       }
-      //   &:after {
-      //     content: "";
-      //     height: 1px;
-      //     background-color: #743237;
-      //     width: 0;
-      //     position: absolute;
-      //     bottom: 3px;
-      //     left: 50%;
-      //     transition: all 0.2s;
-      //   }
-      //   &:hover {
-      //     color: #743237;
-      //     &:after {
-      //       left: 0%;
-      //       width: 100%;
-      //     }
-      //   }
     }
     @media screen and (max-width: 992px) {
-      padding-top: 30px;
+      padding-top: 20px;
       padding-bottom: 30px;
       opacity: 0;
       background-color: rgba(0, 0, 0, 1);
       height: 100%;
       width: 100%;
       position: fixed;
-      top: 55px;
+      top: 0;
       right: 0;
       bottom: 0;
       left: -100%;

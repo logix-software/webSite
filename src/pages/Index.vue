@@ -601,7 +601,7 @@ export default {
       return Math.floor(Math.random() * 3) + 1;
     },
     getRandomNumberStrategist() {
-      return Math.floor(Math.random() * 4) + 1;
+      return Math.floor(Math.random() * 3) + 1;
     },
     onIntersectionElement(value) {
       this.isIntersectingElement = value;
