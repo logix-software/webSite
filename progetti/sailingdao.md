@@ -77,7 +77,7 @@ team3Position5: ""
 team3Name5: ""
 team3Position6: ""
 team3Name6: ""
-date: 2002-01-01T14:02:49.497Z
+date: 1996-12-01T14:02:49.497Z
 ---
 In SailingDAO i titolari degli NFT avranno una serie di vantaggi nel club, sia nella vita reale "IRL" che online. 
 Attraverso appositi canali, i membri hanno ad oggi, accesso a votazioni e discussioni riguardanti l’utilizzo delle risorse, l’organizzazione delle competenze e in generale alla crescita del progetto, elementi che caratterizzano il concetto di DAO stesso.
