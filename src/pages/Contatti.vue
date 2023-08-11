@@ -98,88 +98,108 @@
             <div class="col-lg-12 group">
               <span class="labelRadio mb-1 d-block">Ci contatti per</span>
               <div class="button-radio">
-                <input
-                  name="contactFor"
-                  type="radio"
-                  id="radio1"
-                  value="Digital tranformation"
-                  v-model="formData.contactFor"
-                />
-                <label for="radio1">Digital transformation</label>
+                <div class="position-relative">
+                  <input
+                    name="contactFor"
+                    type="radio"
+                    id="radio1"
+                    value="Digital tranformation"
+                    v-model="formData.contactFor"
+                  />
+                  <label>Digital transformation</label>
+                </div>
 
-                <input
-                  name="contactFor"
-                  type="radio"
-                  id="radio2"
-                  value="Sviluppo"
-                  v-model="formData.contactFor"
-                />
-                <label for="radio2">Sviluppo</label>
+                <div class="position-relative">
+                  <input
+                    name="contactFor"
+                    type="radio"
+                    id="radio2"
+                    value="Sviluppo"
+                    v-model="formData.contactFor"
+                  />
+                  <label>Sviluppo</label>
+                </div>
 
-                <input
-                  name="contactFor"
-                  type="radio"
-                  id="radio3"
-                  value="Design"
-                  v-model="formData.contactFor"
-                />
-                <label for="radio3">Design</label>
-                <input
-                  name="contactFor"
-                  type="radio"
-                  id="radio4"
-                  value="Collaborative"
-                  v-model="formData.contactFor"
-                />
-                <label for="radio4">Collaborative</label>
-                <input
-                  name="contactFor"
-                  type="radio"
-                  id="radio5"
-                  value="Posizione lavoro"
-                  v-model="formData.contactFor"
-                />
-                <label for="radio5">Posizione lavoro</label>
+                <div class="position-relative">
+                  <input
+                    name="contactFor"
+                    type="radio"
+                    id="radio3"
+                    value="Design"
+                    v-model="formData.contactFor"
+                  />
+                  <label>Design</label>
+                </div>
+
+                <div class="position-relative">
+                  <input
+                    name="contactFor"
+                    type="radio"
+                    id="radio4"
+                    value="Collaborative"
+                    v-model="formData.contactFor"
+                  />
+                  <label>Collaborative</label>
+                </div>
+
+                <div class="position-relative">
+                  <input
+                    name="contactFor"
+                    type="radio"
+                    id="radio5"
+                    value="Posizione lavoro"
+                    v-model="formData.contactFor"
+                  />
+                  <label>Posizione lavoro</label>
+                </div>
               </div>
             </div>
             <div class="col-lg-12 group">
               <span class="labelRadio mb-1 d-block">Hai un budget di</span>
               <div class="button-radio">
-                <input
-                  name="budget"
-                  type="radio"
-                  id="radio7"
-                  value="Meno di 15.000€"
-                  v-model="formData.budget"
-                />
-                <label for="radio7">Meno di 15.000€</label>
+                <div class="position-relative">
+                  <input
+                    name="budget"
+                    type="radio"
+                    id="radio7"
+                    value="Meno di 15.000€"
+                    v-model="formData.budget"
+                  />
+                  <label>Meno di 15.000€</label>
+                </div>
 
-                <input
-                  name="budget"
-                  type="radio"
-                  id="radio8"
-                  value="15.000 - 30.000€"
-                  v-model="formData.budget"
-                />
-                <label for="radio8">15.000 - 30.000€</label>
+                <div class="position-relative">
+                  <input
+                    name="budget"
+                    type="radio"
+                    id="radio8"
+                    value="15.000 - 30.000€"
+                    v-model="formData.budget"
+                  />
+                  <label>15.000 - 30.000€</label>
+                </div>
 
-                <input
-                  name="budget"
-                  type="radio"
-                  id="radio9"
-                  value="30.000 - 70.000€"
-                  v-model="formData.budget"
-                />
-                <label for="radio9">30.000 - 70.000€</label>
+                <div class="position-relative">
+                  <input
+                    name="budget"
+                    type="radio"
+                    id="radio9"
+                    value="30.000 - 70.000€"
+                    v-model="formData.budget"
+                  />
+                  <label>30.000 - 70.000€</label>
+                </div>
 
-                <input
-                  name="budget"
-                  type="radio"
-                  id="radio10"
-                  value="Più di 70.000€"
-                  v-model="formData.budget"
-                />
-                <label for="radio10">Più di 70.000€</label>
+                <div class="position-relative">
+                  <input
+                    name="budget"
+                    type="radio"
+                    id="radio10"
+                    value="Più di 70.000€"
+                    v-model="formData.budget"
+                  />
+                  <label>Più di 70.000€</label>
+                </div>
               </div>
             </div>
             <div class="col-lg-12 group">
@@ -187,40 +207,49 @@
                 >Hai fissato una scadenza per</span
               >
               <div class="button-radio">
-                <input
-                  name="expire"
-                  type="radio"
-                  id="radio11"
-                  value="Non lo so ancora"
-                  v-model="formData.expire"
-                />
-                <label for="radio11">Non lo so ancora</label>
+                <div class="position-relative">
+                  <input
+                    name="expire"
+                    type="radio"
+                    id="radio11"
+                    value="Non lo so ancora"
+                    v-model="formData.expire"
+                  />
+                  <label>Non lo so ancora</label>
+                </div>
 
-                <input
-                  name="expire"
-                  type="radio"
-                  id="radio12"
-                  value="3 mesi +"
-                  v-model="formData.expire"
-                />
-                <label for="radio12">3 mesi +</label>
+                <div class="position-relative">
+                  <input
+                    name="expire"
+                    type="radio"
+                    id="radio12"
+                    value="3 mesi +"
+                    v-model="formData.expire"
+                  />
+                  <label>3 mesi +</label>
+                </div>
 
-                <input
-                  name="expire"
-                  type="radio"
-                  id="radio13"
-                  value="6 mesi +"
-                  v-model="formData.expire"
-                />
-                <label for="radio13">6 mesi +</label>
-                <input
-                  name="expire"
-                  type="radio"
-                  id="radio14"
-                  value="12 mesi +"
-                  v-model="formData.expire"
-                />
-                <label for="radio14">12 mesi +</label>
+                <div class="position-relative">
+                  <input
+                    name="expire"
+                    type="radio"
+                    id="radio13"
+                    value="6 mesi +"
+                    v-model="formData.expire"
+                  />
+                  <label>6 mesi +</label>
+                </div>
+
+                <div class="position-relative">
+                  <input
+                    name="expire"
+                    type="radio"
+                    id="radio14"
+                    value="12 mesi +"
+                    v-model="formData.expire"
+                  />
+                  <label>12 mesi +</label>
+                </div>
               </div>
             </div>
             <div class="col-lg-12">
@@ -239,7 +268,7 @@
             <div class="col-lg-12 text-right">
               <small v-if="errorForm" class="d-block mb-2">
                 Compila tutti i campi per inviare il messaggio
-                </small>
+              </small>
               <button type="submit" class="btn btn-gradient-border text-white">
                 Invia messaggio
               </button>
@@ -381,8 +410,17 @@ export default {
   color: #fff;
 }
 
+.button-radio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .button-radio input[type="radio"] {
-  display: none;
+  opacity: 0;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .button-radio label {
