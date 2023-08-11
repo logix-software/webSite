@@ -82,12 +82,12 @@ team3Position6: ""
 team3Name6: ""
 date: 1998-01-01T09:24:25.983Z
 ---
-WeTheGroung è una piattaforma SaaS all in one per il volontariato d’impresa, che partendo da una mappa di tutte le opportunità sul territorio permette di filtrare le cause che sono più in linea con le esigenze e skill personali dell’utente o del proprio team.
+WeTheGround è una piattaforma SaaS all in one per il volontariato d’impresa, che partendo da una mappa di tutte le opportunità sul territorio permette di filtrare le cause che sono più in linea con le esigenze e skill personali dell’utente o del proprio team.
 La dashboard, facile e colorata, semplifica la gestione delle attività e dei progetti delle diverse risorse coinvolte e permette il monitoraggio dall’inizio alla fine in un unico posto. Con gli strumenti di analytics si può, inoltre, tenere traccia del valore generato, mentre grazie ai report automatici è possibile raccontarlo in modo immediato a tutti gli stakeholder.
 Tre gli attori principali: le aziende, che vogliono investire nell’attività di corporate voluteering; le associazioni, che mettono a disposizione i loro progetti e i volontari che possono candidarsi singolarmente o come membri di un team aziendale.
 
 **Le tecnologie:**
 
-WeTheGroung è una piattaforma web sviluppata su un'infrastruttura di Microservizi in Java Spring Boot, grazie all’utilizzo di Docker questi offrono una maggiore efficienza e facilità di deployment. L'orchestratore Kubernetes gestisce in modo intelligente i Microservizi, favorendo modularità e scalabilità. 
+WeTheGround è una piattaforma web sviluppata su un'infrastruttura di Microservizi in Java Spring Boot, grazie all’utilizzo di Docker questi offrono una maggiore efficienza e facilità di deployment. L'orchestratore Kubernetes gestisce in modo intelligente i Microservizi, favorendo modularità e scalabilità. 
 La gestione dei dati è affidata a MongoDB, un sistema di gestione di database NoSQL. A differenza dei database relazionali, MongoDB utilizza un modello di dati flessibile chiamato BSON, che permette di memorizzare e rappresentare dati complessi come documenti JSON. 
 Il front-end è stato sviluppato con Nuxt.js,un framework basato su Vue.js. Nuxt.js offre un'architettura modulare che semplifica la gestione delle dipendenze, delle route e delle operazioni di build.
