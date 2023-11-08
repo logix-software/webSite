@@ -106,7 +106,7 @@
                     value="Digital tranformation"
                     v-model="formData.contactFor"
                   />
-                  <label>Digital transformation</label>
+                  <label for="radio1">Digital transformation</label>
                 </div>
 
                 <div class="position-relative">
@@ -117,7 +117,7 @@
                     value="Sviluppo"
                     v-model="formData.contactFor"
                   />
-                  <label>Sviluppo</label>
+                  <label for="radio2">Sviluppo</label>
                 </div>
 
                 <div class="position-relative">
@@ -128,7 +128,7 @@
                     value="Design"
                     v-model="formData.contactFor"
                   />
-                  <label>Design</label>
+                  <label for="radio3">Design</label>
                 </div>
 
                 <div class="position-relative">
@@ -139,7 +139,7 @@
                     value="Collaborative"
                     v-model="formData.contactFor"
                   />
-                  <label>Collaborative</label>
+                  <label for="radio4">Collaborative</label>
                 </div>
 
                 <div class="position-relative">
@@ -150,7 +150,7 @@
                     value="Posizione lavoro"
                     v-model="formData.contactFor"
                   />
-                  <label>Posizione lavoro</label>
+                  <label for="radio5">Posizione lavoro</label>
                 </div>
               </div>
             </div>
@@ -165,7 +165,7 @@
                     value="Meno di 15.000€"
                     v-model="formData.budget"
                   />
-                  <label>Meno di 15.000€</label>
+                  <label for="radio7">Meno di 15.000€</label>
                 </div>
 
                 <div class="position-relative">
@@ -176,7 +176,7 @@
                     value="15.000 - 30.000€"
                     v-model="formData.budget"
                   />
-                  <label>15.000 - 30.000€</label>
+                  <label for="radio8">15.000 - 30.000€</label>
                 </div>
 
                 <div class="position-relative">
@@ -187,7 +187,7 @@
                     value="30.000 - 70.000€"
                     v-model="formData.budget"
                   />
-                  <label>30.000 - 70.000€</label>
+                  <label for="radio9">30.000 - 70.000€</label>
                 </div>
 
                 <div class="position-relative">
@@ -198,7 +198,7 @@
                     value="Più di 70.000€"
                     v-model="formData.budget"
                   />
-                  <label>Più di 70.000€</label>
+                  <label for="radio10">Più di 70.000€</label>
                 </div>
               </div>
             </div>
@@ -215,7 +215,7 @@
                     value="Non lo so ancora"
                     v-model="formData.expire"
                   />
-                  <label>Non lo so ancora</label>
+                  <label for="radio11">Non lo so ancora</label>
                 </div>
 
                 <div class="position-relative">
@@ -226,7 +226,7 @@
                     value="3 mesi +"
                     v-model="formData.expire"
                   />
-                  <label>3 mesi +</label>
+                  <label for="radio12">3 mesi +</label>
                 </div>
 
                 <div class="position-relative">
@@ -237,7 +237,7 @@
                     value="6 mesi +"
                     v-model="formData.expire"
                   />
-                  <label>6 mesi +</label>
+                  <label for="radio13">6 mesi +</label>
                 </div>
 
                 <div class="position-relative">
@@ -248,7 +248,7 @@
                     value="12 mesi +"
                     v-model="formData.expire"
                   />
-                  <label>12 mesi +</label>
+                  <label for="radio14">12 mesi +</label>
                 </div>
               </div>
             </div>
