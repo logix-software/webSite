@@ -96,7 +96,5 @@ L’admin mensa ha una funzione di gestione e controllo sull’intero sistema in
 
 **Le tecnologie**
 
-
-
 FoodGo15 è un sistema di applicativi che utilizza la tecnologia dei Microservizi Java Spring Boot, eseguiti all'interno di container Docker. Quest’ultimo fornisce un ambiente isolato e riproducibile in cui l'applicazione può essere eseguita in modo consistente su diversi sistemi operativi o ambienti di sviluppo. Lato front-end, la Web App è stata sviluppata utilizzando Nuxt.js, un framework di sviluppo progressivo ampiamente utilizzato per la creazione di interfacce utente interattive e reattive. La gestione unificata di identità e accessi è gestita attraverso il sistema Keycloak. 
-Per quanto riguarda la componente Mobile è stata sviluppata una progressive web app utilizzando i framework Angular e IONIC. Il primo è un framework JavaScript sviluppato da Google che semplifica la creazione di applicazioni web complesse, il secondo consente di creare app ibride e PWA utilizzando tecnologie web come HTML, CSS e JavaScript. 
+Per quanto riguarda la componente Mobile è stata sviluppata una progressive web app utilizzando il framework VueJS su NUXT. Il primo è un framework JavaScript sviluppato da Google che semplifica la creazione di applicazioni web complesse, il secondo consente di creare app ibride e PWA utilizzando tecnologie web come HTML, CSS e JavaScript.
