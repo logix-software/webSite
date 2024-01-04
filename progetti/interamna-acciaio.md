@@ -11,10 +11,10 @@ descriptionLogo: Fondata a Terni nel 1983, l'azienda opera da 40 anni nel
   e industriali, in carpenteria metallica e rivestimento architettonico.
 descriptionClient: >
   Creare uno strumento che, in un unico spazio proprietario, fosse capace di
-  gestire  e monitorare l’intero flusso di lavoro. Dall’acquisizione del
-  cliente, fino al compimento dell’intera commessa. Il fine ultimo, un
-  monitoraggio puntuale di tutte le attività e degli effort previsti sia in
-  termini di risorse umane che economiche.
+  gestire e monitorare l’intero flusso di lavoro. Dall’acquisizione del cliente,
+  fino al compimento dell’intera commessa. Il fine ultimo, un monitoraggio
+  puntuale di tutte le attività e degli effort previsti sia in termini di
+  risorse umane che economiche.
 imageList: /uploads/interamna_preview.png
 imageNoVideo: /uploads/animation-_-case-interamna-_-frame-1.png
 label1: DEVELOPMENT
@@ -88,6 +88,6 @@ I dati raccolti, aggregati ed elaborati dal sistema sono presentati attraverso s
 
 **L﻿e tecnologie:** 
 
-Interamna è una piattaforma Web realizzata secondo un approccio architetturale a Microservizi che consente di suddividere l'applicazione in moduli più piccoli e autonomi; ogni microservizio è sviluppato utilizzando il framework Java Spring Boot e viene eseguito all'interno di container Docker, che garantiscono un ambiente isolato e portabile.
+Interamna è una piattaforma Web realizzata secondo un approccio architetturale a Microservizi che consente di suddividere l'applicazione in moduli più piccoli e autonomi; ogni microservizio è sviluppato utilizzando il framework Java Spring Boot e viene eseguito all'interno di container Docker, che garantisce un ambiente isolato e portabile.
 Per il front-end è stato utilizzato Nuxt.js, che si basandosi su Vue.js semplifica lo sviluppo di componenti UI riutilizzabili, che possono essere facilmente organizzati e gestiti.
 La web app si avvale del sistema di gestione delle identità Keycloak, che garantisce una protezione completa dei dati e un controllo accurato degli accessi.
