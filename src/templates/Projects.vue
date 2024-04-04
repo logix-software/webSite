@@ -424,6 +424,7 @@
 query ($path: String!) {
     project: projects (path: $path) {
         title
+        abstract
         subTitle
         logoClient
         hashtags
