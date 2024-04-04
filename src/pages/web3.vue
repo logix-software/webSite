@@ -216,19 +216,16 @@ query {
         logo2
         logo3
         logo4
-        step1Icon
+        step1Img
         step1Title
         step1Abstract
-        step2Icon
-        step2Icon
+        step2Img
         step2Title
         step2Abstract
-        step3Icon
-        step3Icon
+        step3Img
         step3Title
         step3Abstract
-        step4Icon
-        step4Icon
+        step4Img
         step4Title
         step4Abstract
       }
