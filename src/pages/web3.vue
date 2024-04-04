@@ -126,8 +126,8 @@
         </div>
       </div>
 
-      <div class="partnership bg-black">
-        <div class="partnership__box w-100 py-5">
+      <div class="partnership">
+        <div class="relative w-100 py-5">
           <div class="container">
             <div class="row">
               <div class="col-lg-12 ml-auto pl-lg-5">
@@ -137,11 +137,11 @@
                 <h1 class="pl-2 pl-lg-4 partnership__title mb-4">
                   {{ text.node.section3Title }}
                 </h1> -->
-                <div class="d-flex flex-wrap align-items-center">
+                <div class="d-flex flex-wrap align-items-center justify-content-center">
                   <g-image :src="text.node.logo1" class="partnership__logo" />
                   <g-image :src="text.node.logo2" class="partnership__logo" />
-                  <g-image :src="text.node.logo3" class="partnership__logo" />
-                  <g-image :src="text.node.logo4" class="partnership__logo" />
+                  <!-- <g-image :src="text.node.logo3" class="partnership__logo" />
+                  <g-image :src="text.node.logo4" class="partnership__logo" /> -->
                 </div>
               </div>
             </div>
