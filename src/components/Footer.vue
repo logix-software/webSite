@@ -105,9 +105,9 @@
                   >Digital transformation</g-link
                 >
               </li>
-              <!-- <li class="mb-2">
-                <g-link to="/">Progettazione Web3/NFT</g-link>
-              </li> -->
+              <li class="mb-2">
+                <g-link to="/web3">Progettazione Web3/NFT</g-link>
+              </li>
               <li class="mb-2">
                 <g-link to="/sviluppo-web-and-mobile">Sviluppo web e mobile</g-link>
               </li>

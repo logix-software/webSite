@@ -27,7 +27,7 @@ competence3Abstract: Attraverso un percorso iterativo ci interroghiamo sulle
   permette di ottimizzare costi e tempi.
 competence3Img: /uploads/web3.png
 competence4Title: Progettazione Web3/NFT
-competence4Link: "/ "
+competence4Link: "/web3"
 competence4Services: Web3 strategy & development <br> Blockchain consulting <br>
   NFT ideation, DROP and MINT
 competence4Abstract: Guidiamo ed accompagniamo i clienti nel Web3 per sfruttare

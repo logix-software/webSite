@@ -223,9 +223,8 @@
               <p class="day__name mb-0">{{text.node.day1Name}}</p>
               <h6 class="day__title">{{text.node.day1Title}}</h6>
               <div class="mb-3">
-                <span class="mb-1 mb-lg-0  label label--des  mr-lg-3"
-                >DESIGN</span>
-                <span class="label label--dev">CLIENTE</span>
+                <span class="label label--design mr-2">DESIGN</span>
+                <span class="label label--client">CLIENTE</span>
               </div>
               <p
                 class="day__description"
@@ -238,7 +237,7 @@
               <p class="day__name mb-0">{{text.node.day2Name}}</p>
               <h6 class="day__title">{{text.node.day2Title}}</h6>
               <div class="mb-3">
-                <span class="label label--des">DESIGN</span>
+                <span class="label label--design">DESIGN</span>
               </div>
               <p
                 class="day__description"
@@ -251,9 +250,8 @@
               <p class="day__name mb-0">{{text.node.day3Name}}</p>
               <h6 class="day__title">{{text.node.day3Title}}</h6>
               <div class="mb-3">
-                <span class="mb-1 mb-lg-0  label label--des  mr-lg-3"
-                >DESIGN</span>
-                <span class="label label--dev">CLIENTE</span>
+                <span class="label label--design mr-2">DESIGN</span>
+                <span class="label label--client">CLIENTE</span>
               </div>
               <p
                 class="day__description"
@@ -266,7 +264,7 @@
               <p class="day__name mb-0">{{text.node.day4Name}}</p>
               <h6 class="day__title">{{text.node.day4Title}}</h6>
               <div class="mb-3">
-                <span class="label label--des">DESIGN</span>
+                <span class="label label--design mr-2">DESIGN</span>
               </div>
               <p
                 class="day__description"

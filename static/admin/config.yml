@@ -1085,22 +1085,17 @@ collections:
       - { label: "Logo3", name: "logo3", widget: "image" }
       - { label: "Logo4", name: "logo4", widget: "image" }
       - { label: "step1Img", name: "step1Img", widget: "image" }
-      - { label: "step1Name", name: "step1Name", widget: "string" }
       - { label: "step1Title", name: "step1Title", widget: "string" }
       - { label: "step1Abstract", name: "step1Abstract", widget: "text" }
       - { label: "step2Img", name: "step2Img", widget: "image" }
-      - { label: "step2Name", name: "step2Name", widget: "string" }
       - { label: "step2Title", name: "step2Title", widget: "string" }
       - { label: "step2Abstract", name: "step2Abstract", widget: "text" }
       - { label: "step3Img", name: "step3Img", widget: "image" }
-      - { label: "step3Name", name: "step3Name", widget: "string" }
       - { label: "step3Title", name: "step3Title", widget: "string" }
       - { label: "step3Abstract", name: "step3Abstract", widget: "text" }
       - { label: "step4Img", name: "step4Img", widget: "image" }
-      - { label: "step4Name", name: "step4Name", widget: "string" }
       - { label: "step4Title", name: "step4Title", widget: "string" }
       - { label: "step4Abstract", name: "step4Abstract", widget: "text" }
-      - { label: "section4Box2Icon", name: "section4Box2Icon", widget: "text" }
   - name: "CollaborativeTeam"
     label: "CollaborativeTeam Page"
     folder: "collaborative-team"

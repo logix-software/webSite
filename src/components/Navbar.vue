@@ -130,11 +130,11 @@
                     > Design research & strategy
                   </g-link>
                 </li>
-                <!-- <li class="mb-2">
-                  <g-link to="/" class="navigationHamburger__link"
+                <li class="mb-2">
+                  <g-link to="/web3" class="navigationHamburger__link"
                     >> Progettazione Web3/NFT
                   </g-link>
-                </li> -->
+                </li>
                 <!-- <li class="mb-2">
                   <g-link to="/" class="navigationHamburger__link">
                     > Branding

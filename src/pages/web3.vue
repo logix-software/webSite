@@ -244,18 +244,18 @@ import ParallaxContainer from "~/components/ParallaxContainer.vue";
 
 export default {
   metaInfo: {
-    title: "Design - Logix Software",
+    title: "Web3, NFT & Blockchain - Logix Software",
     meta: [
       {
         name: "description",
         content:
-          "Attraverso i nostri servizi di design, permettiamo ad aziende ed istituzione di ideare esperienze digitali pensate per gli utenti finali e sviluppate sulla base di ricerche ed analisi concrete.",
+          "Offriamo servizi di Web3 e Blockchain per creare soluzioni innovative e sicure, accessibili a tutti. Le nostre strategie personalizzate puntano a trasformare l'esperienza digitale attraverso la decentralizzazione e l'innovazione.",
       },
-      { property: "og:title", content: "Design - Logix Software" },
+      { property: "og:title", content: "Web3, NFT & Blockchain - Logix Software" },
       {
         property: "og:description",
         content:
-          "Attraverso i nostri servizi di design, permettiamo ad aziende ed istituzione di ideare esperienze digitali pensate per gli utenti finali e sviluppate sulla base di ricerche ed analisi concrete.",
+          "Offriamo servizi di Web3 e Blockchain per creare soluzioni innovative e sicure, accessibili a tutti. Le nostre strategie personalizzate puntano a trasformare l'esperienza digitale attraverso la decentralizzazione e l'innovazione.",
       },
       {
         property: "og:image",
@@ -267,12 +267,12 @@ export default {
       },
       {
         property: "twitter:title",
-        content: "Design - Logix Software",
+        content: "Web3, NFT & Blockchain - Logix Software",
       },
       {
         property: "twitter:description",
         content:
-          "Attraverso i nostri servizi di design, permettiamo ad aziende ed istituzione di ideare esperienze digitali pensate per gli utenti finali e sviluppate sulla base di ricerche ed analisi concrete.",
+          "Offriamo servizi di Web3 e Blockchain per creare soluzioni innovative e sicure, accessibili a tutti. Le nostre strategie personalizzate puntano a trasformare l'esperienza digitale attraverso la decentralizzazione e l'innovazione.",
       },
       {
         property: "twitter:image",
@@ -280,7 +280,7 @@ export default {
       },
       {
         property: "og:url",
-        content: "https://www.logix-software.it/design-research-and-strategy",
+        content: "https://www.logix-software.it/web3",
       },
       { name: "robots", content: "index, follow" },
     ],

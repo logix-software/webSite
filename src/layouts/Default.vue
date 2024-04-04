@@ -341,6 +341,9 @@ h6 {
   border-radius: 5px;
   color: #fff;
   font-size: 12px;
+  &--client{
+    background: #A9EDFF;
+  }
   &--development {
     background: linear-gradient(103.3deg, #36f2b9 75.53%, #7878f9 131.85%);
   }
