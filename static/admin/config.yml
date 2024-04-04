@@ -1078,7 +1078,6 @@ collections:
       - { label: "Section1Abstract", name: "Section1Abstract", widget: "text" }
       - { label: "Section1BgText", name: "section1BgText", widget: "string" }
       - { label: "Section1Image", name: "section1Image", widget: "image" }
-      - { label: "ToolsName", name: "toolsName", widget: "string" }
       - { label: "ToolsAbstract", name: "toolsAbstract", widget: "text" }
       - { label: "Logo1", name: "logo1", widget: "image" }
       - { label: "Logo2", name: "logo2", widget: "image" }
