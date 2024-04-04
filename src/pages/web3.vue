@@ -64,7 +64,7 @@
             <div class="col-lg-3 mb-4 mb-lg-0">
               <div class="day">
                 <g-image
-                  :src="text.node.step1Icon"
+                  :src="text.node.step1Img"
                   class="day__img mb-2 mb-lg-0"
                 />
                 <h6 class="day__title">
@@ -79,7 +79,7 @@
             <div class="col-lg-3 mb-4 mb-lg-0">
               <div class="day day--inverted">
                 <g-image
-                  :src="text.node.step2Icon"
+                  :src="text.node.step2Img"
                   class="day__img mb-2 mb-lg-0"
                 />
                 <h6 class="day__title">
@@ -94,7 +94,7 @@
             <div class="col-lg-3 mb-4 mb-lg-0">
               <div class="day">
                 <g-image
-                  :src="text.node.step3Icon"
+                  :src="text.node.step3Img"
                   class="day__img mb-2 mb-lg-0"
                 />
                 <h6 class="day__title">
@@ -109,7 +109,7 @@
             <div class="col-lg-3 mb-4 mb-lg-0">
               <div class="day day--inverted">
                 <g-image
-                  :src="text.node.step4Icon"
+                  :src="text.node.step4Img"
                   class="day__img mb-2 mb-lg-0"
                 />
                 <h6 class="day__title">
