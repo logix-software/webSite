@@ -177,6 +177,16 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        path: 'web3/**/*.md',
+        typeName: 'Web3',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         path: 'collaborative-team/**/*.md',
         typeName: 'CollaborativeTeam',
         remark: {

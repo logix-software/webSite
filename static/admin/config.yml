@@ -1064,6 +1064,43 @@ collections:
           name: "section4Box2Abstract",
           widget: "image",
         }
+  - name: "Web3"
+    label: "Web3 Page"
+    folder: "web3"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "HeaderTitle", name: "headerTitle", widget: "string" }
+      - { label: "HeaderImage", name: "headerImage", widget: "image" }
+      - { label: "HeaderAbstract", name: "headerAbstract", widget: "text" }
+      - { label: "Section1Title", name: "section1Title", widget: "string" }
+      - { label: "Section1Abstract", name: "Section1Abstract", widget: "text" }
+      - { label: "Section1BgText", name: "section1BgText", widget: "string" }
+      - { label: "Section1Image", name: "section1Image", widget: "image" }
+      - { label: "ToolsName", name: "toolsName", widget: "string" }
+      - { label: "ToolsAbstract", name: "toolsAbstract", widget: "text" }
+      - { label: "Logo1", name: "logo1", widget: "image" }
+      - { label: "Logo2", name: "logo2", widget: "image" }
+      - { label: "Logo3", name: "logo3", widget: "image" }
+      - { label: "Logo4", name: "logo4", widget: "image" }
+      - { label: "step1Img", name: "step1Img", widget: "image" }
+      - { label: "step1Name", name: "step1Name", widget: "string" }
+      - { label: "step1Title", name: "step1Title", widget: "string" }
+      - { label: "step1Abstract", name: "step1Abstract", widget: "text" }
+      - { label: "step2Img", name: "step2Img", widget: "image" }
+      - { label: "step2Name", name: "step2Name", widget: "string" }
+      - { label: "step2Title", name: "step2Title", widget: "string" }
+      - { label: "step2Abstract", name: "step2Abstract", widget: "text" }
+      - { label: "step3Img", name: "step3Img", widget: "image" }
+      - { label: "step3Name", name: "step3Name", widget: "string" }
+      - { label: "step3Title", name: "step3Title", widget: "string" }
+      - { label: "step3Abstract", name: "step3Abstract", widget: "text" }
+      - { label: "step4Img", name: "step4Img", widget: "image" }
+      - { label: "step4Name", name: "step4Name", widget: "string" }
+      - { label: "step4Title", name: "step4Title", widget: "string" }
+      - { label: "step4Abstract", name: "step4Abstract", widget: "text" }
+      - { label: "section4Box2Icon", name: "section4Box2Icon", widget: "text" }
   - name: "CollaborativeTeam"
     label: "CollaborativeTeam Page"
     folder: "collaborative-team"
