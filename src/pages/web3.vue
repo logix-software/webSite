@@ -26,9 +26,9 @@
       </div>
       <div class="competence position-relative py-5">
         <div class="container position-relative py-lg-5">
-          <h1 class="competence__bigText" data-aos="fade-left">
+          <!-- <h1 class="competence__bigText" data-aos="fade-left">
             {{ text.node.section1BgText }}
-          </h1>
+          </h1> -->
           <div class="row align-items-center">
             <div class="col-lg-6">
               <!-- img dinamica -->
