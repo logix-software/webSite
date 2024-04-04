@@ -17,8 +17,8 @@ Section1Abstract: Progettiamo e sviluppiamo soluzioni innovative, che siano
 section1BgText: Web3
 section1Image: /uploads/deco_web3.png
 toolsAbstract: Le fasi della realizzazione del progetto
-logo1: /uploads/figma.svg
-logo2: /uploads/sketch.svg
+logo1: /uploads/ethereum.svg
+logo2: /uploads/opensea.svg
 logo3: /uploads/invision.svg
 logo4: /uploads/adobe.svg
 step1Img: /uploads/num-1.svg
