@@ -81,11 +81,10 @@
                   type="text"
                   name="company"
                   v-model="formData.company"
-                  required
                 />
                 <span class="highlight"></span>
                 <span class="bar"></span>
-                <label class="labelForm">Azienda</label>
+                <label class="labelForm">Azienda (opzionale)</label>
               </div>
             </div>
             <div class="col-lg-6">
@@ -179,7 +178,7 @@
               </div>
             </div>
             <div class="col-lg-12 group">
-              <span class="labelRadio mb-1 d-block">Hai un budget di</span>
+              <span class="labelRadio mb-1 d-block">Quanto budget hai deciso di investire?</span>
               <div class="button-radio">
                 <div class="position-relative">
                   <input
@@ -232,7 +231,7 @@
             </div>
             <div class="col-lg-12 group">
               <span class="labelRadio mb-1 d-block"
-                >Hai fissato una scadenza per</span
+                >Entro quanto tempo vuoi realizzare il tuo progetto?</span
               >
               <div class="button-radio">
                 <div class="position-relative">
@@ -363,7 +362,7 @@
                 />
                 <span class="highlight"></span>
                 <span class="bar"></span>
-                <label class="labelForm">Messaggio</label>
+                <label class="labelForm">Dicci qualcosa in più</label>
               </div>
             </div>
             <div class="col-lg-12 text-right">
