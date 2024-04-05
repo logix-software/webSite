@@ -4,8 +4,8 @@ subTitle: Preservare la cultura
 urlVideo: https://transcendent-semifreddo-59ed14.netlify.app/Arti_Mestieri_Case
   Animation.mp4
 logoClient: /uploads/commisione-europea.png
-abstract: Un progetto finalizzato a digitalizzare e rendere accessibile il
-  patrimonio artistico-culturale e artigianale della provincia di Rieti.
+abstract: Un progetto per digitalizzare il patrimonio artistico-culturale e
+  artigianale della provincia di Rieti.
 descriptionLogo: FESR - Fondo europeo di sviluppo regionale 2014-2020. Avviso
   pubblico "L'Impresa fa Cultura".
 descriptionClient: '"Arti e Mestieri" è un progetto che nasce dall’esigenza di
