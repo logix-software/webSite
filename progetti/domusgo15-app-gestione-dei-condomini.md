@@ -91,11 +91,11 @@ Il sistema di applicativi permette di tenere sotto controllo e gestire tutte le 
 
 **Amministratori di condominio**
 
-Web app riservata agli amministratori appartenenti al network per tutte le attività di configurazione, controllo e gestione dei condomìni: dal caricamento della documentazione, alla pubblicazione di avvisi di interesse comune, all’inserimento dei professionisti convenzionati.
+Web App riservata agli amministratori appartenenti al network per tutte le attività di configurazione, controllo e gestione dei condomìni: dal caricamento della documentazione, alla pubblicazione di avvisi di interesse comune, all’inserimento dei professionisti convenzionati.
 
 **Professionisti**
 
-Web app riservata ai professionisti convenzionati e verificati dagli amministratori di condominio e dal team DomusGo15 per promuovere ed offrire i propri servizi all’interno del network. I professionisti, selezionati sulla base di standard qualitativi elevati, devono essere preventivamente approvati dagli amministratori per poter operare all’interno della rete. L’utente-professionista, una volta registrato il suo account, può compilare la propria scheda profilo visibile ai condomìni, descrivere le proprie attività, approfondire i servizi offerti, proporre sconti e promozioni e fornire preventivi.
+Web App riservata ai professionisti convenzionati e verificati dagli amministratori di condominio e dal team DomusGo15 per promuovere ed offrire i propri servizi all’interno del network. I professionisti, selezionati sulla base di standard qualitativi elevati, devono essere preventivamente approvati dagli amministratori per poter operare all’interno della rete. L’utente-professionista, una volta registrato il suo account, può compilare la propria scheda profilo visibile ai condomìni, descrivere le proprie attività, approfondire i servizi offerti, proporre sconti e promozioni e fornire preventivi.
 
 **Le tecnologie**
 
