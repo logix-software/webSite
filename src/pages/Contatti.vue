@@ -103,7 +103,7 @@
                     name="contactFor"
                     type="radio"
                     id="radio1"
-                    value="Digital tranformation"
+                    value="Digital transformation"
                     v-model="formData.contactFor"
                   />
                   <label for="radio1">Digital transformation</label>
@@ -159,6 +159,7 @@
               <div class="button-radio">
                 <div class="position-relative">
                   <input
+                    :disabled="formData.contactFor === 'Posizione lavoro'"
                     name="budget"
                     type="radio"
                     id="radio7"
@@ -170,6 +171,7 @@
 
                 <div class="position-relative">
                   <input
+                    :disabled="formData.contactFor === 'Posizione lavoro'"
                     name="budget"
                     type="radio"
                     id="radio8"
@@ -181,6 +183,7 @@
 
                 <div class="position-relative">
                   <input
+                    :disabled="formData.contactFor === 'Posizione lavoro'"
                     name="budget"
                     type="radio"
                     id="radio9"
@@ -192,6 +195,7 @@
 
                 <div class="position-relative">
                   <input
+                    :disabled="formData.contactFor === 'Posizione lavoro'"
                     name="budget"
                     type="radio"
                     id="radio10"
@@ -209,6 +213,7 @@
               <div class="button-radio">
                 <div class="position-relative">
                   <input
+                    :disabled="formData.contactFor === 'Posizione lavoro'"
                     name="expire"
                     type="radio"
                     id="radio11"
@@ -220,6 +225,7 @@
 
                 <div class="position-relative">
                   <input
+                    :disabled="formData.contactFor === 'Posizione lavoro'"
                     name="expire"
                     type="radio"
                     id="radio12"
@@ -231,6 +237,7 @@
 
                 <div class="position-relative">
                   <input
+                    :disabled="formData.contactFor === 'Posizione lavoro'"
                     name="expire"
                     type="radio"
                     id="radio13"
@@ -242,6 +249,7 @@
 
                 <div class="position-relative">
                   <input
+                    :disabled="formData.contactFor === 'Posizione lavoro'"
                     name="expire"
                     type="radio"
                     id="radio14"
@@ -249,6 +257,75 @@
                     v-model="formData.expire"
                   />
                   <label for="radio14">12 mesi +</label>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 group">
+              <span class="labelRadio mb-1 d-block">Come ci hai trovato</span>
+              <div class="button-radio">
+                <div class="position-relative">
+                  <input
+                    name="howFound"
+                    type="radio"
+                    id="radio15"
+                    value="Passaparola"
+                    v-model="formData.howFound"
+                  />
+                  <label for="radio1">Passaparola</label>
+                </div>
+
+                <div class="position-relative">
+                  <input
+                    name="howFound"
+                    type="radio"
+                    id="radio16"
+                    value="Social"
+                    v-model="formData.howFound"
+                  />
+                  <label for="radio2">Social</label>
+                </div>
+
+                <div class="position-relative">
+                  <input
+                    name="howFound"
+                    type="radio"
+                    id="radio17"
+                    value="Eventi online"
+                    v-model="formData.howFound"
+                  />
+                  <label for="radio3">Eventi online</label>
+                </div>
+
+                <div class="position-relative">
+                  <input
+                    name="howFound"
+                    type="radio"
+                    id="radio18"
+                    value="Eventi offline"
+                    v-model="formData.howFound"
+                  />
+                  <label for="radio4">Eventi offline</label>
+                </div>
+
+                <div class="position-relative">
+                  <input
+                    name="howFound"
+                    type="radio"
+                    id="radio19"
+                    value="Pubblicità"
+                    v-model="formData.howFound"
+                  />
+                  <label for="radio5">Pubblicità</label>
+                </div>
+                <div class="position-relative">
+                  <input
+                    name="howFound"
+                    type="radio"
+                    id="radio20"
+                    value="Ricerca diretta"
+                    v-model="formData.howFound"
+                  />
+                  <label for="radio5">Ricerca diretta</label>
                 </div>
               </div>
             </div>
@@ -329,11 +406,20 @@ export default {
         contactFor: "",
         budget: "",
         expire: "",
+        howFound: "",
         param: "",
       },
       fullInput: false,
       errorForm: false,
     };
+  },
+  watch: {
+    "formData.contactFor": function (val) {
+      if (val === "Posizione lavoro") {
+        this.formData.budget = "";
+        this.formData.expire = "";
+      }
+    },
   },
   mounted() {
     var script = document.createElement("script");
@@ -377,9 +463,10 @@ export default {
       //   send_to: "AW-358917451/gN_YCOnc1MEDEMvKkqsB",
       // });
       if (
-        this.formData.contactFor &&
-        this.formData.budget &&
-        this.formData.expire
+        this.formData.contactFor === "Posizione lavoro" ||
+        (this.formData.contactFor &&
+          this.formData.budget &&
+          this.formData.expire)
       ) {
         this.errorForm = false;
         var _this = this;
