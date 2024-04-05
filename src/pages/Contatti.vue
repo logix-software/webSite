@@ -53,13 +53,39 @@
               <div class="group">
                 <input
                   type="text"
-                  name="name"
-                  v-model="formData.name"
+                  name="firstName"
+                  v-model="formData.firstName"
                   required
                 />
                 <span class="highlight"></span>
                 <span class="bar"></span>
-                <label class="labelForm">Name</label>
+                <label class="labelForm">Nome</label>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="group">
+                <input
+                  type="text"
+                  name="lastName"
+                  v-model="formData.lastName"
+                  required
+                />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label class="labelForm">Cognome</label>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="group">
+                <input
+                  type="text"
+                  name="company"
+                  v-model="formData.company"
+                  required
+                />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label class="labelForm">Azienda</label>
               </div>
             </div>
             <div class="col-lg-6">
@@ -82,21 +108,10 @@
                 >
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="group">
-                <input
-                  type="text"
-                  name="company"
-                  v-model="formData.company"
-                  required
-                />
-                <span class="highlight"></span>
-                <span class="bar"></span>
-                <label class="labelForm">Azienda</label>
-              </div>
-            </div>
             <div class="col-lg-12 group">
-              <span class="labelRadio mb-1 d-block">Ci contatti per</span>
+              <span class="labelRadio mb-1 d-block"
+                >Cosa vuoi realizzare insieme a noi?</span
+              >
               <div class="button-radio">
                 <div class="position-relative">
                   <input
@@ -136,21 +151,30 @@
                     name="contactFor"
                     type="radio"
                     id="radio4"
-                    value="Collaborative"
+                    value="Collaborazione"
                     v-model="formData.contactFor"
                   />
-                  <label for="radio4">Collaborative</label>
+                  <label for="radio4">Collaborazione</label>
                 </div>
-
                 <div class="position-relative">
                   <input
                     name="contactFor"
                     type="radio"
                     id="radio5"
+                    value="Consulenza"
+                    v-model="formData.contactFor"
+                  />
+                  <label for="radio5">Consulenza</label>
+                </div>
+                <div class="position-relative">
+                  <input
+                    name="contactFor"
+                    type="radio"
+                    id="radio6"
                     value="Posizione lavoro"
                     v-model="formData.contactFor"
                   />
-                  <label for="radio5">Posizione lavoro</label>
+                  <label for="radio6">Posizione lavoro</label>
                 </div>
               </div>
             </div>
@@ -163,10 +187,10 @@
                     name="budget"
                     type="radio"
                     id="radio7"
-                    value="Meno di 15.000€"
+                    value="5.000 - 15.000€"
                     v-model="formData.budget"
                   />
-                  <label for="radio7">Meno di 15.000€</label>
+                  <label for="radio7">5.000 - 15.000€</label>
                 </div>
 
                 <div class="position-relative">
@@ -271,7 +295,7 @@
                     value="Passaparola"
                     v-model="formData.howFound"
                   />
-                  <label for="radio1">Passaparola</label>
+                  <label for="radio15">Passaparola</label>
                 </div>
 
                 <div class="position-relative">
@@ -282,7 +306,7 @@
                     value="Social"
                     v-model="formData.howFound"
                   />
-                  <label for="radio2">Social</label>
+                  <label for="radio16">Social</label>
                 </div>
 
                 <div class="position-relative">
@@ -293,7 +317,7 @@
                     value="Eventi online"
                     v-model="formData.howFound"
                   />
-                  <label for="radio3">Eventi online</label>
+                  <label for="radio17">Eventi online</label>
                 </div>
 
                 <div class="position-relative">
@@ -304,7 +328,7 @@
                     value="Eventi offline"
                     v-model="formData.howFound"
                   />
-                  <label for="radio4">Eventi offline</label>
+                  <label for="radio18">Eventi offline</label>
                 </div>
 
                 <div class="position-relative">
@@ -315,7 +339,7 @@
                     value="Pubblicità"
                     v-model="formData.howFound"
                   />
-                  <label for="radio5">Pubblicità</label>
+                  <label for="radio19">Pubblicità</label>
                 </div>
                 <div class="position-relative">
                   <input
@@ -325,7 +349,7 @@
                     value="Ricerca diretta"
                     v-model="formData.howFound"
                   />
-                  <label for="radio5">Ricerca diretta</label>
+                  <label for="radio20">Ricerca diretta</label>
                 </div>
               </div>
             </div>
