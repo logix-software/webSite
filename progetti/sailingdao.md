@@ -107,7 +107,7 @@ SailingDAO si pone l'obiettivo di diventare il club nautico più esclusivo e vas
   * Influenza sullo sviluppo del progetto e sulla gestione delle risorse finanziarie partecipando attivamente a votazioni e dibattiti, contribuendo così significativamente all'organizzazione della DAO.
   * Opportunità di partecipare a eventi e incontri sia online che in IRL.
 
-## **Cosa abbiamo fatto per SailingDAO:**
+# **Cosa abbiamo fatto per SailingDAO:**
 
 Abbiamo collaborato con SailingDAO nella creazione del brand, sviluppando il **logo** e la **styleguide** che ne definiscono l'identità visiva. Abbiamo realizzato la **landing page** principale del progetto e supportato la startup nella creazione di contenuti di valore da condividere sulle diverse piattaforme digitali e canali sociali.
 
@@ -115,7 +115,7 @@ Come partner tecnologico, abbiamo realizzato gli **Smart Contact**: sviluppati e
 
 Abbiamo, altresì, progettato e realizzato l'intera infrastruttura per la messa online della **mint-page** con i più alti standard di sicurezza, così da evitare ogni tentativo d'attacco hacker ed allo stesso tempo sopportare il carico massimo di accessi concentrati nelle poche ore del mint.
 
-Ci siamo occupati, inoltre, dello sviluppo di tutti gli elementi sia di back-end che di front-end sia della landing page, sia della mint page sia della **platform sailingDAO**. Abbiamo, poi, sviluppato tutta la parte di scripting phyton, necessari per la generazione di immagini e metadata degli NFT della Gen0 e della Gen1 e gestito la creazione, la pubblicazione e l'interazione di tutti i metadati su IPFS.
+Ci siamo occupati, inoltre, dello sviluppo di tutti gli elementi sia di back-end che di front-end sia della landing page, sia della mint page sia della **platform SailingDAO**. Abbiamo, poi, sviluppato tutta la parte di scripting phyton, necessari per la generazione di immagini e metadata degli NFT della Gen0 e della Gen1 e gestito la creazione, la pubblicazione e l'interazione di tutti i metadati su IPFS.
 
 In seguito, abbiamo curato la presenza delle nostre **collezioni NFT** sui marketplace di vendita secondaria come OpenSea e Rarible, assicurando la certificazione delle collezioni. Abbiamo, infine, provveduto alla certificazione degli smart contract e degli NFT su Etherscan.
 
