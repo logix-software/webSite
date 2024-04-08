@@ -86,22 +86,22 @@ date: 1996-12-01T14:02:49.497Z
 ---
 SailingDAO si pone l'obiettivo di diventare il club nautico più esclusivo e vasto del mondo attraverso la tecnologia del Web 3.0. Il progetto si articola in tre fasi principali, ciascuna delineata da processi specifici che sfruttano gli NFT per trasformare sia l'esperienza dei membri che la loro interazione con il club stesso.
 
-**STEP 1:** Creazione e lancio della Collezione Genesis/Gen0 (SailingDAO Dandy) per il FreeMint - SOLDOUT in poche ore il 21/03/2024
+**STEP 1:** Creazione e lancio della Collezione Genesis/Gen0 (SailingDAO Dandy) per il FreeMint - SOLD OUT in poche ore il 21/03/2024
 
-* Ideazione Arte PfP: creazione e sviluppo artistico dei 600 personaggi unici che costituiscono la collezione Gen0. Questi avatar, generati automaticamente, non solo rappresentano visivamente gli utenti ma fungono anche da chiavi d'accesso ai primi vantaggi esclusivi offerti da SailingDAO
-* Gestione della prima campagna FreeMint: organizzazione e realizzazione della prima campagna di FreeMint. Questo processo non solo avvia la distribuzione iniziale degli NFT della collezione Gen0 senza costi per i primi utenti, ma pone le basi per una community attiva e partecipativa
-* Implementazione Platform per accesso ai benefit: sviluppo e lancio di una platform dedicata che consente agli utenti di accedere facilmente ai vantaggi offerti. Questo sistema non solo semplifica la fruizione dei benefit ma inizia anche a costruire un solido rapporto di fiducia tra SailingDAO e la sua comunity.
+* *Ideazione Arte PfP*: creazione e sviluppo artistico dei 600 personaggi unici che costituiscono la collezione Gen0. Questi avatar, generati automaticamente, non solo rappresentano visivamente gli utenti ma fungono anche da chiavi d'accesso ai primi vantaggi esclusivi offerti da SailingDAO
+* *Gestione della prima campagna FreeMint*: organizzazione e realizzazione della prima campagna di FreeMint. Questo processo non solo avvia la distribuzione iniziale degli NFT della collezione Gen0 senza costi per i primi utenti, ma pone le basi per una community attiva e partecipativa
+* *Implementazione Platform per accesso ai benefit*: sviluppo e lancio di una platform dedicata che consente agli utenti di accedere facilmente ai vantaggi offerti. Questo sistema non solo semplifica la fruizione dei benefit ma inizia anche a costruire un solido rapporto di fiducia tra SailingDAO e la sua comunity.
 
 **STEP 2:** Acquisizione della Membership NFT
 
-* Minting degli NFT: attraverso blockchain Ethereum (ETH) vengono create ed acquistate membership card NFT durante il periodo di Mint annunciato sui canali ufficiali (Discord, X - Twitter).
-* Wallet Necessario: è richiesto un hot wallet con ETH disponibile per il checkout.
-* Proprietà certificata: la creazione e acquisto della membership NFT da parte di un acquirente con il suo wallet viene certificata sulla rete blockchain Ethereum. 
+* *Minting degli NFT*: attraverso blockchain Ethereum (ETH) vengono create ed acquistate membership card NFT durante il periodo di Mint annunciato sui canali ufficiali ([Discord](https://discord.com/invite/sailingdao), [X - Twitter](https://twitter.com/SailingDAO)).
+* *Wallet necessario*: è richiesto un hot wallet con ETH disponibile per il checkout.
+* *Proprietà certificata*: la creazione e acquisto della membership NFT da parte di un acquirente con il suo wallet viene certificata sulla rete blockchain Ethereum. 
 
 **STEP 3**: Proprietà e Utilizzo
 
-* Vantaggi esclusivi per membri: con la proprietà della membership si accede ai benefici unici di SailingDAO; questi comprendono l'accesso prioritario a eventi e Yacht Clubs esclusivi, l'utilizzo personale di barche a vela, opportunità di formazione con corsi specializzati e certificazioni, oltre a pacchetti vacanza all-inclusive.
-* Partecipazione attiva ed accesso esclusivo alla platform dedicata agli holder:
+* *Vantaggi esclusivi per membri:* con la proprietà della membership si accede ai benefici unici di SailingDAO; questi comprendono l'accesso prioritario a eventi e Yacht Clubs esclusivi, l'utilizzo personale di barche a vela, opportunità di formazione con corsi specializzati e certificazioni, oltre a pacchetti vacanza all-inclusive.
+* *Partecipazione attiva ed accesso esclusivo alla platform dedicata agli holder:*
 
   * Accesso a canali speciali per informazioni e news in anteprima.
   * Influenza sullo sviluppo del progetto e sulla gestione delle risorse finanziarie partecipando attivamente a votazioni e dibattiti, contribuendo così significativamente all'organizzazione della DAO.
@@ -109,9 +109,10 @@ SailingDAO si pone l'obiettivo di diventare il club nautico più esclusivo e vas
 
 **Cosa abbiamo fatto per SailingDAO:**
 
-Abbiamo collaborato con SailingDAO nella creazione del brand, sviluppando il logo e la styleguide che ne definiscono l'identità visiva. Abbiamo realizzato la landing page principale del progetto, abbiamo supportato la startup nella creazione di contenuti di valore da condividere sulle diverse piattaforme digitali e canali sociali. Come partner tecnologico, abbiamo realizzato gli smartcontact: sviluppati ed ottimizzati per essere pubblicati ed utilizzati su rete blockchain Ethereum. Gli smart contract hanno consentito di gestire l'intera Gen0 su standard ERC-721, minimizzando il GAS necessario per il mint degli NFT sailingDao Dandy. Stiamo lavorando, inoltre, alla realizzazione degli smartcontract per la gestione completa anche della Gen1.
+Abbiamo collaborato con SailingDAO nella creazione del brand, sviluppando il logo e la styleguide che ne definiscono l'identità visiva. Abbiamo realizzato la landing page principale del progetto, abbiamo supportato la startup nella creazione di contenuti di valore da condividere sulle diverse piattaforme digitali e canali sociali. 
+Come partner tecnologico, abbiamo realizzato gli smartcontact: sviluppati ed ottimizzati per essere pubblicati ed utilizzati su rete blockchain Ethereum. Gli smart contract hanno consentito di gestire l'intera Gen0 su standard ERC-721, minimizzando il GAS necessario per il mint degli NFT sailingDao Dandy. Stiamo lavorando, inoltre, alla realizzazione degli smartcontract per la gestione completa anche della Gen1.
 Abbiamo progettato e realizzato l'intera infrastruttura per la messa online della mint-page con i più alti standard di sicurezza, così da evitare ogni tentativo d'attacco hacker ed allo stesso tempo sopportare il carico massimo di accessi concentrati nelle poche ore del mint.
 Ci siamo occpupati, inoltre, dello sviluppo di tutti gli elementi sia di back-end che di front-end sia della landing page, sia della mint page sia della platform sailingDAO. Abbiamo, poi, sviluppato tutta la parte di scripting phyton, necessari per la generazione di immagini e metadata degli NFT della Gen0 e della Gen1 e gestito la creazione, la pubblicazione e l'interazione di tutti i metadati su IPFS.
 In seguito, abbiamo curato la presenza delle nostre collezioni NFT sui marketplace di vendita secondaria come OpenSea e Rarible, assicurando la certificazione delle collezioni. Abbiamo, infine, provveduto alla certificazione degli smart contract e degli NFT su Etherscan.
 
-Se vuoi saperne di più sul progetto visita l' [Official Web Site ](https://sailingdao.io/)e scopri la [Collezione OpenSea](https://opensea.io/collection/sailingdao-dandy)
+Se vuoi saperne di più sul progetto visita l'[Official Web Site ](https://sailingdao.io/)e scopri la [Collezione OpenSea](https://opensea.io/collection/sailingdao-dandy)
