@@ -107,9 +107,7 @@ SailingDAO si pone l'obiettivo di diventare il club nautico più esclusivo e vas
   * Influenza sullo sviluppo del progetto e sulla gestione delle risorse finanziarie partecipando attivamente a votazioni e dibattiti, contribuendo così significativamente all'organizzazione della DAO.
   * Opportunità di partecipare a eventi e incontri sia online che in IRL.
 
-    \    
 
-    \    
 
 ## **Cosa abbiamo fatto per SailingDAO:**
 
