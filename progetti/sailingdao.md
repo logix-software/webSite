@@ -110,9 +110,13 @@ SailingDAO si pone l'obiettivo di diventare il club nautico più esclusivo e vas
 **Cosa abbiamo fatto per SailingDAO:**
 
 Abbiamo collaborato con SailingDAO nella creazione del brand, sviluppando il **logo** e la **styleguide** che ne definiscono l'identità visiva. Abbiamo realizzato la **landing page** principale del progetto e supportato la startup nella creazione di contenuti di valore da condividere sulle diverse piattaforme digitali e canali sociali.
+
 Come partner tecnologico, abbiamo realizzato gli **Smart Contact**: sviluppati ed ottimizzati per essere pubblicati ed utilizzati su rete blockchain Ethereum. Gli smart contract hanno consentito di gestire l'intera Gen0 su standard ERC-721, minimizzando il GAS necessario per il mint degli NFT sailingDao Dandy. Stiamo lavorando, inoltre, alla realizzazione degli smart contract per la gestione completa anche della Gen1.
+
 Abbiamo, altresì, progettato e realizzato l'intera infrastruttura per la messa online della **mint-page** con i più alti standard di sicurezza, così da evitare ogni tentativo d'attacco hacker ed allo stesso tempo sopportare il carico massimo di accessi concentrati nelle poche ore del mint.
+
 Ci siamo occupati, inoltre, dello sviluppo di tutti gli elementi sia di back-end che di front-end sia della landing page, sia della mint page sia della **platform sailingDAO**. Abbiamo, poi, sviluppato tutta la parte di scripting phyton, necessari per la generazione di immagini e metadata degli NFT della Gen0 e della Gen1 e gestito la creazione, la pubblicazione e l'interazione di tutti i metadati su IPFS.
+
 In seguito, abbiamo curato la presenza delle nostre **collezioni NFT** sui marketplace di vendita secondaria come OpenSea e Rarible, assicurando la certificazione delle collezioni. Abbiamo, infine, provveduto alla certificazione degli smart contract e degli NFT su Etherscan.
 
 Se vuoi saperne di più sul progetto visita l'[Official Web Site ](https://sailingdao.io/)e scopri la [Collezione OpenSea](https://opensea.io/collection/sailingdao-dandy)
