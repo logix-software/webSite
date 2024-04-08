@@ -109,6 +109,7 @@ SailingDAO si pone l'obiettivo di diventare il club nautico più esclusivo e vas
 
 
 
+
 # **Cosa abbiamo fatto per SailingDAO:**
 
 Abbiamo collaborato con SailingDAO nella creazione del brand, sviluppando il **logo** e la **styleguide** che ne definiscono l'identità visiva. Abbiamo realizzato la **landing page** principale del progetto e supportato la startup nella creazione di contenuti di valore da condividere sulle diverse piattaforme digitali e canali sociali.
