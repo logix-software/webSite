@@ -111,7 +111,7 @@ SailingDAO si pone l'obiettivo di diventare il club nautico più esclusivo e vas
 
 ## **Cosa abbiamo fatto per SailingDAO:**
 
-Abbiamo collaborato con SailingDAO nella creazione del brand, sviluppando il **logo** e la **styleguide** che ne definiscono l'identità visiva. Abbiamo realizzato la **landing page** principale del progetto e supportato la startup nella creazione di contenuti di valore da condividere sulle diverse piattaforme digitali e canali sociali.
+Abbiamo collaborato con SailingDAO nella creazione del brand, sviluppando il **logo** e la **styleguide** che ne definiscono l'identità visiva. Abbiamo realizzato la **landing page** principale del progetto e supportato la startup nella creazione di contenuti di valore da condividere sulle diverse piattaforme digitali e canali social.
 
 Come partner tecnologico, abbiamo realizzato gli **Smart Contact**: sviluppati ed ottimizzati per essere pubblicati ed utilizzati su rete blockchain Ethereum. Gli smart contract hanno consentito di gestire l'intera Gen0 su standard ERC-721, minimizzando il GAS necessario per il mint degli NFT sailingDao Dandy. Stiamo lavorando, inoltre, alla realizzazione degli smart contract per la gestione completa anche della Gen1.
 
