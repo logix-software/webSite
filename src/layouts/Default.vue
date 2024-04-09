@@ -766,6 +766,11 @@ textarea:valid ~ label {
   color: #fff;
 }
 
+input:not(:focus) ~ .super-custom{
+  font-size: 18px!important;
+  top: 10px!important
+}
+
 /* BOTTOM BARS ================================= */
 .bar {
   position: relative;

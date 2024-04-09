@@ -77,14 +77,17 @@
             </div>
             <div class="col-lg-6">
               <div class="group">
-                <input
-                  type="text"
-                  name="company"
-                  v-model="formData.company"
-                />
+                <input type="text" name="company" v-model="formData.company" />
                 <span class="highlight"></span>
                 <span class="bar"></span>
-                <label class="labelForm">Azienda (opzionale)</label>
+                <label
+                  class="labelForm"
+                  :class="{
+                    'super-custom': !formData.company,
+
+                  }"
+                  >Azienda (opzionale)</label
+                >
               </div>
             </div>
             <div class="col-lg-6">
@@ -178,7 +181,9 @@
               </div>
             </div>
             <div class="col-lg-12 group">
-              <span class="labelRadio mb-1 d-block">Quanto budget hai deciso di investire?</span>
+              <span class="labelRadio mb-1 d-block"
+                >Quanto budget hai deciso di investire?</span
+              >
               <div class="button-radio">
                 <div class="position-relative">
                   <input
