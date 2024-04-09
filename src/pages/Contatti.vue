@@ -284,7 +284,7 @@
               </div>
             </div>
             <div class="col-lg-12 group">
-              <span class="labelRadio mb-1 d-block">Come ci hai trovato</span>
+              <span class="labelRadio mb-1 d-block">Come ci hai trovato?</span>
               <div class="button-radio">
                 <div class="position-relative">
                   <input
