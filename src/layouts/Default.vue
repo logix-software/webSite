@@ -758,7 +758,7 @@ textarea:focus {
 
 /* active state */
 input:focus ~ label,
-// input:valid ~ label,
+input:valid ~ label,
 textarea:focus ~ label,
 textarea:valid ~ label {
   top: -20px;
