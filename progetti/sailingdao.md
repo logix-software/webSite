@@ -15,26 +15,26 @@ descriptionClient: Creare una grande comunità che unisca appassionati del Web
   L'obiettivo è creare spazi e servizi condivisi per incontri, esperienze,
   conoscenze e business.
 imageList: /uploads/sailingdao_preview.png
-imageNoVideo: /uploads/animation-_-case-sailingdao.png
+imageNoVideo: /uploads/sailingdao1.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
 hashtags: " #NFT #WEB3 #BLOCKCHAIN #ETHEREUM #DAO #NAUTICA"
-image1: /uploads/sailingdao.png
+image1: /uploads/sailingdao2.png
 image1Style: horizontal
-image2: /uploads/sailingdao2.png
-image2Style: horizontal
-image3: /uploads/sailingdao-3.png
+image2: /uploads/sailingdao3.png
+image2Style: vertical
+image3: /uploads/sailingdao4.png
 image3Style: vertical
-image4: /uploads/sailingdao-4.png
+image4: /uploads/sailingdao5.png
 image4Style: vertical
-image5: /uploads/sailingdao-5.png
+image5: /uploads/sailingdao6.png
 image5Style: vertical
-image6: /uploads/sailingdao-6.png
+image6: /uploads/sailingdao7.png
 image6Style: vertical
-image7: /uploads/sailingdao-7.png
-image7Style: horizontal
-image8: ""
+image7: /uploads/sailingdao-8.png
+image7Style: vertical
+image8: /uploads/sailingdao-9.png
 image8Style: horizontal
 image9: ""
 image9Style: " "
@@ -83,8 +83,10 @@ date: 1996-12-01T14:02:49.497Z
 ---
 SailingDAO si pone l'obiettivo di diventare il club nautico più esclusivo e vasto del mondo attraverso la tecnologia Web 3.0. Il progetto si sviluppa in tre fasi principali. 
 
-* **STEP 1:**  ha visto la creazione e il lancio della Collezione Genesis/Gen0 (SailingDAO Dandy) per il FreeMint, che è andata sold out in poche ore il 21/03/2024. Questa fase include la realizzazione artistica di 600 avatar unici che fungono da chiavi d'accesso ai vantaggi esclusivi e la gestione di una campagna di FreeMint, oltre allo sviluppo di una piattaforma per accedere ai benefici offerti.  
+* **STEP 1:**  ha visto la creazione e il lancio della Collezione Genesis/Gen0 (SailingDAO Dandy) per il FreeMint, che è andata sold out in poche ore il 21/03/2024. Questa fase include la realizzazione artistica di 600 avatar unici che fungono da chiavi d'accesso ai vantaggi esclusivi e la gestione di una campagna di FreeMint, oltre allo sviluppo di una piattaforma per accedere ai benefici offerti.
+
 * **STEP 2:** riguarda l'acquisizione della Membership NFT su blockchain Ethereum, che richiede un hot wallet con ETH disponibile per il checkout e certifica la proprietà sulla rete Ethereum.
+
 * **STEP 3**:  offre ai membri vantaggi esclusivi come eventi prioritari, uso di barche a vela, corsi specializzati e pacchetti vacanza, oltre alla partecipazione attiva alla piattaforma dedicata agli holder per influenzare lo sviluppo del progetto e gestire risorse finanziarie, partecipando a votazioni e dibattiti.ㅤ
 
 ## **Cosa abbiamo fatto per SailingDAO:**
