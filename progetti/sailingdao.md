@@ -85,9 +85,12 @@ SailingDAO si pone l'obiettivo di diventare il club nautico più esclusivo e vas
 
 * **STEP 1:**  ha visto la creazione e il lancio della Collezione Genesis/Gen0 (SailingDAO Dandy) per il FreeMint, che è andata sold out in poche ore il 21/03/2024. Questa fase include la realizzazione artistica di 600 avatar unici che fungono da chiavi d'accesso ai vantaggi esclusivi e la gestione di una campagna di FreeMint, oltre allo sviluppo di una piattaforma per accedere ai benefici offerti.
 
+
 * **STEP 2:** riguarda l'acquisizione della Membership NFT su blockchain Ethereum, che richiede un hot wallet con ETH disponibile per il checkout e certifica la proprietà sulla rete Ethereum.
 
+
 * **STEP 3**:  offre ai membri vantaggi esclusivi come eventi prioritari, uso di barche a vela, corsi specializzati e pacchetti vacanza, oltre alla partecipazione attiva alla piattaforma dedicata agli holder per influenzare lo sviluppo del progetto e gestire risorse finanziarie, partecipando a votazioni e dibattiti.ㅤ
+
 
 ## **Cosa abbiamo fatto per SailingDAO:**
 
