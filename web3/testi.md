@@ -3,7 +3,7 @@ designPackTitle: Design Pack
 title: Logix Software - Web3
 headerTitle: Web3 Consulting and Devlopment
 headerImage: /uploads/bg_web3.jpeg
-headerAbstract: Logix è entrata ufficialmente nel web3 ed è pronta ad offrire la
+headerAbstract: Logix è entrata ufficialmente nel Web3 ed è pronta ad offrire la
   sua esperienza acquisita sul campo, guidando ed accompagnando i suoi clienti
   per aiutarli a sfruttare le numerose opportunità e possibilità che le nuove
   tecnologie mettono a disposizione.
