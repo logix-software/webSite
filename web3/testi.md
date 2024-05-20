@@ -20,8 +20,8 @@ section1Image: /uploads/deco_web3.png
 toolsAbstract: Le fasi della realizzazione del progetto NFT
 logo1: /uploads/ethereum.svg
 logo2: /uploads/opensea.svg
-logo3: /uploads/invision.svg
-logo4: /uploads/adobe.svg
+logo3: /uploads/rarible.png
+logo4: /uploads/solana.png
 step1Img: /uploads/num-1.svg
 step1Title: Strategia
 step1Abstract: Analizziamo il contesto di mercato del progetto NFT del cliente,
