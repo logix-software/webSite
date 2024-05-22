@@ -140,8 +140,8 @@
                 <div class="d-flex flex-wrap align-items-center justify-content-center">
                   <g-image :src="text.node.logo1" class="partnership__logo" />
                   <g-image :src="text.node.logo2" class="partnership__logo" />
-                  <!-- <g-image :src="text.node.logo3" class="partnership__logo" />
-                  <g-image :src="text.node.logo4" class="partnership__logo" /> -->
+                  <g-image :src="text.node.logo3" class="partnership__logo" />
+                  <g-image :src="text.node.logo4" class="partnership__logo" />
                 </div>
               </div>
             </div>
