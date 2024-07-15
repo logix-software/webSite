@@ -84,16 +84,11 @@ date: 1996-12-01T14:02:49.497Z
 SailingDAO si pone l'obiettivo di diventare il club nautico più esclusivo e vasto del mondo attraverso la tecnologia Web 3.0. Il progetto si sviluppa in tre fasi principali. 
 
 * **STEP 1:**  ha visto la creazione e il lancio della Collezione Genesis/Gen0 (SailingDAO Dandy) per il FreeMint, che è andata sold out in poche ore il 21/03/2024. Questa fase include la realizzazione artistica di 600 avatar unici che fungono da chiavi d'accesso ai vantaggi esclusivi e la gestione di una campagna di FreeMint, oltre allo sviluppo di una piattaforma per accedere ai benefici offerti.
-
-
 * **STEP 2:** riguarda l'acquisizione della Membership NFT su blockchain Ethereum, che richiede un hot wallet con ETH disponibile per il checkout e certifica la proprietà sulla rete Ethereum.
-
-
 * **STEP 3**:  offre ai membri vantaggi esclusivi come eventi prioritari, uso di barche a vela, corsi specializzati e pacchetti vacanza, oltre alla partecipazione attiva alla piattaforma dedicata agli holder per influenzare lo sviluppo del progetto e gestire risorse finanziarie, partecipando a votazioni e dibattiti.ㅤ
-
 
 ## **Cosa abbiamo fatto per SailingDAO:**
 
 Abbiamo collaborato con SailingDAO nella creazione del brand, sviluppando il logo e la styleguide. Abbiamo realizzato la landing page principale e supportato la startup nella creazione di contenuti digitali e social ([Discord](https://discord.com/invite/sailingdao), [X - Twitter](https://twitter.com/SailingDAO)). Come partner tecnologico, abbiamo sviluppato smart contract su blockchain Ethereum per la gestione della Gen0 e Gen1, minimizzando i costi GAS. Abbiamo progettato e realizzato l'infrastruttura per la mint-page con alti standard di sicurezza. Abbiamo sviluppato sia il back-end che il front-end della landing page, mint page e piattaforma SailingDAO. Ci siamo occupati della generazione di immagini e metadata per gli NFT e della loro gestione su IPFS. Infine, abbiamo curato la presenza delle collezioni NFT su marketplace secondari come OpenSea e Rarible, assicurando la certificazione su Etherscan. 
 
-Se vuoi saperne di più sul progetto visita l'[Official Web Site ](https://sailingdao.io/)e scopri la [Collezione OpenSea](https://opensea.io/collection/sailingdao-dandy)
+Se vuoi saperne di più sul progetto visita l'[Official Web Site,](https://sailingdao.io/) scopri la [Collezione OpenSea](https://opensea.io/collection/sailingdao-dandy)e leggi il nostro articolo su [Medium](https://medium.com/logix-software/sailingdao-dallinnovazione-alla-realt%C3%A0-398a9c3398da).
