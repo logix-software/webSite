@@ -24,7 +24,7 @@
           />
         </g-link>
         <nav class="nav">
-          <ul class="list-unstyled d-lg-flex align-items-center m-0">
+          <ul class="list-unstyled d-lg-flex align-items-center justify-content-end m-0">
             <li class="mb-4 d-lg-none">
               <g-image
                 src="~/assets/images/logo/logix-software.svg"
