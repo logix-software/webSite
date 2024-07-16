@@ -24,7 +24,7 @@
           />
         </g-link>
         <nav class="nav">
-          <ul class="list-unstyled d-lg-flex align-items-center justify-content-end m-0">
+          <ul class="list-unstyled d-lg-flex align-items-center m-0">
             <li class="mb-4 d-lg-none">
               <g-image
                 src="~/assets/images/logo/logix-software.svg"
@@ -51,7 +51,7 @@
             <li class="position-relative py-2 py-lg-0">
               <g-link
                 to="/contatti"
-                class="btn-gradient-border btn-navbar mx-3"
+                class="btn-gradient-border btn-navbar ml-3"
               >
                 Contattaci
               </g-link>
