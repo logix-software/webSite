@@ -1,4 +1,4 @@
 ---
-title: AllFood
-image: /uploads/allfood.png
+title: Authentica
+image: /uploads/auth.png
 ---
