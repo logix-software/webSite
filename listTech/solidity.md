@@ -1,4 +1,4 @@
 ---
 title: Solidity
-image: /uploads/solidity.png
+image: /uploads/solidity_grey.png
 ---
