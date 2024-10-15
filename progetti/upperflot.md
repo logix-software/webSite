@@ -64,9 +64,9 @@ team2Position5: ""
 team2Name5: ""
 team2Position6: ""
 team2Name6: ""
-titleTeam3: ""
-team3Position1: ""
-team3Name1: ""
+titleTeam3: Strategist
+team3Position1: Digital Strategist
+team3Name1: Gaia Costantini
 team3Position2: ""
 team3Name2: ""
 team3Position3: ""
