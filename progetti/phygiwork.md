@@ -55,4 +55,4 @@ La soluzione è composta da una Web App per amministratori e utenti e una Mobile
 
 **Le tecnologie:**
 
-La piattaforma adotta un’architettura a microservizi, sfruttando Java Spring Boot per i servizi backend e MongoDB per l’archiviazione dei dati. L’infrastruttura è basata su Docker, garantendo isolamento e portabilità. Per il front-end, è stato scelto Nuxt.js su Vue.js, mentre il framework Ionic è stato impiegato per lo sviluppo della Mobile App. La sicurezza e gestione degli accessi è garantita da Keycloak, assicurando un controllo preciso sui permessi utenti e la protezione dei dati.e
+La piattaforma adotta un’architettura a microservizi, sfruttando Java Spring Boot per i servizi backend e MongoDB per l’archiviazione dei dati. L’infrastruttura è basata su Docker, garantendo isolamento e portabilità. Per il front-end, è stato scelto Nuxt.js su Vue.js, mentre il framework Ionic è stato impiegato per lo sviluppo della Mobile App. La sicurezza e gestione degli accessi è garantita da Keycloak, assicurando un controllo preciso sui permessi utenti e la protezione dei dati.
