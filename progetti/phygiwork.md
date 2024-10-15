@@ -14,7 +14,7 @@ descriptionClient: Creare uno strumento che semplifichi e centralizzi la
   altri spazi, e agli amministratori di monitorare e gestire in tempo reale
   disponibilità, configurazioni e richieste.
 imageList: /uploads/hero-phigiwork.png
-imageNoVideo: /uploads/hero-phigiwork.png
+imageNoVideo: /uploads/phigiwork1.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: " "
