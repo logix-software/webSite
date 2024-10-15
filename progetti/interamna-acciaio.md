@@ -19,7 +19,7 @@ imageList: /uploads/interamna_preview.png
 imageNoVideo: /uploads/animation-_-case-interamna-_-frame-1.png
 label1: DEVELOPMENT
 label2: DESIGN
-label3: STRATEGIST
+label3: " "
 hashtags: "#WEBAPPLICATION #SOFTWARE #GESRTIONALE #INDUSTRIA4.0"
 image1: /uploads/interamna-_.png
 image1Style: horizontal
