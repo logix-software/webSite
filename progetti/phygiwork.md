@@ -14,7 +14,7 @@ descriptionClient: Creare uno strumento che semplifichi e centralizzi la
   altri spazi, e agli amministratori di monitorare e gestire in tempo reale
   disponibilità, configurazioni e richieste.
 imageList: /uploads/hero-phigiwork.png
-imageNoVideo: /uploads/phigiwork1.png
+imageNoVideo: /uploads/hero-phigiwork.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: " "
@@ -44,7 +44,7 @@ team1Position4: Software Engineer
 team1Name4: Enrico Emanuele
 team1Position5: ""
 team1Name5: ""
-titleTeam2: "Design "
+titleTeam2: Design
 team2Position1: Senior UX/UI Designer
 team2Name1: "Susanna Cirocchi "
 team2Position2: "Senior UX/UI Designer "
