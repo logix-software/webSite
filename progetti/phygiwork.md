@@ -44,10 +44,11 @@ team1Position4: Software Engineer
 team1Name4: Enrico Emanuele
 team1Position5: ""
 team1Name5: ""
-titleTeam2: Senior UX/UI Designer
-team2Position1: Susanna Cirocchi
-team2Name1: Senior UX/UI Designer
-team2Position2: Giulia Buccomino
+titleTeam2: "Design "
+team2Position1: Senior UX/UI Designer
+team2Name1: "Susanna Cirocchi "
+team2Position2: "Senior UX/UI Designer "
+team2Name2: Giulia Buccomino
 date: 2024-10-15T16:22:45.420Z
 ---
 La soluzione è composta da una Web App per amministratori e utenti e una Mobile App ibrida disponibile su iOS e Android. La Web App consente agli amministratori di gestire sedi, servizi, stanze, configurazioni di layout, fasce orarie e prezzi. Gli utenti finali possono invece visualizzare la disponibilità degli spazi, selezionare servizi e parametri personalizzati, effettuare pagamenti online, ricevere conferme via email e notifiche. La gestione del sistema è facilitata da un'interfaccia intuitiva che presenta graficamente la disponibilità degli spazi e permette di visualizzare le prenotazioni e i dettagli del servizio in modo immediato.
