@@ -9,18 +9,18 @@ abstract: Un sistema integrato di Web e Mobile App per la gestione centralizzata
 descriptionLogo: "Phygiwork S.p.A., con sede a Roma, offre soluzioni per la
   gestione e prenotazione di spazi di coworking, uffici, e sale meeting. "
 descriptionClient: Creare uno strumento che semplifichi e centralizzi la
-  gestione delle prenotazioni e l’amministrazione degli spazi. Una sistema che
-  permette sia agli utenti finali di selezionare e prenotare postazioni di
-  lavoro, sale riunioni e altri spazi, sia agli amministratori di monitorare e
-  gestire in tempo reale disponibilità, configurazioni e richieste.
+  gestione delle prenotazioni e l’amministrazione degli spazi, permettendo agli
+  utenti finali di selezionare e prenotare postazioni di lavoro, sale riunioni e
+  altri spazi, e agli amministratori di monitorare e gestire in tempo reale
+  disponibilità, configurazioni e richieste.
 imageList: /uploads/hero-phigiwork.png
-imageNoVideo: /uploads/phigiwork1.png
+imageNoVideo: /uploads/hero-phigiwork.png
 label1: DEVELOPMENT
 label2: DESIGN
 label3: STRATEGIST
 hashtags: "#WEBAPP #MOBILEAPP #COWORKINGSPACE #DIGITALWORKSPACE"
 image1: /uploads/phigiwork1.png
-image1Style: vertical
+image1Style: horizontal
 image2: /uploads/phigiwork2.png
 image2Style: vertical
 image3: /uploads/phigiwork3.png
