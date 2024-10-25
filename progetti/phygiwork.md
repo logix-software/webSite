@@ -13,7 +13,7 @@ descriptionClient: Creare uno strumento che semplifichi e centralizzi la
   utenti finali di selezionare e prenotare postazioni di lavoro, sale riunioni e
   altri spazi, e agli amministratori di monitorare e gestire in tempo reale
   disponibilità, configurazioni e richieste.
-imageList: /uploads/hero-phigiwork.png
+imageList: /uploads/phigiwork_preview.png
 imageNoVideo: /uploads/hero-phigiwork.png
 label1: DEVELOPMENT
 label2: DESIGN
