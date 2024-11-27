@@ -135,7 +135,7 @@
             <ul class="list-unstyled">
               <li class="mb-2">
                 <a
-                  href="https://www.iubenda.com/privacy-policy/51005590"
+                  href="https://www.iubenda.com/privacy-policy/75583007"
                   class="iubenda-black iubenda-embed iubenda-custom"
                   title="Privacy Policy "
                 >
