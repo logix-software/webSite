@@ -39,9 +39,76 @@
               >
             </li>
             <li class="position-relative py-2 py-lg-0">
-              <g-link to="/competenze" class="nav__link mx-3 py-3">
+              <g-link to="/competenze" class="nav__link mx-3 pb-3 d-inline-block">
                 Competenze
               </g-link>
+              <ul class="list-unstyled pl-4 d-inline-block">
+                <li class="mb-2">
+                      <g-link
+                        to="/digital-transformation"
+                        class="navigationHamburger__link op-80"                      >
+                        > Digital transformation
+                      </g-link>
+                    </li>
+                    <li class="mb-2">
+                      <g-link
+                        to="/sviluppo-web-and-mobile"
+                        class="navigationHamburger__link op-80"                      >
+                        > Sviluppo Web & Mobile
+                      </g-link>
+                    </li>
+                    <li class="mb-2">
+                      <g-link
+                        to="/design-research-and-strategy"
+                        class="navigationHamburger__link op-80"                      >
+                        > Design research & strategy
+                      </g-link>
+                    </li>
+                    <li class="mb-2">
+                      <g-link to="/web3" class="navigationHamburger__link op-80"
+                        >> Progettazione Web3/NFT
+                      </g-link>
+                    </li>
+                    <li class="mb-2">
+                      <g-link
+                        to="/collaborative-team"
+                        class="navigationHamburger__link op-80"                      >
+                        > Collaborative team
+                      </g-link>
+                    </li>
+              </ul>
+          
+            </li>
+            <li class="position-relative py-2 py-lg-0 show-link">
+              <span class="text-white nav__link mx-3 pb-3 d-inline-block">
+                Prodotti
+              </span>
+              <ul class="list-unstyled pl-4 d-inline-block">
+                <li class="mb-2">
+                  <a
+                    href="https://crm.logix-software.it/"
+                    class="navigationHamburger__link op-80"
+                  >
+                    > CRM su misura
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a
+                    href="https://wbp.logix-software.it/"
+                    class="navigationHamburger__link op-80"
+                  >
+                    > WBP su misura
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://sgm.logix-software.it/"
+                    class="navigationHamburger__link op-80"
+                  >
+                    > SGM su misura
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="position-relative py-2 py-lg-0 mb-4 mb-lg-0">
               <g-link to="/progetti" class="nav__link mx-3 py-3"
@@ -154,12 +221,12 @@
               </div>
             </li>
             <li class="mb-4">
-              <g-link
-                to="/competenze"
+              <span
+               
                 class="navigationHamburger__titleLink mb-3 d-inline-block"
               >
                 Prodotti
-              </g-link>
+              </span>
               <ul class="list-unstyled">
                 <li class="mb-2">
                   <a
@@ -288,6 +355,9 @@ export default {
 </script>
 
 <style lang="scss">
+.show-link {
+  display: none;
+}
 .hamburger-container {
   cursor: pointer;
   width: 50px;
@@ -370,6 +440,9 @@ export default {
     }
   }
 }
+.op-80{
+  opacity: 0.8;
+}
 .header {
   position: absolute;
   top: 0;
@@ -416,6 +489,9 @@ export default {
       @media screen and (max-width: 992px) {
         left: 0%;
         opacity: 1;
+      }
+      .show-link {
+        display: block;
       }
     }
   }
