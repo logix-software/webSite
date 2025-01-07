@@ -97,56 +97,93 @@
         <div
           class="col-lg-6 navigationHamburger__bg h-100 d-flex align-items-center pl-5"
         >
-          <ul class="list-unstyled pl-5">
+          <ul class="list-unstyled pl-4 w-100">
             <li class="mb-4">
               <g-link
                 to="/competenze"
-                class="navigationHamburger__titleLink mb-2 d-inline-block"
+                class="navigationHamburger__titleLink mb-3 d-inline-block"
               >
                 Competenze
               </g-link>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      <g-link
+                        to="/digital-transformation"
+                        class="navigationHamburger__link"
+                      >
+                        > Digital transformation
+                      </g-link>
+                    </li>
+                    <li class="mb-2">
+                      <g-link
+                        to="/sviluppo-web-and-mobile"
+                        class="navigationHamburger__link"
+                      >
+                        > Sviluppo Web & Mobile
+                      </g-link>
+                    </li>
+                    <li class="mb-2">
+                      <g-link
+                        to="/design-research-and-strategy"
+                        class="navigationHamburger__link"
+                      >
+                        > Design research & strategy
+                      </g-link>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      <g-link to="/web3" class="navigationHamburger__link"
+                        >> Progettazione Web3/NFT
+                      </g-link>
+                    </li>
+                    <li class="mb-2">
+                      <g-link
+                        to="/collaborative-team"
+                        class="navigationHamburger__link"
+                      >
+                        > Collaborative team
+                      </g-link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="mb-4">
+              <g-link
+                to="/competenze"
+                class="navigationHamburger__titleLink mb-3 d-inline-block"
+              >
+                Prodotti
+              </g-link>
               <ul class="list-unstyled">
                 <li class="mb-2">
-                  <g-link
-                    to="/digital-transformation"
+                  <a
+                    href="https://crm.logix-software.it/"
                     class="navigationHamburger__link"
                   >
-                    > Digital transformation
-                  </g-link>
+                    > CRM su misura
+                  </a>
                 </li>
                 <li class="mb-2">
-                  <g-link
-                    to="/sviluppo-web-and-mobile"
+                  <a
+                    href="https://wbp.logix-software.it/"
                     class="navigationHamburger__link"
                   >
-                    > Sviluppo Web & Mobile
-                  </g-link>
+                    > WBP su misura
+                  </a>
                 </li>
                 <li class="mb-2">
-                  <g-link
-                    to="/design-research-and-strategy"
+                  <a
+                    href="https://sgm.logix-software.it/"
                     class="navigationHamburger__link"
                   >
-                    > Design research & strategy
-                  </g-link>
-                </li>
-                <li class="mb-2">
-                  <g-link to="/web3" class="navigationHamburger__link"
-                    >> Progettazione Web3/NFT
-                  </g-link>
-                </li>
-                <!-- <li class="mb-2">
-                  <g-link to="/" class="navigationHamburger__link">
-                    > Branding
-                  </g-link>
-                </li> -->
-                <li class="mb-2">
-                  <g-link
-                    to="/collaborative-team"
-                    class="navigationHamburger__link"
-                  >
-                    > Collaborative team
-                  </g-link>
+                    > SGM su misura
+                  </a>
                 </li>
               </ul>
             </li>
@@ -524,7 +561,7 @@ export default {
   }
   &__link {
     color: #969696;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 27px;
     letter-spacing: -0.44px;
     &:hover {
