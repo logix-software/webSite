@@ -3,24 +3,101 @@
     <footer class="footer py-5">
       <div class="container">
         <div class="row">
+          <div class="col-lg-3">
+            <h5 class="mb-4 footer__title">Servizi</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <g-link to="/digital-transformation"
+                  >Digital transformation</g-link
+                >
+              </li>
+              <li class="mb-2">
+                <g-link to="/web3">Progettazione Web3/NFT</g-link>
+              </li>
+              <li class="mb-2">
+                <g-link to="/sviluppo-web-and-mobile"
+                  >Sviluppo web e mobile</g-link
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 mb-3 mb-lg-0">
+            <h5 class="mb-4 footer__title d-none d-lg-block">&nbsp</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <g-link to="/design-research-and-strategy">UX/UI design</g-link>
+              </li>
+              <li>
+                <g-link to="/collaborative-team">Collaborative team</g-link>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 mb-3 mb-lg-0">
+            <h5 class="mb-4 footer__title">Prodotti</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="https://crm.logix-software.it/">CRM su misura</a>
+              </li>
+              <li class="mb-2">
+                <a href="https://sgm.logix-software.it/">SGM su misura</a>
+              </li>
+              <li class="mb-2">
+                <a href="https://wbp.logix-software.it/">WBP</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h5 class="mb-4 footer__title">Su di noi</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <g-link to="/chi-siamo">Chi siamo</g-link>
+              </li>
+              <li>
+                <g-link to="/progetti">I progetti</g-link>
+              </li>
+            </ul>
+            <!-- <ul class="list-unstyled">
+              <li class="mb-2">
+                <a
+                  href="https://www.iubenda.com/privacy-policy/51005590"
+                  class="iubenda-black iubenda-embed iubenda-custom"
+                  title="Privacy Policy "
+                >
+                  Privacy & Cookie Policy
+                </a>
+              </li>
+              <li>
+                <a href="/note-legali"> Condizioni Generali di Contratto </a>
+              </li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+      <div class="container h-px bg-secondary my-5"></div>
+      <div class="container">
+        <div class="row">
           <div class="col-lg-3 mb-3 mb-lg-0">
             <div class="pr-lg-5">
-              <h3 class="mb-4 footer__title">Passa da noi</h3>
-              <h6 class="footer__titleSmall">A Terni</h6>
+              <h5 class="mb-4 footer__title">A Terni</h5>
               <p>Via di Porta San Giovanni, 28 - 05100 Terni (TR)</p>
-              <h6 class="footer__titleSmall">A Roma</h6>
+            </div>
+          </div>
+          <div class="col-lg-3 mb-3 mb-lg-0">
+            <div class="pr-lg-5">
+              <h5 class="mb-4 footer__title">A Roma</h5>
               <p>Via Montenero Sabino, 50 - 00131 Roma (RM)</p>
             </div>
           </div>
           <div class="col-lg-3 mb-3 mb-lg-0">
-            <h5 class="mb-4 footer__title">Scrivici</h5>
+            <h5 class="mb-4 footer__title">Contattaci</h5>
             <p>
               <a href="mailto:info@logixcorp.it">info@logixcorp.it</a>
             </p>
-            <h5 class="mb-4 footer__title">Chiamaci</h5>
             <p>
               <a href="tel:+0744283733">0744/283733</a>
             </p>
+          </div>
+          <div class="col-lg-3 mb-3 mb-lg-0">
             <h5 class="mb-4 footer__title">Seguici</h5>
             <ul class="list-unstyled d-flex">
               <li>
@@ -97,74 +174,36 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-3 mb-3 mb-lg-0">
-            <h5 class="mb-4 footer__title">Servizi</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2">
-                <g-link to="/digital-transformation"
-                  >Digital transformation</g-link
-                >
-              </li>
-              <li class="mb-2">
-                <g-link to="/web3">Progettazione Web3/NFT</g-link>
-              </li>
-              <li class="mb-2">
-                <g-link to="/sviluppo-web-and-mobile">Sviluppo web e mobile</g-link>
-              </li>
-              <li class="mb-2">
-                <g-link to="/design-research-and-strategy">UX/UI design</g-link>
-              </li>
-              <!-- <li class="mb-2">
-                <g-link to="/">Branding</g-link>
-              </li> -->
-              <li>
-                <g-link to="/collaborative-team">Collaborative team</g-link>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-3 mb-3 mb-lg-0">
-            <h5 class="mb-4 footer__title">Su di noi</h5>
-            <ul class="list-unstyled mb-5">
-              <li class="mb-2">
-                <g-link to="/chi-siamo">Chi siamo</g-link>
-              </li>
-              <li>
-                <g-link to="/progetti">I progetti</g-link>
-              </li>
-            </ul>
-            <ul class="list-unstyled">
-              <li class="mb-2">
-                <a
-                  href="https://www.iubenda.com/privacy-policy/51005590"
-                  class="iubenda-black iubenda-embed iubenda-custom"
-                  title="Privacy Policy "
-                >
-                  Privacy & Cookie Policy
-                </a>
-              </li>
-              <li>
-                <a href="/note-legali"> Condizioni Generali di Contratto </a>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </footer>
-    <div class="subfooter d-flex align-items-center">
+    <div class="subfooter py-4">
       <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
+          <div class="col-lg-4 mb-3 mb-lg-0 text-center text-lg-left">
+            <span>
+              © Copyright {{ new Date().getFullYear() }} Logix Srl - P.iva:
+              01388050559
+            </span>
+          </div>
+
+          <div class="col-lg-4 mb-3 mb-lg-0 d-flex justify-content-center">
+            <a
+              href="https://www.iubenda.com/privacy-policy/51005590"
+              class="iubenda-black iubenda-embed iubenda-custom text-white mr-2"
+              title="Privacy Policy"
+            >
+              Privacy & Cookie Policy
+            </a>
+
+            <a href="/note-legali" class="text-white">
+              Condizioni Generali di Contratto
+            </a>
+          </div>
           <div
-            class="
-              col-lg-12
-              d-lg-flex
-              align-items-center
-              justify-content-between
-            "
+            class="col-lg-4 mb-3 mb-lg-0 d-flex justify-content-center justify-lg-content-end"
           >
-            <p class="mb-3 mb-lg-0">
-              © Copyright {{ new Date().getFullYear() }} - Logix Srl
-            </p>
-            <p>P.iva: 01388050559</p>
+            <g-image src="~/assets/images/logo-footer.png" class="w-16rem" />
           </div>
         </div>
       </div>
@@ -182,14 +221,8 @@ export default {
 .subfooter {
   background-color: #000000;
   color: #fff;
-  height: 82px;
-  @media screen and (max-width: 992px) {
-    height: 120px;
-  }
-  p {
-    font-size: 16px;
-    margin-bottom: 0;
-  }
+
+  font-size: 12px;
 }
 .footer {
   background-color: #141414;
@@ -213,6 +246,7 @@ export default {
     font-size: 28px;
     line-height: 24px;
     letter-spacing: -0.5px;
+    font-family: "DM Sans";
   }
   &__titleSmall {
     font-weight: 500;
@@ -220,5 +254,12 @@ export default {
     line-height: 27px;
     letter-spacing: -0.44px;
   }
+}
+.h-px {
+  height: 1px;
+  opacity: 0.1;
+}
+.w-16rem {
+  width: 16rem;
 }
 </style>
