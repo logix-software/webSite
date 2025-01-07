@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-lg-3">
             <h5 class="mb-4 footer__title">Servizi</h5>
-            <ul class="list-unstyled">
+            <ul class="list-unstyled mb-2">
               <li class="mb-2">
                 <g-link to="/digital-transformation"
                   >Digital transformation</g-link
@@ -14,7 +14,7 @@
               <li class="mb-2">
                 <g-link to="/web3">Progettazione Web3/NFT</g-link>
               </li>
-              <li class="mb-2">
+              <li class="mb-lg-2">
                 <g-link to="/sviluppo-web-and-mobile"
                   >Sviluppo web e mobile</g-link
                 >
@@ -221,10 +221,11 @@ export default {
 .subfooter {
   background-color: #000000;
   color: #fff;
-
+  font-family: "DM Sans";
   font-size: 12px;
 }
 .footer {
+  font-family: "Lexend Deca";
   background-color: #141414;
   color: #fff;
   font-size: 16px;
