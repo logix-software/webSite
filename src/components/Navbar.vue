@@ -39,45 +39,51 @@
               >
             </li>
             <li class="position-relative py-2 py-lg-0">
-              <g-link to="/competenze" class="nav__link mx-3 pb-3 d-inline-block">
+              <g-link
+                to="/competenze"
+                class="nav__link mx-3 pb-3 pb-lg-0 d-inline-block"
+              >
                 Competenze
               </g-link>
-              <ul class="list-unstyled pl-4 d-inline-block">
+              <ul class="list-unstyled pl-4 d-lg-none">
                 <li class="mb-2">
-                      <g-link
-                        to="/digital-transformation"
-                        class="navigationHamburger__link op-80"                      >
-                        > Digital transformation
-                      </g-link>
-                    </li>
-                    <li class="mb-2">
-                      <g-link
-                        to="/sviluppo-web-and-mobile"
-                        class="navigationHamburger__link op-80"                      >
-                        > Sviluppo Web & Mobile
-                      </g-link>
-                    </li>
-                    <li class="mb-2">
-                      <g-link
-                        to="/design-research-and-strategy"
-                        class="navigationHamburger__link op-80"                      >
-                        > Design research & strategy
-                      </g-link>
-                    </li>
-                    <li class="mb-2">
-                      <g-link to="/web3" class="navigationHamburger__link op-80"
-                        >> Progettazione Web3/NFT
-                      </g-link>
-                    </li>
-                    <li class="mb-2">
-                      <g-link
-                        to="/collaborative-team"
-                        class="navigationHamburger__link op-80"                      >
-                        > Collaborative team
-                      </g-link>
-                    </li>
+                  <g-link
+                    to="/digital-transformation"
+                    class="navigationHamburger__link op-80"
+                  >
+                    > Digital transformation
+                  </g-link>
+                </li>
+                <li class="mb-2">
+                  <g-link
+                    to="/sviluppo-web-and-mobile"
+                    class="navigationHamburger__link op-80"
+                  >
+                    > Sviluppo Web & Mobile
+                  </g-link>
+                </li>
+                <li class="mb-2">
+                  <g-link
+                    to="/design-research-and-strategy"
+                    class="navigationHamburger__link op-80"
+                  >
+                    > Design research & strategy
+                  </g-link>
+                </li>
+                <li class="mb-2">
+                  <g-link to="/web3" class="navigationHamburger__link op-80"
+                    >> Progettazione Web3/NFT
+                  </g-link>
+                </li>
+                <li class="mb-2">
+                  <g-link
+                    to="/collaborative-team"
+                    class="navigationHamburger__link op-80"
+                  >
+                    > Collaborative team
+                  </g-link>
+                </li>
               </ul>
-          
             </li>
             <li class="position-relative py-2 py-lg-0 show-link">
               <span class="text-white nav__link mx-3 pb-3 d-inline-block">
@@ -221,10 +227,7 @@
               </div>
             </li>
             <li class="mb-4">
-              <span
-               
-                class="navigationHamburger__titleLink mb-3 d-inline-block"
-              >
+              <span class="navigationHamburger__titleLink mb-3 d-inline-block">
                 Prodotti
               </span>
               <ul class="list-unstyled">
@@ -440,7 +443,7 @@ export default {
     }
   }
 }
-.op-80{
+.op-80 {
   opacity: 0.8;
 }
 .header {
