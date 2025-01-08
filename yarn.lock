@@ -6371,7 +6371,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gridsome@npm:^0.7.0":
+"gridsome@npm:^0.7.23":
   version: 0.7.23
   resolution: "gridsome@npm:0.7.23"
   dependencies:
@@ -9029,7 +9029,7 @@ __metadata:
     "@gridsome/plugin-sitemap": ^0.2.3
     "@gridsome/source-filesystem": ^0.6.2
     "@gridsome/transformer-remark": ^0.4.0
-    gridsome: ^0.7.0
+    gridsome: ^0.7.23
     node-sass: ^4.13.1
     sass-loader: ^8.0.2
   languageName: unknown
