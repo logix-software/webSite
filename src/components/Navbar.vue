@@ -469,6 +469,7 @@ export default {
     &__link {
       position: relative;
       font-size: 18px;
+      font-family: "DM Sans";
       @media screen and (max-width: 992px) {
         font-size: 24px;
       }

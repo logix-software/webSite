@@ -245,6 +245,7 @@ h6 {
 }
 .btn-gradient-border {
   position: relative;
+  font-family: "DM Sans";
   border-radius: 5px;
   padding: 0.675rem 1.4rem !important;
   border: 0;
