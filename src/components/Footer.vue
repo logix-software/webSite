@@ -42,7 +42,7 @@
                 <a href="https://sgm.logix-software.it/">SGM su misura</a>
               </li>
               <li class="mb-2">
-                <a href="https://wbp.logix-software.it/">WBP</a>
+                <a href="https://wbp.logix-software.it/">WBP su misura</a>
               </li>
             </ul>
           </div>
