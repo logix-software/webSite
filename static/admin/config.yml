@@ -657,6 +657,19 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Date", name: "date", widget: "datetime" }
+  - name: "posts"
+    label: "Posts"
+    folder: "posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "author", name: "author", widget: "string" }
+      - { label: "UrlVideo", name: "urlVideo", widget: "string" }
+      - { label: "image", name: "image", widget: "image" }
+      - { label: "Abstract", name: "abstract", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Date", name: "date", widget: "datetime" }
   - name: "listPartners"
     label: "Lista partners"
     folder: "listPartners"
