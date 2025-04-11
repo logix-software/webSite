@@ -50,7 +50,6 @@ module.exports = {
         path: 'posts/**/*.md',
         typeName: 'Posts',
         remark: {
-          // remark options
         }
       }
     },
