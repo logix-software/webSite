@@ -47,6 +47,15 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        path: 'posts/**/*.md',
+        typeName: 'Posts',
+        remark: {
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         path: 'listPartners/**/*.md',
         typeName: 'ListPartners',
         remark: {
