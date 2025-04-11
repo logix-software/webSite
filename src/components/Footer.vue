@@ -187,18 +187,37 @@
             </span>
           </div>
 
-          <div class="col-lg-4 mb-3 mb-lg-0 d-flex justify-content-center">
-            <a
-              href="https://www.iubenda.com/privacy-policy/51005590"
-              class="iubenda-black iubenda-embed iubenda-custom text-white mr-2"
-              title="Privacy Policy"
-            >
-              Privacy & Cookie Policy
-            </a>
-
-            <a href="/note-legali" class="text-white">
-              Condizioni Generali di Contratto
-            </a>
+          <div class="col-lg-4 mb-3 mb-lg-0 text-center">
+            <div class="d-flex justify-content-center">
+              <a
+                href="https://www.iubenda.com/privacy-policy/51005590"
+                class="iubenda-black iubenda-embed iubenda-custom text-white mr-2"
+                title="Privacy Policy"
+              >
+                Privacy
+              </a>
+              &nbsp;
+              <a
+                href="https://www.iubenda.com/privacy-policy/51005590/cookie-policy"
+                class="iubenda-black iubenda-embed iubenda-custom text-white mr-2"
+                title="Privacy Policy"
+              >
+                Cookie Policy
+              </a>
+              &nbsp;
+              <a
+                href="https://www.iubenda.com/termini-e-condizioni/51005590"
+                class="iubenda-black iubenda-embed iubenda-custom text-white mr-2"
+                title="Privacy Policy"
+              >
+                Termini e condizioni
+              </a>
+            </div>
+            <div>
+              <a href="/note-legali" class="text-white">
+                Condizioni Generali di Contratto
+              </a>
+            </div>
           </div>
           <div
             class="col-lg-4 mb-3 mb-lg-0 d-flex justify-content-center justify-lg-content-end"
