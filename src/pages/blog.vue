@@ -18,19 +18,21 @@
       <button class="button-tag mr-2">Dev</button>
     </div>
     <div class="container">
+
       <div class="row">
         <ParallaxContainer
-          v-for="(blog, index) in 5"
+          v-for="(post, index) in $page.posts.edges"
           :key="index"
           class="col-lg-6 mb-5"
         >
           <ParallaxElement :factor="getFactor(index + 1)">
             <CardBlog
               time="10 min"
-              title="Lorem ipsum "
-              abstract="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
-              img="https://picsum.photos/200/300"
-              link="https://picsum.photos/200/300"
+              :title="post.node.title"
+              :abstract="post.node.abstract"
+              :img="post.node.image"
+              :tag="post.node.tag"
+              :link="post.node.path"
               :index="index + 1"
             />
           </ParallaxElement>
@@ -40,6 +42,20 @@
     <Footer></Footer>
   </div>
 </template>
+<page-query>
+  query {
+    posts: allPosts(order: DESC) {
+      edges {
+        node {
+          title
+          author
+          image
+          abstract
+        }
+      }
+    },
+  }
+  </page-query>
 
 <script>
 import Navbar from "~/components/Navbar.vue";
