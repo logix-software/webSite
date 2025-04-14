@@ -4,8 +4,8 @@
     <div class="container main-container">
       <span class="button-tag mb-2 d-inline-block">{{ $page.post.tag }}</span>
       <h1 class="post__title">{{ $page.post.title }}</h1>
-      <div class="d-flex align-items-center justify-content-between mb-5">
-        <div class="d-flex align-items-center">
+      <div class="d-lg-flex align-items-center justify-content-between mb-5">
+        <div class="d-flex align-items-center mb-2 mb-lg-0">
           <span class="post__author mr-2 d-inline-flex align-items-center">
             <span class="post__small d-inline-block mr-1">By</span>
             {{ $page.post.author }}

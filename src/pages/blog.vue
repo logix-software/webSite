@@ -8,21 +8,26 @@
       </p>
     </div>
     <div class="container d-flex mb-5 pb-5 tag-container">
-      <button class="button-tag mr-2 button-tag--active">Tutte</button>
+      <button 
+        class="button-tag mr-2" 
+        :class="{'button-tag--active': selectedTag === 'all'}"
+        @click="selectedTag = 'all'"
+      >Tutte</button>
 
-      <button class="button-tag mr-2">Case Study</button>
-      <button class="button-tag mr-2">Interviste</button>
-      <button class="button-tag mr-2">Mondo digital</button>
-      <button class="button-tag mr-2">AI</button>
-      <button class="button-tag mr-2">Design</button>
-      <button class="button-tag mr-2">Dev</button>
+      <button 
+        v-for="tag in availableTags" 
+        :key="tag" 
+        class="button-tag mr-2" 
+        :class="{'button-tag--active': selectedTag === tag}"
+        @click="selectedTag = tag"
+      >{{ tag }}</button>
     </div>
     <div class="container mb-5 pb-5">
 
       <div class="row">
         <ParallaxContainer
-          v-for="(post, index) in $page.posts.edges"
-          :key="index"
+          v-for="(post, index) in filteredPosts"
+          :key="post.node.path"
           class="col-lg-6 mb-5"
         >
           <ParallaxElement :factor="getFactor(index + 1)" class="pt-5">
@@ -72,13 +77,13 @@ export default {
       {
         name: "description",
         content:
-          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
+          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell'ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
       },
       { property: "og:title", content: "Blog - Logix Software" },
       {
         property: "og:description",
         content:
-          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
+          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell'ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
       },
       {
         property: "og:image",
@@ -95,7 +100,7 @@ export default {
       {
         property: "twitter:description",
         content:
-          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
+          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell'ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
       },
       {
         property: "twitter:image",
@@ -115,7 +120,22 @@ export default {
   data() {
     return {
       scrollTop: 0,
+      selectedTag: 'all',
     };
+  },
+  computed: {
+    filteredPosts() {
+      if (this.selectedTag === 'all') {
+        return this.$page.posts.edges;
+      }
+      return this.$page.posts.edges.filter(post => 
+        post.node.tag === this.selectedTag
+      );
+    },
+    availableTags() {
+      const tags = this.$page.posts.edges.map(post => post.node.tag);
+      return [...new Set(tags)];
+    }
   },
   mounted() {
     var _this = this;
