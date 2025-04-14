@@ -17,7 +17,7 @@
       <button class="button-tag mr-2">Design</button>
       <button class="button-tag mr-2">Dev</button>
     </div>
-    <div class="container">
+    <div class="container mb-5 pb-5">
 
       <div class="row">
         <ParallaxContainer
@@ -25,7 +25,6 @@
           :key="index"
           class="col-lg-6 mb-5"
         >
-        {{ post }}
           <ParallaxElement :factor="getFactor(index + 1)" class="pt-5">
             <CardBlog
               time="10 min"
@@ -52,6 +51,8 @@
           author
           image
           abstract
+          tag
+          path
         }
       }
     },
@@ -65,6 +66,45 @@ import ParallaxElement from "~/components/ParallaxElement.vue";
 import ParallaxContainer from "~/components/ParallaxContainer.vue";
 import Footer from "~/components/Footer.vue";
 export default {
+  metaInfo: {
+    title: "Blog - Logix Software",
+    meta: [
+      {
+        name: "description",
+        content:
+          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
+      },
+      { property: "og:title", content: "Blog - Logix Software" },
+      {
+        property: "og:description",
+        content:
+          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
+      },
+      {
+        property: "og:image",
+        content: "https://www.logix-software.it/uploads/share.jpg",
+      },
+      {
+        property: "twitter:card",
+        content: "summary",
+      },
+      {
+        property: "twitter:title",
+        content: "Blog - Logix Software",
+      },
+      {
+        property: "twitter:description",
+        content:
+          "Logix Software collabora da più di 10 anni con aziende ed istituzioni nell’ambito industriale, scolastico, sanitario e logistico, per lo sviluppo di progetti web e mobile.",
+      },
+      {
+        property: "twitter:image",
+        content: "https://www.logix-software.it/uploads/share.jpg",
+      },
+      { property: "og:url", content: "https://www.logix-software.it/blog" },
+      { name: "robots", content: "index, follow" },
+    ],
+  },
   components: {
     Navbar,
     CardBlog,
@@ -98,6 +138,7 @@ export default {
 <style lang="scss" scoped>
 .hero {
   padding-top: 10rem;
+
   &__title {
     font-size: 105px;
     font-family: "Lexend Deca";
