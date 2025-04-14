@@ -28,7 +28,7 @@
       >
         {{ abstract }}
       </p>
-      <button class="button-tag mr-2 button-tag--active">Tutte</button>
+      <button class="button-tag mr-2 button-tag--active">{{ tag }}</button>
     </div>
     <g-link :to="link" class="cardBlog__link"></g-link>
   </div>
@@ -68,7 +68,7 @@ export default {
       required: false,
       default: () => undefined,
     },
-    hashtag: {
+    tag: {
       type: String,
       required: false,
       default: () => undefined,
