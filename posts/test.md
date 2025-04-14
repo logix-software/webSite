@@ -1,5 +1,6 @@
 ---
 title: test
+tag: AI
 author: Susanna
 urlVideo: https://google.com
 image: /uploads/abiuno-_-composition-03.png
