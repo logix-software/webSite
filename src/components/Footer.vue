@@ -213,7 +213,7 @@
                 Termini e condizioni
               </a>
             </div>
-            <div>
+            <div class=" pt-1">
               <a href="/note-legali" class="text-white">
                 Condizioni Generali di Contratto
               </a>
