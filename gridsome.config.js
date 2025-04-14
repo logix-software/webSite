@@ -47,7 +47,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'posts/**/*.md',
+        path: 'blog/**/*.md',
         typeName: 'Posts',
         remark: {
         }
@@ -233,7 +233,15 @@ module.exports = {
             changefreq: 'monthly',
             priority: 0.8
           },
+          '/blog/*': {
+            changefreq: 'monthly',
+            priority: 0.9
+          },
           '/competenze': {
+            changefreq: 'weekly',
+            priority: 0.9
+          },
+          '/blog': {
             changefreq: 'weekly',
             priority: 0.9
           },

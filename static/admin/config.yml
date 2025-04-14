@@ -659,7 +659,7 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
   - name: "posts"
     label: "Posts"
-    folder: "posts"
+    folder: "blog"
     create: true
     slug: "{{slug}}"
     fields:
