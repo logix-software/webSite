@@ -25,7 +25,8 @@
           :key="index"
           class="col-lg-6 mb-5"
         >
-          <ParallaxElement :factor="getFactor(index + 1)">
+        {{ post }}
+          <ParallaxElement :factor="getFactor(index + 1)" class="pt-5">
             <CardBlog
               time="10 min"
               :title="post.node.title"
