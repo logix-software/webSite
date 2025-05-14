@@ -3,7 +3,7 @@
     <div class="cardBlog__img mb-4" :class="getClassHeight">
       <img :src="img" :alt="title" />
     </div>
-    <div class="col-lg-8">
+    <div class="col-lg-9 cardBlog__content">
       <h2
         class="cardBlog__title"
         :class="{
@@ -111,6 +111,10 @@ export default {
 }
 .cardBlog {
   font-family: "DM Sans";
+  &__content {
+    width: 100%;
+    min-width: 75%;
+  }
   &__time {
     font-size: 20px;
     color: rgba(121, 121, 121, 1);
