@@ -23,7 +23,6 @@
       >{{ tag }}</button>
     </div>
     <div class="container mb-5 pb-5">
-
       <div class="row">
         <ParallaxContainer
           v-for="(post, index) in filteredPosts"
