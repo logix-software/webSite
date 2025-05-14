@@ -8,7 +8,7 @@
         <div class="d-flex align-items-center mb-2 mb-lg-0">
           <span class="post__author mr-2 d-inline-flex align-items-center">
             <span class="post__small d-inline-block mr-1">By</span>
-            {{ $page.post.author }}
+            <i>{{ $page.post.author }}</i>
           </span>
           <span class="post__time d-inline-flex align-items-center">
             <g-image src="~/assets/images/icons/time.svg" class="icon mr-1" />10
@@ -91,7 +91,7 @@
       </div>
       <img :src="$page.post.image" alt="post image" class="post__image" />
       <div class="post__content my-5 py-5">
-        <div v-html="$page.post.content"></div>
+        <div v-html="$page.post.content" class="content-wrapper"></div>
       </div>
     </div>
     <Footer></Footer>
@@ -256,6 +256,8 @@ export default {
   font-size: 72px;
   color: #000;
   font-family: "Lexend Deca";
+  font-weight: 700;
+  width: 60%;
 }
 .post__author {
   font-size: 20px;
@@ -292,6 +294,34 @@ export default {
     height: 300px !important;
     width: auto !important;
     object-fit: contain !important;
+  }
+}
+
+::v-deep(.content-wrapper) {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+
+::v-deep(.content-wrapper h2) {
+  padding-top: 100px !important;
+  padding-bottom: 35px !important;
+}
+
+::v-deep(.content-wrapper h1) {
+  padding-bottom: 35px !important;
+}
+
+::v-deep(.content-wrapper p) {
+  font-family: "Lexend Deca" !important;
+  font-size: 26px !important;
+  font-weight: 400 !important;
+  color: #000 !important;
+}
+
+@media (max-width: 768px) {
+  ::v-deep(.content-wrapper) {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
   }
 }
 
