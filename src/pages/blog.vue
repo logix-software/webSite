@@ -162,10 +162,15 @@ export default {
     font-size: 105px;
     font-family: "Lexend Deca";
     color: #000;
+    font-weight: 600;
+    letter-spacing: -0.15rem;
   }
   &__subtitle {
     font-size: 26px;
     color: #797979;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.4px;
   }
 }
 .button-tag {
