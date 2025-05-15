@@ -209,10 +209,36 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
       </svg>
     </div>
 
-```
-
-```
-
+<div style="
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 5px;
+    ">
+      <div style="
+        font-family: 'Lexend Deca';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 55px;
+        letter-spacing: -1.5px;
+        color: var(--Indigo-900, #03033D);
+      ">
+        67 Giornate
+      </div>
+      <div style="
+        font-family: 'Lexend Deca';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 55px;
+        letter-spacing: -1.5px;
+        color: var(--Indigo-300, #7878F9);
+      ">
+        design e sviluppo
+      </div>
+    </div>
   </div>
 
   <!-- Linea di separazione -->
