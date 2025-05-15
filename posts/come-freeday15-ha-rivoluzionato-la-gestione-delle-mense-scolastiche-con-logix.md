@@ -282,6 +282,18 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
 
 
 
+<div style="
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+  border-radius: 20px;
+  background: #141414;
+">
+
  <div style="display: flex; align-items: center; gap: 10px;">
     <svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" viewBox="0 0 36 25" fill="none">
       <path fill-rule="evenodd" clip-rule="evenodd" d="M1.31684 24.3022C0.766201 24.3022 0.446289 23.6794 0.767022 23.2318L8.44312 12.5196C8.6122 12.2836 8.61187 11.9661 8.44231 11.7305L0.771171 1.07153C0.449147 0.624083 0.768903 0 1.32018 0H5.92481C6.14237 0 6.34665 0.104648 6.47376 0.281214L14.7161 11.7304C14.8858 11.966 14.8861 12.2836 14.7169 12.5196L6.4737 24.0198C6.34666 24.1971 6.14198 24.3022 5.92393 24.3022H1.31684Z" fill="white"/>
