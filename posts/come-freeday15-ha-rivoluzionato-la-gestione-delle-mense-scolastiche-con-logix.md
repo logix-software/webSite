@@ -106,8 +106,6 @@ Tutto il sistema è stato progettato in modo modulare per:
 * Scalare senza impatti
 * Semplificare la gestione e la manutenzione nel tempo.
 
-![Ecosystem map old gestione mense](/uploads/ecosystem-map-old.png)
-
 ![Ecosystem map new gestione mense](/uploads/ecosystem-map.png)
 
 ## **I Risultati: impatto misurabile e user adoption**
