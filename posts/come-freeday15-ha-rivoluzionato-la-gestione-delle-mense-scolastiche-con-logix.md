@@ -170,58 +170,49 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
   padding: 60px 30px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 30px;
+  align-items: flex-start;
+  gap: 20px;
   align-self: stretch;
   border-radius: 20px;
   background: var(--Indigo-050, #EAEAFE);
 ">
-  <!-- Icona + Titolo -->
+  <!-- Icona + Titoli -->
   <div style="
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 100%;
-    max-width: 1095px;
-    height: 113px;
-    font-family: 'Lexend Deca';
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 55px;
-    letter-spacing: -1.5px;
-    color: var(--Indigo-900, #03033D);
   ">
-    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none" style="
-      width: 16.818px;
-      height: 16.818px;
+    <div style="
+      display: flex;
+      width: 45px;
+      height: 45px;
+      padding: 15px 13.682px 13.182px 14.5px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 13.636px;
+      border: 1px solid var(--Indigo-100, #C9C9FD);
+      background: rgba(169, 169, 251, 0.10);
       flex-shrink: 0;
     ">
-      <g clip-path="url(#clip0_38_1098)">
-        <path d="M14.7159 7.00743H2.10226M11.2121 1.40137V4.2044M5.60605 1.40137V4.2044M5.4659 15.4165H11.3523C12.5296 15.4165 13.1183 15.4165 13.568 15.1874C13.9636 14.9858 14.2852 14.6642 14.4868 14.2687C14.7159 13.819 14.7159 13.2303 14.7159 12.0529V6.16652C14.7159 4.98914 14.7159 4.40044 14.4868 3.95074C14.2852 3.55518 13.9636 3.23357 13.568 3.03202C13.1183 2.80288 12.5296 2.80288 11.3523 2.80288H5.4659C4.28852 2.80288 3.69983 2.80288 3.25013 3.03202C2.85456 3.23357 2.53295 3.55518 2.3314 3.95074C2.10226 4.40044 2.10226 4.98914 2.10226 6.16652V12.0529C2.10226 13.2303 2.10226 13.819 2.3314 14.2687C2.53295 14.6642 2.85456 14.9858 3.25013 15.1874C3.69983 15.4165 4.28852 15.4165 5.4659 15.4165Z" stroke="#A9A9FB" stroke-width="1.40152" stroke-linecap="round" stroke-linejoin="round"/>
-      </g>
-      <defs>
-        <clipPath id="clip0_38_1098">
-          <rect width="16.8182" height="16.8182" fill="white"/>
-        </clipPath>
-      </defs>
-    </svg>
-    <span>67 Giornate</span>
-  </div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none" style="
+        width: 16.818px;
+        height: 16.818px;
+      ">
+        <g clip-path="url(#clip0_38_1098)">
+          <path d="M14.7159 7.00743H2.10226M11.2121 1.40137V4.2044M5.60605 1.40137V4.2044M5.4659 15.4165H11.3523C12.5296 15.4165 13.1183 15.4165 13.568 15.1874C13.9636 14.9858 14.2852 14.6642 14.4868 14.2687C14.7159 13.819 14.7159 13.2303 14.7159 12.0529V6.16652C14.7159 4.98914 14.7159 4.40044 14.4868 3.95074C14.2852 3.55518 13.9636 3.23357 13.568 3.03202C13.1183 2.80288 12.5296 2.80288 11.3523 2.80288H5.4659C4.28852 2.80288 3.69983 2.80288 3.25013 3.03202C2.85456 3.23357 2.53295 3.55518 2.3314 3.95074C2.10226 4.40044 2.10226 4.98914 2.10226 6.16652V12.0529C2.10226 13.2303 2.10226 13.819 2.3314 14.2687C2.53295 14.6642 2.85456 14.9858 3.25013 15.1874C3.69983 15.4165 4.28852 15.4165 5.4659 15.4165Z" stroke="#A9A9FB" stroke-width="1.40152" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <defs>
+          <clipPath id="clip0_38_1098">
+            <rect width="16.8182" height="16.8182" fill="white"/>
+          </clipPath>
+        </defs>
+      </svg>
+    </div>
 
-  <!-- Sottotitolo -->
+```
 
-  <div style="
-    font-family: 'Lexend Deca';
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 55px;
-    letter-spacing: -1.5px;
-    color: var(--Indigo-300, #7878F9);
-    text-align: center;
-  ">
-    design e sviluppo
+```
+
   </div>
 
   <!-- Linea di separazione -->
@@ -230,7 +221,7 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
     width: 100%;
     height: 1px;
     background: rgba(120, 120, 249, 0.3);
-    margin: 20px 0;
+    margin: 10px 0;
   "></div>
 
   <!-- Tabella -->
