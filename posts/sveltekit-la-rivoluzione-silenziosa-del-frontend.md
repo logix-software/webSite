@@ -44,6 +44,9 @@ Con SvelteKit puoi scrivere sia frontend che backend nello stesso progetto, graz
 Ecco un esempio di componente `HelloWorld.svelte`:
 
 ```svelte
+
+```
+
 <div style="
   display: flex;
   padding: 30px 40px;
@@ -62,5 +65,3 @@ Ecco un esempio di componente `HelloWorld.svelte`:
     "Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporre soluzioni concrete. Non si limitano a realizzare ciò che chiediamo, ma ci aiutano a migliorarlo. Collaborare con loro ci ha permesso di fare scelte più consapevoli, ottimizzare i flussi e ottenere risultati tangibili in tempi rapidi."
   </p>
 </div>
-
-```
