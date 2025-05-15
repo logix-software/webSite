@@ -153,9 +153,9 @@ Ecco un esempio di componente `HelloWorld.svelte`:
   onmousedown="this.style.transform='scale(0.96)';"
   onmouseup="this.style.transform='scale(1)'"
 
-```
-
-```
-
   </a>
 </div>
+
+```
+
+```
