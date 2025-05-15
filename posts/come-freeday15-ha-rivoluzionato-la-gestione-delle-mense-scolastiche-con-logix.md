@@ -69,13 +69,11 @@ Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dett
 
 ## **La Soluzione: razionalizzazione, coerenza, scalabilità**
 
-Prima: tre strumenti disallineati, curve di apprendimento elevate, inefficienze operative 
+**Prima**: tre strumenti disallineati, curve di apprendimento elevate, inefficienze operative 
 
-\
-Dopo: un’unica piattaforma modulare con processi integrati  
+**Dopo**: un’unica piattaforma modulare con processi integrati  
 
-\
-Bridge: Partendo dalla piattaforma sviluppata insieme e già in uso dagli operatori di Authentica e dalla progressive app pensata per gli utenti finali, Logix ha ri-progettato insieme a Freeday una soluzione che accorpa: 
+**Bridge**: Partendo dalla piattaforma sviluppata insieme e già in uso dagli operatori di Authentica e dalla progressive app pensata per gli utenti finali, Logix ha ri-progettato insieme a Freeday una soluzione che accorpa: 
 
 * La gestione back-office sia per l’organizzazione delle mense, dei menù, della programmazione dei pasti e delle preparazioni; che per tutta la gestione delle comunicazioni e delle news rivolte agli utenti finali attraverso un sistema CMS;
 * L’app mobile per le famiglie, da cui fruire di tutti i contenuti prodotti e la visualizzazione del calendario menù con le specifiche su pasti e prodotti.
@@ -279,8 +277,6 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
     </div>
   </div>
 </div>
-
-
 
  <div style="display: flex; align-items: center; gap: 10px;">
     <svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" viewBox="0 0 36 25" fill="none">
