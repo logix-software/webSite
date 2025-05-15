@@ -50,7 +50,7 @@ Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dett
       font-weight: 500;
       line-height: 38.5px;
       letter-spacing: -1.25px;
-    ">La voce del cliente</strong>
+    ">Una frase emblematica emersa durante i lavori</strong>
   </div>
   <p style="
     margin: 0;
@@ -61,7 +61,7 @@ Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dett
     line-height: 36px;
     letter-spacing: -0.4px;
   ">
-    "Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporre soluzioni concrete. Non si limitano a realizzare ciò che chiediamo, ma ci aiutano a migliorarlo. Collaborare con loro ci ha permesso di fare scelte più consapevoli, ottimizzare i flussi e ottenere risultati tangibili in tempi rapidi."
+    “Genitori, operatori delle mense e referenti territoriali non operano in compartimenti stagni. Fanno parte di un ecosistema interconnesso che va gestito in modo integrato e fluido.”
   </p>
 </div>
 
@@ -109,3 +109,60 @@ Tutto il sistema è stato progettato in modo modulare per:
 * Rilasciare nuove funzionalità più rapidamente
 * Scalare senza impatti
 * Semplificare la gestione e la manutenzione nel tempo.
+
+![Ecosystem map old gestione mense](/uploads/ecosystem-map-old.png)
+
+![Ecosystem map new gestione mense](/uploads/ecosystem-map.png)
+
+## I Risultati: impatto misurabile e user adoption
+
+↓ 40% tempo speso in gestione operativa
+
+↑ +60% efficienza nella comunicazione con i genitori
+
+↓ 70% tempo medio di pubblicazione di avvisi e news
+
+Onboarding nuovi operatori ridotto del 50%
+
+<div style="
+  display: flex;
+  padding: 30px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 20px;
+  background: var(--Indigo-050, #EAEAFE);
+">
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona cliente Freeday15" style="width: 60px; height: 60px;">
+    <strong style="
+      font-family: 'Lexend Deca';
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 38.5px;
+      letter-spacing: -1.25px;
+    ">La voce del cliente</strong>
+  </div>
+  <p style="
+    margin: 0;
+    font-family: 'DM Sans';
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.4px;
+  ">
+    "Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporre soluzioni concrete. Non si limitano a realizzare ciò che chiediamo, ma ci aiutano a migliorarlo. Collaborare con loro ci ha permesso di fare scelte più consapevoli, ottimizzare i flussi e ottenere risultati tangibili in tempi rapidi."
+  </p>
+</div>
+
+## Collaborazione e cultura: i valori che hanno fatto la differenza
+
+La cultura condivisa, la collaborazione costante, la disponibilità e la professionalità dei team ha permesso anche questa volta una corretta integrazione nei workflow e nelle modalità operative di Freeday. 
+
+* Mentalità agile: apertura al cambiamento, iterazione continua e capacità di adattamento alle priorità di progetto
+* Feedback continuo: comunicazione diretta e trasparente, con confronti costanti e micro-validazioni
+* Approccio product-first: focus sull’utente finale e sull’esperienza d’uso, non solo sulla funzionalità
+* Proattività: spesso abbiamo anticipato problemi o colto opportunità proponendo soluzioni migliorative.
