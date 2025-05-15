@@ -320,8 +320,8 @@ export default {
 
 @media (max-width: 768px) {
   ::v-deep(.content-wrapper) {
-    padding-left: 50px !important;
-    padding-right: 50px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 }
 
