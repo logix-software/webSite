@@ -298,7 +298,7 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
     letter-spacing: -1.5px;
     color: white;
     text-align: center;
-  ">Scarica ora il report!</h4>
+  ">Hai un progetto simile?</h4>
 
  <h5 style="
   color: var(--Color-White, #FFF);
@@ -310,7 +310,7 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
   line-height: 25px; /* 138.889% */
   letter-spacing: -0.25px;
 ">
-  “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporr...”
+  Se stai scalando un prodotto digitale e hai bisogno di un partner tecnico che parli la tua lingua, siamo pronti a fare squadra.
 </h5>
   <a href="#" style="
     display: flex;
@@ -338,6 +338,6 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
   onmousedown="this.style.transform='scale(0.96)';"
   onmouseup="this.style.transform='scale(1)'"
   >
-    Download
+    Parlaci del tuo progetto
   </a>
 </div>
