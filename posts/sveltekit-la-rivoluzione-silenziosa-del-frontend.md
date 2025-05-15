@@ -79,7 +79,8 @@ Ecco un esempio di componente `HelloWorld.svelte`:
   ">
     "Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporre soluzioni concrete. Non si limitano a realizzare ciò che chiediamo, ma ci aiutano a migliorarlo. Collaborare con loro ci ha permesso di fare scelte più consapevoli, ottimizzare i flussi e ottenere risultati tangibili in tempi rapidi."
   </p>
-</div>\
+</div>
+
 \
 <div style="
   display: flex;
@@ -109,19 +110,18 @@ Ecco un esempio di componente `HelloWorld.svelte`:
     color: white;
     text-align: center;
   ">Scarica ora il report!</h2>
-  <p style="
-    margin: 0;
-    color: var(--Color-White, #FFF);
-    text-align: center;
-    font-family: 'DM Sans';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: -0.25px;
-  ">
-    “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporr...”
-  </p>
+<p style="
+  color: var(--Color-White, #FFF);
+  text-align: center;
+  font-family: 'DM Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: -0.25px;
+">
+  “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporr...”
+</p>
   <a href="#" style="
     display: flex;
     align-items: center;
