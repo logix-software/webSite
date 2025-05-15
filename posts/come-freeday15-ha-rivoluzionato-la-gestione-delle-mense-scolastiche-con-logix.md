@@ -7,20 +7,20 @@ abstract: "Partnership Strategica: quando la tecnologia incontra la visione di
   lungo periodo"
 date: 2025-05-15T09:35:31.135Z
 ---
-# Partnership Strategica: quando la tecnologia incontra la visione di lungo period**o**
+# **Partnership Strategica: quando la tecnologia incontra la visione di lungo periodo**
 
 Freeday15 non ha mai cercato semplicemente un fornitore. Quando ha identificato la necessità di razionalizzare l'intero ecosistema digitale dedicato alla gestione delle mense scolastiche per Authentica, ha scelto di coinvolgerci come partner progettuale per co-creare una soluzione su misura.
 
 Non si trattava di rispondere a un'urgenza contingente, ma di consolidare una visione strategica: migliorare l'efficienza operativa, semplificare i flussi informativi e creare un'esperienza utente coerente e integrata. Il punto di partenza non era la crisi, ma l'opportunità.
 
-## Il Cliente: Freeday15, innovation partner a tutto tondo
+## **Il Cliente: Freeday15, innovation partner a tutto tondo**
 
 Freeday15 è una startup innovativa orientata al tech, con un focus chiaro sull'ottimizzazione dei processi attraverso soluzioni digitali intelligenti. Da anni agisce come braccio operativo IT di Authentica Spa, azienda leader in Italia nella ristorazione collettiva.\
 Collaboriamo con Freeday in modo continuativo dal 2020, realizzando insieme piattaforme verticali (come il sistema mense AllFood, oggi Authentica), ambienti digitali per il social living (DomusGo15) e progetti formativi in ambito digitale (come Boostcamp a Terni).
 
 ![](/uploads/gestione_mense_schema.png "Gestione mense - schema")
 
-## Il Contesto: una complessità crescente da gestire in modo integrato
+## **Il Contesto: una complessità crescente da gestire in modo integrato**
 
 La gestione dell’ecosistema mense di Authentica si basava su tre ambienti digitali completamente separati:
 
@@ -67,7 +67,7 @@ Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dett
 
 ![Soluzione gestione mense screen (dettaglio piatto, lista piatti, scelta menù, news)](/uploads/soluzione_gestione_mense.png)
 
-## La Soluzione: razionalizzazione, coerenza, scalabilità
+## **La Soluzione: razionalizzazione, coerenza, scalabilità**
 
 Prima: tre strumenti disallineati, curve di apprendimento elevate, inefficienze operative 
 
@@ -95,7 +95,7 @@ L’adattamento di questi asset ha permesso di:
 
 Il risultato è stato un ecosistema coerente, scalabile e facilmente manutentibile, con interfacce familiari e intuitive, capaci di garantire continuità e fluidità nell’esperienza d’uso.
 
-## Un’architettura solida, modulare e pronta a scalare
+## **Un’architettura solida, modulare e pronta a scalare**
 
 Per quel che concerne lo sviluppo, abbiamo sostenuto la nuova piattaforma unificata evolvendo l’architettura esistente in linea con le tecnologie già adottate. Il sistema si basa su microservizi Java Spring Boot, containerizzati con Docker e deployati su VM Google Cloud Platform. L'autenticazione centralizzata con Keycloak e l'uso di database MongoDB dedicati per ogni servizio ci ha permesso di garantire sicurezza, scalabilità e una gestione dei dati distribuita ma armonica.\
 L’interfaccia di backoffice, sviluppata in Nuxt 3 e Vue.js, è stata potenziata con moduli dedicati alla gestione mense e un CMS integrato per la pubblicazione autonoma di contenuti informativi su base territoriale.\
@@ -112,7 +112,7 @@ Tutto il sistema è stato progettato in modo modulare per:
 
 ![Ecosystem map new gestione mense](/uploads/ecosystem-map.png)
 
-## I Risultati: impatto misurabile e user adoption
+## **I Risultati: impatto misurabile e user adoption**
 
 ↓ 40% tempo speso in gestione operativa
 
@@ -156,7 +156,7 @@ Onboarding nuovi operatori ridotto del 50%
   </p>
 </div>
 
-## Collaborazione e cultura: i valori che hanno fatto la differenza
+## **Collaborazione e cultura: i valori che hanno fatto la differenza**
 
 La cultura condivisa, la collaborazione costante, la disponibilità e la professionalità dei team ha permesso anche questa volta una corretta integrazione nei workflow e nelle modalità operative di Freeday. 
 
