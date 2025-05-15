@@ -87,8 +87,6 @@ Lato design, uno dei fattori chiave che ha reso la progettazione estremamente ef
 * Libreria di componenti UI strutturati;
 * Standard consolidati documentati per le micro-interazioni.
 
-
-
 L’adattamento di questi asset ha permesso di:
 
 * Accelerare la prototipazione e lo sviluppo
@@ -173,11 +171,12 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
   align-self: stretch;
   border-radius: 20px;
   background: var(--Indigo-050, #EAEAFE);
 ">
+  <!-- Icona + Titolo -->
   <div style="
     display: flex;
     align-items: center;
@@ -185,13 +184,13 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
     width: 100%;
     max-width: 1095px;
     height: 113px;
-    color: var(--Indigo-900, #03033D);
     font-family: 'Lexend Deca';
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    line-height: 55px; /* 114.583% */
+    line-height: 55px;
     letter-spacing: -1.5px;
+    color: var(--Indigo-900, #03033D);
   ">
     <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none" style="
       width: 16.818px;
@@ -207,8 +206,10 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
         </clipPath>
       </defs>
     </svg>
-
+    <span>67 Giornate</span>
   </div>
+
+  <!-- Sottotitolo -->
 
   <div style="
     font-family: 'Lexend Deca';
@@ -221,5 +222,43 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
     text-align: center;
   ">
     design e sviluppo
+  </div>
+
+  <!-- Linea di separazione -->
+
+  <div style="
+    width: 100%;
+    height: 1px;
+    background: rgba(120, 120, 249, 0.3);
+    margin: 20px 0;
+  "></div>
+
+  <!-- Tabella -->
+
+  <div style="
+    display: flex;
+    width: 100%;
+    max-width: 1095px;
+    justify-content: space-between;
+    font-family: 'DM Sans';
+    text-align: left;
+    gap: 20px;
+  ">
+    <div style="flex: 1;">
+      <div style="color: var(--Indigo-300, #7878F9); font-size: 18px; font-weight: 400; line-height: 25px; letter-spacing: -0.25px;">Inizio lavori</div>
+      <div style="color: var(--Indigo-900, #03033D); font-size: 20px; font-weight: 500; line-height: 28px;">22 lug 2024</div>
+    </div>
+    <div style="flex: 1;">
+      <div style="color: var(--Indigo-300, #7878F9); font-size: 18px; font-weight: 400; line-height: 25px; letter-spacing: -0.25px;">Fine lavori</div>
+      <div style="color: var(--Indigo-900, #03033D); font-size: 20px; font-weight: 500; line-height: 28px;">17 set 2024</div>
+    </div>
+    <div style="flex: 1;">
+      <div style="color: var(--Indigo-300, #7878F9); font-size: 18px; font-weight: 400; line-height: 25px; letter-spacing: -0.25px;">Revisione</div>
+      <div style="color: var(--Indigo-900, #03033D); font-size: 20px; font-weight: 500; line-height: 28px;">17 sett - 10 gen 2025</div>
+    </div>
+    <div style="flex: 1;">
+      <div style="color: var(--Indigo-300, #7878F9); font-size: 18px; font-weight: 400; line-height: 25px; letter-spacing: -0.25px;">Consegna</div>
+      <div style="color: var(--Indigo-900, #03033D); font-size: 20px; font-weight: 500; line-height: 28px;">11 gen 2025</div>
+    </div>
   </div>
 </div>
