@@ -58,10 +58,25 @@ Ecco un esempio di componente `HelloWorld.svelte`:
   background: var(--Indigo-050, #EAEAFE);
 ">
   <div style="display: flex; align-items: center; gap: 10px;">
-    <img src="blob:https://www.logix-software.it/37272886-821b-4f69-a7d9-af3f878fc8f4" alt="Icona cliente Freeday15" style="width: 60px; height: 60px;">
-    <strong>La voce del cliente</strong>
+    <img src="https://www.logix-software.it/path/to/your-image.png" alt="Icona cliente Freeday15" style="width: 60px; height: 60px;">
+    <strong style="
+      font-family: 'Lexend Deca';
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 38.5px;
+      letter-spacing: -1.25px;
+    ">La voce del cliente</strong>
   </div>
-  <p style="margin: 0;">
+  <p style="
+    margin: 0;
+    font-family: 'DM Sans';
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.4px;
+  ">
     "Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporre soluzioni concrete. Non si limitano a realizzare ciò che chiediamo, ma ci aiutano a migliorarlo. Collaborare con loro ci ha permesso di fare scelte più consapevoli, ottimizzare i flussi e ottenere risultati tangibili in tempi rapidi."
   </p>
 </div>
