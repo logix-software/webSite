@@ -176,7 +176,7 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
   border-radius: 20px;
   background: var(--Indigo-050, #EAEAFE);
 ">
-  <!-- Icona + Testi -->
+  <!-- Icona + Titoli -->
   <div style="
     display: flex;
     align-items: center;
