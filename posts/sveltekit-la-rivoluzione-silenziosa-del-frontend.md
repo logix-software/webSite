@@ -111,14 +111,14 @@ Ecco un esempio di componente `HelloWorld.svelte`:
   ">Scarica ora il report!</h2>
   <p style="
     margin: 0;
+    color: var(--Color-White, #FFF);
+    text-align: center;
     font-family: 'DM Sans';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: -0.25px;
-    color: white;
-    text-align: center;
   ">
     “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporr...”
   </p>
@@ -131,7 +131,7 @@ Ecco un esempio di componente `HelloWorld.svelte`:
     flex-shrink: 0;
     border-radius: 5px;
     border: 2px solid transparent;
-    background: linear-gradient(white, white) padding-box, linear-gradient(277deg, #36F2B9 0.07%, #FACA00 33.43%, #7878F9 66.31%, #F60994 95.88%) border-box;
+    background: linear-gradient(#141414, #141414) padding-box, linear-gradient(277deg, #36F2B9 0.07%, #FACA00 33.43%, #7878F9 66.31%, #F60994 95.88%) border-box;
     color: #FFF;
     text-align: center;
     font-family: 'DM Sans';
@@ -140,8 +140,14 @@ Ecco un esempio di componente `HelloWorld.svelte`:
     font-weight: 400;
     line-height: 24px;
     text-decoration: none;
+    transition: all 0.3s ease;
     margin-top: 10px;
-  " onmouseover="this.style.fontWeight='500'" onmouseout="this.style.fontWeight='400'">
+  "
+  onmouseover="this.style.background='linear-gradient(277deg, #36F2B9 0.07%, #FACA00 33.43%, #7878F9 66.31%, #F60994 95.88%)'; this.style.fontWeight='500';"
+  onmouseout="this.style.background='linear-gradient(#141414, #141414) padding-box, linear-gradient(277deg, #36F2B9 0.07%, #FACA00 33.43%, #7878F9 66.31%, #F60994 95.88%) border-box'; this.style.fontWeight='400';"
+  onmousedown="this.style.transform='scale(0.96)';"
+  onmouseup="this.style.transform='scale(1)'"
+  >
     Download
   </a>
 </div>
