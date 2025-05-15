@@ -1,5 +1,6 @@
 ---
-title: Come Freeday15 ha Rivoluzionato la Gestione delle Mense Scolastiche con Logix
+title: Come Freeday15 ha Rivoluzionato la Gestione delle Mense Scolastiche con
+  Logix (2)
 tag: Case study
 author: Susanna Cirocchi
 image: /uploads/copertina_gestione_mense.png
