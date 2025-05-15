@@ -151,11 +151,9 @@ Ecco un esempio di componente `HelloWorld.svelte`:
   onmouseover="this.style.background='linear-gradient(277deg, #36F2B9 0.07%, #FACA00 33.43%, #7878F9 66.31%, #F60994 95.88%)'; this.style.fontWeight='500';"
   onmouseout="this.style.background='linear-gradient(#141414, #141414) padding-box, linear-gradient(277deg, #36F2B9 0.07%, #FACA00 33.43%, #7878F9 66.31%, #F60994 95.88%) border-box'; this.style.fontWeight='400';"
   onmousedown="this.style.transform='scale(0.96)';"
-  onmouseup="this.style.transform='scale(1)'"
+  onmouseup="this.style.transform='scale(1)'">
+
+D﻿ownload
 
   </a>
 </div>
-
-```
-
-```
