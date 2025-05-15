@@ -81,7 +81,6 @@ Ecco un esempio di componente `HelloWorld.svelte`:
   </p>
 </div>
 
-\
 <div style="
   display: flex;
   padding: 40px;
@@ -99,34 +98,31 @@ Ecco un esempio di componente `HelloWorld.svelte`:
       <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6753 23.6744C19.6753 24.0479 19.9781 24.3508 20.3517 24.3508H35.3238C35.6974 24.3508 36.0002 24.0479 36.0002 23.6744V19.2621C36.0002 18.8885 35.6974 18.5857 35.3238 18.5857H20.3517C19.9781 18.5857 19.6753 18.8885 19.6753 19.2621V23.6744Z" fill="white"/>
     </svg>
   </div>
-
   <h4 style="
     margin: 0;
     font-family: 'Lexend Deca';
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    line-height: 55px; /* 114.583% */
+    line-height: 55px;
     letter-spacing: -1.5px;
-    color: #FFF;
+    color: white;
     text-align: center;
-  ">
-    Scarica ora il report!
-  </h4>
+  ">Scarica ora il report!</h4>
 
-  <h5 style="
-    color: var(--Color-White, #FFF);
-    text-align: center;
-    font-family: 'DM Sans';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px; /* 138.889% */
-    letter-spacing: -0.25px;
-  ">
-    “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporr...”
-  </h5>
 
+ <h5 style="
+  color: var(--Color-White, #FFF);
+  text-align: center;
+  font-family: 'DM Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: -0.25px;
+">
+  “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporr...”
+</h5>
   <a href="#" style="
     display: flex;
     align-items: center;
@@ -151,9 +147,8 @@ Ecco un esempio di componente `HelloWorld.svelte`:
   onmouseover="this.style.background='linear-gradient(277deg, #36F2B9 0.07%, #FACA00 33.43%, #7878F9 66.31%, #F60994 95.88%)'; this.style.fontWeight='500';"
   onmouseout="this.style.background='linear-gradient(#141414, #141414) padding-box, linear-gradient(277deg, #36F2B9 0.07%, #FACA00 33.43%, #7878F9 66.31%, #F60994 95.88%) border-box'; this.style.fontWeight='400';"
   onmousedown="this.style.transform='scale(0.96)';"
-  onmouseup="this.style.transform='scale(1)'">
-
-D﻿ownload
-
+  onmouseup="this.style.transform='scale(1)'"
+  >
+    Download
   </a>
 </div>
