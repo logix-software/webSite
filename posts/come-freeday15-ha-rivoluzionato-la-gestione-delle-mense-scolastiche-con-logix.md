@@ -279,3 +279,65 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
     </div>
   </div>
 </div>
+
+
+
+ <div style="display: flex; align-items: center; gap: 10px;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" viewBox="0 0 36 25" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M1.31684 24.3022C0.766201 24.3022 0.446289 23.6794 0.767022 23.2318L8.44312 12.5196C8.6122 12.2836 8.61187 11.9661 8.44231 11.7305L0.771171 1.07153C0.449147 0.624083 0.768903 0 1.32018 0H5.92481C6.14237 0 6.34665 0.104648 6.47376 0.281214L14.7161 11.7304C14.8858 11.966 14.8861 12.2836 14.7169 12.5196L6.4737 24.0198C6.34666 24.1971 6.14198 24.3022 5.92393 24.3022H1.31684Z" fill="white"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6753 23.6744C19.6753 24.0479 19.9781 24.3508 20.3517 24.3508H35.3238C35.6974 24.3508 36.0002 24.0479 36.0002 23.6744V19.2621C36.0002 18.8885 35.6974 18.5857 35.3238 18.5857H20.3517C19.9781 18.5857 19.6753 18.8885 19.6753 19.2621V23.6744Z" fill="white"/>
+    </svg>
+  </div>
+  <h4 style="
+    margin: 0;
+    font-family: 'Lexend Deca';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+    color: white;
+    text-align: center;
+  ">Scarica ora il report!</h4>
+
+ <h5 style="
+  color: var(--Color-White, #FFF);
+  text-align: center;
+  font-family: 'DM Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: -0.25px;
+">
+  “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporr...”
+</h5>
+  <a href="#" style="
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: linear-gradient(#141414, #141414) padding-box, linear-gradient(277deg, #36F2B9 0.07%, #FACA00 33.43%, #7878F9 66.31%, #F60994 95.88%) border-box;
+    color: #FFF;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+  "
+  onmouseover="this.style.background='linear-gradient(277deg, #36F2B9 0.07%, #FACA00 33.43%, #7878F9 66.31%, #F60994 95.88%)'; this.style.fontWeight='500';"
+  onmouseout="this.style.background='linear-gradient(#141414, #141414) padding-box, linear-gradient(277deg, #36F2B9 0.07%, #FACA00 33.43%, #7878F9 66.31%, #F60994 95.88%) border-box'; this.style.fontWeight='400';"
+  onmousedown="this.style.transform='scale(0.96)';"
+  onmouseup="this.style.transform='scale(1)'"
+  >
+    Download
+  </a>
+</div>
