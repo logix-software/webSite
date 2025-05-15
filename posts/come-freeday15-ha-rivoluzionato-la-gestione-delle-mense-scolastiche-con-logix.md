@@ -328,8 +328,8 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 130px;
-    height: 47px;
+    padding: 12px 24px;
+  height: 47px;
     flex-shrink: 0;
     border-radius: 5px;
     border: 2px solid transparent;
