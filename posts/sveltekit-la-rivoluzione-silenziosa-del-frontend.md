@@ -111,13 +111,13 @@ Ecco un esempio di componente `HelloWorld.svelte`:
     text-align: center;
   ">Scarica ora il report!</h2>
 <p style="
-  color: var(--Color-White, #FFF);
+  color: white;
   text-align: center;
   font-family: 'DM Sans';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px; /* 138.889% */
+  line-height: 25px; 
   letter-spacing: -0.25px;
 ">
   “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporr...”
