@@ -176,11 +176,11 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
   border-radius: 20px;
   background: var(--Indigo-050, #EAEAFE);
 ">
-  <!-- Icona + Titoli -->
+  <!-- Icona + Testi -->
   <div style="
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
   ">
     <div style="
       display: flex;
