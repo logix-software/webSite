@@ -44,5 +44,7 @@ Con SvelteKit puoi scrivere sia frontend che backend nello stesso progetto, graz
 Ecco un esempio di componente `HelloWorld.svelte`:
 
 ```svelte
-
+<h1 class="text-2xl font-bold">ciao Luchi</h1>
 ```
+
+<h1 class="text-2xl font-bold">ciao Luchi</h1>
