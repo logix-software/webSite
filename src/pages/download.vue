@@ -222,7 +222,7 @@
                 Compila tutti i campi per inviare il messaggio
               </small>
               <button type="submit" class="btn btn-gradient-border text-white">
-                Invia messaggio
+                Scarica
               </button>
             </div>
           </div>
