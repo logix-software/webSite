@@ -58,7 +58,7 @@ Ecco un esempio di componente `HelloWorld.svelte`:
   background: var(--Indigo-050, #EAEAFE);
 ">
   <div style="display: flex; align-items: center; gap: 10px;">
-    <img src="static/uploads/freeday_logo.png" alt="Icona cliente" style="width: 24px; height: 24px;">
+    <img src="blob:https://www.logix-software.it/37272886-821b-4f69-a7d9-af3f878fc8f4" alt="Icona cliente" style="width: 24px; height: 24px;">
     <strong>La voce del cliente</strong>
   </div>
   <p style="margin: 0;">
