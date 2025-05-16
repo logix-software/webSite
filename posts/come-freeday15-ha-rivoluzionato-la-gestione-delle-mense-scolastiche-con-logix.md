@@ -47,8 +47,8 @@ Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dett
     flex-wrap: wrap;
   ">
     <img src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona cliente Freeday15" style="
-      width: 48px;
-      height: 48px;
+      width: 48px!important;
+      height: 48px!important;
       flex-shrink: 0;
     ">
     <strong style="
