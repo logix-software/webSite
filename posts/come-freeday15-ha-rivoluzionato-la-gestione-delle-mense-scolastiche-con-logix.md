@@ -177,171 +177,104 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
 
 <style>
   @media (max-width: 768px) {
-    .responsive-table {
-      flex-direction: column !important;
+    .timing-box {
+      padding: 30px 20px !important;
     }
-
-    .responsive-table > div {
+    .timing-header {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+      gap: 10px !important;
+    }
+    .timing-grid {
+      flex-direction: column !important;
+      gap: 20px !important;
+    }
+    .timing-grid > div {
       width: 100% !important;
     }
-
-    .section-title {
-      font-size: 28px !important;
-      line-height: 36px !important;
+    .timing-title {
+      font-size: 24px !important;
     }
-
-    .project-cta h4 {
-      font-size: 32px !important;
-      line-height: 40px !important;
-    }
-
-    .project-cta h5 {
-      font-size: 16px !important;
-      line-height: 22px !important;
+    .timing-subtitle {
+      font-size: 22px !important;
     }
   }
 </style>
 
-<div style="
-  display: flex;
-  padding: 60px 30px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
-  border-radius: 20px;
+<div class="timing-box" style="
   background: #EAEAFE;
-">
-  <!-- Titolo -->
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <div style="
-      display: flex;
-      width: 45px;
-      height: 45px;
-      padding: 15px;
-      justify-content: center;
-      align-items: center;
-      border-radius: 13.6px;
-      border: 1px solid #C9C9FD;
-      background: rgba(169, 169, 251, 0.10);
-      flex-shrink: 0;
-    ">
-      <!-- SVG Icona -->
-      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-        <path d="M14.7159 7.00743H2.10226M11.2121 1.40137V4.2044M5.60605 1.40137V4.2044M5.4659 15.4165H11.3523C12.5296 15.4165 13.1183 15.4165 13.568 15.1874C13.9636 14.9858 14.2852 14.6642 14.4868 14.2687C14.7159 13.819 14.7159 13.2303 14.7159 12.0529V6.16652C14.7159 4.98914 14.7159 4.40044 14.4868 3.95074C14.2852 3.55518 13.9636 3.23357 13.568 3.03202C13.1183 2.80288 12.5296 2.80288 11.3523 2.80288H5.4659C4.28852 2.80288 3.69983 2.80288 3.25013 3.03202C2.85456 3.23357 2.53295 3.55518 2.3314 3.95074C2.10226 4.40044 2.10226 4.98914 2.10226 6.16652V12.0529C2.10226 13.2303 2.10226 13.819 2.3314 14.2687C2.53295 14.6642 2.85456 14.9858 3.25013 15.1874C3.69983 15.4165 4.28852 15.4165 5.4659 15.4165Z" stroke="#A9A9FB" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </div>
-    <div style="display: flex; flex-direction: column; gap: 5px;">
-      <div class="section-title" style="
-        font-family: 'Lexend Deca';
-        font-size: 48px;
-        font-weight: 400;
-        line-height: 55px;
-        letter-spacing: -1.5px;
-        color: #03033D;
-      ">67 Giornate</div>
-      <div class="section-title" style="
-        font-family: 'Lexend Deca';
-        font-size: 48px;
-        font-weight: 400;
-        line-height: 55px;
-        letter-spacing: -1.5px;
-        color: #7878F9;
-      ">design e sviluppo</div>
-    </div>
-  </div>
-
-  <div style="width: 100%; height: 1px; background: rgba(120, 120, 249, 0.3); margin: 10px 0;"></div>
-
-  <!-- Tabella Responsive -->
-
-  <div class="responsive-table" style="
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 1095px;
-    justify-content: space-between;
-    gap: 20px;
-    font-family: 'DM Sans';
-  ">
-    <div style="flex: 1; min-width: 200px;">
-      <div style="color: #7878F9; font-size: 18px;">Inizio lavori</div>
-      <div style="color: #03033D; font-size: 20px; font-weight: 500;">22 lug 2024</div>
-    </div>
-    <div style="flex: 1; min-width: 200px;">
-      <div style="color: #7878F9; font-size: 18px;">Fine lavori</div>
-      <div style="color: #03033D; font-size: 20px; font-weight: 500;">17 set 2024</div>
-    </div>
-    <div style="flex: 1; min-width: 200px;">
-      <div style="color: #7878F9; font-size: 18px;">Revisione</div>
-      <div style="color: #03033D; font-size: 20px; font-weight: 500;">17 sett - 10 gen 2025</div>
-    </div>
-    <div style="flex: 1; min-width: 200px;">
-      <div style="color: #7878F9; font-size: 18px;">Consegna</div>
-      <div style="color: #03033D; font-size: 20px; font-weight: 500;">11 gen 2025</div>
-    </div>
-  </div>
-</div>
-
-<!-- CTA -->
-
-<div class="project-cta" style="
-  display: flex;
-  padding: 40px;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
   border-radius: 20px;
-  background: #141414;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 100%;
+  font-family: 'Lexend Deca', sans-serif;
 ">
-  <div style="display: flex; align-items: center;">
-    <!-- SVG -->
-    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" fill="none">
-      <path fill="white" d="M1.32 24.3c-.55 0-.87-.62-.55-1.07l7.68-10.71a.54.54 0 000-.79L.77 1.07C.45.62.77 0 1.32 0h4.6c.22 0 .42.1.55.28l8.24 11.45c.17.24.17.56 0 .8L6.47 24.02c-.13.18-.34.28-.55.28H1.32zM19.68 23.67c0 .37.3.68.68.68h14.97c.37 0 .67-.3.67-.68v-4.41c0-.37-.3-.68-.67-.68H20.35c-.37 0-.67.3-.67.68v4.41z"/>
-    </svg>
-  </div>
-  <h4 style="
-    margin: 0;
-    font-family: 'Lexend Deca';
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 55px;
-    letter-spacing: -1.5px;
-    color: white;
-    text-align: center;
-  ">Hai un progetto simile?</h4>
-  <h5 style="
-    margin: 0;
-    font-family: 'DM Sans';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: -0.25px;
-    color: white;
-    text-align: center;
-  ">
-    “Se stai scalando un prodotto digitale e hai bisogno di un partner tecnico che parli la tua lingua, siamo pronti a fare squadra.”
-  </h5>
-  <a href="#" style="
+  <!-- Icona + Titoli -->
+  <div class="timing-header" style="
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 12px 24px;
-    height: 47px;
-    border-radius: 5px;
-    border: 2px solid transparent;
-    background: linear-gradient(#141414, #141414) padding-box,
-                linear-gradient(277deg, #36F2B9, #FACA00, #7878F9, #F60994) border-box;
-    color: white;
-    font-family: 'DM Sans';
-    font-size: 15px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    margin-top: 10px;
-  "
-  onmouseover="this.style.background='linear-gradient(277deg, #36F2B9, #FACA00, #7878F9, #F60994)'; this.style.fontWeight='500';"
-  onmouseout="this.style.background='linear-gradient(#141414, #141414) padding-box, linear-gradient(277deg, #36F2B9, #FACA00, #7878F9, #F60994) border-box'; this.style.fontWeight='400';"
-  onmousedown="this.style.transform='scale(0.96)';"
-  onmouseup="this.style.transform='scale(1)';"
-  >Parlaci del tuo progetto</a>
+    gap: 20px;
+  ">
+    <div style="
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      border: 1px solid #C9C9FD;
+      background: rgba(169, 169, 251, 0.10);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+    ">
+      <!-- Icona calendario -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18">
+        <path d="M14.7 7H2.1M11.2 1.4V4.2M5.6 1.4V4.2M5.5 15.4h5.9c1.2 0 1.8 0 2.2-.2.4-.2.7-.5.9-.9.2-.5.2-1.1.2-2.3V6.2c0-1.2 0-1.8-.2-2.3a2 2 0 0 0-.9-.9c-.4-.2-1-.2-2.2-.2H5.5c-1.2 0-1.8 0-2.3.2a2 2 0 0 0-.9.9c-.2.4-.2 1-.2 2.2v5.9c0 1.2 0 1.8.2 2.3.2.4.5.7.9.9.4.2 1 .2 2.3.2Z" stroke="#A9A9FB" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div style="display: flex; flex-direction: column;">
+      <span class="timing-title" style="
+        font-size: 32px;
+        font-weight: 700;
+        color: #03033D;
+      ">67 Giornate</span>
+      <span class="timing-subtitle" style="
+        font-size: 30px;
+        font-weight: 400;
+        color: #7878F9;
+      ">design e sviluppo</span>
+    </div>
+  </div>
+
+  <!-- Linea di separazione -->
+
+  <div style="height: 1px; background: rgba(120, 120, 249, 0.3); width: 100%;"></div>
+
+  <!-- Griglia date -->
+
+  <div class="timing-grid" style="
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-family: 'DM Sans', sans-serif;
+  ">
+    <div style="flex: 1; min-width: 160px;">
+      <div style="font-size: 16px; color: #7878F9;">Inizio lavori</div>
+      <div style="font-size: 18px; color: #03033D; font-weight: 500;">22 lug 2024</div>
+    </div>
+    <div style="flex: 1; min-width: 160px;">
+      <div style="font-size: 16px; color: #7878F9;">Fine lavori</div>
+      <div style="font-size: 18px; color: #03033D; font-weight: 500;">17 set 2024</div>
+    </div>
+    <div style="flex: 1; min-width: 160px;">
+      <div style="font-size: 16px; color: #7878F9;">Revisione</div>
+      <div style="font-size: 18px; color: #03033D; font-weight: 500;">17 sett – 10 gen 2025</div>
+    </div>
+    <div style="flex: 1; min-width: 160px;">
+      <div style="font-size: 16px; color: #7878F9;">Consegna</div>
+      <div style="font-size: 18px; color: #03033D; font-weight: 500;">11 gen 2025</div>
+    </div>
+  </div>
 </div>
