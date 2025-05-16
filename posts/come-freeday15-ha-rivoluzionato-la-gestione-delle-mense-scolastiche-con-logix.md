@@ -175,6 +175,33 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
 * Approccio product-first: focus sull’utente finale e sull’esperienza d’uso, non solo sulla funzionalità
 * Proattività: spesso abbiamo anticipato problemi o colto opportunità proponendo soluzioni migliorative.
 
+<style>
+  @media (max-width: 768px) {
+    .responsive-table {
+      flex-direction: column !important;
+    }
+
+    .responsive-table > div {
+      width: 100% !important;
+    }
+
+    .section-title {
+      font-size: 28px !important;
+      line-height: 36px !important;
+    }
+
+    .project-cta h4 {
+      font-size: 32px !important;
+      line-height: 40px !important;
+    }
+
+    .project-cta h5 {
+      font-size: 16px !important;
+      line-height: 22px !important;
+    }
+  }
+</style>
+
 <div style="
   display: flex;
   padding: 60px 30px;
@@ -182,180 +209,139 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
-  align-self: stretch;
   border-radius: 20px;
-  background: var(--Indigo-050, #EAEAFE);
+  background: #EAEAFE;
 ">
-  <!-- Icona + Titoli -->
-  <div style="
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  ">
+  <!-- Titolo -->
+  <div style="display: flex; align-items: center; gap: 15px;">
     <div style="
       display: flex;
       width: 45px;
       height: 45px;
-      padding: 15px 13.682px 13.182px 14.5px;
+      padding: 15px;
       justify-content: center;
       align-items: center;
-      border-radius: 13.636px;
-      border: 1px solid var(--Indigo-100, #C9C9FD);
+      border-radius: 13.6px;
+      border: 1px solid #C9C9FD;
       background: rgba(169, 169, 251, 0.10);
       flex-shrink: 0;
     ">
-      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none" style="
-        width: 16.818px;
-        height: 16.818px;
-      ">
-        <g clip-path="url(#clip0_38_1098)">
-          <path d="M14.7159 7.00743H2.10226M11.2121 1.40137V4.2044M5.60605 1.40137V4.2044M5.4659 15.4165H11.3523C12.5296 15.4165 13.1183 15.4165 13.568 15.1874C13.9636 14.9858 14.2852 14.6642 14.4868 14.2687C14.7159 13.819 14.7159 13.2303 14.7159 12.0529V6.16652C14.7159 4.98914 14.7159 4.40044 14.4868 3.95074C14.2852 3.55518 13.9636 3.23357 13.568 3.03202C13.1183 2.80288 12.5296 2.80288 11.3523 2.80288H5.4659C4.28852 2.80288 3.69983 2.80288 3.25013 3.03202C2.85456 3.23357 2.53295 3.55518 2.3314 3.95074C2.10226 4.40044 2.10226 4.98914 2.10226 6.16652V12.0529C2.10226 13.2303 2.10226 13.819 2.3314 14.2687C2.53295 14.6642 2.85456 14.9858 3.25013 15.1874C3.69983 15.4165 4.28852 15.4165 5.4659 15.4165Z" stroke="#A9A9FB" stroke-width="1.40152" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <defs>
-          <clipPath id="clip0_38_1098">
-            <rect width="16.8182" height="16.8182" fill="white"/>
-          </clipPath>
-        </defs>
+      <!-- SVG Icona -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+        <path d="M14.7159 7.00743H2.10226M11.2121 1.40137V4.2044M5.60605 1.40137V4.2044M5.4659 15.4165H11.3523C12.5296 15.4165 13.1183 15.4165 13.568 15.1874C13.9636 14.9858 14.2852 14.6642 14.4868 14.2687C14.7159 13.819 14.7159 13.2303 14.7159 12.0529V6.16652C14.7159 4.98914 14.7159 4.40044 14.4868 3.95074C14.2852 3.55518 13.9636 3.23357 13.568 3.03202C13.1183 2.80288 12.5296 2.80288 11.3523 2.80288H5.4659C4.28852 2.80288 3.69983 2.80288 3.25013 3.03202C2.85456 3.23357 2.53295 3.55518 2.3314 3.95074C2.10226 4.40044 2.10226 4.98914 2.10226 6.16652V12.0529C2.10226 13.2303 2.10226 13.819 2.3314 14.2687C2.53295 14.6642 2.85456 14.9858 3.25013 15.1874C3.69983 15.4165 4.28852 15.4165 5.4659 15.4165Z" stroke="#A9A9FB" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </div>
-
-<div style="
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center;
-      gap: 5px;
-    ">
-      <div style="
+    <div style="display: flex; flex-direction: column; gap: 5px;">
+      <div class="section-title" style="
         font-family: 'Lexend Deca';
         font-size: 48px;
-        font-style: normal;
         font-weight: 400;
         line-height: 55px;
         letter-spacing: -1.5px;
-        color: var(--Indigo-900, #03033D);
-      ">
-        67 Giornate
-      </div>
-      <div style="
+        color: #03033D;
+      ">67 Giornate</div>
+      <div class="section-title" style="
         font-family: 'Lexend Deca';
         font-size: 48px;
-        font-style: normal;
         font-weight: 400;
         line-height: 55px;
         letter-spacing: -1.5px;
-        color: var(--Indigo-300, #7878F9);
-      ">
-        design e sviluppo
-      </div>
+        color: #7878F9;
+      ">design e sviluppo</div>
     </div>
   </div>
 
-  <!-- Linea di separazione -->
+  <div style="width: 100%; height: 1px; background: rgba(120, 120, 249, 0.3); margin: 10px 0;"></div>
 
-  <div style="
-    width: 100%;
-    height: 1px;
-    background: rgba(120, 120, 249, 0.3);
-    margin: 10px 0;
-  "></div>
+  <!-- Tabella Responsive -->
 
-  <!-- Tabella -->
-
-  <div style="
+  <div class="responsive-table" style="
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 1095px;
     justify-content: space-between;
-    font-family: 'DM Sans';
-    text-align: left;
     gap: 20px;
+    font-family: 'DM Sans';
   ">
-    <div style="flex: 1;">
-      <div style="color: var(--Indigo-300, #7878F9); font-size: 18px; font-weight: 400; line-height: 25px; letter-spacing: -0.25px;">Inizio lavori</div>
-      <div style="color: var(--Indigo-900, #03033D); font-size: 20px; font-weight: 500; line-height: 28px;">22 lug 2024</div>
+    <div style="flex: 1; min-width: 200px;">
+      <div style="color: #7878F9; font-size: 18px;">Inizio lavori</div>
+      <div style="color: #03033D; font-size: 20px; font-weight: 500;">22 lug 2024</div>
     </div>
-    <div style="flex: 1;">
-      <div style="color: var(--Indigo-300, #7878F9); font-size: 18px; font-weight: 400; line-height: 25px; letter-spacing: -0.25px;">Fine lavori</div>
-      <div style="color: var(--Indigo-900, #03033D); font-size: 20px; font-weight: 500; line-height: 28px;">17 set 2024</div>
+    <div style="flex: 1; min-width: 200px;">
+      <div style="color: #7878F9; font-size: 18px;">Fine lavori</div>
+      <div style="color: #03033D; font-size: 20px; font-weight: 500;">17 set 2024</div>
     </div>
-    <div style="flex: 1;">
-      <div style="color: var(--Indigo-300, #7878F9); font-size: 18px; font-weight: 400; line-height: 25px; letter-spacing: -0.25px;">Revisione</div>
-      <div style="color: var(--Indigo-900, #03033D); font-size: 20px; font-weight: 500; line-height: 28px;">17 sett - 10 gen 2025</div>
+    <div style="flex: 1; min-width: 200px;">
+      <div style="color: #7878F9; font-size: 18px;">Revisione</div>
+      <div style="color: #03033D; font-size: 20px; font-weight: 500;">17 sett - 10 gen 2025</div>
     </div>
-    <div style="flex: 1;">
-      <div style="color: var(--Indigo-300, #7878F9); font-size: 18px; font-weight: 400; line-height: 25px; letter-spacing: -0.25px;">Consegna</div>
-      <div style="color: var(--Indigo-900, #03033D); font-size: 20px; font-weight: 500; line-height: 28px;">11 gen 2025</div>
+    <div style="flex: 1; min-width: 200px;">
+      <div style="color: #7878F9; font-size: 18px;">Consegna</div>
+      <div style="color: #03033D; font-size: 20px; font-weight: 500;">11 gen 2025</div>
     </div>
   </div>
 </div>
 
-<div style="
+<!-- CTA -->
+
+<div class="project-cta" style="
   display: flex;
   padding: 40px;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 15px;
-  align-self: stretch;
   border-radius: 20px;
   background: #141414;
 ">
-  <div style="display: flex; align-items: center; gap: 10px;">
-    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" viewBox="0 0 36 25" fill="none">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M1.31684 24.3022C0.766201 24.3022 0.446289 23.6794 0.767022 23.2318L8.44312 12.5196C8.6122 12.2836 8.61187 11.9661 8.44231 11.7305L0.771171 1.07153C0.449147 0.624083 0.768903 0 1.32018 0H5.92481C6.14237 0 6.34665 0.104648 6.47376 0.281214L14.7161 11.7304C14.8858 11.966 14.8861 12.2836 14.7169 12.5196L6.4737 24.0198C6.34666 24.1971 6.14198 24.3022 5.92393 24.3022H1.31684Z" fill="white"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6753 23.6744C19.6753 24.0479 19.9781 24.3508 20.3517 24.3508H35.3238C35.6974 24.3508 36.0002 24.0479 36.0002 23.6744V19.2621C36.0002 18.8885 35.6974 18.5857 35.3238 18.5857H20.3517C19.9781 18.5857 19.6753 18.8885 19.6753 19.2621V23.6744Z" fill="white"/>
+  <div style="display: flex; align-items: center;">
+    <!-- SVG -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" fill="none">
+      <path fill="white" d="M1.32 24.3c-.55 0-.87-.62-.55-1.07l7.68-10.71a.54.54 0 000-.79L.77 1.07C.45.62.77 0 1.32 0h4.6c.22 0 .42.1.55.28l8.24 11.45c.17.24.17.56 0 .8L6.47 24.02c-.13.18-.34.28-.55.28H1.32zM19.68 23.67c0 .37.3.68.68.68h14.97c.37 0 .67-.3.67-.68v-4.41c0-.37-.3-.68-.67-.68H20.35c-.37 0-.67.3-.67.68v4.41z"/>
     </svg>
   </div>
   <h4 style="
     margin: 0;
     font-family: 'Lexend Deca';
     font-size: 48px;
-    font-style: normal;
     font-weight: 400;
     line-height: 55px;
     letter-spacing: -1.5px;
     color: white;
     text-align: center;
   ">Hai un progetto simile?</h4>
-
- <h5 style="
-  color: var(--Color-White, #FFF);
-  text-align: center;
-  font-family: 'DM Sans';
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px; /* 138.889% */
-  letter-spacing: -0.25px;
-">
-  “Se stai scalando un prodotto digitale e hai bisogno di un partner tecnico che parli la tua lingua, siamo pronti a fare squadra.”
-</h5>
+  <h5 style="
+    margin: 0;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.25px;
+    color: white;
+    text-align: center;
+  ">
+    “Se stai scalando un prodotto digitale e hai bisogno di un partner tecnico che parli la tua lingua, siamo pronti a fare squadra.”
+  </h5>
   <a href="#" style="
     display: flex;
     align-items: center;
     justify-content: center;
-      padding: 12px 24px;
-  height: 47px;
-    flex-shrink: 0;
+    padding: 12px 24px;
+    height: 47px;
     border-radius: 5px;
     border: 2px solid transparent;
-    background: linear-gradient(#141414, #141414) padding-box, linear-gradient(277deg, #36F2B9 0.07%, #FACA00 33.43%, #7878F9 66.31%, #F60994 95.88%) border-box;
-    color: #FFF;
-    text-align: center;
+    background: linear-gradient(#141414, #141414) padding-box,
+                linear-gradient(277deg, #36F2B9, #FACA00, #7878F9, #F60994) border-box;
+    color: white;
     font-family: 'DM Sans';
     font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
     text-decoration: none;
     transition: all 0.3s ease;
     margin-top: 10px;
   "
-  onmouseover="this.style.background='linear-gradient(277deg, #36F2B9 0.07%, #FACA00 33.43%, #7878F9 66.31%, #F60994 95.88%)'; this.style.fontWeight='500';"
-  onmouseout="this.style.background='linear-gradient(#141414, #141414) padding-box, linear-gradient(277deg, #36F2B9 0.07%, #FACA00 33.43%, #7878F9 66.31%, #F60994 95.88%) border-box'; this.style.fontWeight='400';"
+  onmouseover="this.style.background='linear-gradient(277deg, #36F2B9, #FACA00, #7878F9, #F60994)'; this.style.fontWeight='500';"
+  onmouseout="this.style.background='linear-gradient(#141414, #141414) padding-box, linear-gradient(277deg, #36F2B9, #FACA00, #7878F9, #F60994) border-box'; this.style.fontWeight='400';"
   onmousedown="this.style.transform='scale(0.96)';"
-  onmouseup="this.style.transform='scale(1)'"
-  >
-Parlaci del tuo progetto  </a>
+  onmouseup="this.style.transform='scale(1)';"
+  >Parlaci del tuo progetto</a>
 </div>
