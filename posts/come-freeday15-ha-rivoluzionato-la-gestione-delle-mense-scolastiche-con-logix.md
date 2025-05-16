@@ -33,33 +33,40 @@ Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dett
 
 <div style="
   display: flex;
-  padding: 30px 40px;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-  align-self: stretch;
+  gap: 20px;
+  padding: 24px;
   border-radius: 20px;
-  background: var(--Indigo-050, #EAEAFE);
+  background: #EAEAFE;
+  font-family: 'DM Sans', sans-serif;
 ">
-  <div style="display: flex; align-items: center; gap: 10px;">
-    <img src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona cliente Freeday15" style="width: 60px; height: 60px;">
+  <div style="
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  ">
+    <img src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona cliente Freeday15" style="
+      width: 48px;
+      height: 48px;
+      flex-shrink: 0;
+    ">
     <strong style="
-      font-family: 'Lexend Deca';
-      font-size: 32px;
-      font-style: normal;
+      font-family: 'Lexend Deca', sans-serif;
+      font-size: 20px;
       font-weight: 500;
-      line-height: 38.5px;
-      letter-spacing: -1.25px;
-    ">Una frase emblematica emersa durante i lavori</strong>
+      letter-spacing: -0.5px;
+    ">
+      Una frase emblematica emersa durante i lavori
+    </strong>
   </div>
   <p style="
     margin: 0;
-    font-family: 'DM Sans';
-    font-size: 26px;
+    font-size: 18px;
     font-style: italic;
     font-weight: 400;
-    line-height: 36px;
-    letter-spacing: -0.4px;
+    line-height: 1.6;
+    letter-spacing: -0.3px;
   ">
     “Genitori, operatori delle mense e referenti territoriali non operano in compartimenti stagni. Fanno parte di un ecosistema interconnesso che va gestito in modo integrato e fluido.”
   </p>
