@@ -45,21 +45,6 @@ Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dett
       width: 40px !important;
       height: 40px !important;
     }
-    .testimonial-title {\
-font-family: Lexend Deca!important;
-font-weight: 500!important;
-font-size: 32px!important;
-line-height: 38.5px!important;
-letter-spacing: -1.25px!important;
-    }
-    .testimonial-text {
-      font-family: DM Sans!important;
-font-weight: 400!important;
-font-style: italic!important;
-font-size: 26px!important;
-line-height: 36px!important;
-letter-spacing: -0.4px!important;
-    }
   }
 </style>\
 <div class="testimonial-container" style="
@@ -82,7 +67,13 @@ letter-spacing: -0.4px!important;
       width: 48px;
       height: 48px;
     ">
-    <strong class="testimonial-title">
+    <strong style="
+font-family: Lexend Deca!important;
+font-weight: 500!important;
+font-size: 32px!important;
+line-height: 38.5px!important;
+letter-spacing: -1.25px!important;
+  ">
       Una frase emblematica emersa durante i lavori
     </strong>
   </div>
@@ -90,11 +81,12 @@ letter-spacing: -0.4px!important;
   <!-- Testo citazione -->
 
   <p style="
-    margin: 0;
-    font-size: 26px;
-    font-style: italic;
-    font-weight: 400;
-    color: #03033D;
+    font-family: DM Sans!important;
+font-weight: 400!important;
+font-style: italic!important;
+font-size: 26px!important;
+line-height: 36px!important;
+letter-spacing: -0.4px!important;
   ">
     “Genitori, operatori delle mense e referenti territoriali non operano in compartimenti stagni. Fanno parte di un ecosistema interconnesso che va gestito in modo integrato e fluido.”
   </p>
@@ -173,14 +165,27 @@ Onboarding nuovi operatori ridotto del 50%
       width: 48px;
       height: 48px;
     ">
-    <strong class="testimonial-title" >
+    <strong style="
+font-family: Lexend Deca!important;
+font-weight: 500!important;
+font-size: 32px!important;
+line-height: 38.5px!important;
+letter-spacing: -1.25px!important;
+  " >
       La voce del cliente
     </strong>
   </div>
 
   <!-- Testo citazione -->
 
-  <p class="testimonial-text">
+  <p style="
+    font-family: DM Sans!important;
+font-weight: 400!important;
+font-style: italic!important;
+font-size: 26px!important;
+line-height: 36px!important;
+letter-spacing: -0.4px!important;
+  ">
     “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporre soluzioni concrete. Non si limitano a realizzare ciò che chiediamo, ma ci aiutano a migliorarlo. Collaborare con loro ci ha permesso di fare scelte più consapevoli, ottimizzare i flussi e ottenere risultati tangibili in tempi rapidi.”
   </p>
 </div>
