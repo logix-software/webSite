@@ -128,8 +128,8 @@ Logix segue questo approccio ogni giorno:  progettiamo **interfacce e architet
 
 ## Mini-analisi organizzativa
 
-Vestiaire lavora su domini funzionali verticali (logistica, trust, mobile…), con ownership distribuita.  I feedback raccolti guidano ogni rilasci.  L’AI è sempre integrata con intervento umano, come strumento di supporto, non di sostituzione.\
-\
+Vestiaire lavora su domini funzionali verticali (logistica, trust, mobile…), con ownership distribuita.  I feedback raccolti guidano ogni rilasci.  L’AI è sempre integrata con intervento umano, come strumento di supporto, non di sostituzione.
+
 In Logix adottiamo lo stesso principio: **piccoli team, feedback continui, UX e tecnologia come un’unica disciplina.**
 
 <div style="
