@@ -77,120 +77,41 @@ Ti aiutiamo a:\
 Vestiaire Collective non ha solo investito in tecnologia. Ha investito in **trasparenza operativa, linguaggio chiaro** e **AI utile**.  Ha progettato un sistema dove ogni passaggio, anche il più tecnico, **è al servizio della fiducia dell’utente finale**.\
 Logix segue questo approccio ogni giorno:  progettiamo **interfacce e architetture che parlano tra loro**, per garantire esperienze solide, leggibili e scalabili.
 
-<div style="
-  background: #EAEAFE;
-  border-radius: 20px;
-  padding: 40px 16px;
-  font-family: 'DM Sans', sans-serif;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  max-width: 100%;
-">
+<div style="background:#EAEAFE; border-radius:20px; padding:40px 30px; font-family:'DM Sans', sans-serif; display:flex; flex-direction:column; gap:24px; max-width:100%;">
   <!-- Titolo con icona -->
-  <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
-    <div style="
-      width: 40px;
-      height: 40px;
-      border-radius: 10px;
-      background: rgba(169, 169, 251, 0.10);
-      border: 1px solid #C9C9FD;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    ">
-      <!-- Icona stile cappello laurea -->
+  <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+    <div style="width:40px; height:40px; border-radius:10px; background:rgba(169,169,251,0.10); border:1px solid #C9C9FD; display:flex; align-items:center; justify-content:center;">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
-        <path stroke="#7878F9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10L12 5l9 5-9 5-9-5Zm0 0v4c0 1.385 2.239 2.5 5 2.5 1.093 0 2.104-.2 2.917-.545M21 10v4"/>
+        <path stroke="#7878F9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M3 10L12 5l9 5-9 5-9-5Zm0 0v4c0 1.385 2.239 2.5 5 2.5 1.093 0 2.104-.2 2.917-.545M21 10v4" />
       </svg>
     </div>
-    <h2 style="padding-bottom: 0px!important;
-padding-bottom: 0px!important;
-      font-family: Lexend Deca;
-font-weight: 500;
-font-size: 40px;
-line-height: 48px;
-letter-spacing: -1.25px;
-    ">
+    <h2 style="margin:0; font-family:'Lexend Deca', sans-serif; font-weight:500; font-size:28px; line-height:32px; letter-spacing:-1px;">
       5 lezioni da Vestiaire (che puoi applicare anche tu)
     </h2>
   </div>
 
-  <!-- Tabella -->
+  <!-- Colonne impilate su mobile -->
 
-  <div style="width: 100%; overflow-x: auto;">
-    <table style="
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 16px;
-      line-height: 1.5;
-    ">
-      <thead>
-        <tr>
-          <th style="
-            text-align: center;
-            font-family: Inter;
-font-weight: 400;
-font-size: 24px;
-line-height: 100%;
-letter-spacing: 0%;
-            color: #7878F9;
-          ">Vestiaire fa…</th>
-          <th style="
-             text-align: center;
-            font-family: Inter;
-font-weight: 400;
-font-size: 24px;
-line-height: 100%;
-letter-spacing: 0%;
-            color: #7878F9;
-          ">Con Logix puoi…</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td style="padding: 12px 0; border-bottom: 1px solid rgba(120, 120, 249, 0.15);">
-            <strong>Verifica</strong> ogni prodotto con <strong>esperti reali</strong>
-          </td>
-          <td style="padding: 12px 0; border-bottom: 1px solid rgba(120, 120, 249, 0.15);">
-            <strong>Integrare flussi certificabili</strong> con dashboard logistica e verifica asincrona
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 12px 0; border-bottom: 1px solid rgba(120, 120, 249, 0.15);">
-            Suggerisce <strong>prezzi con AI</strong> e storico dati
-          </td>
-          <td style="padding: 12px 0; border-bottom: 1px solid rgba(120, 120, 249, 0.15);">
-            Attivare <strong>moduli ML leggeri</strong> per supportare la <strong>pricing strategy</strong>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 12px 0; border-bottom: 1px solid rgba(120, 120, 249, 0.15);">
-            Ottimizza la <strong>ricerca</strong> con <strong>AI visiva</strong>
-          </td>
-          <td style="padding: 12px 0; border-bottom: 1px solid rgba(120, 120, 249, 0.15);">
-            <strong>Migliorare UX</strong> di scoperta con <strong>AI personalizzata</strong> su catalogo
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 12px 0; border-bottom: 1px solid rgba(120, 120, 249, 0.15);">
-            Mostra ogni passaggio in <strong>timeline UX chiara</strong>
-          </td>
-          <td style="padding: 12px 0; border-bottom: 1px solid rgba(120, 120, 249, 0.15);">
-            Costruire <strong>interfacce leggibili</strong>, che raccontano cosa succede
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 12px 0;">
-            Blocca <strong>pagamenti</strong> fino a <strong>verifica</strong>
-          </td>
-          <td style="padding: 12px 0;">
-            Attivare logiche di <strong>pagamento fiduciario</strong>, escrow e <strong>gestione reclami semplificata</strong>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+  <div style="display:flex; flex-wrap:wrap; gap:40px; width:100%;">
+    <!-- Colonna sinistra -->
+    <div style="flex:1; min-width:280px; display:flex; flex-direction:column; gap:16px;">
+      <div style="color:#7878F9; font-size:18px; font-weight:500; text-align:left;">Vestiaire fa…</div>
+      <div style="min-height:30px; border-bottom:1px solid rgba(120,120,249,0.2); padding:5px 0;"><strong>Verifica</strong> ogni prodotto con <strong>esperti reali</strong></div>
+      <div style="min-height:30px; border-bottom:1px solid rgba(120,120,249,0.2); padding:5px 0;">Suggerisce <strong>prezzi con AI</strong> e storico dati</div>
+      <div style="min-height:30px; border-bottom:1px solid rgba(120,120,249,0.2); padding:5px 0;">Ottimizza la <strong>ricerca</strong> con <strong>AI visiva</strong></div>
+      <div style="min-height:30px; border-bottom:1px solid rgba(120,120,249,0.2); padding:5px 0;">Mostra ogni passaggio in <strong>timeline UX chiara</strong></div>
+      <div style="min-height:30px; padding:5px 0;">Blocca <strong>pagamenti</strong> fino a <strong>verifica</strong></div>
+    </div>
+
+ <div style="flex:1; min-width:280px; display:flex; flex-direction:column; gap:16px;">
+      <div style="color:#7878F9; font-size:18px; font-weight:500; text-align:left;">Con Logix puoi…</div>
+      <div style="min-height:30px; border-bottom:1px solid rgba(120,120,249,0.2); padding:5px 0;"><strong>Integrare flussi certificabili</strong> con dashboard logistica e verifica asincrona</div>
+      <div style="min-height:30px; border-bottom:1px solid rgba(120,120,249,0.2); padding:5px 0;">Attivare <strong>moduli ML leggeri</strong> per supportare la <strong>pricing strategy</strong></div>
+      <div style="min-height:30px; border-bottom:1px solid rgba(120,120,249,0.2); padding:5px 0;"><strong>Migliorare UX</strong> di scoperta con <strong>AI personalizzata</strong> su catalogo</div>
+      <div style="min-height:30px; border-bottom:1px solid rgba(120,120,249,0.2); padding:5px 0;">Costruire <strong>interfacce leggibili</strong>, che raccontano cosa succede</div>
+      <div style="min-height:30px; padding:5px 0;">Attivare logiche di <strong>pagamento fiduciario</strong>, escrow e <strong>gestione reclami semplificata</strong></div>
+    </div>  </div>
 </div>
 
 ## Mini-analisi organizzativa
