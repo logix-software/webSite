@@ -366,8 +366,6 @@ export default {
 
 @media (max-width: 768px) {
   .post__content img {
-    height: 300px !important;
-    width: auto !important;
     object-fit: contain !important;
   }
 }
