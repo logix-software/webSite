@@ -15,7 +15,8 @@ Non si trattava di rispondere a un'urgenza contingente, ma di consolidare una vi
 
 ## **Il Cliente: Freeday15, innovation partner a tutto tondo**
 
-Freeday15 è una startup innovativa orientata al tech, con un focus chiaro sull'ottimizzazione dei processi attraverso soluzioni digitali intelligenti. Da anni agisce come braccio operativo IT di Authentica Spa, azienda leader in Italia nella ristorazione collettiva.\
+Freeday15 è una startup innovativa orientata al tech, con un focus chiaro sull'ottimizzazione dei processi attraverso soluzioni digitali intelligenti. Da anni agisce come braccio operativo IT di Authentica Spa, azienda leader in Italia nella ristorazione collettiva.
+
 Collaboriamo con Freeday in modo continuativo dal 2020, realizzando insieme piattaforme verticali (come il sistema mense AllFood, oggi Authentica), ambienti digitali per il social living (DomusGo15) e progetti formativi in ambito digitale (come Boostcamp a Terni).
 
 ![](/uploads/gestione_mense_schema.png "Gestione mense - schema")
@@ -28,7 +29,8 @@ La gestione dell’ecosistema mense di Authentica si basava su tre ambienti digi
 * Un CMS per le comunicazioni ai genitori, nelle diverse aree territoriali operative (es. FOODFORFIVE.IT)
 * Un'app mobile per il monitoraggio dei pasti rivolta ai genitori (AppFood)
 
-Insieme con il team Freeday abbiamo condotto un’analisi approfondita, evidenziando criticità strutturali legate alla frammentazione dei flussi. L’eterogeneità degli stakeholder coinvolti (manager, addetto alla gestione degli appalti, operatori addetti alla mensa, operatori aree territoriali, scuole e genitori) avrebbe fatto supporre la necessità di un sistema unificato.\
+Insieme con il team Freeday abbiamo condotto un’analisi approfondita, evidenziando criticità strutturali legate alla frammentazione dei flussi. L’eterogeneità degli stakeholder coinvolti (manager, addetto alla gestione degli appalti, operatori addetti alla mensa, operatori aree territoriali, scuole e genitori) avrebbe fatto supporre la necessità di un sistema unificato.
+
 Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dettagliata, che ci ha permesso di mappare correttamente ruoli, touchpoint e bisogni reali degli utenti. L’obiettivo: garantire coerenza informativa e operativa lungo tutti i processi operativi di Authentica.
 
 <div style="
@@ -107,9 +109,12 @@ Il risultato è stato un ecosistema coerente, scalabile e facilmente manutentibi
 
 ## **Un’architettura solida, modulare e pronta a scalare**
 
-Per quel che concerne lo sviluppo, abbiamo sostenuto la nuova piattaforma unificata evolvendo l’architettura esistente in linea con le tecnologie già adottate. Il sistema si basa su microservizi Java Spring Boot, containerizzati con Docker e deployati su VM Google Cloud Platform. L'autenticazione centralizzata con Keycloak e l'uso di database MongoDB dedicati per ogni servizio ci ha permesso di garantire sicurezza, scalabilità e una gestione dei dati distribuita ma armonica.\
-L’interfaccia di backoffice, sviluppata in Nuxt 3 e Vue.js, è stata potenziata con moduli dedicati alla gestione mense e un CMS integrato per la pubblicazione autonoma di contenuti informativi su base territoriale.\
-Per gli utenti finali, invece, abbiamo deciso di rilasciare una nuova app mobile multipiattaforma (iOS e Android), sviluppata in Nuxt 3 e distribuita con Capacitor, così da garantire prestazioni elevate, coerenza nell’esperienza e un’unica base di codice facilmente manutenibile.\
+Per quel che concerne lo sviluppo, abbiamo sostenuto la nuova piattaforma unificata evolvendo l’architettura esistente in linea con le tecnologie già adottate. Il sistema si basa su microservizi Java Spring Boot, containerizzati con Docker e deployati su VM Google Cloud Platform. L'autenticazione centralizzata con Keycloak e l'uso di database MongoDB dedicati per ogni servizio ci ha permesso di garantire sicurezza, scalabilità e una gestione dei dati distribuita ma armonica.
+
+L’interfaccia di backoffice, sviluppata in Nuxt 3 e Vue.js, è stata potenziata con moduli dedicati alla gestione mense e un CMS integrato per la pubblicazione autonoma di contenuti informativi su base territoriale.
+
+Per gli utenti finali, invece, abbiamo deciso di rilasciare una nuova app mobile multipiattaforma (iOS e Android), sviluppata in Nuxt 3 e distribuita con Capacitor, così da garantire prestazioni elevate, coerenza nell’esperienza e un’unica base di codice facilmente manutenibile.
+
 Grazie alla fase iniziale di analisi, abbiamo deciso che per dare un boost ulteriore alla continuità di utilizzo dell'infrastruttura fosse strategico implementare un sistema di notifiche push avanzato. Abbiamo integrato RabbitMQ con Firebase Cloud Messaging per garantire comunicazioni rapide, affidabili e scalabili, anche in scenari ad alto traffico.
 
 Tutto il sistema è stato progettato in modo modulare per:
