@@ -258,6 +258,9 @@ export default {
   font-family: "Lexend Deca";
   font-weight: 700;
   width: 60%;
+  @media (max-width: 768px) {
+    font-size: 48px;
+  }
 }
 .post__author {
   font-size: 20px;
