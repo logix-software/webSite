@@ -289,6 +289,8 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
   </div>
 </div>
 
+<div class="py-4"><div>
+
 <div style="
   display: flex;
   flex-direction: column;
@@ -299,8 +301,7 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
   border-radius: 24px;
   gap: 24px;
   font-family: 'DM Sans', sans-serif;
-  color: white;\
-  margin-top: 4rem!important;
+  color: white;
 ">
   <!-- Icona terminale stylized -->
   <svg style="
@@ -319,13 +320,12 @@ padding-bottom: 16px!important;
 
   <!-- Sottotitolo -->
 
-  <p style="
+  <p style="color: white!important;
     max-width: 700px;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    margin: 0;\
-color: white!important;
+    margin: 0;
   ">
     Se stai scalando un prodotto digitale e hai bisogno di un partner tecnico che parli la tua lingua, siamo pronti a fare squadra.
   </p>
