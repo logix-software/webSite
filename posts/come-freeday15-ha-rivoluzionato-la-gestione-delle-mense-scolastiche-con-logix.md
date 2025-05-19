@@ -288,3 +288,49 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
     </div>
   </div>
 </div>
+
+<div style="
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+  background: #141414;
+  border-radius: 24px;
+  gap: 24px;
+  font-family: 'DM Sans', sans-serif;
+  color: white;\
+margin-top: 4rem!important;
+">
+  <!-- Icona terminale stylized -->
+  <svg style="
+    width: 32px
+  " fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74 50"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.95 49.9a1 1 0 0 1-.82-1.58L17.5 25.48a1 1 0 0 0 0-1.17L1.14 1.58A1 1 0 0 1 1.95 0h10.41a1 1 0 0 1 .82.42l17.2 23.9a1 1 0 0 1 0 1.16l-17.2 24a1 1 0 0 1-.82.42H1.95ZM40.4 49a1 1 0 0 0 1 1h31.52a1 1 0 0 0 1-1v-9.84a1 1 0 0 0-1-1H41.4a1 1 0 0 0-1 1V49Z" fill="#fff"/></svg>
+
+  <!-- Titolo -->
+
+  <h2 style="
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+  ">Hai un progetto simile?</h2>
+
+  <!-- Sottotitolo -->
+
+  <p style="
+    max-width: 700px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+  ">
+    Se stai scalando un prodotto digitale e hai bisogno di un partner tecnico che parli la tua lingua, siamo pronti a fare squadra.
+  </p>
+
+  <!-- Bottone con bordo gradiente -->
+
+  <a href="#" class="btn btn-gradient-border text-white">
+  Parlaci del tuo progetto
+
+  </a>
+</div>
