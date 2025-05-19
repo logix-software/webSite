@@ -51,8 +51,8 @@ Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dett
       width: 48px;
       height: 48px;
       flex-shrink: 0;\
-margin-left: auto;\
-margin-right: auto;
+margin-left: auto!important;\
+margin-right: auto!important;
     ">
     <strong style="
       font-family: Lexend Deca;
