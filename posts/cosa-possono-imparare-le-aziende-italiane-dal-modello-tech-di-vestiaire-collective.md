@@ -26,15 +26,16 @@ Ogni piattaforma che gestisce utenti, prodotti fisici e transazioni può ispirar
 
 # Le scelte tech (e UX) che rendono Vestiaire affidabile e scalabile
 
-**Logistica ibrida e verifiche esperte**\
-\
-Vestiaire non centralizza lo stoccaggio: utilizza **hub fisici distribuiti** in Europa, USA e Asia dove ogni prodotto viene **verificato da esperti certificati del settore lusso**.  Il flusso logistico è orchestrato da un'architettura **event-driven**, con code asincrone (RabbitMQ, Kafka), API logistiche e dashboard operative.  Ogni passaggio è visibile, tracciabile e integrato nella timeline utente, garantendo controllo e trasparenza senza frizioni.\
-\
-**UX progettata per rassicurare** \
+**Logistica ibrida e verifiche esperte**
+
+Vestiaire non centralizza lo stoccaggio: utilizza **hub fisici distribuiti** in Europa, USA e Asia dove ogni prodotto viene **verificato da esperti certificati del settore lusso**.  Il flusso logistico è orchestrato da un'architettura **event-driven**, con code asincrone (RabbitMQ, Kafka), API logistiche e dashboard operative.  Ogni passaggio è visibile, tracciabile e integrato nella timeline utente, garantendo controllo e trasparenza senza frizioni.
+
+**UX progettata per rassicurare** 
+
 La timeline dell’ordine è centrale: ogni passaggio è spiegato, con feedback chiari e linguaggio comprensibile.
 
-L’interfaccia guida l’utente nei momenti più delicati (spedizione, attesa, verifica, contestazione) riducendo l’incertezza.  L'obiettivo è **non lasciare mai l'utente da solo**.\
-\
+L’interfaccia guida l’utente nei momenti più delicati (spedizione, attesa, verifica, contestazione) riducendo l’incertezza.  L'obiettivo è **non lasciare mai l'utente da solo**.
+
 Intelligenza artificiale con scopo chiaro\
 L’AI in Vestiaire non è decorativa, ma è integrata in punti critici per rafforzare fiducia:
 
@@ -43,7 +44,6 @@ L’AI in Vestiaire non è decorativa, ma è integrata in punti critici per raff
 * **Supporto all’autenticazione**: esperti fisici sono assistiti da AI nel riconoscere pattern, etichette e anomalie.
 * **Traduzioni intelligenti**: per servire nuovi mercati, l’AI automatizza traduzioni (es. svedese, cinese) migliorando la reach senza compromettere la qualità.  
 
-\
 È **un’AI al servizio dell’esperienza e della trasparenza** — non della velocità fine a sé stessa.
 
 **Pagamenti garantiti e contestazioni gestite**\
@@ -66,8 +66,8 @@ Con Logix puoi:
 
 # Perché anche startup e PMI possono adottare questo modello
 
-Vestiaire Collective è nata in piccolo, ma è cresciuta costruendo relazioni basate su fiducia e visibilità dei processi.  Con Logix puoi fare lo stesso, anche se hai pochi prodotti o un target di nicchia.\
-\
+Vestiaire Collective è nata in piccolo, ma è cresciuta costruendo relazioni basate su fiducia e visibilità dei processi.  Con Logix puoi fare lo stesso, anche se hai pochi prodotti o un target di nicchia.
+
 Ti aiutiamo a:
 
 * partire con un MVP con architettura solida
