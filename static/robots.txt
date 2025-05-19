@@ -1,0 +1,17 @@
+# robots.txt per logix-software.it
+# Ultimo aggiornamento: 2025-05-19
+
+User-agent: *
+Disallow:
+
+# File dedicato alle configurazioni LLM e AI Agent
+Allow: /llms.txt
+
+# Sitemap principale
+Sitemap: https://www.logix-software.it/sitemap.xml
+
+# Sitemaps secondarie per sottodomini attivi
+Sitemap: https://crm.logix-software.it/sitemap.xml
+Sitemap: https://wbp.logix-software.it/sitemap.xml
+Sitemap: https://sgm.logix-software.it/sitemap.xml
+Sitemap: https://academy.logix-software.it/sitemap.xml
