@@ -46,19 +46,19 @@ Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dett
       height: 40px !important;
     }
     .testimonial-title {\
-font-family: Lexend Deca;
-font-weight: 500;
-font-size: 32px;
-line-height: 38.5px;
-letter-spacing: -1.25px;
+font-family: Lexend Deca!important;
+font-weight: 500!important;
+font-size: 32px!important;
+line-height: 38.5px!important;
+letter-spacing: -1.25px!important;
     }
     .testimonial-text {
-      font-family: DM Sans;
-font-weight: 400;
-font-style: italic;
-font-size: 26px;
-line-height: 36px;
-letter-spacing: -0.4px;
+      font-family: DM Sans!important;
+font-weight: 400!important;
+font-style: italic!important;
+font-size: 26px!important;
+line-height: 36px!important;
+letter-spacing: -0.4px!important;
     }
   }
 </style>\
