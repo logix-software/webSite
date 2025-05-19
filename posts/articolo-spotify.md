@@ -63,3 +63,8 @@ letter-spacing: -0.4px!important;
 # Collaborazione e cultura: i valori che hanno fatto la differenza
 
 La cultura condivisa, la collaborazione costante, la disponibilità e la professionalità dei team ha permesso anche questa volta una corretta integrazione nei workflow e nelle modalità operative di Freeday.
+
+* **Mentalità agile:** apertura al cambiamento, iterazione continua e capacità di adattamento alle priorità di progetto
+* **Feedback continuo:** comunicazione diretta e trasparente, con confronti costanti e micro-validazioni
+* **Approccio product-first:** focus sull’utente finale e sull’esperienza d’uso, non solo sulla funzionalità
+* **Proattività:** spesso abbiamo anticipato problemi o colto opportunità proponendo soluzioni migliorative
