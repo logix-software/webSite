@@ -11,7 +11,7 @@ abstract: "Vestiaire Collective è una delle piattaforme più affidabili al mond
   che spiega a una tecnologia che supporta."
 date: 2025-05-19T13:31:22.422Z
 ---
-## Perché Vestiaire Collective è un caso da studiare (anche se non vendi moda)
+# Perché Vestiaire Collective è un caso da studiare (anche se non vendi moda)
 
 \
 Vestiaire Collective è una delle piattaforme più affidabili al mondo per la compravendita di moda second-hand di fascia alta.  Il suo punto di forza non è solo il catalogo, ma **il modo in cui ha progettato ogni flusso per ispirare fiducia**: dalla verifica umana all’automazione intelligente, dalla UX che spiega a una tecnologia che supporta.\
@@ -24,7 +24,7 @@ Vestiaire Collective è una delle piattaforme più affidabili al mondo per la co
 
 Ogni piattaforma che gestisce utenti, prodotti fisici e transazioni può ispirarsi a questo approccio.
 
-## Le scelte tech (e UX) che rendono Vestiaire affidabile e scalabile
+# Le scelte tech (e UX) che rendono Vestiaire affidabile e scalabile
 
 **Logistica ibrida e verifiche esperte**\
 \
@@ -49,7 +49,7 @@ Il pagamento viene trattenuto in un **deposito fiduciario** fino alla conferma d
 
 ![](/uploads/contesto-2-.png)
 
-## Cosa può fare Logix per portare questo approccio nel tuo progetto?
+# Cosa può fare Logix per portare questo approccio nel tuo progetto?
 
 Vestiaire è un modello replicabile, non per scala ma per logica.\
 Con Logix puoi:\
@@ -60,7 +60,7 @@ Con Logix puoi:\
 • **progettare un sistema di pagamento sicuro**, con condizioni personalizzabili\
 • **partire con uno stack sostenibile**, pronto per crescere
 
-## Perché anche startup e PMI possono adottare questo modello
+# Perché anche startup e PMI possono adottare questo modello
 
 Vestiaire Collective è nata in piccolo, ma è cresciuta costruendo relazioni basate su fiducia e visibilità dei processi.  Con Logix puoi fare lo stesso, anche se hai pochi prodotti o un target di nicchia.\
 \
@@ -72,14 +72,12 @@ Ti aiutiamo a:\
 
 ![](/uploads/soluzione-2-.png)
 
-## Conclusione: UX + AI + infrastruttura = fiducia progettata
+# Conclusione: UX + AI + infrastruttura = fiducia progettata
 
 Vestiaire Collective non ha solo investito in tecnologia. Ha investito in **trasparenza operativa, linguaggio chiaro** e **AI utile**.  Ha progettato un sistema dove ogni passaggio, anche il più tecnico, **è al servizio della fiducia dell’utente finale**.\
 Logix segue questo approccio ogni giorno:  progettiamo **interfacce e architetture che parlano tra loro**, per garantire esperienze solide, leggibili e scalabili.
 
-
-
-## 5 lezioni da Vestiaire (che puoi applicare anche tu)
+# 5 lezioni da Vestiaire (che puoi applicare anche tu)
 
 <div style="font-family: 'DM Sans', sans-serif; display: flex; flex-wrap: wrap; gap:40px; padding:40px 0;">
   
@@ -126,7 +124,7 @@ Logix segue questo approccio ogni giorno:  progettiamo **interfacce e architet
 
 </div>
 
-## Mini-analisi organizzativa
+# Mini-analisi organizzativa
 
 Vestiaire lavora su domini funzionali verticali (logistica, trust, mobile…), con ownership distribuita.  I feedback raccolti guidano ogni rilasci.  L’AI è sempre integrata con intervento umano, come strumento di supporto, non di sostituzione.
 
