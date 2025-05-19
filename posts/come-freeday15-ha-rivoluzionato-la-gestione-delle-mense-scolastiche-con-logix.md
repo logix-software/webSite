@@ -31,40 +31,44 @@ La gestione dell’ecosistema mense di Authentica si basava su tre ambienti digi
 Insieme con il team Freeday abbiamo condotto un’analisi approfondita, evidenziando criticità strutturali legate alla frammentazione dei flussi. L’eterogeneità degli stakeholder coinvolti (manager, addetto alla gestione degli appalti, operatori addetti alla mensa, operatori aree territoriali, scuole e genitori) avrebbe fatto supporre la necessità di un sistema unificato.\
 Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dettagliata, che ci ha permesso di mappare correttamente ruoli, touchpoint e bisogni reali degli utenti. L’obiettivo: garantire coerenza informativa e operativa lungo tutti i processi operativi di Authentica.
 
-<div style="
+<div class="testimonial-container" style="
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 24px;
+  padding: 30px 40px;
   border-radius: 20px;
   background: #EAEAFE;
   font-family: 'DM Sans', sans-serif;
 ">
-  <div style="
+  <!-- Intestazione: icona + titolo -->
+  <div class="testimonial-header" style="
     display: flex;
     align-items: center;
+    gap: 12px;
     flex-wrap: wrap;
   ">
-    <img src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona cliente Freeday15" style="
-      width: 48px!important;
-      height: 48px!important;
+    <img class="testimonial-logo" src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona cliente Freeday15" style="
+      width: 48px;
+      height: 48px;
     ">
-    <strong style="
+    <strong class="testimonial-title" style="
       font-family: 'Lexend Deca', sans-serif;
-      font-size: 20px;
+      font-size: 32px;
       font-weight: 500;
-      letter-spacing: -0.5px;
+      color: #000000;
     ">
       Una frase emblematica emersa durante i lavori
     </strong>
   </div>
-  <p style="
+
+  <!-- Testo citazione -->
+
+  <p class="testimonial-text" style="
     margin: 0;
-    font-size: 18px;
+    font-size: 26px;
     font-style: italic;
     font-weight: 400;
-    line-height: 1.6;
-    letter-spacing: -0.3px;
+    color: #03033D;
   ">
     “Genitori, operatori delle mense e referenti territoriali non operano in compartimenti stagni. Fanno parte di un ecosistema interconnesso che va gestito in modo integrato e fluido.”
   </p>
@@ -123,43 +127,67 @@ Tutto il sistema è stato progettato in modo modulare per:
 
 Onboarding nuovi operatori ridotto del 50%
 
-<div style="
+<style>
+  @media (max-width: 768px) {
+    .testimonial-container {
+      padding: 20px !important;
+    }
+    .testimonial-header {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+      gap: 10px !important;
+    }
+    .testimonial-logo {
+      width: 40px !important;
+      height: 40px !important;
+    }
+    .testimonial-title {\
+font-family: Lexend Deca;
+font-weight: 500;
+font-size: 32px;
+line-height: 38.5px;
+letter-spacing: -1.25px;
+    }
+    .testimonial-text {
+      font-family: DM Sans;
+font-weight: 400;
+font-style: italic;
+font-size: 26px;
+line-height: 36px;
+letter-spacing: -0.4px;
+    }
+  }
+</style>
+
+<div class="testimonial-container" style="
   display: flex;
   flex-direction: column;
-  padding: 24px;
+  gap: 20px;
+  padding: 30px 40px;
   border-radius: 20px;
   background: #EAEAFE;
   font-family: 'DM Sans', sans-serif;
 ">
-  <div style="
+  <!-- Intestazione: icona + titolo -->
+  <div class="testimonial-header" style="
     display: flex;
     align-items: center;
-    gap: 16px;\
-    margin-bottom: 16px;
+    gap: 12px;
     flex-wrap: wrap;
   ">
-    <img src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona cliente Freeday15" style="
-      width: 48px!important;
-      height: 48px!important;
+    <img class="testimonial-logo" src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona cliente Freeday15" style="
+      width: 48px;
+      height: 48px;
     ">
-    <strong style="
-      font-family: 'Lexend Deca', sans-serif;
-      font-size: 20px;
-      font-weight: 500;
-      letter-spacing: -0.5px;
-    ">
+    <strong class="testimonial-title" >
       La voce del cliente
     </strong>
   </div>
-  <p style="
-    margin: 0;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 1.6;
-    letter-spacing: -0.3px;
-  ">
-   “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporre soluzioni concrete. Non si limitano a realizzare ciò che chiediamo, ma ci aiutano a migliorarlo. Collaborare con loro ci ha permesso di fare scelte più consapevoli, ottimizzare i flussi e ottenere risultati tangibili in tempi rapidi.”
+
+  <!-- Testo citazione -->
+
+  <p class="testimonial-text">
+    “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporre soluzioni concrete. Non si limitano a realizzare ciò che chiediamo, ma ci aiutano a migliorarlo. Collaborare con loro ci ha permesso di fare scelte più consapevoli, ottimizzare i flussi e ottenere risultati tangibili in tempi rapidi.”
   </p>
 </div>
 
