@@ -31,64 +31,48 @@ La gestione dell’ecosistema mense di Authentica si basava su tre ambienti digi
 Insieme con il team Freeday abbiamo condotto un’analisi approfondita, evidenziando criticità strutturali legate alla frammentazione dei flussi. L’eterogeneità degli stakeholder coinvolti (manager, addetto alla gestione degli appalti, operatori addetti alla mensa, operatori aree territoriali, scuole e genitori) avrebbe fatto supporre la necessità di un sistema unificato.\
 Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dettagliata, che ci ha permesso di mappare correttamente ruoli, touchpoint e bisogni reali degli utenti. L’obiettivo: garantire coerenza informativa e operativa lungo tutti i processi operativi di Authentica.
 
-<style>
-  @media (max-width: 768px) {
-    .testimonial-container {
-      padding: 20px !important;
-    }
-    .testimonial-header {
-      flex-direction: column !important;
-      align-items: flex-start !important;
-      gap: 10px !important;
-    }
-    .testimonial-logo {
-      width: 40px !important;
-      height: 40px !important;
-    }
-  }
-</style>\
-<div class="testimonial-container" style="
+<div style="
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 30px 40px;
+  padding: 40px;
   border-radius: 20px;
   background: #EAEAFE;
   font-family: 'DM Sans', sans-serif;
+  max-width: 100%;
 ">
-  <!-- Intestazione: icona + titolo -->
-  <div class="testimonial-header" style="
+  <div style="
     display: flex;
     align-items: center;
     gap: 12px;
     flex-wrap: wrap;
   ">
-    <img class="testimonial-logo" src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona cliente Freeday15" style="
+    <img src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Logo Freeday15" style="
       width: 48px;
       height: 48px;
+      flex-shrink: 0;
     ">
     <strong style="
-font-family: Lexend Deca!important;
-font-weight: 500!important;
-font-size: 32px!important;
-line-height: 38.5px!important;
-letter-spacing: -1.25px!important;
-  ">
-      Una frase emblematica emersa durante i lavori
+      font-family: 'Lexend Deca', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: #03033D;
+      letter-spacing: -0.5px;
+    ">
+      La voce del cliente
     </strong>
   </div>
 
-  <!-- Testo citazione -->
-
   <p style="
-    font-family: DM Sans!important;
-font-weight: 400!important;
-font-style: italic!important;
-font-size: 26px!important;
-line-height: 36px!important;
-letter-spacing: -0.4px!important;
+    margin: 0;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #03033D;
+    letter-spacing: -0.25px;
   ">
-    “Genitori, operatori delle mense e referenti territoriali non operano in compartimenti stagni. Fanno parte di un ecosistema interconnesso che va gestito in modo integrato e fluido.”
+    “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporre soluzioni concrete. Non si limitano a realizzare ciò che chiediamo, ma ci aiutano a migliorarlo. Collaborare con loro ci ha permesso di fare scelte più consapevoli, ottimizzare i flussi e ottenere risultati tangibili in tempi rapidi.”
   </p>
 </div>
 
