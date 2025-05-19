@@ -312,11 +312,11 @@ padding-bottom:  32px!important;"><div>
   <!-- Titolo -->
 
   <h2 style="
+
+padding-top: 16px!important;
     font-size: 36px;
     font-weight: 600;
-    margin: 0;\
-padding-top: 16px!important;
-padding-bottom: 16px!important;
+    margin: 0;
   ">Hai un progetto simile?</h2>
 
   <!-- Sottotitolo -->
