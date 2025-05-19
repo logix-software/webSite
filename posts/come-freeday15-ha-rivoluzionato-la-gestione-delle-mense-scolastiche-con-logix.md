@@ -311,9 +311,7 @@ padding-bottom:  32px!important;"><div>
 
   <!-- Titolo -->
 
-  <h2 style="
-
-padding-top: 16px!important;
+  <h2 style="padding-top: 16px!important;padding-bottom: 0px!important;
     font-size: 36px;
     font-weight: 600;
     margin: 0;
