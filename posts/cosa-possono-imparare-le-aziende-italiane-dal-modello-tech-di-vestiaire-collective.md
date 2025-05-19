@@ -80,7 +80,7 @@ Logix segue questo approccio ogni giorno:  progettiamo **interfacce e architet
 <div style="
   background: #EAEAFE;
   border-radius: 20px;
-  padding: 40px 30px;
+  padding: 40px 16px;
   font-family: 'DM Sans', sans-serif;
   display: flex;
   flex-direction: column;
@@ -104,7 +104,8 @@ Logix segue questo approccio ogni giorno:  progettiamo **interfacce e architet
         <path stroke="#7878F9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10L12 5l9 5-9 5-9-5Zm0 0v4c0 1.385 2.239 2.5 5 2.5 1.093 0 2.104-.2 2.917-.545M21 10v4"/>
       </svg>
     </div>
-    <h2 style="
+    <h2 style="padding-bottom: 0px!important;
+padding-bottom: 0px!important;
       font-family: Lexend Deca;
 font-weight: 500;
 font-size: 40px;
