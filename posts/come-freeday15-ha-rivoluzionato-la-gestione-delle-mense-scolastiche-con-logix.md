@@ -143,7 +143,6 @@ Onboarding nuovi operatori ridotto del 50%
     <img src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona cliente Freeday15" style="
       width: 48px!important;
       height: 48px!important;
-      flex-shrink: 0;
     ">
     <strong style="
       font-family: 'Lexend Deca', sans-serif;
@@ -235,17 +234,18 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
     </div>
     <div style="display: flex; flex-direction: column;">
       <span class="timing-title" style="
-        font-size: 32px;
-        font-weight: 700;
-        color: #03033D;
+        font-size: 48px;
+        color: #03033D;\
+        font-family: 'Lexend Deca', sans-serif;
       ">67 Giornate</span>
       <span class="timing-subtitle" style="
-        font-size: 30px;
+        font-size: 48px;
         font-weight: 400;
-        color: #7878F9;
+        color: #7878F9;\
+        font-family: 'Lexend Deca', sans-serif;
       ">design e sviluppo</span>
     </div>
-  </div>
+  </div>            
 
   <!-- Linea di separazione -->
 
@@ -261,20 +261,20 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
     font-family: 'DM Sans', sans-serif;
   ">
     <div style="flex: 1; min-width: 160px;">
-      <div style="font-size: 16px; color: #7878F9;">Inizio lavori</div>
-      <div style="font-size: 18px; color: #03033D; font-weight: 500;">22 lug 2024</div>
+      <div style="font-size: 24px; color: #7878F9;">Inizio lavori</div>
+      <div style="font-size: 24px; color: #03033D; font-weight: 500;">22 lug 2024</div>
     </div>
     <div style="flex: 1; min-width: 160px;">
-      <div style="font-size: 16px; color: #7878F9;">Fine lavori</div>
-      <div style="font-size: 18px; color: #03033D; font-weight: 500;">17 set 2024</div>
+      <div style="font-size: 24px; color: #7878F9;">Fine lavori</div>
+      <div style="font-size: 24px; color: #03033D; font-weight: 500;">17 set 2024</div>
     </div>
     <div style="flex: 1; min-width: 160px;">
-      <div style="font-size: 16px; color: #7878F9;">Revisione</div>
-      <div style="font-size: 18px; color: #03033D; font-weight: 500;">17 sett – 10 gen 2025</div>
+      <div style="font-size: 24px; color: #7878F9;">Revisione</div>
+      <div style="font-size: 24px; color: #03033D; font-weight: 500;">17 sett – 10 gen 2025</div>
     </div>
     <div style="flex: 1; min-width: 160px;">
-      <div style="font-size: 16px; color: #7878F9;">Consegna</div>
-      <div style="font-size: 18px; color: #03033D; font-weight: 500;">11 gen 2025</div>
+      <div style="font-size: 24px; color: #7878F9;">Consegna</div>
+      <div style="font-size: 24px; color: #03033D; font-weight: 500;">11 gen 2025</div>
     </div>
   </div>
 </div>
