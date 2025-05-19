@@ -31,6 +31,37 @@ La gestione dell’ecosistema mense di Authentica si basava su tre ambienti digi
 Insieme con il team Freeday abbiamo condotto un’analisi approfondita, evidenziando criticità strutturali legate alla frammentazione dei flussi. L’eterogeneità degli stakeholder coinvolti (manager, addetto alla gestione degli appalti, operatori addetti alla mensa, operatori aree territoriali, scuole e genitori) avrebbe fatto supporre la necessità di un sistema unificato.\
 Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dettagliata, che ci ha permesso di mappare correttamente ruoli, touchpoint e bisogni reali degli utenti. L’obiettivo: garantire coerenza informativa e operativa lungo tutti i processi operativi di Authentica.
 
+<style>
+  @media (max-width: 768px) {
+    .testimonial-container {
+      padding: 20px !important;
+    }
+    .testimonial-header {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+      gap: 10px !important;
+    }
+    .testimonial-logo {
+      width: 40px !important;
+      height: 40px !important;
+    }
+    .testimonial-title {\
+font-family: Lexend Deca;
+font-weight: 500;
+font-size: 32px;
+line-height: 38.5px;
+letter-spacing: -1.25px;
+    }
+    .testimonial-text {
+      font-family: DM Sans;
+font-weight: 400;
+font-style: italic;
+font-size: 26px;
+line-height: 36px;
+letter-spacing: -0.4px;
+    }
+  }
+</style>\
 <div class="testimonial-container" style="
   display: flex;
   flex-direction: column;
@@ -51,19 +82,14 @@ Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dett
       width: 48px;
       height: 48px;
     ">
-    <strong class="testimonial-title" style="
-      font-family: 'Lexend Deca', sans-serif;
-      font-size: 32px;
-      font-weight: 500;
-      color: #000000;
-    ">
+    <strong class="testimonial-title">
       Una frase emblematica emersa durante i lavori
     </strong>
   </div>
 
   <!-- Testo citazione -->
 
-  <p class="testimonial-text" style="
+  <p style="
     margin: 0;
     font-size: 26px;
     font-style: italic;
@@ -126,38 +152,6 @@ Tutto il sistema è stato progettato in modo modulare per:
 ↓ 70% tempo medio di pubblicazione di avvisi e news
 
 Onboarding nuovi operatori ridotto del 50%
-
-<style>
-  @media (max-width: 768px) {
-    .testimonial-container {
-      padding: 20px !important;
-    }
-    .testimonial-header {
-      flex-direction: column !important;
-      align-items: flex-start !important;
-      gap: 10px !important;
-    }
-    .testimonial-logo {
-      width: 40px !important;
-      height: 40px !important;
-    }
-    .testimonial-title {\
-font-family: Lexend Deca;
-font-weight: 500;
-font-size: 32px;
-line-height: 38.5px;
-letter-spacing: -1.25px;
-    }
-    .testimonial-text {
-      font-family: DM Sans;
-font-weight: 400;
-font-style: italic;
-font-size: 26px;
-line-height: 36px;
-letter-spacing: -0.4px;
-    }
-  }
-</style>
 
 <div class="testimonial-container" style="
   display: flex;
