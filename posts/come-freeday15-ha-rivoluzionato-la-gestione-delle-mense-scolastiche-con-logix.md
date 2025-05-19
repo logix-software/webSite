@@ -50,27 +50,28 @@ Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dett
     <img src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Logo Freeday15" style="
       width: 48px;
       height: 48px;
-      flex-shrink: 0;
+      flex-shrink: 0;\
+margin-left: auto;\
+margin-right: auto;
     ">
     <strong style="
-      font-family: 'Lexend Deca', sans-serif;
-      font-size: 20px;
-      font-weight: 600;
-      color: #03033D;
-      letter-spacing: -0.5px;
+      font-family: Lexend Deca;
+font-weight: 500;
+font-size: 32px;
+line-height: 38.5px;
+letter-spacing: -1.25px;
     ">
       La voce del cliente
     </strong>
   </div>
 
   <p style="
-    margin: 0;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #03033D;
-    letter-spacing: -0.25px;
+    font-family: DM Sans;
+font-weight: 400;
+font-style: italic;
+font-size: 26px;
+line-height: 36px;
+letter-spacing: -0.4px;
   ">
     “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporre soluzioni concrete. Non si limitano a realizzare ciò che chiediamo, ma ci aiutano a migliorarlo. Collaborare con loro ci ha permesso di fare scelte più consapevoli, ottimizzare i flussi e ottenere risultati tangibili in tempi rapidi.”
   </p>
