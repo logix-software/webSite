@@ -260,6 +260,7 @@ export default {
   width: 60%;
   @media (max-width: 768px) {
     font-size: 48px;
+    width: 100%;
   }
 }
 .post__author {
