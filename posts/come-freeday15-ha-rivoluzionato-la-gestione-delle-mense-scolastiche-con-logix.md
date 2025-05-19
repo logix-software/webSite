@@ -289,7 +289,8 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
   </div>
 </div>
 
-<div class="py-4"><div>
+<div style=" padding-top:  32px!important;
+padding-bottom:  32px!important;"><div>
 
 <div style="
   display: flex;
