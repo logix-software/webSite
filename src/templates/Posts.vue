@@ -362,7 +362,6 @@ export default {
   max-width: 100% !important;
   height: auto !important;
   display: block !important;
-  margin: 20px auto !important;
 }
 
 @media (max-width: 768px) {
