@@ -13,8 +13,8 @@ date: 2025-05-19T13:31:22.422Z
 ---
 # Perché Vestiaire Collective è un caso da studiare (anche se non vendi moda)
 
-\
-Vestiaire Collective è una delle piattaforme più affidabili al mondo per la compravendita di moda second-hand di fascia alta.  Il suo punto di forza non è solo il catalogo, ma **il modo in cui ha progettato ogni flusso per ispirare fiducia**: dalla verifica umana all’automazione intelligente, dalla UX che spiega a una tecnologia che supporta.\
+Vestiaire Collective è una delle piattaforme più affidabili al mondo per la compravendita di moda second-hand di fascia alta.  Il suo punto di forza non è solo il catalogo, ma **il modo in cui ha progettato ogni flusso per ispirare fiducia**: dalla verifica umana all’automazione intelligente, dalla UX che spiega a una tecnologia che supporta.
+
 È un modello che funziona perché unisce:
 
 * **processi verificabili**, con esperti reali coinvolti 
@@ -36,7 +36,8 @@ La timeline dell’ordine è centrale: ogni passaggio è spiegato, con feedback 
 
 L’interfaccia guida l’utente nei momenti più delicati (spedizione, attesa, verifica, contestazione) riducendo l’incertezza.  L'obiettivo è **non lasciare mai l'utente da solo**.
 
-Intelligenza artificiale con scopo chiaro\
+**Intelligenza artificiale con scopo chiaro**
+
 L’AI in Vestiaire non è decorativa, ma è integrata in punti critici per rafforzare fiducia:
 
 * **Ricerca visiva**: l’AI migliora la discovery leggendo immagini e restituendo risultati coerenti con lo stile cercato.
@@ -46,14 +47,16 @@ L’AI in Vestiaire non è decorativa, ma è integrata in punti critici per raff
 
 È **un’AI al servizio dell’esperienza e della trasparenza** — non della velocità fine a sé stessa.
 
-**Pagamenti garantiti e contestazioni gestite**\
+**Pagamenti garantiti e contestazioni gestite**
+
 Il pagamento viene trattenuto in un **deposito fiduciario** fino alla conferma della verifica.  Stripe Connect e MangoPay sono integrati in un flusso custom con logiche di escrow e dispute intelligenti.
 
 ![](/uploads/contesto-2-.png)
 
 # Cosa può fare Logix per portare questo approccio nel tuo progetto?
 
-Vestiaire è un modello replicabile, non per scala ma per logica.\
+Vestiaire è un modello replicabile, non per scala ma per logica.
+
 Con Logix puoi:
 
 * **strutturare una UX che guida e rassicura** nei momenti chiave (acquisto, attesa, verifica)
@@ -82,7 +85,8 @@ Ti aiutiamo a:
 
 # Conclusione: UX + AI + infrastruttura = fiducia progettata
 
-Vestiaire Collective non ha solo investito in tecnologia. Ha investito in **trasparenza operativa, linguaggio chiaro** e **AI utile**.  Ha progettato un sistema dove ogni passaggio, anche il più tecnico, **è al servizio della fiducia dell’utente finale**.\
+Vestiaire Collective non ha solo investito in tecnologia. Ha investito in **trasparenza operativa, linguaggio chiaro** e **AI utile**.  Ha progettato un sistema dove ogni passaggio, anche il più tecnico, **è al servizio della fiducia dell’utente finale**.
+
 Logix segue questo approccio ogni giorno:  progettiamo **interfacce e architetture che parlano tra loro**, per garantire esperienze solide, leggibili e scalabili.
 
 # 5 lezioni da Vestiaire (che puoi applicare anche tu)
