@@ -24,8 +24,6 @@ Vestiaire Collective è una delle piattaforme più affidabili al mondo per la co
 
 Ogni piattaforma che gestisce utenti, prodotti fisici e transazioni può ispirarsi a questo approccio.
 
-
-
 ## Le scelte tech (e UX) che rendono Vestiaire affidabile e scalabile
 
 **Logistica ibrida e verifiche esperte**\
@@ -61,8 +59,6 @@ Con Logix puoi:\
 • **integrare moduli AI** per suggerimenti, classificazione, anomalie\
 • **progettare un sistema di pagamento sicuro**, con condizioni personalizzabili\
 • **partire con uno stack sostenibile**, pronto per crescere
-
-
 
 ## Perché anche startup e PMI possono adottare questo modello
 
@@ -195,3 +191,11 @@ letter-spacing: 0%;
     </table>
   </div>
 </div>
+
+
+
+## Mini-analisi organizzativa
+
+Vestiaire lavora su domini funzionali verticali (logistica, trust, mobile…), con ownership distribuita.  I feedback raccolti guidano ogni rilasci.  L’AI è sempre integrata con intervento umano, come strumento di supporto, non di sostituzione.\
+\
+In Logix adottiamo lo stesso principio: **piccoli team, feedback continui, UX e tecnologia come un’unica disciplina.**
