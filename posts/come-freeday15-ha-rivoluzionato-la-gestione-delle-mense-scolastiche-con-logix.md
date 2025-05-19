@@ -339,7 +339,7 @@ text-align: center;
   <!-- Bottone con bordo gradiente -->
 
   <a href="/contatti" class="btn btn-gradient-border text-white">
-  Parlaci del tuo progettocont
+  Parlaci del tuo progetto
 
   </a>
 </div>
