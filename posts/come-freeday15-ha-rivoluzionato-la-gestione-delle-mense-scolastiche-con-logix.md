@@ -61,7 +61,7 @@ font-size: 32px;
 line-height: 38.5px;
 letter-spacing: -1.25px;
     ">
-      La voce del cliente
+      Una frase emblematica emersa durante i lavori
     </strong>
   </div>
 
@@ -73,7 +73,7 @@ font-size: 26px;
 line-height: 36px;
 letter-spacing: -0.4px;
   ">
-    “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporre soluzioni concrete. Non si limitano a realizzare ciò che chiediamo, ma ci aiutano a migliorarlo. Collaborare con loro ci ha permesso di fare scelte più consapevoli, ottimizzare i flussi e ottenere risultati tangibili in tempi rapidi.”
+    “Genitori, operatori delle mense e referenti territoriali non operano in compartimenti stagni. Fanno parte di un ecosistema interconnesso che va gestito in modo integrato e fluido.”
   </p>
 </div>
 
