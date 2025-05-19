@@ -300,7 +300,7 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
   gap: 24px;
   font-family: 'DM Sans', sans-serif;
   color: white;\
-margin-top: 4rem!important;
+  margin-top: 4rem!important;
 ">
   <!-- Icona terminale stylized -->
   <svg style="
@@ -312,7 +312,9 @@ margin-top: 4rem!important;
   <h2 style="
     font-size: 36px;
     font-weight: 600;
-    margin: 0;
+    margin: 0;\
+padding-top: 16px!important;
+padding-bottom: 16px!important;
   ">Hai un progetto simile?</h2>
 
   <!-- Sottotitolo -->
@@ -322,15 +324,16 @@ margin-top: 4rem!important;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    margin: 0;
+    margin: 0;\
+color: white!important;
   ">
     Se stai scalando un prodotto digitale e hai bisogno di un partner tecnico che parli la tua lingua, siamo pronti a fare squadra.
   </p>
 
   <!-- Bottone con bordo gradiente -->
 
-  <a href="#" class="btn btn-gradient-border text-white">
-  Parlaci del tuo progetto
+  <a href="/contatti" class="btn btn-gradient-border text-white">
+  Parlaci del tuo progettocont
 
   </a>
 </div>
