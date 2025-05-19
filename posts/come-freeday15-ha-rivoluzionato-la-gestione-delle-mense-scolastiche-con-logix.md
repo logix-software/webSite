@@ -312,8 +312,12 @@ padding-bottom:  32px!important;"><div>
   <!-- Titolo -->
 
   <h2 style="padding-top: 16px!important;padding-bottom: 0px!important;
-    font-size: 36px;
-    font-weight: 600;
+    font-family: Lexend Deca;
+font-weight: 400;
+font-size: 48px;
+line-height: 55px;
+letter-spacing: -1.5px;
+text-align: center;
     margin: 0;
   ">Hai un progetto simile?</h2>
 
@@ -321,9 +325,12 @@ padding-bottom:  32px!important;"><div>
 
   <p style="color: white!important;
     max-width: 700px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
+   font-family: DM Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: -0.25px;
+text-align: center;
     margin: 0;
   ">
     Se stai scalando un prodotto digitale e hai bisogno di un partner tecnico che parli la tua lingua, siamo pronti a fare squadra.
