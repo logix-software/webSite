@@ -31,7 +31,9 @@ Ogni piattaforma che gestisce utenti, prodotti fisici e transazioni può ispirar
 Vestiaire non centralizza lo stoccaggio: utilizza **hub fisici distribuiti** in Europa, USA e Asia dove ogni prodotto viene **verificato da esperti certificati del settore lusso**.  Il flusso logistico è orchestrato da un'architettura **event-driven**, con code asincrone (RabbitMQ, Kafka), API logistiche e dashboard operative.  Ogni passaggio è visibile, tracciabile e integrato nella timeline utente, garantendo controllo e trasparenza senza frizioni.\
 \
 **UX progettata per rassicurare** \
-La timeline dell’ordine è centrale: ogni passaggio è spiegato, con feedback chiari e linguaggio comprensibile.  L’interfaccia guida l’utente nei momenti più delicati (spedizione, attesa, verifica, contestazione) riducendo l’incertezza.  L'obiettivo è **non lasciare mai l'utente da solo**.\
+La timeline dell’ordine è centrale: ogni passaggio è spiegato, con feedback chiari e linguaggio comprensibile.
+
+L’interfaccia guida l’utente nei momenti più delicati (spedizione, attesa, verifica, contestazione) riducendo l’incertezza.  L'obiettivo è **non lasciare mai l'utente da solo**.\
 \
 Intelligenza artificiale con scopo chiaro\
 L’AI in Vestiaire non è decorativa, ma è integrata in punti critici per rafforzare fiducia:
