@@ -68,3 +68,55 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
 * **Feedback continuo:** comunicazione diretta e trasparente, con confronti costanti e micro-validazioni
 * **Approccio product-first:** focus sull’utente finale e sull’esperienza d’uso, non solo sulla funzionalità
 * **Proattività:** spesso abbiamo anticipato problemi o colto opportunità proponendo soluzioni migliorative
+
+
+
+<div style="
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+  background: #141414;
+  border-radius: 24px;
+  gap: 24px;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+">
+  <!-- Icona terminale stylized -->
+  <svg style="
+    width: 32px
+  " fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74 50"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.95 49.9a1 1 0 0 1-.82-1.58L17.5 25.48a1 1 0 0 0 0-1.17L1.14 1.58A1 1 0 0 1 1.95 0h10.41a1 1 0 0 1 .82.42l17.2 23.9a1 1 0 0 1 0 1.16l-17.2 24a1 1 0 0 1-.82.42H1.95ZM40.4 49a1 1 0 0 0 1 1h31.52a1 1 0 0 0 1-1v-9.84a1 1 0 0 0-1-1H41.4a1 1 0 0 0-1 1V49Z" fill="#fff"/></svg>
+
+  <!-- Titolo -->
+
+  <h2 style="padding-top: 16px!important;padding-bottom: 0px!important;
+    font-family: Lexend Deca;
+font-weight: 400;
+font-size: 48px;
+line-height: 55px;
+letter-spacing: -1.5px;
+text-align: center;
+    margin: 0;
+  ">Scarica ora il report!</h2>
+
+  <!-- Sottotitolo -->
+
+  <p style="color: white!important;
+    max-width: 700px;
+   font-family: DM Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: -0.25px;
+text-align: center;
+    margin: 0;
+  ">
+   “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporr
+  </p>
+
+  <!-- Bottone con bordo gradiente -->
+
+  <a href="/download" class="btn btn-gradient-border text-white">
+  Download </a>
+</div>
