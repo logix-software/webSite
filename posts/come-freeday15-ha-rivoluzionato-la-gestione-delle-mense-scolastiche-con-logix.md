@@ -43,13 +43,11 @@ Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dett
   <div style="
     display: flex;
     align-items: center;
-    gap: 16px;
     flex-wrap: wrap;
   ">
     <img src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona cliente Freeday15" style="
       width: 48px!important;
       height: 48px!important;
-      flex-shrink: 0;
     ">
     <strong style="
       font-family: 'Lexend Deca', sans-serif;
@@ -128,7 +126,6 @@ Onboarding nuovi operatori ridotto del 50%
 <div style="
   display: flex;
   flex-direction: column;
-  gap: 20px;
   padding: 24px;
   border-radius: 20px;
   background: #EAEAFE;
@@ -137,7 +134,8 @@ Onboarding nuovi operatori ridotto del 50%
   <div style="
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 16px;\
+    margin-bottom: 16px;
     flex-wrap: wrap;
   ">
     <img src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona cliente Freeday15" style="
