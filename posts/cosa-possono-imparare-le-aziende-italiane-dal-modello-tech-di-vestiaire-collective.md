@@ -130,8 +130,6 @@ Vestiaire lavora su domini funzionali verticali (logistica, trust, mobile…), c
 
 In Logix adottiamo lo stesso principio: **piccoli team, feedback continui, UX e tecnologia come un’unica disciplina.**
 
-
-
 <div style="
   display: flex;
   flex-direction: column;
