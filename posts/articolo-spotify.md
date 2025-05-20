@@ -69,8 +69,6 @@ La cultura condivisa, la collaborazione costante, la disponibilità e la profess
 * **Approccio product-first:** focus sull’utente finale e sull’esperienza d’uso, non solo sulla funzionalità
 * **Proattività:** spesso abbiamo anticipato problemi o colto opportunità proponendo soluzioni migliorative
 
-
-
 <div style="
   display: flex;
   flex-direction: column;
@@ -104,7 +102,7 @@ text-align: center;
 
   <p style="color: white!important;
     max-width: 700px;
-   font-family: DM Sans;
+   font-family: DM Sans!important;
 font-weight: 400;
 font-size: 18px;
 line-height: 25px;
