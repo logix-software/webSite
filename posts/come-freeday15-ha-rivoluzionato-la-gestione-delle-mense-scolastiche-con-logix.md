@@ -135,7 +135,7 @@ Tutto il sistema è stato progettato in modo modulare per:
 
 Onboarding nuovi operatori ridotto del 50%
 
-<div class="testimonial-container" style="
+<div class="testimonial-container" style="margin-top:32px!important;
   display: flex;
   flex-direction: column;
   gap: 20px;
