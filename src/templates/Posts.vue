@@ -321,7 +321,12 @@ export default {
   font-weight: 400 !important;
   color: #000 !important;
 }
-
+::v-deep(.content-wrapper ul) {
+  font-family: "Lexend Deca" !important;
+  font-size: 26px !important;
+  font-weight: 400 !important;
+  color: #000 !important;
+}
 @media (max-width: 768px) {
   ::v-deep(.content-wrapper) {
     padding-left: 20px !important;
