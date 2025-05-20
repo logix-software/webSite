@@ -332,7 +332,7 @@ text-align: center;
     max-width: 700px;
    font-family: DM Sans!important;
 font-weight: 400;
-font-size: 18px;
+font-size: 18px!important;
 line-height: 25px;
 letter-spacing: -0.25px;
 text-align: center;
