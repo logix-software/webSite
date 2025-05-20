@@ -41,7 +41,7 @@ Abbiamo collaborato, attraverso una serie di workshop, di una ecosystem map dett
   border-radius: 20px;
   background: #EAEAFE;
   font-family: 'DM Sans', sans-serif;
-  max-width: 100%;
+  max-width: 100%;margin-bottom: 32px;
 ">
   <div style="
     display: flex;
