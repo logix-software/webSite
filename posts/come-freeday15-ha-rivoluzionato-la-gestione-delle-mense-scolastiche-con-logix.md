@@ -330,7 +330,7 @@ text-align: center;
 
   <p style="color: white!important;
     max-width: 700px;
-   font-family: DM Sans;
+   font-family: DM Sans!important;
 font-weight: 400;
 font-size: 18px;
 line-height: 25px;
