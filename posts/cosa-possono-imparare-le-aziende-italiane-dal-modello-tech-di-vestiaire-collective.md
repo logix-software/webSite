@@ -65,8 +65,6 @@ Con Logix puoi:
 * **progettare un sistema di pagamento sicuro**, con condizioni personalizzabili
 * **partire con uno stack sostenibile**, pronto per crescere
 
-
-
 # Perché anche startup e PMI possono adottare questo modello
 
 Vestiaire Collective è nata in piccolo, ma è cresciuta costruendo relazioni basate su fiducia e visibilità dei processi.  Con Logix puoi fare lo stesso, anche se hai pochi prodotti o un target di nicchia.
@@ -78,8 +76,6 @@ Ti aiutiamo a:
 * **comunicare fiducia fin dal primo utilizzo**
 * **progettare un sistema di pagamento sicuro**, con condizioni personalizzabili
 * evolvere il prodotto con logiche che scalano senza complicazioni
-
-
 
 ![](/uploads/soluzione-2-.png)
 
@@ -95,7 +91,7 @@ Logix segue questo approccio ogni giorno:  progettiamo **interfacce e architet
   
   <!-- Blocco sinistra -->
   <div style="flex:1; min-width:280px; background:#EAEAFE; border-radius:20px; padding:24px 30px; display:flex; flex-direction:column; gap:12px;">
-    <div style="font-size:18px; font-weight:500; color:#7878F9; margin-bottom:8px;">Vestiaire fa…</div>
+    <div style="font-size:22px; font-weight:500; color:#7878F9; margin-bottom:8px;">Vestiaire fa…</div>
 
 <div style="border-bottom:1px solid rgba(120,120,249,0.2); min-height:50px; display:flex; align-items:center;">
       <span><strong>Verifica</strong> ogni prodotto con <strong>esperti reali</strong></span>
@@ -116,7 +112,7 @@ Logix segue questo approccio ogni giorno:  progettiamo **interfacce e architet
   <!-- Blocco destra -->
 
   <div style="flex:1; min-width:280px; background:#EAEAFE; border-radius:20px; padding:24px 30px; display:flex; flex-direction:column; gap:12px;">
-    <div style="font-size:18px; font-weight:500; color:#7878F9; margin-bottom:8px;">Con Logix puoi…</div>
+    <div style="font-size:22px; font-weight:500; color:#7878F9; margin-bottom:8px;">Con Logix puoi…</div>
 
 <div style="border-bottom:1px solid rgba(120,120,249,0.2); min-height:50px; display:flex; align-items:center;">
       <span><strong>Verifica</strong> ogni prodotto con <strong>esperti reali</strong></span>
