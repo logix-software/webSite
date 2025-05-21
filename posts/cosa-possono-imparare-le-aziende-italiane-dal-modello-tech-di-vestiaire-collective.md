@@ -118,7 +118,7 @@ Logix segue questo approccio ogni giorno:  progettiamo **interfacce e architet
       <span><strong>Integrare flussi certificabili</strong> con dashboard logistica e verifica asincrona</span>
     </div>
     <div style="border-bottom:1px solid rgba(120,120,249,0.2); min-height:50px; display:flex; align-items:center;">
-      <span>Attivare <strong>moduli ML leggeri</strong> per supportare la</span><strong>pricing strategy</strong>
+      <span>Attivare <strong>moduli ML leggeri</strong> per supportare la<strong>pricing strategy</strong></span>
     </div>
     <div style="border-bottom:1px solid rgba(120,120,249,0.2); min-height:50px; display:flex; align-items:center;">
       <span><strong>Migliorare UX </strong> di scoperta con <strong>AI personalizzata</strong> su catalogo </span>
