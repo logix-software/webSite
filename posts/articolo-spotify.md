@@ -8,8 +8,6 @@ abstract: L'AI Generativa è passata dall'essere un concetto futuristico a una
   scaricabile.
 date: 2025-05-19T16:01:07.987Z
 ---
-
-
 <div class="testimonial-container" style="
   display: flex;
   flex-direction: column;
@@ -26,7 +24,7 @@ date: 2025-05-19T16:01:07.987Z
     gap: 12px;
     flex-wrap: wrap;
   ">
-    <img class="testimonial-logo" src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona *Alessandro CTO*" style="
+    <img class="testimonial-logo" src="https://www.logix-software.it/uploads/alessandro_image.png" alt="Icona Alessandro CTO" style="
       width: 48px;
       height: 48px;
     ">
@@ -37,7 +35,7 @@ font-size: 32px!important;
 line-height: 38.5px!important;
 letter-spacing: -1.25px!important;
   " >
-    * **Alessandro**, CTO@ Logix*
+    Alessandro, CTO@ Logix
     </strong>
   </div>
 
@@ -63,8 +61,6 @@ Nel nuovo report realizzato da Logix, esploriamo le trasformazioni più rilevant
 * I settori dove la GenAI sta creando un **impatto concreto: marketing, supply chain, customer service, education, real estate;**
 * I numeri che raccontano l’**accelerazione globale** (e italiana);
 * Come usare questi strumenti per **creare vantaggio competitivo**.
-
-
 
 Per ricevere il report, ti chiediamo solo qualche informazione utile (ruolo, dimensione e settore dell’azienda) per capire meglio chi ci legge. Buona lettura!
 
