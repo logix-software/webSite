@@ -53,7 +53,8 @@ letter-spacing: -0.4px!important;
   </p>
 </div>
 
-L’AI Generativa sta rivoluzionando il modo in cui lavoriamo, comunichiamo e creiamo valore. Ma cosa significa davvero “andare oltre ChatGPT”? Come possono PMI, startup e grandi aziende integrare strumenti avanzati come LLM agent e GenAI nei propri processi in modo strategico?\
+L’AI Generativa sta rivoluzionando il modo in cui lavoriamo, comunichiamo e creiamo valore. Ma cosa significa davvero “andare oltre ChatGPT”? Come possono PMI, startup e grandi aziende integrare strumenti avanzati come LLM agent e GenAI nei propri processi in modo strategico?
+
 Nel nuovo report realizzato da Logix, esploriamo le trasformazioni più rilevanti guidate dall’intelligenza artificiale generativa e offriamo uno sguardo pratico sul presente (e futuro prossimo) dell’innovazione:
 
 * Cosa sono gli **LLM Agent e perché possono automatizzare decisioni,** non solo testi;
