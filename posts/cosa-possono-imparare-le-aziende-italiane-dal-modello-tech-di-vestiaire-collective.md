@@ -115,19 +115,19 @@ Logix segue questo approccio ogni giorno:  progettiamo **interfacce e architet
     <div style="font-size:22px; font-weight:500; color:#7878F9; margin-bottom:8px;">Con Logix puoi…</div>
 
 <div style="border-bottom:1px solid rgba(120,120,249,0.2); min-height:50px; display:flex; align-items:center;">
-      <span><strong>Verifica</strong> ogni prodotto con <strong>esperti reali</strong></span>
+      <span><strong>Integrare flussi certificabili</strong> con dashboard logistica e verifica asincrona</span>
     </div>
     <div style="border-bottom:1px solid rgba(120,120,249,0.2); min-height:50px; display:flex; align-items:center;">
-      <span>Suggerisce <strong>prezzi con AI</strong> e storico dati</span>
+      <span>Attivare <strong>moduli ML leggeri</strong> per supportare la</span><strong>pricing strategy</strong>
     </div>
     <div style="border-bottom:1px solid rgba(120,120,249,0.2); min-height:50px; display:flex; align-items:center;">
-      <span>Ottimizza la <strong>ricerca</strong> con <strong>AI visiva</strong></span>
+      <span><strong>Migliorare UX </strong> di scoperta con <strong>AI personalizzata</strong> su catalogo </span>
     </div>
     <div style="border-bottom:1px solid rgba(120,120,249,0.2); min-height:50px; display:flex; align-items:center;">
-      <span>Mostra ogni passaggio in <strong>timeline UX chiara</strong></span>
+      <span>Costruire <strong>interfacce leggibili,</strong> che raccontano cosa succede</span>
     </div>
     <div style="min-height:50px; display:flex; align-items:center;">
-      <span>Blocca <strong>pagamenti</strong> fino a <strong>verifica</strong></span>
+      <span>Attivare logiche di <strong>pagamento fiduciario,</strong>e  <strong> gestione reclami semplificata </span>
     </div>  </div>
 
 </div>
