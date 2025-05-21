@@ -36,7 +36,7 @@
           <input type="hidden" name="form-name" value="download" />
           <p hidden>
             <label>
-              Don’t fill this out:
+              Don't fill this out:
               <input name="bot-field" />
             </label>
           </p>
@@ -242,10 +242,19 @@ export default {
       formData: {
         sector: "",
         employees: "",
+        param: "",
       },
       fullInput: false,
       errorForm: false,
     };
+  },
+  mounted() {
+    // Recupera il parametro dall'URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const fileParam = urlParams.get('file');
+    if (fileParam) {
+      this.formData.param = fileParam;
+    }
   },
   watch: {
     "formData.sector": function (val) {
@@ -270,9 +279,6 @@ export default {
         .join("&");
     },
     handleSubmit(e) {
-      // gtag("event", "conversion", {
-      //   send_to: "AW-358917451/gN_YCOnc1MEDEMvKkqsB",
-      // });
       if (this.formData.sector && this.formData.employees) {
         this.errorForm = false;
         var _this = this;
@@ -285,6 +291,15 @@ export default {
           }),
         })
           .then(() => {
+            // Se c'è un parametro file, avvia il download
+            if (this.formData.param) {
+              const link = document.createElement('a');
+              link.href = `/${this.formData.param}`;
+              link.download = this.formData.param;
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }
             this.$router.push("/thank-you-download");
           })
           .catch((error) => alert(error));
