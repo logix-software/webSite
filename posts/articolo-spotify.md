@@ -111,6 +111,6 @@ text-align: center;
 
   <!-- Bottone con bordo gradiente -->
 
-  <a href="/download" class="btn btn-gradient-border text-white">
+  <a href="/download?file=logix-software-report-ai.pdf" class="btn btn-gradient-border text-white">
   Download </a>
 </div>
