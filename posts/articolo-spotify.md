@@ -1,6 +1,6 @@
 ---
 title: "Oltre ChatGPT: il nostro report gratuito su AI Generativa e LLM Agent"
-tag: Case study
+tag: Report
 author: " Alessandro Cirocchi"
 image: /uploads/copertina_report.png
 abstract: L'AI Generativa è passata dall'essere un concetto futuristico a una
