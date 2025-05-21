@@ -5,19 +5,20 @@
         <div class="row">
           <div class="col-lg-3">
             <h5 class="mb-4 footer__title">Servizi</h5>
+
             <ul class="list-unstyled mb-2">
-              <li class="mb-2">
-                <g-link to="/digital-transformation"
-                  >Digital transformation</g-link
-                >
-              </li>
-              <li class="mb-2">
-                <g-link to="/web3">Progettazione Web3/NFT</g-link>
-              </li>
               <li class="mb-lg-2">
                 <g-link to="/sviluppo-web-and-mobile"
                   >Sviluppo web e mobile</g-link
                 >
+              </li>
+              <li class="mb-lg-2">
+                <a href="https://ai-llm-agent.logix-software.it/"
+                  >Soluzioni AI LLM Agent</a
+                >
+              </li>
+              <li class="mb-2">
+                <g-link to="/design-research-and-strategy">UX/UI design</g-link>
               </li>
             </ul>
           </div>
@@ -25,7 +26,12 @@
             <h5 class="mb-4 footer__title d-none d-lg-block">&nbsp</h5>
             <ul class="list-unstyled">
               <li class="mb-2">
-                <g-link to="/design-research-and-strategy">UX/UI design</g-link>
+                <g-link to="/digital-transformation"
+                  >Digital transformation</g-link
+                >
+              </li>
+              <li class="mb-2">
+                <g-link to="/web3">Progettazione Web3/NFT</g-link>
               </li>
               <li>
                 <g-link to="/collaborative-team">Collaborative team</g-link>
@@ -52,8 +58,11 @@
               <li class="mb-2">
                 <g-link to="/chi-siamo">Chi siamo</g-link>
               </li>
-              <li>
+              <li class="mb-2">
                 <g-link to="/progetti">I progetti</g-link>
+              </li>
+              <li>
+                <g-link to="/blog">Blog</g-link>
               </li>
             </ul>
             <!-- <ul class="list-unstyled">
@@ -213,7 +222,7 @@
                 Termini e condizioni
               </a>
             </div>
-            <div class=" pt-1">
+            <div class="pt-1">
               <a href="/note-legali" class="text-white">
                 Condizioni Generali di Contratto
               </a>

@@ -48,14 +48,6 @@
               <ul class="list-unstyled pl-4 d-lg-none">
                 <li class="mb-2">
                   <g-link
-                    to="/digital-transformation"
-                    class="navigationHamburger__link op-80"
-                  >
-                    > Digital transformation
-                  </g-link>
-                </li>
-                <li class="mb-2">
-                  <g-link
                     to="/sviluppo-web-and-mobile"
                     class="navigationHamburger__link op-80"
                   >
@@ -63,11 +55,27 @@
                   </g-link>
                 </li>
                 <li class="mb-2">
+                  <a
+                    href="https://ai-llm-agent.logix-software.it/"
+                    class="navigationHamburger__link op-80"
+                  >
+                    > Soluzioni AI LLM Agent
+                  </a>
+                </li>
+                <li class="mb-2">
                   <g-link
                     to="/design-research-and-strategy"
                     class="navigationHamburger__link op-80"
                   >
                     > Design research & strategy
+                  </g-link>
+                </li>
+                <li class="mb-2">
+                  <g-link
+                    to="/digital-transformation"
+                    class="navigationHamburger__link op-80"
+                  >
+                    > Digital transformation
                   </g-link>
                 </li>
                 <li class="mb-2">
@@ -119,6 +127,11 @@
             <li class="position-relative py-2 py-lg-0 mb-4 mb-lg-0">
               <g-link to="/progetti" class="nav__link mx-3 py-3"
                 >Progetti</g-link
+              >
+            </li>
+            <li class="position-relative py-2 py-lg-0 mb-4 mb-lg-0">
+              <g-link to="/blog" class="nav__link mx-3 py-3"
+                >Blog</g-link
               >
             </li>
             <li class="position-relative py-2 py-lg-0">
@@ -183,19 +196,19 @@
                   <ul class="list-unstyled">
                     <li class="mb-2">
                       <g-link
-                        to="/digital-transformation"
-                        class="navigationHamburger__link"
-                      >
-                        > Digital transformation
-                      </g-link>
-                    </li>
-                    <li class="mb-2">
-                      <g-link
                         to="/sviluppo-web-and-mobile"
                         class="navigationHamburger__link"
                       >
                         > Sviluppo Web & Mobile
                       </g-link>
+                    </li>
+                    <li class="mb-2">
+                      <a
+                        href="https://ai-llm-agent.logix-software.it/"
+                        class="navigationHamburger__link"
+                      >
+                        > Soluzioni AI LLM Agent
+                      </a>
                     </li>
                     <li class="mb-2">
                       <g-link
@@ -209,6 +222,14 @@
                 </div>
                 <div class="col-lg-6">
                   <ul class="list-unstyled">
+                    <li class="mb-2">
+                      <g-link
+                        to="/digital-transformation"
+                        class="navigationHamburger__link"
+                      >
+                        > Digital transformation
+                      </g-link>
+                    </li>
                     <li class="mb-2">
                       <g-link to="/web3" class="navigationHamburger__link"
                         >> Progettazione Web3/NFT
@@ -260,6 +281,11 @@
             <li class="mb-4">
               <g-link to="/progetti" class="navigationHamburger__titleLink"
                 >Progetti</g-link
+              >
+            </li>
+            <li class="mb-4">
+              <g-link to="/blog" class="navigationHamburger__titleLink"
+                >Blog</g-link
               >
             </li>
             <li>
