@@ -49,7 +49,7 @@ font-size: 26px!important;
 line-height: 36px!important;
 letter-spacing: -0.4px!important;
   ">
-    “Con i ragazzi di Logix ci capiamo al volo: conoscono il nostro contesto, parlano la nostra lingua e sono sempre pronti a proporre soluzioni concrete. Non si limitano a realizzare ciò che chiediamo, ma ci aiutano a migliorarlo. Collaborare con loro ci ha permesso di fare scelte più consapevoli, ottimizzare i flussi e ottenere risultati tangibili in tempi rapidi.”
+    "L'AI Generativa è passata dall'essere un concetto futuristico a una realtà concreta. In questo report, esploriamo come gli agenti LLM stiano trasformando le operazioni quotidiane, non solo per generare contenuti, ma automatizzando decisioni e interazioni. Abbiamo raccolto casi d'uso reali e analisi tecniche per mostrare come queste tecnologie possano essere integrate efficacemente nelle PMI e startup italiane. È il momento di passare dalla sperimentazione all'implementazione strategica"
   </p>
 </div>
 
