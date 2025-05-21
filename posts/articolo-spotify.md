@@ -1,19 +1,14 @@
 ---
-title: Articolo Spotify
+title: "Oltre ChatGPT: il nostro report gratuito su AI Generativa e LLM Agent"
 tag: Case study
-author: " Susanna Cirocchi"
-image: /uploads/frame-37047-1-.png
-abstract: Freeday15 non ha mai cercato semplicemente un fornitore. Quando ha
-  identificato la necessità di razionalizzare l'intero ecosistema digitale
-  dedicato alla gestione delle mense scolastiche per Authentica, ha scelto di
-  coinvolgerci come partner progettuale per co-creare una soluzione su misura.
+author: " Alessandro Cirocchi"
+image: /uploads/copertina_report.png
+abstract: L'AI Generativa è passata dall'essere un concetto futuristico a una
+  realtà concreta, Logix ha raccolto i dati più interessanti nel nuovo report
+  scaricabile.
 date: 2025-05-19T16:01:07.987Z
 ---
-# Partnership Strategica: quando la tecnologia incontra la visione di lungo periodo
 
-Freeday15 non ha mai cercato semplicemente un fornitore. Quando ha identificato la necessità di razionalizzare l'intero ecosistema digitale dedicato alla gestione delle mense scolastiche per Authentica, ha scelto di coinvolgerci come partner progettuale per co-creare una soluzione su misura.
-
-Non si trattava di rispondere a un'urgenza contingente, ma di consolidare una visione strategica: migliorare l'efficienza operativa, semplificare i flussi informativi e creare un'esperienza utente coerente e integrata. Il punto di partenza non era la crisi, ma l'opportunità.
 
 <div class="testimonial-container" style="
   display: flex;
@@ -31,7 +26,7 @@ Non si trattava di rispondere a un'urgenza contingente, ma di consolidare una vi
     gap: 12px;
     flex-wrap: wrap;
   ">
-    <img class="testimonial-logo" src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona cliente Freeday15" style="
+    <img class="testimonial-logo" src="https://www.logix-software.it/uploads/freeday_logo.png" alt="Icona *Alessandro CTO*" style="
       width: 48px;
       height: 48px;
     ">
@@ -42,7 +37,7 @@ font-size: 32px!important;
 line-height: 38.5px!important;
 letter-spacing: -1.25px!important;
   " >
-      La voce del cliente
+    * **Alessandro**, CTO@ Logix*
     </strong>
   </div>
 
@@ -60,14 +55,18 @@ letter-spacing: -0.4px!important;
   </p>
 </div>
 
-# Collaborazione e cultura: i valori che hanno fatto la differenza
+L’AI Generativa sta rivoluzionando il modo in cui lavoriamo, comunichiamo e creiamo valore. Ma cosa significa davvero “andare oltre ChatGPT”? Come possono PMI, startup e grandi aziende integrare strumenti avanzati come LLM agent e GenAI nei propri processi in modo strategico?\
+Nel nuovo report realizzato da Logix, esploriamo le trasformazioni più rilevanti guidate dall’intelligenza artificiale generativa e offriamo uno sguardo pratico sul presente (e futuro prossimo) dell’innovazione:
 
-La cultura condivisa, la collaborazione costante, la disponibilità e la professionalità dei team ha permesso anche questa volta una corretta integrazione nei workflow e nelle modalità operative di Freeday.
+* Cosa sono gli **LLM Agent e perché possono automatizzare decisioni,** non solo testi;
+* I casi reali di aziende come **Pearson, DHL, Starbucks, Zillow e Zalando**;
+* I settori dove la GenAI sta creando un **impatto concreto: marketing, supply chain, customer service, education, real estate;**
+* I numeri che raccontano l’**accelerazione globale** (e italiana);
+* Come usare questi strumenti per **creare vantaggio competitivo**.
 
-* **Mentalità agile:** apertura al cambiamento, iterazione continua e capacità di adattamento alle priorità di progetto
-* **Feedback continuo:** comunicazione diretta e trasparente, con confronti costanti e micro-validazioni
-* **Approccio product-first:** focus sull’utente finale e sull’esperienza d’uso, non solo sulla funzionalità
-* **Proattività:** spesso abbiamo anticipato problemi o colto opportunità proponendo soluzioni migliorative
+
+
+Per ricevere il report, ti chiediamo solo qualche informazione utile (ruolo, dimensione e settore dell’azienda) per capire meglio chi ci legge. Buona lettura!
 
 <div style="
   display: flex;
