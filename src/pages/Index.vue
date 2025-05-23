@@ -110,8 +110,8 @@
                   <li>{{ service.node.list5 }}</li>
                   <li>{{ service.node.list6 }}</li>
                 </ul>
-                <g-link :to="service.node.link" class="btn btn-sm btn-outline"
-                  >Approfondisci</g-link
+                <a :href="service.node.link" class="btn btn-sm btn-outline"
+                  >Approfondisci</a
                 >
               </div>
             </div>

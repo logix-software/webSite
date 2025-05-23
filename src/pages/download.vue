@@ -300,7 +300,7 @@ export default {
               link.click();
               document.body.removeChild(link);
             }
-            this.$router.push("/thank-you-download");
+            this.$router.push(`/${this.formData.param}`);
           })
           .catch((error) => alert(error));
       } else {
