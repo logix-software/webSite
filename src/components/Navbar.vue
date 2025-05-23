@@ -23,7 +23,7 @@
             v-if="color === 'white' && !isMenuOpen"
           />
         </g-link>
-        <nav class="nav overflow-auto">
+        <nav class="nav">
           <ul class="list-unstyled d-lg-flex align-items-center m-0">
             <li class="mb-4 d-lg-none">
               <g-image
@@ -33,20 +33,12 @@
                 v-if="color === 'default' || isMenuOpen"
               />
             </li>
-            <li class="position-relative py-1 py-lg-0 mb-3 mb-lg-0">
-              <g-link
-                to="/contatti"
-                class="btn-gradient-border btn-navbar ml-3"
-              >
-                Contattaci
-              </g-link>
-            </li>
-            <li class="position-relative py-1 py-lg-0">
+            <li class="position-relative py-2 py-lg-0">
               <g-link to="/chi-siamo" class="nav__link mx-3 py-3"
                 >Chi siamo</g-link
               >
             </li>
-            <li class="position-relative py-1 py-lg-0">
+            <li class="position-relative py-2 py-lg-0">
               <g-link
                 to="/competenze"
                 class="nav__link mx-3 pb-3 pb-lg-0 d-inline-block"
@@ -101,7 +93,7 @@
                 </li>
               </ul>
             </li>
-            <li class="position-relative py-1 py-lg-0 show-link">
+            <li class="position-relative py-2 py-lg-0 show-link">
               <span class="text-white nav__link mx-3 pb-3 d-inline-block">
                 Prodotti
               </span>
@@ -132,17 +124,24 @@
                 </li>
               </ul>
             </li>
-            <li class="position-relative py-1 py-lg-0">
+            <li class="position-relative py-2 py-lg-0 mb-4 mb-lg-0">
               <g-link to="/progetti" class="nav__link mx-3 py-3"
                 >Progetti</g-link
               >
             </li>
-            <li class="position-relative py-1 py-lg-0 mb-4 mb-lg-0">
+            <li class="position-relative py-2 py-lg-0 mb-4 mb-lg-0">
               <g-link to="/blog" class="nav__link mx-3 py-3"
                 >Blog</g-link
               >
             </li>
-            
+            <li class="position-relative py-2 py-lg-0">
+              <g-link
+                to="/contatti"
+                class="btn-gradient-border btn-navbar ml-3"
+              >
+                Contattaci
+              </g-link>
+            </li>
           </ul>
         </nav>
       </div>
