@@ -251,7 +251,7 @@ export default {
   mounted() {
     // Recupera il parametro dall'URL
     const urlParams = new URLSearchParams(window.location.search);
-    const fileParam = urlParams.get('file');
+    const fileParam = urlParams.get("file");
     if (fileParam) {
       this.formData.param = fileParam;
     }
@@ -293,14 +293,14 @@ export default {
           .then(() => {
             // Se c'è un parametro file, avvia il download
             if (this.formData.param) {
-              const link = document.createElement('a');
+              const link = document.createElement("a");
               link.href = `/${this.formData.param}`;
               link.download = this.formData.param;
               document.body.appendChild(link);
               link.click();
               document.body.removeChild(link);
             }
-            this.$router.push(`/${this.formData.param}`);
+            window.location.href = `/${this.formData.param}`;
           })
           .catch((error) => alert(error));
       } else {
