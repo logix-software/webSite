@@ -64,6 +64,9 @@
               <li>
                 <g-link to="/blog">Blog</g-link>
               </li>
+              <li>
+                <g-link to="/faq">FAQ</g-link>
+              </li>
             </ul>
             <!-- <ul class="list-unstyled">
               <li class="mb-2">

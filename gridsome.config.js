@@ -56,7 +56,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'faq/**/*.md',
+        path: 'faqs/**/*.md',
         typeName: 'Faqs',
         remark: {
         }
