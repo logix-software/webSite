@@ -189,23 +189,74 @@ collections:
           widget: "text",
         }
       - { label: "Competence3Img", name: "competence3Img", widget: "image" }
-      # - {
-      #     label: "Competence4Title",
-      #     name: "competence4Title",
-      #     widget: "string",
-      #   }
-      # - { label: "Competence4Link", name: "competence4Link", widget: "string" }
-      # - {
-      #     label: "Competence4Services",
-      #     name: "competence4Services",
-      #     widget: "string",
-      #   }
-      # - {
-      #     label: "Competence4Abstract",
-      #     name: "competence4Abstract",
-      #     widget: "text",
-      #   }
-      # - { label: "Competence4Img", name: "competence4Img", widget: "image" }
+      - {
+          label: "Competence4Title",
+          name: "competence4Title",
+          widget: "string",
+        }
+      - { label: "Competence4Link", name: "competence4Link", widget: "string" }
+      - {
+          label: "Competence4Services",
+          name: "competence4Services",
+          widget: "string",
+        }
+      - {
+          label: "Competence4Abstract",
+          name: "competence4Abstract",
+          widget: "text",
+        }
+      - { label: "Competence4Img", name: "competence4Img", widget: "image" }
+      - {
+          label: "Competence4Title",
+          name: "competence4Title",
+          widget: "string",
+        }
+      - { label: "Competence4Link", name: "competence4Link", widget: "string" }
+      - {
+          label: "Competence4Services",
+          name: "competence4Services",
+          widget: "string",
+        }
+      - {
+          label: "Competence4Abstract",
+          name: "competence4Abstract",
+          widget: "text",
+        }
+      - { label: "Competence4Img", name: "competence4Img", widget: "image" }
+      - {
+        label: "Competence5Title",
+        name: "competence5Title",
+        widget: "string",
+      }
+      - { label: "Competence5Link", name: "competence5Link", widget: "string" }
+      - {
+          label: "Competence5Services",
+          name: "competence5Services",
+          widget: "string",
+        }
+      - {
+          label: "Competence5Abstract",
+          name: "competence5Abstract",
+          widget: "text",
+        }
+      - { label: "Competence5Img", name: "competence5Img", widget: "image" }
+      - {
+          label: "Competence5Title",
+          name: "competence5Title",
+          widget: "string",
+        }
+      - { label: "Competence5Link", name: "competence5Link", widget: "string" }
+      - {
+          label: "Competence5Services",
+          name: "competence5Services",
+          widget: "string",
+        }
+      - {
+          label: "Competence5Abstract",
+          name: "competence5Abstract",
+          widget: "text",
+        }
+      - { label: "Competence5Img", name: "competence5Img", widget: "image" }
       - { label: "ApproachImg", name: "approachImg", widget: "image" }
       - { label: "ApproachTitle", name: "approachTitle", widget: "string" }
       - {
