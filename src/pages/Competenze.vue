@@ -27,10 +27,10 @@
               <p class="competence__description">
                 {{ text.node.competence1Abstract }}
               </p>
-              <g-link
-                :to="text.node.competence1Link"
+              <a
+                :href="text.node.competence1Link"
                 class="btn btn-sm btn-outline-white"
-                >Approfondisci</g-link
+                >Approfondisci</a
               >
             </div>
             <div class="col-lg-2" v-html="text.node.competence1Services"></div>
@@ -50,10 +50,10 @@
               <p class="competence__description">
                 {{ text.node.competence2Abstract }}
               </p>
-              <g-link
-                :to="text.node.competence2Link"
+              <a
+                :href="text.node.competence2Link"
                 class="btn btn-sm btn-outline-white"
-                >Approfondisci</g-link
+                >Approfondisci</a
               >
             </div>
             <div class="col-lg-2" v-html="text.node.competence2Services"></div>
@@ -73,10 +73,10 @@
               <p class="competence__description">
                 {{ text.node.competence3Abstract }}
               </p>
-              <g-link
-                :to="text.node.competence3Link"
+              <a
+                :href="text.node.competence3Link"
                 class="btn btn-sm btn-outline-white"
-                >Approfondisci</g-link
+                >Approfondisci</a
               >
             </div>
             <div class="col-lg-2" v-html="text.node.competence3Services"></div>
@@ -96,13 +96,36 @@
               <p class="competence__description">
                 {{ text.node.competence4Abstract }}
               </p>
-              <g-link
-                :to="text.node.competence4Link"
+              <a
+                :href="text.node.competence4Link"
                 class="btn btn-sm btn-outline-white"
-                >Approfondisci</g-link
+                >Approfondisci</a
               >
             </div>
             <div class="col-lg-2" v-html="text.node.competence4Services"></div>
+          </div>
+          <div class="row competence align-items-center mb-5 pb-5">
+            <div class="col-lg-2">
+              <img
+                :src="text.node.competence5Img"
+                :alt="text.node.competence5Title"
+                class="competence__img mb-4 mg-lg-0"
+              />
+            </div>
+            <div class="col-lg-8 px-lg-5 mb-4 mg-lg-0">
+              <h2 class="competence__title">
+                {{ text.node.competence5Title }}
+              </h2>
+              <p class="competence__description">
+                {{ text.node.competence5Abstract }}
+              </p>
+              <a
+                :href="text.node.competence5Link"
+                class="btn btn-sm btn-outline-white"
+                >Approfondisci</a
+              >
+            </div>
+            <div class="col-lg-2" v-html="text.node.competence5Services"></div>
           </div>
         </div>
         <div class="container">
@@ -1460,6 +1483,11 @@ query {
         competence4Abstract
         competence4Link
         competence4Services
+        competence5Img
+        competence5Title
+        competence5Abstract
+        competence5Link
+        competence5Services
         approachTitle
         approachDescription
         approachImg
