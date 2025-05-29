@@ -61,7 +61,7 @@
               <li class="mb-2">
                 <g-link to="/progetti">I progetti</g-link>
               </li>
-              <li>
+              <li class="mb-2">
                 <g-link to="/blog">Blog</g-link>
               </li>
               <li>
