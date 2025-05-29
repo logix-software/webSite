@@ -27,13 +27,25 @@ competence3Abstract: Attraverso un percorso iterativo ci interroghiamo sulle
   permette di ottimizzare costi e tempi.
 competence3Img: /uploads/web3.png
 competence4Title: Progettazione Web3/NFT
-competence4Link: "/web3"
+competence4Link: /web3
 competence4Services: Web3 strategy & development <br> Blockchain consulting <br>
   NFT ideation, DROP and MINT
 competence4Abstract: Guidiamo ed accompagniamo i clienti nel Web3 per sfruttare
   le numerose opportunità e possibilità che le nuove tecnologie mettono a
   disposizione. Da progetti NFT ad applicazioni complesse basate su Blockchain.
 competence4Img: /uploads/collaborative_team.png
+competence5Title: AI LLM Multi Agent
+competence5Link: https://ai-llm-agent.logix-software.it/
+competence5Services: LLM Orchestration <br> Multi-Agent <br>Systems <br> Task
+  Automation <br> Decision <br> Intelligence <br> AI Workflow
+competence5Abstract: >-
+  Progettiamo e implementiamo sistemi basati su Large Language Model (LLM) con
+  agenti multipli in grado
+
+  di collaborare, comunicare e risolvere task complessi. Consente l’automazione di flussi decisionali, la gestione 
+
+  di processi distribuiti e l’ottimizzazione dell’efficienza operativa.
+competence5Img: /uploads/group-37458.svg
 approachImg: /uploads/competence-deco.png
 approachTitle: Il nostro approccio olistico
 approachDescription: In stretta collaborazione con le aziende seguiamo la
