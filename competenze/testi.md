@@ -45,7 +45,7 @@ competence5Abstract: >-
   di collaborare, comunicare e risolvere task complessi. Consente l’automazione di flussi decisionali, la gestione 
 
   di processi distribuiti e l’ottimizzazione dell’efficienza operativa.
-competence5Img: /uploads/group-37458.svg
+competence5Img: /uploads/group-37458.png
 approachImg: /uploads/competence-deco.png
 approachTitle: Il nostro approccio olistico
 approachDescription: In stretta collaborazione con le aziende seguiamo la
