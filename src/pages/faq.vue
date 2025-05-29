@@ -195,15 +195,15 @@ export default {
   transition: background 0.2s, color 0.2s;
   white-space: nowrap;
   &:hover {
-    background: #f4f2ff;
-    color: #7b61ff;
+    background: #EAEAFE;
+    color: #2727F5;
   }
   &:focus {
     outline: none;
   }
   &.active {
-    background: #f4f2ff;
-    color: #7b61ff;
+    background: #EAEAFE;
+    color: #2727F5;
   }
 }
 .faq-list {
