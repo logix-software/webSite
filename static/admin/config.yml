@@ -687,6 +687,15 @@ collections:
       - { label: "Abstract", name: "abstract", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Date", name: "date", widget: "datetime" }
+  - name: "faqs"
+    label: "Faqs"
+    folder: "faqs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Tag", name: "tag", widget: "string" }
+      - { label: "Abstract", name: "abstract", widget: "text" }
   - name: "listPartners"
     label: "Lista partners"
     folder: "listPartners"

@@ -56,6 +56,15 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        path: 'faq/**/*.md',
+        typeName: 'Faqs',
+        remark: {
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         path: 'listPartners/**/*.md',
         typeName: 'ListPartners',
         remark: {
