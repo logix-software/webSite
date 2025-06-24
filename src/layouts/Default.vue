@@ -244,9 +244,6 @@ h6 {
   }
 }
 .btn-gradient-border {
-  /* Fix per evitare scrollbar su Windows: impedisce overflow del ::before e assicura che padding/border siano inclusi nella dimensione del bottone */
-  overflow: hidden;
-  box-sizing: border-box;
   position: relative;
   font-family: "DM Sans";
   border-radius: 5px;

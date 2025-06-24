@@ -42,7 +42,7 @@
               </g-link>
             </li>
             <li class="position-relative py-1 py-lg-0 order-1">
-              <g-link to="/chi-siamo" class="nav__link mx-3 py-3"
+              <g-link to="/chi-siamo" class="nav__link mx-3 py-3 py-lg-0"
                 >Chi siamo</g-link
               >
             </li>
@@ -133,12 +133,12 @@
               </ul>
             </li>
             <li class="position-relative py-1 py-lg-0 order-4">
-              <g-link to="/progetti" class="nav__link mx-3 py-3"
+              <g-link to="/progetti" class="nav__link mx-3 py-3 py-lg-0"
                 >Progetti</g-link
               >
             </li>
             <li class="position-relative py-1 py-lg-0 mb-4 mb-lg-0 order-5">
-              <g-link to="/blog" class="nav__link mx-3 py-3"
+              <g-link to="/blog" class="nav__link mx-3 py-3 py-lg-0"
                 >Blog</g-link
               >
             </li>
