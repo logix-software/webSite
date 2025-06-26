@@ -203,7 +203,7 @@
             <div class="d-flex justify-content-center">
               <a
                 href="https://www.iubenda.com/privacy-policy/51005590"
-                class="iubenda-black iubenda-embed iubenda-custom text-white mr-2"
+                class="text-white mr-2"
                 title="Privacy Policy"
               >
                 Privacy
@@ -211,18 +211,10 @@
               &nbsp;
               <a
                 href="https://www.iubenda.com/privacy-policy/51005590/cookie-policy"
-                class="iubenda-black iubenda-embed iubenda-custom text-white mr-2"
+                class="text-white mr-2"
                 title="Privacy Policy"
               >
                 Cookie Policy
-              </a>
-              &nbsp;
-              <a
-                href="https://www.iubenda.com/termini-e-condizioni/51005590"
-                class="iubenda-black iubenda-embed iubenda-custom text-white mr-2"
-                title="Privacy Policy"
-              >
-                Termini e condizioni
               </a>
             </div>
             <div class="pt-1">
