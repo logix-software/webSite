@@ -84,7 +84,6 @@
                   class="labelForm"
                   :class="{
                     'super-custom': !formData.company,
-
                   }"
                   >Azienda (opzionale)</label
                 >
@@ -507,6 +506,30 @@ export default {
           }),
         })
           .then(() => {
+            window.dataLayer.push({
+              event: "contactFormLogixWebsite",
+              formId: 1,
+              inputs: [
+                { name: "budget", value: this.formData.budget },
+                { name: "company", value: this.formData.company },
+                { name: "contactFor", value: this.formData.contactFor },
+                { name: "deadline", value: this.formData.deadline },
+                { name: "email", value: this.formData.email },
+                { name: "expire", value: this.formData.expire },
+                { name: "firstName", value: this.formData.firstName },
+                { name: "howFound", value: this.formData.howFound },
+                {
+                  name: "lastName",
+                  value: this.formData.lastName,
+                },
+                {
+                  name: "message",
+                  value: this.formData.message,
+                },
+                { name: "param", value: this.formData.param },
+              ],
+            });
+
             this.$router.push("/thank-you");
           })
           .catch((error) => alert(error));
