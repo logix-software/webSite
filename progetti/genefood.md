@@ -53,21 +53,21 @@ team2Position3: Software & System Architect
 team2Name3: Massimiliano Fiori
 date: 2025-06-30T07:57:18.839Z
 ---
-Logix, lavorando a stretto contatto con il team Genefood, ha progettato e sviluppato una piattaforma digitale su misura composta da: 
+**Logix**, lavorando a stretto contatto con il team **Genefood**, ha progettato e sviluppato una piattaforma digitale su misura composta da: 
 
-* un back-office web per la gestione dei pazienti e dei profili genetici da parte del personale sanitario;
-* una mobile app riservata ai pazienti, intuitiva e progettata per guidare l’utente nell’alimentazione in base alla propria predisposizione genetica;
+* un **back-office web** per la gestione dei pazienti e dei profili genetici da parte del personale sanitario;
+* una **mobile app** riservata ai pazienti, intuitiva e progettata per guidare l’utente nell’alimentazione in base alla propria predisposizione genetica;
 
 Con Genefood, ogni utente può: 
 
-* scansionare prodotti alimentari tramite codice a barre
-* ottenere un feedback immediato sul prodotto: consigliato, tollerato, sconsigliato, intollerato
-* visualizzare la lista dettagliata degli ingredienti, ciascuno con il proprio punteggio di tollerabilità rispetto al profilo genetico personale\
+* **scansionare prodotti alimentari t**ramite codice a barre
+* ottenere un **feedback immediato sul prodotto**: consigliato, tollerato, sconsigliato, intollerato
+* **visualizzare la lista dettagliata degli ingredienti**, ciascuno con il proprio punteggio di tollerabilità rispetto al profilo genetico personale\
   \
-  L’app è pensata per accompagnare gli utenti nella quotidianità: uno strumento concreto per chi convive con intolleranze, allergie o segue una dieta personalizzata. È possibile gestire più profili utente (es. mamma e figli) e ricevere risposte chiare e visive, sempre a portata di mano. Il progetto, arricchito dall’integrazione di sistemi di intelligenza artificiale, permette un ottimo livello di precisione grazie all'utilizzo di un motore avanzato per il calcolo dello score nutrizionale personalizzato basato su: 
-* modelli SLM quantizzati per rendere il sistema più stabile e sicuro
-* architettura ibrida con memorizzazione dei risultati per evitare ricalcoli inutili
-* fallback su LLM in cloud in caso di incertezza
+  L’app è pensata per accompagnare gli utenti nella quotidianità: uno **strumento concreto per chi convive con intolleranze, allergie o segue una dieta personalizzata**. È possibile gestire **più profili utente** (es. mamma e figli) e ricevere **risposte chiare,visive**, sempre a portata di mano. Il progetto, arricchito dall’integrazione di sistemi di intelligenza artificiale, permette un ottimo livello di precisione grazie all'utilizzo di un **motore avanzato per il calcolo dello score nutrizionale** personalizzato basato su: 
+* **modelli SLM** quantizzati per rendere il sistema più stabile e sicuro
+* **architettura ibrida** con memorizzazione dei risultati per evitare ricalcoli inutili
+* **fallback su LLM in cloud** in caso di incertezza
 
 
 
@@ -80,11 +80,11 @@ Una valutazione rapida, affidabile e utilizzabile anche senza connessione Inter
 
 Una stack moderna e facilmente scalabile, progettata per evolversi nel tempo:
 
-* Capacitor, Nuxt 3, Vue 3, Tailwind CSS → sviluppo mobile fluido e cross-platform
-* Supabase → autenticazione, database e storage scalabile
-* Netlify → hosting del backoffice con CI/CD integrato
-* API Open Food Facts → lettura degli ingredienti tramite codici a barre
-* Edge Functions e microservizi → elaborazione AI su richiesta
-* Modelli AI LLM/SLM → integrazione con Runpod, OpenAI, modelli quantizzati Mistral
-* Figma → prototipazione UX/UI condivisa
-* Git → gestione del codice e collaborazione continua tra team
+* **Capacitor**, **Nuxt 3**, **Vue 3**, **Tailwind CSS** → sviluppo mobile fluido e cross-platform
+* **Supabase** → autenticazione, database e storage scalabile
+* **Netlify** → hosting del backoffice con CI/CD integrato
+* **API Open Food Facts** → lettura degli ingredienti tramite codici a barre
+* **Edge Functions e microservizi** → elaborazione AI su richiesta
+* **Modelli AI LLM/SLM** → integrazione con Runpod, OpenAI, modelli quantizzati Mistral
+* **Figma** → prototipazione UX/UI condivisa
+* **Git** → gestione del codice e collaborazione continua tra team
