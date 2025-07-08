@@ -3,7 +3,9 @@ title: Quando i dati genetici diventano uno strumento alimentare concreto con Ge
 tag: Case study
 author: Susanna Cirocchi
 image: /uploads/copertina_genefood.png
-abstract: "Genetica e digitale: quando il referto diventa strumento quotidiano"
+abstract: I referti genetici sono uno strumento prezioso, ma da soli non
+  bastano. L'obiettivo del progetto era creare un’esperienza personalizzata
+  sulla base di quei risultati
 date: 2025-07-08T13:17:18.011Z
 ---
 Altamedica, struttura del Gruppo Artemisia, è specializzata nella diagnostica genetica avanzata ed è riconosciuta come centro d’eccellenza nella medicina personalizzata.\
