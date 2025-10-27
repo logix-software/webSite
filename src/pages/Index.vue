@@ -9,7 +9,7 @@
           <div class="row">
             <div class="col-lg-10 position-relative mx-auto text-center">
               <g-image
-              :src="
+                :src="
                   require(`~/assets/images/deco-designer-${randomNumberDesigner}.png`)
                 "
                 class="heroHome__decoDesigner mouse-effect"
@@ -23,7 +23,7 @@
                 alt="dev"
               />
               <g-image
-              :src="
+                :src="
                   require(`~/assets/images/deco-strategist-${randomNumberStrategist}.png`)
                 "
                 class="heroHome__decoStrategist mouse-effect3"
@@ -131,18 +131,20 @@
                 rel="noopener"
                 class="aiSection__cta text-dark text-underline"
               >
-                Approfondisci i nostri progetti AI >
+                Approfondisci i nostri servizi AI >
               </a>
             </div>
             <div class="col-lg-6 text-center text-lg-left">
               <p class="aiSection__lead mb-3">
-                Progettiamo soluzioni di intelligenza artificiale che dialogano con
-                i tuoi sistemi, automatizzano processi e liberano tempo al tuo team.
+                Progettiamo soluzioni di intelligenza artificiale che dialogano
+                con i tuoi sistemi, automatizzano processi e liberano tempo al
+                tuo team.
               </p>
               <p class="aiSection__text mb-0">
-                Dalla fase di discovery alla messa in produzione, costruiamo agenti
-                su misura in grado di orchestrare dati, strumenti e workflow
-                complessi. Scopri come trasformiamo le idee in esperienze intelligenti.
+                Dalla fase di Check AI alla messa in produzione, costruiamo
+                agenti su misura in grado di orchestrare dati, strumenti e
+                workflow complessi. Scopri come trasformiamo le idee in
+                esperienze intelligenti.
               </p>
             </div>
           </div>
