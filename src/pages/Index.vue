@@ -118,6 +118,36 @@
           </div>
         </div>
       </div>
+      <section class="aiSection py-5" ref="aiSection">
+        <div class="container py-5">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-5 mb-5 mb-lg-0 text-center text-lg-left">
+              <h1 class="aiSection__title mb-4">
+                LLM e agenti AI che potenziano il tuo business
+              </h1>
+              <a
+                href="https://ai-llm-agent.logix-software.it/"
+                target="_blank"
+                rel="noopener"
+                class="btn btn-sm aiSection__cta"
+              >
+                Approfondisci i nostri progetti AI
+              </a>
+            </div>
+            <div class="col-lg-6 text-center text-lg-left">
+              <p class="aiSection__lead mb-3">
+                Progettiamo soluzioni di intelligenza artificiale che dialogano con
+                i tuoi sistemi, automatizzano processi e liberano tempo al tuo team.
+              </p>
+              <p class="aiSection__text mb-0">
+                Dalla fase di discovery alla messa in produzione, costruiamo agenti
+                su misura in grado di orchestrare dati, strumenti e workflow
+                complessi. Scopri come trasformiamo le idee in esperienze intelligenti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <div class="container py-5">
         <div class="row py-5">
           <ParallaxContainer
@@ -796,6 +826,69 @@ export default {
     line-height: 29px;
     @media screen and (max-width: 992px) {
       letter-spacing: -0.025em;
+    }
+  }
+}
+
+.aiSection {
+  background: #f6f7fa;
+  color: #12152b;
+  position: relative;
+  overflow: hidden;
+  font-family: "Lexend Deca";
+  &__title {
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 74px;
+    letter-spacing: -3px;
+    margin-bottom: 0;
+    @media screen and (max-width: 992px) {
+      font-size: 46px;
+      line-height: 1.1;
+      letter-spacing: -0.04em;
+    }
+  }
+  &__lead {
+    font-family: "DM Sans";
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    @media screen and (min-width: 992px) {
+      max-width: 520px;
+      margin-left: 0;
+    }
+    @media screen and (max-width: 992px) {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+  &__text {
+    font-family: "DM Sans";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    max-width: 820px;
+    margin: 0 auto;
+    @media screen and (min-width: 992px) {
+      max-width: 560px;
+      margin: 0;
+    }
+    @media screen and (max-width: 992px) {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+  &__cta {
+    border: 1px solid rgba(7, 11, 34, 0.4);
+    color: #070b22;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 28px;
+    &:hover {
+      background: #070b22;
+      border-color: #070b22;
+      color: #fff;
     }
   }
 }
