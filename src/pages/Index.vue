@@ -129,9 +129,9 @@
                 href="https://ai-llm-agent.logix-software.it/"
                 target="_blank"
                 rel="noopener"
-                class="btn btn-sm aiSection__cta"
+                class="aiSection__cta text-dark text-underline"
               >
-                Approfondisci i nostri progetti AI
+                Approfondisci i nostri progetti AI >
               </a>
             </div>
             <div class="col-lg-6 text-center text-lg-left">
@@ -879,16 +879,14 @@ export default {
     }
   }
   &__cta {
-    border: 1px solid rgba(7, 11, 34, 0.4);
-    color: #070b22;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 28px;
+    font-family: "DM Sans";
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    display: inline-block;
+    color: #212529;
+    text-decoration: underline;
     &:hover {
-      background: #070b22;
-      border-color: #070b22;
-      color: #fff;
+      color: #000;
     }
   }
 }
