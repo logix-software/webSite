@@ -47,6 +47,9 @@
             name="param"
             :value="formData.param"
           />
+          <input type="hidden" name="gclid" :value="formData.gclid" />
+          <input type="hidden" name="fclid" :value="formData.fclid" />
+          <input type="hidden" name="mclid" :value="formData.mclid" />
 
           <div class="row">
             <div class="col-lg-6">
@@ -385,6 +388,10 @@
 </template>
 
 <script>
+import {
+  persistAttributionParams,
+  readAttributionParam,
+} from "~/utils/attribution";
 export default {
   metaInfo: {
     title: "Contatti - Logix Software",
@@ -435,6 +442,9 @@ export default {
         expire: "",
         howFound: "",
         param: "",
+        gclid: "",
+        fclid: "",
+        mclid: "",
       },
       fullInput: false,
       errorForm: false,
@@ -466,9 +476,18 @@ export default {
     `);
     script.appendChild(fun);
     document.body.appendChild(script);
-    if (localStorage.getItem("param")) {
-      this.formData.param = localStorage.getItem("param");
+    persistAttributionParams(this.$route.query);
+    const storedParam = readAttributionParam("param");
+    if (storedParam) {
+      this.formData.param = storedParam;
     }
+
+    ["gclid", "fclid", "mclid"].forEach((key) => {
+      const value = readAttributionParam(key);
+      if (value) {
+        this.formData[key] = value;
+      }
+    });
   },
   methods: {
     onInputEmail() {

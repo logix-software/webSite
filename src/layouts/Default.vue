@@ -15,6 +15,7 @@ query {
 <script>
 import Navbar from "~/components/Navbar.vue";
 import Footer from "~/components/Footer.vue";
+import { persistAttributionParams } from "~/utils/attribution";
 export default {
   components: {
     Navbar,
@@ -29,9 +30,7 @@ export default {
   //   };
   // },
   mounted() {
-    if (Object.keys(this.$route.query).length !== 0 && this.$route.query.cmp) {
-      localStorage.setItem("param", this.$route.query.cmp);
-    }
+    persistAttributionParams(this.$route.query);
   },
   // methods: {
   //   encode(data) {

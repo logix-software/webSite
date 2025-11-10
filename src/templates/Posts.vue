@@ -114,6 +114,7 @@
 <script>
 import Navbar from "~/components/Navbar.vue";
 import Footer from "~/components/Footer.vue";
+import { persistAttributionParams } from "~/utils/attribution";
 export default {
   metaInfo() {
     // Costruisco l'URL completo per i metadati
@@ -235,9 +236,7 @@ export default {
       _this.scrollTop = window.pageYOffset;
     });
 
-    if (Object.keys(this.$route.query).length !== 0 && this.$route.query.cmp) {
-      localStorage.setItem("param", this.$route.query.cmp);
-    }
+    persistAttributionParams(this.$route.query);
   },
 };
 </script>
