@@ -28,7 +28,7 @@ label1: DEVELOPMENT
 label2: DESIGN
 label3: Analysis
 hashtags: "#WEBAPP #MOBILEAPP #AUTOMONITORAGGIO #BENESSEREINSEGNANTI
-  #DIGITALHEALTH #QUESTIONARIDIGITALI #EDUTECH"
+  #DIGITALHEALTH  #QUESTIONARIDIGITALI #EDUTECH"
 image1: /uploads/preview_happy_teaching.png
 image1Style: horizontal
 image2: /uploads/app.png
@@ -77,7 +77,6 @@ Una **mobile app** dedicata agli insegnanti semplice e immediata, progettata per
 * **Supporto** rapido grazie **all’integrazione** con **servizi di assistenza**.
 
 La piattaforma è pensata per accompagnare gli utenti nella quotidianità del progetto, riducendo al minimo i passaggi tecnici e rendendo ogni interazione chiara e immediata. Gli insegnanti possono compilare i questionari in modo comodo, anche in più sessioni, mentre il **team di ricerca mantiene sempre una visione ordinata e aggiornata** dell’andamento dello studio.\
-\
 Il progetto si basa su un’architettura moderna e scalabile, con:
 
 * Microservizi indipendenti,
