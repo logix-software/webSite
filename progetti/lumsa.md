@@ -22,7 +22,7 @@ descriptionClient: >-
   La richiesta era chiara: uno strumento affidabile, sicuro e davvero facile da usare, capace di accompagnare con naturalezza gli insegnanti in un percorso di consapevolezza sul proprio benessere.
 
   Per supportare questo lavoro, Logix ha collaborato fianco a fianco con professori e ricercatori, progettando una piattaforma intuitiva, immediata e costruita attorno all’esperienza degli utenti, così da accompagnare ogni fase della compilazione e della gestione dei questionari.
-imageList: /uploads/lumsa_hero.png
+imageList: /uploads/lumsa-cover_preview.png
 imageNoVideo: /uploads/lumsa_hero.png
 label1: DEVELOPMENT
 label2: DESIGN
