@@ -1,6 +1,7 @@
 ---
 title: LUMSA
 subTitle: "Happy Teaching: Monitorare la salute psicofisica degli insegnanti"
+urlVideo: " "
 logoClient: /uploads/lumsa_logo.png
 abstract: App mobile e backoffice pensati per aiutare gli insegnanti a
   monitorare in modo facile e guidato il proprio benessere psicofisico, con
@@ -67,8 +68,6 @@ Un **back-office web** pensato per semplificare il lavoro dei ricercatori, con f
 * **Monitorare lo stato** di avanzamento delle compilazioni;
 * **Esportare i dati** in formato Excel/CSV per le analisi.
 
-\
-\
 Una **mobile app** dedicata agli insegnanti semplice e immediata, progettata per **guidare gli utenti nella compilazione dei questionari**, con:
 
 * **Accesso** tramite email **autorizzata**;
@@ -77,20 +76,14 @@ Una **mobile app** dedicata agli insegnanti semplice e immediata, progettata per
 * **Notifiche** email per i nuovi questionari disponibili;
 * **Supporto** rapido grazie **all’integrazione** con **servizi di assistenza**.
 
-\
 La piattaforma è pensata per accompagnare gli utenti nella quotidianità del progetto, riducendo al minimo i passaggi tecnici e rendendo ogni interazione chiara e immediata. Gli insegnanti possono compilare i questionari in modo comodo, anche in più sessioni, mentre il **team di ricerca mantiene sempre una visione ordinata e aggiornata** dell’andamento dello studio.\
 \
 Il progetto si basa su un’architettura moderna e scalabile, con:
 
-* Microservizi indipendenti;
-* **Onboarding semplice** e lineare;
-* **Compilazione** con salvataggio **progressivo** con wizard;
-* **Notifiche** email per i nuovi questionari disponibili;
+* Microservizi indipendenti,
+* Container Docker,
+*  Deploy su Google Cloud Platform,
 
-\
-\
-container Docker,\
-deploy su Google Cloud Platform,\
 garantendo stabilità, continuità del servizio e facilità di gestione nelle successive fasi della ricerca.
 
 <span><div style="font-family: 'Lexend Deca', sans-serif; font-size: 40px; font-weight: 400; color: #000000; text-align: left;">
