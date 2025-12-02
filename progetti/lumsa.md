@@ -60,7 +60,8 @@ team2Position3: Software & System Architect
 team2Name3: Enrico Emanuele
 date: 2025-12-02T13:40:07.652Z
 ---
-**Logix**, lavorando a stretto contatto con il team **LUMSA**, ha progettato e sviluppato una piattaforma digitale su misura, composta da:\
+**Logix**, lavorando a stretto contatto con il team **LUMSA**, ha progettato e sviluppato una piattaforma digitale su misura, composta da:
+
 Un **back-office web** pensato per semplificare il lavoro dei ricercatori, con funzionalità per:
 
 * **Gestire gli insegnanti** autorizzati allo studio;
@@ -76,7 +77,8 @@ Una **mobile app** dedicata agli insegnanti semplice e immediata, progettata per
 * **Notifiche** email per i nuovi questionari disponibili;
 * **Supporto** rapido grazie **all’integrazione** con **servizi di assistenza**.
 
-La piattaforma è pensata per accompagnare gli utenti nella quotidianità del progetto, riducendo al minimo i passaggi tecnici e rendendo ogni interazione chiara e immediata. Gli insegnanti possono compilare i questionari in modo comodo, anche in più sessioni, mentre il **team di ricerca mantiene sempre una visione ordinata e aggiornata** dell’andamento dello studio.\
+La piattaforma è pensata per accompagnare gli utenti nella quotidianità del progetto, riducendo al minimo i passaggi tecnici e rendendo ogni interazione chiara e immediata. Gli insegnanti possono compilare i questionari in modo comodo, anche in più sessioni, mentre il **team di ricerca mantiene sempre una visione ordinata e aggiornata** dell’andamento dello studio.
+
 Il progetto si basa su un’architettura moderna e scalabile, con:
 
 * Microservizi indipendenti,
