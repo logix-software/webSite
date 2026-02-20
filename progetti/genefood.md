@@ -24,7 +24,7 @@ label1: DEVELOPMENT
 label2: DESIGN
 label3: AI
 hashtags: "#WEBAPP #MOBILEAPP #APPNUTRIGENETICA #ANALISIINGREDIENTI#FOODTECH"
-image1: /uploads/app.png
+image1: /uploads/app_genefood.png
 image1Style: horizontal
 image2: /uploads/ui.png
 image2Style: horizontal
