@@ -78,21 +78,7 @@
                 <label class="labelForm">Cognome</label>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="group">
-                <input type="text" name="company" v-model="formData.company" />
-                <span class="highlight"></span>
-                <span class="bar"></span>
-                <label
-                  class="labelForm"
-                  :class="{
-                    'super-custom': !formData.company,
-                  }"
-                  >Azienda (opzionale)</label
-                >
-              </div>
-            </div>
-            <div class="col-lg-6">
+            <div class="col-lg-12">
               <div class="group">
                 <input
                   type="email"
@@ -109,6 +95,38 @@
                     'valid-email': fullInput,
                   }"
                   >Email</label
+                >
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="group">
+                <input
+                  type="tel"
+                  name="phone"
+                  v-model="formData.phone"
+                />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label
+                  class="labelForm"
+                  :class="{
+                    'super-custom': !formData.phone,
+                  }"
+                  >Telefono (opzionale)</label
+                >
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="group">
+                <input type="text" name="company" v-model="formData.company" />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label
+                  class="labelForm"
+                  :class="{
+                    'super-custom': !formData.company,
+                  }"
+                  >Azienda (opzionale)</label
                 >
               </div>
             </div>
@@ -155,20 +173,10 @@
                     name="contactFor"
                     type="radio"
                     id="radio4"
-                    value="Collaborazione"
+                    value="Sviluppo AI"
                     v-model="formData.contactFor"
                   />
-                  <label for="radio4">Collaborazione</label>
-                </div>
-                <div class="position-relative">
-                  <input
-                    name="contactFor"
-                    type="radio"
-                    id="radio5"
-                    value="Consulenza"
-                    v-model="formData.contactFor"
-                  />
-                  <label for="radio5">Consulenza</label>
+                  <label for="radio4">Sviluppo AI</label>
                 </div>
                 <div class="position-relative">
                   <input
@@ -438,6 +446,7 @@ export default {
         budget: "Hai un budget di",
         deadline: "Hai fissato una scadenza per",
         contactFor: "",
+        phone: "",
         budget: "",
         expire: "",
         howFound: "",
@@ -537,6 +546,7 @@ export default {
                 { name: "expire", value: this.formData.expire },
                 { name: "firstName", value: this.formData.firstName },
                 { name: "howFound", value: this.formData.howFound },
+                { name: "phone", value: this.formData.phone },
                 {
                   name: "lastName",
                   value: this.formData.lastName,
